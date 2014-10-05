@@ -1,0 +1,61 @@
+{
+    "name"       : "Karbonite",
+    "identifier" : "Karbonite",
+    "abstract"   : "A newly discovered mineral that has hydrocarbon-like properties and is perfect for processing into a fuel. It's easily mined from the surface, and can be found in liquid or gaseous forms on certain planets.",
+    "download" : "https://github.com/BobPalmer/Karbonite/releases/download/0.3.5/Karbonite_0.3.5.zip",
+    "license"  : "CC-BY-NC-SA",
+    "version"  : "0.3.5",
+    "release_status" : "stable",
+    "min_ksp" : "0.24.2",
+    "max_ksp" : "0.24.2",
+    "spec_version" : 1,
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/87335",
+        "github"   : {
+            "url"      : "https://github.com/BobPalmer/Karbonite",
+            "releases" : true
+        }
+    },
+    "install" : [
+        {
+            "file"       : "GameData/UmbraSpaceIndustries",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "GameData/TextureReplace",
+            "install_to" : "GameData",
+            "requires"   : "TextureReplacer"
+        }
+    ],
+
+    "recommends" : [ { "name" : "KarbonitePlus" } ],
+
+    "comment" : "Firespitter isn't a complete install below, and it's got a weird license. Likewise, the UmbraSpaceIndustries folder contains a number of standard USI parts that could be split out.",
+
+    "bundles" : [
+        {
+            "file"       : "GameData/CommunityResourcePack",
+            "identifier" : "CommunityResourcePack",
+            "version"    : "0.1.3",
+            "install_to" : "GameData",
+            "license"    : "CC-BY-NC-SA",
+            "required"   : true
+        },
+        {
+            "file"       : "GameData/Firespitter",
+            "identifier" : "Firespitter",
+            "version"    : "6.3.5",
+            "install_to" : "GameData",
+            "license"    : "restricted",
+            "required"   : true
+        },
+        {
+            "file"       : "GameData/ModuleManager.2.3.3.dll",
+            "identifier" : "ModuleManager",
+            "version"    : "2.3.3",
+            "install_to" : "GameData",
+            "license"    : "CC-BY-SA",
+            "required"   : true
+        }
+    ]
+}
