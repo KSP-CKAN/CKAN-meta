@@ -1,0 +1,14 @@
+language: java
+
+# Our validator actually lives in the CKAN directory, which
+# means CKAN-meta can stay nice and lightweight for then it
+# gets downloaded by every single CKAN client. :)
+
+install:
+    - git clone https://github.com/KSP-CKAN/CKAN.git
+
+# Our test is merely checking that all the ckan files validate
+# against the current spec.
+
+script:
+    - CKAN/bin/ckan-validate *.ckan
