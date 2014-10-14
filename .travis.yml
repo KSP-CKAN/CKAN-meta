@@ -11,4 +11,4 @@ install:
 # against the current spec.
 
 script:
-    - CKAN/bin/ckan-validate *.ckan
+    - CKAN/bin/ckan-validate $(find . -name '*.ckan')
