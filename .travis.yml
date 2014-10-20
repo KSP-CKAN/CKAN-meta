@@ -8,7 +8,9 @@ install:
     - git clone https://github.com/KSP-CKAN/CKAN.git
 
 # Our test is merely checking that all the ckan files validate
-# against the current spec.
+# against the current spec. We exclude the CKAN directory we just
+# checked out.
 
 script:
-    - CKAN/bin/ckan-validate $(find . -name '*.ckan')
+    - CKAN/bin/ckan-validate $(find . -path ./CKAN -prune -o -name '*.ckan' -print)
+
