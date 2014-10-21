@@ -1,0 +1,44 @@
+{
+    "spec_version": 1,
+    "name"     : "Advanced Fly-By-Wire",
+    "abstract" : "Joystick & Controller mod",
+    "identifier": "ksp-advanced-flybywire",
+    "author": [ "nlight" ],
+    "download" : "http://kerbal.curseforge.com/ksp-mods/224592-advanced-fly-by-wire-joystick-controller-mod/files/2216704/download",
+    "license"  : "MIT",
+    "version"  : "1.2.2",
+    "release_status" : "stable",
+    "ksp_version" : "0.25",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/95022",
+        "github"   : {
+            "url"      : "https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire",
+            "releases" : true
+        }
+    },
+    "install" : [
+        {
+            "file"       : "SDL2.dll",
+            "install_to" : "GameRoot"
+        },
+        {
+            "file"       : "SDL_LICENSE",
+            "install_to" : "GameRoot"
+        },
+        {
+            "file"       : "XINPUTDOTNET_LICENSE",
+            "install_to" : "GameRoot"
+        },
+        {
+            "file"       : "XInputInterface.dll",
+            "install_to" : "GameRoot"
+        },
+        {
+            "file"       : "GameData/ksp-advanced-flybywire",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "Toolbar" }
+    ]
+}
