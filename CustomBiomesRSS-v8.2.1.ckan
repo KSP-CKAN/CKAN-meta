@@ -1,29 +1,25 @@
 {
   "spec_version": 1,
-  "name": "Real Solar System",
-  "identifier": "RealSolarSystem",
-  "abstract": "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
+  "name": "Custom Biomes (Real Solar System data)",
+  "identifier": "CustomBiomesRSS",
+  "abstract": "Custom biomes for the Real Solar System",
   "license": "CC-BY-NC-SA",
   "release_status": "stable",
-  "ksp_version": "0.25",
+  "ksp_version": "any",
   "depends": [
     {
-      "name": "RSSTextures"
+      "name": "RealSolarSystem"
     },
     {
-      "name": "ModuleManager",
-      "min_version": "2.5.0"
+      "name": "CustomBiomes"
     }
   ],
-  "recommends": [
+  "provides": [
+    "CustomBiomesData"
+  ],
+  "conflicts": [
     {
-      "name": "CustomBiomesRSS"
-    },
-    {
-      "name": "RealismOverhaul"
-    },
-    {
-      "name": "Toolbar"
+      "name": "CustomBiomesData"
     }
   ],
   "resources": {
@@ -34,8 +30,10 @@
   },
   "install": [
     {
-      "file": "RealSolarSystem",
-      "install_to": "GameData"
+      "file": "CustomBiomes",
+      "install_to": "GameData",
+      "comment": "This regexp only installs PluginData, and nothing else",
+      "filter_regexp": "^(?!CustomBiomes/PluginData/)"
     }
   ],
   "author": "NathanKell",
