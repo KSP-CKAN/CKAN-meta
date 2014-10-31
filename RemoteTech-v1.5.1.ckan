@@ -7,6 +7,7 @@
     "github": {
       "url": "https://github.com/RemoteTechnologiesGroup/RemoteTech"
     },
+    "bugtracker": "https://github.com/RemoteTechnologiesGroup/RemoteTech/issues",
     "kerbalstuff": {
       "url": "https://kerbalstuff.com/mod/134/RemoteTech"
     },
@@ -14,7 +15,9 @@
   },
   "depends": [
     {
-      "name": "ModuleManager"
+      "name": "ModuleManager",
+      "min_version": "2.3.1",
+      "comment": "Earlier versions of MM have forward compatibility problems, according to the MM release notes."
     }
   ],
   "install": [
@@ -23,10 +26,10 @@
       "install_to": "GameData"
     }
   ],
-  "ksp_version": "0.25",
   "name": "RemoteTech",
-  "abstract": "Adds new rules for communicating with unmanned probes.",
-  "author": "Starstrider42",
+  "abstract": "RemoteTech allows you to construct vast relay networks of communication satellites and remotely controlled unmanned vehicles. Your unmanned vessels require an uplink to a command station to be controlled. This adds a new layer of difficulty that compensates for the lack of live crew members.",
+  "author": "Remote Technologies Group",
+  "ksp_version": "0.25",
   "version": "v1.5.1",
   "download": "https://kerbalstuff.com/mod/134/RemoteTech/download/v1.5.1",
   "x_generated_by": "netkan",
