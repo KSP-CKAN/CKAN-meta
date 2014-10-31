@@ -1,0 +1,25 @@
+{
+    "spec_version"   : 1,
+    "name"           : "Custom Biomes (Kerbal data)",
+    "identifier"     : "CustomBiomesKerbal",
+    "abstract"       : "Custom biomes data for the Kerbal system",
+    "download"       : "http://addons.cursecdn.com/files/2217%5C373/CustomBiomes_1_6_8.zip",
+    "license"        : "CC-BY-NC-SA-3.0",
+    "version"        : "1.6.8",
+    "release_status" : "stable",
+    "ksp_version"    : "any",
+    "depends"        : [ { "name" : "CustomBiomes" } ],
+    "provides"       : [ "CustomBiomesData" ],
+    "conflicts"      : [ { "name" : "CustomBiomesData" } ],
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/66256"
+    },
+    "install" : [
+        {
+            "file"          : "CustomBiomes",
+            "install_to"    : "GameData",
+            "comment"       : "This regexp only installs PluginData, and nothing else",
+            "filter_regexp" : "^(?!CustomBiomes/PluginData/)"
+        }
+    ]
+}
