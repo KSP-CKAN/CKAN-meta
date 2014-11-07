@@ -1,0 +1,25 @@
+{
+    "spec_version"   : 1,
+    "name"           : "Near Future Propulsion",
+    "identifier"     : "NearFuturePropulsion",
+    "abstract"       : "This pack contains electrostatic ion engines, plasma engines and VASIMR engines.",
+    "download"       : "https://nabaal.net/files/ksp/nertea/NearFuturePropulsion0_3_0.zip",
+    "license"        : "CC-BY-NC-SA-3.0",
+    "author"         : "Nertia",
+    "version"        : "0.3.0",
+    "release_status" : "stable",
+    "ksp_version"    : "0.25",
+    "resources"      : {
+          "homepage" : "http://forum.kerbalspaceprogram.com/threads/52042"
+    },
+    "depends" : [
+    	{"name" : "ModuleManager"},
+    	{"name" : "CrossFeedEnabler"}
+    ],
+    "install" : [
+        {
+            "file"       : "GameData/NearFuturePropulsion",
+            "install_to" : "GameData"
+        }
+    ]
+}

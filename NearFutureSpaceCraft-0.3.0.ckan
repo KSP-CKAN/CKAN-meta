@@ -1,0 +1,28 @@
+{
+    "spec_version"   : 1,
+    "name"           : "Near Future Spacecraft",
+    "identifier"     : "NearFutureSpacecraft",
+    "abstract"       : "This pack contains various solar panels that I've sourced from spacecraft concepts. They range from small concentrated solar panels to massive blanket solar arrays.",
+    "download"       : "https://nabaal.net/files/ksp/nertea/NearFutureSpacecraft0_3_0.zip",
+    "license"        : "CC-BY-NC-SA-3.0",
+    "author"         : "Nertia",
+    "version"        : "0.3.0",
+    "release_status" : "stable",
+    "ksp_version"    : "0.25",
+    "resources"      : {
+          "homepage" : "http://forum.kerbalspaceprogram.com/threads/52042"
+    },
+    "depends" : [
+    	{"name" : "RasterProperMonitor"}
+    ],
+    "install" : [
+        {
+            "file"       : "GameData/NearFutureSpacecraft",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "GameData/NearFutureProps",
+            "install_to" : "GameData"
+        }
+    ]
+}
