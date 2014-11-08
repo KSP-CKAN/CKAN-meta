@@ -1,7 +1,7 @@
 {
     "spec_version"   : 1,
     "name"           : "Kerbal Attachement System",
-    "identifier"     : "KerbalAttachementSystem",
+    "identifier"     : "KAS",
     "abstract"       : "KAS introduce new gameplay mechanics by adding winches, containers, dynamic struts/pipes and grabable & attachable parts.",
     "download"       : "http://kerbal.curseforge.com/ksp-mods/223900-kerbal-attachment-system-kas/files/2216138/download",
     "license"        : "restricted",
@@ -11,12 +11,5 @@
     "ksp_version"    : "0.25",
     "depends" : [
     	{"name" : "ModuleManager"}
-    ],
-    "install" : [
-        {
-            "file"       : "GameData/KAS",
-            "install_to" : "GameData",
-	    "filter-regex" : ".*?ModuleManager.*?\\.dll"
-        }
     ]
 }
