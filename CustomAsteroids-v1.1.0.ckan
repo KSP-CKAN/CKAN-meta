@@ -9,10 +9,24 @@
     "homepage": "http://forum.kerbalspaceprogram.com/threads/80483",
     "kerbalstuff": "https://kerbalstuff.com/mod/251/Custom%20Asteroids"
   },
+  "depends": [
+    {
+      "name": "CustomAsteroids-Pops"
+    }
+  ],
+  "recommends": [
+    {
+      "name": "CustomAsteroids-Pops-Stock-Inner"
+    },
+    {
+      "name": "CustomAsteroids-Pops-Stock-Outer"
+    }
+  ],
   "install": [
     {
       "file": "GameData/CustomAsteroids",
-      "install_to": "GameData"
+      "install_to": "GameData",
+      "filter": "config"
     }
   ],
   "name": "Custom Asteroids",
