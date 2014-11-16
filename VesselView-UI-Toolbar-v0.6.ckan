@@ -23,12 +23,9 @@
   "comment" : "Providing but not conflicting is deliberate, as both UIs can be installed at the same time.",
   "install" : [
     {
-      "file": "VesselView/Textures",
-      "install_to": "GameData"
-    },
-    {
-      "file": "VesselView/Plugins/VesselViewPlugin.dll",
-      "install_to": "GameData"
+      "file": "VesselView",
+      "install_to": "GameData",
+      "filter": ["license (MM).txt","license.txt","Patches","VesselView.dll","VVDiscoDisplay.dll","VesselViewRPM.dll","VVPartSelector.dll"]
     }
   ],
   "version": "v0.6",
