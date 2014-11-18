@@ -1,6 +1,6 @@
 {
   "spec_version": 1,
-  "name": "Advanced Fly-By-Wire",
+  "name": "Advanced Fly-By-Wire (Windows)",
   "abstract": "Joystick & Controller mod",
   "identifier": "AdvancedFlyByWire",
   "release_status": "stable",
@@ -41,6 +41,12 @@
       "name": "Toolbar"
     }
   ],
+  "conflicts": [
+    {
+      "name": "AdvancedFlyByWire-linux"
+    }
+  ],
+  "x_netkan_license_ok": true,
   "ksp_version": "0.25",
   "license": "MIT",
   "author": "nlight",
