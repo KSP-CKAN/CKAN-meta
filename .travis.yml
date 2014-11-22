@@ -13,3 +13,11 @@ install:
 script:
     - CKAN/bin/ckan-validate $(find . -path ./CKAN -prune -o -name '*.ckan' -print)
 
+notifications:
+    irc:
+        channels:
+            - "irc.esper.net#ckan"
+        on_success: change
+        on_failure: always
+        use_notice: true
+        skip_join: true
