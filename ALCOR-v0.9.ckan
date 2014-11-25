@@ -1,0 +1,27 @@
+{
+	"spec_version": 1,
+	"identifier": "ALCOR",
+	"ksp_version": "0.25",
+	"resources": 
+	{
+		"homepage": "http://forum.kerbalspaceprogram.com/threads/54925-WIP-ALCOR-Advanced-Landing-Capsule-for-Orbital-Rendezvous-by-ASET-%28UPD-30-06-2014%29"
+	},
+	"name"      : "ALCOR Capsule",
+	"license"   : "CC-BY-NC-SA-3.0",
+	"abstract"  : "Loosely inspired by the Apollo landing module, uses a lightweight frame-based design with very thin walls. It is meant to be used for both single-stage and two-stage vacuum landers.",
+	"author"    : "alexustas",
+	"version"   : "0.9",
+	"download"  : "https://www.dropbox.com/s/qob922ayjxvsug5/ALCOR_Capsule_0.9.zip?dl=1",
+	"comment"   : "Hand packaged by Felger, if anything's wrong, it's my fault.",
+	"depends"   : [ {"name" : "RasterPropMonitor" } ],
+	"recommends": [ 
+					{"name" : "ALCOR-AdvancedIVA" },
+					{"name" : "ALCOR-Props" }
+				  ],
+	"install": [
+        {
+            "file"       : "Gamedata/ASET",
+            "install_to" : "GameData"
+        }
+    ]
+}

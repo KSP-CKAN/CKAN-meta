@@ -1,0 +1,26 @@
+{
+	"spec_version": 1,
+	"identifier": "ALCOR-Props",
+	"ksp_version": "0.25",
+	"resources": 
+	{
+		"homepage": "http://forum.kerbalspaceprogram.com/threads/54925-WIP-ALCOR-Advanced-Landing-Capsule-for-Orbital-Rendezvous-by-ASET-%28UPD-30-06-2014%29"
+	},
+	"name"      : "ALCOR Capsule IVA Props",
+	"license"   : "CC-BY-NC-SA-3.0",
+	"abstract"  : "Props library for ALCOR capsule.",
+	"author"    : "alexustas",
+	"version"   : "0.9",
+	"download"  : "https://www.dropbox.com/s/e40b9vniue0wa91/ASET_Props_1.0.2.zip?dl=1",
+	"comment"   : "Hand packaged by Felger, if anything's wrong, it's my fault.",
+	"depends"   :  	[ 
+					  {"name" : "RasterPropMonitor" },
+					  {"name" : "ALCOR"}
+					],
+	"install": [
+        {
+            "file"       : "ASET_Props",
+            "install_to" : "GameData"
+        }
+    ]
+}
