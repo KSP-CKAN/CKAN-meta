@@ -3,7 +3,10 @@
   "identifier": "NearFutureSpacecraft",
   "depends": [
     {
-      "name": "RasterPropMonitor"
+      "name": "RasterPropMonitor-Core"
+    },
+    {
+      "name": "NearFutureProps"
     }
   ],
   "suggests": [
@@ -12,11 +15,6 @@
     }
   ],
   "install": [
-    {
-      "file": "GameData/NearFutureProps",
-      "install_to": "GameData",
-      "comment": "IVA props for RPM"
-    },
     {
       "file": "GameData/NearFutureSpacecraft",
       "install_to": "GameData"
