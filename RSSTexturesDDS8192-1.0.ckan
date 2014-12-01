@@ -3,6 +3,13 @@
     "name"           : "Real Solar System Textures DDS - 8192 x 4096",
     "identifier"     : "RSSTexturesDDS8192",
     "provides"       : [ "RSSTextures" ],
+    "conflicts"      : [
+        { "name" : "RSSTextures2048" },
+        { "name" : "RSSTextures4096" },
+        { "name" : "RSSTextures8192" },
+        { "name" : "RSSTexturesDDS2048" },
+        { "name" : "RSSTexturesDDS4096" }
+    ],
     "abstract"       : "Textures for Real Solar Systems",
     "download"       : "https://nabaal.net/files/ksp/nathankell/RealSolarSystem/Textures/RSSTextures8192DDS.zip",
     "license"        : "CC-BY-NC-SA",
