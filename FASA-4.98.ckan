@@ -1,7 +1,6 @@
 {
   "spec_version": 1,
   "identifier": "FASA",
-  "ksp_version": "0.25",
   "license": "restricted",
   "depends": [
     {
@@ -14,10 +13,16 @@
       "install_to": "GameData"
     }
   ],
+  "conflicts": [
+    {
+      "name": "FASALaunchClamps"
+    }
+  ],
   "resources": {
     "homepage": "http://forum.kerbalspaceprogram.com/threads/24867-21-FASA-2-2-Wings!!!-Sept-4?highlight=fasa",
     "kerbalstuff": "https://kerbalstuff.com/mod/27/FASA"
   },
+  "ksp_version": "0.25",
   "name": "FASA",
   "abstract": "FASA has Kerbal style NASA space craft from Mercury to Apollo",
   "author": "frizzank",
