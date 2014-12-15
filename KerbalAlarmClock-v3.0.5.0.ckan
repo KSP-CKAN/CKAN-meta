@@ -1,5 +1,5 @@
 {
-  "spec_version": 1,
+  "spec_version": "v1.2",
   "name": "Kerbal Alarm Clock",
   "identifier": "KerbalAlarmClock",
   "abstract": "Create reminder alarms to help manage flights and not warp past important times",
@@ -13,9 +13,16 @@
     "x_curse": "http://kerbal.curseforge.com/ksp-mods/220289-kerbal-alarm-clock",
     "repository": "https://github.com/TriggerAu/KerbalAlarmClock"
   },
+  "install": [
+    {
+      "file":       "KerbalAlarmClock_3.0.5.0/GameData/TriggerTech",
+      "install_to": "GameData",
+      "filter":     [ "TriggerTechLogo.png", "TriggerTechLogo2.png" ]
+    }
+  ],
   "author": "TriggerAu",
   "version": "v3.0.5.0",
   "download": "https://github.com/TriggerAu/KerbalAlarmClock/releases/download/v3.0.5.0/KerbalAlarmClock_3.0.5.0.zip",
-  "x_generated_by": "netkan",
+  "x_generated_by": "netkan, manually modified by hakan42",
   "download_size": 406598
 }
