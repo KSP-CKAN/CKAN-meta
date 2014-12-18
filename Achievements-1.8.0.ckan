@@ -2,6 +2,13 @@
   "spec_version": 1,
   "identifier": "Achievements",
   "license": "GPL-3.0",
+  "install": [
+    {
+      "file": "GameData/Achievements",
+      "install_to": "GameData",
+      "filter": "000_Toolbar"
+    }
+  ],
   "depends": [
     {
       "name": "Toolbar"
