@@ -9,6 +9,7 @@
         {
             "file": "GameData/ArcanumIndustries",
             "install_to": "GameData",
+            "comment" : "We need to filter out some configs which otherwise result in duplicate parts; these are already in StationScience, which this depends upon",
             "filter": [
                 "exper01PlantGrowth.cfg",
                 "exper02ProgradeKuarqs.cfg",
