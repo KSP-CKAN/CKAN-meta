@@ -8,14 +8,15 @@
     "install": [
         {
             "file": "GameData/ArcanumIndustries",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter: "exper01PlantGrowth, exper02ProgradeKuarqs, exper03RetrogradeKuarqs, exper04EccentricKuarqs, exper05CreatureComforts, exper06KuarqBioactvity"
         }
     ],
     "depends" : [
         { "name" : "StationScience" }
     ],
     "ksp_version_min": "0.23.5",
-    "ksp_version_max": "0.25",
+    "ksp_version_max": "0.90",
     "name": "Fuel Science",
     "abstract": "An addition to the Station Science mod by ethernet.",
     
