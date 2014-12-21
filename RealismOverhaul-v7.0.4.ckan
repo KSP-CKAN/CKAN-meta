@@ -1,5 +1,5 @@
 {
-  "spec_version": 1,
+  "spec_version": 1.2,
   "name": "Realism Overhaul",
   "identifier": "RealismOverhaul",
   "abstract": "Multipatch to KSP to give things realistic stats and sizes",
@@ -192,7 +192,9 @@
   "install": [
     {
       "file": "RealismOverhaul",
-      "install_to": "GameData"
+      "install_to": "GameData",
+      "comment": "This regexp skips the Smokescreen folders",
+      "filter_regexp": "SmokeScreen_"
     },
     {
       "file": "KAS",
