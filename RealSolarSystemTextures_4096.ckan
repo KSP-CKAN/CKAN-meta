@@ -3,6 +3,10 @@
     "name"           : "Real Solar System Textures - 4096 x 2048",
     "identifier"     : "RSSTextures4096",
     "provides"       : [ "RSSTextures" ],
+    "conflicts"      : [
+        { "name" : "RSSTextures2048" },
+        { "name" : "RSSTextures8192" }
+    ],
     "abstract"       : "Textures for Real Solar Systems",
     "download"       : "https://nabaal.net/files/ksp/nathankell/RealSolarSystem/Textures/4096.zip",
     "license"        : "CC-BY-NC-SA",

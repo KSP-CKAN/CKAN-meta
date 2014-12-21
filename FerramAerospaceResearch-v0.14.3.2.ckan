@@ -8,6 +8,15 @@
     "homepage": "http://kerbalspaceprogram.com/forum/showthread.php/20451",
     "kerbalstuff": "https://kerbalstuff.com/mod/52/Ferram%20Aerospace%20Research"
   },
+  "provides": [
+    "AerodynamicModel",
+    "FAR"
+  ],
+  "conflicts": [
+    {
+      "name": "AerodynamicModel"
+    }
+  ],
   "depends": [
     {
       "name": "ModuleManager"

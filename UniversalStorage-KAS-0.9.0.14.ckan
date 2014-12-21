@@ -1,0 +1,24 @@
+{
+    "spec_version": 1,
+    "identifier": "UniversalStorage-KAS",
+    "ksp_version": "0.25",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/75129"
+    },
+    "name": "Universal Storage KAS Pack",
+    "license": "restricted",
+    "abstract": "Universal storage - Kerbal Attachment System extensions",
+    "author": "Paul Kingtiger",
+    "version": "0.9.0.14",
+    "download": "http://www.kingtiger.co.uk/kingtiger/wordpress/wp-content/uploads/2014/11/US_KAS_0.9.0.14.zip",
+    "comment" : "Hand packaged by Felger, if anything's wrong, it's my fault.",
+    "depends" : [
+        { "name" : "UniversalStorage" },
+        { "name" : "KAS" }
+    ],
+    "install": [ {
+        "file"       : "UniversalStorage",
+        "install_to" : "GameData",
+        "filter"     : "US License.pdf"
+    } ]
+}
