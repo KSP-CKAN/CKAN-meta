@@ -1,18 +1,29 @@
 {
   "spec_version": 1,
   "identifier": "RCSLandAid",
-  "x_netkan_license_ok": true,
+  "name": "Landing Aid",
+  "abstract": "Kill your horizontal velocity to land, or hover over a specific point on the ground",
+  "license": "GPL-3.0",
+  "release_status": "stable",
+  "ksp_version": "any",
+  "author": "Diazo",
+  "suggests": [
+    {
+      "name": "Toolbar"
+    }
+  ],
   "resources": {
     "homepage": "http://forum.kerbalspaceprogram.com/threads/85838",
-    "kerbalstuff": "https://kerbalstuff.com/mod/412/RCS%20Land%20Aid"
+    "repository": "https://github.com/SirDiazo/RCSLandAid"
   },
-  "ksp_version": "0.90",
-  "name": "RCS Land Aid",
-  "license": "GPL-3.0",
-  "abstract": "Kills your horizontal velocity before landing, or hover over a selected point on the ground.",
-  "author": "Teonlight",
+  "install": [
+    {
+      "file": "GameData/Diazo",
+      "install_to": "GameData"
+    }
+  ],
   "version": "2.1",
-  "download": "https://kerbalstuff.com/mod/412/RCS%20Land%20Aid/download/2.1",
+  "download": "https://github.com/SirDiazo/RCSLandAid/releases/download/2.1/RCSLandAid21.zip",
   "x_generated_by": "netkan",
   "download_size": 15591
 }
