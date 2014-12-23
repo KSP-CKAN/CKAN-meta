@@ -1,5 +1,5 @@
 {
-    "spec_version"   : 1,
+    "spec_version"   : "v1.2",
     "name"           : "Custom Biomes",
     "identifier"     : "CustomBiomes",
     "abstract"       : "Add or replace biomes to any celestial body in KSP",
@@ -21,7 +21,12 @@
         {
             "file"       : "CustomBiomes",
             "install_to" : "GameData",
-            "filter"     : "PluginData"
+            "filter"     : [ "PluginData", "Thumbs.db" ]
+        },
+        {
+            "file"       : "CustomBiomes/PluginData/CustomBiomes/config.xml",
+            "install_to" : "GameData/CustomBiomes/PluginData/CustomBiomes",
+            "comment"    : "Config for the mod itself, not the biomes."
         }
     ]
 }
