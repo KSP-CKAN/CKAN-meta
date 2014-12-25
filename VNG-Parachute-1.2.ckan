@@ -1,0 +1,25 @@
+{
+    "spec_version"   : "v1.4",
+    "name"           : "EVA Parachutes",
+    "abstract"       : "Vanguard Technologies EVA Parachutes",
+    "description"    : "For the ejection module, use the abort action group. For the parachute box, get near on EVA and use the context menu. To deploy parachutes, either use the context menu or press Jump and Use (Space+F unless you remapped the keys).",
+    "identifier"     : "VNG-Parachute",
+    "download"       : "https://dl.dropboxusercontent.com/u/82912977/Vanguard/VNG-Parachute_1.2.zip",
+    "license"        : "restricted",
+    "comment"        : "License is CC BY except for the parachute model, ask CardBoardBoxProcessor if you want to use it for anything, he made it.",
+    "version"        : "1.2",
+    "release_status" : "stable",
+    "author"         : ["Kreuzung", "CardBoardBoxProcessor"],
+    "resources" : {
+        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/25305"
+    },
+    "install" : [
+        {
+            "file"       : "VNG-Parachute/GameData/VNG",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "VNG-Plugin" }
+    ]
+}
