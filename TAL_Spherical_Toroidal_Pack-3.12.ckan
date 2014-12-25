@@ -1,0 +1,29 @@
+{
+    "spec_version"   : 1,
+    "name"           : "Spherical and Toroidal Tank Pack",
+    "abstract"       : "Large and medium spherical and toroidal Tanks",
+    "description"    : "The Spherical and Toroidal tank packs have been combined into one set. Through the use of the Modular Fuels and Firespitter plugins, you are now able to customize the type and capacity of the contents of each tank.",
+    "identifier"     : "TAL_Spherical_Toroidal_Pack",
+    "download"       : "https://nabaal.net/files/ksp/talisar/TAL_Spherical_Toroidal_Pack_V3.12.zip",
+    "license"        : "CC-BY-SA-3.0",
+    "version"        : "3.12",
+    "release_status" : "stable",
+    "ksp_version"    : "any",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/30673",
+    },
+    "install" : [
+        {
+            "file"       : "ModsByTal",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "FirespitterCore" },
+        { "name" : "ModuleManager" }
+    ],
+    "recommends" : [
+        { "name" : "ModularFuelTanks" },
+        { "name" : "RealFuels" }
+    ]
+}
