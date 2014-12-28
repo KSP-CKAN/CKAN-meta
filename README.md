@@ -5,3 +5,4 @@ If you wish to add support for a new module,
 
 If you're wondering what the CKAN is, start with
 [this readme](https://github.com/KSP-CKAN/CKAN/blob/master/README.md).
+
