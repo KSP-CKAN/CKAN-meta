@@ -18,8 +18,8 @@ mkdir dummy_ksp
 echo Version 0.90.0 > dummy_ksp/readme.txt
 mkdir dummy_ksp/GameData
 
-mono --debug ckan.exe ksp add default "`pwd`/dummy_ksp"
-mono --debug ckan.exe ksp default default
+mono --debug ckan.exe ksp add ${ghprbActualCommit} "`pwd`/dummy_ksp"
+mono --debug ckan.exe ksp default ${ghprbActualCommit}
 mono --debug ckan.exe update
 
 for f in ${COMMIT_CHANGES}
