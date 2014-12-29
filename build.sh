@@ -2,7 +2,7 @@
 
 echo Commit hash: ${ghprbActualCommit}
 echo Changes in this commit:
-export COMMIT_CHANGES=`git --no-pager diff --name-only FETCH_HEAD $(git merge-base FETCH_HEAD master)`
+export COMMIT_CHANGES=`git diff ${ghprbActualCommit}^1 ${ghprbActualCommit}`
 echo ${COMMIT_CHANGES}
 
 wget https://raw.githubusercontent.com/KSP-CKAN/CKAN/master/bin/ckan-validate.py -O ckan-validate.py
