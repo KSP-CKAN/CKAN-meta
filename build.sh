@@ -2,7 +2,8 @@
 
 echo Commit hash: ${ghprbActualCommit}
 echo Changes in this commit:
-export COMMIT_CHANGES=`git diff-tree --name-only `git rev-parse HEAD`..${ghprbActualCommit}`
+export HEAD=`git rev-parse HEAD`
+export COMMIT_CHANGES=`git diff-tree --name-only ${HEAD}..${ghprbActualCommit}`
 echo ${COMMIT_CHANGES}
 
 wget https://raw.githubusercontent.com/KSP-CKAN/CKAN/master/bin/ckan-validate.py -O ckan-validate.py
