@@ -3,6 +3,9 @@ language: python
 # Our validator actually lives in the CKAN repo.
 # --depth=1 is because we don't need full history.
 
+before_install:
+  - pip install jsonschema
+
 install:
     - git clone --depth=1 https://github.com/KSP-CKAN/CKAN.git
 
