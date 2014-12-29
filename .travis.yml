@@ -14,6 +14,7 @@ install:
 # checked out.
 
 script:
+    - cp CKAN/CKAN.schema .
     - python CKAN/bin/ckan-validate.py $(find . -path ./CKAN -prune -o -name '*.ckan' -print)
 
 notifications:
