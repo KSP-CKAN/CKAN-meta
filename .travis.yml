@@ -11,7 +11,7 @@ install:
 # checked out.
 
 script:
-    - CKAN/bin/ckan-validate $(find . -path ./CKAN -prune -o -name '*.ckan' -print)
+    - CKAN/bin/ckan-validate.py $(find . -path ./CKAN -prune -o -name '*.ckan' -print)
 
 notifications:
     irc:
