@@ -24,5 +24,5 @@ mono --debug ckan.exe update
 
 for f in ${COMMIT_CHANGES}
 do
-	mono --debug ckan.exe install -c $f
+	mono --debug ckan.exe --headless install -c $f
 done
