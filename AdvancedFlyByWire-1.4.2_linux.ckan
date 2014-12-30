@@ -1,0 +1,33 @@
+{
+  "spec_version": 1,
+  "name": "Advanced Fly-By-Wire (Linux)",
+  "abstract": "Joystick & Controller mod",
+  "identifier": "AdvancedFlyByWire-Linux",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "http://forum.kerbalspaceprogram.com/threads/95022",
+    "repository": "https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire",
+    "kerbalstuff": "https://kerbalstuff.com/mod/232/Advanced%20Fly-By-Wire"
+  },
+  "install": [
+    {
+      "file": "GameData/ksp-advanced-flybywire",
+      "install_to": "GameData"
+    }
+  ],
+  "depends": [
+    {
+      "name": "Toolbar"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "AdvancedFlyByWire"
+    }
+  ],
+  "ksp_version": "0.90",
+  "license": "MIT",
+  "author": "nlight",
+  "version": "1.4.2",
+  "download": "https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire/raw/master/builds/ksp-advanced-flybywire_v1.4.2_linux.zip"
+}
