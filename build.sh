@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -x
+set -e
 
 echo Commit hash: ${ghprbActualCommit}
 echo Changes in this commit:
