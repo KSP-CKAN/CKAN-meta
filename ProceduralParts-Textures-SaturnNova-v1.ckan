@@ -1,0 +1,24 @@
+{
+	"spec_version": 1,
+	"identifier": "ProceduralParts-Textures-SaturnNova",
+	"ksp_version_min": "0.23.5",
+	"resources": 
+	{
+		"homepage": "http://forum.kerbalspaceprogram.com/threads/70676"
+	},
+	"name": "Procedural Parts - Saturn / Nova Texture Pack",
+	"license": "CC-BY-SA-3.0",
+	"abstract": "Procedural Parts textures that make your rocket looks like Saturn V",
+	"author": "ferram4",
+	"version": "1",
+	"download": "https://www.dropbox.com/s/v8xt2fb91cqez9w/SaturnNovaTexturePack.zip?dl=1",
+	"comment" : "Hand packaged by TeddyDD, if anything's wrong, it's my fault.",
+	"depends" : [ { "name" : "ProceduralParts" } ],
+	"provides": [ "PPTextures" ],
+	"install": [
+        {
+            "file"       : "GameData/StretchySNTextures",
+            "install_to" : "GameData"
+        }
+    ]
+}

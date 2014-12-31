@@ -1,0 +1,40 @@
+{
+  "spec_version": 1,
+  "identifier": "DistantObject-default",
+  "name": "Distant Object Enhancement default config",
+  "abstract": "Default planets colors",
+  "license": "CC-BY-4.0",
+  "ksp_version": "0.25",
+  "depends": [
+    {
+      "name": "DistantObject"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/DistantObject",
+      "install_to": "GameData",
+      "filter": [
+        "DistantObject.dll",
+        "Flare",
+        "Icons"
+      ]
+    }
+  ],
+  "provides": [
+    "DistantObject-config"
+  ],
+  "conflicts": [
+    {
+      "name": "DistantObject-config"
+    }
+  ],
+  "resources": {
+    "repository": "https://github.com/MOARdV/DistantObject"
+  },
+  "author": "MOARdV",
+  "version": "v1.4.1",
+  "download": "https://github.com/MOARdV/DistantObject/releases/download/v1.4.1/DistantObject_1.4.1.zip",
+  "x_generated_by": "netkan",
+  "download_size": 34245
+}
