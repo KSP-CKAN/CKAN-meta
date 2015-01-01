@@ -1,7 +1,16 @@
 {
-  "spec_version": "1.4",
+  "spec_version": 1,
+  "name": "Action Groups Extended",
   "identifier": "AGExt",
+  "author": "Diazo",
+  "abstract": "Increases the number of action groups to 250 and allows in-flight editing.",
   "license": "GPL-3.0",
+  "release_status": "stable",
+  "ksp_version": "0.90",
+  "resources": {
+    "homepage": "http://forum.kerbalspaceprogram.com/threads/74195",
+    "repository": "https://github.com/SirDiazo/AGExt"
+  },
   "depends": [
     {
       "name": "ModuleManager"
@@ -18,7 +27,7 @@
       "install_to": "GameData"
     }
   ],
-  "suggests": [
+  "x_supports": [
     {
       "name": "SCANsat"
     },
@@ -41,16 +50,8 @@
       "name": "WarpPlugin"
     }
   ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/74195",
-    "kerbalstuff": "https://kerbalstuff.com/mod/455/Action%20Groups%20Extended"
-  },
-  "ksp_version": "0.90",
-  "name": "Action Groups Extended",
-  "abstract": "Increase to 250 action groups with In-Flight editing and the ability to name groups so you remember what they do.",
-  "author": "Diazo",
   "version": "1.28a",
-  "download": "https://kerbalstuff.com/mod/455/Action%20Groups%20Extended/download/1.28a",
+  "download": "https://github.com/SirDiazo/AGExt/releases/download/1.28a/ActionGroupsExtended128a.zip",
   "x_generated_by": "netkan",
   "download_size": 67623
 }
