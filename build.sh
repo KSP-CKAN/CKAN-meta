@@ -5,7 +5,7 @@ set -e
 
 echo Commit hash: ${ghprbActualCommit}
 echo Changes in this commit:
-export COMMIT_CHANGES="`git diff --name-only --stat origin/master`"
+export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master`"
 echo ${COMMIT_CHANGES}
 
 wget --quiet https://raw.githubusercontent.com/KSP-CKAN/CKAN/master/bin/ckan-validate.py -O ckan-validate.py
