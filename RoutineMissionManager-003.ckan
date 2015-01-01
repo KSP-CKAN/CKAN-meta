@@ -1,7 +1,14 @@
 {
   "identifier": "RoutineMissionManager",
-  "spec_version": 1,
+  "spec_version": "1.4",
   "license": "BSD-4-clause",
+  "install": [
+    {
+      "file": "GameData/RoutineMissionManager",
+      "install_to": "GameData/RoutineMissionManager",
+      "filter": "ModuleManager.2.5.1.dll"
+    }
+  ],
   "resources": {
     "homepage": "http://forum.kerbalspaceprogram.com/threads/85630-Plugin-0-90-Routine-Mission-Manager-v002-(alpha)?p=1260437&viewfull=1#post1260437",
     "kerbalstuff": "https://kerbalstuff.com/mod/463/Routine%20Mission%20Manager"
