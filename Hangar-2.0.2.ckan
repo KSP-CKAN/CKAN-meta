@@ -1,30 +1,38 @@
 {
-  "spec_version": 1,
+  "spec_version": "v1.4",
   "identifier": "Hangar",
-  "license": "CC-BY-4.0",
+  "x_netkan_license_ok": true,
+  "conflicts": [
+    {
+      "name": "KSPAPIExtensions"
+    }
+  ],
   "depends": [
     {
       "name": "ModuleManager"
+    }
+  ],
+  "suggests": [
+    {
+      "name": "Extraplanetary-Launchpads"
     },
     {
-      "name": "KSPAPIExtensions"
+      "name": "EditorExtensions"
     }
   ],
   "install": [
     {
       "file": "GameData/Hangar",
-      "install_to": "GameData",
-      "filter": "KSPAPIExtensions.dll",
-      "comment": "Contains KSPAPIExtensions mod in this distribution"
+      "install_to": "GameData"
     }
   ],
-  "x_netkan_license_ok": true,
   "resources": {
     "homepage": "http://forum.kerbalspaceprogram.com/threads/88933",
     "kerbalstuff": "https://kerbalstuff.com/mod/270/Hangar"
   },
   "ksp_version": "0.90",
   "name": "Hangar",
+  "license": "CC-BY-4.0",
   "abstract": "Hangars are parts that can store whole ships inside. Stored ships are not docked but unloaded, which reduces part count considerably.",
   "author": "allista",
   "version": "2.0.2",
