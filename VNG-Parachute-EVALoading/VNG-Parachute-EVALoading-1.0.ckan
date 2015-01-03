@@ -1,0 +1,25 @@
+{
+    "spec_version"   : "v1.4",
+    "name"           : "EVA Parachutes by default",
+    "abstract"       : "All kerbals have parachutes equipped from start",
+    "description"    : "EVA Parachutes by default without using parachute boxes. To deploy parachutes, either use the context menu or press Jump and Use (Space+F unless you remapped the keys).",
+    "identifier"     : "VNG-Parachute-EVALoading",
+    "download"       : "https://www.dropbox.com/s/4ddtr2f3y88t5hk/EVALoading.zip?dl=1",
+    "license"        : "public-domain",
+    "comment"        : "actual licensing wording was more like WTFPL",
+    "version"        : "1.0",
+    "release_status" : "stable",
+    "author"         : "Fel",
+    "resources" : {
+        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/25305?p=442982&viewfull=1#post442982"
+    },
+    "install" : [
+        {
+            "file"       : "EVAParachutes.dll",
+            "install_to" : "GameData/VNG"
+        }
+    ],
+    "depends" : [
+        { "name" : "VNG-Parachute" }
+    ]
+}

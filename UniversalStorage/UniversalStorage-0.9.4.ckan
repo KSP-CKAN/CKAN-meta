@@ -1,0 +1,36 @@
+{
+  "spec_version": 1,
+  "identifier": "UniversalStorage",
+  "license": "restricted",
+  "depends": [
+    {
+      "name": "USITools"
+    },
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "install": [
+    {
+      "file": "PartCatalog",
+      "install_to": "GameData",
+      "comment": "PartCatalog Data for Universal Storage"
+    },
+    {
+      "file": "UniversalStorage",
+      "install_to": "GameData"
+    }
+  ],
+  "resources": {
+    "homepage": "ksp.kingtiger.co.uk",
+    "kerbalstuff": "https://kerbalstuff.com/mod/250/Universal%20Storage"
+  },
+  "ksp_version": "0.25",
+  "name": "Universal Storage",
+  "abstract": "Modular resource and processor parts to build custom service modules.",
+  "author": "Paul_Kingtiger",
+  "version": "0.9.4",
+  "download": "https://kerbalstuff.com/mod/250/Universal%20Storage/download/0.9.4",
+  "x_generated_by": "netkan",
+  "download_size": 6025862
+}

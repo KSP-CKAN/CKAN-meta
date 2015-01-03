@@ -1,0 +1,24 @@
+{
+	"spec_version": 1,
+	"identifier": "ProceduralParts-Textures-SCCKSCS",
+	"ksp_version_min": "0.23.5",
+	"resources": 
+	{
+		"homepage": "http://forum.kerbalspaceprogram.com/threads/68892"
+	},
+	"name": "blackheart612's Procedural Part Textures",
+	"license": "CC-BY-NC-ND-3.0",
+	"abstract": "Features some essential textures in Procedural Parts that I thought were missing. Stock KSP station texture, Chaka Monkey (in addon dev) station texture, Chinese Tank Decals, KOSMOS station textures, Shuttle Engine mod textures, Castor SRB texture, Shuttle SRB textures",
+	"author": "blackheart612",
+	"version": "0",
+	"download": "https://www.dropbox.com/s/qn02x7fwwg436bd/blackheart%203-18-14.zip?dl=1",
+	"comment" : "Hand packaged by Felger, if anything's wrong, it's my fault.",
+	"depends" : [ { "name" : "ProceduralParts" } ],
+	"provides": [ "PPTextures" ],
+	"install": [
+        {
+            "file"       : "GameData/blackheart",
+            "install_to" : "GameData"
+        }
+    ]
+}
