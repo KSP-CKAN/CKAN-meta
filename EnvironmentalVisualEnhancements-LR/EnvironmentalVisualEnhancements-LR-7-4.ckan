@@ -10,16 +10,17 @@
     },
     "install": [
         {
-            "file": "GameData/BoulderCo",
-            "install_to": "GameData"
-        },
-        {
             "file": "GameData/EnvironmentalVisualEnhancements",
             "install_to": "GameData"
         }
     ],
     "provides": [
         "EnvironmentalVisualEnhancements"
+    ],
+    "depends": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        }
     ],
     "conflicts": [
         {
