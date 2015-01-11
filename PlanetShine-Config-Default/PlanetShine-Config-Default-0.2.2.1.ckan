@@ -1,22 +1,22 @@
 {
     "spec_version": 1,
-    "identifier": "PlanetShine",
+    "identifier": "PlanetShine-Config-Default",
     "license": "Apache-2.0",
     "install": [
         {
-            "file": "GameData/PlanetShine/Icons",
-            "install_to": "GameData/PlanetShine"
-        },
-        {
-            "file": "GameData/PlanetShine/Plugins",
-            "install_to": "GameData/PlanetShine"
-        },
-        {
-            "file": "GameData/PlanetShine/LICENSE",
+            "file": "GameData/PlanetShine/Config",
             "install_to": "GameData/PlanetShine"
         }
     ],
     "depends": [
+        {
+            "name": "PlanetShine"
+        }
+    ],
+    "provides": [
+        "PlanetShine-Config"
+    ],
+    "conflicts": [
         {
             "name": "PlanetShine-Config"
         }
