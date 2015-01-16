@@ -1,8 +1,8 @@
 {
     "spec_version": 1,
-    "identifier": "EnvironmentalVisualEnhancements-HR",
-    "name": "Environmental Visual Enhancements - High Resolution",
-    "abstract": "Default configuration for EVE",
+    "identifier": "EnvironmentalVisualEnhancements",
+    "name": "Environmental Visual Enhancements",
+    "abstract": "City Lights for Kerbin and Clouds for Any planet you wish",
     "license": "MIT",
     "ksp_version_min": "0.25",
     "resources": {
@@ -10,21 +10,13 @@
     },
     "install": [
         {
-            "file": "GameData/BoulderCo",
+            "file": "GameData/EnvironmentalVisualEnhancements",
             "install_to": "GameData"
         }
     ],
-    "provides": [
-        "EnvironmentalVisualEnhancements-Config"
-    ],
     "depends": [
         {
-            "name": "EnvironmentalVisualEnhancements"
-        }
-    ],
-    "conflicts": [
-        {
-            "name": "EnvironmentalVisualEnhancements-LR"
+            "name": "EnvironmentalVisualEnhancements-Config"
         }
     ],
     "author": "rbray89",
