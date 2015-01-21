@@ -3,16 +3,19 @@
     "identifier": "KSPDeutschPatch",
     "license": "restricted",
     "spec_version": "v1.4",
+    "release_status" : "stable",
     "install": [
         {
-            "file": "GameData/KSP Deutsch Patch",
+            "file": "KSP Deutsch Patch/GameData",
             "install_to": "GameData",
             "filter": "desktop.ini"
+            "filter": "ModuleManager.2.5.6.dll"
         }
     ],
     "resources": {
         "homepage": "http://www.kerbalspaceprogram.de/",
-        "kerbalstuff": "https://kerbalstuff.com/mod/479/KSP%20Deutsch%20Patch"
+        "kerbalstuff": "https://kerbalstuff.com/mod/479/KSP%20Deutsch%20Patch",
+        "repository": "https://github.com/Quabiit/KSP-Deutsch-Patch"
     },
     "ksp_version": "0.90",
     "name": "KSP Deutsch Patch",
@@ -22,4 +25,8 @@
     "download": "https://kerbalstuff.com/mod/479/KSP%20Deutsch%20Patch/download/1.1",
     "x_generated_by": "netkan",
     "download_size": 168601
+    
+    "depends" : [
+        { "name" : "ModuleManager" }
+    ]
 }
