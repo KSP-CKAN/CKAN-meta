@@ -1,8 +1,8 @@
 {
     "spec_version": 1,
-    "identifier": "AstronomersPack-DistantObjectEnhancement",
-    "name": "Astronomer's Pack - Distant Object Enhancement config",
-    "abstract": "Distant Object Enhancement Configuration from Astronomer's Pack.",
+    "identifier": "AstronomersPack-AtmosphericScattering",
+    "name": "Astronomer's Pack: Atmospheric Scattering",
+    "abstract": "Astronomer's Pack option",
     "license": "restricted",
     "ksp_version_min": "0.25",
     "resources": {
@@ -10,21 +10,13 @@
     },
     "install": [
         {
-            "file": "3rd Step - Core Mod (just clouds)/Core Mod/GameData/DistantObject",
+            "file": "4th Step - Optional Features/Essential Features (still optional though)/0MB Atmospheric Scattering (tinted glow)/~ Medium (recommended)/GameData/BoulderCo",
             "install_to": "GameData"
         }
     ],
-    "provides": [
-        "DistantObject-config"
-    ],
     "depends": [
         {
-            "name": "DistantObject"
-        }
-    ],
-    "conflicts": [
-        {
-            "name": "DistantObject-config"
+            "name": "AstronomersPack-Clouds"
         }
     ],
     "author": "Astronomer",

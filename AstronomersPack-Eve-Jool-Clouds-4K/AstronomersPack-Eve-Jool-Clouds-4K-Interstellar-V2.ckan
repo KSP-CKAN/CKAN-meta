@@ -1,8 +1,8 @@
 {
     "spec_version": 1,
-    "identifier": "AstronomersPack-PlanetShine",
-    "name": "Astronomer's Pack - PlanetShine configuration",
-    "abstract": "Astronomer's Pack PlanetShine configuration.",
+    "identifier": "AstronomersPack-Eve-Jool-Clouds-4K",
+    "name": "Astronomer's Pack: Clouds for Eve & Jool - 4K (recommended)",
+    "abstract": "Astronomer's Pack option",
     "license": "restricted",
     "ksp_version_min": "0.25",
     "resources": {
@@ -10,21 +10,21 @@
     },
     "install": [
         {
-            "file": "3rd Step - Core Mod (just clouds)/Core Mod/GameData/PlanetShine",
+            "file": "4th Step - Optional Features/Essential Features (still optional though)/Clouds for Eve & Jool/38MB 4K (recommended)/GameData/BoulderCo",
             "install_to": "GameData"
         }
     ],
-    "provides": [
-        "PlanetShine-Config"
-    ],
     "depends": [
         {
-            "name": "PlanetShine"
+            "name": "AstronomersPack-Clouds"
         }
+    ],
+    "provides": [
+        "AstronomersPack-Eve-Jool-Clouds"
     ],
     "conflicts": [
         {
-            "name": "PlanetShine-Config"
+            "name": "AstronomersPack-Eve-Jool-Clouds"
         }
     ],
     "author": "Astronomer",
