@@ -1,0 +1,25 @@
+{
+    "spec_version": 1,
+    "identifier": "KerbalConstructionTime-Config-RP-0",
+    "ksp_version_min": "0.25",
+    "resources":
+    {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/103196-0-90-Realistic-Progression-Zero-%28RP-0%29-Lightweight-RealismOverhaul-career-v0-21-28-Jan"
+    },
+    "name": "Kerbal Construction Time RP-0 Configuration",
+    "license": "CC-BY-4.0",
+    "abstract": "Tweaks Kerbal Construction Time settings to be more balanced for RP-0. Manually remove KCT_Config.txt, KCT_Formulas.cfg, and KCT_TimeSettings.txt (if present) in the KCT folder first",
+    "author": "RP-0 Group",
+    "version": "0.0",
+    "download": "https://github.com/aw94/KSP/blob/master/configs/RP-0/KerbalConstructionTime.zip?raw=true",
+    "depends" : [
+        { "name" : "KerbalConstructionTime" },
+        { "name" : "RP-0" }
+    ],
+    "provides"  : [ "KerbalConstructionTime-Config" ],
+    "conflicts" : [ { "name" : "KerbalConstructionTime-Config" } ],
+    "install": [{
+        "file"       : "KerbalConstructionTime",
+        "install_to" : "GameData"
+    }]
+}
