@@ -1,9 +1,9 @@
 {
     "spec_version": "v1.4",
-    "identifier": "Kopernicus",
-    "name": "Kopernicus Planetary System Modifier",
-    "abstract": "Kopernicus Planetary System Modifier",
-    "description": "Kopernicus Planetary System Modifier",
+    "identifier": "Kopernicus-Config-Default",
+    "name": "Kopernicus default system configuration",
+    "abstract": "Kopernicus default system configuration",
+    "description": "Kopernicus default system configuration",
     "release_status": "development",
     "license": "LGPL-2.0",
     "author": "BryceSchroeder",
@@ -11,17 +11,15 @@
         "homepage": "http://forum.kerbalspaceprogram.com/threads/88168",
         "repository": "http://github.com/BryceSchroeder/Kopernicus"
     },
-    "depends": [
-        {
-            "name": "Kopernicus-Config"
-        }
+    "provides": [
+        "Kopernicus-Config"
     ],
     "install": [
         {
             "find": "Kopernicus",
             "install_to": "GameData",
             "filter": [
-                "System.cfg"
+                "Kopernicus.dll"
             ]
         }
     ],
