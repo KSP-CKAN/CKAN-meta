@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ModularFuelTankExpansion",
+    "license": "CC-BY-SA-4.0",
+    "install": [
+        {
+            "find": "GameData/MunarIndustries",
+            "install_to": "GameData"
+        },
+        {
+            "find": "CrossFeedEnabler",
+            "install_to": "GameData/CrossFeedEnabler",
+            "filter_regexp": [
+                "CrossFeedEnabler.dll",
+                "Readme_CFE.txt"
+            ]
+        }
+    ],
+    "depends": [
+        {
+            "name": "CrossFeedEnabler"
+        },
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/109885-0-90-Munar-Industries-Modular-Fuel-Tank-Expansion-(BETA)?p=1720466#post1720466",
+        "kerbalstuff": "https://kerbalstuff.com/mod/599/MI%20-%20Fuel%20Tank%20Expansion"
+    },
+    "ksp_version": "0.90",
+    "name": "MI - Fuel Tank Expansion",
+    "abstract": "Munar Industries - Fuel Tank Expansion is a collection of 44 stock-alike modular fuel tanks. (Supports FSfuelSwitch & CrossFeedEnabler)",
+    "author": "MunarIndustries",
+    "version": "0.21",
+    "download": "https://kerbalstuff.com/mod/599/MI%20-%20Fuel%20Tank%20Expansion/download/0.21",
+    "x_generated_by": "netkan",
+    "download_size": 8010705
+}
