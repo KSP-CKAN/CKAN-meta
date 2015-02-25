@@ -1,0 +1,222 @@
+{
+    "spec_version": "v1.2",
+    "name": "Realism Overhaul",
+    "identifier": "RealismOverhaul",
+    "abstract": "Multipatch to KSP to give things realistic stats and sizes",
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "depends": [
+        {
+            "name": "AdvancedJetEngine"
+        },
+        {
+            "name": "CrossFeedEnabler"
+        },
+        {
+            "name": "FerramAerospaceResearch"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ModuleRCSFX"
+        },
+        {
+            "name": "RealFuels"
+        },
+        {
+            "name": "RealSolarSystem"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ActiveTextureManagement"
+        },
+        {
+            "name": "BetterBuoyancy"
+        },
+        {
+            "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "DeadlyReentry"
+        },
+        {
+            "name": "EngineIgnitor"
+        },
+        {
+            "name": "FilterExtensions"
+        },
+        {
+            "name": "FShangarExtender"
+        },
+        {
+            "name": "KSP-AVC"
+        },
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "ModuleFixer"
+        },
+        {
+            "name": "NBody"
+        },
+        {
+            "name": "PartCatalog"
+        },
+        {
+            "name": "ProceduralDynamics"
+        },
+        {
+            "name": "ProceduralFairings"
+        },
+        {
+            "name": "ProceduralParts"
+        },
+        {
+            "name": "RealChute"
+        },
+        {
+            "name": "RealPlume"
+        },
+        {
+            "name": "RealHeat"
+        },
+        {
+            "name": "RemoteTech"
+        },
+        {
+            "name": "RT2RSSSettingsFile"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "TACLS-Config-RealismOverhaul"
+        },
+        {
+            "name": "TextureReplacer"
+        },
+        {
+            "name": "Toolbar"
+        },
+        {
+            "name": "TweakScale"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Service-Compartments-6S"
+        },
+        {
+            "name": "AIESAerospace-Unofficial"
+        },
+        {
+            "name": "ALCOR"
+        },
+        {
+            "name": "DMagicOrbitalScience"
+        },
+        {
+            "name": "FASA"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "KWRocketry"
+        },
+        {
+            "name": "LazTekSpaceXExploration"
+        },
+        {
+            "name": "LazTekSpaceXHistoric"
+        },
+        {
+            "name": "LazTekSpaceXLaunch"
+        },
+        {
+            "name": "NearFutureConstruction"
+        },
+        {
+            "name": "NearFutureElectric"
+        },
+        {
+            "name": "NearFuturePropulsion"
+        },
+        {
+            "name": "NearFutureSolar"
+        },
+        {
+            "name": "NearFutureSpacecraft"
+        },
+        {
+            "name": "PorkjetHabitats"
+        },
+        {
+            "name": "Proton-Bobcat"
+        },
+        {
+            "name": "Proton-OLDD"
+        },
+        {
+            "name": "RLA-Stockalike"
+        },
+        {
+            "name": "RocketdyneF-1"
+        },
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "SovietEngines"
+        },
+        {
+            "name": "SpaceFactory-Voskhod-unofficial"
+        },
+        {
+            "name": "SpaceFactory-Vostok-unofficial"
+        },
+        {
+            "name": "SXT"
+        },
+        {
+            "name": "UniversalStorage"
+        }
+    ],
+    "provides": [
+        "RealFuels-Engine-Configs"
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/99966",
+        "repository": "https://github.com/KSP-RO/RealismOverhaul"
+    },
+    "install": [
+        {
+            "file": "RealismOverhaul",
+            "install_to": "GameData",
+            "comment": "This regexp skips the Smokescreen folders",
+            "filter_regexp": "SmokeScreen_"
+        },
+        {
+            "file": "KAS",
+            "install_to": "GameData",
+            "comment": "KAS config, does not overwrite"
+        },
+        {
+            "file": "EngineGroupController",
+            "install_to": "GameData",
+            "comment": "Engine Group Controller, unique to RO."
+        }
+    ],
+    "author": "Felger",
+    "version": "v8.1.0",
+    "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v8.1.0/RealismOverhaul_8.1.0.zip",
+    "x_generated_by": "netkan",
+    "download_size": 17713025,
+    "ksp_version": "0.90.0"
+}
