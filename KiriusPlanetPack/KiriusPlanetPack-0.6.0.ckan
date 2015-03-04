@@ -1,0 +1,50 @@
+{
+    "identifier": "KiriusPlanetPack",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "spec_version": "v1.4",
+    "license": "GPL-3.0",
+    "provides": [
+        "KittopiaSpace"
+    ],
+    "conflicts": [
+        {
+            "name": "KittopiaSpace"
+        }
+    ],
+    "depends": [
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "CustomAsteroids"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "BetterAtmospheres"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/KittopiaSpace",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/Kopernicus",
+            "install_to": "GameData",
+            "filter": "Thumbs.db"
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/111439-KopernicusTech-The-Kirius-System-Version-0-5-1?p=1751377#post1751377",
+        "kerbalstuff": "https://kerbalstuff.com/mod/610/Kirius%20Planet%20Pack"
+    },
+    "ksp_version": "0.90",
+    "name": "Kirius Planet Pack",
+    "abstract": "Kirius is a planet pack for KopernicusTech that adds a binary star system nearly 500 times the distance from Kerbin to Kerbol with 6 planets and 2 moons.",
+    "author": "_Augustus_",
+    "version": "0.6.0",
+    "download": "https://kerbalstuff.com/mod/610/Kirius%20Planet%20Pack/download/0.6.0",
+    "x_generated_by": "netkan",
+    "download_size": 66272286
+}
