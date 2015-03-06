@@ -5,8 +5,16 @@
     "spec_version": "v1.4",
     "install": [
         {
-            "file": "NehemiahInc",
-            "install_to": "GameData"
+            "file": "NehemiahInc/OMS",
+            "install_to": "GameData/NehemiahInc"
+        }
+    ],
+    "depends": [
+        {
+            "name": "NehemiahScienceCommon"
+        },
+        {
+            "name": "NehemiahMultiPurposeParts"
         }
     ],
     "resources": {
