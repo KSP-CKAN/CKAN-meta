@@ -1,0 +1,20 @@
+{
+	"spec_version"		: "v1.4",
+	"ksp_version"		: "0.90",
+	"identifier"		: "PlanetFactoryCE",
+	"version"			: "beta",
+	"name"				: "Planet Factory CE",
+	"author"			: "Kragrathea",
+	"abstract"			: "Original planetpack for Planet Factory CE",
+	"license"			: "GPL-3.0",
+	"resources"			: { "homepage" : "http://forum.kerbalspaceprogram.com/threads/65401"},
+	"download"			: "https://tlwcbw.dm2301.livefilestore.com/y2mK5vetKfHkFFI0RbKP7GjXVPO7edKXwBqqCxbmCRbYyurslvn2vxHap57Mj_J1XKWA5SIWETlsXegNffi7IYTOtBrq5XF9cu3dGcGnBIyvQfi8T2EL8dtHNpL6UqW81o2mvtEmghv2QawqXIsEsjNpP6VulI_F7EN5cVGBjzVYqE/PlanetFactory-Dec30-2014.zip?download&psid=1",
+	"depends"			: [{"name" : "PlanetFactoryCE-core"}],
+	"install"			: [
+					{
+					"find" : "PlanetFactory",
+					"install_to" : "GameData",
+					"filter_regexp" : [ "PlanetFactory.dll", "PlanetFactory.cfg"]
+					}
+		]
+}
