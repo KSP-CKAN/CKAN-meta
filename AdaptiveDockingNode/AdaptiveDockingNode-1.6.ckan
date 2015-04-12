@@ -1,0 +1,19 @@
+{
+	"spec_version"	: 1,
+	"identifier"	: "AdaptiveDockingNode",
+	"abstract"		: "A creator-targeted plugin that facilitates multi-sized docking ports",
+	"version"		: "1.6",
+	"release_status" : "stable",
+	"name"			: "AdaptiveDockingNode",
+	"license"		: "restricted",
+	"author"		: "Toadicus",
+	"resources"		: { "homepage" : "http://forum.kerbalspaceprogram.com/threads/79128" },
+	"install"		: [
+						{
+						"file" : "GameData/AdaptiveDockingNode",
+						"install_to" : "GameData"
+						}
+				],
+	"depends" 		: [{ "name": "ModuleManager" }],
+	"download"		: "http://ksp.hawkbats.com/AdaptiveDockingNode/AdaptiveDockingNode-1-6.zip"
+}
