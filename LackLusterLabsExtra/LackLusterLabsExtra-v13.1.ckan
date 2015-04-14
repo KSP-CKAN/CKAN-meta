@@ -1,0 +1,29 @@
+{
+    "spec_version": 1,
+    "identifier"  : "LackLusterLabsExtra",
+    "name"        : "Lack Luster Labs Extra",
+    "author"      : [ "Lack", "MrWizerd" ],
+    "version"     : "13.1",
+    "abstract"    : "Adds extra parts to Lack Luster Labs, and adds compatibility with TAC Life Support and Connected Living Space",
+    "ksp_version" : "0.90",
+    "license"     : "CC-BY-NC-SA-4.0",
+
+    "download": "https://dl.dropboxusercontent.com/u/39086055/LLL-13.1.zip",
+	
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/102237"
+    },
+	
+	"depends": [
+        { "name": "LackLusterLabs" },
+        { "name": "TACLS" },
+        { "name": "ConnectedLivingSpace" }
+    ],
+		
+    "install"	: [
+        {
+            "file"       : "GameData/LLL-Extra",
+            "install_to" : "GameData"
+        }
+	]
+}
