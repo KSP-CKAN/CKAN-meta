@@ -1,0 +1,31 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "IRPartsReworkUtility",
+    "license": "CC-BY-NC-ND-4.0",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/65365",
+        "kerbalstuff": "https://kerbalstuff.com/mod/677"
+    },
+    "install": [
+        {
+            "file": "GameData/MagicSmokeIndustries/Parts/Rework_Utility",
+			"install_to": "GameData/MagicSmokeIndustries/Parts",
+            "filter": "Struts"
+        }
+    ],
+    "depends": [
+        { "name": "InfernalRobotics" }
+    ],
+    "recommends": [
+        { "name": "KAS" }
+    ],
+    "provides": [ "IR-Model-Rework-Utility" ],
+    "conflicts": [ { "name": "IR-Model-Rework-Utility" } ],
+    "ksp_version": "0.90",
+    "name": "Magic Smoke Industries Infernal Robotics - Utility Pack",
+    "abstract": "This pack contains a number of non-robotic parts to offer more interesting gameplay when using robotics parts from the other packs.",
+    "author": [ "ZodiusInfuser" ],
+    "version": "0.1a",
+    "download": "https://kerbalstuff.com/mod/677/Infernal%20Robotics%20Model%20Rework%20-%20Utility%20Pack/download/v01a"
+}

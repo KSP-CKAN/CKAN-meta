@@ -1,0 +1,30 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "IRPartsReworkCoreRobotics",
+    "license": "CC-BY-NC-ND-4.0",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/65365",
+        "kerbalstuff": "https://kerbalstuff.com/mod/675"
+    },
+    "install": [
+        {
+            "file": "GameData/MagicSmokeIndustries/Parts/Rework_Core/Probe/Robotic",
+			"install_to": "GameData/MagicSmokeIndustries/Parts/Rework_Core/Probe"
+        }
+    ],
+    "provides": [ "IR-Model-Rework-Core" ],
+    "conflicts": [ { "name": "IR-Model-Rework-Core" } ],
+    "depends": [
+        { "name": "InfernalRobotics" }
+    ],
+    "recommends": [
+        { "name": "IRPartsReworkCoreStructural" }
+    ],
+    "ksp_version": "0.90",
+    "name": "Magic Smoke Industries Infernal Robotics - Core Robotics parts pack",
+    "abstract": "This package contains the robotic parts from the Core pack in various sizes to give players a taste of what can be achieved with robotics.",
+    "author": [ "ZodiusInfuser" ],
+    "version": "0.1a",
+    "download": "https://kerbalstuff.com/mod/675/Infernal%20Robotics%20Model%20Rework%20-%20Core%20Pack/download/v01a"
+}
