@@ -14,18 +14,15 @@
 	"install"		: [
 					{
 					"find" : "KittopiaSpace",
-					"install_to" : "GameData"
+					"install_to" : "GameData",
+					"filter" : "Textures"
 					},
 					{
 					"find" : "Kopernicus",
 					"install_to" : "GameData",
-					"filter" : [ "System.cfg" ]
 					}
 			],
 	"depends"		: [
-					{
-					"name" : "Kopernicus-Config"
-					},
 					{
 					"name" : "ModuleManager"
 					}
