@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TerrestrialPlanetPack",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        {
+            "name": "KopernicusTech"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "DDSLoader"
+        }
+    ],
+    "provides": [
+        "PlanetPack"
+    ],
+    "conflicts": [
+        {
+            "name": "PlanetPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "TerrestrialPlanetPack",
+            "install_to": "GameData"
+        },
+        {
+            "find": "KittopiaSpace",
+            "install_to": "GameData",
+            "filter": [
+                "Help.cr_help",
+                "StarFix.cfg",
+                "plugins"
+            ]
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/110431-Terrestrial-Planet-Pack",
+        "kerbalstuff": "https://kerbalstuff.com/mod/590/Terrestrial%20Planets%20Pack"
+    },
+    "ksp_version": "0.90",
+    "name": "Terrestrial Planets Pack",
+    "abstract": "A collection of new planets to travel to and land on.  Aims to provide new gameplay challenges.",
+    "author": "sdj64",
+    "version": "0.4",
+    "download": "https://kerbalstuff.com/mod/590/Terrestrial%20Planets%20Pack/download/0.4",
+    "x_generated_by": "netkan",
+    "download_size": 98141448
+}

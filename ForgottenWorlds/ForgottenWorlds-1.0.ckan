@@ -1,0 +1,48 @@
+{
+    "identifier": "ForgottenWorlds",
+    "license": "MIT",
+    "spec_version": "v1.4",
+    "depends": [
+        {
+            "name": "KopernicusTech"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "provides": [
+        "PlanetPack"
+    ],
+    "conflicts": [
+        {
+            "name": "PlanetPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "ForgottenWorlds",
+            "install_to": "GameData"
+        },
+        {
+            "find": "KittopiaSpace",
+            "install_to": "GameData",
+            "filter": [
+                "plugins",
+                "StarFix.cfg",
+                "Help.cr_help"
+            ]
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/116068-Forgotten-Worlds-for-KopernicusTech",
+        "kerbalstuff": "https://kerbalstuff.com/mod/707/Forgotten%20Worlds%20Dwarf%20Planets%20for%20KopernicusTech"
+    },
+    "ksp_version": "0.90",
+    "name": "Forgotten Worlds Dwarf Planets for KopernicusTech",
+    "abstract": "A mod that adds three new dwarfs and an ice giant.",
+    "author": "Vexxus9999",
+    "version": "1.0",
+    "download": "https://kerbalstuff.com/mod/707/Forgotten%20Worlds%20Dwarf%20Planets%20for%20KopernicusTech/download/1.0",
+    "x_generated_by": "netkan",
+    "download_size": 108743911
+}
