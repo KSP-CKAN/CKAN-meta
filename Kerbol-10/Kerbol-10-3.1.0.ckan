@@ -1,6 +1,6 @@
 {
     "spec_version": "v1.4",
-    "identifier"  : "Kerbol_10",
+    "identifier"  : "Kerbol-10",
     "name"        : "10x Kerbol system",
     "author"      : "jsimmons",
     "version"     : "3.1.0",
@@ -11,7 +11,7 @@
     "download": "http://www.infradead.org/~jsimmons/Eve-7.4-Default.zip",
 	"provides"		: [ "RSSConfig" ],
 	"conflicts"		: [ {"name" : "RSSConfig" } ],
-	"depends"		: [ { "name" : "RSS-core" },
+	"depends"		: [ { "name" : "RSS-Core" },
 						{ "name" : "ModuleManager"} ],
 	"install"		: [ {
 						"find" : "RealSolarSystem",
@@ -23,7 +23,6 @@
 											"Readme_RSS.txt" ]
 						} ],
 	"recommends"	: [ { "name" : "FerramAerospaceResearch" },
-						{ "name" : "RemoteTech" },
 						{ "name" : "RemoteTech-Config-Kerbol_10" } ],
 	"suggests"		: [ { "name" : "RealismOverhaul" } ]
 }
