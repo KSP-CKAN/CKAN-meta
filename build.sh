@@ -32,3 +32,10 @@ for f in ${COMMIT_CHANGES}
 do
 	mono --debug ckan.exe install -c $f --headless
 done
+
+# Show all installed mods.
+
+echo "Installed mods:"
+mono --debug ckan.exe list --porcelain
+
+perl -e'@installed = `mono --debug ckan.exe list --porcelain`; foreach (@installed) { /^\S\s(?<mod>\S+)/ and system("mono --debug ckan.exe show $+{mod}"); } exit 0;'
