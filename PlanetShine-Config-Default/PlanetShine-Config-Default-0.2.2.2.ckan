@@ -1,0 +1,36 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "PlanetShine-Config-Default",
+    "name": "PlanetShine - Default configuration",
+    "license": "Apache-2.0",
+    "install": [
+        {
+            "file": "GameData/PlanetShine/Config",
+            "install_to": "GameData/PlanetShine"
+        }
+    ],
+    "depends": [
+        {
+            "name": "PlanetShine"
+        }
+    ],
+    "provides": [
+        "PlanetShine-Config"
+    ],
+    "conflicts": [
+        {
+            "name": "PlanetShine-Config"
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/96497",
+        "kerbalstuff": "https://kerbalstuff.com/mod/266/PlanetShine"
+    },
+    "ksp_version": "1.0",
+    "abstract": "Planets and moons reflects their light to your vessel + other ambient light improvements",
+    "author": "Valerian",
+    "version": "0.2.2.2",
+    "download": "https://kerbalstuff.com/mod/266/PlanetShine/download/0.2.2.2",
+    "x_generated_by": "netkan",
+    "download_size": 43081
+}
