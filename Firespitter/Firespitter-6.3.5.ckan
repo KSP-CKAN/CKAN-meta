@@ -2,8 +2,6 @@
     "spec_version": 1,
     "identifier": "Firespitter",
     "license": "restricted",
-    "comment": "Our version really depends on FirespitterCore",
-    "ksp_version_min": "0.24.2",
     "resources": {
         "repository": "https://github.com/snjo/Firespitter",
         "homepage": "http://forum.kerbalspaceprogram.com/showthread.php/24551-Firespitter",
@@ -25,7 +23,9 @@
             "file": "Firespitter",
             "install_to": "GameData",
             "filter": [
-                "Firespitter.dll"
+                "Firespitter.dll",
+                "FSFuelSwitchTweakScale.cfg",
+                "Firespitter.version"
             ],
             "comment": "The DLL is installed from FirespitterCore"
         },
@@ -35,6 +35,7 @@
             "comment": "Firespitter graphics for PartCatalog"
         }
     ],
+    "ksp_version": "0.24.2",
     "name": "Firespitter",
     "abstract": "Propeller plane and helicopter parts",
     "author": "Snjo",
