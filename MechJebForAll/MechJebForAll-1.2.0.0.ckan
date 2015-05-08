@@ -8,9 +8,9 @@
 "ksp_version" : "1.0",
 "license" : "GPL-3.0",
 "download": "http://addons-origin.cursecdn.com/files/2235/984/MechJebAndEngineerForAll-v1.2.0.0.zip",
-"depends": [
+"depends": [{ "name": "ModuleManager" }],
+"suggests":[
 { "name": "MechJeb2" },
-{ "name": "ModuleManager" },
 { "name": "KerbalEngineerRedux" }],
 "install": [ {"file": "MechJebAndEngineerForAll.cfg",
 			"install_to": "GameData" }
