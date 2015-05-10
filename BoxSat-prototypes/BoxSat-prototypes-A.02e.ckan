@@ -1,7 +1,8 @@
 {
     "spec_version": "v1.4",
-    "identifier": "BoxSat",
-    "name": "BoxSat",
+    "identifier": "BoxSat-prototypes",
+    "name": "BoxSat prototype parts",
+    "release_status": "development",
     "license": "restricted",
     "abstract": "A modular, stackable, serviceable, & customizable satellite in a box!",
     "author": [ "DasPenguin85", "orcmaul" ],
@@ -12,13 +13,14 @@
     "ksp_version": "1.0.2",
     "download": "http://addons-origin.cursecdn.com/files/2237/556/BoxSat%20vA.02e.zip",
     "depends" : [
-        { "name" : "ModuleManager" }
+        { "name": "ModuleManager" },
+        { "name": "BoxSat" }
     ],
     "install": [
         {
-            "find": "BoxSatAlpha",
+            "find": "BoxSatPrototypes",
             "install_to": "GameData",
             "filter_regexp": "\\.ddsified$"
         }
-    ]    
+    ]
 }
