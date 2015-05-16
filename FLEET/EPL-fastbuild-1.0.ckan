@@ -1,0 +1,22 @@
+{
+  "spec_version": 1,
+  "name": "EPL Fastbuild",
+  "identifier": "EPL-fastbuild",
+  "author": "ToxicFrog",
+  "abstract": "Makes all EPL builds complete instantly.",
+  "license": "MIT",
+  "release_status": "stable",
+  "ksp_version": "1.0.2",
+  "install": [
+    {
+      "file": "misc-d88c2d71d60cce9a8d286be12dc5a3b6b6df1cdd/EPL-fastbuild.cfg",
+      "install_to": "GameData/FLEET"
+    }
+  ],
+  "depends"        : [
+    {"name" : "ModuleManager"},
+    {"name" : "ExtraPlanetaryLaunchpads"}
+  ],
+  "version": "1.0",
+  "download": "https://github.com/ToxicFrog/misc/archive/d88c2d71d60cce9a8d286be12dc5a3b6b6df1cdd.zip"
+}

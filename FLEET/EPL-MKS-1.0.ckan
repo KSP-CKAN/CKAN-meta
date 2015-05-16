@@ -1,0 +1,23 @@
+{
+  "spec_version": 1,
+  "name": "EPL part hider for MKS",
+  "identifier": "EPL-MKS",
+  "author": "ToxicFrog",
+  "abstract": "Hides the EPL resources and parts. For use with MKS when you don't want the MKS parts cluttering the VAB.",
+  "license": "MIT",
+  "release_status": "stable",
+  "ksp_version": "1.0.2",
+  "install": [
+    {
+      "file": "misc-d88c2d71d60cce9a8d286be12dc5a3b6b6df1cdd/EPL-MKS.cfg",
+      "install_to": "GameData/FLEET"
+    }
+  ],
+  "depends"        : [
+    {"name" : "ModuleManager"},
+    {"name" : "ExtraPlanetaryLaunchpads"},
+    {"name" : "UKS"}
+  ],
+  "version": "1.0",
+  "download": "https://github.com/ToxicFrog/misc/archive/d88c2d71d60cce9a8d286be12dc5a3b6b6df1cdd.zip"
+}
