@@ -9,7 +9,7 @@
         "NathanKell"
     ],
     "release_status": "stable",
-    "ksp_version": "0.90",
+    "ksp_version": "1.0.2",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/64118",
         "repository": "https://github.com/NathanKell/ModularFuelSystem"
@@ -17,7 +17,8 @@
     "install": [
         {
             "file": "RealFuels",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": ".DS_Store"
         }
     ],
     "depends": [
@@ -26,6 +27,12 @@
         },
         {
             "name": "RealFuels-Engine-Configs"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "SolverEngines"
         }
     ],
     "conflicts": [
