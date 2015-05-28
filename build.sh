@@ -5,7 +5,21 @@ set -e
 
 echo Commit hash: ${ghprbActualCommit}
 echo Changes in this commit:
-export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master`"
+if [ -z ${ghprbActualCommit} ]
+then
+    echo No commit hash, running all ckan files
+    export COMMIT_CHANGES=CKAN-meta/*.ckan
+else
+    echo Commit hash: ${ghprbActualCommit}
+    export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master`"
+fi
+
+if [ "${COMMIT_CHANGES}" = "" ]
+then
+    echo "No .ckan changes, skipping further tests."
+    exit 0
+fi
+
 echo ${COMMIT_CHANGES}
 
 wget --quiet https://raw.githubusercontent.com/KSP-CKAN/CKAN/master/bin/ckan-validate.py -O ckan-validate.py
