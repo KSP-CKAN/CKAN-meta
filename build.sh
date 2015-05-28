@@ -33,7 +33,12 @@ mono --debug ckan.exe update
 
 for f in ${COMMIT_CHANGES}
 do
-        cat $f | python -m json.tool
+	echo ----------------------------------------------
+	echo 
+	cat $f | python -m json.tool
+	echo ----------------------------------------------
+	echo 
+	echo Running ckan install -c $f
 	mono --debug ckan.exe install -c $f --headless
 done
 
