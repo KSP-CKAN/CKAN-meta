@@ -1,0 +1,52 @@
+{
+    "spec_version": 1,
+    "identifier": "KSPInterstellarLite",
+    "name": "KSP Interstellar Lite",
+    "abstract": "Lite version of KSP Interstellar",
+    "license": "unknown",
+    "ksp_version": "0.24.2",
+    "x_netkan_license_ok": true,
+    "x_maintained_by": "distantcam",
+    "provides": [
+        "KSPInterstellar"
+    ],
+    "conflicts": [
+        {
+            "name": "KSPInterstellar"
+        }
+    ],
+    "depends": [
+        {
+            "name": "OpenResourceSystem"
+        },
+        {
+            "name": "TreeLoader"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Toolbar"
+        },
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Interstellar",
+            "install_to": "GameData"
+        }
+    ],
+    "resources": {
+        "repository": "https://github.com/WaveFunctionP/KSPInterstellar"
+    },
+    "author": "WaveFunctionP",
+    "version": "v0.12.3",
+    "download": "https://github.com/WaveFunctionP/KSPInterstellar/releases/download/v0.12.3/Interstellar.Lite.v0.12.3.zip",
+    "x_generated_by": "netkan",
+    "download_size": 54100142
+}
