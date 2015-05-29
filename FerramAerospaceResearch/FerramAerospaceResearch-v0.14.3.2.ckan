@@ -1,0 +1,45 @@
+{
+  "spec_version": 1,
+  "identifier": "FerramAerospaceResearch",
+  "license": "GPL-3.0",
+  "release_status": "stable",
+  "resources": {
+    "repository": "https://github.com/ferram4/Ferram-Aerospace-Research",
+    "homepage": "http://kerbalspaceprogram.com/forum/showthread.php/20451",
+    "kerbalstuff": "https://kerbalstuff.com/mod/52/Ferram%20Aerospace%20Research"
+  },
+  "provides": [
+    "AerodynamicModel",
+    "FAR"
+  ],
+  "conflicts": [
+    {
+      "name": "AerodynamicModel"
+    }
+  ],
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "install": [
+    {
+      "file": "GameData/FerramAerospaceResearch",
+      "install_to": "GameData"
+    },
+    {
+      "file": "Ships",
+      "install_to": "Ships",
+      "optional": true,
+      "description": "FAR example craft"
+    }
+  ],
+  "ksp_version": "0.25",
+  "name": "Ferram Aerospace Research",
+  "abstract": "FAR replaces KSP's stock mass-based aerodynamics model with one based on real-life physics.",
+  "author": "ferram4",
+  "version": "v0.14.3.2",
+  "download": "https://kerbalstuff.com/mod/52/Ferram%20Aerospace%20Research/download/v0.14.3.2",
+  "x_generated_by": "netkan",
+  "download_size": 176527
+}

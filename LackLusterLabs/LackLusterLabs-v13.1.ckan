@@ -1,0 +1,36 @@
+{
+    "spec_version": 1,
+    "identifier"  : "LackLusterLabs",
+    "name"        : "Lack Luster Labs",
+    "author"      : [ "Lack", "MrWizerd" ],
+    "version"     : "13.1",
+    "abstract"    : "Inspired by shows and movies like Space: 1999 and Moon; the parts are big, boxy and in space (providing you get them out the atmosphere. You might want something like Extraplanetary launchpads)",
+    "ksp_version" : "0.90",
+    "license"     : "CC-BY-NC-SA-4.0",
+
+    "download"	:	"https://dl.dropboxusercontent.com/u/39086055/LLL-13.1.zip",
+	
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/102237"
+    },
+	
+	"depends": [
+        { "name": "ModuleManager" },
+        { "name": "FirespitterCore" }
+    ],
+	
+	"recommends": [
+        { "name": "TweakScale" }
+    ],
+	
+	"suggests": [
+        { "name": "LackLusterLabsExtra" }
+    ],
+	
+    "install"	: [
+        {
+            "file"       : "GameData/LLL",
+            "install_to" : "GameData"
+        }
+	]
+}

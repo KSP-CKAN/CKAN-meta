@@ -1,0 +1,31 @@
+{
+  "spec_version": 1,
+  "identifier": "FinePrint-Config-Stock",
+  "name": "FinePrint - Stock Configuration",
+  "abstract": "Stock configuration files for FinePrint",
+  "license": "GPL-3.0",
+  "provides": [
+    "FinePrint-Config"
+  ],
+  "conflicts": [
+    {
+      "name": "FinePrint-Config"
+    }
+  ],
+  "install": [
+    {
+      "file": "FinePrint",
+      "install_to": "GameData",
+      "filter_regexp": "^(?!FinePrint/FinePrint.cfg)"
+    }
+  ],
+  "resources": {
+    "homepage": "http://forum.kerbalspaceprogram.com/threads/88445-0-24-2-Fine-Print-v0-5a-Formerly-Extra-Contracts-(July-27)"
+  },
+  "ksp_version": "0.25",
+  "author": "Arsonide",
+  "version": "0.59",
+  "download": "https://dl.dropboxusercontent.com/u/1032313/FinePrint-0.59.zip",
+  "x_generated_by": "netkan",
+  "download_size": 210864
+}
