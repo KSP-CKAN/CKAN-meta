@@ -1,0 +1,45 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DunaPlus",
+    "license": "CC-BY",
+    "depends": [
+        {
+            "name": "KopernicusTech"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "EvePlus"
+        }
+    ],
+    "install": [
+        {
+            "find": "DunaPlus",
+            "install_to": "GameData"
+        },
+        {
+            "find": "KittopiaSpace",
+            "install_to": "GameData",
+            "filter": [
+                "Help.cr_help",
+                "StarFix.cfg",
+                "plugins"
+            ]
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/115174-0-90-AstroGamers-DunaPlus!-(0-1)-The-Second-in-the-series!",
+        "kerbalstuff": "https://kerbalstuff.com/mod/690/AstroGamers%20DunaPlus%20Mod!"
+    },
+    "ksp_version": "0.90",
+    "name": "AstroGamers DunaPlus Mod!",
+    "abstract": "Eve got it's share, why not Duna?",
+    "author": "AstroGamer",
+    "version": "0.1",
+    "download": "https://kerbalstuff.com/mod/690/AstroGamers%20DunaPlus%20Mod%21/download/0.1",
+    "x_generated_by": "netkan",
+    "download_size": 63561872
+}
