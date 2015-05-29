@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "KASAIXSClassStock",
+    "license": "GPL-3.0",
+    "x_netkan_license_ok": true,
+    "x_maintained_by": "distantcam",
+    "provides": [
+        "KASAIXSCommandModule",
+        "KASASpacedock"
+    ],
+    "conflicts": [
+        {
+            "name": "KASAIXSCommandModule"
+        },
+        {
+            "name": "KASASpacedock"
+        }
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore"
+        }
+    ],
+    "install": [
+        {
+            "file": "IXS_Class_for_StockKSP/GameData/KASA",
+            "install_to": "GameData/KASAIXSClassStock"
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/92816-NASA-IXS-Class-Warpship-and-Spacedocks-For-KSP-I-and-Stock-KSP",
+        "kerbalstuff": "https://kerbalstuff.com/mod/146/KASA%20-%20IXS%20Class%201.0%20for%20Stock-KSP"
+    },
+    "ksp_version": "0.24.2",
+    "name": "KASA - IXS Class 1.0 for Stock-KSP",
+    "abstract": "A basegame version of the IXS Class mod with no requirements other than firespitter.",
+    "author": "KASA",
+    "version": "1.0",
+    "download": "https://kerbalstuff.com/mod/146/KASA%20-%20IXS%20Class%201.0%20for%20Stock-KSP/download/1.0",
+    "x_generated_by": "netkan",
+    "download_size": 8071505
+}
