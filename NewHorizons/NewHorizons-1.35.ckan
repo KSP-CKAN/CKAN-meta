@@ -1,0 +1,74 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NewHorizons",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "Kopernicus-Config-Default"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KittopiaTech"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ADIOS"
+        },
+        {
+            "name": "RemoteTech"
+        },
+        {
+            "name": "DeadlyReentry"
+        }
+    ],
+    "supports": [
+        {
+            "name": "Regolith"
+        }
+    ],
+    "provides": [
+        "PlanetPack"
+    ],
+    "conflicts": [
+        {
+            "name": "KopernicusTech"
+        },
+        {
+            "name": "PlanetPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "New_Horizons",
+            "install_to": "GameData"
+        },
+        {
+            "find": "KittopiaSpace",
+            "install_to": "GameData",
+            "filter": [
+                "StarFix.cfg",
+                "Help.cr_help",
+                "plugins",
+                "Textures"
+            ]
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/114092-0-90-KopernicusTech-New-Horizons-v1-0",
+        "kerbalstuff": "https://kerbalstuff.com/mod/661/New%20Horizons"
+    },
+    "ksp_version": "0.90",
+    "name": "New Horizons",
+    "abstract": "Featuring an entirely new roster of planets, and an entirely different solar layout, experience a challenge the Kerbol system has never provided before!",
+    "author": "KillAshley",
+    "version": "1.35",
+    "download": "https://kerbalstuff.com/mod/661/New%20Horizons/download/1.35",
+    "x_generated_by": "netkan",
+    "download_size": 186764847
+}
