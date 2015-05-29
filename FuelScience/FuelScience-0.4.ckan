@@ -1,0 +1,36 @@
+{
+    "spec_version": 1,
+    "identifier": "FuelScience",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/67359"
+    },
+    "install": [
+        {
+            "file": "GameData/ArcanumIndustries",
+            "install_to": "GameData",
+            "comment" : "We need to filter out some configs which otherwise result in duplicate parts; these are already in StationScience, which this depends upon",
+            "filter": [
+                "exper01PlantGrowth.cfg",
+                "exper02ProgradeKuarqs.cfg",
+                "exper03RetrogradeKuarqs.cfg",
+                "exper04EccentricKuarqs.cfg",
+                "exper05CreatureComforts.cfg",
+                "exper06KuarqBioactivity.cfg"
+            ]
+        }
+    ],
+    "depends": [
+        {
+            "name": "StationScience"
+        }
+    ],
+    "ksp_version_min": "0.23.5",
+    "ksp_version_max": "0.90",
+    "name": "Fuel Science",
+    "abstract": "An addition to the Station Science mod by ethernet.",
+    "description": "Included in this mod are three new experiments located in the fuel branches of the tech tree, to help balance the science-heavy electrics side.",
+    "author": "ArcaneZedric",
+    "version": "0.4",
+    "download": "https://dl.dropboxusercontent.com/u/4943779/CostlyScience/CostlyScience_v0.4.zip"
+}

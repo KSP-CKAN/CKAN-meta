@@ -1,0 +1,29 @@
+{
+    "spec_version"   : 1,
+    "name"           : "ExtraPlanetaryLaunchpads->Regolith",
+    "identifier"     : "ExtraPlanetaryLaunchpads-RegolithAdaptation",
+    "abstract"       : "This is not a Fork of Extraplanetary Launchpads, just a module manager adaption with all the necessary files to accomplish resource gathering with EPL.",
+    "download"       : "https://dl.dropboxusercontent.com/u/19908938/Karbonite-EPL-Converstion23.zip",
+    "license"        : "unknown",
+    "author"         : "rabidninjawombat",
+    "version"        : "0.23",
+    "release_status" : "stable",
+    "ksp_version"    : "0.90",
+    "resources"      : {
+          "homepage" : "http://forum.kerbalspaceprogram.com/threads/89774"
+    },
+    "depends" : [
+    	{"name" : "ModuleManager"},
+	{"name" : "ExtraPlanetaryLaunchpads"},
+	{"name" : "Regolith"}
+    ],
+    "recommends" : [
+    	{"name" : "Karbonite"}
+    ],
+    "install" : [
+        {
+            "file"       : "GameData/WombatConversions",
+            "install_to" : "GameData"
+        }
+    ]
+}

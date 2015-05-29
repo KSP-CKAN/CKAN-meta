@@ -1,0 +1,25 @@
+{
+    "spec_version" : 1,
+    "name"         : "HotRockets - Community Configs",
+    "abstract"     : "Community configs for popular partpacks",
+    "identifier"   : "HotRocketsCommunityConfigs",
+    "download"     : "http://addons-origin.cursecdn.com/files/2216/165/HotRockets_Community_CFGs.zip",
+    "license"      : "CC-BY-NC",
+    "author"       : [ "Nazari1382" ],
+    "version"      : "7.25",
+    "release_status" : "stable",
+    "ksp_version_min"  : "0.25",
+	"ksp_version_max"	: "0.90",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/65754"
+    },
+    "install" : [
+        {
+            "file"       : "MP_Nazari",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "HotRockets", "max_version" : "7.25" }
+    ]
+}

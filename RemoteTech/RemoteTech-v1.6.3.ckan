@@ -1,0 +1,34 @@
+{
+    "spec_version": 1,
+    "identifier": "RemoteTech",
+    "ksp_version": "0.90",
+    "license": "restricted",
+    "release_status": "stable",
+    "x_netkan_license_ok": true,
+    "resources": {
+        "repository": "https://github.com/RemoteTechnologiesGroup/RemoteTech",
+        "bugtracker": "https://github.com/RemoteTechnologiesGroup/RemoteTech/issues",
+        "manual": "http://remotetechnologiesgroup.github.io/RemoteTech/"
+    },
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.3.1",
+            "comment": "Earlier versions of MM have forward compatibility problems, according to the MM release notes."
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/RemoteTech",
+            "install_to": "GameData"
+        }
+    ],
+    "name": "RemoteTech",
+    "abstract": "RemoteTech allows you to construct vast relay networks of communication satellites and remotely controlled unmanned vehicles. Your unmanned vessels require an uplink to a command station to be controlled. This adds a new layer of difficulty that compensates for the lack of live crew members.",
+    "author": "Remote Technologies Group",
+    "x_maintained_by": "Starstrider42",
+    "version": "v1.6.3",
+    "download": "https://github.com/RemoteTechnologiesGroup/RemoteTech/releases/download/v1.6.3/RemoteTech-1.6.3.zip",
+    "x_generated_by": "netkan",
+    "download_size": 5432743
+}

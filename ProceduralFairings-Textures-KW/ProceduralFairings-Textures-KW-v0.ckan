@@ -1,0 +1,24 @@
+{
+	"spec_version": 1,
+	"identifier": "ProceduralFairings-Textures-KW",
+	"ksp_version_min": "0.23.5",
+	"resources": 
+	{
+		"homepage": "http://forum.kerbalspaceprogram.com/threads/68892"
+	},
+	"name": "blackheart612's KW Procedural Fairings",
+	"license": "CC-BY-NC-ND-3.0",
+	"abstract": "First of all, these models are not mine but are from KW Rocketry, all credits goes to Kickasskyle and Winston.  These are just some stuff I did to put KW stuff to Procedural Fairings.",
+	"author": "blackheart612",
+	"version": "0",
+	"download": "https://www.dropbox.com/s/imbco59m751ziyg/KWzit%202-6-14.zip?dl=1",
+	"comment" : "Hand packaged by Felger, if anything's wrong, it's my fault.",
+	"depends" : [ { "name" : "ProceduralFairings" } ],
+	"provides": [ "PFTextures" ],
+	"install": [
+        {
+            "file"       : "GameData/blackheart",
+            "install_to" : "GameData"
+        }
+    ]
+}

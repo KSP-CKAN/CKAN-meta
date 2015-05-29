@@ -1,0 +1,41 @@
+{
+    "spec_version": 1,
+    "identifier": "Firespitter",
+    "name": "Firespitter",
+    "abstract": "Propeller plane and helicopter parts",
+    "license": "restricted",
+    "x_netkan_force_v": true,
+    "resources": {
+        "homepage": "http://snjo.github.io/",
+        "repository": "https://github.com/snjo/Firespitter"
+    },
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "7.1"
+        },
+        {
+            "name": "FirespitterResourcesConfig"
+        }
+    ],
+    "install": [
+        {
+            "file": "Firespitter",
+            "install_to": "GameData",
+            "filter": [
+                "Firespitter.dll",
+                "FSFuelSwitchTweakScale.cfg",
+                "Firespitter.version",
+                "Resources",
+                "Old Example Craft.zip"
+            ],
+            "comment": "The DLL is installed from FirespitterCore"
+        }
+    ],
+    "author": "BobPalmer",
+    "version": "v7.1.3",
+    "download": "https://github.com/snjo/Firespitter/releases/download/v7.1.3/Firespitter_7.1.3.zip",
+    "x_generated_by": "netkan",
+    "download_size": 37438183,
+    "ksp_version": "1.0.2"
+}

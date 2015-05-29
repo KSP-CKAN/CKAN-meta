@@ -1,0 +1,41 @@
+{
+    "spec_version": 1,
+    "identifier": "ActiveTextureManagement-x64-Basic",
+    "name": "Active Texture Management - X64 - Basic",
+    "abstract": "x64 basic texture compression to DXT1 and DXT5",
+    "author": "rbray89",
+    "ksp_version": "0.90",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/59005",
+        "repository": "https://github.com/rbray89/ActiveTextureManagement/asset_match/x64-Basic-*"
+    },
+    "license": "MIT",
+    "x_netkan_license_ok": true,
+    "install": [
+        {
+            "file": "GameData/ActiveTextureManagement",
+            "install_to": "GameData"
+        }
+    ],
+    "provides": [
+        "ActiveTextureManagement"
+    ],
+    "conflicts": [
+        {
+            "name": "ActiveTextureManagement-Aggressive"
+        },
+        {
+            "name": "ActiveTextureManagement-x64-Aggressive"
+        },
+        {
+            "name": "ActiveTextureManagement-x86-Basic"
+        },
+        {
+            "name": "ActiveTextureManagement-x86-Aggressive"
+        }
+    ],
+    "version": "4-3",
+    "download": "https://github.com/rbray89/ActiveTextureManagement/releases/download/4-3/x64-Basic-Release.zip",
+    "x_generated_by": "netkan",
+    "download_size": 78522
+}

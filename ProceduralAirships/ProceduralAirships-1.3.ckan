@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ProceduralAirships",
+    "name": "Procedural Airships",
+    "abstract": "Procedural Airships - A ProceduralParts Expansion",
+    "author": [
+        "RadarManFromTheMoon",
+        "ItMustBeACamel"
+    ],
+    "license": "GPL-3.0",
+    "depends": [
+        {
+            "name": "ProceduralParts"
+        }
+    ],
+    "install": [
+        {
+            "find": "ProcAirships",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships",
+            "install_to": "Ships"
+        },
+        {
+            "file": "saves",
+            "install_to": "Tutorial"
+        }
+    ],
+    "resources": {
+        "repository": "https://github.com/ItMustBeACamel/ProcAirships"
+    },
+    "version": "1.3",
+    "download": "https://github.com/ItMustBeACamel/ProcAirships/releases/download/1.3/ProcAirships-1.3.zip",
+    "x_generated_by": "netkan",
+    "download_size": 137050,
+    "ksp_version": "0.90.0"
+}

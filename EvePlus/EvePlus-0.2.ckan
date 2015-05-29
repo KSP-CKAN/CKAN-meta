@@ -1,0 +1,45 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "EvePlus",
+    "license": "CC-BY",
+    "depends": [
+        {
+            "name": "KopernicusTech"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "DunaPlus"
+        }
+    ],
+    "install": [
+        {
+            "find": "EvePlus",
+            "install_to": "GameData"
+        },
+        {
+            "find": "KittopiaSpace",
+            "install_to": "GameData",
+            "filter": [
+                "Help.cr_help",
+                "StarFix.cfg",
+                "plugins"
+            ]
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/115016-0-90-AstroGamer-s-EvePlus-Mod-(v0-1)?p=1825751#post1825751",
+        "kerbalstuff": "https://kerbalstuff.com/mod/685/AstroGamer's%20EvePlus%20Mod"
+    },
+    "ksp_version": "0.90",
+    "name": "AstroGamer's EvePlus Mod",
+    "abstract": "This adds new moons to Eve! But Gilly is still the smallest.",
+    "author": "AstroGamer",
+    "version": "0.2",
+    "download": "https://kerbalstuff.com/mod/685/AstroGamer%27s%20EvePlus%20Mod/download/0.2",
+    "x_generated_by": "netkan",
+    "download_size": 29920497
+}

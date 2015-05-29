@@ -1,0 +1,25 @@
+{
+    "spec_version" : 1,
+    "name"         : "HotRockets! Particle FX Replacement",
+    "abstract"     : "Replacement for stock engine particle FX",
+    "identifier"   : "HotRockets",
+    "download"     : "http://addons.cursecdn.com/files/2216%5C167/HotRockets_7.25_CorePack.zip",
+    "license"      : "CC-BY-NC",
+    "author"       : [ "Nazari1382" ],
+    "version"      : "7.25",
+    "release_status" : "stable",
+    "ksp_version"  : "0.25",
+    "resources" : {
+        "homepage" : "http://forum.kerbalspaceprogram.com/threads/65754"
+    },
+    "install" : [
+        {
+            "file"       : "MP_Nazari",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends" : [
+        { "name" : "ModuleManager", "min_version" : "2.5.1" },
+		{ "name" : "SmokeScreen", "min_version" : "2.5.0" }
+    ]
+}

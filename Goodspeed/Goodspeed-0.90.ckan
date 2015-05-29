@@ -1,0 +1,28 @@
+{
+ 	"spec_version" : 1,
+ 	"identifier" : "Goodspeed",
+ 	"ksp_version" : "0.90",
+ 	"resources" : {
+ 		"homepage" : "http://forum.kerbalspaceprogram.com/threads/63109"
+ 	},
+ 	"name" : "Goodspeed Automatic Fuel Pump",
+ 	"license" : "GPL-3.0",
+ 	"abstract" : "Automatically balance or pump fuel between tanks.",
+ 	"author" : "Gaius",
+ 	"version" : "0.90",
+ 	"comment" : "0.90 recompile of 2.14.1 by Kolago http://forum.kerbalspaceprogram.com/threads/67163?p=1622077#post1622077",
+ 	"download" : "https://www.dropbox.com/s/pru2gr9qrty94f9/Goodspeed_for_0.90.zip?dl=1",
+ 	"install" : [
+ 		{
+ 			"file" : "Goodspeed",
+ 			"install_to" : "GameData",
+ 			"filter" : [
+ 				"Pump.cs",
+ 				"Makefile"
+ 			]
+ 		}
+ 	],
+ 	"recommends" : [
+ 		{ "name" : "ModuleManager" }
+]
+}

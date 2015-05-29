@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ModuleAnimateEmissive",
+    "name": "Animate Emissive Module",
+    "abstract": "ModuleAnimateEmissive replaces ModuleAnimateHeat with a more flexible, configurable module.",
+    "license": "LGPL-2.1",
+    "release_status": "stable",
+    "install": [
+        {
+            "find": "SolverEngines",
+            "install_to": "GameData",
+            "filter": [
+                "Icons",
+                "PluginData",
+                "SolverEngines.dll",
+                "Readme_SolverEngines.txt"
+            ]
+        }
+    ],
+    "resources": {
+        "repository": "https://github.com/KSP-RO/SolverEngines"
+    },
+    "author": "NathanKell",
+    "version": "v1.0",
+    "download": "https://github.com/KSP-RO/SolverEngines/releases/download/v1.0/SolverEngines_v1.zip",
+    "x_generated_by": "netkan",
+    "download_size": 32662
+}

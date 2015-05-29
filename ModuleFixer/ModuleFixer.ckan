@@ -1,0 +1,33 @@
+{
+	"spec_version": 1,
+	"identifier": "ModuleFixer",
+	"ksp_version_min" : "0.25",
+	"ksp_version_max" : "0.90",
+	"comment"		: "Updated to 0.90 compatible by Daz based on 0.90 mods still using it",
+	"resources": 
+	{
+		"homepage": "http://forum.kerbalspaceprogram.com/threads/63109"
+	},
+	"conflicts" : [ { "name" : "Karbonite" },
+					{ "name" : "KarbonitePlus" },
+					{ "name" : "AlcubierreStandalone" },
+					{ "name" : "USI-ART" },
+					{ "name" : "USI-EXP" },
+					{ "name" : "USI-FTT" },
+					{ "name" : "USI-SRV" },
+					{ "name" : "USITools" },
+					{ "name" : "UKS" } ],
+	"name": "Module Fixer",
+	"license": "GPL-3.0",
+	"abstract": "This fixes the problems of exploding/expanding parts in the VAB while hovering over some parts in some mods.",
+	"author": "arsenic87",
+	"version": "3",
+	"download": "https://www.dropbox.com/s/ykqj3g0ilprg6b1/ModuleFixer.zip?dl=1",
+	"comment" : "Hand packaged by Felger, if anything's wrong, it's my fault.",
+	"install": [
+        {
+            "file"       : "ModuleFixer",
+            "install_to" : "GameData"
+        }
+    ]
+}

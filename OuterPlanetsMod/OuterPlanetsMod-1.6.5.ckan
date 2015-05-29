@@ -1,0 +1,94 @@
+{
+    "identifier": "OuterPlanetsMod",
+    "license": "CC-BY-NC-SA-4.0",
+    "spec_version": "v1.4",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KopernicusTech"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "NearFuturePropulsion"
+        },
+        {
+            "name": "NearFutureElectrical"
+        },
+        {
+            "name": "NearFutureSolar"
+        },
+        {
+            "name": "TransferWindowPlanner"
+        },
+        {
+            "name": "TimeControl"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "FinalFrontier"
+        },
+        {
+            "name": "Karbonite"
+        },
+        {
+            "name": "CustomAsteroids"
+        },
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "provides": [
+        "PlanetPack"
+    ],
+    "conflicts": [
+        {
+            "name": "PlanetPack"
+        },
+        {
+            "name": "KSPInterstellar",
+            "comment": "Thread specificies compatibility with KSPI-Extended but warns for KSPI"
+        }
+    ],
+    "install": [
+        {
+            "find": "OPM",
+            "install_to": "GameData"
+        },
+        {
+            "find": "CustomAsteroids",
+            "install_to": "GameData"
+        },
+        {
+            "find": "TextureReplacer",
+            "install_to": "GameData"
+        },
+        {
+            "find": "KittopiaSpace",
+            "install_to": "GameData",
+            "filter": [
+                "StarFix.cfg",
+                "Help.cr_help",
+                "Plugins"
+            ]
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/104280-0-90-Outer-Planet-Mods-Expands-the-Kerbol-system-with-new-planets-based-on-Saturn",
+        "kerbalstuff": "https://kerbalstuff.com/mod/437/Outer%20Planets%20Mod"
+    },
+    "ksp_version": "1.0",
+    "name": "Outer Planets Mod",
+    "abstract": "Expands the Kerbol system with new planets and moons based on Saturn, Uranus, Neptune and their moons",
+    "author": "CaptRobau",
+    "version": "1.6.5",
+    "download": "https://kerbalstuff.com/mod/437/Outer%20Planets%20Mod/download/1.6.5",
+    "x_generated_by": "netkan",
+    "download_size": 53975255
+}

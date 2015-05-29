@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbolPlus",
+    "license": "CC-BY-NC-SA",
+    "depends": [
+        {
+            "name": "KopernicusTech"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "provides": [
+        "PlanetPack"
+    ],
+    "conflicts": [
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "KittopiaTech"
+        },
+        {
+            "name": "PlanetPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "Kerbol+",
+            "install_to": "GameData"
+        },
+        {
+            "find": "KittopiaSpace",
+            "install_to": "GameData",
+            "filter": [
+                "StarFix.cfg",
+                "Help.cr_help",
+                "plugins",
+                "KittopiaSpace/Textures/Default"
+            ]
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/118643-1-0-Kopernicus-KerbolPlus-v-2-0-a-planet-pack-that-ads-the-legendary-Gas-Planet-2-and-many-more?p=1893529#post1893529",
+        "kerbalstuff": "https://kerbalstuff.com/mod/628/Kerbol%20Plus"
+    },
+    "ksp_version": "1.0",
+    "name": "Kerbol Plus",
+    "abstract": "This mod aims to expand the stock kerbol system with 2 more gas giants and lots of moons.",
+    "author": "amarius2",
+    "version": "1.5.5",
+    "download": "https://kerbalstuff.com/mod/628/Kerbol%20Plus/download/1.5.5",
+    "x_generated_by": "netkan",
+    "download_size": 69891909
+}

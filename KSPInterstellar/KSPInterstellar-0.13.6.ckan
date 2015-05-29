@@ -1,0 +1,40 @@
+{
+    "spec_version"      : 1,
+    "identifier"        : "KSPInterstellar",
+    "name"              : "KSP Interstellar",
+    "author"            : [ "Fractal_UK", "Boris-Barboris" ],
+    "version"           : "0.13.6",
+    "abstract"          : "Advanced tech",
+    "release_status"    : "development",
+    "ksp_min_version"   : "0.90",
+    "license"           : "restricted",
+    "x_maintained_by"   : "hakan42 who would like to fly like Scott Manley",
+
+    "download"          : "https://dl.dropboxusercontent.com/u/23572905/KSP_Mods/Interstellar_090_0136.zip",
+
+    "resources" : {
+        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/104943",
+        "repository" : "https://github.com/Boris-Barboris/KSPInterstellar"
+    },
+
+    "depends": [
+        { "name": "CommunityResourcePack" },
+        { "name": "ModuleManager" },
+        { "name": "Toolbar" },
+
+        { "name": "TechManager" },
+
+        { "name": "TweakScale" }
+    ],
+
+    "install": [
+        {
+            "file"       : "WarpPlugin",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "ORSResourcePack",
+            "install_to" : "GameData"
+        }
+    ]
+}
