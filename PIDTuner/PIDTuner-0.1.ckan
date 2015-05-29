@@ -1,0 +1,36 @@
+{
+    "identifier": "PIDTuner",
+    "spec_version": "v1.2",
+    "license": "BSD-2-clause",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "Tuner/GameData/PIDTune",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Tuner/LICENSE.txt",
+            "install_to": "GameData/PIDTune"
+        },
+        {
+            "file": "Tuner/README.txt",
+            "install_to": "GameData/PIDTune"
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/117893",
+        "kerbalstuff": "https://kerbalstuff.com/mod/765/PID%20Tuner"
+    },
+    "ksp_version": "1.0.2",
+    "name": "PID Tuner",
+    "abstract": "Exposes the default SAS PID tuning controls so you can tweak them on a per-craft basis",
+    "author": "regex",
+    "version": "0.1",
+    "download": "https://kerbalstuff.com/mod/765/PID%20Tuner/download/0.1",
+    "x_generated_by": "netkan",
+    "download_size": 11365
+}
