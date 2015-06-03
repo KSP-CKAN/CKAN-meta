@@ -1,7 +1,6 @@
 {
     "spec_version": 1,
     "identifier": "ZeroPointInlineFairings",
-    "ksp_version_max": "0.90",
     "license": "CC-BY-NC-SA",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/94427",
@@ -18,11 +17,31 @@
             "name": "ZeroPointInlineFairings-Lite"
         }
     ],
+    "depends": [
+        {
+            "name": "FerramAerospaceResearch"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ModularRocketSystem"
+        },
+        {
+            "name": "SpaceY-Lifters"
+        },
+        {
+            "name": "ColorCodedCans"
+        },
+        {
+            "name": "FuelTanksPlus"
+        }
+    ],
     "name": "Zero Point Inline Fairings",
     "abstract": "A stock-alike pack of inline fairings that allow for optional additional stacking above.",
     "author": "NecroBones",
     "version": "1.0",
     "download": "https://kerbalstuff.com/mod/196/Zero%20Point%20Inline%20Fairings/download/1.0",
     "x_generated_by": "netkan",
-    "download_size": 2789658
+    "download_size": 2789658,
+    "ksp_version_min": "1.0.1"
 }
