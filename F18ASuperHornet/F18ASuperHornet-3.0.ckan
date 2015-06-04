@@ -5,6 +5,9 @@
     "depends": [
         {
             "name": "AdjustableLandingGear"
+        },
+        {
+            "name": "AircraftIVAHelmet"
         }
     ],
     "recommends": [
@@ -15,7 +18,8 @@
     "install": [
         {
             "file": "F18A_Hornet",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": "Thumbs.db"
         }
     ],
     "resources": {
