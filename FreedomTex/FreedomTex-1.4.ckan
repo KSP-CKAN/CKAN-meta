@@ -1,16 +1,26 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "FreedomTex",
     "x_netkan_license_ok": true,
+    "ksp_version_min": "0.90",
+    "install": [
+        {
+            "find": "FreedomTex",
+            "install_to": "GameData",
+            "filter": ".DS_Store"
+        }
+    ],
     "depends": [
         {
             "name": "ProceduralParts"
+        },
+        {
+            "name": "ModuleManager"
         }
     ],
     "resources": {
         "kerbalstuff": "https://kerbalstuff.com/mod/371/JebediahKerman42's%20Procedural%20Parts%20Textures%20a.k.a.%20FreedomTex"
     },
-    "ksp_version": "0.90",
     "name": "JebediahKerman42's Procedural Parts Textures a.k.a. FreedomTex",
     "license": "MIT",
     "abstract": "A collection of requested textures for use with Procedural Parts.",
