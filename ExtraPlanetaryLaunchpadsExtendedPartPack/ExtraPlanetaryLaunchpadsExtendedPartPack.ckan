@@ -1,0 +1,34 @@
+{
+    "spec_version": 1,
+    "identifier": "ExtraPlanetaryLaunchpadsExtendedPartPack",
+    "license": "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/89774"
+    },
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ExtraPlanetaryLaunchpads"
+        }
+    ],
+    "conflicts":[
+        {
+            "name": "ExtraPlanetaryLaunchpads-RegolithAdaptation"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/WombatConversions",
+            "install_to": "GameData"
+        }
+    ],
+    "ksp_version": "1.0.2",
+    "name": "ExtraPlanetary LaunchPads Extended-Part Pack",
+    "abstract": "This pack is a part pack with new parts to work with Extraplanetary Launchpads.",
+    "author": "rabidninjawombat",
+    "version": "50",
+    "download": "https://dl.dropboxusercontent.com/u/19908938/EPL_Extended.zip"
+}
