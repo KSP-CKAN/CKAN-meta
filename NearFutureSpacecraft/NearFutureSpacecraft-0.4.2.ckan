@@ -3,15 +3,32 @@
     "identifier": "NearFutureSpacecraft",
     "depends": [
         {
-            "name": "RasterPropMonitor-Core"
-        },
-        {
             "name": "NearFutureProps"
         }
     ],
     "suggests": [
         {
             "name": "CommunityTechTree"
+        },
+        {
+            "name": "NearFutureSolar"
+        },
+        {
+            "name": "NearFutureConstruction"
+        },
+        {
+            "name": "NearFutureElectrical"
+        },
+        {
+            "name": "NearFuturePropulsion"
+        }
+    ],
+    "supports": [
+        {
+            "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "RasterPropMonitor"
         }
     ],
     "install": [
@@ -20,7 +37,7 @@
             "install_to": "GameData"
         }
     ],
-    "license": "CC-BY-NC-SA-3.0",
+    "license": "CC-BY-NC-SA-4.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/52042-0-21",
         "kerbalstuff": "https://kerbalstuff.com/mod/350/Near%20Future%20Spacecraft%20Parts"
