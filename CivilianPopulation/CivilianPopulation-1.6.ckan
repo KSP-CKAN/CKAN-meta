@@ -1,0 +1,39 @@
+{
+    "identifier": "CivilianPopulation",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "spec_version": "v1.4",
+    "name": "Civilian Population",
+    "license": "GPL-3.0",
+    "install": [
+        {
+            "find": "CivilianManagement",
+            "install_to": "GameData",
+            "filter": [
+                "Regolith.dll",
+                "CivilianManagement.pdb"
+            ]
+        }
+    ],
+    "depends": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Regolith"
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/124162-1-0-2-Civilian-Population-1-5-1-(update-6-4-15)",
+        "kerbalstuff": "https://kerbalstuff.com/mod/620/Civilian%20Population"
+    },
+    "ksp_version": "1.0.2",
+    "abstract": "Civilians have begun exploring space aboard your ships.  Recruit from them and manage them!",
+    "author": "MichaelHester07",
+    "version": "1.6",
+    "download": "https://kerbalstuff.com/mod/620/Civilian%20Population/download/1.6",
+    "x_generated_by": "netkan",
+    "download_size": 21668360
+}
