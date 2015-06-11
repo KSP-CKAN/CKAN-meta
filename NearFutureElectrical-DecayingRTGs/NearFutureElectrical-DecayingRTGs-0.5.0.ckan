@@ -1,8 +1,10 @@
 {
     "spec_version": "v1.4",
     "identifier": "NearFutureElectrical-DecayingRTGs",
-    "name": "NearFutureElectrical Decaying RTGs",
-    "abstract": "Adds decay to RTGs from NearFuture Electrical",
+    "name": "Near Future Electrical Extras: Decaying RTGs Patch",
+    "abstract": "This optional patch makes the power output of RTGs (both stock and Near Future's) shrink over time, like they would in real life.",
+    "release_status": "stable",
+    "license": "CC-BY-NC-SA-4.0",
     "depends": [
         {
             "name": "NearFutureElectrical"
@@ -16,10 +18,9 @@
     "install": [
         {
             "find": "DecayingRTGs",
-            "install_to": "GameData/NearFutureElectrical"
+            "install_to": "GameData/NearFutureElectrical/Extras"
         }
     ],
-    "license": "CC-BY-NC-SA-4.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/52042-0-21",
         "kerbalstuff": "https://kerbalstuff.com/mod/349/Near%20Future%20Electrical"
