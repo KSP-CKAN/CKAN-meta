@@ -1,23 +1,19 @@
 {
     "spec_version": "v1.4",
-    "license": "CC-BY-NC-SA-4.0",
-    "name": "Heat Control Core",
-    "abstract": "The HeatControl.dll, for the whole shebang download Heat Control",
     "identifier": "HeatControl-Core",
+    "name": "HeatControl Core",
+    "abstract": "This is the HeatControl plugin stand-alone, for adding functionality to other mods. It contains no parts and does nothing by itself.",
+    "release_status": "stable",
+    "license": "CC-BY-NC-SA-4.0",
     "suggests": [
         {
             "name": "HeatControl"
         }
     ],
-    "supports": [
-        {
-            "name": "NearFutureElectrical"
-        }
-    ],
     "install": [
         {
-            "find": "Plugin",
-            "install_to": "GameData/HeatControl"
+            "file": "GameData/HeatControl/Plugin/HeatControl.dll",
+            "install_to": "GameData/HeatControl/Plugin"
         }
     ],
     "resources": {
