@@ -1,7 +1,8 @@
 {
     "spec_version": "v1.4",
-    "license": "CC-BY-NC-SA-4.0",
     "identifier": "HeatControl",
+    "release_status": "stable",
+    "license": "CC-BY-NC-SA-4.0",
     "depends": [
         {
             "name": "HeatControl-Core"
@@ -12,14 +13,19 @@
     ],
     "suggests": [
         {
-            "name": "NearFutureElectrical"
+            "name": "CommunityTechTree"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "DeadlyReentry"
         }
     ],
     "install": [
         {
             "find": "HeatControl",
             "install_to": "GameData",
-            "filter": "Plugin"
+            "filter": "HeatControl.dll"
         }
     ],
     "resources": {
