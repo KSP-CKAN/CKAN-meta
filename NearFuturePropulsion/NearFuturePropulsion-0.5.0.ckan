@@ -1,31 +1,39 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "NearFuturePropulsion",
+    "release_status": "stable",
+    "license": "CC-BY-NC-SA-4.0",
     "depends": [
         {
-            "name": "ModuleManager"
+            "name": "CommunityResourcePack"
         },
         {
-            "name": "CommunityResourcePack"
+            "name": "ModuleManager"
         }
     ],
     "recommends": [
         {
-            "name": "NearFutureElectrical"
+            "name": "CommunityTechTree"
         },
         {
-            "name": "CommunityTechTree"
+            "name": "NearFutureElectrical"
         }
     ],
     "suggests": [
         {
-            "name": "NearFutureSolar"
+            "name": "ContractConfigurator-GrandTours"
         },
         {
             "name": "NearFutureConstruction"
         },
         {
-            "name": "contractConfigurator-GrandTours"
+            "name": "NearFuturePropulsionNTRConfigs"
+        },
+        {
+            "name": "NearFuturePropulsionReducedThrust"
+        },
+        {
+            "name": "NearFutureSolar"
         },
         {
             "name": "NearFutureSpacecraft"
@@ -34,7 +42,17 @@
             "name": "OuterPlanetsMod"
         }
     ],
-    "license": "CC-BY-NC-SA-4.0",
+    "supports": [
+        {
+            "name": "CrossFeedEnabler"
+        }
+    ],
+    "install": [
+        {
+            "find": "NearFuturePropulsion",
+            "install_to": "GameData"
+        }
+    ],
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/52042-0-21",
         "kerbalstuff": "https://kerbalstuff.com/mod/347/Near%20Future%20Propulsion"
