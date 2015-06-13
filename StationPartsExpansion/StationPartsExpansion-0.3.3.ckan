@@ -1,19 +1,14 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "StationPartsExpansion",
+    "release_status": "stable",
     "license": "CC-BY-NC-SA-4.0",
-    "install": [
-        {
-            "file": "GameData/StationPartsExpansion",
-            "install_to": "GameData"
-        }
-    ],
     "depends": [
         {
-            "name": "NearFutureProps"
+            "name": "ModuleManager"
         },
         {
-            "name": "ModuleManager"
+            "name": "NearFutureProps"
         }
     ],
     "recommends": [
@@ -23,33 +18,34 @@
     ],
     "suggests": [
         {
-            "name": "ContractConfigurator-KerbinSpaceStation"
-        },
-        {
             "name": "ContractConfigurator-Tourism"
         },
         {
-            "name": "NearFutureSolar"
+            "name": "ContractConfigurator-KerbinSpaceStation"
         },
         {
             "name": "NearFutureConstruction"
         },
         {
+            "name": "NearFutureSolar"
+        },
+        {
             "name": "NearFutureSpacecraft"
-        },
-        {
-            "name": "NearFutureElectrical"
-        },
-        {
-            "name": "NearFuturePropulsion"
         }
     ],
+    "comment": "Eventually suggest ContractConfigurator-UsefulSpaceStations after conflict checking works in suggestion wizard",
     "supports": [
         {
-            "name": "RasterPropMonitor"
+            "name": "RasterPropMonitor-Core"
         },
         {
             "name": "ConnectedLivingSpace"
+        }
+    ],
+    "install": [
+        {
+            "find": "StationPartsExpansion",
+            "install_to": "GameData"
         }
     ],
     "resources": {
