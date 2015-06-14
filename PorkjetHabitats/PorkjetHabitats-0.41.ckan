@@ -1,0 +1,22 @@
+{
+    "spec_version": 1,
+    "identifier": "PorkjetHabitats",
+    "name": "Habitat Pack",
+    "abstract": "Provides a variety of habitat modules and base building parts to give players the ability to colonize space in a more realistic way.",
+    "author": "Porkjet",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/64442"
+    },
+    "version": "0.41",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.2",
+    "download": "https://www.dropbox.com/s/gpg05jlsvc81u7q/Habitat%20Pack%2004.1.zip?dl=1",
+    "depends": [
+        { "name": "FirespitterCore" },
+        { "name": "LayeredAnimations" }
+    ],
+    "install": [
+        { "file": "GameData/HabitatPack", "install_to": "GameData", "filter": "Habitat.cs" }
+    ]
+}
