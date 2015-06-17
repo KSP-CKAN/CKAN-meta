@@ -2,7 +2,7 @@
     "spec_version": "v1.2",
     "name": "Realism Overhaul",
     "identifier": "RealismOverhaul",
-    "abstract": "Multipatch to KSP to give things realistic stats and sizes",
+    "abstract": "Multipatch to KSP to give spacecraft components realistic stats and sizes, and performance based on real-world spacecraft.",
     "license": "CC-BY-SA",
     "release_status": "stable",
     "depends": [
@@ -11,9 +11,6 @@
         },
         {
             "name": "CrossFeedEnabler"
-        },
-        {
-            "name": "DDSLoader"
         },
         {
             "name": "FerramAerospaceResearch"
@@ -31,12 +28,12 @@
             "name": "RealFuels"
         },
         {
-            "name": "RealSolarSystem"
+            "name": "SmokeScreen"
         }
     ],
     "recommends": [
         {
-            "name": "ActiveTextureManagement"
+            "name": "B9AerospaceProceduralParts"
         },
         {
             "name": "BetterBuoyancy"
@@ -46,9 +43,6 @@
         },
         {
             "name": "DeadlyReentry"
-        },
-        {
-            "name": "EngineIgnitor"
         },
         {
             "name": "FilterExtensions"
@@ -66,15 +60,6 @@
             "name": "ModuleFixer"
         },
         {
-            "name": "NBody"
-        },
-        {
-            "name": "PartCatalog"
-        },
-        {
-            "name": "ProceduralDynamics"
-        },
-        {
             "name": "ProceduralFairings"
         },
         {
@@ -84,10 +69,7 @@
             "name": "RealChute"
         },
         {
-            "name": "RealPlume"
-        },
-        {
-            "name": "RealHeat"
+            "name": "RealSolarSystem"
         },
         {
             "name": "RemoteTech"
@@ -96,19 +78,25 @@
             "name": "RemoteTech-Config-RSS"
         },
         {
+            "name": "SemiSaturatableRW"
+        },
+        {
             "name": "TACLS"
         },
         {
             "name": "TACLS-Config-RealismOverhaul"
         },
         {
+            "name": "TestFlight"
+        },
+        {
+            "name": "TestFlightConfigRO"
+        },
+        {
             "name": "TextureReplacer"
         },
         {
             "name": "Toolbar"
-        },
-        {
-            "name": "TweakScale"
         }
     ],
     "suggests": [
@@ -209,9 +197,7 @@
     "install": [
         {
             "file": "GameData/RealismOverhaul",
-            "install_to": "GameData",
-            "comment": "This regexp skips the Smokescreen folders",
-            "filter_regexp": "SmokeScreen_"
+            "install_to": "GameData"
         },
         {
             "file": "GameData/KAS",
