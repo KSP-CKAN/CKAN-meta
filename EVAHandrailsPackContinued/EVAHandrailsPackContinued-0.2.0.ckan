@@ -1,0 +1,37 @@
+{
+    "spec_version": 1,
+    "identifier": "EVAHandrailsPackContinued",
+    "license": "CC-BY-SA-3.0",
+    "conflicts": [
+        {
+            "name": "NebulaEVAHandrails"
+        }
+    ],
+    "provides": [
+        "NebulaEVAHandrails"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.5"
+        }
+    ],
+    "install": [
+        {
+            "file": "NEBULA",
+            "install_to": "GameData",
+            "filter_regexp": "ModuleManager.+\\.dll"
+        }
+    ],
+    "resources": {
+        "kerbalstuff": "https://kerbalstuff.com/mod/929/EVA%20Handrails%20Pack%20Continued"
+    },
+    "ksp_version": "1.0.2",
+    "name": "EVA Handrails Pack Continued",
+    "abstract": "An update of the older NEBULA EVA Handrails Pack, with some added parts",
+    "author": "linuxgurugamer",
+    "version": "0.2.0",
+    "download": "https://kerbalstuff.com/mod/929/EVA%20Handrails%20Pack%20Continued/download/0.2.0",
+    "x_generated_by": "netkan",
+    "download_size": 145193
+}
