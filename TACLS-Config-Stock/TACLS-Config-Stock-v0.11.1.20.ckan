@@ -25,6 +25,18 @@
             "filter_regexp": "^(?!GameData/ThunderAerospace/TacLifeSupport/PluginData/TacLifeSupport/LifeSupport.cfg)"
         }
     ],
+    "x_netkan_override": [
+        {
+            "version": "v0.11.1.20",
+            "delete": [
+                "ksp_version"
+            ],
+            "override": {
+                "ksp_version_min": "1.0.2",
+                "ksp_version_max": "1.0.4"
+            }
+        }
+    ],
     "resources": {
         "homepage": "https://github.com/taraniselsu/TacLifeSupport/wiki",
         "kerbalstuff": "https://kerbalstuff.com/mod/733/TAC%20Life%20Support"
