@@ -1,0 +1,49 @@
+{
+    "spec_version": 1,
+    "identifier": "FuelSwitchtoeverytank-default",
+    "license": "CC-BY-SA-2.0",
+    "name": "FuelSwitch to every tank-default",
+    "abstract": "This small ModuleManager config adds module FSfuelSwitch to every fuel tank in game, including non-stock",
+    "provides": [
+        "FuelSwitchtoeverytank"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "FirespitterCore"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "InterstellarFuelSwitch-Core"
+        },
+        {
+            "name": "StockFuelSwitch"
+        },
+        {
+            "name": "FuelSwitchtoeverytank"
+        },
+        {
+            "name": "ThermalPaint"
+        }
+    ],
+    "install": [
+        {
+            "file": "FSfuelSwitchForEveryTank.cfg",
+            "install_to": "GameData"
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/123581",
+        "repository": "http://The%20config%20itself",
+        "kerbalstuff": "https://kerbalstuff.com/mod/861/FuelSwitch%20to%20every%20tank"
+    },
+    "ksp_version": "1.0.4",
+    "author": "micha030201",
+    "version": "0.3",
+    "download": "https://kerbalstuff.com/mod/861/FuelSwitch%20to%20every%20tank/download/0.3",
+    "x_generated_by": "netkan",
+    "download_size": 5450
+}
