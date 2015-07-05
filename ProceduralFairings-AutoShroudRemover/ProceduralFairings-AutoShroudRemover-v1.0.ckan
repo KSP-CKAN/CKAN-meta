@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.4",
+    "ksp_version": "1.0",
+    "name": "Procedural Fairings - Auto-Shroud Remover",
+    "identifier": "ProceduralFairings-AutoShroudRemover",
+    "abstract": "Optional ModuleManager patch by Felger to remove the auto-shrouds that spawn when engines are attached to parts, to allow for a more clean use of the Procedural Interstage Fairings.",
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ZZZ_FelgerFixes/RT_ProbeRemover.cfg",
+            "install_to": "GameData/ZZZ_FelgerFixes"
+        }
+    ],
+    "resources": {
+        "repository": "https://github.com/Felger/FelgerFixes"
+    },
+    "author": "Felger",
+    "version": "v1.0",
+    "download": "https://github.com/Felger/FelgerFixes/releases/download/v1.0/FelgerFixes-1.0.zip",
+    "x_generated_by": "netkan",
+    "download_size": 906
+}
