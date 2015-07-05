@@ -1,0 +1,45 @@
+{
+    "spec_version": 1,
+    "license": "CC-BY-NC-SA-4.0",
+    "identifier": "LLL",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "FirespitterCore"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "CrewManifest"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/LLL",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/LLL-Extra",
+            "install_to": "GameData/LLL",
+            "filter": "Parts"
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/102237-1-0-2-LLL-Lack-Luster-Labs-(Space-boxes!)-LLL-14-20JUN2014",
+        "kerbalstuff": "https://kerbalstuff.com/mod/954/LLL"
+    },
+    "ksp_version": "1.0.4",
+    "name": "LLL",
+    "abstract": "Boxes in space. What's not to love.",
+    "author": "Lack",
+    "version": "14",
+    "download": "https://kerbalstuff.com/mod/954/LLL/download/14",
+    "x_generated_by": "netkan",
+    "x_screenshot": "https://kerbalstuff.com/content/Lack_4055/LLL/LLL-1435614197.5577142.png",
+    "download_size": 13028822
+}
