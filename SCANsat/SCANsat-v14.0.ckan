@@ -2,12 +2,14 @@
     "spec_version": 1,
     "identifier": "SCANsat",
     "license": "restricted",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
     "recommends": [
         {
             "name": "Toolbar"
-        },
-        {
-            "name": "ModuleManager"
         }
     ],
     "resources": {
