@@ -31,6 +31,9 @@
             "name": "RealFuels"
         },
         {
+            "name": "RealPlume"
+        },
+        {
             "name": "SmokeScreen"
         }
     ],
@@ -64,6 +67,9 @@
         },
         {
             "name": "ProceduralFairings"
+        },
+        {
+            "name": "ProceduralFairings-ForEverything"
         },
         {
             "name": "ProceduralParts"
@@ -182,13 +188,17 @@
             "name": "VenStockRevamp"
         }
     ],
+    "provides": [
+        "RealPlumeConfigs",
+        "RealFuels-Engine-Configs"
+    ],
     "conflicts": [
         {
             "name": "TweakableEverything"
+        },
+        {
+            "name": "RealPlumeConfigs"
         }
-    ],
-    "provides": [
-        "RealFuels-Engine-Configs"
     ],
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/99966",
