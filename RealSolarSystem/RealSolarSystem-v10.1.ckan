@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.4",
+    "name": "Real Solar System",
+    "identifier": "RealSolarSystem",
+    "abstract": "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "depends": [
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "RSSTextures"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RemoteTech-Config-RSS"
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/55145",
+        "repository": "https://github.com/KSP-RO/RealSolarSystem"
+    },
+    "install": [
+        {
+            "find": "RealSolarSystem",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Cache",
+            "install_to": "GameData/Kopernicus"
+        }
+    ],
+    "author": "NathanKell",
+    "version": "v10.1",
+    "download": "https://github.com/KSP-RO/RealSolarSystem/releases/download/v10.1/RealSolarSystem_v10.1.zip",
+    "x_generated_by": "netkan",
+    "download_size": 9521527,
+    "ksp_version": "1.0.4"
+}
