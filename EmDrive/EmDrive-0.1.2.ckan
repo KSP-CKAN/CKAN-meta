@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.10",
+    "license": "GPL-3.0",
+    "identifier": "EmDrive",
+    "depends": [
+        {
+            "name": "CryoEngines"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "TACLS"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "EmDrive-TweakPatch"
+        }
+    ],
+    "install": [
+        {
+            "find_regexp": "EmDrive[\\s\\S]*",
+            "install_to": "GameData/EmDrive"
+        },
+        {
+            "find": "Flags",
+            "install_to": "GameData/EmDrive"
+        }
+    ],
+    "resources": {
+        "homepage": "http://kerbal.curseforge.com/ksp-mods/231518-emdrive-release-1",
+        "repository": "https://github.com/raptorep/-KSP-1.0.2-EmDrive-",
+        "kerbalstuff": "https://kerbalstuff.com/mod/907/EmDrive%20-%20Release%201"
+    },
+    "ksp_version": "1.0.2",
+    "name": "EmDrive - Release 1",
+    "abstract": "Adds the EmDrive Microwave Thruster to the game.",
+    "author": "raptorep",
+    "version": "0.1.2",
+    "download": "https://kerbalstuff.com/mod/907/EmDrive%20-%20Release%201/download/0.1.2",
+    "x_generated_by": "netkan",
+    "x_screenshot": "https://kerbalstuff.com/content/raptorep_10966/EmDrive_-_Release_1/EmDrive_-_Release_1-1434940958.2126527.png",
+    "download_size": 1390093
+}
