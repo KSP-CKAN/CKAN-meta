@@ -14,7 +14,6 @@ echo ${COMMIT_CHANGES}
 wget --quiet https://raw.githubusercontent.com/KSP-CKAN/CKAN/master/bin/ckan-validate.py -O ckan-validate.py
 wget --quiet https://raw.githubusercontent.com/KSP-CKAN/CKAN/master/CKAN.schema -O CKAN.schema
 chmod a+x ckan-validate.py
-./ckan-validate.py ${COMMIT_CHANGES}
 
 # fetch latest ckan.exe
 echo "Fetching latest ckan.exe"
@@ -37,13 +36,16 @@ mono --debug ckan.exe update
 
 for f in ${COMMIT_CHANGES}
 do
-	echo ----------------------------------------------
-	echo 
-	cat $f | python -m json.tool
-	echo ----------------------------------------------
-	echo 
-	echo Running ckan install -c $f
-	mono --debug ckan.exe install -c $f --headless
+  if [ "$f" != "build.sh" ]; then
+        ./ckan-validate.py $f
+        echo ----------------------------------------------
+        echo 
+        cat $f | python -m json.tool
+        echo ----------------------------------------------
+        echo 
+        echo Running ckan install -c $f
+        mono --debug ckan.exe install -c $f --headless
+  fi
 done
 
 # Show all installed mods.
@@ -52,3 +54,6 @@ echo "Installed mods:"
 mono --debug ckan.exe list --porcelain
 
 perl -e'@installed = `mono --debug ckan.exe list --porcelain`; foreach (@installed) { /^\S\s(?<mod>\S+)/ and system("mono --debug ckan.exe show $+{mod}"); print "\n\n"; } exit 0;'
+    
+# Cleanup.
+mono ckan.exe ksp forget ${ghprbActualCommit}
