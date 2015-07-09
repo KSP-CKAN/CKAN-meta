@@ -3,6 +3,9 @@
 set -x
 set -e
 
+# Locations of CKAN and NetKAN.
+LATEST_CKAN_URL="http://ckan-travis.s3.amazonaws.com/ckan.exe"
+
 echo Commit hash: ${ghprbActualCommit}
 echo Changes in this commit:
 export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master`"
@@ -14,7 +17,8 @@ chmod a+x ckan-validate.py
 ./ckan-validate.py ${COMMIT_CHANGES}
 
 # fetch latest ckan.exe
-wget --quiet http://ci.ksp-ckan.org:8080/job/CKAN/lastSuccessfulBuild/artifact/ckan.exe -O ckan.exe
+echo "Fetching latest ckan.exe"
+wget --quiet $LATEST_CKAN_URL -O ckan.exe
 
 # create a dummy KSP install
 mkdir dummy_ksp
