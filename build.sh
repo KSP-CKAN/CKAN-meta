@@ -36,7 +36,7 @@ mono --debug ckan.exe update
 
 for f in ${COMMIT_CHANGES}
 do
-  if [ "$f" == "build.sh" ]; then
+  if [ "$f" != "build.sh" ]; then
         ./ckan-validate.py $f
         echo ----------------------------------------------
         echo 
