@@ -1,0 +1,39 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NearFuturePropulsionExtras",
+    "provides": [
+        "NearFuturePropulsionNTRConfigs"
+    ],
+    "name": "Near Future Propulsion Extras: Hydrogen NTR Configs",
+    "abstract": "This patch changes most known nuclear thermal rocket engines (stock and modded) to use liquid hydrogen instead of stock liquid fuel. Having a mod that provides matching tanks (like Near Future Propulsion) is recommended.",
+    "release_status": "stable",
+    "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "NearFuturePropulsion"
+        }
+    ],
+    "install": [
+        {
+            "find": "HydrogenNTRs",
+            "install_to": "GameData/NearFuturePropulsion/Extras"
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/52042-0-21",
+        "repository": "https://github.com/ChrisAdderley/NearFutureElectrical",
+        "kerbalstuff": "https://kerbalstuff.com/mod/347/Near%20Future%20Propulsion"
+    },
+    "ksp_version": "1.0.4",
+    "author": "Nertea",
+    "version": "0.5.3",
+    "download": "https://kerbalstuff.com/mod/347/Near%20Future%20Propulsion/download/0.5.3",
+    "x_generated_by": "netkan",
+    "x_screenshot": "https://kerbalstuff.com/content/Nertea_3884/Near_Future_Propulsion/Near_Future_Propulsion.png",
+    "download_size": 44022982
+}
