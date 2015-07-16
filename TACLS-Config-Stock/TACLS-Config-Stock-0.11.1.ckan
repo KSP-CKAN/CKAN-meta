@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "TACLS-Config-Stock",
+    "name": "TAC Life Support (TACLS) - stock config",
+    "abstract": "Stock configuration for TACLS",
+    "license": "CC-BY-NC-SA-3.0",
+    "depends": [
+        {
+            "name": "TACLS"
+        }
+    ],
+    "provides": [
+        "TACLS-Config"
+    ],
+    "conflicts": [
+        {
+            "name": "TACLS-Config"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ThunderAerospace",
+            "install_to": "GameData",
+            "comment": "This installs only the LifeSupport.cfg file",
+            "filter_regexp": "^(?!GameData/ThunderAerospace/TacLifeSupport/PluginData/TacLifeSupport/LifeSupport.cfg)"
+        }
+    ],
+    "ksp_version": "1.0.2",
+    "version": "0.11.1",
+    "author": "TaranisElsu",
+    "download": "https://kerbalstuff.com/mod/733/TAC%20Life%20Support/download/v0.11.1.20",
+    "x_screenshot": null,
+    "resources": {
+        "homepage": "https://github.com/taraniselsu/TacLifeSupport/wiki",
+        "repository": "https://github.com/taraniselsu/TacLifeSupport",
+        "kerbalstuff": "https://kerbalstuff.com/mod/733/TAC%20Life%20Support"
+    },
+    "download_size": 5996971,
+    "x_generated_by": "netkan"
+}
