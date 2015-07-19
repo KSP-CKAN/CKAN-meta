@@ -1,6 +1,7 @@
 {
     "spec_version": 1,
     "identifier": "RetroFuture",
+    "license": "CC-BY-NC-SA-4.0",
     "depends": [
         {
             "name": "FirespitterCore"
@@ -18,9 +19,32 @@
             "name": "RasterPropMonitor"
         },
         {
+            "name": "BDArmory"
+        },
+        {
             "name": "ProceduralDynamics"
+        },
+        {
+            "name": "SmokeScreen"
         }
     ],
+    "install": [
+        {
+            "file": "RetroFuture",
+            "install_to": "GameData"
+        }
+    ],
+    "ksp_version": "0.25.0",
+    "name": "Retro-Future Planes",
+    "abstract": "engines and more airplane parts for KSP; futuristic performance, classic designs",
+    "version": "v1.7.2b",
+    "author": "NohArk",
+    "download": "https://kerbalstuff.com/mod/111/Retro-Future%20Planes/download/v1.7.2b",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/84054",
+        "kerbalstuff": "https://kerbalstuff.com/mod/111/Retro-Future%20Planes",
+        "x_screenshot": "https://kerbalstuff.com/content/NohArk_43/Retro-Future_Planes/Retro-Future_Planes.jpg"
+    },
     "suggests": [
         {
             "name": "SmokeScreen"
@@ -32,24 +56,6 @@
             "name": "TweakScale"
         }
     ],
-    "install": [
-        {
-            "file": "RetroFuture",
-            "install_to": "GameData"
-        }
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/84054",
-        "kerbalstuff": "https://kerbalstuff.com/mod/111/Retro-Future%20Planes"
-    },
-    "ksp_version": "0.25.0",
-    "name": "Retro-Future Planes",
-    "license": "CC-BY-NC-SA-4.0",
-    "abstract": "engines and more airplane parts for KSP; futuristic performance, classic designs",
-    "author": "NohArk",
-    "version": "v1.7.2b",
-    "download": "https://kerbalstuff.com/mod/111/Retro-Future%20Planes/download/v1.7.2b",
-    "x_generated_by": "netkan",
-    "x_screenshot": "https://kerbalstuff.com/content/NohArk_43/Retro-Future_Planes/Retro-Future_Planes.jpg",
-    "download_size": 44704194
+    "download_size": 44704194,
+    "x_generated_by": "netkan"
 }
