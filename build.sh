@@ -153,6 +153,9 @@ do
     # Create a dummy KSP install.
     create_dummy_ksp $CURRENT_KSP_VERSION $ghprbActualCommit
 
+    echo "Running ckan update"
+    mono ckan.exe update
+
     echo Running ckan install -c $f
     mono --debug ckan.exe install -c $f --headless
 
