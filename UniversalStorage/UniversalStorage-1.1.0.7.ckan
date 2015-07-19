@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "UniversalStorage",
+    "license": "restricted",
+    "depends": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "x_conflicts": [
+        {
+            "name": "UniversalStorage-ECLSS"
+        },
+        {
+            "name": "UniversalStorage-IFI"
+        },
+        {
+            "name": "UniversalStorage-KAS"
+        },
+        {
+            "name": "UniversalStorage-SNACKS"
+        },
+        {
+            "name": "UniversalStorage-TAC"
+        }
+    ],
+    "install": [
+        {
+            "find": "UniversalStorage",
+            "install_to": "GameData",
+            "filter": [
+                "MiniAVC.xml"
+            ]
+        }
+    ],
+    "ksp_version": "1.0.4",
+    "name": "Universal Storage",
+    "abstract": "Modular resource and processor parts to build custom service modules.",
+    "version": "1.1.0.7",
+    "author": "Paul_Kingtiger",
+    "download": "https://kerbalstuff.com/mod/250/Universal%20Storage/download/1.1.0.7",
+    "resources": {
+        "homepage": "http://ksp.kingtiger.co.uk",
+        "kerbalstuff": "https://kerbalstuff.com/mod/250/Universal%20Storage",
+        "x_screenshot": "https://kerbalstuff.com/content/Paul_Kingtiger_2470/Universal_Storage/Universal_Storage.jpg"
+    },
+    "download_size": 4819620,
+    "x_generated_by": "netkan"
+}
