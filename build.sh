@@ -30,10 +30,19 @@ create_dummy_ksp () {
     fi
     
     # TODO: Manual hack, a better way to handle this kind of identifiers may be needed.
-    if [ "$KSP_VERSION" == "0.90" ]
-    then
+    case $KSP_VERSION in
+    "0.90")
+        echo "Overiding '0.90' with '0.90.0'"
         KSP_VERSION="0.90.0"
-    fi
+        ;;
+    "any")
+        echo "Overriding any with $KSP_VERSION_DEFAULT"
+        KSP_VERSION=$KSP_VERSION_DEFAULT
+        ;;
+    *)
+        echo "No override, Running with $KSP_VERSION"
+        ;;
+    esac
     
     echo "Creating a dummy KSP $KSP_VERSION install"
     
