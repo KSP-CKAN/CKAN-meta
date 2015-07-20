@@ -1,0 +1,31 @@
+{
+    "spec_version": "v1.4",
+    "identifier"  : "ALCOR-capsule-IVA",
+    "name"        : "ALCOR Capsule IVA",
+    "abstract"    : "Advanced Landing Capsule for Orbital Rendezvous - This module contains the IVA for the capsule. For full functionality all recommended mods should be installed.",
+    "author"      : "Alexustas",
+    "version"     : "0.9.2.3",
+    "ksp_version" : "1.0.2",
+    "license"     : "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/54925"
+    },
+    "depends": [
+        { "name": "ALCOR-capsule" },
+        { "name": "ALCOR-capsule-props" },
+        { "name": "RasterPropMonitor-Core", "max_version" : "0.20.0" }
+    ],
+    "recommends": [
+        { "name": "SCANsat" },
+        { "name": "MechJeb2" },
+        { "name": "VesselView" },
+        { "name": "DockingPortAlignmentIndicator"}
+    ],
+    "install": [
+        {
+            "find"       : "ASET",
+            "install_to" : "GameData"
+        }
+    ],
+    "download": "https://dl.dropboxusercontent.com/s/9hd1fk8kwzxadz8/ALCOR_IVA_Patch_0.9.2.3.zip"
+}
