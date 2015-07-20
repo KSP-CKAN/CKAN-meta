@@ -83,7 +83,7 @@ create_dummy_ksp () {
     # Reset the Mono registry.
     if [ "$USER" = "jenkins" ]
     then
-        REGISTRY_FILE=${HOME}/.mono/registry/CurrentUser/software/ckan/values.xml
+        REGISTRY_FILE=$HOME/.mono/registry/CurrentUser/software/ckan/values.xml
         if [ -r $REGISTRY_FILE ]
         then
             rm -f $REGISTRY_FILE
@@ -91,10 +91,10 @@ create_dummy_ksp () {
     fi
     
     # Register the new dummy install.
-    mono ckan.exe ksp add ${KSP_NAME} "`pwd`/dummy_ksp"
+    mono ckan.exe ksp add $KSP_NAME "`pwd`/dummy_ksp"
     
     # Set the instance to default.
-    mono ckan.exe ksp default ${KSP_NAME}
+    mono ckan.exe ksp default $KSP_NAME
     
     # Point to the local metadata instead of GitHub.
     mono ckan.exe repo add local "file://`pwd`/master.tar.gz"
@@ -109,10 +109,10 @@ echo "Finding changes to test..."
 
 if [ -n $ghprbActualCommit ]
 then
-    echo Commit hash: ${ghprbActualCommit}
+    echo Commit hash: $ghprbActualCommit
     echo Changes in this commit:
     export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master`"
-    echo ${COMMIT_CHANGES}
+    echo $COMMIT_CHANGES
 else
     echo "No commit ID to test"
     exit 1
@@ -138,7 +138,7 @@ then
     mkdir downloads_cache
 fi
 
-for f in ${COMMIT_CHANGES}
+for f in $COMMIT_CHANGES
 do
     # set -e doesn't apply inside an if block CKAN#1273
     if [ "$f" = "build.sh" ]; then
