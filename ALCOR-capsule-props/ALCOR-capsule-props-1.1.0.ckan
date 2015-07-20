@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.4",
+    "identifier"  : "ALCOR-capsule-props",
+    "name"        : "ALCOR Capsule IVA Props",
+    "abstract"    : "Advanced Landing Capsule for Orbital Rendezvous - This module contains props for the IVA. For full functionality all recommended mods should be installed.",
+    "author"      : "Alexustas",
+    "version"     : "1.1.0",
+    "ksp_version" : "1.0.2",
+    "license"     : "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/54925"
+    },
+    "depends": [
+        { "name": "ALCOR-capsule-IVA" }
+    ],
+    "install": [
+        {
+            "find"       : "ASET",
+            "install_to" : "GameData"
+        }
+    ],
+    "download": "https://dl.dropboxusercontent.com/s/9zjobe3jl3ampuk/ASET_Props_1.1.zip"
+}

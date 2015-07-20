@@ -1,0 +1,23 @@
+{
+    "spec_version": "v1.4",
+    "identifier"  : "ALCOR-capsule",
+    "name"        : "ALCOR Capsule",
+    "abstract"    : "Advanced Landing Capsule for Orbital Rendezvous - This module contains the capsule. For full functionality all recommended mods should be installed.",
+    "author"      : "Alexustas",
+    "version"     : "0.9.2.3",
+    "ksp_version" : "1.0.2",
+    "license"     : "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/54925"
+    },
+    "depends": [
+        { "name": "ALCOR-capsule-IVA" }
+    ],
+    "install": [
+        {
+            "find"       : "ASET",
+            "install_to" : "GameData"
+        }
+    ],
+    "download": "https://dl.dropboxusercontent.com/s/1qqoq2s8lt9e0rp/ALCOR_Capsule_0.9.2.3.zip"
+}
