@@ -1,0 +1,65 @@
+{
+    "spec_version": 1,
+    "name": "Real Fuels",
+    "abstract": "Real fuels and tanks for KSP",
+    "identifier": "RealFuels",
+    "license": "CC-BY-SA",
+    "author": [
+        "ialdabaoth",
+        "NathanKell",
+        "taniwha"
+    ],
+    "release_status": "stable",
+    "ksp_version": "1.0.4",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/64118",
+        "repository": "https://github.com/NathanKell/ModularFuelSystem"
+    },
+    "install": [
+        {
+            "file": "RealFuels",
+            "install_to": "GameData",
+            "filter": ".DS_Store"
+        }
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealFuels-Engine-Configs"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "SolverEngines"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ModularFuelSystem"
+        },
+        {
+            "name": "ModularFuelTanks"
+        },
+        {
+            "name": "Fuelswitchtoeverytank"
+        },
+        {
+            "name": "StockFuelSwitch"
+        },
+        {
+            "name": "EngineIgnitor"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CrossFeedEnabler"
+        }
+    ],
+    "version": "rf-v10.5",
+    "download": "https://github.com/NathanKell/ModularFuelSystem/releases/download/rf-v10.5/RealFuels_v10.5.zip",
+    "download_size": 287478,
+    "x_generated_by": "netkan"
+}
