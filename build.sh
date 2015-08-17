@@ -45,6 +45,10 @@ create_dummy_ksp () {
         echo "Overidding '0.23' with '0.23.0'"
         KSP_VERSION="0.23.0"
         ;;
+    "0.25")
+        echo "Overidding '0.25' with '0.25.0'"
+        KSP_VERSION="0.25.0"
+        ;;
     "0.90")
         echo "Overidding '0.90' with '0.90.0'"
         KSP_VERSION="0.90.0"
