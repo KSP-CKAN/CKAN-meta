@@ -1,6 +1,7 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "MarkIVSpaceplaneSystem",
+    "release_status": "stable",
     "license": "CC-BY-NC-SA-4.0",
     "install": [
         {
@@ -10,16 +11,29 @@
     ],
     "depends": [
         {
+            "name": "BDAnimationModules"
+        },
+        {
+            "name": "InterstellarFuelSwitch-Core"
+        },
+        {
             "name": "NearFutureProps"
         }
     ],
-    "recommends": [
+    "suggests": [
         {
-            "name": "RasterPropMonitor"
+            "name": "CommunityTechTree"
         },
         {
-            "name": "ModuleManager",
-            "comment": "MM is needed to apply the compatibility patches, but not strictly required."
+            "name": "RasterPropMonitor"
+        }
+    ],
+    "supports": [
+        {
+            "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "FerramAerospaceResearch"
         }
     ],
     "ksp_version": "1.0.4",
