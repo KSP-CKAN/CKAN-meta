@@ -3,15 +3,30 @@
     "x_via": "Author JPLRepo",
     "spec_version": "v1.4",
     "license": "CC-BY-NC-SA-4.0",
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.3.5"
+        }
+    ],
     "recommends": [
         {
             "name": "Toolbar"
+        },
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "BackgroundProcessing"
         },
         {
             "name": "ShipManifest"
         },
         {
             "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "USI-LS"
         },
         {
             "name": "TACLS"
