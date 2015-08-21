@@ -3,24 +3,26 @@
     "identifier": "CustomAsteroids-Pops-Stock-Inner",
     "name": "Custom Asteroids (inner stock system data)",
     "abstract": "Adds asteroids inside orbit of Jool",
+    "author": "Starstrider42",
+    "license": "MIT",
     "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/80483",
+        "kerbalstuff": "https://kerbalstuff.com/mod/251/Custom%20Asteroids",
+        "repository": "https://github.com/Starstrider42/Custom-Asteroids",
+        "x_screenshot": "https://kerbalstuff.com/content/Starstrider42_807/Custom_Asteroids/Custom_Asteroids.png"
+    },
+    "version": "v1.1.0",
+    "ksp_version_min": "0.25",
+    "ksp_version_max": "1.0.99",
+    "provides": [
+        "CustomAsteroids-Pops"
+    ],
     "depends": [
         {
             "name": "CustomAsteroids",
             "min_version": "1.0",
             "comment": "Version at which config format stabilized."
-        }
-    ],
-    "provides": [
-        "CustomAsteroids-Pops"
-    ],
-    "conflicts": [
-        {
-            "name": "AlternisKerbol"
-        },
-        {
-            "name": "RealSolarSystem",
-            "comment": "The 6.4× and 10× Kerbol packs are compatible; how to allow them?"
         }
     ],
     "install": [
@@ -30,19 +32,17 @@
             "filter_regexp": "(?<!Basic Asteroids\\.cfg)$"
         }
     ],
-    "x_maintained_by": "Starstrider42",
-    "version": "v1.1.0",
-    "author": "Starstrider42",
     "download": "https://kerbalstuff.com/mod/251/Custom%20Asteroids/download/v1.1.0",
-    "license": "MIT",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/80483",
-        "repository": "https://github.com/Starstrider42/Custom-Asteroids",
-        "kerbalstuff": "https://kerbalstuff.com/mod/251/Custom%20Asteroids",
-        "x_screenshot": "https://kerbalstuff.com/content/Starstrider42_807/Custom_Asteroids/Custom_Asteroids.png"
-    },
-    "ksp_version_min": "0.25",
-    "ksp_version_max": "1.0.99",
     "download_size": 24276,
+    "conflicts": [
+        {
+            "name": "AlternisKerbol"
+        },
+        {
+            "name": "RealSolarSystem",
+            "comment": "The 6.4× and 10× Kerbol packs are compatible; how to allow them?"
+        }
+    ],
+    "x_maintained_by": "Starstrider42",
     "x_generated_by": "netkan"
 }
