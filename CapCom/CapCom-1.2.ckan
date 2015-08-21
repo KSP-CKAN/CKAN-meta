@@ -1,14 +1,18 @@
 {
-    "identifier": "CapCom",
-    "license": "MIT",
-    "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": 1,
-    "install": [
-        {
-            "file": "GameData/CapCom",
-            "install_to": "GameData"
-        }
-    ],
+    "identifier": "CapCom",
+    "name": "CapCom - Mission Control On The Go",
+    "abstract": "A contract management window available in all scenes; accept, decline, or cancel contracts without going back to the Mission Control Center",
+    "author": "DMagic",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/119701",
+        "kerbalstuff": "https://kerbalstuff.com/mod/710/CapCom%20-%20Mission%20Control%20On%20The%20Go",
+        "repository": "https://github.com/DMagic1/CapCom",
+        "x_screenshot": "https://kerbalstuff.com/content/DMagic_6/CapCom_-_Mission_Control_On_The_Go/CapCom_-_Mission_Control_On_The_Go-1437777709.8090131.png"
+    },
+    "version": "1.2",
+    "ksp_version": "1.0.4",
     "suggests": [
         {
             "name": "ContractRewardModifier"
@@ -17,18 +21,14 @@
             "name": "ContractsWindowPlus"
         }
     ],
-    "ksp_version": "1.0.4",
-    "name": "CapCom - Mission Control On The Go",
-    "abstract": "A contract management window available in all scenes; accept, decline, or cancel contracts without going back to the Mission Control Center",
-    "version": "1.2",
-    "author": "DMagic",
+    "install": [
+        {
+            "file": "GameData/CapCom",
+            "install_to": "GameData"
+        }
+    ],
     "download": "https://kerbalstuff.com/mod/710/CapCom%20-%20Mission%20Control%20On%20The%20Go/download/1.2",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/119701",
-        "repository": "https://github.com/DMagic1/CapCom",
-        "kerbalstuff": "https://kerbalstuff.com/mod/710/CapCom%20-%20Mission%20Control%20On%20The%20Go",
-        "x_screenshot": "https://kerbalstuff.com/content/DMagic_6/CapCom_-_Mission_Control_On_The_Go/CapCom_-_Mission_Control_On_The_Go-1437777709.8090131.png"
-    },
     "download_size": 59939,
+    "x_via": "Automated KerbalStuff CKAN submission",
     "x_generated_by": "netkan"
 }
