@@ -1,25 +1,31 @@
 {
     "spec_version": 1,
     "identifier": "krispeeder1",
+    "name": "Speeder-1",
+    "abstract": "This is a single all-in-one surface vehicle for two kerbals, for all whose are tired by slow and boring rovers !",
+    "author": "KerbiceGroup",
     "license": "restricted",
-    "ksp_version": "any",
-    "ksp_version_min": "0.90",
     "resources": {
         "homepage": "https://kerbalstuff.com/mod/657/Speeder-1",
         "kerbalstuff": "https://kerbalstuff.com/mod/657/Speeder-1",
         "x_screenshot": "https://kerbalstuff.com/content/KerbiceGroup_16/Speeder-1/Speeder-1-1427222867.198776.png"
     },
+    "version": "1.0",
+    "ksp_version_min": "0.90",
+    "ksp_version_max": "1.0.99",
+    "recommends": [
+        {
+            "name": "KerbalFoundries"
+        }
+    ],
     "install": [
         {
             "file": "GameData/Kerbice Group",
             "install_to": "GameData"
         }
     ],
-    "recommends": [
-        {
-            "name": "KerbalFoundries"
-        }
-    ],
+    "download": "https://kerbalstuff.com/mod/657/Speeder-1/download/1.0",
+    "download_size": 3378603,
     "suggests ": [
         {
             "name": "HyperEdit"
@@ -28,11 +34,5 @@
             "name": "ExtraPlanetaryLaunchpads"
         }
     ],
-    "name": "Speeder-1",
-    "abstract": "This is a single all-in-one surface vehicle for two kerbals, for all whose are tired by slow and boring rovers !",
-    "version": "1.0",
-    "author": "KerbiceGroup",
-    "download": "https://kerbalstuff.com/mod/657/Speeder-1/download/1.0",
-    "download_size": 3378603,
     "x_generated_by": "netkan"
 }
