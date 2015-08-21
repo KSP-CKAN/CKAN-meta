@@ -1,6 +1,10 @@
 {
     "spec_version": "v1.4",
     "identifier": "ContractConfigurator-UnmannedContracts",
+    "name": "Contract Pack: Unmanned Contracts",
+    "abstract": "Extensive series of unmanned contracts",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-NC-SA-4.0",
     "release_status": "stable",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/113417",
@@ -8,6 +12,9 @@
         "repository": "https://github.com/linuxgurugamer/UnmannedContracts",
         "x_screenshot": "https://kerbalstuff.com/content/linuxgurugamer_4490/Contract_Pack_Unmanned_Contracts/Contract_Pack_Unmanned_Contracts-1428674651.370791.png"
     },
+    "version": "0.3.10",
+    "ksp_version_min": "1.0.2",
+    "ksp_version_max": "1.0.4",
     "depends": [
         {
             "name": "CoherentContracts"
@@ -22,25 +29,18 @@
             "name": "SpacetuxSA"
         }
     ],
+    "recommends": [
+        {
+            "name": "ContractConfigurator-AdvancedProgression"
+        }
+    ],
     "install": [
         {
             "find": "UnmannedContracts",
             "install_to": "GameData/ContractPacks/Spacetux"
         }
     ],
-    "recommends": [
-        {
-            "name": "ContractConfigurator-AdvancedProgression"
-        }
-    ],
-    "name": "Contract Pack: Unmanned Contracts",
-    "abstract": "Extensive series of unmanned contracts",
-    "version": "0.3.10",
-    "author": "linuxgurugamer",
     "download": "https://kerbalstuff.com/mod/651/Contract%20Pack:%20Unmanned%20Contracts/download/0.3.10",
-    "license": "CC-BY-NC-SA-4.0",
-    "ksp_version_min": "1.0.2",
-    "ksp_version_max": "1.0.4",
     "download_size": 247678,
     "x_generated_by": "netkan"
 }
