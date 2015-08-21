@@ -1,28 +1,34 @@
 {
     "spec_version": 1,
     "identifier": "MOVAP",
+    "name": "MOVAP",
+    "abstract": "MOdular Vtol trAining Program: provide parts to help people who want to build and/or learn how to fly a VTOL ",
+    "author": "KerbiceGroup",
     "license": "restricted",
+    "resources": {
+        "homepage": "https://kerbalstuff.com/mod/581/MOVAP",
+        "kerbalstuff": "https://kerbalstuff.com/mod/581/MOVAP",
+        "x_screenshot": "https://kerbalstuff.com/content/KerbiceGroup_16/MOVAP/MOVAP-1423588225.709579.jpg"
+    },
+    "version": "1.0",
     "ksp_version": "any",
     "ksp_version_min": "0.23",
+    "recommends": [
+        {
+            "name": "EditorExtensions"
+        }
+    ],
     "install": [
         {
             "file": "GameData/Kerbice Group",
             "install_to": "GameData"
         }
     ],
-    "resources": {
-        "homepage": "https://kerbalstuff.com/mod/581/MOVAP",
-        "kerbalstuff": "https://kerbalstuff.com/mod/581/MOVAP",
-        "x_screenshot": "https://kerbalstuff.com/content/KerbiceGroup_16/MOVAP/MOVAP-1423588225.709579.jpg"
-    },
+    "download": "https://kerbalstuff.com/mod/581/MOVAP/download/1.0",
+    "download_size": 2765777,
     "depends ": [
         {
             "name": "FirespitterCore"
-        }
-    ],
-    "recommends": [
-        {
-            "name": "EditorExtensions"
         }
     ],
     "suggests ": [
@@ -33,11 +39,5 @@
             "name": "Firespitter"
         }
     ],
-    "name": "MOVAP",
-    "abstract": "MOdular Vtol trAining Program: provide parts to help people who want to build and/or learn how to fly a VTOL ",
-    "version": "1.0",
-    "author": "KerbiceGroup",
-    "download": "https://kerbalstuff.com/mod/581/MOVAP/download/1.0",
-    "download_size": 2765777,
     "x_generated_by": "netkan"
 }
