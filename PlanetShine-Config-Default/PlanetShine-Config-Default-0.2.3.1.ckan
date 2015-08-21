@@ -2,38 +2,38 @@
     "spec_version": "v1.2",
     "identifier": "PlanetShine-Config-Default",
     "name": "PlanetShine - Default configuration",
+    "abstract": "Planets and moons reflects their light to your vessel + other ambient light improvements",
+    "author": "Valerian",
     "license": "Apache-2.0",
-    "install": [
-        {
-            "file": "GameData/PlanetShine/Config",
-            "install_to": "GameData/PlanetShine"
-        }
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/96497",
+        "kerbalstuff": "https://kerbalstuff.com/mod/266/PlanetShine",
+        "repository": "https://github.com/valerian/ksp-planetshine",
+        "x_screenshot": "https://kerbalstuff.com/content/Valerian_2822/PlanetShine/PlanetShine.png"
+    },
+    "version": "0.2.3.1",
+    "ksp_version_min": "0.25",
+    "ksp_version_max": "1.0.4",
+    "provides": [
+        "PlanetShine-Config"
     ],
     "depends": [
         {
             "name": "PlanetShine"
         }
     ],
-    "provides": [
-        "PlanetShine-Config"
+    "install": [
+        {
+            "file": "GameData/PlanetShine/Config",
+            "install_to": "GameData/PlanetShine"
+        }
     ],
+    "download": "https://kerbalstuff.com/mod/266/PlanetShine/download/0.2.3.1",
+    "download_size": 46312,
     "conflicts": [
         {
             "name": "PlanetShine-Config"
         }
     ],
-    "abstract": "Planets and moons reflects their light to your vessel + other ambient light improvements",
-    "version": "0.2.3.1",
-    "author": "Valerian",
-    "download": "https://kerbalstuff.com/mod/266/PlanetShine/download/0.2.3.1",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/96497",
-        "repository": "https://github.com/valerian/ksp-planetshine",
-        "kerbalstuff": "https://kerbalstuff.com/mod/266/PlanetShine",
-        "x_screenshot": "https://kerbalstuff.com/content/Valerian_2822/PlanetShine/PlanetShine.png"
-    },
-    "ksp_version_min": "0.25",
-    "ksp_version_max": "1.0.4",
-    "download_size": 46312,
     "x_generated_by": "netkan"
 }
