@@ -1,7 +1,18 @@
 {
     "spec_version": "v1.4",
+    "comment": "These conflicts should be dependencies but https://github.com/KSP-CKAN/NetKAN/issues/932 happened",
     "identifier": "IR-Model-Rework-Utility",
+    "name": "Infernal Robotics Model Rework - Utility Pack",
+    "abstract": "For all your actuation needs",
+    "author": "ZodiusInfuser",
     "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/65365",
+        "kerbalstuff": "https://kerbalstuff.com/mod/677/Infernal%20Robotics%20Model%20Rework%20-%20Utility%20Pack",
+        "x_screenshot": "https://kerbalstuff.com/content/ZodiusInfuser_8315/Infernal_Robotics_Model_Rework_-_Utility_Pack/Infernal_Robotics_Model_Rework_-_Utility_Pack-1428021872.1970944.png"
+    },
+    "version": "v01a",
+    "ksp_version": "0.90.0",
     "depends": [
         {
             "name": "InfernalRobotics"
@@ -21,15 +32,6 @@
             "name": "IR-Model-Rework-Expansion"
         }
     ],
-    "conflicts": [
-        {
-            "name": "CIT-Util"
-        },
-        {
-            "name": "ActiveStruts"
-        }
-    ],
-    "comment": "These conflicts should be dependencies but https://github.com/KSP-CKAN/NetKAN/issues/932 happened",
     "install": [
         {
             "find": "MagicSmokeIndustries",
@@ -45,17 +47,15 @@
             "comment": "ugly hack to get this pack working for now. This will bite me (Daz) in the ass down the line for sure"
         }
     ],
-    "ksp_version": "0.90.0",
-    "name": "Infernal Robotics Model Rework - Utility Pack",
-    "abstract": "For all your actuation needs",
-    "version": "v01a",
-    "author": "ZodiusInfuser",
     "download": "https://kerbalstuff.com/mod/677/Infernal%20Robotics%20Model%20Rework%20-%20Utility%20Pack/download/v01a",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/65365",
-        "kerbalstuff": "https://kerbalstuff.com/mod/677/Infernal%20Robotics%20Model%20Rework%20-%20Utility%20Pack",
-        "x_screenshot": "https://kerbalstuff.com/content/ZodiusInfuser_8315/Infernal_Robotics_Model_Rework_-_Utility_Pack/Infernal_Robotics_Model_Rework_-_Utility_Pack-1428021872.1970944.png"
-    },
     "download_size": 1624453,
+    "conflicts": [
+        {
+            "name": "CIT-Util"
+        },
+        {
+            "name": "ActiveStruts"
+        }
+    ],
     "x_generated_by": "netkan"
 }
