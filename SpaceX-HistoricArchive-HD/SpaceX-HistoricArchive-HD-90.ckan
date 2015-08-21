@@ -1,18 +1,16 @@
 {
     "spec_version": "v1.4",
     "identifier": "SpaceX-HistoricArchive-HD",
+    "name": "SpaceX Historic Archive HD by LazTek",
+    "abstract": "A 9-piece, add-on parts pack for the SpaceX Launch Pack that includes the original DragonRider concept capsule and associated parts.",
+    "author": "Lazarus",
     "license": "restricted",
-    "install": [
-        {
-            "find": "LazTek",
-            "install_to": "GameData",
-            "filter_regexp": "Flags"
-        },
-        {
-            "find": "VAB",
-            "install_to": "Ships"
-        }
-    ],
+    "resources": {
+        "kerbalstuff": "https://kerbalstuff.com/mod/523/SpaceX%20Historic%20Archive%20HD%20by%20LazTek",
+        "x_screenshot": "https://kerbalstuff.com/content/Lazarus_1460/SpaceX_Historic_Archive_HD_by_LazTek/SpaceX_Historic_Archive_HD_by_LazTek.png"
+    },
+    "version": "90",
+    "ksp_version": "0.90.0",
     "provides": [
         "SpaceX-HistoricArchive"
     ],
@@ -24,6 +22,19 @@
             "name": "SpaceX-ExplorationExtension"
         }
     ],
+    "install": [
+        {
+            "find": "LazTek",
+            "install_to": "GameData",
+            "filter_regexp": "Flags"
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/523/SpaceX%20Historic%20Archive%20HD%20by%20LazTek/download/90",
+    "download_size": 15414120,
     "conflicts": [
         {
             "name": "SpaceX-HistoricArchive-LR"
@@ -32,16 +43,5 @@
             "name": "SpaceX-HistoricArchive-Standard"
         }
     ],
-    "ksp_version": "0.90.0",
-    "name": "SpaceX Historic Archive HD by LazTek",
-    "abstract": "A 9-piece, add-on parts pack for the SpaceX Launch Pack that includes the original DragonRider concept capsule and associated parts.",
-    "version": "90",
-    "author": "Lazarus",
-    "download": "https://kerbalstuff.com/mod/523/SpaceX%20Historic%20Archive%20HD%20by%20LazTek/download/90",
-    "resources": {
-        "kerbalstuff": "https://kerbalstuff.com/mod/523/SpaceX%20Historic%20Archive%20HD%20by%20LazTek",
-        "x_screenshot": "https://kerbalstuff.com/content/Lazarus_1460/SpaceX_Historic_Archive_HD_by_LazTek/SpaceX_Historic_Archive_HD_by_LazTek.png"
-    },
-    "download_size": 15414120,
     "x_generated_by": "netkan"
 }
