@@ -1,21 +1,27 @@
 {
-    "identifier": "ForgottenWorlds",
-    "license": "MIT",
     "spec_version": "v1.4",
+    "identifier": "ForgottenWorlds",
+    "name": "Forgotten Worlds Dwarf Planets for KopernicusTech",
+    "abstract": "A mod that adds three new dwarfs and an ice giant.",
+    "author": "Vexxus9999",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/116068-Forgotten-Worlds-for-KopernicusTech",
+        "kerbalstuff": "https://kerbalstuff.com/mod/707/Forgotten%20Worlds%20Dwarf%20Planets%20for%20KopernicusTech",
+        "repository": "https://github.com/Vexxus9999/ForgottenWorlds",
+        "x_screenshot": "https://kerbalstuff.com/content/Vexxus9999_8906/Forgotten_Worlds_Dwarf_Planets_for_KopernicusTech/Forgotten_Worlds_Dwarf_Planets_for_KopernicusTech-1429568749.1612227.png"
+    },
+    "version": "1.0",
+    "ksp_version": "0.90.0",
+    "provides": [
+        "PlanetPack"
+    ],
     "depends": [
         {
             "name": "KopernicusTech"
         },
         {
             "name": "ModuleManager"
-        }
-    ],
-    "provides": [
-        "PlanetPack"
-    ],
-    "conflicts": [
-        {
-            "name": "PlanetPack"
         }
     ],
     "install": [
@@ -33,18 +39,12 @@
             ]
         }
     ],
-    "ksp_version": "0.90.0",
-    "name": "Forgotten Worlds Dwarf Planets for KopernicusTech",
-    "abstract": "A mod that adds three new dwarfs and an ice giant.",
-    "version": "1.0",
-    "author": "Vexxus9999",
     "download": "https://kerbalstuff.com/mod/707/Forgotten%20Worlds%20Dwarf%20Planets%20for%20KopernicusTech/download/1.0",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/116068-Forgotten-Worlds-for-KopernicusTech",
-        "repository": "https://github.com/Vexxus9999/ForgottenWorlds",
-        "kerbalstuff": "https://kerbalstuff.com/mod/707/Forgotten%20Worlds%20Dwarf%20Planets%20for%20KopernicusTech",
-        "x_screenshot": "https://kerbalstuff.com/content/Vexxus9999_8906/Forgotten_Worlds_Dwarf_Planets_for_KopernicusTech/Forgotten_Worlds_Dwarf_Planets_for_KopernicusTech-1429568749.1612227.png"
-    },
     "download_size": 108743911,
+    "conflicts": [
+        {
+            "name": "PlanetPack"
+        }
+    ],
     "x_generated_by": "netkan"
 }
