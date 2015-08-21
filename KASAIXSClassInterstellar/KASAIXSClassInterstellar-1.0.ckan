@@ -1,19 +1,20 @@
 {
     "spec_version": "v1.2",
     "identifier": "KASAIXSClassInterstellar",
+    "name": "KASA - IXS Class 1.0 for Kerbal Interstellar Lite Mod",
+    "abstract": "Created for WavefunctionP's latest version of Kerbal Interstellar Lite mod, the IXS class brings the NASA IXS Enterprise ship into KSP!",
+    "author": "KASA",
     "license": "GPL-3.0",
-    "x_maintained_by": "distantcam",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/92816-NASA-IXS-Class-Warpship-and-Spacedocks-For-KSP-I-and-Stock-KSP",
+        "kerbalstuff": "https://kerbalstuff.com/mod/136/KASA%20-%20IXS%20Class%201.0%20for%20Kerbal%20Interstellar%20Lite%20Mod",
+        "x_screenshot": "https://kerbalstuff.com/content/KASA_921/KASA_-_IXS_Class_1.0_for_Kerbal_Interstellar_Lite_Mod/KASA_-_IXS_Class_1.0_for_Kerbal_Interstellar_Lite_Mod.jpg"
+    },
+    "version": "1.0",
+    "ksp_version": "0.24.2",
     "provides": [
         "KASAIXSCommandModule",
         "KASASpacedock"
-    ],
-    "conflicts": [
-        {
-            "name": "KASAIXSCommandModule"
-        },
-        {
-            "name": "KASASpacedock"
-        }
     ],
     "depends": [
         {
@@ -29,17 +30,16 @@
             "install_to": "GameData/KASAIXSClassInterstellar"
         }
     ],
-    "ksp_version": "0.24.2",
-    "name": "KASA - IXS Class 1.0 for Kerbal Interstellar Lite Mod",
-    "abstract": "Created for WavefunctionP's latest version of Kerbal Interstellar Lite mod, the IXS class brings the NASA IXS Enterprise ship into KSP!",
-    "version": "1.0",
-    "author": "KASA",
     "download": "https://kerbalstuff.com/mod/136/KASA%20-%20IXS%20Class%201.0%20for%20Kerbal%20Interstellar%20Lite%20Mod/download/1.0",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/92816-NASA-IXS-Class-Warpship-and-Spacedocks-For-KSP-I-and-Stock-KSP",
-        "kerbalstuff": "https://kerbalstuff.com/mod/136/KASA%20-%20IXS%20Class%201.0%20for%20Kerbal%20Interstellar%20Lite%20Mod",
-        "x_screenshot": "https://kerbalstuff.com/content/KASA_921/KASA_-_IXS_Class_1.0_for_Kerbal_Interstellar_Lite_Mod/KASA_-_IXS_Class_1.0_for_Kerbal_Interstellar_Lite_Mod.jpg"
-    },
     "download_size": 8068866,
+    "conflicts": [
+        {
+            "name": "KASAIXSCommandModule"
+        },
+        {
+            "name": "KASASpacedock"
+        }
+    ],
+    "x_maintained_by": "distantcam",
     "x_generated_by": "netkan"
 }
