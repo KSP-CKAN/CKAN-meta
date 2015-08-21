@@ -1,33 +1,20 @@
 {
-    "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": 1,
+    "identifier": "KSO",
     "name": "KSO",
     "abstract": "Kerbin Shuttle Orbiter complete asset pack without plugin dependencies",
     "author": [
         "nazari",
         "helldiver"
     ],
-    "identifier": "KSO",
     "license": "CC-BY-NC-ND-4.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/68429",
         "kerbalstuff": "https://kerbalstuff.com/mod/799/Kerbin%20Shuttle%20Orbiter%20System%20%28No%20Plugins%29",
         "x_screenshot": "https://kerbalstuff.com/content/nazari_71/Kerbin_Shuttle_Orbiter_System_No_Plugins/Kerbin_Shuttle_Orbiter_System_No_Plugins-1431731931.2261152.png"
     },
-    "install": [
-        {
-            "file": "KSO",
-            "install_to": "GameData"
-        },
-        {
-            "file": "KSO_craftfiles/Ships/SPH",
-            "install_to": "Ships"
-        },
-        {
-            "file": "KSO_craftfiles/Ships/VAB",
-            "install_to": "Ships"
-        }
-    ],
+    "version": "4.2",
+    "ksp_version": "1.0.2",
     "depends": [
         {
             "name": "KlockheedMartian-Gimbal"
@@ -54,9 +41,22 @@
             "name": "HotRockets"
         }
     ],
-    "ksp_version": "1.0.2",
-    "version": "4.2",
+    "install": [
+        {
+            "file": "KSO",
+            "install_to": "GameData"
+        },
+        {
+            "file": "KSO_craftfiles/Ships/SPH",
+            "install_to": "Ships"
+        },
+        {
+            "file": "KSO_craftfiles/Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
     "download": "https://kerbalstuff.com/mod/799/Kerbin%20Shuttle%20Orbiter%20System%20%28No%20Plugins%29/download/4.2",
     "download_size": 103497085,
+    "x_via": "Automated KerbalStuff CKAN submission",
     "x_generated_by": "netkan"
 }
