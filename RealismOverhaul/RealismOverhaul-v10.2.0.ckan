@@ -3,8 +3,19 @@
     "identifier": "RealismOverhaul",
     "name": "Realism Overhaul",
     "abstract": "Multipatch to KSP to give spacecraft components realistic stats and sizes, and performance based on real-world spacecraft.",
+    "author": "NathanKell",
     "license": "CC-BY-SA",
     "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/99966",
+        "repository": "https://github.com/KSP-RO/RealismOverhaul"
+    },
+    "version": "v10.2.0",
+    "ksp_version": "1.0.4",
+    "provides": [
+        "RealPlumeConfigs",
+        "RealFuels-Engine-Configs"
+    ],
     "depends": [
         {
             "name": "AdvancedJetEngine"
@@ -191,22 +202,6 @@
             "name": "VenStockRevamp"
         }
     ],
-    "provides": [
-        "RealPlumeConfigs",
-        "RealFuels-Engine-Configs"
-    ],
-    "conflicts": [
-        {
-            "name": "TweakableEverything"
-        },
-        {
-            "name": "RealPlumeConfigs"
-        }
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/99966",
-        "repository": "https://github.com/KSP-RO/RealismOverhaul"
-    },
     "install": [
         {
             "file": "GameData/RealismOverhaul",
@@ -233,10 +228,15 @@
             "comment": "SPH craft files"
         }
     ],
-    "version": "v10.2.0",
-    "author": "NathanKell",
     "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v10.2.0/RealismOverhaul-v10.2.0.zip",
-    "ksp_version": "1.0.4",
     "download_size": 6485510,
+    "conflicts": [
+        {
+            "name": "TweakableEverything"
+        },
+        {
+            "name": "RealPlumeConfigs"
+        }
+    ],
     "x_generated_by": "netkan"
 }
