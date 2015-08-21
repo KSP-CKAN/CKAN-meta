@@ -1,19 +1,21 @@
 {
-    "identifier": "InterstellarLite090",
-    "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": "v1.4",
+    "identifier": "InterstellarLite090",
+    "name": "Interstellar Lite 0.90",
+    "abstract": "Interstellar Lite is a derivative of the KSP Interstellar, originally developed by Fractal UK. This version was developed, in part, by WaveFunctionP, not FractalUK. Do not blame him for broken stuff. (Assuming you can find him. )",
+    "author": "FreeThinker",
     "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/91867-0-24-2-Interstellar-Lite-Tweakscale-Integration-v0-12-3-Sept-7/page86",
+        "kerbalstuff": "https://kerbalstuff.com/mod/593/Interstellar%20Lite%200.90",
+        "repository": "https://github.com/WaveFunctionP/KSPInterstellar",
+        "x_screenshot": "https://kerbalstuff.com/content/FreeThinker_6401/Interstellar_Lite_0.90/Interstellar_Lite_0.90-1423948777.6292055.jpg"
+    },
+    "version": "0.12.5",
+    "ksp_version": "0.90.0",
     "provides": [
         "KSPInterstellar",
         "OpenResourceSystem"
-    ],
-    "conflicts": [
-        {
-            "name": "KSPInterstellar"
-        },
-        {
-            "name": "OpenResourceSystem"
-        }
     ],
     "depends": [
         {
@@ -42,18 +44,16 @@
             "install_to": "GameData"
         }
     ],
-    "ksp_version": "0.90.0",
-    "name": "Interstellar Lite 0.90",
-    "abstract": "Interstellar Lite is a derivative of the KSP Interstellar, originally developed by Fractal UK. This version was developed, in part, by WaveFunctionP, not FractalUK. Do not blame him for broken stuff. (Assuming you can find him. )",
-    "version": "0.12.5",
-    "author": "FreeThinker",
     "download": "https://kerbalstuff.com/mod/593/Interstellar%20Lite%200.90/download/0.12.5",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/91867-0-24-2-Interstellar-Lite-Tweakscale-Integration-v0-12-3-Sept-7/page86",
-        "repository": "https://github.com/WaveFunctionP/KSPInterstellar",
-        "kerbalstuff": "https://kerbalstuff.com/mod/593/Interstellar%20Lite%200.90",
-        "x_screenshot": "https://kerbalstuff.com/content/FreeThinker_6401/Interstellar_Lite_0.90/Interstellar_Lite_0.90-1423948777.6292055.jpg"
-    },
     "download_size": 53192764,
+    "conflicts": [
+        {
+            "name": "KSPInterstellar"
+        },
+        {
+            "name": "OpenResourceSystem"
+        }
+    ],
+    "x_via": "Automated KerbalStuff CKAN submission",
     "x_generated_by": "netkan"
 }
