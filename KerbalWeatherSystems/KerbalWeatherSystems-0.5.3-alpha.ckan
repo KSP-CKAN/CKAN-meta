@@ -1,32 +1,32 @@
 {
     "spec_version": 1,
+    "comment": "FAR only supports one wind provider at once",
     "identifier": "KerbalWeatherSystems",
+    "name": "Kerbal Weather Systems!",
+    "abstract": "Adding cool breezes and chilling winds to KSP!",
+    "author": "SilverFox8124",
     "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/96031",
+        "kerbalstuff": "https://kerbalstuff.com/mod/262/Kerbal%20Weather%20Systems!",
+        "repository": "https://github.com/wased89/Kerbal-Weather-Systems/"
+    },
+    "version": "0.5.3-alpha",
+    "ksp_version": "0.90.0",
+    "provides": [
+        "FARWind"
+    ],
     "depends": [
         {
             "name": "FerramAerospaceResearch"
         }
     ],
-    "comment": "FAR only supports one wind provider at once",
-    "provides": [
-        "FARWind"
-    ],
+    "download": "https://kerbalstuff.com/mod/262/Kerbal%20Weather%20Systems%21/download/0.5.3-alpha",
+    "download_size": 37724516,
     "conflicts": [
         {
             "name": "FARWind"
         }
     ],
-    "ksp_version": "0.90.0",
-    "name": "Kerbal Weather Systems!",
-    "abstract": "Adding cool breezes and chilling winds to KSP!",
-    "version": "0.5.3-alpha",
-    "author": "SilverFox8124",
-    "download": "https://kerbalstuff.com/mod/262/Kerbal%20Weather%20Systems%21/download/0.5.3-alpha",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/96031",
-        "repository": "https://github.com/wased89/Kerbal-Weather-Systems/",
-        "kerbalstuff": "https://kerbalstuff.com/mod/262/Kerbal%20Weather%20Systems!"
-    },
-    "download_size": 37724516,
     "x_generated_by": "netkan"
 }
