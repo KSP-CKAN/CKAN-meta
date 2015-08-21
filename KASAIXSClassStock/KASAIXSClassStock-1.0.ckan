@@ -1,19 +1,20 @@
 {
     "spec_version": "v1.2",
     "identifier": "KASAIXSClassStock",
+    "name": "KASA - IXS Class 1.0 for Stock-KSP",
+    "abstract": "A basegame version of the IXS Class mod with no requirements other than firespitter.",
+    "author": "KASA",
     "license": "GPL-3.0",
-    "x_maintained_by": "distantcam",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/92816-NASA-IXS-Class-Warpship-and-Spacedocks-For-KSP-I-and-Stock-KSP",
+        "kerbalstuff": "https://kerbalstuff.com/mod/146/KASA%20-%20IXS%20Class%201.0%20for%20Stock-KSP",
+        "x_screenshot": "https://kerbalstuff.com/content/KASA_921/KASA_-_IXS_Class_1.0_for_Stock-KSP/KASA_-_IXS_Class_1.0_for_Stock-KSP.jpg"
+    },
+    "version": "1.0",
+    "ksp_version": "0.24.2",
     "provides": [
         "KASAIXSCommandModule",
         "KASASpacedock"
-    ],
-    "conflicts": [
-        {
-            "name": "KASAIXSCommandModule"
-        },
-        {
-            "name": "KASASpacedock"
-        }
     ],
     "depends": [
         {
@@ -26,17 +27,16 @@
             "install_to": "GameData/KASAIXSClassStock"
         }
     ],
-    "ksp_version": "0.24.2",
-    "name": "KASA - IXS Class 1.0 for Stock-KSP",
-    "abstract": "A basegame version of the IXS Class mod with no requirements other than firespitter.",
-    "version": "1.0",
-    "author": "KASA",
     "download": "https://kerbalstuff.com/mod/146/KASA%20-%20IXS%20Class%201.0%20for%20Stock-KSP/download/1.0",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/92816-NASA-IXS-Class-Warpship-and-Spacedocks-For-KSP-I-and-Stock-KSP",
-        "kerbalstuff": "https://kerbalstuff.com/mod/146/KASA%20-%20IXS%20Class%201.0%20for%20Stock-KSP",
-        "x_screenshot": "https://kerbalstuff.com/content/KASA_921/KASA_-_IXS_Class_1.0_for_Stock-KSP/KASA_-_IXS_Class_1.0_for_Stock-KSP.jpg"
-    },
     "download_size": 8071505,
+    "conflicts": [
+        {
+            "name": "KASAIXSCommandModule"
+        },
+        {
+            "name": "KASASpacedock"
+        }
+    ],
+    "x_maintained_by": "distantcam",
     "x_generated_by": "netkan"
 }
