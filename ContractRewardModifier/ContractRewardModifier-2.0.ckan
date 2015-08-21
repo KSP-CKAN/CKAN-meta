@@ -1,14 +1,18 @@
 {
     "spec_version": 1,
     "identifier": "ContractRewardModifier",
-    "x_via": "Automated KerbalStuff CKAN submission",
+    "name": "Contract Reward Modifier",
+    "abstract": "An in-game utility for customizing all contract and parameter rewards and penalties, among other options.",
+    "author": "DMagic",
     "license": "MIT",
-    "install": [
-        {
-            "file": "GameData/ContractRewardModifier",
-            "install_to": "GameData"
-        }
-    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/113277",
+        "kerbalstuff": "https://kerbalstuff.com/mod/646/Contract%20Reward%20Modifier",
+        "repository": "https://github.com/DMagic1/Contract-Modifier",
+        "x_screenshot": "https://kerbalstuff.com/content/DMagic_6/Contract_Reward_Modifier/Contract_Reward_Modifier-1426518936.8062785.jpg"
+    },
+    "version": "2.0",
+    "ksp_version": "1.0.4",
     "suggests": [
         {
             "name": "CapCom"
@@ -17,18 +21,14 @@
             "name": "ContractsWindowPlus"
         }
     ],
-    "ksp_version": "1.0.4",
-    "name": "Contract Reward Modifier",
-    "abstract": "An in-game utility for customizing all contract and parameter rewards and penalties, among other options.",
-    "version": "2.0",
-    "author": "DMagic",
+    "install": [
+        {
+            "file": "GameData/ContractRewardModifier",
+            "install_to": "GameData"
+        }
+    ],
     "download": "https://kerbalstuff.com/mod/646/Contract%20Reward%20Modifier/download/2.0",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/113277",
-        "repository": "https://github.com/DMagic1/Contract-Modifier",
-        "kerbalstuff": "https://kerbalstuff.com/mod/646/Contract%20Reward%20Modifier",
-        "x_screenshot": "https://kerbalstuff.com/content/DMagic_6/Contract_Reward_Modifier/Contract_Reward_Modifier-1426518936.8062785.jpg"
-    },
     "download_size": 45368,
+    "x_via": "Automated KerbalStuff CKAN submission",
     "x_generated_by": "netkan"
 }
