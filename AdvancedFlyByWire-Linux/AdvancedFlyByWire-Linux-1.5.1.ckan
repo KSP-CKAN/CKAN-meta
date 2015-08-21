@@ -1,26 +1,21 @@
 {
     "spec_version": 1,
     "identifier": "AdvancedFlyByWire-Linux",
+    "name": "Advanced Fly-By-Wire (Linux version)",
+    "abstract": "Linux version of the AFBW mod",
+    "author": "nlight",
+    "license": "MIT",
     "release_status": "stable",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/95022",
-        "repository": "https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire",
-        "kerbalstuff": "https://kerbalstuff.com/mod/232/Advanced%20Fly-By-Wire"
+        "kerbalstuff": "https://kerbalstuff.com/mod/232/Advanced%20Fly-By-Wire",
+        "repository": "https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire"
     },
-    "install": [
-        {
-            "file": "GameData/ksp-advanced-flybywire",
-            "install_to": "GameData"
-        }
-    ],
+    "version": "1.5.1",
+    "ksp_version": "0.90.0",
     "depends": [
         {
             "name": "Toolbar"
-        }
-    ],
-    "conflicts": [
-        {
-            "name": "AdvancedFlyByWire"
         }
     ],
     "recommends": [
@@ -28,13 +23,18 @@
             "name": "KSP-AVC"
         }
     ],
-    "name": "Advanced Fly-By-Wire (Linux version)",
-    "abstract": "Linux version of the AFBW mod",
-    "version": "1.5.1",
-    "author": "nlight",
+    "install": [
+        {
+            "file": "GameData/ksp-advanced-flybywire",
+            "install_to": "GameData"
+        }
+    ],
     "download": "https://kerbalstuff.com/mod/443/Advanced%20Fly-By-Wire%20%28Linux%20version%29/download/1.5.1",
-    "license": "MIT",
-    "ksp_version": "0.90.0",
     "download_size": 121966,
+    "conflicts": [
+        {
+            "name": "AdvancedFlyByWire"
+        }
+    ],
     "x_generated_by": "netkan"
 }
