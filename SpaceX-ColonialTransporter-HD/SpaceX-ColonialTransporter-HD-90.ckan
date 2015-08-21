@@ -1,7 +1,27 @@
 {
     "spec_version": "v1.4",
     "identifier": "SpaceX-ColonialTransporter-HD",
+    "name": "SpaceX Colonial Transporter HD by LazTek",
+    "abstract": "A 22-piece complete parts pack for a conceptualized SpaceX Colonial Transporter that includes a 50-person capsule, lab/habitat and the Falcon XX launch system.",
+    "author": "Lazarus",
     "license": "restricted",
+    "resources": {
+        "kerbalstuff": "https://kerbalstuff.com/mod/526/SpaceX%20Colonial%20Transporter%20HD%20by%20LazTek",
+        "x_screenshot": "https://kerbalstuff.com/content/Lazarus_1460/SpaceX_Colonial_Transporter_HD_by_LazTek/SpaceX_Colonial_Transporter_HD_by_LazTek.jpg"
+    },
+    "version": "90",
+    "ksp_version": "0.90.0",
+    "provides": [
+        "SpaceX-ColonialTransporter"
+    ],
+    "depends": [
+        {
+            "name": "SpaceX-LaunchPack"
+        },
+        {
+            "name": "SpaceX-ExplorationExtension"
+        }
+    ],
     "install": [
         {
             "find": "LazTek",
@@ -16,17 +36,8 @@
             "install_to": "Ships"
         }
     ],
-    "provides": [
-        "SpaceX-ColonialTransporter"
-    ],
-    "depends": [
-        {
-            "name": "SpaceX-LaunchPack"
-        },
-        {
-            "name": "SpaceX-ExplorationExtension"
-        }
-    ],
+    "download": "https://kerbalstuff.com/mod/526/SpaceX%20Colonial%20Transporter%20HD%20by%20LazTek/download/90",
+    "download_size": 49623051,
     "conflicts": [
         {
             "name": "SpaceX-ColonialTransporter-LR"
@@ -35,16 +46,5 @@
             "name": "SpaceX-ColonialTransporter-Standard"
         }
     ],
-    "ksp_version": "0.90.0",
-    "name": "SpaceX Colonial Transporter HD by LazTek",
-    "abstract": "A 22-piece complete parts pack for a conceptualized SpaceX Colonial Transporter that includes a 50-person capsule, lab/habitat and the Falcon XX launch system.",
-    "version": "90",
-    "author": "Lazarus",
-    "download": "https://kerbalstuff.com/mod/526/SpaceX%20Colonial%20Transporter%20HD%20by%20LazTek/download/90",
-    "resources": {
-        "kerbalstuff": "https://kerbalstuff.com/mod/526/SpaceX%20Colonial%20Transporter%20HD%20by%20LazTek",
-        "x_screenshot": "https://kerbalstuff.com/content/Lazarus_1460/SpaceX_Colonial_Transporter_HD_by_LazTek/SpaceX_Colonial_Transporter_HD_by_LazTek.jpg"
-    },
-    "download_size": 49623051,
     "x_generated_by": "netkan"
 }
