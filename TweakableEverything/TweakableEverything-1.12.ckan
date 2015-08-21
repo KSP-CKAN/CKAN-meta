@@ -1,13 +1,18 @@
 {
     "spec_version": 1,
     "identifier": "TweakableEverything",
+    "name": "TweakableEverything",
+    "abstract": "For all your part tweaking needs",
+    "author": "toadicus",
     "license": "BSD-3-clause",
-    "install": [
-        {
-            "file": "GameData/TweakableEverything",
-            "install_to": "GameData"
-        }
-    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/64711",
+        "kerbalstuff": "https://kerbalstuff.com/mod/255/TweakableEverything",
+        "repository": "http://git.toad.homelinux.net/projects/TweakableEverything.git",
+        "x_screenshot": "https://kerbalstuff.com/content/toadicus_101/TweakableEverything/TweakableEverything.png"
+    },
+    "version": "1.12",
+    "ksp_version": "1.0.4",
     "depends": [
         {
             "name": "ModuleManager"
@@ -27,18 +32,13 @@
             "name": "TweakableEverything-FairingStagingToggle"
         }
     ],
-    "ksp_version": "1.0.4",
-    "name": "TweakableEverything",
-    "abstract": "For all your part tweaking needs",
-    "version": "1.12",
-    "author": "toadicus",
+    "install": [
+        {
+            "file": "GameData/TweakableEverything",
+            "install_to": "GameData"
+        }
+    ],
     "download": "https://kerbalstuff.com/mod/255/TweakableEverything/download/1.12",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/64711",
-        "repository": "http://git.toad.homelinux.net/projects/TweakableEverything.git",
-        "kerbalstuff": "https://kerbalstuff.com/mod/255/TweakableEverything",
-        "x_screenshot": "https://kerbalstuff.com/content/toadicus_101/TweakableEverything/TweakableEverything.png"
-    },
     "download_size": 410795,
     "x_generated_by": "netkan"
 }
