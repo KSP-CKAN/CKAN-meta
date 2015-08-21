@@ -1,7 +1,20 @@
 {
     "spec_version": "v1.4",
     "identifier": "TerrestrialPlanetPack",
+    "name": "Terrestrial Planets Pack",
+    "abstract": "A collection of new planets to travel to and land on.  Aims to provide new gameplay challenges.",
+    "author": "sdj64",
     "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/110431-Terrestrial-Planet-Pack",
+        "kerbalstuff": "https://kerbalstuff.com/mod/590/Terrestrial%20Planets%20Pack",
+        "x_screenshot": "https://kerbalstuff.com/content/sdj64_7210/Terrestrial_Planets_Pack/Terrestrial_Planets_Pack-1424486194.6856248.png"
+    },
+    "version": "0.4.1",
+    "ksp_version": "0.90.0",
+    "provides": [
+        "PlanetPack"
+    ],
     "depends": [
         {
             "name": "KopernicusTech"
@@ -11,14 +24,6 @@
         },
         {
             "name": "DDSLoader"
-        }
-    ],
-    "provides": [
-        "PlanetPack"
-    ],
-    "conflicts": [
-        {
-            "name": "PlanetPack"
         }
     ],
     "install": [
@@ -36,17 +41,12 @@
             ]
         }
     ],
-    "ksp_version": "0.90.0",
-    "name": "Terrestrial Planets Pack",
-    "abstract": "A collection of new planets to travel to and land on.  Aims to provide new gameplay challenges.",
-    "version": "0.4.1",
-    "author": "sdj64",
     "download": "https://kerbalstuff.com/mod/590/Terrestrial%20Planets%20Pack/download/0.4.1",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/110431-Terrestrial-Planet-Pack",
-        "kerbalstuff": "https://kerbalstuff.com/mod/590/Terrestrial%20Planets%20Pack",
-        "x_screenshot": "https://kerbalstuff.com/content/sdj64_7210/Terrestrial_Planets_Pack/Terrestrial_Planets_Pack-1424486194.6856248.png"
-    },
     "download_size": 98141967,
+    "conflicts": [
+        {
+            "name": "PlanetPack"
+        }
+    ],
     "x_generated_by": "netkan"
 }
