@@ -1,40 +1,40 @@
 {
     "spec_version": 1,
+    "comment": "FAR only supports one wind provider at once",
     "identifier": "KerbalWind",
     "name": "Kerbal Wind",
     "abstract": "Adds wind to the game. It opens a dialog box where you can set wind direction and speed. Inspired by KerbalWeatherSystem by silverfox8124. But this is much simpler, omitting the actual weather simulation.",
+    "author": [
+        "DaMichel",
+        "silverfox8124"
+    ],
     "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/107989",
+        "repository": "https://github.com/DaMichel/KerbalWind"
+    },
+    "version": "R8",
     "ksp_version": "1.0",
-    "recommends": [
-        {
-            "name": "Toolbar"
-        }
+    "provides": [
+        "FARWind"
     ],
     "depends": [
         {
             "name": "FerramAerospaceResearch"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/107989",
-        "repository": "https://github.com/DaMichel/KerbalWind"
-    },
-    "comment": "FAR only supports one wind provider at once",
-    "provides": [
-        "FARWind"
+    "recommends": [
+        {
+            "name": "Toolbar"
+        }
     ],
+    "download": "https://github.com/DaMichel/KerbalWind/releases/download/R8/KerbalWindR8.zip",
+    "download_size": 13218,
     "conflicts": [
         {
             "name": "FARWind"
         }
     ],
-    "author": [
-        "DaMichel",
-        "silverfox8124"
-    ],
-    "release_status": "stable",
-    "version": "R8",
-    "download": "https://github.com/DaMichel/KerbalWind/releases/download/R8/KerbalWindR8.zip",
-    "download_size": 13218,
     "x_generated_by": "netkan"
 }
