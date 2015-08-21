@@ -3,7 +3,15 @@
     "identifier": "ContractConfigurator-UsefulSpaceStations",
     "name": "Contract Pack: Useful Space Stations",
     "abstract": "Adds maintenance missions to your Space Stations",
+    "author": "severedsolo",
     "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/113642",
+        "repository": "https://github.com/severedsolo/UsefulSpaceStations"
+    },
+    "version": "1.0.1",
+    "ksp_version_min": "1.0.2",
+    "ksp_version_max": "1.0.4",
     "depends": [
         {
             "name": "ContractConfigurator",
@@ -13,11 +21,6 @@
             "name": "ModuleManager"
         }
     ],
-    "conflicts": [
-        {
-            "name": "ContractConfigurator-KerbinSpaceStation"
-        }
-    ],
     "install": [
         {
             "find": "UsefulSpaceStations",
@@ -25,15 +28,12 @@
             "filter": "MiniAVC.xml"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/113642",
-        "repository": "https://github.com/severedsolo/UsefulSpaceStations"
-    },
-    "version": "1.0.1",
-    "author": "severedsolo",
     "download": "https://github.com/severedsolo/UsefulSpaceStations/releases/download/1.0.1/UsefulSpaceStations1.0.1.zip",
-    "ksp_version_min": "1.0.2",
-    "ksp_version_max": "1.0.4",
     "download_size": 72872,
+    "conflicts": [
+        {
+            "name": "ContractConfigurator-KerbinSpaceStation"
+        }
+    ],
     "x_generated_by": "netkan"
 }
