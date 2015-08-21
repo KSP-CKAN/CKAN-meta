@@ -1,13 +1,17 @@
 {
     "spec_version": 1,
-    "license": "CC-BY-NC-4.0",
     "identifier": "HotRockets",
-    "install": [
-        {
-            "file": "MP_Nazari",
-            "install_to": "GameData"
-        }
-    ],
+    "name": "HotRockets",
+    "abstract": "HotRockets (does not include plugins) - REQUIRES SMOKESCREEN AND MODULEMANAGER TO WORK.",
+    "author": "nazari",
+    "license": "CC-BY-NC-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/65754-HotRockets!-Particle-FX-Replacement-Tutorial",
+        "kerbalstuff": "https://kerbalstuff.com/mod/741/HotRockets",
+        "x_screenshot": "https://kerbalstuff.com/content/nazari_71/HotRockets/HotRockets-1435471247.54792.png"
+    },
+    "version": "1.0.4.1",
+    "ksp_version": "1.0.4",
     "depends": [
         {
             "name": "ModuleManager"
@@ -16,22 +20,18 @@
             "name": "SmokeScreen"
         }
     ],
+    "install": [
+        {
+            "file": "MP_Nazari",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/741/HotRockets/download/1.0.4.1",
+    "download_size": 2280347,
     "conflicts": [
         {
             "name": "RealPlume"
         }
     ],
-    "ksp_version": "1.0.4",
-    "name": "HotRockets",
-    "abstract": "HotRockets (does not include plugins) - REQUIRES SMOKESCREEN AND MODULEMANAGER TO WORK.",
-    "version": "1.0.4.1",
-    "author": "nazari",
-    "download": "https://kerbalstuff.com/mod/741/HotRockets/download/1.0.4.1",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/65754-HotRockets!-Particle-FX-Replacement-Tutorial",
-        "kerbalstuff": "https://kerbalstuff.com/mod/741/HotRockets",
-        "x_screenshot": "https://kerbalstuff.com/content/nazari_71/HotRockets/HotRockets-1435471247.54792.png"
-    },
-    "download_size": 2280347,
     "x_generated_by": "netkan"
 }
