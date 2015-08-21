@@ -3,16 +3,15 @@
     "identifier": "KSPInterstellarLite",
     "name": "KSP Interstellar Lite",
     "abstract": "Lite version of KSP Interstellar",
+    "author": "WaveFunctionP",
     "license": "unrestricted",
+    "resources": {
+        "repository": "https://github.com/WaveFunctionP/KSPInterstellar"
+    },
+    "version": "v0.12.3",
     "ksp_version": "0.24.2",
-    "x_maintained_by": "distantcam",
     "provides": [
         "KSPInterstellar"
-    ],
-    "conflicts": [
-        {
-            "name": "KSPInterstellar"
-        }
     ],
     "depends": [
         {
@@ -40,12 +39,13 @@
             "install_to": "GameData"
         }
     ],
-    "version": "v0.12.3",
-    "author": "WaveFunctionP",
     "download": "https://github.com/WaveFunctionP/KSPInterstellar/releases/download/v0.12.3/Interstellar.Lite.v0.12.3.zip",
-    "resources": {
-        "repository": "https://github.com/WaveFunctionP/KSPInterstellar"
-    },
     "download_size": 54100142,
+    "conflicts": [
+        {
+            "name": "KSPInterstellar"
+        }
+    ],
+    "x_maintained_by": "distantcam",
     "x_generated_by": "netkan"
 }
