@@ -1,13 +1,18 @@
 {
     "spec_version": 1,
     "identifier": "AntennaRange",
+    "name": "AntennaRange",
+    "abstract": "Enforce and Encourage Antenna Diversity",
+    "author": "toadicus",
     "license": "BSD-3-clause",
-    "install": [
-        {
-            "file": "GameData/AntennaRange",
-            "install_to": "GameData"
-        }
-    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/56440",
+        "kerbalstuff": "https://kerbalstuff.com/mod/254/AntennaRange",
+        "repository": "http://git.toad.homelinux.net/projects/AntennaRange.git",
+        "x_screenshot": "https://kerbalstuff.com/content/toadicus_101/AntennaRange/AntennaRange.png"
+    },
+    "version": "1.10.1",
+    "ksp_version": "1.0.4",
     "depends": [
         {
             "name": "ModuleManager"
@@ -19,18 +24,13 @@
             "name": "EVAManager"
         }
     ],
-    "ksp_version": "1.0.4",
-    "name": "AntennaRange",
-    "abstract": "Enforce and Encourage Antenna Diversity",
-    "version": "1.10.1",
-    "author": "toadicus",
+    "install": [
+        {
+            "file": "GameData/AntennaRange",
+            "install_to": "GameData"
+        }
+    ],
     "download": "https://kerbalstuff.com/mod/254/AntennaRange/download/1.10.1",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/56440",
-        "repository": "http://git.toad.homelinux.net/projects/AntennaRange.git",
-        "kerbalstuff": "https://kerbalstuff.com/mod/254/AntennaRange",
-        "x_screenshot": "https://kerbalstuff.com/content/toadicus_101/AntennaRange/AntennaRange.png"
-    },
     "download_size": 189845,
     "x_generated_by": "netkan"
 }
