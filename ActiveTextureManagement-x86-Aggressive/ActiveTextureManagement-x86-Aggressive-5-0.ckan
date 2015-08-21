@@ -4,20 +4,23 @@
     "name": "Active Texture Management - X86 - Aggressive",
     "abstract": "x86 aggressive texture compression to DXT1 and DXT5",
     "author": "rbray89",
+    "license": "MIT",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/59005",
         "repository": "https://github.com/rbray89/ActiveTextureManagement"
     },
-    "license": "MIT",
+    "version": "5-0",
+    "provides": [
+        "ActiveTextureManagement"
+    ],
     "install": [
         {
             "file": "GameData/ActiveTextureManagement",
             "install_to": "GameData"
         }
     ],
-    "provides": [
-        "ActiveTextureManagement"
-    ],
+    "download": "https://github.com/rbray89/ActiveTextureManagement/releases/download/5-0/Aggressive-Release.zip",
+    "download_size": 79166,
     "conflicts": [
         {
             "name": "ActiveTextureManagement-Aggressive"
@@ -32,8 +35,5 @@
             "name": "ActiveTextureManagement-x86-Basic"
         }
     ],
-    "version": "5-0",
-    "download": "https://github.com/rbray89/ActiveTextureManagement/releases/download/5-0/Aggressive-Release.zip",
-    "download_size": 79166,
     "x_generated_by": "netkan"
 }
