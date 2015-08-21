@@ -1,7 +1,20 @@
 {
     "spec_version": "v1.4",
     "identifier": "Insystem",
+    "name": "Insystem Mod for Kopernicus",
+    "abstract": "This mod uses Kopernicus to alter the orbits of the stock planets",
+    "author": "Dunrana",
     "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/113236-Insystem-Mod-for-Kopernicus",
+        "kerbalstuff": "https://kerbalstuff.com/mod/645/Insystem%20Mod%20for%20Kopernicus",
+        "x_screenshot": "https://kerbalstuff.com/content/Dunrana_8044/Insystem_Mod_for_Kopernicus/Insystem_Mod_for_Kopernicus-1426464885.7498348.png"
+    },
+    "version": "1.0",
+    "ksp_version": "0.90.0",
+    "provides": [
+        "PlanetPack"
+    ],
     "depends": [
         {
             "name": "Kopernicus"
@@ -16,31 +29,18 @@
             "name": "ModuleManager"
         }
     ],
-    "provides": [
-        "PlanetPack"
-    ],
-    "conflicts": [
-        {
-            "name": "PlanetPack"
-        }
-    ],
     "install": [
         {
             "find": "Insystem",
             "install_to": "GameData"
         }
     ],
-    "ksp_version": "0.90.0",
-    "name": "Insystem Mod for Kopernicus",
-    "abstract": "This mod uses Kopernicus to alter the orbits of the stock planets",
-    "version": "1.0",
-    "author": "Dunrana",
     "download": "https://kerbalstuff.com/mod/645/Insystem%20Mod%20for%20Kopernicus/download/1.0",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/113236-Insystem-Mod-for-Kopernicus",
-        "kerbalstuff": "https://kerbalstuff.com/mod/645/Insystem%20Mod%20for%20Kopernicus",
-        "x_screenshot": "https://kerbalstuff.com/content/Dunrana_8044/Insystem_Mod_for_Kopernicus/Insystem_Mod_for_Kopernicus-1426464885.7498348.png"
-    },
     "download_size": 159325,
+    "conflicts": [
+        {
+            "name": "PlanetPack"
+        }
+    ],
     "x_generated_by": "netkan"
 }
