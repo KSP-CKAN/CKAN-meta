@@ -1,14 +1,32 @@
 {
     "spec_version": "v1.4",
     "identifier": "CommunityTechTree",
-    "release_status": "stable",
+    "name": "Community Tech Tree",
+    "abstract": "An extension for the stock technology tree designed to support many mods",
+    "author": "Nertea",
     "license": "CC-BY-NC-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/100385-Community-Tech-Tree-2-0-last-updated-03-05-15?p=1546633#post1546633",
+        "kerbalstuff": "https://kerbalstuff.com/mod/345/Community%20Tech%20Tree",
+        "x_screenshot": "https://kerbalstuff.com/content/Nertea_3884/Community_Tech_Tree/Community_Tech_Tree-1430952155.0854826.png"
+    },
+    "version": "2.1",
+    "ksp_version": "1.0.4",
     "depends": [
         {
             "name": "ModuleManager",
             "min_version": "2.6.2"
         }
     ],
+    "install": [
+        {
+            "find": "CommunityTechTree",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/345/Community%20Tech%20Tree/download/2.1",
+    "download_size": 9522,
     "conflicts": [
         {
             "name": "ETT"
@@ -20,23 +38,5 @@
             "name": "ModOrientedTechTree-Unmanned"
         }
     ],
-    "install": [
-        {
-            "find": "CommunityTechTree",
-            "install_to": "GameData"
-        }
-    ],
-    "ksp_version": "1.0.4",
-    "name": "Community Tech Tree",
-    "abstract": "An extension for the stock technology tree designed to support many mods",
-    "version": "2.1",
-    "author": "Nertea",
-    "download": "https://kerbalstuff.com/mod/345/Community%20Tech%20Tree/download/2.1",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/100385-Community-Tech-Tree-2-0-last-updated-03-05-15?p=1546633#post1546633",
-        "kerbalstuff": "https://kerbalstuff.com/mod/345/Community%20Tech%20Tree",
-        "x_screenshot": "https://kerbalstuff.com/content/Nertea_3884/Community_Tech_Tree/Community_Tech_Tree-1430952155.0854826.png"
-    },
-    "download_size": 9522,
     "x_generated_by": "netkan"
 }
