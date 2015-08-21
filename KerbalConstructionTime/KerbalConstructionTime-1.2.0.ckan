@@ -1,6 +1,18 @@
 {
     "spec_version": 1,
     "identifier": "KerbalConstructionTime",
+    "name": "Kerbal Construction Time",
+    "abstract": "Unrapid Planned Assembly",
+    "author": "magico13",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/92377-0-24-2-Kerbal-Construction-Time-Release-v1-0-0-(8-29-14)",
+        "kerbalstuff": "https://kerbalstuff.com/mod/125/Kerbal%20Construction%20Time",
+        "repository": "https://github.com/magico13/KCT",
+        "x_screenshot": "https://kerbalstuff.com/content/magico13_568/Kerbal_Construction_Time/Kerbal_Construction_Time.png"
+    },
+    "version": "1.2.0",
+    "ksp_version": "1.0.4",
     "recommends": [
         {
             "name": "StageRecovery"
@@ -11,30 +23,18 @@
             "name": "Toolbar"
         }
     ],
-    "conflicts": [
-        {
-            "name": "TarsierSpaceTech"
-        }
-    ],
     "install": [
         {
             "file": "GameData/KerbalConstructionTime",
             "install_to": "GameData"
         }
     ],
-    "ksp_version": "1.0.4",
-    "name": "Kerbal Construction Time",
-    "abstract": "Unrapid Planned Assembly",
-    "version": "1.2.0",
-    "author": "magico13",
     "download": "https://kerbalstuff.com/mod/125/Kerbal%20Construction%20Time/download/1.2.0",
-    "license": "GPL-3.0",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/92377-0-24-2-Kerbal-Construction-Time-Release-v1-0-0-(8-29-14)",
-        "repository": "https://github.com/magico13/KCT",
-        "kerbalstuff": "https://kerbalstuff.com/mod/125/Kerbal%20Construction%20Time",
-        "x_screenshot": "https://kerbalstuff.com/content/magico13_568/Kerbal_Construction_Time/Kerbal_Construction_Time.png"
-    },
     "download_size": 609270,
+    "conflicts": [
+        {
+            "name": "TarsierSpaceTech"
+        }
+    ],
     "x_generated_by": "netkan"
 }
