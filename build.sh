@@ -197,6 +197,7 @@ chmod a+x ckan-validate.py
 # fetch latest ckan.exe
 echo "Fetching latest ckan.exe"
 wget --quiet $LATEST_CKAN_URL -O ckan.exe
+mono ckan.exe version
 
 # Fetch the latest metadata.
 echo "Fetching latest metadata"
