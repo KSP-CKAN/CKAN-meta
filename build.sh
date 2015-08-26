@@ -225,7 +225,7 @@ do
 
     # Extract identifier and KSP version.
     CURRENT_IDENTIFIER=$($JQ_PATH '.identifier' $ckan)
-    CURRENT_KSP_VERSION=$($JQ_PATH 'if .ksp_version then .ksp_version else .ksp_version_min end' $ckan)
+    CURRENT_KSP_VERSION=$($JQ_PATH 'if .ksp_version then .ksp_version else .ksp_version_max end' $ckan)
     
     # Strip "'s.
     CURRENT_IDENTIFIER=${CURRENT_IDENTIFIER//'"'}
