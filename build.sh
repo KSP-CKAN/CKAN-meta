@@ -57,6 +57,10 @@ create_dummy_ksp () {
         echo "Overidding '1.0' with '$KSP_VERSION_DEFAULT'"
         KSP_VERSION=$KSP_VERSION_DEFAULT
         ;;
+    "1.0.99")
+        echo "Overidding '1.0.99' with '$KSP_VERSION_DEFAULT'"
+        KSP_VERSION=$KSP_VERSION_DEFAULT
+        ;;
     "any")
         echo "Overridding any with '$KSP_VERSION_DEFAULT'"
         KSP_VERSION=$KSP_VERSION_DEFAULT
@@ -225,7 +229,7 @@ do
 
     # Extract identifier and KSP version.
     CURRENT_IDENTIFIER=$($JQ_PATH '.identifier' $ckan)
-    CURRENT_KSP_VERSION=$($JQ_PATH 'if .ksp_version then .ksp_version else .ksp_version_min end' $ckan)
+    CURRENT_KSP_VERSION=$($JQ_PATH 'if .ksp_version then .ksp_version else .ksp_version_max end' $ckan)
     
     # Strip "'s.
     CURRENT_IDENTIFIER=${CURRENT_IDENTIFIER//'"'}
