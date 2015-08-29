@@ -12,11 +12,15 @@
         "x_screenshot": "https://kerbalstuff.com/content/JPLRepo_4429/AmpYear_Power_Manager__Reserve_Power__Ion_RCS/AmpYear_Power_Manager__Reserve_Power__Ion_RCS-1428185400.1845362.png"
     },
     "version": "1:V1.0.2.0",
-    "ksp_version": "1.0.4",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.4",
     "depends": [
         {
             "name": "ModuleManager",
             "min_version": "2.3.5"
+        },
+        {
+            "name": "REPOSoftTech-Agencies"
         }
     ],
     "recommends": [
@@ -27,11 +31,11 @@
     "install": [
         {
             "find": "REPOSoftTech",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": "Agencies"
         }
     ],
     "download": "https://kerbalstuff.com/mod/630/AmpYear%20Power%20Manager%20+%20Reserve%20Power%20+%20Ion%20RCS/download/V1.0.2.0",
     "download_size": 683616,
-    "x_via": "Automated KerbalStuff CKAN submission",
     "x_generated_by": "netkan"
 }
