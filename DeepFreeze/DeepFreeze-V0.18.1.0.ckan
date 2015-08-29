@@ -12,11 +12,15 @@
         "x_screenshot": "https://kerbalstuff.com/content/JPLRepo_4429/DeepFreeze_Continued/DeepFreeze_Continued-1440817609.929979.png"
     },
     "version": "V0.18.1.0",
-    "ksp_version": "1.0.4",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.4",
     "depends": [
         {
             "name": "ModuleManager",
             "min_version": "2.3.5"
+        },
+        {
+            "name": "REPOSoftTech-Agencies"
         }
     ],
     "recommends": [
@@ -51,7 +55,8 @@
     "install": [
         {
             "find": "REPOSoftTech",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": "Agencies"
         }
     ],
     "download": "https://kerbalstuff.com/mod/895/DeepFreeze%20Continued.../download/V0.18.1.0",
