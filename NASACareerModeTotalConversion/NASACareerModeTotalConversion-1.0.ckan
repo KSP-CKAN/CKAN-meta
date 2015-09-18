@@ -1,0 +1,51 @@
+{
+    "spec_version": 1,
+    "identifier": "NASACareerModeTotalConversion",
+    "name": "NASA career-mode total conversion",
+    "abstract": "Overhauls your career-mode to mirror the NASA missions and hardware.",
+    "author": "Tjsnh",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/127398-NASA-Career-mode-total-conversion",
+        "kerbalstuff": "https://kerbalstuff.com/mod/962/NASA%20career-mode%20total%20conversion",
+        "x_screenshot": "https://kerbalstuff.com/content/Tjsnh_8014/NASA_career-mode_total_conversion/NASA_career-mode_total_conversion-1435747357.8231971.png"
+    },
+    "version": "1.0",
+    "ksp_version": "1.0.4",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Tantares"
+        },
+        {
+            "name": "TantaresLV"
+        },
+        {
+            "name": "OMSKSpaceProducts"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RemoteTech"
+        },
+        {
+            "name": "ContractConfigurator-AdvancedProgression"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/USAconversion",
+            "install_to": "GameData",
+            "filter": "Thumbs.db"
+        },
+        {
+            "file": "Ships",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/962/NASA%20career-mode%20total%20conversion/download/1.0",
+    "download_size": 225163,
+    "x_generated_by": "netkan"
+}

@@ -1,21 +1,23 @@
 {
     "spec_version": 1,
+    "comment": "2015-06-28 Netkan version was hard coded 0.90, changed to min max, see PR discussion re: pjf",
     "identifier": "Snacks",
     "name": "Snacks",
     "abstract": "Add a simple life support system based on Snacks!",
+    "author": "tgruetzm",
     "license": "MIT",
-    "ksp_version": "0.90",
+    "resources": {
+        "repository": "https://github.com/tgruetzm/Snacks"
+    },
+    "version": "v0.3.5alpha",
+    "ksp_version_min": "0.90",
+    "ksp_version_max": "1.0.99",
     "depends": [
         {
             "name": "ModuleManager"
         }
     ],
-    "resources": {
-        "repository": "https://github.com/tgruetzm/Snacks"
-    },
-    "author": "tgruetzm",
-    "version": "v0.3.5alpha",
     "download": "https://github.com/tgruetzm/Snacks/releases/download/v0.3.5alpha/Snacks.v0.3.5alpha.zip",
-    "x_generated_by": "netkan",
-    "download_size": 46721
+    "download_size": 46721,
+    "x_generated_by": "netkan"
 }

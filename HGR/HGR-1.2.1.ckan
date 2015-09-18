@@ -1,0 +1,30 @@
+{
+    "spec_version"   : "v1.4",
+    "name"           : "HGR 1.875m parts",
+    "author"         : ["Orionkermin"],
+    "abstract"       : "Stock alike command pods and an 1.875m diameter of parts",
+    "identifier"     : "HGR",
+    "license"        : "restricted",
+    "version"        : "1.2.1",
+    "release_status" : "stable",
+    "ksp_version"    : "1.0.2",
+    "resources" : {
+        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/60974",
+        "x_curse"      : "http://kerbal.curseforge.com/ksp-mods/222583-hgr-875m-parts"
+    },
+    "download"       : "http://addons-origin.cursecdn.com/files/2237/481/HGR_V1.2.1.zip",
+    "install" : [
+        {
+            "find"       : "HGR",
+            "filter"     : "Props",
+            "install_to" : "GameData"
+        },
+        {
+            "find"       : "HGR_Redux",
+            "install_to" : "GameData"
+        }
+    ],
+    "depends"  : [
+        { "name" : "HGR-Props" }
+    ]
+}

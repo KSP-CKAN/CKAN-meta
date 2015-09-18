@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "PhoenixIndustriesCargoResupplySystem-large",
+    "name": "Phoenix Industries Cargo Resupply System - 2.5m",
+    "license": "CC-BY-NC-SA-4.0",
+    
+    "conflicts": [
+        {
+            "name": "PhoenixIndustriesCargoResupplySystem"
+        }
+    ],
+    
+    "provides": [
+        "PhoenixIndustriesCargoResupplySystem"
+    ],
+    
+    "recommends": [
+        { "name": "MechJeb2" },
+        { "name": "KIS"}
+    ],
+    
+    "install": [
+        {
+            "filter": "thumbs.db",
+            "file": "CTN Phoenix Pack v1.2/2.5m version/GameData/CTN",
+            "install_to": "GameData"
+        }
+    ],
+
+    "comment": "This mod would work as a netkan except for file tree, in the future ckan-core#131 may address this",
+
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/122510",
+        "kerbalstuff": "https://kerbalstuff.com/mod/831/Phoenix%20Industries%20Cargo%20Resupply%20System"
+    },
+    "ksp_version": "1.0.2",
+    "abstract": "A four part mod containing a probe capsule, storage trunk, solar panels, and heat shield. KIS and MechJeb compatible.",
+    "author": "MoviesColin",
+    "version": "1.2",
+    "download": "https://kerbalstuff.com/mod/831/Phoenix%20Industries%20Cargo%20Resupply%20System/download/1.2",
+    "x_generated_by": "netkan",
+    "download_size": 1693917
+}

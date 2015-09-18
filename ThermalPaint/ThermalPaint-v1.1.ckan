@@ -1,0 +1,33 @@
+{
+    "spec_version": 1,
+    "identifier"  : "ThermalPaint",
+    "name"        : "Thermal Protection System Tweak",
+    "author"      : "anarde",
+    "abstract"    : "Adds a 'ThermalPaint' resource that you can add to any part by right-clicking the part within the VAB or SPH and using the appropriate slider. Adding more helps with re-entry heating and high-speed atmospheric travel heating, but it does weight quite a lot.",
+    "version"     : "v1.1",
+    "ksp_version" : "1.0.2",
+    "license"     : "GPL-3.0",
+    
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/123279"
+    },
+    
+    "download": "http://addons-origin.cursecdn.com/files/2240/356/TPS-T.zip",
+    
+    "depends": [
+        { "name": "ModuleManager" }
+    ],
+    
+    "conflicts": [
+        { "name": "InterstellarFuelSwitch-Core" },
+        { "name": "StockFuelSwitch"},
+        { "name": "FuelSwitchtoeverytank-default"}
+    ],
+    
+    "install": [
+        {
+            "file"       : "TPS-T/GameData/TPS-T",
+            "install_to" : "GameData"
+        }
+    ]
+}

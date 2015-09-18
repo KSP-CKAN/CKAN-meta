@@ -1,0 +1,35 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SigmaBinary-core",
+    "name": "Sigma Binary",
+    "abstract": "This mod enables the creation of binary systems but does not contain any binary systems itself.",
+    "author": "Sigma88",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "repository": "https://github.com/Sigma88/Sigma-Binary"
+    },
+    "version": "v1.1.1",
+    "ksp_version": "1.0.4",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SigmaBinary-DunaIke"
+        }
+    ],
+    "install": [
+        {
+            "find": "Sigma",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Sigma88/Sigma-Binary/releases/download/v1.1.1/SigmaBinary.v1.1.1.zip",
+    "download_size": 17618,
+    "x_generated_by": "netkan"
+}

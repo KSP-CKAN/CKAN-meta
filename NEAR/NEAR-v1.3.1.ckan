@@ -1,10 +1,28 @@
 {
     "spec_version": 1,
     "identifier": "NEAR",
+    "name": "Neophyte's Elementary Aerodynamics Replacement",
+    "abstract": "NEAR replaces KSP's stock mass-based aerodynamics model with a relatively simple, slightly more realistic one.",
+    "author": "ferram4",
     "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/86419",
+        "kerbalstuff": "https://kerbalstuff.com/mod/54/Neophyte's%20Elementary%20Aerodynamics%20Replacement",
+        "repository": "https://github.com/ferram4/Ferram-Aerospace-Research/tree/NEAR",
+        "x_screenshot": "https://kerbalstuff.com/content/ferram4_54/Neophytes_Elementary_Aerodynamics_Replacement/Neophytes_Elementary_Aerodynamics_Replacement.png"
+    },
+    "version": "v1.3.1",
+    "ksp_version": "0.90.0",
     "provides": [
         "AerodynamicModel"
     ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/54/Neophyte%27s%20Elementary%20Aerodynamics%20Replacement/download/v1.3.1",
+    "download_size": 78227,
     "conflicts": [
         {
             "name": "AerodynamicModel"
@@ -13,21 +31,5 @@
             "name": "FerramAerospaceResearch"
         }
     ],
-    "depends": [
-        {
-            "name": "ModuleManager"
-        }
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/86419",
-        "kerbalstuff": "https://kerbalstuff.com/mod/54/Neophyte's%20Elementary%20Aerodynamics%20Replacement"
-    },
-    "ksp_version": "0.90",
-    "name": "Neophyte's Elementary Aerodynamics Replacement",
-    "abstract": "NEAR replaces KSP's stock mass-based aerodynamics model with a relatively simple, slightly more realistic one.",
-    "author": "ferram4",
-    "version": "v1.3.1",
-    "download": "https://kerbalstuff.com/mod/54/Neophyte%27s%20Elementary%20Aerodynamics%20Replacement/download/v1.3.1",
-    "x_generated_by": "netkan",
-    "download_size": 78227
+    "x_generated_by": "netkan"
 }
