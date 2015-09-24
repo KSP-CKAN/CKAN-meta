@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.10",
+    "spec_version": "v1.4",
     "identifier": "ShadowWorksStockalikeSLSandMore",
     "name": "ShadowWorks - Stockalike SLS and More",
     "abstract": "A parts pack that adds a stock-alike version of the Space Launch System as well as a 5m External Tank and appropriately scaled SRBs for Shuttle made of Mk3 Spaceplane parts.",
@@ -22,12 +22,12 @@
     ],
     "install": [
         {
-            "find_regexp": "ShadowWorks_Stockalike_SLS.+/GameData/ShadowWorks",
+            "find": "ShadowWorks",
             "install_to": "GameData",
             "filter": ".DS_Store"
         },
         {
-            "find_regexp": "ShadowWorks_Stockalike_SLS.+/Ships/VAB",
+            "find": "VAB",
             "install_to": "Ships",
             "filter": ".DS_Store"
         }
