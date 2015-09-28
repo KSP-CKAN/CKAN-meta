@@ -12,9 +12,14 @@
     },
     "version": "0.3.0",
     "ksp_version": "1.0.4",
+    "recommends": [
+        {
+            "name": "USAFOrionMod-TD-subedition"
+        }
+    ],
     "install": [
         {
-            "file": "GameData/TD-Orion-10m",
+            "find": "TD-Orion-10m",
             "install_to": "GameData"
         }
     ],
