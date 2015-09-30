@@ -1,0 +1,37 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Pathfinder-AntennarangePatch",
+    "name": "Pathfinder-AntennarangePatch",
+    "abstract": "A ModuleManager cfg file to patch Pathfinder to work with RemoteTech",
+    "author": "linuxgurugamer",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "kerbalstuff": "https://kerbalstuff.com/mod/1181/Pathfinder-AntennarangePatch",
+        "repository": "https://github.com/linuxgurugamer/Pathfinder-AntennarangePatch"
+    },
+    "version": "0.2.0",
+    "ksp_version": "1.0.4",
+    "depends": [
+        {
+            "name": "Pathfinder"
+        },
+        {
+            "name": "AntennaRange"
+        }
+    ],
+    "install": [
+        {
+            "find": "Pathfinder",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/1181/Pathfinder-AntennarangePatch/download/0.2.0",
+    "download_size": 1361,
+    "conflicts": [
+        {
+            "name": "RemoteTech"
+        }
+    ],
+    "x_generated_by": "netkan"
+}
