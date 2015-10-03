@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ContractConfigurator-AnomalySurveyor",
+    "abstract": "Contracts to guide you to the various easter eggs in the game.",
+    "name": "Contract Pack: Anomaly Surveyor",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "author": "nightingale",
+    "depends": [
+        {
+            "name": "ContractConfigurator"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "WaypointManager"
+        },
+        {
+            "name": "SCANsat"
+        }
+    ],
+    "install": [
+        {
+            "find": "AnomalySurveyor",
+            "install_to": "GameData/ContractPacks"
+        }
+    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/109471",
+        "bugtracker": "https://github.com/jrossignol/ContractPack-AnomalySurveyor/issues",
+        "license": "https://raw.githubusercontent.com/jrossignol/ContractPack-AnomalySurveyor/master/GameData/ContractPacks/AnomalySurveyor/LICENSE.txt",
+        "repository": "https://github.com/jrossignol/ContractPack-AnomalySurveyor"
+    },
+    "version": "1.1.1",
+    "download": "https://github.com/jrossignol/ContractPack-AnomalySurveyor/releases/download/1.1.1/ContractPack-AnomalySurveyor_1.1.1.zip",
+    "x_generated_by": "netkan",
+    "download_size": 47082,
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.99"
+}

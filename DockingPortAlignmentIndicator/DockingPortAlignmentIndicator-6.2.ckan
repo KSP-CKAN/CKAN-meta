@@ -1,25 +1,32 @@
 {
     "spec_version": 1,
     "identifier": "DockingPortAlignmentIndicator",
-    "x_netkan_license_ok": true,
+    "name": "Docking Port Alignment Indicator",
+    "abstract": "The Docking Port Alignment Indicator is designed to help you dock manually, by presenting target alignment and relative position in a clean and intuitive manner.",
+    "author": "NavyFish",
+    "license": "MIT",
     "release_status": "stable",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/43901",
-        "kerbalstuff": "https://kerbalstuff.com/mod/491/Docking%20Port%20Alignment%20Indicator"
+        "kerbalstuff": "https://kerbalstuff.com/mod/491/Docking%20Port%20Alignment%20Indicator",
+        "x_screenshot": "https://kerbalstuff.com/content/NavyFish_2272/Docking_Port_Alignment_Indicator/Docking_Port_Alignment_Indicator.png"
     },
+    "version": "6.2",
+    "ksp_version_min": "1.0.2",
+    "ksp_version_max": "1.0.4",
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.5.1"
+        }
+    ],
     "install": [
         {
             "file": "GameData/NavyFish",
             "install_to": "GameData"
         }
     ],
-    "ksp_version": "1.0.2",
-    "name": "Docking Port Alignment Indicator",
-    "license": "MIT",
-    "abstract": "The Docking Port Alignment Indicator is designed to help you dock manually, by presenting target alignment and relative position in a clean and intuitive manner.",
-    "author": "NavyFish",
-    "version": "6.2",
     "download": "https://kerbalstuff.com/mod/491/Docking%20Port%20Alignment%20Indicator/download/6.2",
-    "x_generated_by": "netkan",
-    "download_size": 508365
+    "download_size": 508365,
+    "x_generated_by": "netkan"
 }

@@ -1,0 +1,33 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SolverEngines",
+    "name": "Solver Engines plugin",
+    "abstract": "SolverEngines is at its heart a replacement paradigm for how KSP deals with engines",
+    "author": "NathanKell",
+    "license": "LGPL-2.1",
+    "release_status": "stable",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.4",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/SolverEngines"
+    },
+    "version": "v1.9",
+    "depends": [
+        {
+            "name": "ModuleAnimateEmissive"
+        }
+    ],
+    "install": [
+        {
+            "find": "SolverEngines",
+            "install_to": "GameData",
+            "filter": [
+                "ModuleAnimateEmissive.dll",
+                "PluginData"
+            ]
+        }
+    ],
+    "download": "https://github.com/KSP-RO/SolverEngines/releases/download/v1.9/SolverEngines_v1.9.zip",
+    "download_size": 40980,
+    "x_generated_by": "netkan"
+}

@@ -1,24 +1,25 @@
 {
     "spec_version": 1,
     "identifier": "ImageViewer",
-    "x_netkan_license_ok": true,
+    "name": "Image viewer",
+    "abstract": "Just an ingame image viewer.",
+    "author": "hashashin",
     "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/77970",
+        "kerbalstuff": "https://kerbalstuff.com/mod/76/Image%20viewer",
+        "repository": "https://github.com/hashashin/ksp-img_viewer",
+        "x_screenshot": "https://kerbalstuff.com/content/hashashin_244/Image_viewer/Image_viewer.png"
+    },
+    "version": "0.2.2",
+    "ksp_version": "1.0.2",
     "install": [
         {
             "file": "GameData/img_viewer",
             "install_to": "GameData"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/77970",
-        "kerbalstuff": "https://kerbalstuff.com/mod/76/Image%20viewer"
-    },
-    "ksp_version": "1.0.2",
-    "name": "Image viewer",
-    "abstract": "Just an ingame image viewer.",
-    "author": "hashashin",
-    "version": "0.2.2",
     "download": "https://kerbalstuff.com/mod/76/Image%20viewer/download/0.2.2",
-    "x_generated_by": "netkan",
-    "download_size": 49049
+    "download_size": 49049,
+    "x_generated_by": "netkan"
 }

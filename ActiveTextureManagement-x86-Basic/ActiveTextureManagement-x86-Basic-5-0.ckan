@@ -5,16 +5,24 @@
     "abstract": "x86 basic texture compression to DXT1 and DXT5",
     "author": "rbray89",
     "license": "MIT",
-    "x_netkan_license_ok": true,
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/59005",
+        "repository": "https://github.com/rbray89/ActiveTextureManagement"
+    },
+    "version": "5-0",
+    "ksp_version_min": "0.90",
+    "ksp_version_max": "1.0.99",
+    "provides": [
+        "ActiveTextureManagement"
+    ],
     "install": [
         {
             "file": "GameData/ActiveTextureManagement",
             "install_to": "GameData"
         }
     ],
-    "provides": [
-        "ActiveTextureManagement"
-    ],
+    "download": "https://github.com/rbray89/ActiveTextureManagement/releases/download/5-0/Basic-Release.zip",
+    "download_size": 79164,
     "conflicts": [
         {
             "name": "ActiveTextureManagement-Aggressive"
@@ -29,11 +37,5 @@
             "name": "ActiveTextureManagement-x86-Aggressive"
         }
     ],
-    "resources": {
-        "repository": "https://github.com/rbray89/ActiveTextureManagement/asset_match/Basic-*"
-    },
-    "version": "5-0",
-    "download": "https://github.com/rbray89/ActiveTextureManagement/releases/download/5-0/Basic-Release.zip",
-    "x_generated_by": "netkan",
-    "download_size": 79164
+    "x_generated_by": "netkan"
 }

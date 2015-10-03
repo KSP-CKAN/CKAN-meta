@@ -1,0 +1,41 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Pathfinder-USILS-CommunityPatch",
+    "name": "Pathfinder-USILS-CommunityPatch",
+    "abstract": "This mod modifies the Pathfinder mod to use the USI-LS mod for life support",
+    "author": "linuxgurugamer",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/134835-1-0-4-BETA-Pathfinder-0-8-0-KSP-Meets-The-Martian",
+        "kerbalstuff": "https://kerbalstuff.com/mod/1180/Pathfinder-USILS-CommunityPatch",
+        "repository": "https://github.com/linuxgurugamer/Pathfinder-USILS-CommunityPatch"
+    },
+    "version": "0.4.0",
+    "ksp_version": "1.0.4",
+    "depends": [
+        {
+            "name": "Pathfinder"
+        },
+        {
+            "name": "USI-LS"
+        }
+    ],
+    "install": [
+        {
+            "find": "Pathfinder",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/1180/Pathfinder-USILS-CommunityPatch/download/0.4.0",
+    "download_size": 2800,
+    "conflicts": [
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Snacks"
+        }
+    ],
+    "x_generated_by": "netkan"
+}
