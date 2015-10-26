@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "USI-LS",
     "name": "USI Life Support",
     "abstract": "UmbraSpaceIndustries take on life support",
@@ -21,8 +21,8 @@
     ],
     "install": [
         {
-            "file": "GameData/UmbraSpaceIndustries",
-            "install_to": "GameData"
+            "find": "UmbraSpaceIndustries/LifeSupport",
+            "install_to": "GameData/UmbraSpaceIndustries"
         }
     ],
     "download": "https://github.com/BobPalmer/USI-LS/releases/download/0.1.5/USILS_0.1.5.zip",

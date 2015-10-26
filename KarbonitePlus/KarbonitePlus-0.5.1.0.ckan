@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "comment": "This may be renamed to USI-KarbonitePlus in the future",
     "identifier": "KarbonitePlus",
     "name": "KarbonitePlus",
@@ -12,7 +12,8 @@
         "repository": "https://github.com/BobPalmer/KarbonitePlus"
     },
     "version": "0.5.1.0",
-    "ksp_version": "1.0",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.4",
     "provides": [
         "USI-KarbonitePlus"
     ],
@@ -23,8 +24,8 @@
     ],
     "install": [
         {
-            "file": "GameData/UmbraSpaceIndustries",
-            "install_to": "GameData"
+            "find": "UmbraSpaceIndustries/KarbonitePlus",
+            "install_to": "GameData/UmbraSpaceIndustries"
         }
     ],
     "download": "https://github.com/BobPalmer/KarbonitePlus/releases/download/0.5.1.0/KPlus_0.5.1.0.zip",
