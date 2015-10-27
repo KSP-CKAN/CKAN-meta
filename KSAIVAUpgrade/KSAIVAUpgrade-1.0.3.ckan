@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KSAIVAUpgrade",
+    "name": "KSA IVA Upgrade",
+    "abstract": "Modified stock IVAs of several cockpits using ASET and RPM assets.",
+    "author": "RangeMachine",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/137585-KSA-IVA-Upgrage?p=2262103#post2262103",
+        "kerbalstuff": "https://kerbalstuff.com/mod/1232/KSA%20IVA%20Upgrade",
+        "x_screenshot": "https://kerbalstuff.com/content/RangeMachine_15901/KSA_IVA_Upgrade/KSA_IVA_Upgrade-1445817174.7420404.png"
+    },
+    "version": "1.0.3",
+    "ksp_version": "1.0.4",
+    "depends": [
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "ASETAvionics"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "IVAUpgrade",
+            "install_to": "GameData/KSA"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/1232/KSA%20IVA%20Upgrade/download/1.0.3",
+    "download_size": 2920453,
+    "x_generated_by": "netkan"
+}
