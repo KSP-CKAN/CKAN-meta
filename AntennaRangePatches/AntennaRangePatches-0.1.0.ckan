@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "AntennaRangePatches",
+    "name": "Antenna Range Patches",
+    "abstract": "A set of patches for a number of mods to make their antennas work with AntennaRange",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "kerbalstuff": "https://kerbalstuff.com/mod/1220/Antenna%20Range%20Patches",
+        "repository": "https://github.com/linuxgurugamer/AntennaRangePatches"
+    },
+    "version": "0.1.0",
+    "ksp_version": "1.0.4",
+    "depends": [
+        {
+            "name": "AntennaRange"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Antennas"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AntennaPatch4AntennaRange"
+        },
+        {
+            "name": "RemoteTech"
+        }
+    ],
+    "install": [
+        {
+            "find": "AntennaRangePatches",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/1220/Antenna%20Range%20Patches/download/0.1.0",
+    "download_size": 2156289,
+    "x_generated_by": "netkan"
+}
