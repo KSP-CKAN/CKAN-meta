@@ -1,0 +1,44 @@
+{
+    "spec_version": 1,
+    "identifier": "Arkas-Clouds-Low",
+    "name": "Arkas - Low Clouds",
+    "abstract": "Low clouds for Arkas",
+    "author": "CoriW",
+    "license": "unknown",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/134547-1-0-4-Arkas-(0-0)-A-Thick-Atmosphere-on-a-Desert-World-17-Unique-Biomes-Custom-Science-Defs",
+        "kerbalstuff": "https://kerbalstuff.com/mod/1158/Arkas%20-%20A%20Thick%20Atmosphere%20on%20a%20Desert%20World",
+        "x_screenshot": "https://kerbalstuff.com/content/CoriW_13988/Arkas_-_A_Thick_Atmosphere_on_a_Desert_World/Arkas_-_A_Thick_Atmosphere_on_a_Desert_World-1442554491.6927848.png"
+    },
+    "version": "0.2.1",
+    "ksp_version": "1.0.4",
+    "provides": [
+        "Arkas-Clouds"
+    ],
+    "depends": [
+        {
+            "name": "Arkas"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Arkas-Clouds"
+        }
+    ],
+    "install": [
+        {
+            "file": "Arkas/Cloud Support/Low Cloud Cover Config/GameData/BoulderCo",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Arkas/Cloud Support/GameData/BoulderCo",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/1158/Arkas%20-%20A%20Thick%20Atmosphere%20on%20a%20Desert%20World/download/0.2.1",
+    "download_size": 62168293,
+    "x_generated_by": "netkan"
+}
