@@ -1,17 +1,17 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": 1,
     "identifier": "SETI",
-    "name": "SETI-BalanceMod",
-    "abstract": "The Scope, Econ & Tech Integration - BalanceMod combines and tweaks existing mods to provide a more coherent and balanced gameplay experience.",
+    "name": "SETI",
+    "abstract": "The old SETI-BalanceMod for KSP 0.90",
     "author": "Yemo",
     "license": "restricted",
+    "release_status": "stable",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/106130",
-        "kerbalstuff": "https://kerbalstuff.com/mod/484/SETI-BalanceMod",
-        "x_screenshot": "https://kerbalstuff.com/content/Yemo_5989/SETI-BalanceMod/SETI-BalanceMod.jpg"
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/106130"
     },
     "version": "0.9.0",
-    "ksp_version": "0.90.0",
+    "ksp_version_min": "0.90",
+    "ksp_version_max": "0.90.0",
     "depends": [
         {
             "name": "BackgroundProcessing"
@@ -68,6 +68,11 @@
         },
         {
             "name": "WaypointManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SETI-Greenhouse"
         }
     ],
     "install": [
