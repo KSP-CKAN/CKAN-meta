@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KabinKraziness",
+    "name": "KabinKraziness",
+    "abstract": "KabinKraziness - An add-on to AmpYear Mod that adds a Kraziness factor to vessels.",
+    "author": "JPLRepo",
+    "license": "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/81496",
+        "kerbalstuff": "https://kerbalstuff.com/mod/684/KabinKraziness",
+        "repository": "https://github.com/JPLRepo/KabinKraziness",
+        "x_screenshot": "https://kerbalstuff.com/content/JPLRepo_4429/KabinKraziness/KabinKraziness-1428355590.957583.png"
+    },
+    "version": "V0.3.2",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "AmpYearPowerManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "install": [
+        {
+            "find": "REPOSoftTech",
+            "install_to": "GameData",
+            "filter_regexp": "KKInterfaces.dll"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/684/KabinKraziness/download/V0.3.2",
+    "download_size": 55459,
+    "x_generated_by": "netkan"
+}

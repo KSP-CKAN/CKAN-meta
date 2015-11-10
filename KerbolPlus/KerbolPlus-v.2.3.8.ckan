@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbolPlus",
+    "name": "Kerbol Plus",
+    "abstract": "This mod aims to expand the stock kerbol system with 2 more gas giants and lots of moons.",
+    "author": "Amarius1",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "repository": "https://github.com/Amarius1/Kerbol-Plus"
+    },
+    "version": "v.2.3.8",
+    "ksp_version": "1.0.4",
+    "provides": [
+        "PlanetPack"
+    ],
+    "depends": [
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "KittopiaTech"
+        },
+        {
+            "name": "PlanetPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbolPlus",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Kopernicus/Cache",
+            "install_to": "GameData/Kopernicus"
+        }
+    ],
+    "download": "https://github.com/Amarius1/Kerbol-Plus/releases/download/v.2.3.8/KerbolPlus.zip",
+    "download_size": 207036118,
+    "x_generated_by": "netkan"
+}

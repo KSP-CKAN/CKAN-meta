@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "StockLS",
+    "name": "StockLS",
+    "abstract": "Like Malahx's StockPlugins mod, this allows you to have life support without adding a bunch of parts that will break the next time KSP is updated.",
+    "author": "vosechu",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://github.com/vosechu/StockLS",
+        "kerbalstuff": "https://kerbalstuff.com/mod/1210/StockLS",
+        "repository": "http://github.com/vosechu/StockLS"
+    },
+    "version": "1.0.2",
+    "ksp_version": "1.0.4",
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.0"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "USILifeSupport"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "StockPlugins"
+        },
+        {
+            "name": "StockRT"
+        },
+        {
+            "name": "StockSCANSat"
+        }
+    ],
+    "supports": [
+        {
+            "name": "USILifeSupport"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/StockLS",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/1210/StockLS/download/1.0.2",
+    "download_size": 5866,
+    "x_generated_by": "netkan"
+}

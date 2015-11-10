@@ -1,0 +1,39 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "AGroupOnStage",
+    "name": "AGroupOnStage",
+    "abstract": "Allows action groups to be fired when a vessel is staged",
+    "author": "iPeer",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/93259",
+        "repository": "https://github.com/iPeer/AGroupOnStage",
+        "bugtracker": "https://github.com/iPeer/AGroupOnStage/issues"
+    },
+    "version": "2.0.12",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.99",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "AGExt"
+        }
+    ],
+    "install": [
+        {
+            "find": "iPeer",
+            "install_to": "GameData",
+            "filter": [
+                "MiniAVC.dll",
+                "LICENSE-MiniAVC.txt"
+            ]
+        }
+    ],
+    "download": "https://github.com/iPeer/AGroupOnStage/releases/download/2.0.12/AGroupOnStage2.0.12.zip",
+    "download_size": 134396,
+    "x_generated_by": "netkan"
+}
