@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.2",
     "identifier": "UnmannedBeforeManned",
     "name": "Unmanned before Manned",
     "abstract": "Probe cores at the start, manned space capsule later, early aircraft nodes cheaper, simple construction parts much earlier. Compatible with stock and Community Tech Tree.",
@@ -11,11 +11,21 @@
         "x_screenshot": "https://kerbalstuff.com/content/Yemo_5989/Unmanned_before_Manned/Unmanned_before_Manned-1444341828.2503836.png"
     },
     "version": "1.0.0",
-    "ksp_version_min": "1.0.0",
-    "ksp_version_max": "1.0.5",
+    "ksp_version": "1.0.5",
     "depends": [
         {
             "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CustomBarnKit"
+        }
+    ],
+    "install": [
+        {
+            "file": "UnmannedBeforeManned",
+            "install_to": "GameData"
         }
     ],
     "download": "https://kerbalstuff.com/mod/1198/Unmanned%20before%20Manned/download/1.0.0",
