@@ -1,0 +1,34 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DefaultActionGroups",
+    "name": "DefaultActionGroups",
+    "abstract": "Makes \"toggle cockpit lights\" part of the Light action group by default. And more.",
+    "author": "Snark",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/139920",
+        "kerbalstuff": "https://kerbalstuff.com/mod/1275/DefaultActionGroups",
+        "repository": "https://github.com/KSPSnark/DefaultActionGroups",
+        "x_screenshot": "https://kerbalstuff.com/content/Snark_16655/DefaultActionGroups/DefaultActionGroups-1447860094.9106963.png"
+    },
+    "version": "1.0",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/DefaultActionGroups",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Optional/GameData/DefaultActionGroups/DefaultSolarPanelGroups.cfg",
+            "install_to": "GameData/DefaultActionGroups"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/1275/DefaultActionGroups/download/1.0",
+    "download_size": 33850,
+    "x_generated_by": "netkan"
+}
