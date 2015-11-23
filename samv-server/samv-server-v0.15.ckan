@@ -1,0 +1,23 @@
+{
+    "spec_version": 1,
+    "identifier": "samv-server",
+    "name": "Stand alone map view server",
+    "abstract": "Allows you to open a new window (on a separator monitor) to display the map view, using two separate copies of the game. One copy should install the client, the other (your main game) should install the server. All other mods should be the same.",
+    "author": "DanielKinsman",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/76273-Stand-Alone-Map-View-Multi-monitor-KSP-1-0-5-WIP-Plugin",
+        "repository": "https://github.com/danielkinsman/stand-alone-map-view"
+    },
+    "version": "v0.15",
+    "ksp_version": "1.0.5",
+    "install": [
+        {
+            "file": "stand-alone-map-view/samv_server",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/DanielKinsman/stand-alone-map-view/releases/download/v0.15/release.zip",
+    "download_size": 218274,
+    "x_generated_by": "netkan"
+}
