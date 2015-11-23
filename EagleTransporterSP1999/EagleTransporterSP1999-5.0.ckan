@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.2",
     "identifier": "EagleTransporterSP1999",
     "name": "Eagle Transporter (SP 1999)",
     "abstract": "The Legendary Eagle Starship from the 70's hit TV show, Space 1999",
@@ -14,16 +14,27 @@
     "ksp_version": "1.0.5",
     "depends": [
         {
-            "name": "BDAnimationModules"
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "BahamutoDynamicsPartsPack"
         },
         {
             "name": "RCSLandAid"
         }
     ],
+    "recommends": [
+        {
+            "name": "BDArmory"
+        },
+        {
+            "name": "AdjustableLandingGear"
+        }
+    ],
     "install": [
         {
-            "find": "Eagle_Transporter/Eagle_Transporter",
-            "install_to": "GameData"
+            "file": "Eagle_Transporter/Eagle_Transporter",
+            "install_to": "GameData/Skunk_Works"
         }
     ],
     "download": "https://kerbalstuff.com/mod/957/Eagle%20Transporter%20%28SP%201999%29/download/5.0",
