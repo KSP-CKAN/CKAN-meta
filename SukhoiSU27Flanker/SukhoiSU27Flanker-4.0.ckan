@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.2",
     "identifier": "SukhoiSU27Flanker",
     "name": "Sukhoi SU-27 Flanker",
     "abstract": "The Super Manuverable Soviet Fighter",
@@ -17,19 +17,21 @@
             "name": "FirespitterCore"
         },
         {
+            "name": "BahamutoDynamicsPartsPack"
+        }
+    ],
+    "recommends": [
+        {
             "name": "BDArmory"
         },
         {
-            "name": "BahamutoDynamicsPartsPack"
-        },
-        {
-            "name": "AircraftIVAHelmet"
+            "name": "AdjustableLandingGear"
         }
     ],
     "install": [
         {
             "file": "SU27FLANKER",
-            "install_to": "GameData",
+            "install_to": "GameData/Skunk_Works",
             "filter": "Thumbs.db"
         }
     ],
