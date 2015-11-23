@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.4",
+    "comment": "This mod used to be packaged differently but is now repackaged to allow an upgrade path.",
+    "identifier": "SigmaOPMExpansion",
+    "name": "Sigma: OPM Tilt",
+    "abstract": "This mod gives Urlum (OPM) a 90° axial tilt.",
+    "author": "Sigma88",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/112095",
+        "repository": "https://github.com/Sigma88/Sigma-OPMTilt"
+    },
+    "version": "1:v1.1.0",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "OuterPlanetsMod"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SigmaOPMRecolor"
+        }
+    ],
+    "install": [
+        {
+            "find": "OPMTilt",
+            "install_to": "GameData/Sigma"
+        }
+    ],
+    "download": "https://github.com/Sigma88/Sigma-OPMTilt/releases/download/v1.1.0/Sigma-OPMTilt.v1.1.0.zip",
+    "download_size": 3907627,
+    "x_generated_by": "netkan"
+}
