@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.2",
     "identifier": "F5ATalonFighterAggressor",
     "name": "F5A Talon Fighter (Aggressor)",
     "abstract": "It started out as a simple trainer and evolved into a fighter THE F5A!",
@@ -17,19 +17,21 @@
             "name": "FirespitterCore"
         },
         {
+            "name": "BahamutoDynamicsPartsPack"
+        }
+    ],
+    "recommends": [
+        {
             "name": "BDArmory"
         },
         {
-            "name": "BahamutoDynamicsPartsPack"
-        },
-        {
-            "name": "AircraftIVAHelmet"
+            "name": "AdjustableLandingGear"
         }
     ],
     "install": [
         {
             "file": "F5A_TalonFighter",
-            "install_to": "GameData"
+            "install_to": "GameData/Skunk_Works"
         }
     ],
     "download": "https://kerbalstuff.com/mod/884/F5A%20Talon%20Fighter%20%28Aggressor%29/download/1.0",
