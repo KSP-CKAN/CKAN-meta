@@ -18,12 +18,18 @@
             "name": "ModuleManager"
         },
         {
-            "name": "Kopernicus"
+            "name": "Kopernicus",
+            "min_version": "1:beta-05-2"
         }
     ],
     "suggests": [
         {
             "name": "Asclepius-clouds"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RealSolarSystem"
         }
     ],
     "install": [
