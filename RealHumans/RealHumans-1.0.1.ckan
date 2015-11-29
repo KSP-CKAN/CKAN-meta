@@ -20,8 +20,11 @@
     "install": [
         {
             "find": "TextureReplacer",
-            "install_to": "GameData/TextureReplacer",
-            "filter": ".DS_Store"
+            "install_to": "GameData",
+            "filter": [
+                ".DS_Store",
+                "license"
+            ]
         }
     ],
     "download": "https://kerbalstuff.com/mod/1282/Real%20Humans/download/1.0.1",
