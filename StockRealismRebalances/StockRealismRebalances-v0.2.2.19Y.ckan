@@ -1,0 +1,70 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "StockRealismRebalances",
+    "name": "Stock Realism Rebalances",
+    "abstract": "Align KSP against their real world counterparts, and sets difficulties b/t RO and stock",
+    "author": "WavechaserX",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/140231",
+        "kerbalstuff": "https://kerbalstuff.com/mod/1295/Stock%20Realism%20Rebalances",
+        "x_screenshot": "https://kerbalstuff.com/content/WavechaserX_4261/Stock_Realism_Rebalances/Stock_Realism_Rebalances-1448432876.1682768.png"
+    },
+    "version": "v0.2.2.19Y",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "InterstellarFuelSwitch-Core"
+        },
+        {
+            "name": "DavonTCsystemsMod"
+        },
+        {
+            "name": "CryoEngines"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "HotRockets"
+        },
+        {
+            "name": "FerramAerospaceResearch"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        },
+        {
+            "name": "RealChute"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "HotRockets"
+        },
+        {
+            "name": "RealPlumes"
+        },
+        {
+            "name": "RealPlume-StockConfigs"
+        }
+    ],
+    "install": [
+        {
+            "find": "WAST",
+            "install_to": "GameData/SRR",
+            "filter_regexp": "\\._.+"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/1295/Stock%20Realism%20Rebalances/download/v0.2.2.19Y",
+    "download_size": 15451,
+    "x_generated_by": "netkan"
+}
