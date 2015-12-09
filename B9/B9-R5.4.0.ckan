@@ -1,0 +1,70 @@
+{
+    "spec_version": 1,
+    "identifier": "B9",
+    "name": "B9 Aerospace Pack",
+    "abstract": "Essential and enormous set of structural, control, propulsion, command and utility parts for aerospace designs.",
+    "author": "bac9",
+    "license": "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/92630-0-24-2-B9-Aerospace-Release-5",
+        "kerbalstuff": "https://kerbalstuff.com/mod/132/B9%20Aerospace%20Pack",
+        "repository": "https://bitbucket.org/blowfishpro/b9-aerospace",
+        "x_screenshot": "https://kerbalstuff.com/content/bac9_821/B9_Aerospace_Pack/B9_Aerospace_Pack.jpg"
+    },
+    "version": "R5.4.0",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "B9-props"
+        },
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "KlockheedMartian-Gimbal"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.13"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        },
+        {
+            "name": "SmokeScreen"
+        },
+        {
+            "name": "B9AnimationModules"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "AdjustableLandingGear"
+        },
+        {
+            "name": "B9AerospaceProceduralParts"
+        },
+        {
+            "name": "AerodynamicModel"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "VirginKalactic-NodeToggle"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/B9_Aerospace",
+            "install_to": "GameData",
+            "filter": "Props"
+        },
+        {
+            "file": "GameData/Virgin Kalactic",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/132/B9%20Aerospace%20Pack/download/R5.4.0",
+    "download_size": 62574548,
+    "x_generated_by": "netkan"
+}
