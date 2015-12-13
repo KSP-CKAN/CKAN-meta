@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "WinterKerbol",
+    "name": "WinterKerbol",
+    "abstract": "The mod includes a Kopernicus config which makes Kerbin in an ice age (actual terrain, not just map view!), makes Jool Red+Green+White, and adds Santa and Elf space suits (red and green suits)",
+    "author": "GregroxMun",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/127181-winterchristmas-kerbol/",
+        "kerbalstuff": "https://kerbalstuff.com/mod/1333/WinterKerbol",
+        "x_screenshot": "https://kerbalstuff.com/content/GregroxMun_8555/WinterKerbol/WinterKerbol-1449964766.1881678.png"
+    },
+    "version": "2015_Version_2",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus",
+            "min_version": "1:beta-05-2"
+        },
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "BilliardsPlanetPack"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "SigmaJoolRecolor"
+        },
+        {
+            "name": "ToySolarSystem"
+        }
+    ],
+    "install": [
+        {
+            "find": "ChristmasKerbol",
+            "install_to": "GameData"
+        },
+        {
+            "find": "TextureReplacer",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/1333/WinterKerbol/download/2015_Version_2",
+    "download_size": 28781678,
+    "x_generated_by": "netkan"
+}
