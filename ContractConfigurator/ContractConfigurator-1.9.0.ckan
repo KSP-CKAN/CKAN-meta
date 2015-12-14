@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.16",
     "identifier": "ContractConfigurator",
     "name": "Contract Configurator",
     "abstract": "A config-file based solution for creating new contracts!",
@@ -16,6 +16,11 @@
     },
     "version": "1.9.0",
     "ksp_version": "1.0.5",
+    "recommends": [
+        {
+            "name": "WaypointManager"
+        }
+    ],
     "suggests": [
         {
             "name": "CoherentContracts"
@@ -24,13 +29,11 @@
             "name": "ContractsWindowPlus"
         },
         {
-            "name": "WaypointManager"
-        },
-        {
             "name": "WiderContractsApp"
         }
     ],
     "download": "https://github.com/jrossignol/ContractConfigurator/releases/download/1.9.0/ContractConfigurator_1.9.0.zip",
     "download_size": 365308,
+    "ksp_version_strict": true,
     "x_generated_by": "netkan"
 }
