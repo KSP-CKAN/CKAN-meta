@@ -1,23 +1,29 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "VenStockRevamp",
     "name": "Ven's Stock Part Revamp",
     "abstract": "With this part pack, your rockets/planes/racecars will look at least 20% cooler as they tumble into the ground!",
+    "author": "VenVen",
     "license": "CC-BY-4.0",
-    "depends": [
-        {
-            "name": "ModuleManager"
-        }
-    ],
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/92764",
         "repository": "https://github.com/VenVen/Stock-Revamp"
     },
     "version": "v1.8.1",
-    "author": "VenVen",
-    "download": "https://github.com/VenVen/Stock-Revamp/releases/download/v1.8.1/v1.8.1.zip",
     "ksp_version_min": "1.0.0",
     "ksp_version_max": "1.0.4",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "VenStockRevamp",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/VenVen/Stock-Revamp/releases/download/v1.8.1/v1.8.1.zip",
     "download_size": 44091852,
     "x_generated_by": "netkan"
 }

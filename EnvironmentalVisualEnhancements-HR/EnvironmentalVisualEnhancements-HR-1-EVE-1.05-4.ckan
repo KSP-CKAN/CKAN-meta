@@ -1,0 +1,36 @@
+{
+    "spec_version": 1,
+    "identifier": "EnvironmentalVisualEnhancements-HR",
+    "name": "Environmental Visual Enhancements - Config files",
+    "abstract": "Default configuration for EVE",
+    "author": "rbray89",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/55905",
+        "repository": "https://github.com/rbray89/EnvironmentalVisualEnhancements"
+    },
+    "version": "1:EVE-1.05-4",
+    "ksp_version": "1.0.5",
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "depends": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/BoulderCo",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/rbray89/EnvironmentalVisualEnhancements/releases/download/EVE-1.05-4/x86-Configs-Release.zip",
+    "download_size": 28128309,
+    "x_generated_by": "netkan"
+}

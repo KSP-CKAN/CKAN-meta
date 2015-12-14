@@ -1,0 +1,53 @@
+{
+    "spec_version": 1,
+    "identifier": "CustomAsteroids-Pops-Stock-Outer",
+    "name": "Custom Asteroids (outer stock system data)",
+    "abstract": "Adds comets outside orbit of Jool",
+    "author": "Starstrider42",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/72785-/",
+        "kerbalstuff": "https://kerbalstuff.com/mod/251/Custom%20Asteroids",
+        "repository": "https://github.com/Starstrider42/Custom-Asteroids",
+        "x_screenshot": "https://kerbalstuff.com/content/Starstrider42_807/Custom_Asteroids/Custom_Asteroids.png"
+    },
+    "version": "v1.2.0",
+    "ksp_version": "1.0.5",
+    "provides": [
+        "CustomAsteroids-Pops"
+    ],
+    "depends": [
+        {
+            "name": "CustomAsteroids",
+            "min_version": "1.0",
+            "comment": "Version at which config format stabilized."
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AlternisKerbol"
+        },
+        {
+            "name": "PlanetFactory"
+        },
+        {
+            "name": "PlanetFactoryCE"
+        },
+        {
+            "name": "RealSolarSystem",
+            "comment": "The 6.4× and 10× Kerbol packs are compatible; how to select for them?"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/CustomAsteroids",
+            "install_to": "GameData",
+            "filter_regexp": "(?<!Trans-Jool\\.cfg)$"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/251/Custom%20Asteroids/download/v1.2.0",
+    "download_size": 26341,
+    "x_maintained_by": "Starstrider42",
+    "x_generated_by": "netkan"
+}

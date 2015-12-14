@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalAircraftExpansion",
+    "name": "Kerbal Aircraft Expansion (KAX)",
+    "abstract": "A pack of select parts for your aircrafting needs, including propellers, helicopter rotors, and more!",
+    "author": "keptin",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/76668",
+        "kerbalstuff": "https://kerbalstuff.com/mod/391/Kerbal%20Aircraft%20Expansion%20(KAX)",
+        "x_screenshot": "https://kerbalstuff.com/content/keptin_4750/Kerbal_Aircraft_Expansion_KAX/Kerbal_Aircraft_Expansion_KAX.jpg"
+    },
+    "version": "KAX_v2.6.1.0",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "FirespitterResourcesConfig"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "KAX",
+            "install_to": "GameData",
+            "filter": [
+                "KAX 2.4.2 dds textures.7z",
+                "Example Craft"
+            ],
+            "comment": "Example crafts are filtered out becouse its impossible to install ships to subdirectory."
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/391/Kerbal%20Aircraft%20Expansion%20%28KAX%29/download/KAX_v2.6.1.0",
+    "download_size": 19235439,
+    "x_generated_by": "netkan"
+}

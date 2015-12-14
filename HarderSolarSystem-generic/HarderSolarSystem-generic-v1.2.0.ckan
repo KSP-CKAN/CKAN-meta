@@ -1,0 +1,45 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "HarderSolarSystem-generic",
+    "name": "Harder Solar System - Generic Config",
+    "abstract": "For 64K and other stock-like solar system configs. This implements the axial tilt, inclination changes relative to ecliptic (Mun, Minmus, Dres, Eeloo), and Jool mass increase from Harder Solar System.",
+    "author": "stevehead",
+    "license": "public-domain",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/137931",
+        "repository": "https://github.com/SteveheadSpaceAgency/HarderSolarSystem"
+    },
+    "version": "v1.2.0",
+    "ksp_version_min": "1.0.5",
+    "ksp_version_max": "1.0.99",
+    "provides": [
+        "HarderSolarSystem"
+    ],
+    "depends": [
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KSP-64k"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "HarderSolarSystem"
+        }
+    ],
+    "install": [
+        {
+            "find": "generic/GameData/HarderSolarSystem-generic",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/SteveheadSpaceAgency/HarderSolarSystem/releases/download/v1.2.0/HarderSolarSystem_v1.2.0.zip",
+    "download_size": 22763,
+    "x_generated_by": "netkan"
+}

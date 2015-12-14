@@ -14,7 +14,7 @@
     },
     "version": "v1.1.0",
     "ksp_version_min": "0.25",
-    "ksp_version_max": "1.0.99",
+    "ksp_version_max": "1.0.4",
     "provides": [
         "CustomAsteroids-Pops"
     ],
@@ -23,6 +23,15 @@
             "name": "CustomAsteroids",
             "min_version": "1.0",
             "comment": "Version at which config format stabilized."
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AlternisKerbol"
+        },
+        {
+            "name": "RealSolarSystem",
+            "comment": "The 6.4× and 10× Kerbol packs are compatible; how to allow them?"
         }
     ],
     "install": [
@@ -34,15 +43,6 @@
     ],
     "download": "https://kerbalstuff.com/mod/251/Custom%20Asteroids/download/v1.1.0",
     "download_size": 24276,
-    "conflicts": [
-        {
-            "name": "AlternisKerbol"
-        },
-        {
-            "name": "RealSolarSystem",
-            "comment": "The 6.4× and 10× Kerbol packs are compatible; how to allow them?"
-        }
-    ],
     "x_maintained_by": "Starstrider42",
     "x_generated_by": "netkan"
 }

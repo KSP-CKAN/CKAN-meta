@@ -1,0 +1,30 @@
+{
+    "spec_version": "v1.4",
+    "comment": "We ended up double-indexing this mod, which is why this conflicts with SurfaceMountedLights (which is now deprecated",
+    "identifier": "surfacelights",
+    "name": "Surface Mounted Lights",
+    "abstract": "Small stock-alike lights that sit flush for lighting up your stations and ships.",
+    "author": "Why485",
+    "license": "CC-BY-NC-ND-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/57778-1-0-Surface-Mounted-Stock-Alike-Lights-for-Self-Illumination",
+        "kerbalstuff": "https://kerbalstuff.com/mod/1255/Surface%20Mounted%20Lights",
+        "x_screenshot": "https://kerbalstuff.com/content/Why485_16544/Surface_Mounted_Lights/Surface_Mounted_Lights-1447285176.1731143.png"
+    },
+    "version": "1.2.1",
+    "ksp_version": "1.0.5",
+    "conflicts": [
+        {
+            "name": "SurfaceMountedLights"
+        }
+    ],
+    "install": [
+        {
+            "find": "SurfaceLights",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/1255/Surface%20Mounted%20Lights/download/1.2.1",
+    "download_size": 56593,
+    "x_generated_by": "netkan"
+}

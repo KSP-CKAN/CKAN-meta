@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbolPlus",
+    "name": "Kerbol Origins",
+    "abstract": "This mod aims to expand the stock Kerbol System with 2 more gas giants and lots of moons.",
+    "author": "Amarius1",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "repository": "https://github.com/Amarius1/Kerbol-Plus"
+    },
+    "version": "1:v.2.3.8",
+    "ksp_version": "1.0.4",
+    "depends": [
+        {
+            "name": "Kopernicus",
+            "version": "1:beta-04"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KPlus"
+        },
+        {
+            "name": "RealSolarSystem"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbolPlus",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Kopernicus/Cache",
+            "install_to": "GameData/Kopernicus"
+        }
+    ],
+    "download": "https://github.com/Amarius1/Kerbol-Plus/releases/download/v.2.3.8/KerbolPlus.zip",
+    "download_size": 207036118,
+    "x_generated_by": "netkan"
+}

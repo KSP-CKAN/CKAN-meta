@@ -11,13 +11,18 @@
     },
     "version": "7-4",
     "ksp_version_min": "0.25",
-    "ksp_version_max": "1.0.99",
+    "ksp_version_max": "1.0.4",
     "provides": [
         "EnvironmentalVisualEnhancements-Config"
     ],
     "depends": [
         {
             "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
         }
     ],
     "install": [
@@ -28,10 +33,5 @@
     ],
     "download": "https://github.com/rbray89/EnvironmentalVisualEnhancements/releases/download/7-4/EnvironmentalVisualEnhancements-7-4-LR.zip",
     "download_size": 9925505,
-    "conflicts": [
-        {
-            "name": "EnvironmentalVisualEnhancements-Config"
-        }
-    ],
     "x_generated_by": "netkan"
 }

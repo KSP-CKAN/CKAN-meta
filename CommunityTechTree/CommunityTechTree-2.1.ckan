@@ -12,11 +12,20 @@
         "x_screenshot": "https://kerbalstuff.com/content/Nertea_3884/Community_Tech_Tree/Community_Tech_Tree-1430952155.0854826.png"
     },
     "version": "2.1",
-    "ksp_version": "1.0.4",
+    "ksp_version_min": "1.0.4",
+    "ksp_version_max": "1.0.5",
     "depends": [
         {
             "name": "ModuleManager",
             "min_version": "2.6.2"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ModOrientedTechTree"
+        },
+        {
+            "name": "ModOrientedTechTree-Unmanned"
         }
     ],
     "install": [
@@ -27,16 +36,5 @@
     ],
     "download": "https://kerbalstuff.com/mod/345/Community%20Tech%20Tree/download/2.1",
     "download_size": 9522,
-    "conflicts": [
-        {
-            "name": "ETT"
-        },
-        {
-            "name": "ModOrientedTechTree"
-        },
-        {
-            "name": "ModOrientedTechTree-Unmanned"
-        }
-    ],
     "x_generated_by": "netkan"
 }

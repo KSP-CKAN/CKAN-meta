@@ -14,7 +14,7 @@
     },
     "version": "v1.1.0",
     "ksp_version_min": "0.25",
-    "ksp_version_max": "1.0.99",
+    "ksp_version_max": "1.0.4",
     "provides": [
         "CustomAsteroids-Pops"
     ],
@@ -25,15 +25,6 @@
             "comment": "Version at which config format stabilized."
         }
     ],
-    "install": [
-        {
-            "file": "GameData/CustomAsteroids",
-            "install_to": "GameData",
-            "filter_regexp": "(?<!Trans-Jool\\.cfg)$"
-        }
-    ],
-    "download": "https://kerbalstuff.com/mod/251/Custom%20Asteroids/download/v1.1.0",
-    "download_size": 24276,
     "conflicts": [
         {
             "name": "AlternisKerbol"
@@ -49,6 +40,15 @@
             "comment": "The 6.4× and 10× Kerbol packs are compatible; how to select for them?"
         }
     ],
+    "install": [
+        {
+            "file": "GameData/CustomAsteroids",
+            "install_to": "GameData",
+            "filter_regexp": "(?<!Trans-Jool\\.cfg)$"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/251/Custom%20Asteroids/download/v1.1.0",
+    "download_size": 24276,
     "x_maintained_by": "Starstrider42",
     "x_generated_by": "netkan"
 }

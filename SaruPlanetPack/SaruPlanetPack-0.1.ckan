@@ -1,0 +1,45 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SaruPlanetPack",
+    "name": "Saru Planet Pack",
+    "abstract": "This small planet pack adds 1 planet and 4 interesting moons to the Kerbol System",
+    "author": "tygoo7",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/119263-wip-saru-planet-pack/&page=1",
+        "kerbalstuff": "https://kerbalstuff.com/mod/1335/Saru%20Planet%20Pack",
+        "x_screenshot": "https://kerbalstuff.com/content/tygoo7_75/Saru_Planet_Pack/Saru_Planet_Pack-1449463637.0852056.png"
+    },
+    "version": "0.1",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus",
+            "min_version": "1:beta-05-2"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "BilliardsPlanetPack"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "ToySolarSystem"
+        }
+    ],
+    "install": [
+        {
+            "find": "SaruPack",
+            "install_to": "GameData",
+            "filter": "Thumbs.db"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/1335/Saru%20Planet%20Pack/download/0.1",
+    "download_size": 42584348,
+    "x_generated_by": "netkan"
+}

@@ -1,0 +1,36 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "AlternatorsForAll",
+    "name": "Alternators For All",
+    "abstract": "Adds alternators to all Liquid Fuel/LFO engines, and optionally SRBs or Monopropellant engines.",
+    "author": "The_Sea_Four",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/140210-1-0-5-Gimbal-and-Alternators-For-All-2015-11-21",
+        "kerbalstuff": "https://kerbalstuff.com/mod/1291/Alternators%20For%20All"
+    },
+    "version": "1.01",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/The_Sea_Four",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Optional/Monoprop alternators/GameData/The_Sea_Four",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Optional/SRB alternators/GameData/The_Sea_Four",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/1291/Alternators%20For%20All/download/1.01",
+    "download_size": 3270,
+    "x_generated_by": "netkan"
+}
