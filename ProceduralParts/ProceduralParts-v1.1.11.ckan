@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "ProceduralParts",
     "name": "Procedural Parts",
     "abstract": "ProceduralParts allows you to procedurally generate a number of different parts in a range of sizes and shapes.",
@@ -22,6 +22,13 @@
         },
         {
             "name": "FreedomTex"
+        }
+    ],
+    "install": [
+        {
+            "find": "ProceduralParts",
+            "install_to": "GameData",
+            "filter": "Source"
         }
     ],
     "download": "https://github.com/Swamp-Ig/ProceduralParts/releases/download/v1.1.11/ProceduralParts-1.1.11.zip",
