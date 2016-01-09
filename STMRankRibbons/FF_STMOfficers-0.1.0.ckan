@@ -1,0 +1,38 @@
+{
+    "spec_version": "1.2",
+    "identifier"  : "FF_STMOfficers",
+    "name"        : "Final Frontier Ribbon Pack - Officers Ranks",
+    "author"      : [ "SmarterThanMe" ],
+    "abstract"    : "Adds Officer Ranks to Final Frontier Ribbons",
+    "description" : " I've simplified the rank structure of the military organisations of Australia, the US and elsewhere, while keeping them unique. I also intentially ignored the usual ribbon design, and bumped the prestige up high so the ranks show up distinctively against the other ribbons a Kerbal has earned. ",
+    "version"     : "0.1.0",
+    "ksp_version" : "1.0.5",
+    "license"     : "CC BY-NC-SA 3.0 AU",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/129465-105-stms-final-frontier-ribbon-packs-ranks-engineering-roles-expeditions/"
+    },
+    "download": "https://www.dropbox.com/s/c9p5ivelnd4lzaj/STM_Officers_v01.rar?dl=1"
+    
+    "install": [
+        {
+            "file"       : "GameData/STMRankRibbons/officers",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "GameData/STMRankRibbons/README.txt",
+            "install_to" : "GameData/officers",
+            "comment"    : "License and Warranty info"
+        }
+    ]
+    
+    "depends": [
+        { "name": "FinalFrontier" }
+    ]
+    
+    "suggests": [
+        { "name": "FF_STMEnlisted" },
+        { "name": "FF_STMWarrantOfficers" },
+        { "name": "FF_EngRoles" },
+        { "name": "FF_STMExpeditionsPack" }
+    ]
+}
