@@ -1,0 +1,38 @@
+{
+    "spec_version": "1.2",
+    "identifier"  : "FF_STMEnlisted",
+    "name"        : "Enlisted Ranks Final Frontier Ribbon Pack",
+    "author"      : [ "SmarterThanMe" ],
+    "abstract"    : "Adds Enlisted Ranks to Final Frontier Ribbons",
+    "description" : "I've simplified the rank structure of the military organisations of Australia, the US and elsewhere, while keeping them unique. I also intentially ignored the usual ribbon design, and bumped the prestige up high so the ranks show up distinctively against the other ribbons a Kerbal has earned. ",
+    "version"     : "0.1.0",
+    "ksp_version" : "1.0.5",
+    "license"     : "CC BY-NC-SA 3.0 AU",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/129465-105-stms-final-frontier-ribbon-packs-ranks-engineering-roles-expeditions/"
+    },
+    "download": "https://www.dropbox.com/s/2ecd0vu4kbhw6fj/STM_Enlisted_v01.rar?dl=1"
+    
+    "install": [
+        {
+            "file"       : "GameData/STMRankRibbons/enlisted",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "GameData/STMRankRibbons/README.txt",
+            "install_to" : "GameData/enlisted",
+            "comment"    : "License and Warranty info"
+        }
+    ]
+    
+    "depends": [
+        { "name": "FinalFrontier" }
+    ]
+    
+    "suggests": [
+        { "name": "FF_EngRoles" },
+        { "name": "FF_STMOfficers" },
+        { "name": "FF_STMWarrantOfficers" },
+        { "name": "FF_STMExpeditionsPack" }
+    ]
+}
