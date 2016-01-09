@@ -1,0 +1,38 @@
+{
+    "spec_version": "1.2",
+    "identifier"  : "FF_STMExpeditionsPack",
+    "name"        : "Expeditions Ribbon Pack",
+    "author"      : [ "SmarterThanMe" ],
+    "abstract"    : "Adds More Expedition Ribbons to Final Frontier",
+	  "description" : "So I usually have a bunch of expeditions in my games. Usually I have a station or two around Kerbin, stations around and bases on the Mun and Minmus, and a few scattered throughout the rest of the Kerbol system. This is just the beginning... As I need more, I'll add more. Also, I've come up with a way to indicate the Commander and 2IC for each program by adding either a Gold star or a Silver star to the ribbon. ",
+    "version"     : "0.1.0",
+    "ksp_version" : "1.0.5",
+    "license"     : "CC BY-NC-SA 3.0 AU",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/129465-105-stms-final-frontier-ribbon-packs-ranks-engineering-roles-expeditions/"
+    },
+    "download": "https://www.dropbox.com/s/q9fjq4006cogmvl/STM_Expeditions_v01.rar?dl=1"
+    
+    "install": [
+        {
+            "file"       : "GameData/STMRankRibbons/expeditions",
+            "install_to" : "GameData"
+        },
+        {
+            "file"       : "GameData/STMRankRibbons/README.txt",
+            "install_to" : "GameData/expeditions",
+            "comment"    : "License and Warranty info"
+        }
+    ]
+    
+    "depends": [
+        { "name": "FinalFrontier" }
+    ]
+    
+    "suggests": [
+        { "name": "FF_STMEnlisted" },
+        { "name": "FF_STMOfficers" },
+        { "name": "FF_STMWarrantOfficers" },
+        { "name": "FF_EngRoles" }
+    ]
+}
