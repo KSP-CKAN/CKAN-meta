@@ -1,0 +1,47 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Included ship files are not installed because the VAB subdirectory has not been included",
+    "identifier": "ThenewCZ2launchsystem",
+    "name": "Chang Zheng 2 Launch System",
+    "abstract": "Chang Zheng (Long March) 2 launch system from China",
+    "author": "1351771272",
+    "license": "CC-BY-3.0",
+    "resources": {
+        "kerbalstuff": "https://kerbalstuff.com/mod/1364/The%20new%20CZ-2%20launch%20system",
+        "x_screenshot": "https://kerbalstuff.com/content/1351771272_15403/The_new_CZ-2_launch_system/The_new_CZ-2_launch_system-1450955381.6338108.png"
+    },
+    "version": "0.1.6",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "ProceduralFairings"
+        },
+        {
+            "name": "ProceduralFairings-Textures-TJCCA"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ChinesePackContinued"
+        },
+        {
+            "name": "ChineseTianGongScienceSpaceStation"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/CZ-2F",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Flags",
+            "install_to": "GameData/CZ-2F"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/1364/The%20new%20CZ-2%20launch%20system/download/0.1.6",
+    "download_size": 3428496,
+    "x_generated_by": "netkan"
+}
