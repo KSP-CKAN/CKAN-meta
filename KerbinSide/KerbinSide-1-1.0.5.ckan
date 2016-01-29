@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.2",
     "identifier": "KerbinSide",
     "name": "KerbinSide",
     "abstract": "New bases for Planet Kerbin.",
@@ -15,6 +15,13 @@
     "depends": [
         {
             "name": "KerbalKonstructs"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/KerbinSide",
+            "install_to": "GameData",
+            "filter": "AirRace"
         }
     ],
     "download": "https://kerbalstuff.com/mod/77/KerbinSide/download/1.0.5",

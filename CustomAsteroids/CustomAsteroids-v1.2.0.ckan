@@ -2,10 +2,9 @@
     "spec_version": 1,
     "identifier": "CustomAsteroids",
     "name": "Custom Asteroids",
-    "abstract": "Custom Asteroids is a mod for KSP that expands the stock asteroid functionality. Under Custom Asteroids most asteroids will not be on a flyby course for Kerbin. Instead, the mod places asteroids in specific populations throughout the stock kerbol system.",
+    "abstract": "Lets users control where asteroids appear",
     "author": "Starstrider42",
     "license": "MIT",
-    "release_status": "stable",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/72785-/",
         "kerbalstuff": "https://kerbalstuff.com/mod/251/Custom%20Asteroids",
@@ -15,7 +14,8 @@
         "x_screenshot": "https://kerbalstuff.com/content/Starstrider42_807/Custom_Asteroids/Custom_Asteroids.png"
     },
     "version": "v1.2.0",
-    "ksp_version": "1.0.5",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.5",
     "depends": [
         {
             "name": "CustomAsteroids-Pops"
@@ -27,6 +27,12 @@
         },
         {
             "name": "CustomAsteroids-Pops-Stock-Outer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kopernicus",
+            "min_version": "1:beta-06"
         }
     ],
     "install": [

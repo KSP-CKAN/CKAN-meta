@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.6",
+    "spec_version": "v1.16",
     "identifier": "ModuleManager",
     "name": "Module Manager",
     "abstract": "Modify KSP configs without conflict",
@@ -17,9 +17,12 @@
     "ksp_version": "1.0",
     "install": [
         {
-            "file": "ModuleManager.2.6.13.dll",
+            "find_regexp": "ModuleManager.*\\.dll$",
+            "find_matches_files": true,
             "install_to": "GameData"
         }
     ],
-    "download": "https://ksp.sarbian.com/jenkins/job/ModuleManager/101/artifact/ModuleManager-2.6.13.zip"
+    "download": "https://ksp.sarbian.com/jenkins/job/ModuleManager/101/artifact/ModuleManager-2.6.13.zip",
+    "download_size": 28055,
+    "x_generated_by": "netkan"
 }

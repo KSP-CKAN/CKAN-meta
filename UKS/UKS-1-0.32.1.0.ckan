@@ -1,0 +1,68 @@
+{
+    "spec_version": "v1.4",
+    "comment": "This may be renamed to USI-UKS in the future",
+    "identifier": "UKS",
+    "name": "USI Kolonization Systems (MKS/OKS)",
+    "abstract": "a series of interlocking modules for building long-term, self sustaining colonies in orbit and on other planets and moons.",
+    "description": "MKS introduces a series of parts specifically designed to provide self-sustaining life support for multiple Kerbals for users of TAC-Life Support. While the parts will function without TAC-LS, the design is centered around providing an appropriate challenge where players will weigh the costs, risks, and rewards of supplying missions exclusively with carried life support supplies, or in making the investment in a permanent colony. That being said, this is not just a single greenhouse part (although food production is part of the mod). Rather, it brings an entire colonization end-game to KSP in a fun and challenging way.",
+    "author": "RoverDude",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/79588",
+        "repository": "https://github.com/BobPalmer/MKS",
+        "license": "https://github.com/BobPalmer/MKS/blob/master/license.txt"
+    },
+    "version": "1:0.32.1.0",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.5",
+    "provides": [
+        "MKS",
+        "OKS",
+        "USI-UKS"
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "7.0.5398.27328"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.5.1"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.4.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.2.3"
+        },
+        {
+            "name": "USI-Core"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "USI-LS",
+            "min_version": "v0.1.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "MKS"
+        },
+        {
+            "name": "OKS"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/Kolonization",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/BobPalmer/MKS/releases/download/0.32.1.0/UKS_0.32.1.0.zip",
+    "download_size": 32740469,
+    "x_generated_by": "netkan"
+}
