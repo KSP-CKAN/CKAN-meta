@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "GAP",
     "name": "Contract Pack: Giving Aircraft a Purpose (GAP)",
     "abstract": "GAP: Aerospace Exploration Retrieval and Operations - Early aircraft development, tours, charters, regular air flights, Coast Guard, and STS contracts compatible with stock and modded careers!",
@@ -24,6 +24,9 @@
         },
         {
             "name": "KerbalAircraftExpansion"
+        },
+        {
+            "name": "VNG-Parachute-EVALoading"
         }
     ],
     "suggests": [
@@ -39,8 +42,8 @@
     ],
     "install": [
         {
-            "file": "GameData/ContractPacks",
-            "install_to": "GameData"
+            "find": "GAP",
+            "install_to": "GameData/ContractPacks"
         }
     ],
     "download": "https://kerbalstuff.com/mod/1385/Contract%20Pack:%20Giving%20Aircraft%20a%20Purpose%20%28GAP%29/download/1.1.1",
