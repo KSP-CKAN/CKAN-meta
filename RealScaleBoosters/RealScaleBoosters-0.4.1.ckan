@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "RealScaleBoosters",
     "name": "Real Scale Boosters",
     "abstract": "Realistically sized rocket parts, with realistic stats and performance, heavily based on real world rockets. ",
@@ -31,6 +31,17 @@
         },
         {
             "name": "CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "RealScaleBoosters",
+            "install_to": "GameData",
+            "filter": "Ships"
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
         }
     ],
     "download": "https://kerbalstuff.com/mod/1435/Real%20Scale%20Boosters/download/0.4.1",
