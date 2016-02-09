@@ -1,6 +1,6 @@
 {
     "spec_version": "v1.4",
-    "identifier": "USI-Kolonization",
+    "identifier": "USI-UKS-Shared",
     "name": "USI Kolonization",
     "abstract": "All of the shared resources used by UKS and MKS-Lite",
     "author": "RoverDude",
@@ -15,16 +15,23 @@
     "ksp_version_max": "1.0.5",
     "depends": [
         {
-            "name": "USITools"
+            "name": "FirespitterCore",
+            "min_version": "7.0.5398.27328"
         },
         {
-            "name": "CommunityResourcePack"
+            "name": "ModuleManager",
+            "min_version": "2.5.1"
         },
         {
-            "name": "FirespitterCore"
+            "name": "USITools",
+            "min_version": "0.4.0"
         },
         {
-            "name": "ModuleManager"
+            "name": "CommunityResourcePack",
+            "min_version": "0.2.3"
+        },
+        {
+            "name": "USI-Core"
         }
     ],
     "install": [
