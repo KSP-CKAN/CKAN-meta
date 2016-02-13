@@ -1,0 +1,36 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "VaporosBlueGalaxySkybox",
+    "name": "Vaporo's Blue Galaxy Skybox",
+    "abstract": "A Skybox for TextureReplacer",
+    "author": "Vaporo",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/90625-vaporos-blue-galaxy-skybox-for-texture-replacer/",
+        "kerbalstuff": "https://kerbalstuff.com/mod/1413/Vaporo's%20Blue%20Galaxy%20Skybox",
+        "x_screenshot": "https://kerbalstuff.com/content/Vaporo_19313/Vaporos_Blue_Galaxy_Skybox/Vaporos_Blue_Galaxy_Skybox-1453221230.0022519.png"
+    },
+    "version": "1.0",
+    "ksp_version": "1.0.5",
+    "provides": [
+        "Skybox"
+    ],
+    "conflicts": [
+        {
+            "name": "Skybox"
+        }
+    ],
+    "install": [
+        {
+            "find": "TextureReplacer/Default",
+            "install_to": "GameData/TextureReplacer"
+        },
+        {
+            "find": "TextureReplacer/EnvMap",
+            "install_to": "GameData/TextureReplacer"
+        }
+    ],
+    "download": "https://kerbalstuff.com/mod/1413/Vaporo%27s%20Blue%20Galaxy%20Skybox/download/1.0",
+    "download_size": 3737042,
+    "x_generated_by": "netkan"
+}
