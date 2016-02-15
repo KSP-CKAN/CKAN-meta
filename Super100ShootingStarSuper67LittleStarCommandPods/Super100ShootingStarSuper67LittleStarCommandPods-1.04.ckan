@@ -12,10 +12,16 @@
     },
     "version": "1.04",
     "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "RasterPropMonitor-Core"
+        }
+    ],
     "install": [
         {
             "find": "RaptorAerospacial",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": "StockIVA"
         }
     ],
     "download": "https://kerbalstuff.com/mod/1368/Super%20100%20Shooting%20Star%20%26%20Super%2067%20Little%20Star%20Command%20Pods/download/1.04",
