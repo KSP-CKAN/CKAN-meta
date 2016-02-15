@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "USI-MKSLite",
+    "name": "MKS Lite!",
+    "abstract": "A simpler, more forgiving version of MKS - great for getting your feet wet!",
+    "author": "RoverDude",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/122094-105",
+        "repository": "https://github.com/BobPalmer/MKS-LITE"
+    },
+    "version": "0.3.2.0",
+    "ksp_version_min": "1.0.4",
+    "ksp_version_max": "1.0.5",
+    "depends": [
+        {
+            "name": "USITools"
+        },
+        {
+            "name": "USI-Core"
+        },
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "USI-UKS-Shared"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "UKS"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/MKS-LITE",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/BobPalmer/MKS-LITE/releases/download/0.3.2.0/MKS-LITE_0.3.2.0.zip",
+    "download_size": 13739382,
+    "x_last_revision_by": "harryyoung",
+    "x_generated_by": "netkan"
+}
