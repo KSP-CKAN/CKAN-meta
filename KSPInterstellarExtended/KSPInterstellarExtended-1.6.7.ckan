@@ -1,0 +1,55 @@
+{
+    "spec_version": 1,
+    "identifier": "KSPInterstellarExtended",
+    "name": "KSP Interstellar Extended",
+    "abstract": "KSP Interstellar Extended is a plugin for Kerbal Space Program, designed to encourage bootstrapping toward ever more advanced levels of technology as well as utilizing In-Situ resources to expand the reach of Kerbal civilization. KSP Interstellar Extended aims to continue in Fractals original KSPI vision in providing a realistic road to the stars.",
+    "author": "sswelm",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/sswelm/KSPInterstellar"
+    },
+    "version": "1.6.7",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.4.2"
+        },
+        {
+            "name": "Toolbar",
+            "min_version": "1.7.9"
+        },
+        {
+            "name": "InterstellarFuelSwitch",
+            "min_version": "1.7"
+        },
+        {
+            "name": "TweakScale",
+            "min_version": "2.1"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.3"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "FilterExtensions"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CrossFeedEnabler"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/WarpPlugin",
+            "install_to": "GameData",
+            "filter": "MiniAVC.xml"
+        }
+    ],
+    "download": "https://github.com/sswelm/KSPInterstellar/releases/download/1.6.7/KSPI_Extended_1.6.7.zip",
+    "download_size": 57435941,
+    "x_generated_by": "netkan"
+}
