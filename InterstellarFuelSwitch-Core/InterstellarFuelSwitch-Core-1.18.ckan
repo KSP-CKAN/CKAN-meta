@@ -1,17 +1,23 @@
 {
     "spec_version": "v1.4",
     "identifier": "InterstellarFuelSwitch-Core",
-    "name": "Interstellar Fuel Switch Core",
-    "abstract": "Interstellar Fuel Switch",
+    "name": "Interstellar Fuel Switch",
+    "abstract": "Interstellar Fuel Switch is mend for mod makers which want to add resource/mesh/texture switching to their tanks  Interstellar Fuel Switch is an improved version of FSFuelSwitch, FSMeshSwitch and FSTextureSwitch, FSTextureSwitch2 made by Snjo",
     "author": "FreeThinker",
-    "license": "CC-BY-NC",
+    "license": "GPL-2.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/117932-1-0-Interstellar-Fuel-Switch-0-2",
-        "kerbalstuff": "https://kerbalstuff.com/mod/718/Interstellar%20Fuel%20Switch",
-        "x_screenshot": "https://kerbalstuff.com/content/FreeThinker_6401/Interstellar_Fuel_Switch/Interstellar_Fuel_Switch-1430809631.9793148.jpg"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/106243-105interstellar-fuel-switch-118-updated-10-11-2015/",
+        "spacedock": "https://spacedock.info/mod/175/Interstellar%20Fuel%20Switch",
+        "x_screenshot": "https://spacedock.info/content/FreeThinker_517/Interstellar_Fuel_Switch/Interstellar_Fuel_Switch-1455881942.4863732.jpg"
     },
     "version": "1.18",
     "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.4.5"
+        }
+    ],
     "install": [
         {
             "file": "GameData/InterstellarFuelSwitch/Plugins",
@@ -19,7 +25,7 @@
             "filter": "MiniAVC.xml"
         }
     ],
-    "download": "https://kerbalstuff.com/mod/718/Interstellar%20Fuel%20Switch/download/1.18",
+    "download": "https://spacedock.info/mod/175/Interstellar%20Fuel%20Switch/download/1.18",
     "download_size": 68925,
     "x_generated_by": "netkan"
 }
