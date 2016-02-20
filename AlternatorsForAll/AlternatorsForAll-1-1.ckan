@@ -1,0 +1,35 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "AlternatorsForAll",
+    "name": "Alternators For All",
+    "abstract": "  Adds one electric charge per second alternators to all liquid fuel engines. Includes optional config files to add alternators to solid fuel engines or monopropellant engines. Perfect for small probes without other power generation capabilities.  Does not effect xenon engines or engines with modded fuels. Is compatible with any mod adding engines using the default engine module.  Requires ModuleManager (not included).",
+    "author": "The_Sea_Four",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/186/Alternators%20For%20All"
+    },
+    "version": "1:1",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/The_Sea_Four",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Optional/Monoprop alternators/GameData/The_Sea_Four",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Optional/SRB alternators/GameData/The_Sea_Four",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/186/Alternators%20For%20All/download/1",
+    "download_size": 2533,
+    "x_generated_by": "netkan"
+}
