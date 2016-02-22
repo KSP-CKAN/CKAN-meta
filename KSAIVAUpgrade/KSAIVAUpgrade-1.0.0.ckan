@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KSAIVAUpgrade",
+    "name": "KSA IVA Upgrade",
+    "abstract": "New IVA's for Mk1 cockpits",
+    "author": "RangeMachine",
+    "license": "CC-BY-SA-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/123769-ksa-iva-upgrade",
+        "spacedock": "https://spacedock.info/mod/211/KSA%20IVA%20Upgrade",
+        "x_screenshot": "https://spacedock.info/content/RangeMachine_1146/KSA_IVA_Upgrade/KSA_IVA_Upgrade-1456057221.5332754.png"
+    },
+    "version": "1.0.0",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "ASETAvionics"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "FerramAerospaceResearch"
+        }
+    ],
+    "install": [
+        {
+            "find": "IVAUpgrade",
+            "install_to": "GameData/KSA"
+        }
+    ],
+    "download": "https://spacedock.info/mod/211/KSA%20IVA%20Upgrade/download/1.0.0",
+    "download_size": 11173441,
+    "x_generated_by": "netkan"
+}

@@ -8,11 +8,10 @@
     "release_status": "stable",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/80483",
-        "kerbalstuff": "https://kerbalstuff.com/mod/251/Custom%20Asteroids",
         "repository": "https://github.com/Starstrider42/Custom-Asteroids",
         "bugtracker": "https://github.com/Starstrider42/Custom-Asteroids/issues",
         "manual": "http://starstrider42.github.io/Custom-Asteroids/",
-        "x_screenshot": "https://kerbalstuff.com/content/Starstrider42_807/Custom_Asteroids/Custom_Asteroids.png"
+        "x_screenshot": "https://spacedock.info/content/Starstrider42_1134/Custom_Asteroids/Custom_Asteroids-1456053768.2688773.png"
     },
     "version": "v1.1.0",
     "ksp_version_min": "0.25",
@@ -30,6 +29,12 @@
             "name": "CustomAsteroids-Pops-Stock-Outer"
         }
     ],
+    "conflicts": [
+        {
+            "name": "Kopernicus",
+            "min_version": "1:beta-06"
+        }
+    ],
     "install": [
         {
             "file": "GameData/CustomAsteroids",
@@ -37,7 +42,7 @@
             "filter": "config"
         }
     ],
-    "download": "https://kerbalstuff.com/mod/251/Custom%20Asteroids/download/v1.1.0",
+    "download": "https://github.com/Starstrider42/Custom-Asteroids/releases/download/v1.1.0/CustomAsteroids_v1.1.0.zip",
     "download_size": 24276,
     "x_maintained_by": "Starstrider42",
     "x_generated_by": "netkan"
