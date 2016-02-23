@@ -1,30 +1,34 @@
 {
     "spec_version": "v1.4",
     "identifier": "TundraExploration",
-    "name": "Tundra Exploration - Stockalike Dragon V2",
-    "abstract": "This is a small mod that adds a stockalike Dragon V2 and LADEE.",
+    "name": "Tundra Exploration - Stockalike Dragon V2 and Falcon 9",
+    "abstract": "This is a mod that adds parts like the Dragon V2, Falcon 9 and more!",
     "author": "tygoo7",
     "license": "CC-BY-NC-SA-4.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/74988-wip104-tundra-exploration-v07-stockalike-dragon-v2-and-falcon-9/",
-        "kerbalstuff": "https://kerbalstuff.com/mod/671/Tundra%20Exploration%20-%20Stockalike%20Dragon%20V2",
-        "x_screenshot": "https://kerbalstuff.com/content/tygoo7_75/Tundra_Exploration_-_Stockalike_Dragon_V2/Tundra_Exploration_-_Stockalike_Dragon_V2-1433809278.237828.png"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/74988-wip105-tundra-exploration-v072-stockalike-dragon-v2-and-falcon-9/&page=1",
+        "spacedock": "https://spacedock.info/mod/223/Tundra%20Exploration%20-%20Stockalike%20Dragon%20V2%20and%20Falcon%209",
+        "x_screenshot": "https://spacedock.info/content/tygoo7_912/Tundra_Exploration_-_Stockalike_Dragon_V2_and_Falcon_9/Tundra_Exploration_-_Stockalike_Dragon_V2_and_Falcon_9-1456100307.9848456.png"
     },
     "version": "0.7.2",
     "ksp_version": "1.0.5",
-    "suggests": [
+    "recommends": [
         {
             "name": "RasterPropMonitor-Core"
+        },
+        {
+            "name": "RealPlume-StockConfigs"
         }
     ],
     "install": [
         {
             "find": "TundraExploration",
             "install_to": "GameData",
+            "filter": "Thumbs.db",
             "comment": "Ven-Patch not included since it requires overwriting of Rodan_Capsule.cfg"
         }
     ],
-    "download": "https://kerbalstuff.com/mod/671/Tundra%20Exploration%20-%20Stockalike%20Dragon%20V2/download/0.7.2",
+    "download": "https://spacedock.info/mod/223/Tundra%20Exploration%20-%20Stockalike%20Dragon%20V2%20and%20Falcon%209/download/0.7.2",
     "download_size": 2409525,
     "x_generated_by": "netkan"
 }
