@@ -1,13 +1,11 @@
 {
     "spec_version": "v1.4",
+    "comment": "Plugin is MIT, but Static Assets, Artwork & Models are ARR",
     "identifier": "KerbalKonstructs",
     "name": "Kerbal Konstructs",
     "abstract": "Create new bases and launchsites in KSP",
     "author": "AlphaAsh",
-    "license": [
-        "MIT",
-        "BSD-3-clause"
-    ],
+    "license": "restricted",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/94863-105-kerbal-konstructs-v0952-insert-silly-subtitle-here/",
         "spacedock": "https://spacedock.info/mod/124/Kerbal%20Konstructs",
@@ -16,6 +14,11 @@
     },
     "version": "0.9.5.2",
     "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
     "install": [
         {
             "find": "KerbalKonstructs",
