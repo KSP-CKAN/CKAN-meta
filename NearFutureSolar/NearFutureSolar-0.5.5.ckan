@@ -14,6 +14,11 @@
     },
     "version": "0.5.5",
     "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "NearFutureSolar-Core"
+        }
+    ],
     "suggests": [
         {
             "name": "CommunityTechTree"
@@ -34,7 +39,8 @@
     "install": [
         {
             "find": "NearFutureSolar",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": "NearFutureSolar.dll"
         }
     ],
     "download": "http://i.52k.de/kspmods/storage/Nertea_3884/Near_Future_Solar/Near_Future_Solar-0.5.5.zip",
