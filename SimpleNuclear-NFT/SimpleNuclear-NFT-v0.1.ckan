@@ -15,12 +15,19 @@
     "depends": [
         {
             "name": "SimpleNuclear"
-        },
+        }
+    ],
+    "recommends": [
         {
             "name": "NearFutureElectrical"
         },
         {
             "name": "NearFuturePropulsion"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SimpleNuclear-NFTBalanced"
         }
     ],
     "install": [
