@@ -1,17 +1,19 @@
 {
-    "spec_version": "v1.2",
+    "spec_version": "v1.4",
     "identifier": "LLL-Extras",
-    "name": "LLL Extra Parts",
-    "abstract": "Boxes in space. What's not to love.",
-    "author": "Lack",
+    "name": "Lack Luster Labs Extra Parts",
+    "abstract": "Adds extra parts to Lack Luster Labs, and adds compatibility with TAC Life Support and Connected Living Space",
+    "author": [
+        "Lack",
+        "MrWizerd"
+    ],
     "license": "CC-BY-NC-SA-4.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/102237-1-0-2-LLL-Lack-Luster-Labs-(Space-boxes!)-LLL-14-20JUN2014",
-        "kerbalstuff": "https://kerbalstuff.com/mod/954/LLL",
-        "x_screenshot": "https://kerbalstuff.com/content/Lack_4055/LLL/LLL-1435614197.5577142.png"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/92203-/"
     },
     "version": "14",
-    "ksp_version": "1.0.4",
+    "ksp_version_min": "1.0.4",
+    "ksp_version_max": "1.0.5",
     "depends": [
         {
             "name": "LLL"
@@ -19,11 +21,11 @@
     ],
     "install": [
         {
-            "file": "GameData/LLL-Extra/Parts",
+            "find": "GameData/LLL-Extra/Parts",
             "install_to": "GameData/LLL-Extra"
         }
     ],
     "download": "https://s3-us-west-2.amazonaws.com/ksp-ckan/C3E89178.zip",
-    "download_size": 13028822,
+    "download_size": 12627131,
     "x_generated_by": "netkan"
 }
