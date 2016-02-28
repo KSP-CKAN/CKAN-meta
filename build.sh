@@ -119,8 +119,8 @@ create_dummy_ksp () {
     mono ckan.exe ksp default $KSP_NAME
     
     # Point to the local metadata instead of GitHub.
-    mono ckan.exe repo add local "file://`pwd`/master.tar.gz"
-    mono ckan.exe repo remove default
+    # mono ckan.exe repo add local "file://`pwd`/master.tar.gz"
+    # mono ckan.exe repo remove default
     
     # Link to the downloads cache.
     ln -s ../../downloads_cache/ dummy_ksp/CKAN/downloads/
