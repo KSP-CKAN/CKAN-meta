@@ -2,23 +2,35 @@
     "spec_version": 1,
     "identifier": "QuickScroll",
     "name": "QuickScroll",
-    "abstract": "QuickScroll is a small plugin which adds the possibility to scroll the parts pages, the categories and the filters on the editor with the mouse wheel and with keyboard shortcuts.",
+    "abstract": "Adds the possibility to scroll the parts pages, the categories and the filters on the editor with the mouse wheel and with keyboard shortcuts.",
     "author": "malah",
     "license": "GPL-3.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/95168",
-        "kerbalstuff": "https://kerbalstuff.com/mod/436/QuickScroll",
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/85834-1",
+        "spacedock": "https://spacedock.info/mod/100/QuickScroll",
         "repository": "https://github.com/malahx/QuickScroll",
-        "x_screenshot": "https://kerbalstuff.com/content/malah_88/QuickScroll/QuickScroll.png"
+        "x_screenshot": "https://spacedock.info/content/malah_232/QuickScroll/QuickScroll-1455756358.1587656.png"
     },
     "version": "v1.32",
-    "ksp_version": "1.0.5",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.5",
+    "suggests": [
+        {
+            "name": "Toolbar"
+        }
+    ],
     "conflicts": [
         {
             "name": "PartCatalog"
         }
     ],
-    "download": "https://s3-us-west-2.amazonaws.com/ksp-ckan/30CFA394.zip",
+    "install": [
+        {
+            "file": "GameData/QuickScroll",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/100/QuickScroll/download/v1.32",
     "download_size": 109230,
     "x_generated_by": "netkan"
 }
