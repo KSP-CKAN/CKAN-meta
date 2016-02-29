@@ -1,26 +1,29 @@
 {
-    "spec_version": "v1.00",
+    "spec_version": 1,
     "identifier": "QuickBrake",
     "name": "QuickBrake",
-    "abstract": "QuickBrake is a small plugin which adds the possibility to brake your vessel at launch.",
+    "abstract": "Adds the possibility to brake your vessel at launch.",
     "author": "malah",
     "license": "GPL-3.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/95168#QuickBrake",
-        "kerbalstuff": "https://kerbalstuff.com/mod/764/QuickBrake",
-        "repository": "https://github.com/malahx/QuickBrake",
-        "x_screenshot": "https://kerbalstuff.com/content/malah_88/QuickBrake/QuickBrake-1447690744.274987.png"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/85834-1",
+        "spacedock": "https://spacedock.info/mod/103/QuickBrake",
+        "repository": "https://github.com/malahx/QuickBrake"
     },
     "version": "v1.10",
     "ksp_version": "1.0.5",
+    "suggests": [
+        {
+            "name": "Toolbar"
+        }
+    ],
     "install": [
         {
             "file": "GameData/QuickBrake",
             "install_to": "GameData"
         }
     ],
-    "download": "https://s3-us-west-2.amazonaws.com/ksp-ckan/636DD554.zip",
-    "download_size": 55069,
-    "x_via": "Automated KerbalStuff CKAN submission",
+    "download": "https://spacedock.info/mod/103/QuickBrake/download/v1.10",
+    "download_size": 55071,
     "x_generated_by": "netkan"
 }
