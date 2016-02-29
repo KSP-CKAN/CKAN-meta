@@ -1,30 +1,33 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": 1,
     "identifier": "QuickIVA",
     "name": "QuickIVA",
-    "abstract": "QuickIVA is a small plugin which adds a switch to the IVA at the loading or the launch of a vessel.",
+    "abstract": "Adds a switch to the IVA at the loading or the launch of a vessel.",
     "author": "malah",
     "license": "GPL-3.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/95168",
-        "kerbalstuff": "https://kerbalstuff.com/mod/568/QuickIVA",
-        "repository": "https://github.com/malahx/QuickIVA",
-        "x_screenshot": "https://kerbalstuff.com/content/malah_88/QuickIVA/QuickIVA-1423437465.9132862.png"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/85834-1",
+        "spacedock": "https://spacedock.info/mod/107/QuickIVA",
+        "repository": "https://github.com/malahx/QuickIVA"
     },
     "version": "v1.11",
-    "ksp_version": "1.0.5",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.5",
     "suggests": [
         {
             "name": "RasterPropMonitor"
+        },
+        {
+            "name": "Toolbar"
         }
     ],
     "install": [
         {
-            "find": "QuickIVA",
+            "file": "GameData/QuickIVA",
             "install_to": "GameData"
         }
     ],
-    "download": "https://s3-us-west-2.amazonaws.com/ksp-ckan/B90A94E9.zip",
+    "download": "https://spacedock.info/mod/107/QuickIVA/download/v1.11",
     "download_size": 44255,
     "x_generated_by": "netkan"
 }
