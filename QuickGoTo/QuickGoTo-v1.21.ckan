@@ -2,24 +2,29 @@
     "spec_version": 1,
     "identifier": "QuickGoTo",
     "name": "QuickGoTo",
-    "abstract": "QuickGoTo is a small plugin which add the possibility to go to an other scene from anywhere (VAB, SPH, Tracking Station ...).",
+    "abstract": "Adds the possibility to go to an other scene from anywhere (VAB, SPH, Tracking Station ...).",
     "author": "malah",
     "license": "GPL-3.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/95168",
-        "kerbalstuff": "https://kerbalstuff.com/mod/653/QuickGoTo",
-        "repository": "https://github.com/malahx/QuickGoTo",
-        "x_screenshot": "https://kerbalstuff.com/content/malah_88/QuickGoTo/QuickGoTo-1426955455.8032744.png"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/85834-1",
+        "spacedock": "https://spacedock.info/mod/102/QuickGoTo",
+        "repository": "https://github.com/malahx/QuickGoTo"
     },
     "version": "v1.21",
-    "ksp_version": "1.0.5",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.5",
+    "suggests": [
+        {
+            "name": "Toolbar"
+        }
+    ],
     "install": [
         {
             "file": "GameData/QuickGoTo",
             "install_to": "GameData"
         }
     ],
-    "download": "https://s3-us-west-2.amazonaws.com/ksp-ckan/F07B374C.zip",
+    "download": "https://spacedock.info/mod/102/QuickGoTo/download/v1.21",
     "download_size": 73065,
     "x_generated_by": "netkan"
 }
