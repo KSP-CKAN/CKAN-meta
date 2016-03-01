@@ -1,23 +1,26 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.10",
     "identifier": "BackgroundProcessing",
     "name": "BackgroundProcessing",
-    "abstract": "Addon to handle some resources for unloaded vessels and provide modded parts the ability to perform processing on unloaded vessels.",
+    "abstract": "Handle resources for vessels when you're not looking at them.",
     "author": "jamespicone",
     "license": "MIT",
     "resources": {
-        "kerbalstuff": "https://kerbalstuff.com/mod/302/BackgroundProcessing",
-        "repository": "https://bitbucket.org/j_picone/background-processing"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/88777-102-backgroundprocessing/&page=1",
+        "spacedock": "https://spacedock.info/mod/288/BackgroundProcessing",
+        "repository": "https://bitbucket.org/j_picone/background-processing/overview"
     },
     "version": "0.4.1.0",
-    "ksp_version": "1.0.2",
+    "ksp_version_min": "1.0.2",
+    "ksp_version_max": "1.0.5",
     "install": [
         {
-            "file": "BackgroundProcessing-0.4.1.0.dll",
+            "find_regexp": "BackgroundProcessing.*\\.dll$",
+            "find_matches_files": true,
             "install_to": "GameData"
         }
     ],
-    "download": "https://kerbalstuff.com/mod/302/BackgroundProcessing/download/0.4.1.0",
+    "download": "https://spacedock.info/mod/288/BackgroundProcessing/download/0.4.1.0",
     "download_size": 13296,
     "x_generated_by": "netkan"
 }

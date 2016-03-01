@@ -2,24 +2,28 @@
     "spec_version": "v1.4",
     "identifier": "KerboKatzSmallUtilities",
     "name": "KerboKatz - SmallUtilities",
-    "abstract": "Adds small and usefull tools to kerbal. Read the forum post for more information :)",
+    "abstract": "A lot of small but usefull mods in one package",
     "author": "SpaceTiger",
     "license": "restricted",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/116034",
-        "kerbalstuff": "https://kerbalstuff.com/mod/704/KerboKatz%20-%20SmallUtilities",
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/104505-10x-kerbokatz-smallutilities-v125-18092015-now-with-autobalancinglandingleg/",
+        "spacedock": "https://spacedock.info/mod/85/KerboKatz%20-%20SmallUtilities",
         "repository": "https://github.com/Xarun/SmallUtilities/"
     },
     "version": "1.2.5",
     "ksp_version": "1.0.5",
     "depends": [
         {
-            "name": "KerboKatzUtilities"
+            "name": "KerboKatzUtilities",
+            "min_version": "1.2.6"
         }
     ],
     "conflicts": [
         {
-            "name": "KerboKatzSmallUtilities-AfterBurner"
+            "name": "KerboKatzSmallUtilities-Afterburner"
+        },
+        {
+            "name": "KerboKatzSmallUtilities-AutoBalancingLandingLeg"
         },
         {
             "name": "KerboKatzSmallUtilities-DisableTempGauges"
@@ -41,9 +45,6 @@
         },
         {
             "name": "KerboKatzSmallUtilities-PhysicalTimeRatioViewer"
-        },
-        {
-            "name": "KerboKatzSmallUtilities-AutoBalancingLandingLeg"
         }
     ],
     "install": [
@@ -52,7 +53,7 @@
             "install_to": "GameData/KerboKatz"
         }
     ],
-    "download": "https://kerbalstuff.com/mod/704/KerboKatz%20-%20SmallUtilities/download/1.2.5",
+    "download": "https://spacedock.info/mod/85/KerboKatz%20-%20SmallUtilities/download/1.2.5",
     "download_size": 76145,
     "x_generated_by": "netkan"
 }

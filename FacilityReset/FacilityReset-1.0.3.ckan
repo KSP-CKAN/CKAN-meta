@@ -1,0 +1,30 @@
+{
+    "spec_version": 1,
+    "identifier": "FacilityReset",
+    "name": "Facility Reset for 64 bit",
+    "abstract": "A plugin which works around a bug affecting 64 bit versions by resetting the Space Center facilities to the correct level.",
+    "author": "NoPanShabuShabu",
+    "license": "public-domain",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/131454-facility-reset-for-64-bit-ksp/",
+        "spacedock": "https://spacedock.info/mod/44/Facility%20Reset%20for%2064bit%20KSP",
+        "x_screenshot": "https://spacedock.info/content/NoPanShabuShabu_283/Facility_Reset_for_64bit_KSP/Facility_Reset_for_64bit_KSP-1455670347.0690348.png"
+    },
+    "version": "1.0.3",
+    "ksp_version": "1.0.5",
+    "conflicts": [
+        {
+            "name": "KerbalConstructionTime"
+        }
+    ],
+    "install": [
+        {
+            "file": "FacilityReset",
+            "install_to": "GameData",
+            "filter": "FacilityResetSource.cs"
+        }
+    ],
+    "download": "https://spacedock.info/mod/44/Facility%20Reset%20for%2064bit%20KSP/download/1.0.3",
+    "download_size": 35441,
+    "x_generated_by": "netkan"
+}

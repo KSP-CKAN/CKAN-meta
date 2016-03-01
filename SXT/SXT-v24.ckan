@@ -1,0 +1,35 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "SXT",
+    "name": "Stock Extension",
+    "abstract": "Low RAM Stock-a-like expansion using squad models for reference.",
+    "author": "Lack",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/71992-105-sxt-lacks-stock-extension-sxt-24-09dec15kscv3",
+        "repository": "https://github.com/Signatum/SXT"
+    },
+    "version": "v24",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "FirespitterResourcesConfig"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "SXT",
+            "install_to": "GameData",
+            "filter": "Thumbs.db"
+        }
+    ],
+    "download": "https://github.com/Signatum/SXT/releases/download/v24/SXT-24.zip",
+    "download_size": 35948472,
+    "x_generated_by": "netkan"
+}

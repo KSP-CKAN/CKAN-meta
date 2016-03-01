@@ -1,32 +1,25 @@
 {
     "spec_version": "v1.4",
     "identifier": "KerboKatzUtilities",
-    "name": "KerboKatzUtilities",
-    "abstract": "Utilities used in all of my mods",
+    "name": "KerboKatz - Utilities",
+    "abstract": "Utilities used in all my mods",
     "author": "SpaceTiger",
     "license": "restricted",
     "resources": {
         "homepage": "https://github.com/Xarun/KerboKatzUtilities",
-        "kerbalstuff": "https://kerbalstuff.com/mod/600/KerboKatzUtilities",
+        "spacedock": "https://spacedock.info/mod/81/KerboKatz%20-%20Utilities",
         "repository": "https://github.com/Xarun/KerboKatzUtilities"
     },
     "version": "1.2.11",
-    "ksp_version": "1.0.5",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.5",
     "install": [
         {
-            "file": "GameData/KerboKatz/Textures",
-            "install_to": "GameData/KerboKatz"
-        },
-        {
-            "file": "GameData/KerboKatz/KerboKatzUtilities.dll",
-            "install_to": "GameData/KerboKatz"
-        },
-        {
-            "file": "GameData/KerboKatz/KerboKatzUtilities.version",
-            "install_to": "GameData/KerboKatz"
+            "find": "KerboKatz",
+            "install_to": "GameData"
         }
     ],
-    "download": "https://kerbalstuff.com/mod/600/KerboKatzUtilities/download/1.2.11",
+    "download": "https://spacedock.info/mod/81/KerboKatz%20-%20Utilities/download/1.2.11",
     "download_size": 28744,
     "x_generated_by": "netkan"
 }

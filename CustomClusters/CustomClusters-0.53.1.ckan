@@ -1,20 +1,31 @@
 {
     "spec_version": "v1.4",
     "identifier": "CustomClusters",
-    "name": "Custom Clusters - More freedom in engine design",
-    "abstract": "Tired of being stuck with limited propulsion options? Construct your own engine clusters!",
+    "name": "Custom Clusters",
+    "abstract": "More freedom in engine design",
     "author": "Randazzo",
     "license": "CC-BY-NC-SA-4.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/130662",
-        "kerbalstuff": "https://kerbalstuff.com/mod/1058/Custom%20Clusters%20-%20More%20freedom%20in%20engine%20design",
-        "x_screenshot": "https://kerbalstuff.com/content/Randazzo_9223/Custom_Clusters_-_More_freedom_in_engine_design/Custom_Clusters_-_More_freedom_in_engine_design-1438739466.4368544.png"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/117662-105-custom-clusters-more-freedom-in-engine-design-0531/"
     },
     "version": "0.53.1",
     "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "InterstellarFuelSwitch"
+        }
+    ],
     "recommends": [
         {
             "name": "KerbalJointReinforcement"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "CustomClusters-StockAdapterStandalone"
         }
     ],
     "install": [
@@ -24,7 +35,7 @@
             "filter": "Thumbs.db"
         }
     ],
-    "download": "https://kerbalstuff.com/mod/1058/Custom%20Clusters%20-%20More%20freedom%20in%20engine%20design/download/0.53.1",
+    "download": "https://ckan1.spacedock.info/storage/Randazzo_9223/Custom_Clusters_-_More_freedom_in_engine_design/Custom_Clusters_-_More_freedom_in_engine_design-0.53.1.zip",
     "download_size": 7032349,
     "x_generated_by": "netkan"
 }

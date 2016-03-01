@@ -1,0 +1,29 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NearFuturePropulsion-LowThrustEP",
+    "name": "Near Future Propulsion Extras: Reduced Thrust Configs",
+    "abstract": "This optional patch provides a user-editable config file that can reduce (or potentially even increase) the thrust output of all electric engines, while keeping other performance values constant.",
+    "author": "Nertea",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/52042-0-21",
+        "repository": "https://github.com/ChrisAdderley/NearFuturePropulsion"
+    },
+    "version": "0.6.1",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "NearFuturePropulsion"
+        }
+    ],
+    "install": [
+        {
+            "find": "ReducedElectricEngineThrust",
+            "install_to": "GameData/NearFuturePropulsion/Extras"
+        }
+    ],
+    "download": "https://github.com/ChrisAdderley/NearFuturePropulsion/releases/download/0.6.1/NearFuturePropulsion0_6_1.zip",
+    "download_size": 36302994,
+    "x_generated_by": "netkan"
+}

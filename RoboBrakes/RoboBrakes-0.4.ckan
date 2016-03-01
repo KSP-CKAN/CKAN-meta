@@ -1,0 +1,30 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "RoboBrakes",
+    "name": "RoboBrakes",
+    "abstract": "Automated Braking & Control System",
+    "author": "wrcsubers",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/129947",
+        "kerbalstuff": "https://kerbalstuff.com/mod/1041/RoboBrakes",
+        "repository": "https://github.com/wrcsubers/RoboBrakes",
+        "x_screenshot": "https://kerbalstuff.com/content/wrcsubers_13275/RoboBrakes/RoboBrakes-1439612139.27292.jpg"
+    },
+    "version": "0.4",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find_regexp": "RoboBrakes.v[\\d+.]{3,5}",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://s3-us-west-2.amazonaws.com/ksp-ckan/B742C0C3.zip",
+    "download_size": 45625,
+    "x_generated_by": "netkan"
+}

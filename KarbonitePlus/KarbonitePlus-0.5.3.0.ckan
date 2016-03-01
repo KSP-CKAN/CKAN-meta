@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.16",
     "comment": "This may be renamed to USI-KarbonitePlus in the future",
     "identifier": "KarbonitePlus",
     "name": "KarbonitePlus",
@@ -8,7 +8,7 @@
     "license": "CC-BY-NC-SA-4.0",
     "release_status": "stable",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/93054",
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/83948-105",
         "repository": "https://github.com/BobPalmer/KarbonitePlus"
     },
     "version": "0.5.3.0",
@@ -17,6 +17,21 @@
         "USI-KarbonitePlus"
     ],
     "depends": [
+        {
+            "name": "USITools"
+        },
+        {
+            "name": "USI-Core"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "ModuleManager"
+        },
         {
             "name": "Karbonite"
         }
@@ -29,5 +44,6 @@
     ],
     "download": "https://github.com/BobPalmer/KarbonitePlus/releases/download/0.5.3.0/KPlus_0.5.3.0.zip",
     "download_size": 16382680,
+    "x_last_revision_by": "harryyoung",
     "x_generated_by": "netkan"
 }

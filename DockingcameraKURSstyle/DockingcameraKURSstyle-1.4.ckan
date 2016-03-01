@@ -13,10 +13,16 @@
     },
     "version": "1.4",
     "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
     "install": [
         {
-            "find": "DockingCam",
-            "install_to": "GameData"
+            "find": "OLDD",
+            "install_to": "GameData",
+            "filter": "Thumbs.db"
         }
     ],
     "download": "https://kerbalstuff.com/mod/1242/Docking%20camera%20%28KURS%20style%29./download/1.4",

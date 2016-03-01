@@ -1,0 +1,45 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "VersatileToolboxSystem-core",
+    "name": "VersatileToolboxSystem-core",
+    "abstract": "Base files for Versatile Toolbox System to work.",
+    "author": "Nazari",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/70312-105-versatile-toolbox-system-added-usi-support/",
+        "spacedock": "https://spacedock.info/mod/204/Versatile%20Toolbox%20System:%20USI%20Pack",
+        "x_screenshot": "https://spacedock.info/content/Nazari_336/Versatile_Toolbox_System_USI_Pack/Versatile_Toolbox_System_USI_Pack-1456026994.454246.png"
+    },
+    "version": "3.1.1",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "KIS"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "VersatileToolboxSystem-TACLSPack"
+        },
+        {
+            "name": "VersatileToolboxSystem-USIPack"
+        }
+    ],
+    "install": [
+        {
+            "file": "MP_Nazari",
+            "install_to": "GameData",
+            "filter_regexp": [
+                "vtsfertilizer",
+                "vtskarbonite",
+                "vtsmulch",
+                "vtssupplies",
+                "vtstankKarbonite.png",
+                "vtstankLabelKarbonite.png"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/204/Versatile%20Toolbox%20System:%20USI%20Pack/download/3.1.1",
+    "download_size": 3324930,
+    "x_generated_by": "netkan"
+}

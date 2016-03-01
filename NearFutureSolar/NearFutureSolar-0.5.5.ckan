@@ -14,6 +14,11 @@
     },
     "version": "0.5.5",
     "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "NearFutureSolar-Core"
+        }
+    ],
     "suggests": [
         {
             "name": "CommunityTechTree"
@@ -34,10 +39,11 @@
     "install": [
         {
             "find": "NearFutureSolar",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": "NearFutureSolar.dll"
         }
     ],
-    "download": "https://kerbalstuff.com/mod/346/Near%20Future%20Solar/download/0.5.5",
+    "download": "http://ckan1.spacedock.info/storage/Nertea_3884/Near_Future_Solar/Near_Future_Solar-0.5.5.zip",
     "download_size": 3099477,
     "x_generated_by": "netkan"
 }
