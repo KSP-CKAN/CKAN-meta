@@ -1,7 +1,7 @@
 {
     "spec_version": "v1.4",
-    "identifier": "KerboKatzSmallUtilities-DisableTempGagues",
-    "name": "KerboKatz - SmallUtilities - DisableTempGagues",
+    "identifier": "KerboKatzSmallUtilities-DisableTempGauges",
+    "name": "KerboKatz - SmallUtilities - DisableTempGauges",
     "abstract": "Disables the heat gauges everytime you enter the flight",
     "author": "SpaceTiger",
     "license": "restricted",
@@ -15,6 +15,11 @@
     "depends": [
         {
             "name": "KerboKatzUtilities"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "DisableTempGagues"
         }
     ],
     "install": [
