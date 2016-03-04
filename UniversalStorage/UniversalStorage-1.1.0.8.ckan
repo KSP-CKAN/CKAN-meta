@@ -2,13 +2,13 @@
     "spec_version": "v1.4",
     "identifier": "UniversalStorage",
     "name": "Universal Storage",
-    "abstract": "Modular resource and processor parts to build custom service modules.",
+    "abstract": "Modular parts pack for creating Apollo style service modules, compatible with many life support mods and KAS/KIS",
     "author": "Paul_Kingtiger",
     "license": "restricted",
     "resources": {
-        "homepage": "http://ksp.kingtiger.co.uk",
-        "kerbalstuff": "https://kerbalstuff.com/mod/250/Universal%20Storage",
-        "x_screenshot": "https://kerbalstuff.com/content/Paul_Kingtiger_2470/Universal_Storage/Universal_Storage.jpg"
+        "homepage": "http://www.kingtiger.co.uk/kingtiger/wordpress/2015/06/24/universal-storage-a-part-mod-for-ksp/",
+        "spacedock": "https://spacedock.info/mod/329/Universal%20Storage",
+        "x_screenshot": "https://spacedock.info/content/Paul_Kingtiger_1707/Universal_Storage/Universal_Storage-1456863749.8985937.jpg"
     },
     "version": "1.1.0.8",
     "ksp_version": "1.0.5",
@@ -20,6 +20,17 @@
             "name": "ModuleManager"
         }
     ],
+    "suggests": [
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "DMagicOrbitalScience"
+        },
+        {
+            "name": "ConnectedLivingSpace"
+        }
+    ],
     "install": [
         {
             "find": "UniversalStorage",
@@ -29,7 +40,7 @@
             ]
         }
     ],
-    "download": "https://kerbalstuff.com/mod/250/Universal%20Storage/download/1.1.0.8",
+    "download": "https://spacedock.info/mod/329/Universal%20Storage/download/1.1.0.8",
     "download_size": 4820809,
     "x_conflicts": [
         {
