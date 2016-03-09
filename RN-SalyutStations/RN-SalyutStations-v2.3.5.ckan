@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Ships explicitly not installed by author request (he no longer maintains them)",
+    "identifier": "RN-SalyutStations",
+    "name": "Salyut Stations",
+    "abstract": "This is a salyut mod for the DOS & OPS style stations. It contains fully functional replicas of Salyut 1, 4, 6 and 7. It also now contains Almaz 2, 3 and 5.",
+    "author": "Raidernick",
+    "license": "CC-BY-NC-ND-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/88383",
+        "repository": "https://github.com/KSP-RO/SalyutStations"
+    },
+    "version": "v2.3.5",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "ReflectionPlugin"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RN-SovietSpacecraft"
+        },
+        {
+            "name": "RN-SovietRockets"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RN-SalyutStations-SoyuzFerries"
+        }
+    ],
+    "install": [
+        {
+            "find": "RN_Salyut",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Gamedata/RN_FAR_overrides_salyut.cfg",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/SalyutStations/releases/download/v2.3.5/RN_SalyutStations_v2.3.5.zip",
+    "download_size": 28132821,
+    "x_generated_by": "netkan"
+}
