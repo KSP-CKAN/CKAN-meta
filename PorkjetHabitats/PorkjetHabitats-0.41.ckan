@@ -14,9 +14,10 @@
     "download": "https://www.dropbox.com/s/gpg05jlsvc81u7q/Habitat%20Pack%2004.1.zip?dl=1",
     "depends": [
         { "name": "FirespitterCore" },
-        { "name": "LayeredAnimations" }
+        { "name": "LayeredAnimations" },
+        { "name": "HabitatPlugin" }
     ],
     "install": [
-        { "file": "GameData/HabitatPack", "install_to": "GameData", "filter": "Habitat.cs" }
+        { "file": "GameData/HabitatPack", "install_to": "GameData", "filter": "Plugins" }
     ]
 }
