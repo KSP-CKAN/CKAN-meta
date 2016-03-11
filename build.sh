@@ -171,7 +171,7 @@ echo "Finding changes to test..."
 if [ -n "$ghprbActualCommit" ]
 then
     echo "Commit hash: $ghprbActualCommit"
-    export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master`"
+    export COMMIT_CHANGES="`git diff --diff-filter=AM --name-only --stat origin/master...HEAD`"
 else
     echo "No commit provided, skipping further tests."
     exit $EXIT_OK
