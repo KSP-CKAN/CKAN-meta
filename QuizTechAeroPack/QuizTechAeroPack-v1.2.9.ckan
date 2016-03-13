@@ -2,17 +2,20 @@
     "spec_version": "v1.4",
     "identifier": "QuizTechAeroPack",
     "name": "QuizTech Aero Pack",
-    "abstract": "An expansion of existing spaceplane part profiles!",
+    "abstract": "An expansion for stock and modded spaceplane parts!",
     "author": "Quiznos323",
     "license": "CC-BY-4.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/111691-WIP-90-QuizTech-Aero-Pack-v1-0-2-24-15",
-        "kerbalstuff": "https://kerbalstuff.com/mod/612/QuizTech%20Aero%20Pack",
-        "x_screenshot": "https://kerbalstuff.com/content/Quiznos323_5279/QuizTech_Aero_Pack/QuizTech_Aero_Pack-1432785001.0881352.png"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/100663-wip-105-dev-paused-quiztech-aero-pack-v129x-updated-8915/&page=1",
+        "spacedock": "https://spacedock.info/mod/378/QuizTech%20Aero%20Pack",
+        "x_screenshot": "https://spacedock.info/content/Quiznos323_390/QuizTech_Aero_Pack/QuizTech_Aero_Pack-1457484446.901193.png"
     },
     "version": "v1.2.9",
     "ksp_version": "1.0.5",
     "depends": [
+        {
+            "name": "ModuleManager"
+        },
         {
             "name": "FirespitterCore"
         },
@@ -20,10 +23,29 @@
             "name": "BDAnimationModules"
         },
         {
+            "name": "KlockheedMartian-Gimbal"
+        }
+    ],
+    "recommends": [
+        {
             "name": "RasterPropMonitor-Core"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RasterPropMonitor"
         },
         {
-            "name": "ModuleManager"
+            "name": "ThrottleControlledAvionics"
+        },
+        {
+            "name": "B9AerospaceProceduralParts"
+        },
+        {
+            "name": "AdjustableLandingGear"
+        },
+        {
+            "name": "Mk2Essentials"
         }
     ],
     "install": [
@@ -36,7 +58,7 @@
             "install_to": "Ships"
         }
     ],
-    "download": "http://ckan1.spacedock.info/storage/Quiznos323_5279/QuizTech_Aero_Pack/QuizTech_Aero_Pack-v1.2.9.zip",
+    "download": "https://spacedock.info/mod/378/QuizTech%20Aero%20Pack/download/v1.2.9",
     "download_size": 55069417,
     "x_generated_by": "netkan"
 }
