@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ProtonMBreezeM",
+    "name": "Proton-M / Breeze-M",
+    "abstract": "High detailed Proton-M heavy booster with Breeze-M upper stage.",
+    "author": "InsaneDruid",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/120548-105-proton-m-breeze-m/",
+        "repository": "https://github.com/InsaneDruid/Proton-M"
+    },
+    "version": "1.11",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KlockheedMartian-Gimbal"
+        },
+        {
+            "name": "RealPlume-StockConfigs"
+        },
+        {
+            "name": "RFStockalike"
+        },
+        {
+            "name": "FilterExtensions"
+        },
+        {
+            "name": "Tantares"
+        }
+    ],
+    "install": [
+        {
+            "find": "HGA",
+            "install_to": "GameData"
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/InsaneDruid/Proton-M/releases/download/1.11/Proton-M-1.11.zip",
+    "download_size": 27267132,
+    "x_generated_by": "netkan"
+}
