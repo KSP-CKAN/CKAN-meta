@@ -1,0 +1,76 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "KSOS-Common",
+    "name": "KSOS: Common Resources",
+    "abstract": "Resources shared by KSOS Orbiter mods",
+    "author": [
+        "Nazari",
+        "helldiver"
+    ],
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/132755-105kso-interim-release-ongoing-development/",
+        "spacedock": "https://spacedock.info/mod/239/KSOS:%20Dauntless%20Orbiter",
+        "x_screenshot": "https://spacedock.info/content/Nazari_336/KSOS_Dauntless_Orbiter/KSOS_Dauntless_Orbiter-1456187214.5143397.png"
+    },
+    "version": "4.3.1",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "SmokeScreen"
+        },
+        {
+            "name": "Firespitter"
+        },
+        {
+            "name": "KlockheedMartian-Gimbal"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "KSO/FX",
+            "install_to": "GameData/KSO"
+        },
+        {
+            "file": "KSO/RPM",
+            "install_to": "GameData/KSO"
+        },
+        {
+            "file": "KSO/User Manual and Credits.pdf",
+            "install_to": "GameData/KSO"
+        },
+        {
+            "file": "KSO/Parts/kerbin_orbiter_engines.dds",
+            "install_to": "GameData/KSO/Parts"
+        },
+        {
+            "file": "KSO/Parts/kerbin_orbiter_engines_emis.dds",
+            "install_to": "GameData/KSO/Parts"
+        },
+        {
+            "file": "KSO/Parts/kerbin_orbiter_engines_norm_NRM.dds",
+            "install_to": "GameData/KSO/Parts"
+        },
+        {
+            "file": "KSO/Parts/KSOflag.dds",
+            "install_to": "GameData/KSO/Parts"
+        },
+        {
+            "file": "KSO/Parts/omskso.cfg",
+            "install_to": "GameData/KSO/Parts"
+        },
+        {
+            "file": "KSO/Parts/omskso.mu",
+            "install_to": "GameData/KSO/Parts"
+        }
+    ],
+    "download": "https://spacedock.info/mod/239/KSOS:%20Dauntless%20Orbiter/download/4.3.1",
+    "download_size": 42614824,
+    "x_generated_by": "netkan"
+}
