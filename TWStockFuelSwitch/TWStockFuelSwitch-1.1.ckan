@@ -1,0 +1,39 @@
+{
+    "spec_version": 1,
+    "identifier": "TWStockFuelSwitch",
+    "name": "TesserWreck's Stock Fuel Switch",
+    "abstract": "Enables switching of fuel types for stock fuel tanks.",
+    "author": "TesserWreck",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/133655-stock-fuel-switch",
+        "spacedock": "https://spacedock.info/mod/366/Stock%20Fuel%20Switch"
+    },
+    "version": "1.1",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "InterstellarFuelSwitch"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "StockFuelSwitch"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/StockFuelSwitch",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/366/Stock%20Fuel%20Switch/download/1.1",
+    "download_size": 76956,
+    "x_generated_by": "netkan"
+}
