@@ -1,0 +1,20 @@
+{
+	"spec_version": 1,
+	"identifier": "ProceduralParts-Textures-SaturnNova",
+	"ksp_version_min": "0.23.5",
+	"name": "Procedural Parts - Saturn / Nova Texture Pack",
+	"license": "CC-BY-SA-3.0",
+	"abstract": "Procedural Parts textures that model US Saturn/Nova style integral/stringer tank color schemes",
+	"author": "ferram4",
+	"comment": "Updated metadata by NathanKell",
+	"version": "1.2",
+	"download": "https://www.dropbox.com/s/i2nkpa7p7fvt4x2/SaturnNovaTexturePack_v1_2.zip?dl=1",
+	"depends" : [ { "name" : "ProceduralParts" } ],
+	"provides": [ "PPTextures" ],
+	"install": [
+        {
+            "file"       : "GameData/StretchySNTextures",
+            "install_to" : "GameData"
+        }
+    ]
+}
