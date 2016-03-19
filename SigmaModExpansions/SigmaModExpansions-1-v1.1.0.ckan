@@ -1,0 +1,37 @@
+{
+    "spec_version": "v1.4",
+    "comment": "This mod used to be packaged differently but is now repackaged to allow an upgrade path.",
+    "identifier": "SigmaModExpansions",
+    "name": "Sigma: OuterSpaceComms",
+    "abstract": "A set of 3 antennas designed to probe deep into outer space.",
+    "author": "Sigma88",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/112095",
+        "repository": "https://github.com/Sigma88/Sigma-OuterSpaceComms"
+    },
+    "version": "1:v1.1.0",
+    "ksp_version": "1.0.4",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RemoteTech"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "OuterPlanetsMod"
+        }
+    ],
+    "install": [
+        {
+            "find": "OuterSpaceComms",
+            "install_to": "GameData/Sigma"
+        }
+    ],
+    "download": "https://github.com/Sigma88/Sigma-OuterSpaceComms/releases/download/v1.1.0/Sigma-OuterSpaceComms.v1.1.0.zip",
+    "download_size": 924293,
+    "x_generated_by": "netkan"
+}
