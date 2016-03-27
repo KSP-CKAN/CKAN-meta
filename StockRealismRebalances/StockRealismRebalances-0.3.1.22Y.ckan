@@ -1,0 +1,71 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "StockRealismRebalances",
+    "name": "Stock Realism Rebalances",
+    "abstract": "Gives some more realism to the stock game",
+    "author": "WavechaserX",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/126117-patchwip-105beta-release-wast-stock-realism-rebalances-v02219y-dynamic-isp-for-jets/",
+        "spacedock": "https://spacedock.info/mod/304/Stock%20Realism%20Rebalances",
+        "repository": "https://github.com/Wavechaser/WAST_StockRealismRebalances",
+        "x_screenshot": "https://spacedock.info/content/WavechaserX_278/Stock_Realism_Rebalances/Stock_Realism_Rebalances-1456627226.694847.png"
+    },
+    "version": "0.3.1.22Y",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "InterstellarFuelSwitch-Core"
+        },
+        {
+            "name": "DavonTCsystemsMod"
+        },
+        {
+            "name": "CryoEngines"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "HotRockets"
+        },
+        {
+            "name": "FerramAerospaceResearch"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        },
+        {
+            "name": "RealChute"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "HotRockets"
+        },
+        {
+            "name": "RealPlumes"
+        },
+        {
+            "name": "RealPlume-StockConfigs"
+        }
+    ],
+    "install": [
+        {
+            "find": "WAST",
+            "install_to": "GameData/SRR",
+            "filter_regexp": "\\._.+"
+        }
+    ],
+    "download": "https://spacedock.info/mod/304/Stock%20Realism%20Rebalances/download/0.3.1.22Y",
+    "download_size": 130414,
+    "x_generated_by": "netkan"
+}
