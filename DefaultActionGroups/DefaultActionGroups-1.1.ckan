@@ -1,0 +1,34 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DefaultActionGroups",
+    "name": "DefaultActionGroups",
+    "abstract": "Cockpit lights in Light action group. And more.",
+    "author": "Snark",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/125832-105-defaultactiongroups-v10-cockpit-lights-in-light-action-group-and-more/",
+        "spacedock": "https://spacedock.info/mod/24/DefaultActionGroups",
+        "repository": "https://github.com/KSPSnark/DefaultActionGroups",
+        "x_screenshot": "https://spacedock.info/content/Snark_166/DefaultActionGroups/DefaultActionGroups-1455807973.1201832.png"
+    },
+    "version": "1.1",
+    "ksp_version": "1.1.0",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/DefaultActionGroups",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Optional/GameData/DefaultActionGroups/DefaultSolarPanelGroups.cfg",
+            "install_to": "GameData/DefaultActionGroups"
+        }
+    ],
+    "download": "https://spacedock.info/mod/24/DefaultActionGroups/download/1.1",
+    "download_size": 34455,
+    "x_generated_by": "netkan"
+}
