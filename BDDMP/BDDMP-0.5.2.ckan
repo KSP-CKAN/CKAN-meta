@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Includes a modified version of BDArmory with DMP hooks",
+    "identifier": "BDDMP",
+    "name": "BDArmory DMP Mod",
+    "abstract": "This makes BDA compatable with DMP",
+    "author": "jediminer543",
+    "license": "CC-BY-SA-2.0",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/117477-wip-ksp-104-bda-09x-bdarmory-dmp-add-on/",
+        "spacedock": "https://spacedock.info/mod/253/BDArmory%20DMP%20Mod",
+        "repository": "https://github.com/jediminer543/BDDMP"
+    },
+    "version": "0.5.2",
+    "ksp_version": "1.0.5",
+    "provides": [
+        "BDArmory"
+    ],
+    "depends": [
+        {
+            "name": "DarkMultiPlayer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "BDArmory"
+        }
+    ],
+    "install": [
+        {
+            "find": "BDArmory",
+            "install_to": "GameData"
+        },
+        {
+            "find": "z_BDDMP",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/253/BDArmory%20DMP%20Mod/download/0.5.2",
+    "download_size": 31486217,
+    "x_generated_by": "netkan"
+}
