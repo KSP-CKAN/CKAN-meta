@@ -1,0 +1,57 @@
+{
+    "spec_version": 1,
+    "identifier": "KSPInterstellarExtended",
+    "name": "KSP Interstellar Extended",
+    "abstract": "KSP Interstellar Extended is a plugin for Kerbal Space Program, designed to encourage bootstrapping toward ever more advanced levels of technology as well as utilizing In-Situ resources to expand the reach of Kerbal civilization. KSP Interstellar Extended aims to continue in Fractals original KSPI vision in providing a realistic road to the stars.",
+    "author": "FreeThinker",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/100190-105-ksp-interstellar-extended-168-18-02-2016-improved-gravity-well-and-molten-salt-reactor/",
+        "spacedock": "https://spacedock.info/mod/172/KSP%20Interstellar%20Extended",
+        "x_screenshot": "https://spacedock.info/content/FreeThinker_517/KSP_Interstellar_Extended/KSP_Interstellar_Extended-1455876515.8128302.jpg"
+    },
+    "version": "1.7.2",
+    "ksp_version": "1.1.0",
+    "depends": [
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.4.2"
+        },
+        {
+            "name": "Toolbar",
+            "min_version": "1.7.9"
+        },
+        {
+            "name": "InterstellarFuelSwitch",
+            "min_version": "1.7"
+        },
+        {
+            "name": "TweakScale",
+            "min_version": "2.1"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.3"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "FilterExtensions"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CrossFeedEnabler"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/WarpPlugin",
+            "install_to": "GameData",
+            "filter": "MiniAVC.xml"
+        }
+    ],
+    "download": "https://spacedock.info/mod/172/KSP%20Interstellar%20Extended/download/1.7.2",
+    "download_size": 63699476,
+    "x_generated_by": "netkan"
+}
