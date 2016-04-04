@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Mk2Expansion",
+    "name": "Mk2 Stock-a-like Expansion",
+    "abstract": "Adds new mk2 formfactor parts",
+    "author": "Suicidalinsanity",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/109145-105",
+        "repository": "https://github.com/SuicidalInsanity/Mk2Expansion"
+    },
+    "version": "1.7.0.1",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "KlockheedMartian-Gimbal"
+        },
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.5.3"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "InterstellarFuelSwitch"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "FerramAerospaceResearch"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/Mk2Expansion",
+            "install_to": "GameData"
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find": "SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/SuicidalInsanity/Mk2Expansion/releases/download/1.7.0.1/Mk2Expansion-1.7.zip",
+    "download_size": 13836987,
+    "x_generated_by": "netkan"
+}
