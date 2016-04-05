@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "FirespitterCore",
+    "name": "Firespitter Core",
+    "abstract": "Core Firespitter.dll. Install `Firespitter` for the whole shebang",
+    "author": "Roverdude",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://snjo.github.io/",
+        "repository": "https://github.com/snjo/Firespitter"
+    },
+    "version": "v7.2.0",
+    "ksp_version": "1.1.0",
+    "install": [
+        {
+            "find": "Firespitter/Plugins",
+            "install_to": "GameData/Firespitter"
+        },
+        {
+            "find": "Firespitter.version",
+            "find_matches_files": true,
+            "install_to": "GameData/Firespitter"
+        }
+    ],
+    "download": "https://github.com/snjo/Firespitter/releases/download/v7.2.0/FireSpitter_7.2.0.zip",
+    "download_size": 37453469,
+    "x_generated_by": "netkan"
+}
