@@ -2,7 +2,7 @@
 set -e
 
 # Default flags.
-KSP_VERSION_DEFAULT="1.0.5"
+KSP_VERSION_DEFAULT="1.1.0"
 KSP_NAME_DEFAULT="dummy"
 
 # Locations of CKAN and validation.
@@ -50,7 +50,7 @@ create_dummy_ksp () {
         KSP_VERSION="0.25.0"
         ;;
     "0.90")
-        echo "Overidding '0.90' with '0.90.0'"
+        echo "Overiding '0.90' with '0.90.0'"
         KSP_VERSION="0.90.0"
         ;;
     "1.0")
@@ -66,18 +66,18 @@ create_dummy_ksp () {
         KSP_VERSION=$KSP_VERSION_DEFAULT
         ;;
     "null")
-        echo "Overridding 'null' with '$KSP_VERSION_DEFAULT'"
+        echo "Overriding 'null' with '$KSP_VERSION_DEFAULT'"
         KSP_VERSION=$KSP_VERSION_DEFAULT
         ;;
     "")
-        echo "Overridding empty version with '$KSP_VERSION_DEFAULT'"
+        echo "Overriding empty version with '$KSP_VERSION_DEFAULT'"
         KSP_VERSION=$KSP_VERSION_DEFAULT
         ;;
     *)
         echo "No override, Running with '$KSP_VERSION'"
         ;;
     esac
-    
+
     echo "Creating a dummy KSP '$KSP_VERSION' install"
     
     # Remove any existing KSP dummy install.
