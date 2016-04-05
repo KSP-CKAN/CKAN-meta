@@ -62,7 +62,7 @@ create_dummy_ksp () {
         KSP_VERSION=$KSP_VERSION_DEFAULT
         ;;
     "any")
-        echo "Overridding any with '$KSP_VERSION_DEFAULT'"
+        echo "Overriding any with '$KSP_VERSION_DEFAULT'"
         KSP_VERSION=$KSP_VERSION_DEFAULT
         ;;
     "null")
