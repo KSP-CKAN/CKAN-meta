@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ContaresCA1CanadianArrow",
+    "name": "Contares CA-1 Canadian Arrow Suborbital Space-Tourist-Launcher",
+    "abstract": "Contares CA-1 Canadian Arrow Suborbital Space-Tourist-Launcher",
+    "author": "hraban",
+    "license": "CC-BY-NC-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/122102-contares-164-addon-for-tantares-and-tantareslv/",
+        "spacedock": "https://spacedock.info/mod/535/Contares%20CA-1%20Canadian%20Arrow%20Suborbital%20Space-Tourist-Launcher",
+        "x_screenshot": "https://spacedock.info/content/hraban_869/Contares_CA-1_Canadian_Arrow_Suborbital_Space-Tourist-Launcher/Contares_CA-1_Canadian_Arrow_Suborbital_Space-Tourist-Launcher-1460999246.4928594.png"
+    },
+    "version": "1.0",
+    "ksp_version": "1.1.0",
+    "depends": [
+        {
+            "name": "RealPlume"
+        },
+        {
+            "name": "Contares-Common"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Tantares"
+        },
+        {
+            "name": "TantaresLV"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Contares"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/Contares",
+            "install_to": "GameData",
+            "filter": "Agencies"
+        }
+    ],
+    "download": "https://spacedock.info/mod/535/Contares%20CA-1%20Canadian%20Arrow%20Suborbital%20Space-Tourist-Launcher/download/1.0",
+    "download_size": 615148,
+    "x_generated_by": "netkan"
+}
