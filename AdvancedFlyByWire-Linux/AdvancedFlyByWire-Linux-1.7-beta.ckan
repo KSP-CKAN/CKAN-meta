@@ -1,0 +1,41 @@
+{
+    "spec_version": 1,
+    "identifier": "AdvancedFlyByWire-Linux",
+    "name": "AFBW - Linux",
+    "abstract": "Linux version of the AFBW mod",
+    "author": "nlight",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/85711-105-afbw-v162-joystick-controller-mod/",
+        "spacedock": "https://spacedock.info/mod/193/AFBW%20-%20Linux",
+        "repository": "https://github.com/AlexanderDzhoganov/ksp-advanced-flybywire",
+        "x_screenshot": "https://spacedock.info/content/nlight_870/AFBW_-_Linux/AFBW_-_Linux-1455932390.5340915.png"
+    },
+    "version": "1.7-beta",
+    "ksp_version": "1.1.0",
+    "depends": [
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KSP-AVC"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AdvancedFlyByWire"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ksp-advanced-flybywire",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/193/AFBW%20-%20Linux/download/1.7-beta",
+    "download_size": 117994,
+    "x_generated_by": "netkan"
+}
