@@ -1,0 +1,31 @@
+{
+    "spec_version": 1,
+    "identifier": "SETI-ProbeControlEnabler",
+    "name": "RemoteTech - SETI ProbeControlEnabler",
+    "abstract": "This SETI version of the ProbeControlEnabler retains the integrated omni antennas (SETIrebalance) for manned command pods. Probe core integrated omni antennas still do not work (needs changes to RemoteTech, see RemoteTech github issue tracker). It was inspired by the MM config from Felger.",
+    "author": "Y3mo",
+    "license": "GPL-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/106130",
+        "repository": "https://github.com/Y3mo/SETI-ProbeControlEnabler"
+    },
+    "version": "1.0.8",
+    "ksp_version": "1.1.0",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RemoteTech"
+        }
+    ],
+    "install": [
+        {
+            "find": "SETIprobeControlEnabler",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Y3mo/SETI-ProbeControlEnabler/releases/download/1.0.8/SETI-ProbeControlEnabler-1.0.8.zip",
+    "download_size": 29804,
+    "x_generated_by": "netkan"
+}
