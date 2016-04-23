@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "SpaceshuttleSRB",
+    "name": "Space shuttle SRB",
+    "abstract": "More Engines. From SRB's to PLASMA. Currently 2 parts",
+    "author": "xX_Sulaiman_Xx",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/549/Space%20shuttle%20SRB",
+        "x_screenshot": "https://spacedock.info/content/xX_Sulaiman_Xx_1465/Space_shuttle_SRB/Space_shuttle_SRB-1461247046.5181422.png"
+    },
+    "version": "0.5",
+    "ksp_version": "1.1.0",
+    "install": [
+        {
+            "find_regexp": "Not [Ee]n[uo][uo]gh [Ee]ngines",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Plasma-powerd SSTO.craft",
+            "find_matches_files": true,
+            "install_to": "Ships/VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/549/Space%20shuttle%20SRB/download/0.5",
+    "download_size": 501427,
+    "x_generated_by": "netkan"
+}
