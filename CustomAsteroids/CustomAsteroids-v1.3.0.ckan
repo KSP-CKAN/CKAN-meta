@@ -1,0 +1,55 @@
+{
+    "spec_version": 1,
+    "identifier": "CustomAsteroids",
+    "name": "Custom Asteroids",
+    "abstract": "Lets users control where asteroids appear",
+    "author": "Starstrider42",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/72785-/",
+        "spacedock": "https://spacedock.info/mod/210/Custom%20Asteroids",
+        "repository": "https://github.com/Starstrider42/Custom-Asteroids",
+        "bugtracker": "https://github.com/Starstrider42/Custom-Asteroids/issues",
+        "manual": "http://starstrider42.github.io/Custom-Asteroids/",
+        "x_screenshot": "https://spacedock.info/content/Starstrider42_1134/Custom_Asteroids/Custom_Asteroids-1456053768.2688773.png"
+    },
+    "version": "v1.3.0",
+    "ksp_version": "1.1.0",
+    "depends": [
+        {
+            "name": "CustomAsteroids-Pops"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.14",
+            "comment": "Requires indices."
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CustomAsteroids-Pops-Stock-Stockalike"
+        },
+        {
+            "name": "CustomAsteroids-Pops-Stock-Inner"
+        },
+        {
+            "name": "CustomAsteroids-Pops-Stock-Outer"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/CustomAsteroids",
+            "install_to": "GameData",
+            "filter": "config"
+        }
+    ],
+    "download": "https://spacedock.info/mod/210/Custom%20Asteroids/download/v1.3.0",
+    "download_size": 77254,
+    "x_maintained_by": "Starstrider42",
+    "x_generated_by": "netkan"
+}
