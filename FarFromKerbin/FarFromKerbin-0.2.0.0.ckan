@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "FarFromKerbin",
+    "name": "Far From Kerbin - Simple Planetary Bases",
+    "abstract": "With FFK you can: Collect  planetary rock-fragment (aka dirt), and then compress it to building blocks, for your bases; Configure the blocks for different uses; Use the STBBackpack to carry resources on an EVA;  Use the Internal Walk to walk around  in your base!",
+    "author": "balint",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/579/Far%20From%20Kerbin%20-%20Simple%20Planetary%20Bases",
+        "repository": "https://github.com/magyar123/FarFromKerbin"
+    },
+    "version": "0.2.0.0",
+    "ksp_version": "1.1.0",
+    "depends": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "FarFromKerbin",
+            "install_to": "GameData",
+            "filter": [
+                "KSPBuildYourDream.pdb",
+                "MiniAVC.xml"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/579/Far%20From%20Kerbin%20-%20Simple%20Planetary%20Bases/download/0.2.0.0",
+    "download_size": 7153585,
+    "x_generated_by": "netkan"
+}
