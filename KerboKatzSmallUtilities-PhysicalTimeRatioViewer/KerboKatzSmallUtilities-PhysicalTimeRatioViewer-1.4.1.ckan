@@ -1,0 +1,39 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerboKatzSmallUtilities-PhysicalTimeRatioViewer",
+    "name": "KerboKatz - SmallUtilities - PhysicalTimeRatioViewer",
+    "abstract": "Displays a simple layer much like FPSViewer to compare ingame vs real time speed.",
+    "author": [
+        "SpaceTiger",
+        "SpaceKitty"
+    ],
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://kerbokatz.github.io/",
+        "repository": "https://github.com/Xarun/SmallUtilities",
+        "bugtracker": "https://github.com/Xarun/SmallUtilities/issues"
+    },
+    "version": "1.4.1",
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.2",
+    "depends": [
+        {
+            "name": "KerboKatzUtilities",
+            "min_version": "1.3.3"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerboKatzSmallUtilities"
+        }
+    ],
+    "install": [
+        {
+            "find": "PhysicalTimeRatioViewer",
+            "install_to": "GameData/KerboKatz/SmallUtilities"
+        }
+    ],
+    "download": "https://github.com/Xarun/SmallUtilities/releases/download/1.4.1/SmallUtilities.PhysicalTimeRatioViewer.zip",
+    "download_size": 71008,
+    "x_generated_by": "netkan"
+}
