@@ -5,7 +5,7 @@
     "name": "Sigma Binary",
     "abstract": "This mod will let you turn custom and/or stock bodies into binary systems, without the need to do all the calculations yourself.",
     "author": "Sigma88",
-    "license": "CC-BY-NC-SA-4.0",
+    "license": "restricted",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/127820",
         "repository": "https://github.com/Sigma88/Sigma-Binary"
@@ -14,11 +14,12 @@
     "ksp_version": "1.1.2",
     "depends": [
         {
-            "name": "ModuleManager"
+            "name": "ModuleManager",
+            "min_version": "2.6.23"
         },
         {
             "name": "Kopernicus",
-            "min_version": "1:beta-05-2"
+            "min_version": "2:release-1-0-3"
         }
     ],
     "suggests": [
