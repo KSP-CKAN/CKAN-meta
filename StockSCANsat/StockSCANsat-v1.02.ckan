@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.2",
+    "spec_version": 1,
     "identifier": "StockSCANsat",
     "name": "StockSCANsat",
     "abstract": "Adds the possibility to use the SCANsat mod without the additional parts.",
@@ -11,7 +11,8 @@
         "repository": "https://github.com/malahx/StockSCANsat"
     },
     "version": "v1.02",
-    "ksp_version": "1.1.2",
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.99",
     "depends": [
         {
             "name": "ModuleManager",
@@ -19,7 +20,7 @@
         },
         {
             "name": "SCANsat",
-            "min_version": "v14.0"
+            "min_version": "v16.0"
         }
     ],
     "supports": [
