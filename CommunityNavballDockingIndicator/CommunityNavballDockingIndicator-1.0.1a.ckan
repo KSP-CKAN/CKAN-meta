@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "CommunityNavballDockingIndicator",
+    "name": "Community NavBall Docking Alignment Indicator",
+    "abstract": "A community continuation of the NavBall Docking Aligntment Indicator for KSP 1.1",
+    "author": "Leeman",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/137648-11-navball-docking-alignment-indicator-community-edition/",
+        "spacedock": "https://spacedock.info/mod/532/Community%20NavBall%20Docking%20Alignment%20Indicator",
+        "repository": "https://github.com/L33m4n123/NavBallDockingAlignmentIndicatorCE"
+    },
+    "version": "1.0.1a",
+    "ksp_version": "1.1.2",
+    "provides": [
+        "NavballDockingIndicator"
+    ],
+    "conflicts": [
+        {
+            "name": "NavballDockingIndicator"
+        }
+    ],
+    "install": [
+        {
+            "find": "NavBallDockingAlignmentIndicator.dll",
+            "find_matches_files": true,
+            "install_to": "GameData/NavBallDockingAlignmentIndicator"
+        },
+        {
+            "find": "license.txt",
+            "find_matches_files": true,
+            "install_to": "GameData/NavBallDockingAlignmentIndicator"
+        }
+    ],
+    "download": "https://spacedock.info/mod/532/Community%20NavBall%20Docking%20Alignment%20Indicator/download/1.0.1a",
+    "download_size": 13480,
+    "x_generated_by": "netkan"
+}
