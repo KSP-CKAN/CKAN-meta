@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RealScaleBoostersStockalike",
+    "name": "Real Scale Boosters Stockalike",
+    "abstract": "Optional patches for \"stockification\" of RSB, rescaling and rebalancing the parts for use with stock-like game play.",
+    "author": "NecroBones",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/130776-RSB",
+        "spacedock": "https://spacedock.info/mod/561/Real%20Scale%20Boosters%20Stockalike",
+        "x_screenshot": "https://spacedock.info/content/NecroBones_209/Real_Scale_Boosters_Stockalike/Real_Scale_Boosters_Stockalike-1461351321.0832398.jpg"
+    },
+    "version": "0.3",
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.2",
+    "depends": [
+        {
+            "name": "RealScaleBoosters"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "RealScaleBoostersStockalike",
+            "install_to": "GameData",
+            "filter": "Ships"
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/561/Real%20Scale%20Boosters%20Stockalike/download/0.3",
+    "download_size": 329559,
+    "download_hash": {
+        "sha1": "69EACE86E6A5C7E3C6CDE0FA092F75A44A7FADA9",
+        "sha256": "A0D8B0F10322C1ACA2594323CD49D346A8BF4CC6A65A9E25D8A5DFFE42561B92"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
