@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "WildBlueTools",
+    "name": "WildBlueTools",
+    "abstract": "A collection of modules, agencies, flags, and resources for mod makers to use.",
+    "author": "Angel125",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://github.com/Angel-125/WildBlueTools",
+        "repository": "https://github.com/Angel-125/WildBlueTools"
+    },
+    "version": "v1.1.5",
+    "ksp_version": "1.1.2",
+    "depends": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.18"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/WildBlueIndustries/000WildBlueTools",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter": [
+                "MiniAVC.xml"
+            ]
+        }
+    ],
+    "download": "https://github.com/Angel-125/WildBlueTools/releases/download/v1.1.5/WildBlueTools_1_1_5.zip",
+    "download_size": 2292414,
+    "download_hash": {
+        "sha1": "C2B039391A332D37CE61BF00731EAA60EBE3DEA3",
+        "sha256": "14E88936DE609452FDB33BFD08929557F85C523E969119C44A698A7CB8EE2F52"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
