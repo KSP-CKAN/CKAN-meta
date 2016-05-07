@@ -1,0 +1,39 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GalacticNeighborhood",
+    "name": "Galactic Neighborhood",
+    "abstract": "Loading multiple planet packs in the same game.",
+    "author": "Sigma88",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/116058-wip11-galactic-neighborhood/",
+        "repository": "https://github.com/Sigma88/Galactic-Neighborhood"
+    },
+    "version": "0.2.0",
+    "ksp_version": "1.1.0",
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.23"
+        },
+        {
+            "name": "Kopernicus",
+            "min_version": "2:release-1-0-2"
+        }
+    ],
+    "install": [
+        {
+            "find": "GalacticNeighborhood",
+            "install_to": "GameData",
+            "filter": "[dev_stuff]"
+        }
+    ],
+    "download": "https://github.com/Sigma88/Galactic-Neighborhood/releases/download/v0.2.0/Galactic-Neighborhood.v0.2.0.zip",
+    "download_size": 407632,
+    "download_hash": {
+        "sha1": "5C26964241E64C1D1E1A474B8693B8354E0444A2",
+        "sha256": "A9C7CED18451320DC64F84176C80AEE42AC508B58B1AB7CB2E6E7E3AD5BF6CAA"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
