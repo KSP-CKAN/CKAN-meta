@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RealScaleBoosters",
+    "name": "Real Scale Boosters",
+    "abstract": "Realistically scaled rocket parts, with real-world stats and performance, based on actual rocket designs.",
+    "author": "NecroBones",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/130776-RSB",
+        "spacedock": "https://spacedock.info/mod/90/Real%20Scale%20Boosters",
+        "x_screenshot": "https://spacedock.info/content/NecroBones_209/Real_Scale_Boosters/Real_Scale_Boosters-1455805225.1635485.jpg"
+    },
+    "version": "0.13.1",
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.2",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "HangarExtender"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RSSeaDragon"
+        },
+        {
+            "name": "FerramAerospaceResearch"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "RealScaleBoosters",
+            "install_to": "GameData",
+            "filter": "Ships"
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/90/Real%20Scale%20Boosters/download/0.13.1",
+    "download_size": 24631428,
+    "download_hash": {
+        "sha1": "927A2B77274649588FE0B03C427407CF8EAD6319",
+        "sha256": "D1335DB996F202A29D6BDF2CAD53B851260BF4C5D9B33A8DA013C367729DF61E"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
