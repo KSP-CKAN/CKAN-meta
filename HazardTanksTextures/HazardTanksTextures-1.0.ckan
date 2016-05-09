@@ -18,12 +18,16 @@
     "depends": [
         {
             "name": "ProceduralParts"
+        },
+        {
+            "name": "VensStylePPTextures"
         }
     ],
     "install": [
         {
             "find": "KerbalHacks",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": "PPVensTankEnds.dds"
         }
     ],
     "download": "https://spacedock.info/mod/467/Hazard%20Tanks%20Textures%20for%20Procedural%20Parts/download/1.0",
