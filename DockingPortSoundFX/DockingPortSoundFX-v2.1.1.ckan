@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "DockingPortSoundFX",
+    "name": "Docking Port Sound FX",
+    "abstract": "Add docking sounds to stock docking ports! Works with mods too using simple API (a few lines added to a config file)",
+    "author": "TG626",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/113390-*",
+        "repository": "https://github.com/TedThompson/Docking-Sounds"
+    },
+    "version": "v2.1.1",
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.2",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find_regexp": "DPSoundFX",
+            "install_to": "GameData",
+            "filter": [
+                "Source",
+                "CustomExample"
+            ]
+        }
+    ],
+    "download": "https://github.com/TedThompson/Docking-Sounds/releases/download/v2.1.1/DPSoundFX_2.1.1.zip",
+    "download_size": 274058,
+    "download_hash": {
+        "sha1": "77641C45A28DBD492D97DF3AC21B084803B6AB32",
+        "sha256": "2ABCE831805B24D052C7DA9277F130FD0D723A44A48C8AB933B06AEA4949F8DF"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
