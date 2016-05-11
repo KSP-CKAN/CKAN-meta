@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "StockVisualEnhancements",
+    "name": "Stock Visual Enhancements",
+    "abstract": "A visual enhancement pack using EVE and Scatterer for the stock planets. It is a port of Pingopete's RVE mod.",
+    "author": "Nhawks17",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/123455-wip105-stock-visual-enhancements-sve-a-port-of-rve/&page=1",
+        "spacedock": "https://spacedock.info/mod/58/Stock%20Visual%20Enhancements",
+        "repository": "https://github.com/Nhawks1717/StockVisualEnhancements",
+        "x_screenshot": "https://spacedock.info/content/Nhawks17_319/Stock_Visual_Enhancements/Stock_Visual_Enhancements-1461344297.8031769.jpg"
+    },
+    "version": "1:0.6.5",
+    "ksp_version_min": "1.1.2",
+    "ksp_version_max": "1.1.99",
+    "recommends": [
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SVE-Textures"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "install": [
+        {
+            "find_regexp": "Game[dD]ata/StockVisualEnhancements",
+            "install_to": "GameData"
+        },
+        {
+            "find_regexp": "Game[dD]ata/EnvironmentalVisualEnhancements",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/58/Stock%20Visual%20Enhancements/download/0.6.5",
+    "download_size": 19686612,
+    "download_hash": {
+        "sha1": "2FBD3FD80175B34B64F1C308DCCBBD28033382F0",
+        "sha256": "B0C737D1F1EFB44C42B92E9FA516C1307DFE5930EA1B5AFA3107F477584D0292"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
