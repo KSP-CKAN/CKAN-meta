@@ -1,0 +1,39 @@
+{
+    "spec_version": 1,
+    "identifier": "PersistentThrust",
+    "name": "Persistent Thrust",
+    "abstract": "PersistentThrust is a plugin that allows propulsion systems to operate during timewarp. The plugin includes a new solar sail part and module that allows a spacecraft to be propelled only by sunlight. It also adds a module with a patch to the stock ion engine that allows engines to thrust during timewarp. ",
+    "author": "mrsolarsail",
+    "license": "open-source",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/133735",
+        "repository": "https://github.com/bld/PersistentThrust"
+    },
+    "version": "v1.0.5",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "SolarSailNavigator"
+        }
+    ],
+    "install": [
+        {
+            "file": "PersistentThrust",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/bld/PersistentThrust/releases/download/v1.0.5/PersistentThrust.v1.0.5.zip",
+    "download_size": 2258977,
+    "download_hash": {
+        "sha1": "7F7079FF773046A9062BC59063908762F37E8912",
+        "sha256": "680A7E816EC189E1F29D140B07E57741540D9C593235943C238FB90904479AB7"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
