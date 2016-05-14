@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerboKatzSmallUtilities-ModifiedExplosionPotential",
+    "name": "KerboKatz - SmallUtilities - ModifiedExplosionPotential",
+    "abstract": "Modifies the explosion potential in order to create bigger or smaller explosions",
+    "author": [
+        "SpaceTiger",
+        "SpaceKitty"
+    ],
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://kerbokatz.github.io/",
+        "repository": "https://github.com/Xarun/SmallUtilities",
+        "bugtracker": "https://github.com/Xarun/SmallUtilities/issues"
+    },
+    "version": "1.4.1",
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.2",
+    "depends": [
+        {
+            "name": "KerboKatzUtilities",
+            "min_version": "1.3.3"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerboKatzSmallUtilities"
+        }
+    ],
+    "install": [
+        {
+            "find": "ModifiedExplosionPotential",
+            "install_to": "GameData/KerboKatz/SmallUtilities"
+        }
+    ],
+    "download": "https://github.com/KerboKatz/SmallUtilities/releases/download/1.4.1/SmallUtilities.ModifiedExplosionPotential.zip",
+    "download_size": 53559,
+    "download_hash": {
+        "sha1": "A0E94BE1BD4B28C04767BAE8EBA2B80DCAE830D0",
+        "sha256": "942DD1F4C5568766FB6A4A4084AF12CE6343EAF92915053DDF9D7F526968E4D1"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

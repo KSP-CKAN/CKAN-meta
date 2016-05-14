@@ -2,23 +2,26 @@
     "spec_version": "v1.4",
     "identifier": "KerboKatzSmallUtilities-AutoBalancingLandingLeg",
     "name": "KerboKatz - SmallUtilities - AutoBalancingLandingLeg",
-    "abstract": "A lot of small but usefull mods in one package",
-    "author": "SpaceTiger",
+    "abstract": "Makes your landing legs automatically adjust their suspension in order to keep your craft vertical.",
+    "author": [
+        "SpaceTiger",
+        "SpaceKitty"
+    ],
     "license": "restricted",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/104505-10x-kerbokatz-smallutilities-v125-18092015-now-with-autobalancinglandingleg/",
-        "spacedock": "https://spacedock.info/mod/85/KerboKatz%20-%20SmallUtilities",
-        "repository": "https://github.com/Xarun/SmallUtilities/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/104505-11-kerbokatz-smallutilities",
+        "repository": "https://github.com/KerboKatz/SmallUtilities"
     },
     "version": "1.2.5",
     "ksp_version": "1.0.5",
     "depends": [
         {
             "name": "ModuleManager"
-        },
+        }
+    ],
+    "conflicts": [
         {
-            "name": "KerboKatzUtilities",
-            "min_version": "1.2.6"
+            "name": "KerboKatzSmallUtilities"
         }
     ],
     "install": [
@@ -27,7 +30,12 @@
             "install_to": "GameData/KerboKatz/SmallUtilities"
         }
     ],
-    "download": "https://spacedock.info/mod/85/KerboKatz%20-%20SmallUtilities/download/1.2.5",
-    "download_size": 76145,
+    "download": "https://github.com/KerboKatz/SmallUtilities/releases/download/1.2.5/SmallUtilities.AutoBalancingLandingLeg.zip",
+    "download_size": 4647,
+    "download_hash": {
+        "sha1": "E018D3859E43F5FC6F5A5BC8364B0E3414B3D855",
+        "sha256": "6260A80F0AEBBD0F89E3464A6654E6A89570F7B53FA92F1C2252BB4319E15B06"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }

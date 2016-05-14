@@ -1,18 +1,20 @@
 {
     "spec_version": "v1.4",
     "identifier": "CraftHistory",
-    "name": "KerboKatz - CraftHistory",
-    "abstract": "Utility mod that extends the functionality of saving and loading crafts!",
-    "author": "SpaceTiger",
+    "name": "CraftHistory",
+    "abstract": "Replaces the stock craft loading with a more advanced one allowing categories to be created.",
+    "author": [
+        "SpaceTiger",
+        "SpaceKitty"
+    ],
     "license": "restricted",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/99770-10x-crafthistory-144-07082015-including-craft-previews/",
-        "spacedock": "https://spacedock.info/mod/82/KerboKatz%20-%20CraftHistory",
-        "repository": "https://github.com/Xarun/CraftHistory"
+        "homepage": "http://kerbokatz.github.io/#CraftHistory",
+        "repository": "https://github.com/KerboKatz/CraftHistory",
+        "bugtracker": "https://github.com/KerboKatz/CraftHistory/issues"
     },
     "version": "1.4.4",
-    "ksp_version_min": "1.0.0",
-    "ksp_version_max": "1.0.5",
+    "ksp_version": "1.0.5",
     "depends": [
         {
             "name": "KerboKatzUtilities",
@@ -25,7 +27,12 @@
             "install_to": "GameData/KerboKatz"
         }
     ],
-    "download": "https://spacedock.info/mod/82/KerboKatz%20-%20CraftHistory/download/1.4.4",
+    "download": "https://github.com/KerboKatz/CraftHistory/releases/download/1.4.4/CraftHistory.zip",
     "download_size": 65228,
+    "download_hash": {
+        "sha1": "7428C33C316FAF6F9CB86625E394EEFD123036C1",
+        "sha256": "23CE6A5C41044D21161D4F6ED39E895AA895619BDB845A9A9F5982FEE8028715"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }

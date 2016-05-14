@@ -1,0 +1,30 @@
+{
+    "spec_version": 1,
+    "identifier": "HullcamVDS",
+    "name": "Hullcam VDS",
+    "abstract": "Hullcam let's you add cameras to any part of your vehicle or construction.",
+    "author": "Albert_VDS",
+    "license": "LGPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/46365-0-90-Hullcam-VDS-0-90-update-Updated-16-Dec",
+        "x_curse": "http://kerbal.curseforge.com/ksp-mods/220258-hullcam-vds"
+    },
+    "version": "0.52",
+    "ksp_version": "1.1.0",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "HullCameraVDS",
+            "install_to": "GameData",
+            "filter": [
+                "Thumbs.db",
+                "Thumbs.db:encryptable"
+            ]
+        }
+    ],
+    "download": "http://addons-origin.cursecdn.com/files/2291/219/HullCameraVDS.V0.52.zip"
+}

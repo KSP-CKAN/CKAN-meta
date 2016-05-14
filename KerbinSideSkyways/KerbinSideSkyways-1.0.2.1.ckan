@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbinSideSkyways",
+    "name": "Kerbin-Side Skyways",
+    "abstract": "Airstrips and helibases on Kerbin (Requires Kerbal Konstructs)",
+    "author": "AlphaAsh",
+    "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/74776-11-kerbin-side",
+        "spacedock": "https://spacedock.info/mod/374/Kerbin-Side%20Skyways",
+        "x_screenshot": "https://spacedock.info/content/AlphaAsh_462/Kerbin-Side_Skyways/Kerbin-Side_Skyways-1462904233.5104752.jpg"
+    },
+    "version": "1.0.2.1",
+    "ksp_version": "1.1.2",
+    "provides": [
+        "KerbinSide-virt"
+    ],
+    "depends": [
+        {
+            "name": "KerbalKonstructs"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbinSide-virt"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbinSide",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/374/Kerbin-Side%20Skyways/download/1.0.2.1",
+    "download_size": 12417558,
+    "download_hash": {
+        "sha1": "A20E5DF737E0DBB42123480C7CE8B9F42CBB1BC7",
+        "sha256": "79315764042F12D01C7368494867CD652D833C629FA6CF1EF05FDE5CDD7BBEA0"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

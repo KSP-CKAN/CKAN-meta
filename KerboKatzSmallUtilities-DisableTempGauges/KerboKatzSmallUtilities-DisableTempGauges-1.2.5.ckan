@@ -2,20 +2,21 @@
     "spec_version": "v1.4",
     "identifier": "KerboKatzSmallUtilities-DisableTempGauges",
     "name": "KerboKatz - SmallUtilities - DisableTempGauges",
-    "abstract": "A lot of small but usefull mods in one package",
-    "author": "SpaceTiger",
+    "abstract": "Disables Temperature gauges when you go to the flight scene. Press F10 to re-enable them.",
+    "author": [
+        "SpaceTiger",
+        "SpaceKitty"
+    ],
     "license": "restricted",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/104505-10x-kerbokatz-smallutilities-v125-18092015-now-with-autobalancinglandingleg/",
-        "spacedock": "https://spacedock.info/mod/85/KerboKatz%20-%20SmallUtilities",
-        "repository": "https://github.com/Xarun/SmallUtilities/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/104505-11-kerbokatz-smallutilities",
+        "repository": "https://github.com/KerboKatz/SmallUtilities"
     },
     "version": "1.2.5",
     "ksp_version": "1.0.5",
-    "depends": [
+    "conflicts": [
         {
-            "name": "KerboKatzUtilities",
-            "min_version": "1.2.6"
+            "name": "KerboKatzSmallUtilities"
         }
     ],
     "install": [
@@ -24,7 +25,12 @@
             "install_to": "GameData/KerboKatz/SmallUtilities"
         }
     ],
-    "download": "https://spacedock.info/mod/85/KerboKatz%20-%20SmallUtilities/download/1.2.5",
-    "download_size": 76145,
+    "download": "https://github.com/KerboKatz/SmallUtilities/releases/download/1.2.5/SmallUtilities.DisableTempGauges.zip",
+    "download_size": 2729,
+    "download_hash": {
+        "sha1": "AF92917BECDB1D12147465D85AF9C086B638F21E",
+        "sha256": "95634DC0CA323FE8BAEC3F8D35B69CE54025FBF52FD7B55C2253842720035D2B"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }

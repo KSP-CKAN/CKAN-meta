@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerboKatzSmallUtilities-RecoverAll",
+    "name": "KerboKatz - SmallUtilities - RecoverAll",
+    "abstract": "Adds the ability to recover all landed vessels in one go.",
+    "author": [
+        "SpaceTiger",
+        "SpaceKitty"
+    ],
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://kerbokatz.github.io/",
+        "repository": "https://github.com/Xarun/SmallUtilities",
+        "bugtracker": "https://github.com/Xarun/SmallUtilities/issues"
+    },
+    "version": "1.4.1",
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.2",
+    "depends": [
+        {
+            "name": "KerboKatzUtilities",
+            "min_version": "1.3.3"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerboKatzSmallUtilities"
+        }
+    ],
+    "install": [
+        {
+            "find": "RecoverAll",
+            "install_to": "GameData/KerboKatz/SmallUtilities"
+        }
+    ],
+    "download": "https://github.com/KerboKatz/SmallUtilities/releases/download/1.4.1/SmallUtilities.RecoverAll.zip",
+    "download_size": 74440,
+    "download_hash": {
+        "sha1": "0F45736354B17C3E92107569B6E167676FE254C7",
+        "sha256": "789F43B3029703C46CDB395783134D17C6FD6ADBEDC289EDFD5CD90CBEBACEDD"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

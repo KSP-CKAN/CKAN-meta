@@ -1,0 +1,65 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "UniversalStorage",
+    "name": "Universal Storage",
+    "abstract": "Modular parts pack for creating Apollo style service modules, compatible with many life support mods and KAS/KIS",
+    "author": "Paul_Kingtiger",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://www.kingtiger.co.uk/kingtiger/wordpress/2015/06/24/universal-storage-a-part-mod-for-ksp/",
+        "spacedock": "https://spacedock.info/mod/329/Universal%20Storage",
+        "x_screenshot": "https://spacedock.info/content/Paul_Kingtiger_1707/Universal_Storage/Universal_Storage-1456863749.8985937.jpg"
+    },
+    "version": "1.1.0.12",
+    "ksp_version": "1.1.2",
+    "depends": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "DMagicOrbitalScience"
+        },
+        {
+            "name": "ConnectedLivingSpace"
+        }
+    ],
+    "install": [
+        {
+            "find": "UniversalStorage",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/329/Universal%20Storage/download/1.1.0.12",
+    "download_size": 4804436,
+    "download_hash": {
+        "sha1": "DE0B305A8B405E14BA640303D85D5B72E2C6060B",
+        "sha256": "4B8989547C9FC33B4AA723C5B9E780FE1DDA9D1C5579A136A58256208EBB7520"
+    },
+    "download_content_type": "application/zip",
+    "x_conflicts": [
+        {
+            "name": "UniversalStorage-ECLSS"
+        },
+        {
+            "name": "UniversalStorage-IFI"
+        },
+        {
+            "name": "UniversalStorage-KAS"
+        },
+        {
+            "name": "UniversalStorage-SNACKS"
+        },
+        {
+            "name": "UniversalStorage-TAC"
+        }
+    ],
+    "x_generated_by": "netkan"
+}

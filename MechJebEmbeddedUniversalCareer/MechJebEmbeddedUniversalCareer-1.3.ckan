@@ -1,0 +1,24 @@
+{
+    "spec_version": 1,
+    "identifier"  : "MechJebEmbeddedUniversalCareer",
+    "name"        : "MechJeb Embedded Universal (Career mode)",
+    "author"      : [ "Dennis6492" ],
+    "abstract"    : "Add MechJeb to all Command modules - if you want career mode support, you'll have to go to R&D to unlock modules",
+    "version"     : "1.3",
+    "ksp_version_min" : "1.0.2",
+    "ksp_version_max" : "1.1.99",
+    "license"     : "GPL-3.0",
+    "resources": {
+        "homepage": "http://kerbal.curseforge.com/projects/mechjeb-embedded-universal"
+    },
+    "download": "http://kerbal.curseforge.com/projects/mechjeb-embedded-universal/files/2239526/download",
+    "depends" : [{"name":"MechJeb2"},{"name":"ModuleManager"}],
+    "conflicts": [{"name":"MechJebEmbeddedUniversal"}],
+    "install":[
+        {
+            "file":"Career mode/GameData/MechJeb2 Embedded by Dennis6492",
+            "install_to":"GameData"
+        }
+        ],
+    "provides": ["MechJebEmbeddedUniversal"]
+}

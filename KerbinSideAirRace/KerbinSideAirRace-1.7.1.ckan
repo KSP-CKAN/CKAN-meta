@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbinSideAirRace",
+    "name": "Kerbin-Side Air-Race",
+    "abstract": "Air-racing tracks on Kerbin (Requires Kerbal Konstructs)",
+    "author": "AlphaAsh",
+    "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/74776-11-kerbin-side-v108-supplements/&page=1",
+        "spacedock": "https://spacedock.info/mod/560/Kerbin-Side%20Air-Race",
+        "x_screenshot": "https://spacedock.info/content/AlphaAsh_462/Kerbin-Side_Air-Race/Kerbin-Side_Air-Race-1462904836.4287376.jpg"
+    },
+    "version": "1.7.1",
+    "ksp_version": "1.1.2",
+    "provides": [
+        "KerbinSide-virt"
+    ],
+    "depends": [
+        {
+            "name": "KerbalKonstructs"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbinSide-virt"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbinSide",
+            "install_to": "GameData/KerbinSideAirRace"
+        }
+    ],
+    "download": "https://spacedock.info/mod/560/Kerbin-Side%20Air-Race/download/1.7.1",
+    "download_size": 1652780,
+    "download_hash": {
+        "sha1": "1CAF099219D854CC46A9B45B95680F32DE2A202E",
+        "sha256": "93ED510395D7DF5704B37BA51464C2809F3D0590649F5601950CDD636C7A5E14"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

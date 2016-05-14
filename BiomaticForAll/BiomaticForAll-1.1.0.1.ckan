@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "BiomaticForAll",
+    "name": "Biomatic For All Command Modules",
+    "abstract": "A config that adds Biomatic to all command modules.",
+    "author": "BiffSpace",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/80379-112-biomatic-biome-sensor/",
+        "spacedock": "https://spacedock.info/mod/634/Biomatic",
+        "x_screenshot": "https://spacedock.info/content/BiffSpace_2144/Biomatic/Biomatic-1462190469.105298.jpg"
+    },
+    "version": "1.1.0.1",
+    "ksp_version": "1.1.2",
+    "depends": [
+        {
+            "name": "Biomatic"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "BiomaticConfig.cfg",
+            "install_to": "GameData/Biomatic",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/634/Biomatic/download/1.1.0.1",
+    "download_size": 450333,
+    "download_hash": {
+        "sha1": "73BFF46F86B35164F4ADB0E07071FF204729E556",
+        "sha256": "D8DB291F53FB0D7AF9EA8E948DB4A3F55FBC8981223EFADB5D29A4C317999C61"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

@@ -1,4 +1,4 @@
-**Are you sure you don't want to submit to the [NetKAN](https://github.com/KSP-CKAN/NetKAN) instead? NetKAN files mean we can index new releases automatically!**
+**Metadata in the CKAN-meta repository is almost exclusively written by the CKAN indexer. User submissions should only be made in cases where old versions of mods need their metadata modified. All other metadata submissions should be directed to the [NetKAN repository](https://github.com/KSP-CKAN/NetKAN).**
 
 ### Code of Conduct
 

@@ -1,0 +1,44 @@
+{
+    "spec_version": 1,
+    "identifier": "OIFC",
+    "name": "OIFC - Okram Industries Fuel Cells",
+    "abstract": "A collection of six (three each of varying sizes of radial and stackable formats) fuel cells.  Makes use of the ODFC plugin to provide additional functionality beyond the stock fuel cells.",
+    "author": "Orum",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/138442-111-okram-industries-fuel-cells-oifc-v11/",
+        "spacedock": "https://spacedock.info/mod/620/OIFC%20-%20Okram%20Industries%20Fuel%20Cells",
+        "x_screenshot": "https://spacedock.info/content/Orum_4198/OIFC_-_Okram_Industries_Fuel_Cells/OIFC_-_Okram_Industries_Fuel_Cells-1461913437.3665957.jpg"
+    },
+    "version": "1.1",
+    "ksp_version": "1.1.2",
+    "depends": [
+        {
+            "name": "ODFC"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "OkramSA"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Okram",
+            "install_to": "GameData",
+            "filter_regexp": [
+                "Agencies",
+                "Flags",
+                "Plugins"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/620/OIFC%20-%20Okram%20Industries%20Fuel%20Cells/download/1.1",
+    "download_size": 975964,
+    "download_hash": {
+        "sha1": "8C2D3F527BC5082E047534EEC691B95F1C3809B4",
+        "sha256": "7D9634E3B8EB65ABD9E9C7208A232BA1B6BCB9613CC70726F43DD7B5713C233B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

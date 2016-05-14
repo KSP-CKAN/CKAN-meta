@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbinSideKampus",
+    "name": "Kerbin-Side Kampus",
+    "abstract": "Expand your Space Center (Requires Kerbal Konstructs)",
+    "author": "AlphaAsh",
+    "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/74776-11-kerbin-side-v108-supplements/",
+        "spacedock": "https://spacedock.info/mod/555/Kerbin-Side%20Kampus",
+        "x_screenshot": "https://spacedock.info/content/AlphaAsh_462/Kerbin-Side_Kampus/Kerbin-Side_Kampus-1462904540.0635555.jpg"
+    },
+    "version": "1.1.2",
+    "ksp_version": "1.1.2",
+    "provides": [
+        "KerbinSide-virt"
+    ],
+    "depends": [
+        {
+            "name": "KerbalKonstructs"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbinSide-virt"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbinSide",
+            "install_to": "GameData/KerbinSideAirRace"
+        }
+    ],
+    "download": "https://spacedock.info/mod/555/Kerbin-Side%20Kampus/download/1.1.2",
+    "download_size": 8447097,
+    "download_hash": {
+        "sha1": "8F8E7CFD9934C2E7DD7C49CB979B730CB584BC2E",
+        "sha256": "BF380FE8E66A7B3914E7A81BDCCD918B5446E97ADFA599169E796B117FFB2119"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

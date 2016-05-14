@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbinSideKSC2",
+    "name": "Kerbin-Side KSC2",
+    "abstract": "The original launchsite updated (Requires Kerbal Konstructs)",
+    "author": "AlphaAsh",
+    "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/74776-11-kerbin-side-v108-supplements/",
+        "spacedock": "https://spacedock.info/mod/556/Kerbin-Side%20KSC2",
+        "x_screenshot": "https://spacedock.info/content/AlphaAsh_462/Kerbin-Side_KSC2/Kerbin-Side_KSC2-1462904698.8808682.jpg"
+    },
+    "version": "1.1.2",
+    "ksp_version": "1.1.2",
+    "provides": [
+        "KerbinSide-virt"
+    ],
+    "depends": [
+        {
+            "name": "KerbalKonstructs"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbinSide-virt"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbinSide",
+            "install_to": "GameData/KerbinSideAirRace"
+        }
+    ],
+    "download": "https://spacedock.info/mod/556/Kerbin-Side%20KSC2/download/1.1.2",
+    "download_size": 7005946,
+    "download_hash": {
+        "sha1": "BF96148C6A7F205C50E2A5E76CA6B1693C8B326B",
+        "sha256": "54A069FCCBB034B12B886F6CBE10B7CB6D5BDDB52F7D901534B23145FF02BC61"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

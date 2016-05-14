@@ -2,13 +2,15 @@
     "spec_version": "v1.4",
     "identifier": "KerboKatzSmallUtilities-ModifiedExplosionPotential",
     "name": "KerboKatz - SmallUtilities - ModifiedExplosionPotential",
-    "abstract": "A lot of small but usefull mods in one package",
-    "author": "SpaceTiger",
+    "abstract": "Modifies the explosion potential in order to create bigger or smaller explosions",
+    "author": [
+        "SpaceTiger",
+        "SpaceKitty"
+    ],
     "license": "restricted",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/104505-10x-kerbokatz-smallutilities-v125-18092015-now-with-autobalancinglandingleg/",
-        "spacedock": "https://spacedock.info/mod/85/KerboKatz%20-%20SmallUtilities",
-        "repository": "https://github.com/Xarun/SmallUtilities/"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/104505-11-kerbokatz-smallutilities",
+        "repository": "https://github.com/Xarun/SmallUtilities"
     },
     "version": "1.2.5",
     "ksp_version": "1.0.5",
@@ -18,13 +20,18 @@
             "min_version": "1.2.6"
         }
     ],
+    "conflicts": [
+        {
+            "name": "KerboKatzSmallUtilities"
+        }
+    ],
     "install": [
         {
             "find": "ModifiedExplosionPotential",
             "install_to": "GameData/KerboKatz/SmallUtilities"
         }
     ],
-    "download": "https://spacedock.info/mod/85/KerboKatz%20-%20SmallUtilities/download/1.2.5",
-    "download_size": 76145,
+    "download": "https://github.com/Xarun/SmallUtilities/releases/download/1.2.5/SmallUtilities.ModifiedExplosionPotential.zip",
+    "download_size": 32149,
     "x_generated_by": "netkan"
 }
