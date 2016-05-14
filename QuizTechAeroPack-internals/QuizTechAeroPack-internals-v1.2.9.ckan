@@ -1,0 +1,47 @@
+{
+    "spec_version": "v1.4",
+    "comment": "InternalsMod",
+    "identifier": "QuizTechAeroPack-internals",
+    "name": "QuizTech Aero Pack Internals",
+    "abstract": "The cockpit and props from QuizTech Aero Pack",
+    "author": "Quiznos323",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/100663-wip-105-dev-paused-quiztech-aero-pack-v129x-updated-8915/&page=1",
+        "spacedock": "https://spacedock.info/mod/378/QuizTech%20Aero%20Pack",
+        "x_screenshot": "https://spacedock.info/content/Quiznos323_390/QuizTech_Aero_Pack/QuizTech_Aero_Pack-1457484446.901193.png"
+    },
+    "version": "v1.2.9",
+    "ksp_version": "any",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "QuizTechAeroPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "QuizTechAero/Props",
+            "install_to": "GameData/QuizTechAero"
+        },
+        {
+            "find": "QuizTechAero/Spaces",
+            "install_to": "GameData/QuizTechAero"
+        }
+    ],
+    "download": "https://spacedock.info/mod/378/QuizTech%20Aero%20Pack/download/v1.2.9",
+    "download_size": 55069417,
+    "download_hash": {
+        "sha1": "1B1E69178EE70BC6F4D9F943341E806CFC9BE1BA",
+        "sha256": "C4C5C5DCBB682D3C53BCF8882E1B2C3E8A07B139D83E729D83B486EDD1F8CA63"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
