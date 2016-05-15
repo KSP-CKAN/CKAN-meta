@@ -1,0 +1,41 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KWRocketryRedux-InstantPwr",
+    "name": "KW Rocketry Redux - Instant Power Response Configs",
+    "abstract": "For instant power response on engines",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-SA-3.0",
+    "resources": {
+        "repository": "https://github.com/linuxgurugamer/KWRocketryRedux"
+    },
+    "version": "3.0.6",
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.99",
+    "provides": [
+        "KWRocketryRedux-power"
+    ],
+    "depends": [
+        {
+            "name": "KWRocketryRedux"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KWRocketryRedux-power"
+        }
+    ],
+    "install": [
+        {
+            "find": "Extras/InstantPowerResponseConfigs/GameData/KWRocketry",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/KWRocketryRedux/releases/download/3.0.6/KWRocketryRedux-3.0.6.zip",
+    "download_size": 50858863,
+    "download_hash": {
+        "sha1": "D62C10F1A1E0F2C3D9BF87C6A25C6AAEFBBB11AD",
+        "sha256": "E0C6C4C40296C48A1ED87F80A871A6850420886657F7CD491AEAB3DFAD7AC9E0"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
