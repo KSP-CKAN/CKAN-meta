@@ -11,23 +11,23 @@
     "ksp_version"    : "0.90",
     "resources"      : {
         "homepage" : "http://forum.kerbalspaceprogram.com/threads/59545",
-		"repository" : "https://github.com/taniwha-qf/Extraplanetary-Launchpads"
+        "repository" : "https://github.com/taniwha-qf/Extraplanetary-Launchpads"
     },
     "depends"        : [
-    	{"name" : "ModuleManager"},
-		{"name" : "Toolbar"}
+        {"name" : "ModuleManager"},
+        {"name" : "Toolbar"}
     ],
     "recommends"     : [
-    	{"name" : "KerbalStats"},
-		{"name" : "KAS"},
-		{"name" : "InfernalRobotics"},
-		{"name" : "Kethane"}
+        {"name" : "KerbalStats"},
+        {"name" : "KAS"},
+        {"name" : "InfernalRobotics"},
+        {"name" : "Kethane"}
     ],
     "install"        : [
         {
             "file"       : "ExtraplanetaryLaunchpads",
             "install_to" : "GameData",
-			"filter"     : "Ships"
+            "filter"     : "Ships"
         }
     ]
 }
