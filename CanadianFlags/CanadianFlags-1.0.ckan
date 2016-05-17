@@ -1,21 +1,28 @@
 {
-  "spec_version": "v1.4",
-  "identifier"  : "CanadianFlags",
-  "license"     : "restricted",
-  "install": [
-        {
-            "find"       : "Flags",
-            "install_to" : "GameData/Bydysawd"
-        }
-    ],
-  "resources": {
+    "spec_version": "v1.4",
+    "comment": "flagmod",
+    "identifier": "CanadianFlags",
+    "name": "Canadian Flags",
+    "abstract": "Includes the flags of: Canada, provinces, territories, Kingdom of France, UK, and more.",
+    "author": "CelticCossack25",
+    "license": "restricted",
+    "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/100363"
     },
-  "ksp_version" : "any",
-  "comment"     : "flagmod",
-  "name"        : "Canadian Flags",
-  "abstract"    : "Includes the flags of: Canada, provinces, territories, Kingdom of France, UK, and more.",
-  "author"      : "CelticCossack25",
-  "version"     : "1.0",
-  "download"    : "http://addons-origin.cursecdn.com/files/2243/503/Bydysawd.zip"
+    "version": "1.0",
+    "ksp_version": "any",
+    "install": [
+        {
+            "find": "Flags",
+            "install_to": "GameData/Bydysawd"
+        }
+    ],
+    "download": "http://addons-origin.cursecdn.com/files/2243/503/Bydysawd.zip",
+    "download_size": 1129852,
+    "download_hash": {
+        "sha1": "A93284F4DEE1CEBE369525EA5C823E56F9FB7FC8",
+        "sha256": "2AEC6BCD708FCCCF89B55988E00F10B53D251D31ACFD55973DE0D46A5F72116F"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
