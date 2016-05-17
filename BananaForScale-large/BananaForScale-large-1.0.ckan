@@ -1,27 +1,38 @@
 {
-    "spec_version" : "v1.4",
-    "identifier"   : "BananaForScale-large",
-    "name"         : "Banana for Scale - large",
-    "abstract"     : "Banana for Scale - Analyse bananas in space!",
-    "license"      : "restricted",
-    "author"       : "JoePatrick1",
-    "version"      : "1.0",
-    "conflicts": [
-        { "name": "BananaForScale" }
-    ],
-    "provides"  : [ "BananaForScale", "BfS" ],
+    "spec_version": "v1.4",
+    "identifier": "BananaForScale-large",
+    "name": "Banana for Scale - large",
+    "abstract": "Banana for Scale - Analyse bananas in space!",
+    "author": "JoePatrick1",
+    "license": "restricted",
     "resources": {
-        "x_curse"  : "http://kerbal.curseforge.com/ksp-mods/223077-banana-for-scale",
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/89570"
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/89570",
+        "x_curse": "http://kerbal.curseforge.com/ksp-mods/223077-banana-for-scale"
     },
-    "install": [
+    "version": "1.0",
+    "ksp_version_max": "1.0.99",
+    "provides": [
+        "BananaForScale",
+        "BfS"
+    ],
+    "conflicts": [
         {
-            "find"       : "BfS",
-            "install_to" : "GameData"
+            "name": "BananaForScale"
         }
     ],
-    "ksp_version_max" : "1.0.99",
-    "download"     : "http://addons.cursecdn.com/files/2212/343/BfS%20(1).zip",
-    "x_maintained" : "hakan42 - who loves bananas in space",
-    "download_size": 636240
+    "install": [
+        {
+            "find": "BfS",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://addons.cursecdn.com/files/2212/343/BfS%20(1).zip",
+    "download_size": 636240,
+    "download_hash": {
+        "sha1": "C90E2DDC2348645D1D3C546EF7C3B4B883C162EA",
+        "sha256": "B428B74CDD1555AC40A5E27CF67E4980503EA50F556AC92F27155541A45A8171"
+    },
+    "download_content_type": "application/zip",
+    "x_maintained": "hakan42 - who loves bananas in space",
+    "x_generated_by": "netkan"
 }
