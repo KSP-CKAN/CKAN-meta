@@ -8,17 +8,27 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/79128"
     },
-    "depends": [
-        { "name": "ModuleManager", "min_version": "2.6.3" }
-    ],
     "version": "1.7",
     "ksp_version_min": "1.0.0",
     "ksp_version_max": "1.0.2",
-    "download": "http://ksp.hawkbats.com/AdaptiveDockingNode/AdaptiveDockingNode-1-7.zip",
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.3"
+        }
+    ],
     "install": [
         {
             "file": "GameData/AdaptiveDockingNode",
             "install_to": "GameData"
         }
-    ]
+    ],
+    "download": "http://ksp.hawkbats.com/AdaptiveDockingNode/AdaptiveDockingNode-1-7.zip",
+    "download_size": 55315,
+    "download_hash": {
+        "sha1": "BAD54010610DBC8C4FD130EC34D3E46AC57F1C48",
+        "sha256": "9A7509437118DFA40C1830B9657530E401FE6E9295C74B50B14E6FFAA45BF547"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
