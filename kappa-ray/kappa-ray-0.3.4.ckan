@@ -1,24 +1,34 @@
 {
     "spec_version": 1,
-    "identifier"  : "kappa-ray",
-    "name"        : "Kappa Ray",
-    "author"      : [ "soundnfury" ],
-    "abstract"    : "Subject Kerbals and equipment to radiation",
-    "version"     : "0.3.4",
-    "ksp_version" : "1.0.5",
-    "license"     : "GPL-2.0",
+    "identifier": "kappa-ray",
+    "name": "Kappa Ray",
+    "abstract": "Subject Kerbals and equipment to radiation",
+    "author": [
+        "soundnfury"
+    ],
+    "license": "GPL-2.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/131575"
     },
-    "download": "http://jttlov.no-ip.org/tar/kapparay-0.3.4.zip",
+    "version": "0.3.4",
+    "ksp_version": "1.0.5",
     "depends": [
-        { "name": "ModuleManager" }
+        {
+            "name": "ModuleManager"
+        }
     ],
-
     "install": [
         {
-            "file"       : "kapparay-0.3.4/GameData/kappa-ray",
-            "install_to" : "GameData"
+            "file": "kapparay-0.3.4/GameData/kappa-ray",
+            "install_to": "GameData"
         }
-    ]
+    ],
+    "download": "http://jttlov.no-ip.org/tar/kapparay-0.3.4.zip",
+    "download_size": 453892,
+    "download_hash": {
+        "sha1": "C6CE43E0797A9F3DB7DE46E4AEE727132ED16D67",
+        "sha256": "E540134D6076CEEECD80670C98EFDF872EE362AD9B46FA0DD3F6C9D712E85BDB"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
