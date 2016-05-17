@@ -1,0 +1,47 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SimpleConstruction",
+    "name": "SimpleConstruction",
+    "abstract": " This mod aims to provide simple rocketbuilding capability to stock parts. ",
+    "author": "matterbeam",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/131588-105-simpleconstruction-stock-rocket-building-v08/",
+        "spacedock": "https://spacedock.info/mod/59/SimpleConstruction",
+        "x_screenshot": "https://spacedock.info/content/matterbeam_328/SimpleConstruction/SimpleConstruction-1455675320.902058.jpg"
+    },
+    "version": "v1.8",
+    "ksp_version": "1.1.2",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "InterstellarFuelSwitch-Core"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ExtraPlanetaryLaunchpads"
+        }
+    ],
+    "install": [
+        {
+            "find": "SimpleConstruction",
+            "install_to": "GameData",
+            "filter": [
+                "Thumbs.db",
+                "InterstellarFuelSwitch.version",
+                "InterstellarFuelSwitch.dll"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/59/SimpleConstruction/download/v1.8",
+    "download_size": 179043,
+    "download_hash": {
+        "sha1": "4C65556F872C1DBB579E576B5195C4DC145D5E6E",
+        "sha256": "F50AA0EA2C2B95AD9C78B5AF3F8AC59C5AE39273A5CB74B882B35889D79577B0"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
