@@ -1,25 +1,32 @@
 {
-    "spec_version"   : 1,
-    "name"           : "Precise Node",
-    "identifier"     : "PreciseNode",
-    "abstract"       : "Provides a more precise widget for maneuver node editing",
-    "author"         : "blizzy78",
-    "download"       : "https://www.blizzy.de/precise-node/PreciseNode-1.2.3.zip",
-    "license"        : "BSD-2-clause",
-    "version"        : "1.2.3",
-    "release_status" : "stable",
-    "ksp_version"    : "1.1.2",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/47863",
-        "github"   : {
-            "url"      : "https://github.com/blizzy78/ksp-precisenode",
-            "releases" : true
+    "spec_version": "v1.4",
+    "identifier": "PreciseNode",
+    "name": "Precise Node",
+    "abstract": "Provides a more precise widget for maneuver node editing",
+    "author": "blizzy78",
+    "license": "BSD-2-clause",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/47863",
+        "github": {
+            "url": "https://github.com/blizzy78/ksp-precisenode",
+            "releases": true
         }
     },
-    "install" : [
+    "version": "1.2.3",
+    "ksp_version": "1.1.2",
+    "install": [
         {
-            "file"       : "PreciseNode-1.2.3/GameData/PreciseNode",
-            "install_to" : "GameData"
+            "find": "GameData/PreciseNode",
+            "install_to": "GameData"
         }
-    ]
+    ],
+    "download": "https://www.blizzy.de/precise-node/PreciseNode-1.2.3.zip",
+    "download_size": 40303,
+    "download_hash": {
+        "sha1": "8B5B908793F85712EFB4DE8EE688A524C7B054B2",
+        "sha256": "36E4AF64BD819952C3522816C969A95742B2879C6A448B76CA61EF9887186BE7"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
