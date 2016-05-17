@@ -1,12 +1,18 @@
 {
     "spec_version": "v1.4",
     "identifier": "ContractConfigurator-SCANsat",
-    "abstract": "A Mission pack creating SCANsat contracts",
     "name": "SCANsat mission pack",
+    "abstract": "A Mission pack creating SCANsat contracts",
+    "author": "SimonTheSourcerer",
     "license": "public-domain",
-    "x_netkan_license_ok": true,
-    "x_maintained_by": "hakan42, who loves to fly missions with contracts in them",
-    "ksp_version_max" : "1.0.5",
+    "resources": {
+        "repository": "https://github.com/SimonTheSourcerer/CCSCANsatMissionPack"
+    },
+    "version": "1.0.2",
+    "ksp_version_max": "1.0.5",
+    "provides": [
+        "ContractConfigurator-SCANsat"
+    ],
     "depends": [
         {
             "name": "ContractConfigurator"
@@ -16,21 +22,19 @@
             "min_version": "9.0"
         }
     ],
-    "provides": [
-        "ContractConfigurator-SCANsat"
-    ],
     "install": [
         {
             "find": "CC_Contracts",
             "install_to": "GameData"
         }
     ],
-    "resources": {
-        "repository": "https://github.com/SimonTheSourcerer/CCSCANsatMissionPack"
-    },
-    "author": "SimonTheSourcerer",
-    "version": "1.0.2",
     "download": "https://github.com/SimonTheSourcerer/CCSCANsatMissionPack/releases/download/1.0.2/CCSCANsatMissionPack.zip",
-    "x_generated_by": "netkan",
-    "download_size": 26721
+    "download_size": 26721,
+    "download_hash": {
+        "sha1": "35DEF9E92387B1F2CD41DC5C806D80A668B6F9A6",
+        "sha256": "54B6F0EEA13BB1D0B410FFEA72CD1A2AB7480AAFE13922564F82BF2F3A09D291"
+    },
+    "download_content_type": "application/zip",
+    "x_maintained_by": "hakan42, who loves to fly missions with contracts in them",
+    "x_generated_by": "netkan"
 }
