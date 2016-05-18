@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "HGR",
+    "name": "HGR 1.875m Parts",
+    "abstract": "A set of 1.875m parts to fill the gap between the basic and Rockomax size parts",
+    "author": "OrionKermin",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/60974",
+        "x_curse": "http://kerbal.curseforge.com/ksp-mods/222583-hgr-875m-parts"
+    },
+    "version": "1.3.0",
+    "ksp_version": "1.0.2",
+    "depends": [
+        {
+            "name": "HGR-Props"
+        }
+    ],
+    "install": [
+        {
+            "find": "HGR",
+            "filter": "Props",
+            "install_to": "GameData"
+        },
+        {
+            "find": "HGR_Redux",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://addons-origin.cursecdn.com/files/2240/901/HGR_V1.3.0.zip",
+    "download_size": 17266839,
+    "download_hash": {
+        "sha1": "B915F355B2F257E1DE97470173A597C75437953F",
+        "sha256": "3FA1CC642D7B519EC8534BEE55EBAACD7ACB626CDA425B3DD0CC18BF1C38E414"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
