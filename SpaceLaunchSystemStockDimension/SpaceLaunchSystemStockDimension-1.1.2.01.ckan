@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SpaceLaunchSystemStockDimension",
+    "name": "Space Launch System Stock Dimension",
+    "abstract": "Stock Dimension version mods Space Launch System",
+    "author": "Sobol",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/126067-space-launch-system-part-pack/",
+        "spacedock": "https://spacedock.info/mod/706/Space%20Launch%20System%20Stock%20Dimension",
+        "x_screenshot": "https://spacedock.info/content/Sobol_1808/Space_Launch_System_Stock_Dimension/Space_Launch_System_Stock_Dimension-1463494786.0186622.png"
+    },
+    "version": "1.1.2.01",
+    "ksp_version": "1.1.2",
+    "depends": [
+        {
+            "name": "HangarExtender"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        },
+        {
+            "name": "RealChute"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "TextureReplacer"
+        },
+        {
+            "name": "LaunchPad39B"
+        },
+        {
+            "name": "KerbalKonstructs"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SpaceLaunchSystemPartPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "SpaceLaunchSystem",
+            "install_to": "GameData"
+        },
+        {
+            "file": "VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/706/Space%20Launch%20System%20Stock%20Dimension/download/1.1.2.01",
+    "download_size": 73050791,
+    "download_hash": {
+        "sha1": "FD0E85B5D97E48A4F2C0189DB3F0A0A75621FF78",
+        "sha256": "F17A6AFEDC1E090626F5B997AC80A634B45FED8911D8B60E03D7B2A2621D4085"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
