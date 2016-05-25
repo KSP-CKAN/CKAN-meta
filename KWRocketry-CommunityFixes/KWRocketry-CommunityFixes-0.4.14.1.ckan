@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KWRocketry-CommunityFixes",
+    "name": "KW Rocketry - Community Fixes",
+    "abstract": "This is a set of patches created by the community to bring KW up to 1.0.4 compatibility.",
+    "author": "linuxgurugamer",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/129918-KW-Rocketry-Community-Fixes",
+        "spacedock": "https://spacedock.info/mod/51/KW%20Rocketry%20-%20Community%20Fixes",
+        "repository": "https://github.com/linuxgurugamer/KW-Rocketry-Community-Fixes",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/KW_Rocketry_-_Community_Fixes/KW_Rocketry_-_Community_Fixes-1457147680.7179215.png"
+    },
+    "version": "0.4.14.1",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KWRocketry",
+            "version": "2.7.0-community"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KWRocketry-CommunityFixes-interstage"
+        }
+    ],
+    "install": [
+        {
+            "find": "KWCommunityFixes",
+            "install_to": "GameData",
+            "filter": "KWPatch-interstage.cfg"
+        }
+    ],
+    "download": "https://spacedock.info/mod/51/KW%20Rocketry%20-%20Community%20Fixes/download/0.4.14.1",
+    "download_size": 23377,
+    "download_hash": {
+        "sha1": "1464E7C5BE470CA0AC2DA1C5309A72335B8CEC13",
+        "sha256": "BE13661B1CC0AA5BE5C0DB5C7C898AAD33541ABB98AEDC6B701ECEEBAC365C0B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
