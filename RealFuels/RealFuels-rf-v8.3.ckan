@@ -1,43 +1,26 @@
 {
     "spec_version": 1,
+    "identifier": "RealFuels",
     "name": "Real Fuels",
     "abstract": "Real fuels and tanks for KSP",
-    "identifier": "RealFuels",
-    "license": "CC-BY-SA",
     "author": [
         "ialdabaoth",
         "NathanKell"
     ],
+    "license": "CC-BY-SA",
     "release_status": "stable",
-    "ksp_version": "0.90",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/64118",
         "repository": "https://github.com/NathanKell/ModularFuelSystem"
     },
-    "install": [
-        {
-            "file": "RealFuels",
-            "install_to": "GameData"
-        },
-        {
-            "file": "TweakScale",
-            "install_to": "GameData"
-        }
-    ],
+    "version": "rf-v8.3",
+    "ksp_version": "0.90",
     "depends": [
         {
             "name": "ModuleManager"
         },
         {
             "name": "RealFuels-Engine-Configs"
-        }
-    ],
-    "conflicts": [
-        {
-            "name": "ModularFuelSystem"
-        },
-        {
-            "name": "ModularFuelTanks"
         }
     ],
     "recommends": [
@@ -50,8 +33,30 @@
             "name": "EngineIgnitor"
         }
     ],
-    "version": "rf-v8.3",
+    "conflicts": [
+        {
+            "name": "ModularFuelSystem"
+        },
+        {
+            "name": "ModularFuelTanks"
+        }
+    ],
+    "install": [
+        {
+            "file": "RealFuels",
+            "install_to": "GameData"
+        },
+        {
+            "file": "TweakScale",
+            "install_to": "GameData"
+        }
+    ],
     "download": "https://github.com/NathanKell/ModularFuelSystem/releases/download/rf-v8.3/RealFuels_v8.3.zip",
-    "x_generated_by": "netkan",
-    "download_size": 1947493
+    "download_size": 1947493,
+    "download_hash": {
+        "sha1": "BA410F1204A0C1D464BDA62B12E2AFE31973697B",
+        "sha256": "B1C8F56FC88122560F48BD3F4FA8F9AF42083075B9F52555C9EB50C61A78A15F"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
