@@ -1,46 +1,51 @@
 {
-  "spec_version": 1,
-  "name": "USI Asteroid Recycling Technologies",
-  "identifier": "USI-ART",
-  "author": "RoverDude",
-  "abstract": "Allows you to remove asteroid mass and attach multiple reconfigurable storage tanks to the asteroid's surface.",
-  "license": "CC-BY-NC-SA",
-  "release_status": "stable",
-  "ksp_version": "0.90",
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/91790",
-    "repository": "https://github.com/BobPalmer/ART"
-  },
-  "depends": [
-    {
-      "name": "FirespitterCore",
-      "min_version": "7.0.5398.27328"
+    "spec_version": 1,
+    "identifier": "USI-ART",
+    "name": "USI Asteroid Recycling Technologies",
+    "abstract": "Allows you to remove asteroid mass and attach multiple reconfigurable storage tanks to the asteroid's surface.",
+    "author": "RoverDude",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/91790",
+        "repository": "https://github.com/BobPalmer/ART"
     },
-    {
-      "name": "ModuleManager",
-      "min_version": "2.5.1"
+    "version": "0.6.0",
+    "ksp_version": "0.90",
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "7.0.5398.27328"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.5.1"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.2.4"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.2.3"
+        },
+        {
+            "name": "Regolith",
+            "min_version": "0.1.0"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ART",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/BobPalmer/ART/releases/download/0.6.0/ART_0.6.0.zip",
+    "download_size": 8396635,
+    "download_hash": {
+        "sha1": "F0F7DACA841C332DE1A02F4A0F22B6250155224B",
+        "sha256": "6D61D84FBE6ACCF01A319B82E59007070B74B99C89E78CF82EC1B8D270F35A04"
     },
-    {
-      "name": "USITools",
-      "min_version": "0.2.4"
-    },
-    {
-      "name": "CommunityResourcePack",
-      "min_version": "0.2.3"
-    },
-    {
-      "name": "Regolith",
-      "min_version": "0.1.0"
-    }
-  ],
-  "install": [
-    {
-      "file": "GameData/ART",
-      "install_to": "GameData"
-    }
-  ],
-  "version": "0.6.0",
-  "download": "https://github.com/BobPalmer/ART/releases/download/0.6.0/ART_0.6.0.zip",
-  "x_generated_by": "netkan",
-  "download_size": 8396635
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
