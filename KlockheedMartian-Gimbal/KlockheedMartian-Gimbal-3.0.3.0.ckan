@@ -3,26 +3,31 @@
     "identifier": "KlockheedMartian-Gimbal",
     "name": "Klockheed Martian General Plugin Functions - Gimbal module",
     "abstract": "An improved gimbal module with in-flight configurable trim.",
-    "license": "CC-BY-NC-ND-3.0",
     "author": [
         "dtobi",
         "Sarbian"
     ],
+    "license": "CC-BY-NC-ND-3.0",
     "release_status": "stable",
-    "ksp_version": "1.0",
     "resources": {
-        "x_ci": "https://ksp.sarbian.com/jenkins/job/km_Gimbal/",
         "homepage": "http://forum.kerbalspaceprogram.com/threads/55985",
-        "repository": "https://github.com/sarbian/km_Gimbal"
+        "repository": "https://github.com/sarbian/km_Gimbal",
+        "x_ci": "https://ksp.sarbian.com/jenkins/job/km_Gimbal/"
     },
+    "version": "3.0.3.0",
+    "ksp_version": "1.0",
     "install": [
         {
             "file": "Klockheed_Martian_Gimbal",
             "install_to": "GameData"
         }
     ],
-    "version": "3.0.3.0",
     "download": "https://ksp.sarbian.com/jenkins/job/km_Gimbal/8/artifact/Klockheed_Martian_Gimbal_v3.0.3.0_for_KSP_1.0.0.zip",
-    "x_generated_by": "nyankan",
-    "download_size": 7480
+    "download_size": 7480,
+    "download_hash": {
+        "sha1": "6F422C18F2CE3949F85BE332D29D603C5D4DA991",
+        "sha256": "0411022A8BDD534BB8DF14BDBE78EB5959E4271CB22C7E0D20BAA2C8AF2E417D"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
