@@ -1,53 +1,58 @@
 {
-  "spec_version": 1,
-  "name": "USI Exploration Pack",
-  "identifier": "USI-EXP",
-  "author": "RoverDude",
-  "abstract": "PackRat Rover and parts geared towards planetary exploration",
-  "license": "CC-BY-NC-SA",
-  "release_status": "stable",
-  "ksp_version": "0.25",
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/86695",
-    "repository": "https://github.com/BobPalmer/ExplorationPack"
-  },
-  "depends": [
-    {
-      "name": "FirespitterCore",
-      "min_version": "7.0.5398.27328"
+    "spec_version": 1,
+    "identifier": "USI-EXP",
+    "name": "USI Exploration Pack",
+    "abstract": "PackRat Rover and parts geared towards planetary exploration",
+    "author": "RoverDude",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/86695",
+        "repository": "https://github.com/BobPalmer/ExplorationPack"
     },
-    {
-      "name": "ModuleManager",
-      "min_version": "2.5.1"
+    "version": "0.2.5",
+    "ksp_version": "0.25",
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "7.0.5398.27328"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.5.1"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.2.4"
+        },
+        {
+            "name": "CIT-Util",
+            "min_version": "1.0.4"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.2.3"
+        },
+        {
+            "name": "ORSX",
+            "min_version": "0.1.3"
+        },
+        {
+            "name": "ModuleRCSFX"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/UmbraSpaceIndustries",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/BobPalmer/ExplorationPack/releases/download/0.2.5/ExpPack_0.2.5.zip",
+    "download_size": 21514608,
+    "download_hash": {
+        "sha1": "FFD6E79F8B78CB32637451D6C93A0B27E436FE8B",
+        "sha256": "D697FAE28B3A1EDCB72160C2BE5EB244FE889CC09614A221E2C0E305336DB39A"
     },
-    {
-      "name": "USITools",
-      "min_version": "0.2.4"
-    },
-    {
-      "name": "CIT-Util",
-      "min_version": "1.0.4"
-    },
-    {
-      "name": "CommunityResourcePack",
-      "min_version": "0.2.3"
-    },
-    {
-      "name": "ORSX",
-      "min_version": "0.1.3"
-    },
-    {
-      "name": "ModuleRCSFX"
-    }
-  ],
-  "install": [
-    {
-      "file": "GameData/UmbraSpaceIndustries",
-      "install_to": "GameData"
-    }
-  ],
-  "version": "0.2.5",
-  "download": "https://github.com/BobPalmer/ExplorationPack/releases/download/0.2.5/ExpPack_0.2.5.zip",
-  "x_generated_by": "netkan",
-  "download_size": 21514608
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
