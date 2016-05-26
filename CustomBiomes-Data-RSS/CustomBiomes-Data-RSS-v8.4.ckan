@@ -1,42 +1,47 @@
 {
-  "spec_version": 1,
-  "name": "Custom Biomes (Real Solar System data)",
-  "identifier": "CustomBiomes-Data-RSS",
-  "abstract": "Custom biomes for the Real Solar System",
-  "license": "CC-BY-NC-SA",
-  "release_status": "stable",
-  "ksp_version": "any",
-  "depends": [
-    {
-      "name": "RealSolarSystem"
+    "spec_version": 1,
+    "identifier": "CustomBiomes-Data-RSS",
+    "name": "Custom Biomes (Real Solar System data)",
+    "abstract": "Custom biomes for the Real Solar System",
+    "author": "NathanKell",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/55145",
+        "repository": "https://github.com/NathanKell/RealSolarSystem"
     },
-    {
-      "name": "CustomBiomes"
-    }
-  ],
-  "provides": [
-    "CustomBiomes-Data"
-  ],
-  "conflicts": [
-    {
-      "name": "CustomBiomes-Data"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/55145",
-    "repository": "https://github.com/NathanKell/RealSolarSystem"
-  },
-  "install": [
-    {
-      "file": "CustomBiomes",
-      "install_to": "GameData",
-      "comment": "This regexp only installs PluginData, and nothing else, skipping PluginData/CustomBiomes/config.xml",
-      "filter_regexp": "^(?!CustomBiomes/PluginData/)|config.xml"
-    }
-  ],
-  "author": "NathanKell",
-  "version": "v8.4",
-  "download": "https://github.com/NathanKell/RealSolarSystem/releases/download/v8.4/RealSolarSystem_v8.4.zip",
-  "x_generated_by": "netkan",
-  "download_size": 15565042
+    "version": "v8.4",
+    "ksp_version": "any",
+    "provides": [
+        "CustomBiomes-Data"
+    ],
+    "depends": [
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "CustomBiomes"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "CustomBiomes-Data"
+        }
+    ],
+    "install": [
+        {
+            "file": "CustomBiomes",
+            "install_to": "GameData",
+            "comment": "This regexp only installs PluginData, and nothing else, skipping PluginData/CustomBiomes/config.xml",
+            "filter_regexp": "^(?!CustomBiomes/PluginData/)|config.xml"
+        }
+    ],
+    "download": "https://github.com/NathanKell/RealSolarSystem/releases/download/v8.4/RealSolarSystem_v8.4.zip",
+    "download_size": 15571497,
+    "download_hash": {
+        "sha1": "BD4F8A4301A70EC6FA35EBB2A49CB56C757AFF29",
+        "sha256": "32CE8E5DCE99F47544CF16F8820B7401332E25A1918EB26649B3B0A80E954C06"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
