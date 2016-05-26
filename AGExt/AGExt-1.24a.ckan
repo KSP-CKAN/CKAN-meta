@@ -1,52 +1,57 @@
 {
-  "spec_version": 1,
-  "name": "Action Groups Extended",
-  "identifier": "AGExt",
-  "author": "Diazo",
-  "abstract": "Increases the number of action groups to 250 and allows in-flight editing.",
-  "license": "GPL-3.0",
-  "release_status": "stable",
-  "ksp_version": "0.25",
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/74195",
-    "repository": "https://github.com/SirDiazo/AGExt"
-  },
-  "recommends": [
-    {
-      "name": "Toolbar"
-    }
-  ],
-  "install": [
-    {
-      "file": "GameData/Diazo",
-      "install_to": "GameData"
-    }
-  ],
-  "x_supports": [
-    {
-      "name": "SCANsat"
+    "spec_version": 1,
+    "identifier": "AGExt",
+    "name": "Action Groups Extended",
+    "abstract": "Increases the number of action groups to 250 and allows in-flight editing.",
+    "author": "Diazo",
+    "license": "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/74195",
+        "repository": "https://github.com/SirDiazo/AGExt"
     },
-    {
-      "name": "Kethane"
+    "version": "1.24a",
+    "ksp_version": "0.25",
+    "recommends": [
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Diazo",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/SirDiazo/AGExt/releases/download/1.24a/ActionGroupsExtended124a.zip",
+    "download_size": 64600,
+    "download_hash": {
+        "sha1": "CC33295A5362B73225C735BD3EAB0314EC2C0447",
+        "sha256": "6FDFD4648581691E72F906FFAA598D079CFF17C6D2752C30A19290D14C59C5F3"
     },
-    {
-      "name": "FerramAerospaceResearch"
-    },
-    {
-      "name": "Firespitter"
-    },
-    {
-      "name": "InfernalRobotics"
-    },
-    {
-      "name": "TACLS"
-    },
-    {
-      "name": "WarpPlugin"
-    }
-  ],
-  "version": "1.24a",
-  "download": "https://github.com/SirDiazo/AGExt/releases/download/1.24a/ActionGroupsExtended124a.zip",
-  "x_generated_by": "netkan",
-  "download_size": 64600
+    "download_content_type": "application/zip",
+    "x_supports": [
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "Kethane"
+        },
+        {
+            "name": "FerramAerospaceResearch"
+        },
+        {
+            "name": "Firespitter"
+        },
+        {
+            "name": "InfernalRobotics"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "WarpPlugin"
+        }
+    ],
+    "x_generated_by": "netkan"
 }
