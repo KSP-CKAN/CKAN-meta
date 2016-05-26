@@ -1,39 +1,43 @@
 {
-  "spec_version": 1,
-  "identifier": "ImpossibleInnovations",
-  "x_netkan_license_ok": true,
-  "depends": [
-    {
-      "name": "TweakScale"
+    "spec_version": 1,
+    "identifier": "ImpossibleInnovations",
+    "name": "Impossible Innovations",
+    "abstract": "Adds fusion based engines and tanks, along with other utilities.",
+    "author": "jandcando",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/86331-0-24-x-Impossible-Innovations-0-5",
+        "kerbalstuff": "https://kerbalstuff.com/mod/116/Impossible%20Innovations"
     },
-    {
-      "name": "ModuleManager"
+    "version": "0.8",
+    "ksp_version": "0.25",
+    "depends": [
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TechManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ImpossibleInnovations",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/jandcando_377/Impossible_Innovations/Impossible_Innovations-0.8.zip",
+    "download_size": 15333249,
+    "download_hash": {
+        "sha1": "BA8FE843B37D713699CFE0DE98AE999BF05D56B1",
+        "sha256": "441A1912CA24273CBCBF4B30FD30CF9592A84C9B7E6F6C997D79A1CE7F0E43DD"
     },
-    {
-      "name": "TechManager"
-    }
-  ],
-  "install": [
-    {
-      "file": "GameData/ImpossibleInnovations",
-      "install_to": "GameData"
-    },
-    {
-      "file": "Ships",
-      "install_to": "Ships"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/86331-0-24-x-Impossible-Innovations-0-5",
-    "kerbalstuff": "https://kerbalstuff.com/mod/116/Impossible%20Innovations"
-  },
-  "ksp_version": "0.25",
-  "name": "Impossible Innovations",
-  "license": "CC-BY-NC-SA-4.0",
-  "abstract": "Adds fusion based engines and tanks, along with other utilities.",
-  "author": "jandcando",
-  "version": "0.8",
-  "download": "http://ckan1.spacedock.info/storage/jandcando_377/Impossible_Innovations/Impossible_Innovations-0.8.zip",
-  "x_generated_by": "netkan",
-  "download_size": 15333249
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
