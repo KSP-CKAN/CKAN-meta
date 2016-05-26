@@ -1,29 +1,34 @@
 {
     "spec_version": "v1.4",
     "identifier": "PersistentRotation",
-    "x_via": "Automated KerbalStuff CKAN submission",
+    "name": "PersistentRotation",
+    "abstract": "Persistent rotation, persistent momentum and more!",
+    "author": "MarkusA380",
     "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/113507-0-90-PersistentRotation-0-4-1-(former-Timewarp-Rotate)",
+        "kerbalstuff": "https://kerbalstuff.com/mod/668/PersistentRotation"
+    },
+    "version": "0.4.3",
+    "ksp_version": "0.90",
+    "depends": [
+        {
+            "name": "Toolbar"
+        }
+    ],
     "install": [
         {
             "file": "GameData/PersistentRotation",
             "install_to": "GameData"
         }
     ],
-    "depends": [
-        {
-            "name": "Toolbar"
-        }
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/113507-0-90-PersistentRotation-0-4-1-(former-Timewarp-Rotate)",
-        "kerbalstuff": "https://kerbalstuff.com/mod/668/PersistentRotation"
-    },
-    "ksp_version": "0.90",
-    "name": "PersistentRotation",
-    "abstract": "Persistent rotation, persistent momentum and more!",
-    "author": "MarkusA380",
-    "version": "0.4.3",
     "download": "http://ckan1.spacedock.info/storage/MarkusA380_8450/PersistentRotation/PersistentRotation-0.4.3.zip",
-    "x_generated_by": "netkan",
-    "download_size": 20765
+    "download_size": 20765,
+    "download_hash": {
+        "sha1": "011C040BCC545047B716736F3FE8D99B7F539E98",
+        "sha256": "8BBEA76DECDDB3114DE79BBF5B1E266FFC3387B90DEE7A2EE4F8EB484109C813"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "x_generated_by": "netkan"
 }
