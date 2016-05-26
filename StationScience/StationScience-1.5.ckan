@@ -1,25 +1,34 @@
 {
     "spec_version": 1,
     "identifier": "StationScience",
-    "release_status": "stable",
+    "name": "Station Science",
+    "abstract": "Station Science mod adds several large parts designed to be integrated into a permanent space station.",
+    "description": "This mod adds several large parts designed to be integrated into a permanent space station: the Science Lab, the Zoology Bay, the Cyclotron, and the Spectrometron. These heavy parts provide facilities for performing experiments. Experiments are held in small, light pods that you can dock with your space station, execute, and bring back to the surface for Science points. The Spectrometron uses the Cyclotron to analyze Surface Samples that you've brought into orbit, and allows you to transmit the data home for full value. In addition, there are tanks for storing Kibbal for the Zoology Bay.",
+    "author": "ethernet",
     "license": "restricted",
+    "release_status": "stable",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/54774",
         "x_curse": "http://kerbal.curseforge.com/ksp-mods/220216",
         "x_preview": "http://i.imgur.com/63DTlDLl.png"
     },
-    "suggests": [
-        { "name" : "FuelScience"},
-        {"name"  : "OrbitalMaterialScience"}
-    ],
-    "ksp_version_min" : "1.0.2",
-    "ksp_version_max" : "1.0.4",
-    "name": "Station Science",
-    "abstract": "Station Science mod adds several large parts designed to be integrated into a permanent space station.",
-
-    "description": "This mod adds several large parts designed to be integrated into a permanent space station: the Science Lab, the Zoology Bay, the Cyclotron, and the Spectrometron. These heavy parts provide facilities for performing experiments. Experiments are held in small, light pods that you can dock with your space station, execute, and bring back to the surface for Science points. The Spectrometron uses the Cyclotron to analyze Surface Samples that you've brought into orbit, and allows you to transmit the data home for full value. In addition, there are tanks for storing Kibbal for the Zoology Bay.",
-
-    "author": "ethernet",
     "version": "1.5",
-    "download": "http://addons-origin.cursecdn.com/files/2238/826/StationScience-1.5.zip"
+    "ksp_version_min": "1.0.2",
+    "ksp_version_max": "1.0.4",
+    "suggests": [
+        {
+            "name": "FuelScience"
+        },
+        {
+            "name": "OrbitalMaterialScience"
+        }
+    ],
+    "download": "http://addons-origin.cursecdn.com/files/2238/826/StationScience-1.5.zip",
+    "download_size": 4970177,
+    "download_hash": {
+        "sha1": "2EDDBFC5CF65F6327356A8600EDD940F40857C7B",
+        "sha256": "EC51E75F0B41244830467680806FEA2C05972CE714EE85B7DC05D8A94944E823"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
