@@ -1,24 +1,36 @@
 {
-    "spec_version"   : 1,
-    "name"           : "Kerbal Inventory System Fun Pack",
-    "identifier"     : "KISFunPack",
-    "abstract"       : "Funny stuff for KIS",
-    "download"       : "http://addons-origin.cursecdn.com/files/2230/234/KFP_v1.0.0.zip",
-    "license"        : "restricted",
-    "author"         : [ "KospY", "Winn75" ],
-    "version"        : "1.0.0",
-    "release_status" : "stable",
-    "ksp_version"    : "0.90",
+    "spec_version": 1,
+    "identifier": "KISFunPack",
+    "name": "Kerbal Inventory System Fun Pack",
+    "abstract": "Funny stuff for KIS",
+    "author": [
+        "KospY",
+        "Winn75"
+    ],
+    "license": "restricted",
+    "release_status": "stable",
     "resources": {
         "homepage": "http://www.curse.com/ksp-mods/kerbal/228561-kerbal-inventory-system-kis#t1:other-downloads"
     },
+    "version": "1.0.0",
+    "ksp_version": "0.90",
     "depends": [
-        {"name": "KIS"}
+        {
+            "name": "KIS"
+        }
     ],
     "install": [
         {
             "file": "KIS",
             "install_to": "GameData"
         }
-    ]
+    ],
+    "download": "http://addons-origin.cursecdn.com/files/2230/234/KFP_v1.0.0.zip",
+    "download_size": 1357779,
+    "download_hash": {
+        "sha1": "BC4904138BB9007F7E79FE70BFAB29E781AEDBA8",
+        "sha256": "026584F67A0BDDE2712BEECB61D032A120D1301CEA5BA03FA39D7631B4C7F17D"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
