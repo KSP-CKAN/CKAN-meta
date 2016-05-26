@@ -1,31 +1,47 @@
 {
     "spec_version": "v1.4",
-    "name"     : "Advanced Jet Engine (AJE)",
-    "abstract" : "Realistic jet engines for KSP",
     "identifier": "AdvancedJetEngine",
-    "download" : "https://github.com/camlost2/AJE/archive/1.7a.zip",
-    "license"  : "LGPL-2.1",
-    "version"  : "1.7a",
-    "release_status" : "stable",
-    "ksp_version" : "0.90",
-    "install": [
-        {
-            "find"       : "AJE",
-            "install_to" : "GameData"
-        }
-    ],
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/70008",
-        "github"   : {
-            "url"      : "https://github.com/camlost2/AJE"
+    "name": "Advanced Jet Engine (AJE)",
+    "abstract": "Realistic jet engines for KSP",
+    "license": "LGPL-2.1",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/70008",
+        "github": {
+            "url": "https://github.com/camlost2/AJE"
         }
     },
-    "depends" : [
-        { "name" : "FerramAerospaceResearch" },
-        { "name" : "ModuleManager", "min_version" : "2.5.4" }
+    "version": "1.7a",
+    "ksp_version": "0.90",
+    "depends": [
+        {
+            "name": "FerramAerospaceResearch"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.5.4"
+        }
     ],
-    "recommends" : [
-        { "name" : "RealFuels" },
-        { "name" : "HotRockets" }
-    ]
+    "recommends": [
+        {
+            "name": "RealFuels"
+        },
+        {
+            "name": "HotRockets"
+        }
+    ],
+    "install": [
+        {
+            "find": "AJE",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/camlost2/AJE/archive/1.7a.zip",
+    "download_size": 1081456,
+    "download_hash": {
+        "sha1": "18329040B79EC648C6703128A704137E3FE13658",
+        "sha256": "8EFBD8D895629FA63E400ABB4D874B9DA961E626902D8A58F97DD043A2E65255"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
