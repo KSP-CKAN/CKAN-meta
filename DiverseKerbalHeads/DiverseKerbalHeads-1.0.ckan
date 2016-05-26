@@ -1,24 +1,37 @@
 {
     "spec_version": 1,
     "identifier": "DiverseKerbalHeads",
+    "name": "Diverse Kerbal Heads",
+    "abstract": "Texture pack to provide racial and gender diversity to kerbonauts. Requires TextureReplacer.",
+    "author": [
+        "Sylith",
+        "shaw",
+        "IOI655362"
+    ],
     "license": "CC-BY-4.0",
     "resources": {
         "homepage": "http://kerbal.curseforge.com/ksp-mods/220366"
     },
-    "ksp_version": "any",
-    "name": "Diverse Kerbal Heads",
-    "abstract": "Texture pack to provide racial and gender diversity to kerbonauts. Requires TextureReplacer.",
-    "author": [ "Sylith", "shaw", "IOI655362" ],
     "version": "1.0",
-    "download": "http://kerbal.curseforge.com/ksp-mods/220366-diverse-kerbal-heads-1-0/files/2201771/download",
+    "ksp_version": "any",
     "depends": [
-        { "name" : "TextureReplacer" }
+        {
+            "name": "TextureReplacer"
+        }
     ],
     "install": [
         {
-            "file" : "GameData/TextureReplacer",
-            "install_to" : "GameData"
+            "file": "GameData/TextureReplacer",
+            "install_to": "GameData"
         }
     ],
-    "x_maintained_by": "pjf"
+    "download": "http://kerbal.curseforge.com/ksp-mods/220366-diverse-kerbal-heads-1-0/files/2201771/download",
+    "download_size": 20224057,
+    "download_hash": {
+        "sha1": "6AF074449EF328A6BF4D7366D5210D92AE5AAD64",
+        "sha256": "6277C7E662DBA8175305B0D7DA9F2395E6D2274ABA7B8FAAF1F13335834C05CF"
+    },
+    "download_content_type": "application/zip",
+    "x_maintained_by": "pjf",
+    "x_generated_by": "netkan"
 }
