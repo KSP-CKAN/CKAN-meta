@@ -13,6 +13,11 @@
     "provides": [
         "AnimatedDecouplers"
     ],
+    "conflicts": [
+        {
+            "name": "AnimatedDecouplers-x64"
+        }
+    ],
     "install": [
         {
             "file": "GameData/AnimatedDecouplers",
@@ -21,10 +26,10 @@
     ],
     "download": "https://github.com/Starwaster/AnimatedDecouplers/releases/download/1.1.4/AnimatedDecouplers_v1.1.4.zip",
     "download_size": 4638,
-    "conflicts": [
-        {
-            "name": "AnimatedDecouplers-x64"
-        }
-    ],
+    "download_hash": {
+        "sha1": "08A25C2AAAC12699CD7AB97E5902DF9848F795B6",
+        "sha256": "52AF521AFF4DBAEF6026DF0B6CE893590D29915CFEA0CD65C0941ED41E5DE68F"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }
