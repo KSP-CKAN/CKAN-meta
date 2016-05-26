@@ -1,19 +1,16 @@
 {
-    "identifier": "CivilianPopulation",
-    "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": "v1.4",
+    "identifier": "CivilianPopulation",
     "name": "Civilian Population",
+    "abstract": "Civilians have begun exploring space aboard your ships.  Recruit from them and manage them!",
+    "author": "MichaelHester07",
     "license": "GPL-3.0",
-    "install": [
-        {
-            "find": "CivilianManagement",
-            "install_to": "GameData",
-            "filter": [
-                "Regolith.dll",
-                "CivilianManagement.pdb"
-            ]
-        }
-    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/124162-1-0-2-Civilian-Population-1-5-1-(update-6-4-15)",
+        "kerbalstuff": "https://kerbalstuff.com/mod/620/Civilian%20Population"
+    },
+    "version": "1.6.11",
+    "ksp_version": "1.0.2",
     "depends": [
         {
             "name": "CommunityResourcePack"
@@ -25,15 +22,23 @@
             "name": "Regolith"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/124162-1-0-2-Civilian-Population-1-5-1-(update-6-4-15)",
-        "kerbalstuff": "https://kerbalstuff.com/mod/620/Civilian%20Population"
-    },
-    "ksp_version": "1.0.2",
-    "abstract": "Civilians have begun exploring space aboard your ships.  Recruit from them and manage them!",
-    "author": "MichaelHester07",
-    "version": "1.6.11",
+    "install": [
+        {
+            "find": "CivilianManagement",
+            "install_to": "GameData",
+            "filter": [
+                "Regolith.dll",
+                "CivilianManagement.pdb"
+            ]
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/rabidninjawombat_6223/Civilian_Population/Civilian_Population-1.6.11.zip",
-    "x_generated_by": "netkan",
-    "download_size": 21668875
+    "download_size": 21668875,
+    "download_hash": {
+        "sha1": "6701E75E7FE4228168D92ACF00AD5D17E5C4204D",
+        "sha256": "0FA32D7B18E550F98073F6AD71D1222481045BB632CEA46AE99977B11FEE6BC4"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "x_generated_by": "netkan"
 }
