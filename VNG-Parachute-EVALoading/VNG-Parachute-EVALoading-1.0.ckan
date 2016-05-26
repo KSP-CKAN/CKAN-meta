@@ -1,27 +1,36 @@
 {
-    "spec_version"   : "v1.4",
-    "name"           : "EVA Parachutes by default",
-    "abstract"       : "All kerbals have parachutes equipped from start",
-    "description"    : "EVA Parachutes by default without using parachute boxes. To deploy parachutes, either use the context menu or press Jump and Use (Space+F unless you remapped the keys).",
-    "identifier"     : "VNG-Parachute-EVALoading",
-    "download"       : "https://www.dropbox.com/s/4ddtr2f3y88t5hk/EVALoading.zip?dl=1",
-    "license"        : "unknown",
-    "comment"        : "actual licensing wording was more like WTFPL",
-    "version"        : "1.0",
-    "release_status" : "stable",
+    "spec_version": "v1.4",
+    "comment": "actual licensing wording was more like WTFPL",
+    "identifier": "VNG-Parachute-EVALoading",
+    "name": "EVA Parachutes by default",
+    "abstract": "All kerbals have parachutes equipped from start",
+    "description": "EVA Parachutes by default without using parachute boxes. To deploy parachutes, either use the context menu or press Jump and Use (Space+F unless you remapped the keys).",
+    "author": "Fel",
+    "license": "unknown",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/25305?p=442982&viewfull=1#post442982"
+    },
+    "version": "1.0",
     "ksp_version_min": "0.23",
     "ksp_version_max": "1.0.99",
-    "author"         : "Fel",
-    "resources" : {
-        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/25305?p=442982&viewfull=1#post442982"
-    },
-    "install" : [
+    "depends": [
         {
-            "file"       : "EVAParachutes.dll",
-            "install_to" : "GameData/VNG"
+            "name": "VNG-Parachute"
         }
     ],
-    "depends" : [
-        { "name" : "VNG-Parachute" }
-    ]
+    "install": [
+        {
+            "file": "EVAParachutes.dll",
+            "install_to": "GameData/VNG"
+        }
+    ],
+    "download": "https://www.dropbox.com/s/4ddtr2f3y88t5hk/EVALoading.zip?dl=1",
+    "download_size": 1810,
+    "download_hash": {
+        "sha1": "85030748CC2A5504C5B634A16CF0AF7BCC34037A",
+        "sha256": "26CDB8B8EA01E7847F8B12A299005CCC51A08A776114F4F9FD64F85847620AEB"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
