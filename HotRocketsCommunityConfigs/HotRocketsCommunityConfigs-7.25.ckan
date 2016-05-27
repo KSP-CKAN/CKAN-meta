@@ -1,24 +1,35 @@
 {
-    "spec_version" : 1,
-    "name"         : "HotRockets - Community Configs",
-    "abstract"     : "Community configs for popular partpacks",
-    "identifier"   : "HotRocketsCommunityConfigs",
-    "download"     : "http://addons-origin.cursecdn.com/files/2216/165/HotRockets_Community_CFGs.zip",
-    "license"      : "CC-BY-NC",
-    "author"       : [ "Nazari1382" ],
-    "version"      : "7.25",
-    "release_status" : "stable",
-    "ksp_version_min"  : "0.25",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/65754"
+    "spec_version": 1,
+    "identifier": "HotRocketsCommunityConfigs",
+    "name": "HotRockets - Community Configs",
+    "abstract": "Community configs for popular partpacks",
+    "author": [
+        "Nazari1382"
+    ],
+    "license": "CC-BY-NC",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/65754"
     },
-    "install" : [
+    "version": "7.25",
+    "ksp_version_min": "0.25",
+    "depends": [
         {
-            "file"       : "MP_Nazari",
-            "install_to" : "GameData"
+            "name": "HotRockets"
         }
     ],
-    "depends" : [
-        { "name" : "HotRockets" }
-    ]
+    "install": [
+        {
+            "file": "MP_Nazari",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://addons-origin.cursecdn.com/files/2216/165/HotRockets_Community_CFGs.zip",
+    "download_size": 20928,
+    "download_hash": {
+        "sha1": "56B74BD066A77D223E3BCC2D22894202B2FE9C15",
+        "sha256": "92415B8CA7AC3EF4BAD808C8B3DCF782CC2B607F667190B83A9EA62CA655EA03"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
