@@ -1,39 +1,26 @@
 {
     "spec_version": 1,
+    "identifier": "RealFuels",
     "name": "Real Fuels",
     "abstract": "Real fuels and tanks for KSP",
-    "identifier": "RealFuels",
-    "license": "CC-BY-SA",
     "author": [
         "ialdabaoth",
         "NathanKell"
     ],
+    "license": "CC-BY-SA",
     "release_status": "stable",
-    "ksp_version": "0.90",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/64118",
         "repository": "https://github.com/NathanKell/ModularFuelSystem"
     },
-    "install": [
-        {
-            "file": "RealFuels",
-            "install_to": "GameData"
-        }
-    ],
+    "version": "rf-v9.1",
+    "ksp_version": "0.90",
     "depends": [
         {
             "name": "ModuleManager"
         },
         {
             "name": "RealFuels-Engine-Configs"
-        }
-    ],
-    "conflicts": [
-        {
-            "name": "ModularFuelSystem"
-        },
-        {
-            "name": "ModularFuelTanks"
         }
     ],
     "recommends": [
@@ -46,8 +33,26 @@
             "name": "EngineIgnitor"
         }
     ],
-    "version": "rf-v9.1",
+    "conflicts": [
+        {
+            "name": "ModularFuelSystem"
+        },
+        {
+            "name": "ModularFuelTanks"
+        }
+    ],
+    "install": [
+        {
+            "file": "RealFuels",
+            "install_to": "GameData"
+        }
+    ],
     "download": "https://github.com/NathanKell/ModularFuelSystem/releases/download/rf-v9.1/RealFuels_v9.1.zip",
-    "x_generated_by": "netkan",
-    "download_size": 1948817
+    "download_size": 1948817,
+    "download_hash": {
+        "sha1": "009E0A7477835030D288D66C1138A394DB3A41DD",
+        "sha256": "4214555E2958B0DCF23ACA8EB90219DF79F91873CBBCB49E4DB76CEEC75838F8"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
