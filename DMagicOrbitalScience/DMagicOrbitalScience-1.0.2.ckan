@@ -1,18 +1,17 @@
 {
     "spec_version": 1,
     "identifier": "DMagicOrbitalScience",
+    "name": "DMagic Orbital Science",
+    "abstract": "New science parts and experiments",
+    "author": "DMagic",
     "license": "BSD-3-clause",
-    "install": [
-        {
-            "file": "GameData/DMagicOrbitalScience",
-            "install_to": "GameData"
-        }
-    ],
     "resources": {
-        "repository": "https://github.com/DMagic1/Orbital-Science",
         "homepage": "http://forum.kerbalspaceprogram.com/threads/64972",
+        "repository": "https://github.com/DMagic1/Orbital-Science",
         "kerbalstuff": "https://kerbalstuff.com/mod/5/DMagic%20Orbital%20Science"
     },
+    "version": "1.0.2",
+    "ksp_version": "1.0.0",
     "recommends": [
         {
             "name": "ContractsWindowPlus"
@@ -35,12 +34,18 @@
             "name": "CommunityTechTree"
         }
     ],
-    "ksp_version": "1.0.0",
-    "name": "DMagic Orbital Science",
-    "abstract": "New science parts and experiments",
-    "author": "DMagic",
-    "version": "1.0.2",
+    "install": [
+        {
+            "file": "GameData/DMagicOrbitalScience",
+            "install_to": "GameData"
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/DMagic_6/DMagic_Orbital_Science/DMagic_Orbital_Science-1.0.2.zip",
-    "x_generated_by": "netkan",
-    "download_size": 7740294
+    "download_size": 7740294,
+    "download_hash": {
+        "sha1": "7194A3541638B5265E4FCFC509F24AE6D65D9AC5",
+        "sha256": "05DCB32905E132D32D65AD15F93FA517CBA8A7977314AB2226D5E222D25FB759"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
