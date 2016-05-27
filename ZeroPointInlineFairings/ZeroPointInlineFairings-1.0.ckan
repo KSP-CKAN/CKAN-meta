@@ -1,22 +1,17 @@
 {
     "spec_version": 1,
     "identifier": "ZeroPointInlineFairings",
+    "name": "Zero Point Inline Fairings",
+    "abstract": "A stock-alike pack of inline fairings that allow for optional additional stacking above.",
+    "author": "NecroBones",
     "license": "CC-BY-NC-SA",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/94427",
         "kerbalstuff": "https://kerbalstuff.com/mod/196/Zero%20Point%20Inline%20Fairings"
     },
-    "install": [
-        {
-            "file": "0PinlineFairings",
-            "install_to": "GameData"
-        }
-    ],
-    "conflicts": [
-        {
-            "name": "ZeroPointInlineFairings-Lite"
-        }
-    ],
+    "version": "1.0",
+    "ksp_version_min": "1.0.1",
+    "ksp_version_max": "1.0.4",
     "depends": [
         {
             "name": "FerramAerospaceResearch"
@@ -36,13 +31,23 @@
             "name": "FuelTanksPlus"
         }
     ],
-    "name": "Zero Point Inline Fairings",
-    "abstract": "A stock-alike pack of inline fairings that allow for optional additional stacking above.",
-    "author": "NecroBones",
-    "version": "1.0",
+    "conflicts": [
+        {
+            "name": "ZeroPointInlineFairings-Lite"
+        }
+    ],
+    "install": [
+        {
+            "file": "0PinlineFairings",
+            "install_to": "GameData"
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/NecroBones_1035/Zero_Point_Inline_Fairings/Zero_Point_Inline_Fairings-1.0.zip",
-    "x_generated_by": "netkan",
     "download_size": 2789658,
-    "ksp_version_min": "1.0.1",
-    "ksp_version_max": "1.0.4"
+    "download_hash": {
+        "sha1": "72A998AC18A9FC2B3DE293ACA2939D73DA98C699",
+        "sha256": "2F094B5A1474BB7B3F9FA2D22DF259CF59A563AE93953A0147C0BF3133CA4EC9"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
