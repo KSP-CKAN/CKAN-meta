@@ -1,31 +1,46 @@
 {
-    "spec_version"   : "v1.4",
-    "name"           : "Spherical and Toroidal Tank Pack",
-    "abstract"       : "Large and medium spherical and toroidal Tanks",
-    "description"    : "The Spherical and Toroidal tank packs have been combined into one set. Through the use of the Modular Fuels and Firespitter plugins, you are now able to customize the type and capacity of the contents of each tank.",
-    "identifier"     : "TALSphericalToroidalPack",
-    "download"       : "http://taniwha.org/~bill/spherical-tanks.zip",
-    "comment"       : "VERY temporary solution for the download, this needs updating but is momentarily better than no download /@Dazpoet",
-    "license"        : "CC-BY-SA-3.0",
-    "author"         : "Talisar",
-    "version"        : "3.12",
-    "release_status" : "stable",
-    "ksp_version"    : "any",
-    "resources" : {
-        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/30673"
+    "spec_version": "v1.4",
+    "comment": "VERY temporary solution for the download, this needs updating but is momentarily better than no download /@Dazpoet",
+    "identifier": "TALSphericalToroidalPack",
+    "name": "Spherical and Toroidal Tank Pack",
+    "abstract": "Large and medium spherical and toroidal Tanks",
+    "description": "The Spherical and Toroidal tank packs have been combined into one set. Through the use of the Modular Fuels and Firespitter plugins, you are now able to customize the type and capacity of the contents of each tank.",
+    "author": "Talisar",
+    "license": "CC-BY-SA-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/30673"
     },
-    "install" : [
+    "version": "3.12",
+    "ksp_version": "any",
+    "depends": [
         {
-            "file"       : "ModsByTal",
-            "install_to" : "GameData"
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "ModuleManager"
         }
     ],
-    "depends" : [
-        { "name" : "FirespitterCore" },
-        { "name" : "ModuleManager" }
+    "recommends": [
+        {
+            "name": "ModularFuelTanks"
+        },
+        {
+            "name": "RealFuels"
+        }
     ],
-    "recommends" : [
-        { "name" : "ModularFuelTanks" },
-        { "name" : "RealFuels" }
-    ]
+    "install": [
+        {
+            "file": "ModsByTal",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://taniwha.org/~bill/spherical-tanks.zip",
+    "download_size": 13518799,
+    "download_hash": {
+        "sha1": "C4F0E0B240C8295CC11465574B02B8DDAAEF5CD3",
+        "sha256": "EC7D5524F48D239A50F7441DDB4B884B369B90E7C8574AA7045DDEA5FF205559"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
