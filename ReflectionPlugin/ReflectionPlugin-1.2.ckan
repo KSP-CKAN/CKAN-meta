@@ -1,15 +1,31 @@
 {
-    "spec_version"  :   "v1.4",
-    "identifier"    :   "ReflectionPlugin",
-    "name"          :   "Reflection Plugin for KSP",
-    "license"       :   "public-domain",
-    "abstract"      :   "Make stuff shiny, plugin for modders",
-    "version"       :   "1.2",
-    "author"        :   [ "Starwaster", "Razchek" ],
+    "spec_version": "v1.4",
+    "identifier": "ReflectionPlugin",
+    "name": "Reflection Plugin for KSP",
+    "abstract": "Make stuff shiny, plugin for modders",
+    "author": [
+        "Starwaster",
+        "Razchek"
+    ],
+    "license": "public-domain",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/70089"
+    },
+    "version": "1.2",
     "ksp_version_min": "0.24.2",
     "ksp_version_max": "1.0.5",
-    "download"      :   "https://github.com/Starwaster/Reflection-Plugin-Continued/blob/Dev/ReflectionPlugin.DEV.1.2.zip?raw=true",
-    "install"       :   [ { "file"  :   "ReflectionPlugin.dll",
-                            "install_to"    :   "GameData/FASA/Plugins"}],
-    "resources"     :   { "homepage"  :  "http://forum.kerbalspaceprogram.com/threads/70089"}
+    "install": [
+        {
+            "file": "ReflectionPlugin.dll",
+            "install_to": "GameData/FASA/Plugins"
+        }
+    ],
+    "download": "https://github.com/Starwaster/Reflection-Plugin-Continued/blob/Dev/ReflectionPlugin.DEV.1.2.zip?raw=true",
+    "download_size": 1278399,
+    "download_hash": {
+        "sha1": "8B05B20E8BC161C986D6B0DFD1BBA88951C17242",
+        "sha256": "2669EF83A28DA6765CF5DC5012C1C5F39F2D6121C492EDB6AFBD84807D3FA26A"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
