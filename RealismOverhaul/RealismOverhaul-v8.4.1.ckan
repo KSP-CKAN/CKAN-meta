@@ -1,10 +1,20 @@
 {
     "spec_version": "v1.2",
-    "name": "Realism Overhaul",
     "identifier": "RealismOverhaul",
+    "name": "Realism Overhaul",
     "abstract": "Multipatch to KSP to give things realistic stats and sizes",
+    "author": "NathanKell",
     "license": "CC-BY-SA",
     "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/99966",
+        "repository": "https://github.com/KSP-RO/RealismOverhaul"
+    },
+    "version": "v8.4.1",
+    "ksp_version": "0.90.0",
+    "provides": [
+        "RealFuels-Engine-Configs"
+    ],
     "depends": [
         {
             "name": "AdvancedJetEngine"
@@ -199,13 +209,6 @@
             "name": "TweakableEverything"
         }
     ],
-    "provides": [
-        "RealFuels-Engine-Configs"
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/99966",
-        "repository": "https://github.com/KSP-RO/RealismOverhaul"
-    },
     "install": [
         {
             "file": "GameData/RealismOverhaul",
@@ -234,10 +237,12 @@
             "comment": "SPH craft files"
         }
     ],
-    "author": "NathanKell",
-    "version": "v8.4.1",
     "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v8.4.1/RealismOverhaul-v8.4.1.zip",
-    "x_generated_by": "netkan",
     "download_size": 17539101,
-    "ksp_version": "0.90.0"
+    "download_hash": {
+        "sha1": "7057F03FF61DC7ADF24FCDCF97ACA62936E7C8A2",
+        "sha256": "F8E3CB81D15AC8FA929F3FFA04411809CA4DEDF6906DE391E6590369FB1D99BA"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
