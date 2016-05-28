@@ -1,31 +1,36 @@
 {
-  "spec_version": 1,
-  "identifier": "ShipManifest",
-  "release_status": "stable",
-  "license": "CC-BY-NC-SA-4.0",
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/62270",
-    "repository": "https://github.com/PapaJoesSoup/ShipManifest",
-    "x_curse": "http://kerbal.curseforge.com/plugins/220357-ship-manifest",
-    "kerbalstuff": "https://kerbalstuff.com/mod/261/Ship%20Manifest"
-  },
-  "suggests": [
-    {
-      "name": "CLS"
+    "spec_version": 1,
+    "identifier": "ShipManifest",
+    "name": "Ship Manifest",
+    "abstract": "Ship Manifest is a tool to move your ship's \"things\".  Ship Manifest moves crew, Science and Resources around from part to part within your ship or station.",
+    "author": "Papa_Joe",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/62270",
+        "repository": "https://github.com/PapaJoesSoup/ShipManifest",
+        "kerbalstuff": "https://kerbalstuff.com/mod/261/Ship%20Manifest",
+        "x_curse": "http://kerbal.curseforge.com/plugins/220357-ship-manifest"
     },
-    {
-      "name": "Toolbar"
+    "version": "0.25.0_3.3.2b",
+    "ksp_version": "0.25",
+    "suggests": [
+        {
+            "name": "CLS"
+        },
+        {
+            "name": "Toolbar"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/Papa_Joe_2689/Ship_Manifest/Ship_Manifest-0.25.0_3.3.2b.zip",
+    "download_size": 546564,
+    "download_hash": {
+        "sha1": "CF45E18223C607C34271FD5C0F393355CEB3C4FB",
+        "sha256": "19DDE48DB79C15792E5E196FCD83A7F77B63DA36A6044819FBB2334F3C19F27D"
     },
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "ksp_version": "0.25",
-  "name": "Ship Manifest",
-  "abstract": "Ship Manifest is a tool to move your ship's \"things\".  Ship Manifest moves crew, Science and Resources around from part to part within your ship or station.",
-  "author": "Papa_Joe",
-  "version": "0.25.0_3.3.2b",
-  "download": "http://ckan1.spacedock.info/storage/Papa_Joe_2689/Ship_Manifest/Ship_Manifest-0.25.0_3.3.2b.zip",
-  "x_generated_by": "netkan",
-  "download_size": 546564
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
