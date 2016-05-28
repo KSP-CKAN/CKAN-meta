@@ -1,13 +1,27 @@
 {
     "spec_version": 1,
     "identifier": "StationScience",
-    "release_status": "stable",
+    "name": "Station Science",
+    "abstract": "Station Science mod adds several large parts designed to be integrated into a permanent space station.",
+    "description": "This mod adds several large parts designed to be integrated into a permanent space station: the Science Lab, the Zoology Bay, the Cyclotron, and the Spectrometron. These heavy parts provide facilities for performing experiments. Experiments are held in small, light pods that you can dock with your space station, execute, and bring back to the surface for Science points. The Spectrometron uses the Cyclotron to analyze Surface Samples that you've brought into orbit, and allows you to transmit the data home for full value. In addition, there are tanks for storing Kibbal for the Zoology Bay.",
+    "author": "ethernet",
     "license": "restricted",
+    "release_status": "stable",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/54774",
         "x_curse": "http://kerbal.curseforge.com/ksp-mods/220216",
         "x_preview": "http://i.imgur.com/63DTlDLl.png"
     },
+    "version": "1.4",
+    "ksp_version": "0.90",
+    "suggests": [
+        {
+            "name": "FuelScience"
+        },
+        {
+            "name": "OrbitalMaterialScience"
+        }
+    ],
     "install": [
         {
             "file": "GameData/StationScience",
@@ -15,17 +29,12 @@
             "filter": "OldParts.zip"
         }
     ],
-    "suggests": [
-        { "name" : "FuelScience"},
-        {"name"  : "OrbitalMaterialScience"}
-    ],
-    "ksp_version": "0.90",
-    "name": "Station Science",
-    "abstract": "Station Science mod adds several large parts designed to be integrated into a permanent space station.",
-
-    "description": "This mod adds several large parts designed to be integrated into a permanent space station: the Science Lab, the Zoology Bay, the Cyclotron, and the Spectrometron. These heavy parts provide facilities for performing experiments. Experiments are held in small, light pods that you can dock with your space station, execute, and bring back to the surface for Science points. The Spectrometron uses the Cyclotron to analyze Surface Samples that you've brought into orbit, and allows you to transmit the data home for full value. In addition, there are tanks for storing Kibbal for the Zoology Bay.",
-
-    "author": "ethernet",
-    "version": "1.4",
-    "download": "http://kerbal.curseforge.com/ksp-mods/220216-station-science-v-0-4/files/2222038/download"
+    "download": "http://kerbal.curseforge.com/ksp-mods/220216-station-science-v-0-4/files/2222038/download",
+    "download_size": 5569478,
+    "download_hash": {
+        "sha1": "3BD0DFB7F7C186FF9B0D6E4985F39078731454D9",
+        "sha256": "919E0DC11365A5FE5AD5F3C2268525984D7AA7D6627FE742C20097A32AD44E0C"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
