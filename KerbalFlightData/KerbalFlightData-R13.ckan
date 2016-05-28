@@ -1,26 +1,31 @@
 {
-  "spec_version": 1,
-  "identifier": "KerbalFlightData",
-  "name": "Kerbal Flight Data",
-  "abstract": "Displays essential information for piloting space planes. Meant to be used in conjunction with Ferram Aerospace Resarch.",
-  "license": "GPL-3.0",
-  "ksp_version": "0.25",
-  "recommends": [
-    {
-      "name": "Toolbar"
+    "spec_version": 1,
+    "identifier": "KerbalFlightData",
+    "name": "Kerbal Flight Data",
+    "abstract": "Displays essential information for piloting space planes. Meant to be used in conjunction with Ferram Aerospace Resarch.",
+    "author": "DaMichel",
+    "license": "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/80842",
+        "repository": "https://github.com/DaMichel/KerbalFlightData"
     },
-    {
-      "name": "FerramAerospaceResearch"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/80842",
-    "repository": "https://github.com/DaMichel/KerbalFlightData"
-  },
-  "author": "DaMichel",
-  "release_status": "stable",
-  "version": "R13",
-  "download": "https://github.com/DaMichel/KerbalFlightData/releases/download/R13/KerbalFlightDataR13.zip",
-  "x_generated_by": "netkan",
-  "download_size": 20181
+    "version": "R13",
+    "ksp_version": "0.25",
+    "recommends": [
+        {
+            "name": "Toolbar"
+        },
+        {
+            "name": "FerramAerospaceResearch"
+        }
+    ],
+    "download": "https://github.com/DaMichel/KerbalFlightData/releases/download/R13/KerbalFlightDataR13.zip",
+    "download_size": 20181,
+    "download_hash": {
+        "sha1": "6F8DCEB135E2ED7944C57B72A17D72999C592710",
+        "sha256": "9380FB92F26F2124B6FF63927DC95375E2BDE0E83FCC6E9F24BD10938B4B12C3"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
