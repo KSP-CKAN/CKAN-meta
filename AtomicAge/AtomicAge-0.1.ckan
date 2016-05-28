@@ -1,15 +1,34 @@
 {
     "spec_version": "v1.4",
-    "identifier"  : "AtomicAge",
-    "name"        : "Atomic Age - Nuclear Rockets",
-    "author"      : [ "Porkjet" ],
-    "version"     : "0.1",
-    "abstract"    : "Adds two new nuclear rockets and the ability to change between LFO/LF/O in fuel tanks",
-    "ksp_version" : "0.90",
-    "license"     : "CC-BY-NC-SA-4.0",
+    "identifier": "AtomicAge",
+    "name": "Atomic Age - Nuclear Rockets",
+    "abstract": "Adds two new nuclear rockets and the ability to change between LFO/LF/O in fuel tanks",
+    "author": [
+        "Porkjet"
+    ],
+    "license": "CC-BY-NC-SA-4.0",
+    "version": "0.1",
+    "ksp_version": "0.90",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "FirespitterCore"
+        }
+    ],
+    "install": [
+        {
+            "find": "AtomicAge",
+            "install_to": "GameData"
+        }
+    ],
     "download": "https://www.dropbox.com/s/9arvk618jzum8ww/AtomicAge.zip?dl=1",
-    "depends"   :   [ { "name" : "ModuleManager" },
-                    { "name" : "FirespitterCore" } ],
-    "install"   :   [ { "find" : "AtomicAge",
-                        "install_to" : "GameData"} ]
+    "download_size": 2073355,
+    "download_hash": {
+        "sha1": "A7E73C423A0B34AD0ACFC7E959BAB0573D83431F",
+        "sha256": "5651F9658E78E60A32DDAF08C0F2C744673B2D586E96DEA9545F95FF305BAAC4"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
