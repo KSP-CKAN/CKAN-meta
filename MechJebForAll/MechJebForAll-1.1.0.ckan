@@ -1,18 +1,37 @@
 {
-"spec_version": 1,
-"identifier" : "MechJebForAll",
-"name" : "MechJeb and Engineer for all!",
-"author" : [ "nadseh" ],
-"version" : "1.1.0",
-"abstract" : "Automatically includes a MechJeb computer, Flight Engineer and Build Engineer on any craft that includes a probe core or a command module.",
-"ksp_version" : "0.90",
-"license" : "GPL-3.0",
-"download": "http://addons.curse.cursecdn.com/files/2225/270/MechJebAndEngineerForAll-v1.1.0.0.zip",
-"depends": [
-{ "name": "MechJeb2" },
-{ "name": "ModuleManager" },
-{ "name": "KerbalEngineerRedux" }],
-"install": [ {"file": "MechJebAndEngineerForAll.cfg",
-            "install_to": "GameData" }
-]
+    "spec_version": 1,
+    "identifier": "MechJebForAll",
+    "name": "MechJeb and Engineer for all!",
+    "abstract": "Automatically includes a MechJeb computer, Flight Engineer and Build Engineer on any craft that includes a probe core or a command module.",
+    "author": [
+        "nadseh"
+    ],
+    "license": "GPL-3.0",
+    "version": "1.1.0",
+    "ksp_version": "0.90",
+    "depends": [
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KerbalEngineerRedux"
+        }
+    ],
+    "install": [
+        {
+            "file": "MechJebAndEngineerForAll.cfg",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://addons.curse.cursecdn.com/files/2225/270/MechJebAndEngineerForAll-v1.1.0.0.zip",
+    "download_size": 24072,
+    "download_hash": {
+        "sha1": "A42D0C3AD194BA0FDD64B9CA5F6B46A034DE9D7B",
+        "sha256": "FD95865A8CDE6A119F96CB2BBE6319D4D30444363560B358E9FDB50B70D43A7A"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
