@@ -1,24 +1,35 @@
 {
-    "spec_version"    : 1,
-    "identifier"      : "SPPCC",
-    "name"            : "Space Plane Color Corrections",
-    "author"          : "Avera9eJoe",
-    "abstract"        : "Personally I've been pretty annoyed that the spaceplane pieces (and a number of other parts) don't all have matching colors or textures. They have a base white coat which is used for all splaceplane parts, but there are about five different shades that are used for wing trims. SO..... rather then complaining about it, I'm going to try and solve it.",
-    "version"         : "v0.12",
-    "ksp_version"     : "1.0.5",
-    "license"         : "MIT",
-    "depends"         : [
-        { "name" : "FirespitterCore" },
-        { "name" : "ModuleManager" }
-    ],
-    "resources"       : {
+    "spec_version": 1,
+    "identifier": "SPPCC",
+    "name": "Space Plane Color Corrections",
+    "abstract": "Personally I've been pretty annoyed that the spaceplane pieces (and a number of other parts) don't all have matching colors or textures. They have a base white coat which is used for all splaceplane parts, but there are about five different shades that are used for wing trims. SO..... rather then complaining about it, I'm going to try and solve it.",
+    "author": "Avera9eJoe",
+    "license": "MIT",
+    "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/106489-105"
     },
-    "download"        : "https://www.dropbox.com/s/822jueuhkmimwqn/SPPCC%20v0.12.zip?dl=1",
-    "install"         : [
+    "version": "v0.12",
+    "ksp_version": "1.0.5",
+    "depends": [
         {
-        "file"       : "SPPCC",
-        "install_to" : "GameData"
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "ModuleManager"
         }
-    ]
+    ],
+    "install": [
+        {
+            "file": "SPPCC",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://www.dropbox.com/s/822jueuhkmimwqn/SPPCC%20v0.12.zip?dl=1",
+    "download_size": 12820482,
+    "download_hash": {
+        "sha1": "F0DCCAD9A7E5B1C77CD60392E2A7F5517C73CB3D",
+        "sha256": "4B24CD991D2DD96DCC16B83506BB4F0CC1938AA71EA10B7D935017540C17CA6B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
