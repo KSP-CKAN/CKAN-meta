@@ -1,39 +1,44 @@
 {
-  "spec_version": 1,
-  "ksp_version": "any",
-  "name": "TAC Life Support (TACLS) - Realism Overhaul Config",
-  "identifier": "TACLS-Config-RealismOverhaul",
-  "abstract": "Realism Overhaul config for TACLS",
-  "license": "CC-BY-SA",
-  "release_status": "stable",
-  "depends": [
-    {
-      "name": "RealismOverhaul"
+    "spec_version": 1,
+    "identifier": "TACLS-Config-RealismOverhaul",
+    "name": "TAC Life Support (TACLS) - Realism Overhaul Config",
+    "abstract": "Realism Overhaul config for TACLS",
+    "author": "Felger",
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/RealismOverhaul"
     },
-    {
-      "name": "TACLS"
-    }
-  ],
-  "provides": [
-    "TACLS-Config"
-  ],
-  "conflicts": [
-    {
-      "name": "TACLS-Config"
-    }
-  ],
-  "install": [
-    {
-      "file": "ThunderAerospace",
-      "install_to": "GameData"
-    }
-  ],
-  "resources": {
-    "repository": "https://github.com/KSP-RO/RealismOverhaul"
-  },
-  "author": "Felger",
-  "version": "v7.0.0b",
-  "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v7.0.0b/RealismOverhaul_v7_0_0b.zip",
-  "x_generated_by": "netkan",
-  "download_size": 1394482
+    "version": "v7.0.0b",
+    "ksp_version": "any",
+    "provides": [
+        "TACLS-Config"
+    ],
+    "depends": [
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "TACLS"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TACLS-Config"
+        }
+    ],
+    "install": [
+        {
+            "file": "ThunderAerospace",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v7.0.0b/RealismOverhaul_v7_0_0b.zip",
+    "download_size": 1394482,
+    "download_hash": {
+        "sha1": "6D35C9864208635807646A816A3C986BD1DF624A",
+        "sha256": "4E69393A38EDA4265E1EF35157B706185E03F5409C941DB688B34127AC701DA9"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
