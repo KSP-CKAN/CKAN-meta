@@ -1,14 +1,16 @@
 {
     "spec_version": 1,
     "identifier": "KSPInterstellarExtended",
+    "name": "KSP Interstellar Extended",
+    "abstract": "Full download of KSPI-E",
+    "author": "FreeThinker",
     "license": "GPL-3.0",
-    "install": [
-        {
-            "file": "GameData/WarpPlugin",
-            "install_to": "GameData",
-            "filter": "MiniAVC.xml"
-        }
-    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/111159-WIP-0-90-KSP-Interstellar-Extended",
+        "kerbalstuff": "https://kerbalstuff.com/mod/791/KSP%20Interstellar%20Extended"
+    },
+    "version": "1.1.15",
+    "ksp_version": "1.0.2",
     "depends": [
         {
             "name": "CommunityResourcePack"
@@ -41,16 +43,19 @@
             "name": "CrossFeedEnabler"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/111159-WIP-0-90-KSP-Interstellar-Extended",
-        "kerbalstuff": "https://kerbalstuff.com/mod/791/KSP%20Interstellar%20Extended"
-    },
-    "ksp_version": "1.0.2",
-    "name": "KSP Interstellar Extended",
-    "abstract": "Full download of KSPI-E",
-    "author": "FreeThinker",
-    "version": "1.1.15",
+    "install": [
+        {
+            "file": "GameData/WarpPlugin",
+            "install_to": "GameData",
+            "filter": "MiniAVC.xml"
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/FreeThinker_6401/KSP_Interstellar_Extended/KSP_Interstellar_Extended-1.1.15.zip",
-    "x_generated_by": "netkan",
-    "download_size": 41941270
+    "download_size": 41941270,
+    "download_hash": {
+        "sha1": "0988DAF79878D7B4DFB3CFFD9FA887CB0AD26999",
+        "sha256": "812E3D42E80328CE0A721A66A0C74102F2769A9BF870DDC8633CF40CF344FD31"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
