@@ -1,25 +1,33 @@
 {
     "spec_version": 1,
+    "comment": "Hand packaged by Felger, if anything's wrong, it's my fault.",
     "identifier": "Service-Compartments-6S",
-    "ksp_version_min": "0.25",
-    "resources":
-    {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/61040-0-23-6S-Service-Compartment-Tubes-Design-smooth!"
-    },
     "name": "6S Service Compartment Tubes",
-    "license": "CC-BY-NC-SA",
     "abstract": "It's a tube.. and a hull... and a cargo bay... and a.. well, just about everything. And it is only 2 PARTS!!!",
     "author": "nothke",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/61040-0-23-6S-Service-Compartment-Tubes-Design-smooth!"
+    },
     "version": "1.2",
-    "download": "http://addons.cursecdn.com/files/2201/755/tubes.zip",
-    "comment" : "Hand packaged by Felger, if anything's wrong, it's my fault.",
-    "install": [
+    "ksp_version_min": "0.25",
+    "depends": [
         {
-            "file"       : "NothkeSerCom",
-            "install_to" : "GameData"
+            "name": "FirespitterCore"
         }
     ],
-    "depends": [
-        { "name": "FirespitterCore" }
-    ]
+    "install": [
+        {
+            "file": "NothkeSerCom",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://addons.cursecdn.com/files/2201/755/tubes.zip",
+    "download_size": 273686,
+    "download_hash": {
+        "sha1": "66AB2505B66F301FF93F1C57B327DAFBBD8CA33B",
+        "sha256": "8DC047462AF46044CB7F55CAB7B834728AD8DAC2C7480B574E3518C74E84EE21"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
