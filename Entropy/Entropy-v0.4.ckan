@@ -1,40 +1,45 @@
 {
-  "spec_version": 1,
-  "identifier": "Entropy",
-  "release_status": "development",
-  "license": "GPL-3.0",
-  "depends": [
-    {
-      "name": "DangIt",
-      "min_version": "0.5"
+    "spec_version": 1,
+    "identifier": "Entropy",
+    "name": "Entropy",
+    "abstract": "A Hardmode for Ippo's DangIt!",
+    "author": "Coffeeman",
+    "license": "GPL-3.0",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/102197",
+        "repository": "https://github.com/602p/Entropy",
+        "bugtracker": "https://github.com/602p/Entropy/issues",
+        "kerbalstuff": "https://kerbalstuff.com/mod/388"
     },
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/102197",
-    "bugtracker": "https://github.com/602p/Entropy/issues",
-    "repository": "https://github.com/602p/Entropy",
-    "kerbalstuff": "https://kerbalstuff.com/mod/388"
-  },
-  "install": [
-    {
-      "file": "GameData/Entropy",
-      "install_to": "GameData"
-    }
-  ],
-  "suggests": [
-    {
-      "name": "EntropyRealChute"
-    }
-  ],
-  "ksp_version": "0.90",
-  "name": "Entropy",
-  "abstract": "A Hardmode for Ippo's DangIt!",
-  "author": "Coffeeman",
-  "version": "v0.4",
-  "download": "http://ckan1.spacedock.info/storage/Coffeeman_4174/Entropy/Entropy-v0.4.zip",
-  "x_generated_by": "netkan",
-  "download_size": 14978
+    "version": "v0.4",
+    "ksp_version": "0.90",
+    "depends": [
+        {
+            "name": "DangIt",
+            "min_version": "0.5"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "EntropyRealChute"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Entropy",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/Coffeeman_4174/Entropy/Entropy-v0.4.zip",
+    "download_size": 14978,
+    "download_hash": {
+        "sha1": "A44D00DF5542D275DE72837197576E78ADBB3D3C",
+        "sha256": "9A1FC578EE407834EAA8BE4FAB422E60972DBABA2ABE8321F4414023FE1BF930"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

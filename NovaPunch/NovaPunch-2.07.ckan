@@ -1,28 +1,33 @@
 {
-  "spec_version": 1,
-  "identifier": "NovaPunch",
-  "license": "CC-BY-SA-3.0",
-  "install": [
-    {
-      "file": "GameData/NovaPunch2",
-      "install_to": "GameData"
+    "spec_version": 1,
+    "identifier": "NovaPunch",
+    "name": "NovaPunch",
+    "abstract": "Novapunch is a pack of realistically-styled rocket parts from 1 to 5 meters in diameter. It includes engines, fuel tanks, many adapters and utility parts as well as new crew capsules and spacecraft.",
+    "author": "Tiberion",
+    "license": "CC-BY-SA-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/3870",
+        "kerbalstuff": "https://kerbalstuff.com/mod/26/NovaPunch"
     },
-    {
-      "file": "Ships/VAB",
-      "install_to": "Ships",
-      "comment": "NovaPunch craft files"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/3870",
-    "kerbalstuff": "https://kerbalstuff.com/mod/26/NovaPunch"
-  },
-  "ksp_version": "0.25",
-  "name": "NovaPunch",
-  "abstract": "Novapunch is a pack of realistically-styled rocket parts from 1 to 5 meters in diameter. It includes engines, fuel tanks, many adapters and utility parts as well as new crew capsules and spacecraft.",
-  "author": "Tiberion",
-  "version": "2.07",
-  "download": "http://ckan1.spacedock.info/storage/Tiberion_62/NovaPunch/NovaPunch-2.07.zip",
-  "x_generated_by": "netkan",
-  "download_size": 87601867
+    "version": "2.07",
+    "ksp_version": "0.25",
+    "install": [
+        {
+            "file": "GameData/NovaPunch2",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships/VAB",
+            "install_to": "Ships",
+            "comment": "NovaPunch craft files"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/Tiberion_62/NovaPunch/NovaPunch-2.07.zip",
+    "download_size": 87601867,
+    "download_hash": {
+        "sha1": "825E4647EBCE8724B442812AF43E510EE1AD1FE8",
+        "sha256": "C2254CB0A54CD67E3661AE41E986BC0ABB8FE3B834FF4DE2F4F3E5D84B08D0BD"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
