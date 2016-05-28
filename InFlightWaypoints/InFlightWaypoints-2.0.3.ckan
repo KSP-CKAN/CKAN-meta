@@ -3,26 +3,31 @@
     "identifier": "InFlightWaypoints",
     "name": "Waypoint Manager",
     "abstract": "Display waypoints while in flight, create custom waypoints.",
+    "description": "Display waypoints while in flight, create custom waypoints.",
+    "author": "nightingale",
     "license": "CC-BY-NC-SA-4.0",
     "release_status": "stable",
-    "author": "nightingale",
-    "description": "Display waypoints while in flight, create custom waypoints.",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/104758",
+        "repository": "https://github.com/jrossignol/WaypointManager",
+        "bugtracker": "https://github.com/jrossignol/WaypointManager/issues",
+        "license": "https://raw.githubusercontent.com/jrossignol/WaypointManager/master/LICENSE.txt"
+    },
+    "version": "2.0.3",
+    "ksp_version_min": "0.90.0",
+    "ksp_version_max": "0.90.0",
     "install": [
         {
             "file": "GameData/WaypointManager",
             "install_to": "GameData"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/104758",
-        "bugtracker": "https://github.com/jrossignol/WaypointManager/issues",
-        "license": "https://raw.githubusercontent.com/jrossignol/WaypointManager/master/LICENSE.txt",
-        "repository": "https://github.com/jrossignol/WaypointManager"
-    },
-    "version": "2.0.3",
     "download": "https://github.com/jrossignol/WaypointManager/releases/download/2.0.3/WaypointManager_2.0.3.zip",
-    "x_generated_by": "netkan",
-    "download_size": 72605,
-    "ksp_version_min": "0.90.0",
-    "ksp_version_max": "0.90.0"
+    "download_size": 72607,
+    "download_hash": {
+        "sha1": "FA2215814DB9297CFBDAC5A70F0149F9440E3252",
+        "sha256": "5D94A29B2B879E42A8FB84175518973DC1F33360384C5ACA0660134920A089C8"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
