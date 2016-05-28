@@ -1,29 +1,33 @@
 {
     "spec_version": "v1.4",
-    "license": "BSD-3-clause",
     "identifier": "BeCoolStockNuke",
+    "name": "Be Cool Stock Nuke",
+    "abstract": "Surface mountable LV-N = clusters where engine heat can conduct to the fuel tank / heat sink. Also three handy LiquidFuel ony tanks in classic orange. Requires ModuleManager.",
+    "author": "uda",
+    "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/122096",
+        "kerbalstuff": "https://kerbalstuff.com/mod/813/Be%20Cool%20Stock%20Nuke"
+    },
+    "version": "0.3",
+    "ksp_version": "1.0.2",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
     "install": [
         {
             "file": "UberDyneAstronautics",
             "install_to": "GameData"
         }
     ],
-    "depends": [
-        {
-            "name": "ModuleManager"
-        }
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/122096",
-        "kerbalstuff": "https://kerbalstuff.com/mod/813/Be%20Cool%20Stock%20Nuke"
-    },
-    "x_netkan_license_ok": true,
-    "ksp_version": "1.0.2",
-    "name": "Be Cool Stock Nuke",
-    "abstract": "Surface mountable LV-N = clusters where engine heat can conduct to the fuel tank / heat sink. Also three handy LiquidFuel ony tanks in classic orange. Requires ModuleManager.",
-    "author": "uda",
-    "version": "0.3",
     "download": "http://ckan1.spacedock.info/storage/uda_10414/Be_Cool_Stock_Nuke/Be_Cool_Stock_Nuke-0.3.zip",
-    "x_generated_by": "netkan",
-    "download_size": 4214
+    "download_size": 4214,
+    "download_hash": {
+        "sha1": "53239A52FF6ABCAE88475107799CA4A5889244FA",
+        "sha256": "5372BDABFF3E82F1B3637D2C1E7E5A0DD6C7C233B1A96069AC2DBB47D286A61F"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
