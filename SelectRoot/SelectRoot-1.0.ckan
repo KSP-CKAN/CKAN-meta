@@ -1,21 +1,28 @@
 {
     "spec_version": 1,
+    "comment": "Hand packaged by Felger, if anything's wrong, it's my fault.",
     "identifier": "SelectRoot",
-    "ksp_version": "0.25",
-    "resources":
-    {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/43208-0-24-Jul18-SelectRoot-Set-a-new-root-part-Still-works-in-0-25"
-    },
     "name": "Select Root",
-    "license": "MIT",
     "abstract": "SelectRoot allows you to select a part on your vessel to become the new root part. As if you rebuilt your craft starting with that part. Best used with your favorite subassembly loader!",
     "author": "FW Industries",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/43208-0-24-Jul18-SelectRoot-Set-a-new-root-part-Still-works-in-0-25"
+    },
     "version": "1.0",
+    "ksp_version": "0.25",
+    "install": [
+        {
+            "file": "GameData/SelectRoot",
+            "install_to": "GameData"
+        }
+    ],
     "download": "https://dl.dropboxusercontent.com/u/7121093/ksp-mods/KSP-Plugin-24.0-SelectRoot-Jul18.zip",
-    "comment" : "Hand packaged by Felger, if anything's wrong, it's my fault.",
-    "install" : [
-    {
-        "file"      :   "GameData/SelectRoot",
-        "install_to":   "GameData"
-    }]
+    "download_size": 11140,
+    "download_hash": {
+        "sha1": "AF6352289ABB30D626FC1DBFD9840679DB708029",
+        "sha256": "3A8F7F4C151475B0C93E6A4B46E3289D6488A6611A294612052FE3E1D3662C12"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
