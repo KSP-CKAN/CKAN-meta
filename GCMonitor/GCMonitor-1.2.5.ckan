@@ -3,21 +3,27 @@
     "identifier": "GCMonitor",
     "name": "Graphic Memory Monitor",
     "abstract": "This plugin will show you the memory usage of the running KSP installation",
-    "license": "MIT",
     "author": "sarbian",
-    "ksp_version": "1.0.2",
+    "license": "MIT",
     "resources": {
-        "ci": "https://ksp.sarbian.com/jenkins/job/GCMonitor/",
         "homepage": "http://forum.kerbalspaceprogram.com/threads/92907",
-        "repository": "https://github.com/sarbian/GCMonitor/"
+        "repository": "https://github.com/sarbian/GCMonitor/",
+        "ci": "https://ksp.sarbian.com/jenkins/job/GCMonitor/"
     },
+    "version": "1.2.5",
+    "ksp_version": "1.0.2",
     "install": [
         {
             "find": "GCMonitor",
             "install_to": "GameData"
         }
     ],
-    "version": "1.2.5",
     "download": "https://ksp.sarbian.com/jenkins/job/GCMonitor/22/artifact/GCMonitor-1.2.5.0.zip",
-    "download_size": 102804
+    "download_size": 102804,
+    "download_hash": {
+        "sha1": "1EA88DCC982CF9800F5C872A4421F9EA30448438",
+        "sha256": "03EBB314E76B6B99054B94C91595A95BE1441BA6E36B1BE90A20563B5FD37D50"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
