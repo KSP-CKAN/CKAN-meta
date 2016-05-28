@@ -1,9 +1,18 @@
 {
     "spec_version": "v1.4",
+    "identifier": "ClampsBeGone",
     "name": "ClampsBeGone",
     "abstract": "Prevents launch clamps following vessels on their way to orbit by removing them as soon as the vessel launches.",
-    "identifier": "ClampsBeGone",
+    "author": "iPeer",
     "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/129870",
+        "repository": "https://github.com/iPeer/ClampsBeGone",
+        "bugtracker": "https://github.com/iPeer/ClampsBeGone/issues"
+    },
+    "version": "1.0.0",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.4",
     "install": [
         {
             "find": "iPeer",
@@ -14,16 +23,12 @@
             ]
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/129870",
-        "repository": "https://github.com/iPeer/ClampsBeGone",
-        "bugtracker": "https://github.com/iPeer/ClampsBeGone/issues"
-    },
-    "version": "1.0.0",
-    "author": "iPeer",
     "download": "https://github.com/iPeer/ClampsBeGone/releases/download/1.0/ClampsBeGone1.0.zip",
-    "ksp_version_min": "1.0.0",
-    "ksp_version_max": "1.0.4",
     "download_size": 31483,
+    "download_hash": {
+        "sha1": "56F5AB606425A6BCFB646B7A00631D022A3B8945",
+        "sha256": "E9A252654B59A479E8BE3D2F5EB7C1A0B88E28EC74D69DB1B0C71F1ADFF23991"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }
