@@ -1,13 +1,16 @@
 {
     "spec_version": 1,
     "identifier": "AerojetKerbodyne",
+    "name": "Aerojet Kerbodyne",
+    "abstract": "A set of Service Modules which are modular and can be used how ever you like.",
+    "author": "blackheart612",
     "license": "CC-BY-NC-ND-4.0",
-    "install": [
-        {
-            "file": "GameData/AerojetKerbodyne",
-            "install_to": "GameData"
-        }
-    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/76170-0-24-x-Aerojet-Kerbodyne-X2-1-(July-29-Taurus-Service-Module-WIP-ICPS)",
+        "kerbalstuff": "https://kerbalstuff.com/mod/139/Aerojet%20Kerbodyne"
+    },
+    "version": "3.04",
+    "ksp_version": "0.25",
     "depends": [
         {
             "name": "FirespitterCore"
@@ -27,16 +30,18 @@
             "name": "SmokeScreen"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/76170-0-24-x-Aerojet-Kerbodyne-X2-1-(July-29-Taurus-Service-Module-WIP-ICPS)",
-        "kerbalstuff": "https://kerbalstuff.com/mod/139/Aerojet%20Kerbodyne"
-    },
-    "ksp_version": "0.25",
-    "name": "Aerojet Kerbodyne",
-    "abstract": "A set of Service Modules which are modular and can be used how ever you like.",
-    "author": "blackheart612",
-    "version": "3.04",
+    "install": [
+        {
+            "file": "GameData/AerojetKerbodyne",
+            "install_to": "GameData"
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/blackheart612_951/Aerojet_Kerbodyne/Aerojet_Kerbodyne-3.04.zip",
-    "x_generated_by": "netkan",
-    "download_size": 9529434
+    "download_size": 9529434,
+    "download_hash": {
+        "sha1": "18A90F59B2316D407BA0F8DD0673341625AB4F6C",
+        "sha256": "DF6F9A115F3C8F1CFAA7ADE72354ED897787B6CBB023A06F40D2BDB595588FEB"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
