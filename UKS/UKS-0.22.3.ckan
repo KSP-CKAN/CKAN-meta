@@ -1,16 +1,24 @@
 {
     "spec_version": 1,
-    "name": "USI Kolonization Systems (MKS/OKS)",
+    "comment": "This may be renamed to USI-UKS in the future",
     "identifier": "UKS",
+    "name": "USI Kolonization Systems (MKS/OKS)",
     "abstract": "a series of interlocking modules for building long-term, self sustaining colonies in orbit and on other planets and moons.",
+    "description": "MKS introduces a series of parts specifically designed to provide self-sustaining life support for multiple Kerbals for users of TAC-Life Support. While the parts will function without TAC-LS, the design is centered around providing an appropriate challenge where players will weigh the costs, risks, and rewards of supplying missions exclusively with carried life support supplies, or in making the investment in a permanent colony. That being said, this is not just a single greenhouse part (although food production is part of the mod). Rather, it brings an entire colonization end-game to KSP in a fun and challenging way.",
+    "author": "BobPalmer",
     "license": "CC-BY-NC-SA-4.0",
     "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/79588-0-25-USI-Kolonization-Systems-%28MKS-OKS%29-%280-21-2%29-2014-10-07",
+        "repository": "https://github.com/BobPalmer/MKS",
+        "license": "https://github.com/BobPalmer/MKS/blob/master/license.txt"
+    },
+    "version": "0.22.3",
     "ksp_version": "0.90",
-    "install": [
-        {
-            "file": "GameData/UmbraSpaceIndustries",
-            "install_to": "GameData"
-        }
+    "provides": [
+        "MKS",
+        "OKS",
+        "USI-UKS"
     ],
     "depends": [
         {
@@ -52,21 +60,18 @@
             "name": "OKS"
         }
     ],
-    "comment": "This may be renamed to USI-UKS in the future",
-    "provides": [
-        "MKS",
-        "OKS",
-        "USI-UKS"
+    "install": [
+        {
+            "file": "GameData/UmbraSpaceIndustries",
+            "install_to": "GameData"
+        }
     ],
-    "description": "MKS introduces a series of parts specifically designed to provide self-sustaining life support for multiple Kerbals for users of TAC-Life Support. While the parts will function without TAC-LS, the design is centered around providing an appropriate challenge where players will weigh the costs, risks, and rewards of supplying missions exclusively with carried life support supplies, or in making the investment in a permanent colony. That being said, this is not just a single greenhouse part (although food production is part of the mod). Rather, it brings an entire colonization end-game to KSP in a fun and challenging way.",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/79588-0-25-USI-Kolonization-Systems-%28MKS-OKS%29-%280-21-2%29-2014-10-07",
-        "license": "https://github.com/BobPalmer/MKS/blob/master/license.txt",
-        "repository": "https://github.com/BobPalmer/MKS"
-    },
-    "author": "BobPalmer",
-    "version": "0.22.3",
     "download": "https://github.com/BobPalmer/MKS/releases/download/0.22.3/MKS_0.22.3.zip",
-    "x_generated_by": "netkan",
-    "download_size": 23415400
+    "download_size": 23415400,
+    "download_hash": {
+        "sha1": "9BB1487DF31C48E238C31A25F63CE8C7CF46B15A",
+        "sha256": "4A5D655290853B924DA01132C99C004EC2E86C42E52C7AE944ED7BA98F89BDE3"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
