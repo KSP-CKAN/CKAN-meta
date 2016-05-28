@@ -1,33 +1,43 @@
 {
     "spec_version": 1,
-    "identifier"  : "ThermalPaint",
-    "name"        : "Thermal Protection System Tweak",
-    "author"      : "anarde",
-    "abstract"    : "Adds a 'ThermalPaint' resource that you can add to any part by right-clicking the part within the VAB or SPH and using the appropriate slider. Adding more helps with re-entry heating and high-speed atmospheric travel heating, but it does weight quite a lot.",
-    "version"     : "v1.1",
-    "ksp_version" : "1.0.2",
-    "license"     : "GPL-3.0",
-
+    "identifier": "ThermalPaint",
+    "name": "Thermal Protection System Tweak",
+    "abstract": "Adds a 'ThermalPaint' resource that you can add to any part by right-clicking the part within the VAB or SPH and using the appropriate slider. Adding more helps with re-entry heating and high-speed atmospheric travel heating, but it does weight quite a lot.",
+    "author": "anarde",
+    "license": "GPL-3.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/123279"
     },
-
-    "download": "http://addons-origin.cursecdn.com/files/2240/356/TPS-T.zip",
-
+    "version": "v1.1",
+    "ksp_version": "1.0.2",
     "depends": [
-        { "name": "ModuleManager" }
+        {
+            "name": "ModuleManager"
+        }
     ],
-
     "conflicts": [
-        { "name": "InterstellarFuelSwitch-Core" },
-        { "name": "StockFuelSwitch"},
-        { "name": "FuelSwitchtoeverytank-default"}
+        {
+            "name": "InterstellarFuelSwitch-Core"
+        },
+        {
+            "name": "StockFuelSwitch"
+        },
+        {
+            "name": "FuelSwitchtoeverytank-default"
+        }
     ],
-
     "install": [
         {
-            "file"       : "TPS-T/GameData/TPS-T",
-            "install_to" : "GameData"
+            "file": "TPS-T/GameData/TPS-T",
+            "install_to": "GameData"
         }
-    ]
+    ],
+    "download": "http://addons-origin.cursecdn.com/files/2240/356/TPS-T.zip",
+    "download_size": 1539,
+    "download_hash": {
+        "sha1": "C05042A901FEE05572C56AF002871B3F0CC72FDC",
+        "sha256": "314089F3D9A4D6033A7F6D34DF3AF04B7B22A2BAA4F5CA724842194A1145042B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
