@@ -1,23 +1,27 @@
 {
     "spec_version": 1,
     "identifier": "BackgroundProcessing",
-    "x_netkan_license_ok": true,
+    "name": "BackgroundProcessing",
+    "abstract": "Addon to handle some resources for unloaded vessels and provide modded parts the ability to perform processing on unloaded vessels.",
+    "author": "jamespicone",
+    "license": "MIT",
+    "resources": {
+        "kerbalstuff": "https://kerbalstuff.com/mod/302/BackgroundProcessing"
+    },
+    "version": "0.4.0.1",
+    "ksp_version": "0.90",
     "install": [
         {
             "file": "BackgroundProcessing-0.4.0.1.dll",
             "install_to": "GameData"
         }
     ],
-    "resources": {
-        "kerbalstuff": "https://kerbalstuff.com/mod/302/BackgroundProcessing"
-    },
-    "ksp_version": "0.90",
-    "name": "BackgroundProcessing",
-    "license": "MIT",
-    "abstract": "Addon to handle some resources for unloaded vessels and provide modded parts the ability to perform processing on unloaded vessels.",
-    "author": "jamespicone",
-    "version": "0.4.0.1",
     "download": "http://ckan1.spacedock.info/storage/jamespicone_3475/BackgroundProcessing/BackgroundProcessing-0.4.0.1.zip",
-    "x_generated_by": "netkan",
-    "download_size": 10739
+    "download_size": 10739,
+    "download_hash": {
+        "sha1": "D54969FF9A88DFB23140A51AF4BD87E8B479B7AF",
+        "sha256": "1C3354F93329A42A61935A6E22F97757BDCE4E617A383DF48BCA300FDAEA3683"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
