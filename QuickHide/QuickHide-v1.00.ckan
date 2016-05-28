@@ -1,28 +1,33 @@
 {
-  "spec_version": 1,
-  "identifier": "QuickHide",
-  "license": "GPL-3.0",
-  "install": [
-    {
-      "file": "GameData/QuickHide",
-      "install_to": "GameData"
-    }
-  ],
-  "depends": [
-    {
-      "name": "Toolbar"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/95168",
-    "kerbalstuff": "https://kerbalstuff.com/mod/396/QuickHide"
-  },
-  "ksp_version": "0.90",
-  "name": "QuickHide",
-  "abstract": "QuickHide is a plugin which adds the possibility to hide all mods from the stock toolbar.",
-  "author": "malah",
-  "version": "v1.00",
-  "download": "http://ckan1.spacedock.info/storage/malah_88/QuickHide/QuickHide-v1.00.zip",
-  "x_generated_by": "netkan",
-  "download_size": 814643
+    "spec_version": 1,
+    "identifier": "QuickHide",
+    "name": "QuickHide",
+    "abstract": "QuickHide is a plugin which adds the possibility to hide all mods from the stock toolbar.",
+    "author": "malah",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/95168",
+        "kerbalstuff": "https://kerbalstuff.com/mod/396/QuickHide"
+    },
+    "version": "v1.00",
+    "ksp_version": "0.90",
+    "depends": [
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/QuickHide",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/malah_88/QuickHide/QuickHide-v1.00.zip",
+    "download_size": 814643,
+    "download_hash": {
+        "sha1": "34512981470A9A9526D8C2D6E243CCCB44ABB30E",
+        "sha256": "A15769DF1E14C82000AD333C2DF7E98A1199FC78CA7E8E8331619B7935BC1619"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
