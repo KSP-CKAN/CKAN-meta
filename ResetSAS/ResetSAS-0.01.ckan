@@ -1,23 +1,30 @@
 {
     "spec_version": 1,
-    "name"        : "ResetSAS",
-    "identifier"  : "ResetSAS",
-    "abstract" : "Set SAS mode to attitude hold when you turn SAS off and on.",
-    "download" : "http://greenoctagon.co.uk/ResetSAS.zip",
-    "license"  : "MIT",
-    "version"  : "0.01",
-    "release_status" : "stable",
-    "ksp_version" : "0.90.0",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/106487",
-        "github"   : {
-            "url"      : "https://github.com/Technicalfool/ResetSAS"
+    "identifier": "ResetSAS",
+    "name": "ResetSAS",
+    "abstract": "Set SAS mode to attitude hold when you turn SAS off and on.",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/106487",
+        "github": {
+            "url": "https://github.com/Technicalfool/ResetSAS"
         }
     },
-    "install" : [
+    "version": "0.01",
+    "ksp_version": "0.90.0",
+    "install": [
         {
-            "file"       : "ResetSAS",
-            "install_to" : "GameData"
+            "file": "ResetSAS",
+            "install_to": "GameData"
         }
-    ]
+    ],
+    "download": "http://greenoctagon.co.uk/ResetSAS.zip",
+    "download_size": 2684,
+    "download_hash": {
+        "sha1": "897A5FC29DE63712EF8314D8423EB3FF4F081037",
+        "sha256": "DC31DEABCEF3DF811BC1ABF72001CE9998F87DEEE1C146FFEFF22E643E0CFDA4"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
