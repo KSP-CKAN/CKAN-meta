@@ -3,26 +3,31 @@
     "identifier": "NearFutureProps",
     "name": "Near Future Props",
     "abstract": "Props used in Near Future Ships and Stockalike Station Parts Expansion by Nertea",
-    "version": "0.3.1",
     "author": "Nertea",
     "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/52042",
+        "kerbalstuff": "https://kerbalstuff.com/mod/351/Stockalike%20Station%20Parts%20Expansion"
+    },
+    "version": "0.3.1",
+    "ksp_version": "1.0.2",
+    "suggests": [
+        {
+            "name": "CommunityTechTree"
+        }
+    ],
     "install": [
         {
             "file": "GameData/NearFutureProps",
             "install_to": "GameData"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/52042",
-        "kerbalstuff": "https://kerbalstuff.com/mod/351/Stockalike%20Station%20Parts%20Expansion"
-    },
-    "suggests": [
-        {
-            "name": "CommunityTechTree"
-        }
-    ],
-    "ksp_version": "1.0.2",
     "download": "http://ckan1.spacedock.info/storage/Nertea_3884/Stockalike_Station_Parts_Expansion/Stockalike_Station_Parts_Expansion-0.3.3.zip",
-    "x_generated_by": "netkan",
-    "download_size": 23671252
+    "download_size": 23671252,
+    "download_hash": {
+        "sha1": "D87A99E02C942E6684AC546FD0064496FB005DE6",
+        "sha256": "EBE7FDCA2FDC1611E0D846C27A68B9F753BA7ADCD01E272D297905666942C240"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
