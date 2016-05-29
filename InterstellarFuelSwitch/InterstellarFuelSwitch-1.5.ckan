@@ -1,13 +1,30 @@
 {
     "spec_version": "v1.4",
-    "license": "CC-BY-NC",
     "identifier": "InterstellarFuelSwitch",
+    "name": "Interstellar Fuel Switch",
+    "abstract": "Library that enables switching the contents, meshes, and textures of tanks.",
+    "description": "Interstellar Fuel Switch is mend for mod makers which want to add resource/mesh/texture switching to their tanks\nInterstellar Fuel Switch is an improved version of FSFuelSwitch, FSMeshSwitch and FSTextureSwitch, FSTextureSwitch2 made by Snjo",
+    "author": "FreeThinker",
+    "license": "CC-BY-NC",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/117932",
+        "repository": "https://github.com/sswelm/KSPInterstellar/tree/master/FuelSwitch",
+        "bugtracker": "https://github.com/sswelm/KSPInterstellar/issues",
+        "kerbalstuff": "https://kerbalstuff.com/mod/718"
+    },
+    "version": "1.5",
+    "ksp_version": "1.0.2",
     "depends": [
         {
             "name": "InterstellarFuelSwitch-Core"
         },
         {
             "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CommunityResourcePack"
         }
     ],
     "install": [
@@ -17,24 +34,12 @@
             "filter": "Plugins"
         }
     ],
-    "abstract": "Library that enables switching the contents, meshes, and textures of tanks.",
-    "description": "Interstellar Fuel Switch is mend for mod makers which want to add resource/mesh/texture switching to their tanks\nInterstellar Fuel Switch is an improved version of FSFuelSwitch, FSMeshSwitch and FSTextureSwitch, FSTextureSwitch2 made by Snjo",
-    "suggests": [
-        {
-            "name": "CommunityResourcePack"
-        }
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/117932",
-        "bugtracker": "https://github.com/sswelm/KSPInterstellar/issues",
-        "repository": "https://github.com/sswelm/KSPInterstellar/tree/master/FuelSwitch",
-        "kerbalstuff": "https://kerbalstuff.com/mod/718"
-    },
-    "ksp_version": "1.0.2",
-    "name": "Interstellar Fuel Switch",
-    "author": "FreeThinker",
-    "version": "1.5",
     "download": "http://ckan1.spacedock.info/storage/FreeThinker_6401/Interstellar_Fuel_Switch/Interstellar_Fuel_Switch-1.5.zip",
-    "x_generated_by": "netkan",
-    "download_size": 67177
+    "download_size": 67177,
+    "download_hash": {
+        "sha1": "592749160B5FD41DB8BF8A2349CAC86C10C58424",
+        "sha256": "B6212FC8F6B2BA6C06CFEC3B661901CCB3D2C5B8EA1F69F0A6C8C9B80A12DC2D"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
