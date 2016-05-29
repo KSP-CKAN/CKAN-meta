@@ -3,9 +3,9 @@
     "identifier": "RCSSounds",
     "name": "RCS Sounds",
     "abstract": "Adds a sound effect when firing RCS engines",
-    "license": "GPL-2.0",
-    "author": "pizzaoverhead",
     "description": "Tired of your monopropellant rockets being left out in the sound department? This adds a sound effect when firing RCS engines, varying in pitch and intensity with monopropellant usage. It can be useful to tell just how much SAS is burning through your reserves without even a glance.",
+    "author": "pizzaoverhead",
+    "license": "GPL-2.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/52896",
         "repository": "https://github.com/pizzaoverhead/RcsSounds"
@@ -13,14 +13,23 @@
     "version": "4.4",
     "ksp_version_min": "0.25.0",
     "ksp_version_max": "1.0.5",
-    "download": "http://addons-origin.cursecdn.com/files/2258/990/RcsSoundsV4.4.zip",
     "depends": [
-        { "name": "ModuleManager" }
+        {
+            "name": "ModuleManager"
+        }
     ],
     "install": [
         {
             "file": "GameData/RcsSounds",
             "install_to": "GameData"
         }
-    ]
+    ],
+    "download": "http://addons-origin.cursecdn.com/files/2258/990/RcsSoundsV4.4.zip",
+    "download_size": 1101099,
+    "download_hash": {
+        "sha1": "0DE3E4D0B274F0BA11A497B5B4D699CB9A4A53A2",
+        "sha256": "08684CA9790042E1A9DB6F904A5797FCC809D535C454FEA06CDA07D6882C219B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
