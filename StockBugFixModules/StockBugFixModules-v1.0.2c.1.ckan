@@ -3,26 +3,31 @@
     "identifier": "StockBugFixModules",
     "name": "Stock Bug Fix Modules",
     "abstract": "Stand alone fixes for common stock KSP bugs",
+    "author": "ClawKSP",
     "license": "CC-BY-NC-SA-4.0",
-    "ksp_version": "1.0.2",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/97285",
         "repository": "https://github.com/ClawKSP/KSP-Stock-Bug-Fix-Modules"
     },
+    "version": "v1.0.2c.1",
+    "ksp_version": "1.0.2",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
     "install": [
         {
             "file": "StockBugFixModules",
             "install_to": "GameData"
         }
     ],
-    "depends": [
-        {
-            "name": "ModuleManager"
-        }
-    ],
-    "author": "ClawKSP",
-    "version": "v1.0.2c.1",
     "download": "https://github.com/ClawKSP/KSP-Stock-Bug-Fix-Modules/releases/download/v1.0.2c.1/StockBugFixModules.v1.0.2c.1.zip",
-    "x_generated_by": "netkan",
-    "download_size": 67396
+    "download_size": 67396,
+    "download_hash": {
+        "sha1": "A53CCD1D3B39631CD66BCBBBF9FEA948BF90BBC3",
+        "sha256": "1741521466BBA36009BACAE61364D3A0E52E93C39D655351B20634ACE3AECB39"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
