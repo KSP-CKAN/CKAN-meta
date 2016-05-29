@@ -1,24 +1,46 @@
 {
     "spec_version": 1,
-    "identifier"  : "MechJebEmbeddedUniversalCareer",
-    "name"        : "MechJeb Embedded Universal (Career mode)",
-    "author"      : [ "Dennis6492" ],
-    "abstract"    : "Add MechJeb to all Command modules - if you want career mode support, you'll have to go to R&D to unlock modules",
-    "version"     : "1.3",
-    "ksp_version_min" : "1.0.2",
-    "ksp_version_max" : "1.1.99",
-    "license"     : "GPL-3.0",
+    "identifier": "MechJebEmbeddedUniversalCareer",
+    "name": "MechJeb Embedded Universal (Career mode)",
+    "abstract": "Add MechJeb to all Command modules - if you want career mode support, you'll have to go to R&D to unlock modules",
+    "author": [
+        "Dennis6492"
+    ],
+    "license": "GPL-3.0",
     "resources": {
         "homepage": "http://kerbal.curseforge.com/projects/mechjeb-embedded-universal"
     },
-    "download": "http://kerbal.curseforge.com/projects/mechjeb-embedded-universal/files/2239526/download",
-    "depends" : [{"name":"MechJeb2"},{"name":"ModuleManager"}],
-    "conflicts": [{"name":"MechJebEmbeddedUniversal"}],
-    "install":[
+    "version": "1.3",
+    "ksp_version_min": "1.0.2",
+    "ksp_version_max": "1.1.99",
+    "provides": [
+        "MechJebEmbeddedUniversal"
+    ],
+    "depends": [
         {
-            "file":"Career mode/GameData/MechJeb2 Embedded by Dennis6492",
-            "install_to":"GameData"
+            "name": "MechJeb2"
+        },
+        {
+            "name": "ModuleManager"
         }
-        ],
-    "provides": ["MechJebEmbeddedUniversal"]
+    ],
+    "conflicts": [
+        {
+            "name": "MechJebEmbeddedUniversal"
+        }
+    ],
+    "install": [
+        {
+            "file": "Career mode/GameData/MechJeb2 Embedded by Dennis6492",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://kerbal.curseforge.com/projects/mechjeb-embedded-universal/files/2239526/download",
+    "download_size": 66575,
+    "download_hash": {
+        "sha1": "5C391FF053B03AA32EB9933D9A513E94402804A9",
+        "sha256": "D947C10AC852DB9609033C2FC4F56104BB5264631A8B47AE5308DC8E63F4818E"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
