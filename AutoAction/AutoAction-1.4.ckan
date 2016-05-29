@@ -3,10 +3,15 @@
     "identifier": "AutoAction",
     "name": "Auto Action",
     "abstract": "Automatically activate action groups (and RCS/SAS) on vessel launch",
+    "author": "Diazo",
     "license": "GPL-3.0",
     "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/101994",
+        "repository": "https://github.com/SirDiazo/AutoAction"
+    },
+    "version": "1.4",
     "ksp_version": "1.0",
-    "author": "Diazo",
     "depends": [
         {
             "name": "ModuleManager"
@@ -17,18 +22,18 @@
             "name": "Toolbar"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/101994",
-        "repository": "https://github.com/SirDiazo/AutoAction"
-    },
     "install": [
         {
             "file": "GameData/Diazo",
             "install_to": "GameData"
         }
     ],
-    "version": "1.4",
     "download": "https://github.com/SirDiazo/AutoAction/releases/download/1.4/AutoActions14.zip",
-    "x_generated_by": "netkan",
-    "download_size": 16795
+    "download_size": 16795,
+    "download_hash": {
+        "sha1": "4069EF71E7E3E8F2E506042BCF2979988986C27D",
+        "sha256": "D0053A0EBF38F965C2E9366F90634D424BEC7A64712A6D63F70EA9E67306818F"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
