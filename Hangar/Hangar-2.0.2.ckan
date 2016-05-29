@@ -1,12 +1,16 @@
 {
     "spec_version": "v1.4",
     "identifier": "Hangar",
-    "x_netkan_license_ok": true,
-    "conflicts": [
-        {
-            "name": "KSPAPIExtensions"
-        }
-    ],
+    "name": "Hangar",
+    "abstract": "Hangars are parts that can store whole ships inside. Stored ships are not docked but unloaded, which reduces part count considerably.",
+    "author": "allista",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/88933",
+        "kerbalstuff": "https://kerbalstuff.com/mod/270/Hangar"
+    },
+    "version": "2.0.2",
+    "ksp_version": "0.90",
     "depends": [
         {
             "name": "ModuleManager"
@@ -20,23 +24,23 @@
             "name": "EditorExtensions"
         }
     ],
+    "conflicts": [
+        {
+            "name": "KSPAPIExtensions"
+        }
+    ],
     "install": [
         {
             "file": "GameData/Hangar",
             "install_to": "GameData"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/88933",
-        "kerbalstuff": "https://kerbalstuff.com/mod/270/Hangar"
-    },
-    "ksp_version": "0.90",
-    "name": "Hangar",
-    "license": "CC-BY-4.0",
-    "abstract": "Hangars are parts that can store whole ships inside. Stored ships are not docked but unloaded, which reduces part count considerably.",
-    "author": "allista",
-    "version": "2.0.2",
     "download": "http://ckan1.spacedock.info/storage/allista_2936/Hangar/Hangar-2.0.2.zip",
-    "x_generated_by": "netkan",
-    "download_size": 25096804
+    "download_size": 25096804,
+    "download_hash": {
+        "sha1": "651EAA97AB39CE27F3E85B9831CA3B03DEC573C8",
+        "sha256": "A9D36CA23675C9E56C3C2A9BEA58A071E3555C58202541E2946775334865723A"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
