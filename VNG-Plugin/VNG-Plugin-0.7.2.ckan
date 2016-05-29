@@ -1,23 +1,30 @@
 {
-    "spec_version"   : "v1.4",
-    "name"           : "Vanguard Technologies Core",
-    "abstract"       : "Vanguard Technologies Plugin",
-    "identifier"     : "VNG-Plugin",
-    "download"       : "https://dl.dropboxusercontent.com/u/82912977/Vanguard/VNG-Plugin_0.7.2.zip",
-    "license"        : "CC-BY",
-    "version"        : "0.7.2",
-    "release_status" : "stable",
+    "spec_version": "v1.4",
+    "identifier": "VNG-Plugin",
+    "name": "Vanguard Technologies Core",
+    "abstract": "Vanguard Technologies Plugin",
+    "author": "Kreuzung",
+    "license": "CC-BY",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/25305",
+        "manual": "http://tinyurl.com/VNG-Documentation"
+    },
+    "version": "0.7.2",
     "ksp_version_min": "0.23",
     "ksp_version_max": "1.0.99",
-    "author"         : "Kreuzung",
-    "resources" : {
-        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/25305",
-        "manual"     : "http://tinyurl.com/VNG-Documentation"
-    },
-    "install" : [
+    "install": [
         {
-            "file"       : "VNG-Plugin/GameData/VNG",
-            "install_to" : "GameData"
+            "file": "VNG-Plugin/GameData/VNG",
+            "install_to": "GameData"
         }
-    ]
+    ],
+    "download": "https://dl.dropboxusercontent.com/u/82912977/Vanguard/VNG-Plugin_0.7.2.zip",
+    "download_size": 71367,
+    "download_hash": {
+        "sha1": "CCF2B9EE888AB004EDD914B9704994C8888EE53E",
+        "sha256": "3CA6E1DCD01F23B141CF1C68FA6DE5D33F5CF76BD308A533B556912A994F4A43"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
