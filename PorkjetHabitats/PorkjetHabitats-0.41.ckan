@@ -11,13 +11,30 @@
     "version": "0.41",
     "ksp_version_min": "1.0.0",
     "ksp_version_max": "1.0.4",
-    "download": "https://www.dropbox.com/s/gpg05jlsvc81u7q/Habitat%20Pack%2004.1.zip?dl=1",
     "depends": [
-        { "name": "FirespitterCore" },
-        { "name": "LayeredAnimations" },
-        { "name": "HabitatPlugin" }
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "LayeredAnimations"
+        },
+        {
+            "name": "HabitatPlugin"
+        }
     ],
     "install": [
-        { "file": "GameData/HabitatPack", "install_to": "GameData", "filter": "Plugins" }
-    ]
+        {
+            "file": "GameData/HabitatPack",
+            "install_to": "GameData",
+            "filter": "Plugins"
+        }
+    ],
+    "download": "https://www.dropbox.com/s/gpg05jlsvc81u7q/Habitat%20Pack%2004.1.zip?dl=1",
+    "download_size": 9041254,
+    "download_hash": {
+        "sha1": "52D616E9C70147C379BE8D24C86E1916D39CD0D2",
+        "sha256": "84C87AE110DE42CBE5945EFB03487C4A298438A8E45FA8FBD7888D6C5E9E3184"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
