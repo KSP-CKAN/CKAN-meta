@@ -1,10 +1,20 @@
 {
     "spec_version": "v1.2",
-    "name": "Realism Overhaul",
     "identifier": "RealismOverhaul",
+    "name": "Realism Overhaul",
     "abstract": "Multipatch to KSP to give things realistic stats and sizes",
+    "author": "Felger",
     "license": "CC-BY-SA",
     "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/99966",
+        "repository": "https://github.com/KSP-RO/RealismOverhaul"
+    },
+    "version": "v7.0.5",
+    "ksp_version": "0.90.0",
+    "provides": [
+        "RealFuels-Engine-Configs"
+    ],
     "depends": [
         {
             "name": "AdvancedJetEngine"
@@ -182,13 +192,6 @@
             "name": "UniversalStorage"
         }
     ],
-    "provides": [
-        "RealFuels-Engine-Configs"
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/99966",
-        "repository": "https://github.com/KSP-RO/RealismOverhaul"
-    },
     "install": [
         {
             "file": "RealismOverhaul",
@@ -207,10 +210,12 @@
             "comment": "Engine Group Controller, unique to RO."
         }
     ],
-    "author": "Felger",
-    "version": "v7.0.5",
     "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v7.0.5/RealismOverhaul7_0_5.zip",
-    "x_generated_by": "netkan",
     "download_size": 17637311,
-    "ksp_version": "0.90.0"
+    "download_hash": {
+        "sha1": "DE990A3F4D7384DC3D71273B64B3E675836D9C31",
+        "sha256": "4B733BC7452F312FCB913FD2B339ABAAC824AEAA7ACC6469F52CF06029AC776A"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
