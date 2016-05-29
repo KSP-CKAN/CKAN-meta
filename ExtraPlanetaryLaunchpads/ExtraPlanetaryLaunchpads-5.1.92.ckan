@@ -1,0 +1,55 @@
+{
+    "spec_version": 1,
+    "identifier": "ExtraPlanetaryLaunchpads",
+    "name": "Extraplanetary Launchpads",
+    "abstract": "Adds the ability to build crafts in flight mode to your game.",
+    "author": "taniwha",
+    "license": "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/59545",
+        "repository": "https://github.com/taniwha-qf/Extraplanetary-Launchpads"
+    },
+    "version": "5.1.92",
+    "ksp_version": "1.0.2",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KIS"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalStats"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "InfernalRobotics"
+        },
+        {
+            "name": "Toolbar"
+        },
+        {
+            "name": "Kethane"
+        }
+    ],
+    "install": [
+        {
+            "file": "ExtraplanetaryLaunchpads",
+            "install_to": "GameData",
+            "filter": "Ships"
+        }
+    ],
+    "download": "http://taniwha.org/~bill/Extraplanetary_Launchpads_v5.1.92.zip",
+    "download_size": 14407389,
+    "download_hash": {
+        "sha1": "A638A8A29F5723B20FFFB0E0338FD89EAB44FA61",
+        "sha256": "DB49C9FB4A81C0C11CDCF4FBF61420ACD5AFED93BB466E05D49A229C34BB891C"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
