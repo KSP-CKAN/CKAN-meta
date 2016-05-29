@@ -1,9 +1,17 @@
 {
     "spec_version": 1,
     "identifier": "FuelSwitchtoeverytank-default",
-    "license": "CC-BY-SA-2.0",
     "name": "FuelSwitch to every tank-default",
     "abstract": "This small ModuleManager config adds module FSfuelSwitch to every fuel tank in game, including non-stock",
+    "author": "micha030201",
+    "license": "CC-BY-SA-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/123581",
+        "repository": "http://The%20config%20itself",
+        "kerbalstuff": "https://kerbalstuff.com/mod/861/FuelSwitch%20to%20every%20tank"
+    },
+    "version": "0.2b",
+    "ksp_version": "1.0.2",
     "provides": [
         "FuelSwitchtoeverytank"
     ],
@@ -35,15 +43,12 @@
             "install_to": "GameData"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/123581",
-        "repository": "http://The%20config%20itself",
-        "kerbalstuff": "https://kerbalstuff.com/mod/861/FuelSwitch%20to%20every%20tank"
-    },
-    "ksp_version": "1.0.2",
-    "author": "micha030201",
-    "version": "0.2b",
     "download": "http://ckan1.spacedock.info/storage/micha030201_11046/FuelSwitch_to_every_tank/FuelSwitch_to_every_tank-0.2b.zip",
-    "x_generated_by": "netkan",
-    "download_size": 5268
+    "download_size": 5268,
+    "download_hash": {
+        "sha1": "C3DBFB5833EE7AA03FE2CF4B01677260D6CA2F8B",
+        "sha256": "A3FB7FD08AE71BDB2C5AA703250C95D0450813AE2D072FD16CEA33920628606E"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
