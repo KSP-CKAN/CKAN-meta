@@ -1,14 +1,17 @@
 {
     "spec_version": 1,
     "identifier": "KSPInterstellarExtended",
+    "name": "KSP Interstellar Extended",
+    "abstract": "Full download of KSPI-E",
+    "author": "FreeThinker",
     "license": "GPL-3.0",
-    "install": [
-        {
-            "file": "GameData/WarpPlugin",
-            "install_to": "GameData",
-            "filter": "MiniAVC.xml"
-        }
-    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/111159-WIP-0-90-KSP-Interstellar-Extended",
+        "repository": "https://github.com/sswelm/KSPInterstellar",
+        "kerbalstuff": "https://kerbalstuff.com/mod/791/KSP%20Interstellar%20Extended"
+    },
+    "version": "1.2.5",
+    "ksp_version": "1.0.4",
     "depends": [
         {
             "name": "CommunityResourcePack",
@@ -44,18 +47,20 @@
             "name": "CrossFeedEnabler"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/111159-WIP-0-90-KSP-Interstellar-Extended",
-        "repository": "https://github.com/sswelm/KSPInterstellar",
-        "kerbalstuff": "https://kerbalstuff.com/mod/791/KSP%20Interstellar%20Extended"
-    },
-    "ksp_version": "1.0.4",
-    "name": "KSP Interstellar Extended",
-    "abstract": "Full download of KSPI-E",
-    "author": "FreeThinker",
-    "version": "1.2.5",
+    "install": [
+        {
+            "file": "GameData/WarpPlugin",
+            "install_to": "GameData",
+            "filter": "MiniAVC.xml"
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/FreeThinker_6401/KSP_Interstellar_Extended/KSP_Interstellar_Extended-1.2.5.zip",
-    "x_generated_by": "netkan",
+    "download_size": 41666754,
+    "download_hash": {
+        "sha1": "1FA4A69E8A7481E7AA376F27734D48EC5B114BD0",
+        "sha256": "1239CC91FF46900590F323C4E9F15F3F21B0123B3B533589C138861BEA7DD0DE"
+    },
+    "download_content_type": "application/zip",
     "x_screenshot": "https://kerbalstuff.com/content/FreeThinker_6401/KSP_Interstellar_Extended/KSP_Interstellar_Extended-1431587321.3258672.jpg",
-    "download_size": 41666754
+    "x_generated_by": "netkan"
 }
