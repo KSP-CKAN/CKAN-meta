@@ -3,9 +3,16 @@
     "identifier": "KerbalConstructionTime-RP-0-Config",
     "name": "Kerbal Construction Time RP-0 Config",
     "abstract": "A Kerbal Construction Time configuration meant to be used for RP-0",
-    "license": "CC-BY-4.0",
     "author": "RP-0 Group",
+    "license": "CC-BY-4.0",
     "release_status": "development",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/RP-0"
+    },
+    "version": "v0.27",
+    "provides": [
+        "KerbalConstructionTime-Config"
+    ],
     "depends": [
         {
             "name": "RP-0"
@@ -13,9 +20,6 @@
         {
             "name": "KerbalConstructionTime"
         }
-    ],
-    "provides": [
-        "KerbalConstructionTime-Config"
     ],
     "conflicts": [
         {
@@ -28,11 +32,12 @@
             "install_to": "GameData"
         }
     ],
-    "resources": {
-        "repository": "https://github.com/KSP-RO/RP-0"
-    },
-    "version": "v0.27",
     "download": "https://github.com/KSP-RO/RP-0/releases/download/v0.27/RP-0-v0.27.zip",
-    "x_generated_by": "netkan",
-    "download_size": 624991
+    "download_size": 624991,
+    "download_hash": {
+        "sha1": "38CD644012266043052476F443DD766FAC4CA56A",
+        "sha256": "76C6DAD2DB80B179A0B71F5B15CD3CBB7CAB9C34574FE222059C25BBA73ACCF5"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
