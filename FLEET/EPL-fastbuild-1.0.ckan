@@ -1,26 +1,37 @@
 {
-  "spec_version": 1,
-  "name": "EPL Fastbuild",
-  "identifier": "EPL-fastbuild",
-  "author": "ToxicFrog",
-  "abstract": "Makes all EPL builds complete instantly.",
-  "license": "MIT",
-  "release_status": "stable",
-  "ksp_version_min": "1.0.2",
-  "ksp_version_max": "1.0.4",
-  "resources": {
+    "spec_version": 1,
+    "identifier": "EPL-fastbuild",
+    "name": "EPL Fastbuild",
+    "abstract": "Makes all EPL builds complete instantly.",
+    "author": "ToxicFrog",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
         "homepage": "https://github.com/ToxicFrog/misc/tree/ksp"
     },
-  "install": [
-    {
-      "file": "misc-d88c2d71d60cce9a8d286be12dc5a3b6b6df1cdd/EPL-fastbuild.cfg",
-      "install_to": "GameData/FLEET"
-    }
-  ],
-  "depends"        : [
-    {"name" : "ModuleManager"},
-    {"name" : "ExtraPlanetaryLaunchpads"}
-  ],
-  "version": "1.0",
-  "download": "https://github.com/ToxicFrog/misc/archive/d88c2d71d60cce9a8d286be12dc5a3b6b6df1cdd.zip"
+    "version": "1.0",
+    "ksp_version_min": "1.0.2",
+    "ksp_version_max": "1.0.4",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ExtraPlanetaryLaunchpads"
+        }
+    ],
+    "install": [
+        {
+            "file": "misc-d88c2d71d60cce9a8d286be12dc5a3b6b6df1cdd/EPL-fastbuild.cfg",
+            "install_to": "GameData/FLEET"
+        }
+    ],
+    "download": "https://github.com/ToxicFrog/misc/archive/d88c2d71d60cce9a8d286be12dc5a3b6b6df1cdd.zip",
+    "download_size": 2186,
+    "download_hash": {
+        "sha1": "14A5F30E0EE36A58515E72CFA887F8A4701BFADE",
+        "sha256": "A577534640BBB2AE85F394BFA81D8B5D41D332007F953713848C7726430B72AE"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
