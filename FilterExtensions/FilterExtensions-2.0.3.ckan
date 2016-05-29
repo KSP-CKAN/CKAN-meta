@@ -1,30 +1,35 @@
 {
     "spec_version": "v1.4",
-    "name": "Filter Extensions",
     "identifier": "FilterExtensions",
+    "name": "Filter Extensions",
     "abstract": "Custom, configurable filters for the VAB/SPH.",
     "description": "With the stock editor now supporting custom filters in a reasonable way, creating more and better filters is the next logical step. However, the requirement for categories to be managed via code is just a terrible idea. Not to mention that there is no easy way to be compatible with anyone else. Filter extensions allows the usage of .cfg files to create, edit, or delete all categories and sub-categories. It uses standard config files, and as such patches can be applied, and dependencies allowed for using Module Manager.",
+    "author": "Crzyrndm",
     "license": "CC-BY-NC-SA-4.0",
     "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/104231",
+        "repository": "https://github.com/Crzyrndm/FilterExtension"
+    },
+    "version": "2.0.3",
+    "ksp_version": "0.90.0",
     "depends": [
         {
             "name": "ModuleManager"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/104231",
-        "repository": "https://github.com/Crzyrndm/FilterExtension"
-    },
     "install": [
         {
             "file": "GameData/000_FilterExtensions",
             "install_to": "GameData"
         }
     ],
-    "author": "Crzyrndm",
-    "version": "2.0.3",
     "download": "https://github.com/Crzyrndm/FilterExtension/releases/download/2.0.3/Filter.Extensions.v2.0.3.zip",
-    "x_generated_by": "netkan",
     "download_size": 624933,
-    "ksp_version": "0.90.0"
+    "download_hash": {
+        "sha1": "E0EF33E446E2376069ACFC358C45421FBFDF876A",
+        "sha256": "83D6DB74D2853EF63C6715A2B4B4B646D17BAB294226D7657A666D37408EA091"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
