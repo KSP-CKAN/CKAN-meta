@@ -1,14 +1,16 @@
 {
-    "identifier": "OrbitalMaterialScience",
-    "x_via": "Automated KerbalStuff CKAN submission",
-    "license": "GPL-3.0",
     "spec_version": "v1.4",
-    "install": [
-        {
-            "file": "NehemiahInc/OMS",
-            "install_to": "GameData/NehemiahInc"
-        }
-    ],
+    "identifier": "OrbitalMaterialScience",
+    "name": "Orbital Material Science",
+    "abstract": "Get more science from orbit. Adds science experiments for your space station, inspired by real space experiments.",
+    "author": "N3h3mia",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/81578-0-23-5-Orbital-Material-Science",
+        "kerbalstuff": "https://kerbalstuff.com/mod/468/Orbital%20Material%20Science"
+    },
+    "version": "0.6",
+    "ksp_version": "0.90",
     "depends": [
         {
             "name": "NehemiahScienceCommon"
@@ -17,16 +19,19 @@
             "name": "NehemiahMultiPurposeParts"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/81578-0-23-5-Orbital-Material-Science",
-        "kerbalstuff": "https://kerbalstuff.com/mod/468/Orbital%20Material%20Science"
-    },
-    "ksp_version": "0.90",
-    "name": "Orbital Material Science",
-    "abstract": "Get more science from orbit. Adds science experiments for your space station, inspired by real space experiments.",
-    "author": "N3h3mia",
-    "version": "0.6",
+    "install": [
+        {
+            "file": "NehemiahInc/OMS",
+            "install_to": "GameData/NehemiahInc"
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/N3h3mia_5677/Orbital_Material_Science/Orbital_Material_Science-0.6.zip",
-    "x_generated_by": "netkan",
-    "download_size": 13293195
+    "download_size": 13293195,
+    "download_hash": {
+        "sha1": "20BEDD66BA0720E79E38B3E6BD9310855F9AD4AB",
+        "sha256": "E23787A0D9C8BDBE73679849010BEE191C7879847338E9B251D60B3F698D8191"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "x_generated_by": "netkan"
 }
