@@ -1,32 +1,37 @@
 {
-  "spec_version": 1,
-  "name": "Vertical Velocity Controller",
-  "identifier": "TWR1",
-  "abstract": "Control your descent speed in discreet increments for soft, controlled skycrane landings.",
-  "license": "GPL-3.0",
-  "release_status": "stable",
-  "ksp_version": "0.25",
-  "author": "Diazo",
-  "resources": {
-    "homepage": "http://http://forum.kerbalspaceprogram.com/threads/50736",
-    "repository": "https://github.com/SirDiazo/TWR1"
-  },
-  "recommends": [
-    {
-      "name": "Toolbar"
+    "spec_version": 1,
+    "identifier": "TWR1",
+    "name": "Vertical Velocity Controller",
+    "abstract": "Control your descent speed in discreet increments for soft, controlled skycrane landings.",
+    "author": "Diazo",
+    "license": "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://http://forum.kerbalspaceprogram.com/threads/50736",
+        "repository": "https://github.com/SirDiazo/TWR1"
     },
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "install": [
-    {
-      "file": "GameData/Diazo",
-      "install_to": "GameData"
-    }
-  ],
-  "version": "1.15",
-  "download": "https://github.com/SirDiazo/TWR1/releases/download/1.15/VertVel115.zip",
-  "x_generated_by": "netkan",
-  "download_size": 17818
+    "version": "1.15",
+    "ksp_version": "0.25",
+    "recommends": [
+        {
+            "name": "Toolbar"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Diazo",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/SirDiazo/TWR1/releases/download/1.15/VertVel115.zip",
+    "download_size": 17818,
+    "download_hash": {
+        "sha1": "2A1740D71A2E2D57564D4F61E4197456E25B3354",
+        "sha256": "055DE3E688B109E54A76E596D46A438CC81707226EE1F08850DED82911D8D35D"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
