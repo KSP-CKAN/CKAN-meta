@@ -1,13 +1,16 @@
 {
     "spec_version": 1,
     "identifier": "QuantumStrutsContinued",
+    "name": "QuantumStrutsContinued",
+    "abstract": "Magical struts for rigidifying vessels outside the assembly buildings",
+    "author": "toadicus",
     "license": "BSD-2-clause",
-    "install": [
-        {
-            "file": "GameData/QuantumStrutsContinued",
-            "install_to": "GameData"
-        }
-    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/93818",
+        "kerbalstuff": "https://kerbalstuff.com/mod/168/QuantumStrutsContinued"
+    },
+    "version": "1.2",
+    "ksp_version": "0.90",
     "suggests": [
         {
             "name": "ModuleManager"
@@ -16,16 +19,18 @@
             "name": "KAS"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/93818",
-        "kerbalstuff": "https://kerbalstuff.com/mod/168/QuantumStrutsContinued"
-    },
-    "ksp_version": "0.90",
-    "name": "QuantumStrutsContinued",
-    "abstract": "Magical struts for rigidifying vessels outside the assembly buildings",
-    "author": "toadicus",
-    "version": "1.2",
+    "install": [
+        {
+            "file": "GameData/QuantumStrutsContinued",
+            "install_to": "GameData"
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/toadicus_101/QuantumStrutsContinued/QuantumStrutsContinued-1.2.zip",
-    "x_generated_by": "netkan",
-    "download_size": 913436
+    "download_size": 913436,
+    "download_hash": {
+        "sha1": "9FE43BD4322F8D959D1835193DE7F1AC9F589A01",
+        "sha256": "A65E2F836C3CA4C5D8278B93F0C5DB36E78ED0CB08CCE6A8C70E0CFBB8C92D5B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
