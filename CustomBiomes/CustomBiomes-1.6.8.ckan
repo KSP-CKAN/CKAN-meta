@@ -1,32 +1,46 @@
 {
-    "spec_version"   : "v1.2",
-    "name"           : "Custom Biomes",
-    "identifier"     : "CustomBiomes",
-    "abstract"       : "Add or replace biomes to any celestial body in KSP",
-    "download"       : "http://addons.cursecdn.com/files/2217%5C373/CustomBiomes_1_6_8.zip",
-    "license"        : "CC-BY-NC-SA-3.0",
-    "version"        : "1.6.8",
-    "release_status" : "stable",
-    "ksp_version"    : "0.25",
-    "depends" : [
-        { "name" : "CustomBiomes-Data" }
-    ],
-    "recommends" : [
-        { "name" : "CustomBiomes-Data-Stock" }
-    ],
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/66256"
+    "spec_version": "v1.2",
+    "identifier": "CustomBiomes",
+    "name": "Custom Biomes",
+    "abstract": "Add or replace biomes to any celestial body in KSP",
+    "license": "CC-BY-NC-SA-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/66256"
     },
-    "install" : [
+    "version": "1.6.8",
+    "ksp_version": "0.25",
+    "depends": [
         {
-            "file"       : "CustomBiomes",
-            "install_to" : "GameData",
-            "filter"     : [ "PluginData", "Thumbs.db" ]
+            "name": "CustomBiomes-Data"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CustomBiomes-Data-Stock"
+        }
+    ],
+    "install": [
+        {
+            "file": "CustomBiomes",
+            "install_to": "GameData",
+            "filter": [
+                "PluginData",
+                "Thumbs.db"
+            ]
         },
         {
-            "file"       : "CustomBiomes/PluginData/CustomBiomes/config.xml",
-            "install_to" : "GameData/CustomBiomes/PluginData/CustomBiomes",
-            "comment"    : "Config for the mod itself, not the biomes."
+            "file": "CustomBiomes/PluginData/CustomBiomes/config.xml",
+            "install_to": "GameData/CustomBiomes/PluginData/CustomBiomes",
+            "comment": "Config for the mod itself, not the biomes."
         }
-    ]
+    ],
+    "download": "http://addons.cursecdn.com/files/2217%5C373/CustomBiomes_1_6_8.zip",
+    "download_size": 2242360,
+    "download_hash": {
+        "sha1": "EB775A65567E1574DBD5B181CB01147B56C806D8",
+        "sha256": "F245C7523EC35298968CF910D2B1D6A2D6C5F10A159A5E810FDA19B51F582998"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
