@@ -1,19 +1,28 @@
 {
-    "spec_version"   : 1,
-    "name"           : "MakeItSmall",
-    "abstract"       : "MakeItSmall lets you resize the NavBall, Crew, Timer and Altimeter",
-    "identifier"     : "MakeItSmall",
-    "download"       : "https://ksp.sarbian.com/jenkins/job/MakeItSmall/3/artifact/MakeItSmall-1.1.0.0.zip",
-    "version"        : "1.1",
-    "author"         : "sarbian",
-    "license"        : "MIT",
-    "release_status" : "stable",
-    "ksp_version"    : "1.1.0",
-    "resources"      : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/index.php?/topic/135395-11-makeitsmall-11-because-sometime-you-need-stuff-to-be-smaller/",
-        "repository" : "https://github.com/sarbian/MakeItSmall"
+    "spec_version": 1,
+    "identifier": "MakeItSmall",
+    "name": "MakeItSmall",
+    "abstract": "MakeItSmall lets you resize the NavBall, Crew, Timer and Altimeter",
+    "author": "sarbian",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/135395-11-makeitsmall-11-because-sometime-you-need-stuff-to-be-smaller/",
+        "repository": "https://github.com/sarbian/MakeItSmall"
     },
-    "depends"        : [
-        {"name" : "ModuleManager"}
-    ]
+    "version": "1.1",
+    "ksp_version": "1.1.0",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "download": "https://ksp.sarbian.com/jenkins/job/MakeItSmall/3/artifact/MakeItSmall-1.1.0.0.zip",
+    "download_size": 5180,
+    "download_hash": {
+        "sha1": "B827AC08A8AEF957BDABEDB59893A9C3157886F6",
+        "sha256": "92305915C27C6C636855866C153948E73E7331F5F40980E80ECBA200554AB83D"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
