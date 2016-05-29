@@ -1,34 +1,39 @@
 {
-  "spec_version": 1,
-  "identifier": "RFStockalike",
-  "name": "Stockalike RF Configs",
-  "abstract": "Adds RealFuels configs to stock and many mods' engines, keeping engine role as designed to fit with stock and stock-aligned mods.",
-  "license": "CC-BY-SA",
-  "install": [
-    {
-      "file": "RFStockalike/GameData/RealFuels",
-      "install_to": "GameData"
-    }
-  ],
-  "depends": [
-    {
-      "name": "RealFuels"
+    "spec_version": 1,
+    "comment": "Multiple configs can be installed; RO disables its engine configs if RFStockalike is detected. KSP-CKAN/NetKAN#55.",
+    "identifier": "RFStockalike",
+    "name": "Stockalike RF Configs",
+    "abstract": "Adds RealFuels configs to stock and many mods' engines, keeping engine role as designed to fit with stock and stock-aligned mods.",
+    "author": "Raptor831",
+    "license": "CC-BY-SA",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/81239",
+        "repository": "https://github.com/Raptor831/RFStockalike"
     },
-    {
-      "name": "ModuleRCSFX"
-    }
-  ],
-  "provides": [
-    "RealFuels-Engine-Configs"
-  ],
-  "comment": "Multiple configs can be installed; RO disables its engine configs if RFStockalike is detected. KSP-CKAN/NetKAN#55.",
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/81239",
-    "repository": "https://github.com/Raptor831/RFStockalike"
-  },
-  "author": "Raptor831",
-  "version": "v2.0.5",
-  "download": "https://github.com/Raptor831/RFStockalike/releases/download/v2.0.5/RFStockalike.zip",
-  "x_generated_by": "netkan",
-  "download_size": 50363
+    "version": "v2.0.5",
+    "provides": [
+        "RealFuels-Engine-Configs"
+    ],
+    "depends": [
+        {
+            "name": "RealFuels"
+        },
+        {
+            "name": "ModuleRCSFX"
+        }
+    ],
+    "install": [
+        {
+            "file": "RFStockalike/GameData/RealFuels",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Raptor831/RFStockalike/releases/download/v2.0.5/RFStockalike.zip",
+    "download_size": 50363,
+    "download_hash": {
+        "sha1": "49B88D3364CAB112D6B3F40344658F0CDE2FA51C",
+        "sha256": "D876DA8FE65AF6736842221E4FFD231151133CDA6634557AABEEBF9E0098849B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
