@@ -1,50 +1,55 @@
 {
-  "spec_version": 1,
-  "name": "Karbonite",
-  "identifier": "Karbonite",
-  "author": "RoverDude",
-  "abstract": "A newly discovered mineral that has hydrocarbon-like properties and is perfect for processing into a fuel. It's easily mined from the surface, and can be found in liquid or gaseous forms on certain planets.",
-  "license": "CC-BY-NC-SA",
-  "release_status": "stable",
-  "ksp_version": "0.90",
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/87335",
-    "repository": "https://github.com/BobPalmer/Karbonite"
-  },
-  "depends": [
-    {
-      "name": "USITools"
+    "spec_version": 1,
+    "comment": "This may be renamed to USI-Karbonite in the future",
+    "identifier": "Karbonite",
+    "name": "Karbonite",
+    "abstract": "A newly discovered mineral that has hydrocarbon-like properties and is perfect for processing into a fuel. It's easily mined from the surface, and can be found in liquid or gaseous forms on certain planets.",
+    "author": "RoverDude",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/87335",
+        "repository": "https://github.com/BobPalmer/Karbonite"
     },
-    {
-      "name": "CommunityResourcePack"
+    "version": "0.5.0",
+    "ksp_version": "0.90",
+    "provides": [
+        "USI-Karbonite"
+    ],
+    "depends": [
+        {
+            "name": "USITools"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "Regolith"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/UmbraSpaceIndustries",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/BobPalmer/Karbonite/releases/download/0.5.0/Karbonite_0.5.0.zip",
+    "download_size": 25212202,
+    "download_hash": {
+        "sha1": "1FBA0DEF2FA4442238F7E63379F53FF2E5DA8A44",
+        "sha256": "9EF9E2591B9F1122750526A3244701C81515571E78D8552D0970041F2CFF9349"
     },
-    {
-      "name": "FirespitterCore"
-    },
-    {
-      "name": "Regolith"
-    },
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "suggests": [
-    {
-      "name": "TextureReplacer"
-    }
-  ],
-  "comment": "This may be renamed to USI-Karbonite in the future",
-  "provides": [
-    "USI-Karbonite"
-  ],
-  "install": [
-    {
-      "file": "GameData/UmbraSpaceIndustries",
-      "install_to": "GameData"
-    }
-  ],
-  "version": "0.5.0",
-  "download": "https://github.com/BobPalmer/Karbonite/releases/download/0.5.0/Karbonite_0.5.0.zip",
-  "x_generated_by": "netkan",
-  "download_size": 25212202
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
