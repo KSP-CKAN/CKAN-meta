@@ -1,99 +1,104 @@
 {
-  "spec_version": 1,
-  "name": "Realism Overhaul",
-  "identifier": "RealismOverhaul",
-  "abstract": "Multipatch to KSP to give things realistic stats and sizes",
-  "license": "CC-BY-SA",
-  "release_status": "stable",
-  "depends": [
-    {
-      "name": "AJE"
+    "spec_version": 1,
+    "identifier": "RealismOverhaul",
+    "name": "Realism Overhaul",
+    "abstract": "Multipatch to KSP to give things realistic stats and sizes",
+    "author": "RedAV8R",
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/84689",
+        "repository": "https://github.com/KSP-RO/RealismOverhaul"
     },
-    {
-      "name": "DeadlyReentry"
+    "version": "v6.1.2c",
+    "ksp_version": "0.25.0",
+    "provides": [
+        "RealFuels-Engine-Configs"
+    ],
+    "depends": [
+        {
+            "name": "AJE"
+        },
+        {
+            "name": "DeadlyReentry"
+        },
+        {
+            "name": "FerramAerospaceResearch"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ModuleRCSFX"
+        },
+        {
+            "name": "RealChute"
+        },
+        {
+            "name": "RealFuels"
+        },
+        {
+            "name": "TACLS-Config-RealismOverhaul"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ActiveTextureManagement"
+        },
+        {
+            "name": "CrossFeedEnabler"
+        },
+        {
+            "name": "EngineIgnitor"
+        },
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "ModuleFixer"
+        },
+        {
+            "name": "PartCatalog"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "RemoteTech"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "TextureReplacer"
+        },
+        {
+            "name": "Toolbar"
+        },
+        {
+            "name": "TweakScale"
+        }
+    ],
+    "install": [
+        {
+            "file": "RealismOverhaul",
+            "install_to": "GameData"
+        },
+        {
+            "file": "KAS",
+            "install_to": "GameData",
+            "comment": "KAS config, does not overwrite"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v6.1.2c/RealismOverhaul-6.1.2c.zip",
+    "download_size": 1385555,
+    "download_hash": {
+        "sha1": "8B4FD4690FEDA443A72E976D8186561EF84DF766",
+        "sha256": "E6A53A532AE4BA779C8C464D27549739A1BA7E02E6CD9EC30BC4D06DECAE0160"
     },
-    {
-      "name": "FerramAerospaceResearch"
-    },
-    {
-      "name": "KerbalJointReinforcement"
-    },
-    {
-      "name": "ModuleManager"
-    },
-    {
-      "name": "ModuleRCSFX"
-    },
-    {
-      "name": "RealChute"
-    },
-    {
-      "name": "RealFuels"
-    },
-    {
-      "name": "TACLS-Config-RealismOverhaul"
-    }
-  ],
-  "recommends": [
-    {
-      "name": "ActiveTextureManagement"
-    },
-    {
-      "name": "CrossFeedEnabler"
-    },
-    {
-      "name": "EngineIgnitor"
-    },
-    {
-      "name": "MechJeb2"
-    },
-    {
-      "name": "ModuleFixer"
-    },
-    {
-      "name": "PartCatalog"
-    },
-    {
-      "name": "RealSolarSystem"
-    },
-    {
-      "name": "RemoteTech"
-    },
-    {
-      "name": "TACLS"
-    },
-    {
-      "name": "TextureReplacer"
-    },
-    {
-      "name": "Toolbar"
-    },
-    {
-      "name": "TweakScale"
-    }
-  ],
-  "provides": [
-    "RealFuels-Engine-Configs"
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/84689",
-    "repository": "https://github.com/KSP-RO/RealismOverhaul"
-  },
-  "install": [
-    {
-      "file": "RealismOverhaul",
-      "install_to": "GameData"
-    },
-    {
-      "file": "KAS",
-      "install_to": "GameData",
-      "comment": "KAS config, does not overwrite"
-    }
-  ],
-  "author": "RedAV8R",
-  "version": "v6.1.2c",
-  "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v6.1.2c/RealismOverhaul-6.1.2c.zip",
-  "x_generated_by": "netkan",
-  "download_size": 1385555,
-  "ksp_version": "0.25.0"
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
