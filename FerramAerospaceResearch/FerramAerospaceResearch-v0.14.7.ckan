@@ -1,25 +1,30 @@
 {
     "spec_version": 1,
     "identifier": "FerramAerospaceResearch",
+    "name": "Ferram Aerospace Research",
+    "abstract": "FAR replaces KSP's stock mass-based aerodynamics model with one based on real-life physics.",
+    "author": "ferram4",
     "license": "GPL-3.0",
     "release_status": "stable",
     "resources": {
-        "repository": "https://github.com/ferram4/Ferram-Aerospace-Research",
         "homepage": "http://kerbalspaceprogram.com/forum/showthread.php/20451",
+        "repository": "https://github.com/ferram4/Ferram-Aerospace-Research",
         "kerbalstuff": "https://kerbalstuff.com/mod/52/Ferram%20Aerospace%20Research"
     },
+    "version": "v0.14.7",
+    "ksp_version": "0.90",
     "provides": [
         "AerodynamicModel",
         "FAR"
     ],
-    "conflicts": [
-        {
-            "name": "AerodynamicModel"
-        }
-    ],
     "depends": [
         {
             "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AerodynamicModel"
         }
     ],
     "install": [
@@ -34,12 +39,12 @@
             "description": "FAR example craft"
         }
     ],
-    "ksp_version": "0.90",
-    "name": "Ferram Aerospace Research",
-    "abstract": "FAR replaces KSP's stock mass-based aerodynamics model with one based on real-life physics.",
-    "author": "ferram4",
-    "version": "v0.14.7",
     "download": "http://ckan1.spacedock.info/storage/ferram4_54/Ferram_Aerospace_Research/Ferram_Aerospace_Research-v0.14.7.zip",
-    "x_generated_by": "netkan",
-    "download_size": 250005
+    "download_size": 250005,
+    "download_hash": {
+        "sha1": "398D69611CB3B92BA0A1AD31FEC73B38A754EC60",
+        "sha256": "D309BEAB5B7AE1343121B93FB4ACE52AB396BC7AFD656C71A33986FFDF4BE60B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
