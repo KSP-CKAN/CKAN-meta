@@ -1,15 +1,18 @@
 {
     "spec_version": 1,
     "identifier": "RemoteTech",
-    "ksp_version": "0.90",
+    "name": "RemoteTech",
+    "abstract": "RemoteTech allows you to construct vast relay networks of communication satellites and remotely controlled unmanned vehicles. Your unmanned vessels require an uplink to a command station to be controlled. This adds a new layer of difficulty that compensates for the lack of live crew members.",
+    "author": "Remote Technologies Group",
     "license": "restricted",
     "release_status": "stable",
-    "x_netkan_license_ok": true,
     "resources": {
         "repository": "https://github.com/RemoteTechnologiesGroup/RemoteTech",
         "bugtracker": "https://github.com/RemoteTechnologiesGroup/RemoteTech/issues",
         "manual": "http://remotetechnologiesgroup.github.io/RemoteTech/"
     },
+    "version": "v1.6.3",
+    "ksp_version": "0.90",
     "depends": [
         {
             "name": "ModuleManager",
@@ -23,12 +26,13 @@
             "install_to": "GameData"
         }
     ],
-    "name": "RemoteTech",
-    "abstract": "RemoteTech allows you to construct vast relay networks of communication satellites and remotely controlled unmanned vehicles. Your unmanned vessels require an uplink to a command station to be controlled. This adds a new layer of difficulty that compensates for the lack of live crew members.",
-    "author": "Remote Technologies Group",
-    "x_maintained_by": "Starstrider42",
-    "version": "v1.6.3",
     "download": "https://github.com/RemoteTechnologiesGroup/RemoteTech/releases/download/v1.6.3/RemoteTech-1.6.3.zip",
-    "x_generated_by": "netkan",
-    "download_size": 5432743
+    "download_size": 5432743,
+    "download_hash": {
+        "sha1": "58F094154E8FDBB4ACF6A15D9BC9D7A29BF4D04C",
+        "sha256": "11D1D009724ABBA7875F0EFA6DDACC467EB0C543F7CC79414BCD80CBA21BACB4"
+    },
+    "download_content_type": "application/zip",
+    "x_maintained_by": "Starstrider42",
+    "x_generated_by": "netkan"
 }

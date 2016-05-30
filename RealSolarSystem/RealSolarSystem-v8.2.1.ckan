@@ -1,52 +1,57 @@
 {
-  "spec_version": 1,
-  "name": "Real Solar System",
-  "identifier": "RealSolarSystem",
-  "abstract": "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
-  "license": "CC-BY-NC-SA",
-  "release_status": "stable",
-  "depends": [
-    {
-      "name": "RSSTextures"
+    "spec_version": 1,
+    "identifier": "RealSolarSystem",
+    "name": "Real Solar System",
+    "abstract": "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
+    "author": "NathanKell",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/55145",
+        "repository": "https://github.com/NathanKell/RealSolarSystem"
     },
-    {
-      "name": "DDSLoader"
+    "version": "v8.2.1",
+    "ksp_version": "0.25.0",
+    "depends": [
+        {
+            "name": "RSSTextures"
+        },
+        {
+            "name": "DDSLoader"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.5.0"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CustomBiomes-Data-RSS"
+        },
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RemoteTech-Config-RSS"
+        }
+    ],
+    "install": [
+        {
+            "file": "RealSolarSystem",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/NathanKell/RealSolarSystem/releases/download/v8.2.1/RealSolarSystem_v8.2.1.zip",
+    "download_size": 221951,
+    "download_hash": {
+        "sha1": "047A458B8E68FA6355EE48D6E5445BFB5B2B3AD8",
+        "sha256": "E3C9AEB0A4E5D22CCBE730F0782B1ADDD1B66AC3C5942DA88DAB7CBDD2B3C283"
     },
-    {
-      "name": "ModuleManager",
-      "min_version": "2.5.0"
-    }
-  ],
-  "recommends": [
-    {
-      "name": "CustomBiomes-Data-RSS"
-    },
-    {
-      "name": "RealismOverhaul"
-    },
-    {
-      "name": "Toolbar"
-    }
-  ],
-  "suggests": [
-    {
-      "name": "RemoteTech-Config-RSS"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/55145",
-    "repository": "https://github.com/NathanKell/RealSolarSystem"
-  },
-  "install": [
-    {
-      "file": "RealSolarSystem",
-      "install_to": "GameData"
-    }
-  ],
-  "author": "NathanKell",
-  "version": "v8.2.1",
-  "download": "https://github.com/NathanKell/RealSolarSystem/releases/download/v8.2.1/RealSolarSystem_v8.2.1.zip",
-  "x_generated_by": "netkan",
-  "download_size": 221951,
-  "ksp_version": "0.25.0"
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

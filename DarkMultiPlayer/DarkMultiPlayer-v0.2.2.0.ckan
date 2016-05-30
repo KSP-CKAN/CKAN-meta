@@ -1,27 +1,32 @@
 {
     "spec_version": 1,
     "identifier": "DarkMultiPlayer",
+    "name": "DarkMultiPlayer Client",
+    "abstract": "DarkMultiPlayer is a multiplayer mod for KSP. It supports subspace-style (and master controlled warp) warping & career mode, with an easy-to-edit server database.",
+    "author": "godarklight",
+    "license": "MIT",
     "release_status": "development",
     "resources": {
-        "manual": "https://github.com/godarklight/DarkMultiPlayer/blob/master/README.md",
-        "repository": "https://github.com/godarklight/DarkMultiPlayer",
         "homepage": "http://forum.kerbalspaceprogram.com/threads/79111-DarkMultiPlayer-0-1-0-0-KSP-0-23-5-Alpha/page1",
+        "repository": "https://github.com/godarklight/DarkMultiPlayer",
+        "manual": "https://github.com/godarklight/DarkMultiPlayer/blob/master/README.md",
         "kerbalstuff": "https://kerbalstuff.com/mod/4/DarkMultiPlayer%20Client"
     },
+    "version": "v0.2.2.0",
+    "ksp_version": "1.0.2",
     "install": [
         {
             "file": "DMPClient/GameData/DarkMultiPlayer",
             "install_to": "GameData"
         }
     ],
-    "ksp_version": "1.0.2",
-    "name": "DarkMultiPlayer Client",
-    "license": "MIT",
-    "abstract": "DarkMultiPlayer is a multiplayer mod for KSP. It supports subspace-style (and master controlled warp) warping & career mode, with an easy-to-edit server database.",
-    "author": "godarklight",
-    "version": "v0.2.2.0",
     "download": "http://ckan1.spacedock.info/storage/godarklight_5/DarkMultiPlayer_Client/DarkMultiPlayer_Client-v0.2.2.0.zip",
-    "x_generated_by": "netkan",
+    "download_size": 207041,
+    "download_hash": {
+        "sha1": "9CBFD8A2F08161E520E1025136A7B7F0767DAD49",
+        "sha256": "32E76A8C32E5AA0B82883EF6E6860B7C6EEBA069835511E377CD8DA4C3571AE1"
+    },
+    "download_content_type": "application/zip",
     "x_screenshot": "https://kerbalstuff.com/content/godarklight_5/DarkMultiPlayer_Client/DarkMultiPlayer_Client.png",
-    "download_size": 207041
+    "x_generated_by": "netkan"
 }

@@ -3,13 +3,25 @@
     "identifier": "OblivionAerospace",
     "name": "Oblivion Aerospace",
     "abstract": "A small parts package of heat shields for Kerbal Space Program.",
+    "author": "LostOblivion",
     "license": "CC-BY-SA-4.0",
-    "ksp_version_min": "0.25",
-    "ksp_version_max": "1.0.99",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/91920",
         "repository": "https://github.com/LostOblivion/OblivionAerospace"
     },
+    "version": "v0.1.4",
+    "ksp_version_min": "0.25",
+    "ksp_version_max": "1.0.99",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "DeadlyReentry"
+        }
+    ],
     "install": [
         {
             "file": "OblivionAerospace/GameData/OblivionAerospace",
@@ -21,19 +33,12 @@
             "install_to": "Ships"
         }
     ],
-    "depends": [
-        {
-            "name": "ModuleManager"
-        }
-    ],
-    "recommends": [
-        {
-            "name": "DeadlyReentry"
-        }
-    ],
-    "author": "LostOblivion",
-    "version": "v0.1.4",
     "download": "https://github.com/LostOblivion/OblivionAerospace/releases/download/v0.1.4/OblivionAerospacePack-0.1.4.zip",
-    "x_generated_by": "netkan",
-    "download_size": 1511628
+    "download_size": 1511628,
+    "download_hash": {
+        "sha1": "734A7FF6FE3CB9D3712456795E2929BFF0534A12",
+        "sha256": "0C0DE64743752F8A408C8EEEB89EF1D93AD4261A65AB7F31C82B4597EC5F4D43"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

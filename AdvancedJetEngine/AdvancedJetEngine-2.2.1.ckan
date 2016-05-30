@@ -1,7 +1,19 @@
 {
-    "identifier": "AdvancedJetEngine",
-    "license": "LGPL-2.0",
     "spec_version": "v1.4",
+    "comment": "The full path in the mod archive can change. I.e. it was AJE-2.0.3/GameData/AJE at some point. The CKAN needs to deal with this. Hence using 'find'",
+    "identifier": "AdvancedJetEngine",
+    "name": "Advanced Jet Engine",
+    "abstract": "Realism for turbojet, turbofans, air-breathing rockets, propellers and rotors in KSP.",
+    "author": "camlost",
+    "license": "LGPL-2.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/70008",
+        "repository": "https://github.com/camlost2/AJE",
+        "kerbalstuff": "https://kerbalstuff.com/mod/462/Advanced%20Jet%20Engine"
+    },
+    "version": "2.2.1",
+    "ksp_version": "1.0.4",
     "depends": [
         {
             "name": "FerramAerospaceResearch"
@@ -29,19 +41,12 @@
             "install_to": "GameData"
         }
     ],
-    "comment": "The full path in the mod archive can change. I.e. it was AJE-2.0.3/GameData/AJE at some point. The CKAN needs to deal with this. Hence using 'find'",
-    "ksp_version": "1.0.4",
-    "name": "Advanced Jet Engine",
-    "abstract": "Realism for turbojet, turbofans, air-breathing rockets, propellers and rotors in KSP.",
-    "author": "camlost",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/70008",
-        "kerbalstuff": "https://kerbalstuff.com/mod/462/Advanced%20Jet%20Engine",
-        "repository": "https://github.com/camlost2/AJE"
-    },
-    "release_status": "stable",
-    "version": "2.2.1",
     "download": "https://github.com/camlost2/AJE/releases/download/2.2.1/Advanced_Jet_Engine-2.2.1.zip",
     "download_size": 888471,
+    "download_hash": {
+        "sha1": "C21138D00B2EF32BFEF2576D8957E01A0FBA6CFB",
+        "sha256": "9EAB1DBE7C7AF2AA4DFF02F6AD893863F967FADE41612ECB9A023C3CA2E9E0A1"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }

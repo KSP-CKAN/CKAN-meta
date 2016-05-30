@@ -1,24 +1,29 @@
 {
-    "spec_version" : "v1.2",
-    "identifier"   : "JSIPartUtilities",
-    "author"       : "Mihara",
-    "name"         : "JSI Part Utilities",
-    "abstract"     : "This is a collection of small and relatively simple PartModules",
-    "license"      : "GPL-3.0",
+    "spec_version": "v1.2",
+    "identifier": "JSIPartUtilities",
+    "name": "JSI Part Utilities",
+    "abstract": "This is a collection of small and relatively simple PartModules",
+    "author": "Mihara",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/88366",
+        "repository": "https://github.com/Mihara/PartUtilities"
+    },
+    "version": "v0.2",
     "ksp_version_min": "0.24.2",
     "ksp_version_max": "1.0.1",
-    "resources": {
-        "repository": "https://github.com/Mihara/PartUtilities",
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/88366"
-    },
     "install": [
         {
             "file": "GameData/JSI/PartUtilities",
             "install_to": "GameData/JSI"
         }
     ],
-    "version": "v0.2",
-    "x_generated_by": "hand-crafted by hakan42 since we don't index prereleases yet",
     "download": "https://github.com/Mihara/PartUtilities/releases/download/v0.2/JSIPartUtilities.0.2.zip",
-    "download_size": 22931
+    "download_size": 22931,
+    "download_hash": {
+        "sha1": "26B725A0C791B1AB720298654618734450029E0E",
+        "sha256": "6AC0AE8F0265913E3FF5EC83DA9555196D62C37206160C83A105C2B324DC46A1"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

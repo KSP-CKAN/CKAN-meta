@@ -5,20 +5,30 @@
     "abstract": "Space Launch System Parts Pack is a modification that adds to the basic game section dedicated to the SLS program. ",
     "author": "SoBoL",
     "license": "MIT",
-    "depends": [
-        { "name": "HangarExtender" },
-        { "name": "KerbalJointReinforcement" }
-    ],
-    "recommends": [
-        { "name": "AerojetKerbodyne" },
-        { "name": "SDHI-ServiceModuleSystem" },
-        { "name": "RandSCapsuledyne" }
-    ],
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/140176-Space-Launch-System-Part-Pack"
     },
     "version": "1.0.5.0.9",
     "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "HangarExtender"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "AerojetKerbodyne"
+        },
+        {
+            "name": "SDHI-ServiceModuleSystem"
+        },
+        {
+            "name": "RandSCapsuledyne"
+        }
+    ],
     "install": [
         {
             "find": "SpaceLaunchSystem",
@@ -27,5 +37,10 @@
     ],
     "download": "http://ckan1.spacedock.info/storage/SoBoL_16894/Space_Launch_System_Part_Pack/Space_Launch_System_Part_Pack-1.0.5.0.9.zip",
     "download_size": 52387795,
+    "download_hash": {
+        "sha1": "539D2F470586D244CD467748662E88C920215B61",
+        "sha256": "FD3E2026CC2C8BACD9B940C177FFCDC47122D838E943D8A1C1F785D85DA0A97D"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }

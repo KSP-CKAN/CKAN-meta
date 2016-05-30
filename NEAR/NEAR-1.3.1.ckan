@@ -1,9 +1,25 @@
 {
     "spec_version": 1,
     "identifier": "NEAR",
+    "name": "Neophyte's Elementary Aerodynamics Replacement",
+    "abstract": "NEAR replaces KSP's stock mass-based aerodynamics model with a relatively simple, slightly more realistic one.",
+    "author": "ferram4",
     "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/86419",
+        "repository": "https://github.com/ferram4/Ferram-Aerospace-Research/tree/NEAR",
+        "kerbalstuff": "https://kerbalstuff.com/mod/54/Neophyte's%20Elementary%20Aerodynamics%20Replacement",
+        "x_screenshot": "https://kerbalstuff.com/content/ferram4_54/Neophytes_Elementary_Aerodynamics_Replacement/Neophytes_Elementary_Aerodynamics_Replacement.png"
+    },
+    "version": "1.3.1",
+    "ksp_version": "0.90.0",
     "provides": [
         "AerodynamicModel"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
     ],
     "conflicts": [
         {
@@ -13,23 +29,12 @@
             "name": "FerramAerospaceResearch"
         }
     ],
-    "depends": [
-        {
-            "name": "ModuleManager"
-        }
-    ],
-    "ksp_version": "0.90.0",
-    "name": "Neophyte's Elementary Aerodynamics Replacement",
-    "abstract": "NEAR replaces KSP's stock mass-based aerodynamics model with a relatively simple, slightly more realistic one.",
-    "version": "1.3.1",
-    "author": "ferram4",
     "download": "http://ckan1.spacedock.info/storage/ferram4_54/Neophytes_Elementary_Aerodynamics_Replacement/Neophytes_Elementary_Aerodynamics_Replacement-v1.3.1.zip",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/86419",
-        "repository": "https://github.com/ferram4/Ferram-Aerospace-Research/tree/NEAR",
-        "kerbalstuff": "https://kerbalstuff.com/mod/54/Neophyte's%20Elementary%20Aerodynamics%20Replacement",
-        "x_screenshot": "https://kerbalstuff.com/content/ferram4_54/Neophytes_Elementary_Aerodynamics_Replacement/Neophytes_Elementary_Aerodynamics_Replacement.png"
-    },
     "download_size": 78227,
+    "download_hash": {
+        "sha1": "825BF84D2A172641330BB93E6843DBAF4014DB6E",
+        "sha256": "18098081E5F964B61373B26A3B497ECB194040FAA602E064F17D892D875C5854"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }

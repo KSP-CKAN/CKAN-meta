@@ -5,12 +5,12 @@
     "abstract": "Converts your nuclear engines into using Liquid Hydrogen",
     "author": "Nertea",
     "license": "CC-BY-NC-SA-3.0",
-    "install": [
-        {
-            "file": "Extras/HydrogenNTRs",
-            "install_to": "GameData/NearFuturePropulsion"
-        }
-    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/52042-0-21",
+        "kerbalstuff": "https://kerbalstuff.com/mod/347/Near%20Future%20Propulsion"
+    },
+    "version": "0.5.0",
+    "ksp_version": "1.0.2",
     "depends": [
         {
             "name": "CommunityResourcePack"
@@ -21,13 +21,18 @@
             "name": "NearFuturePropulsion"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/52042-0-21",
-        "kerbalstuff": "https://kerbalstuff.com/mod/347/Near%20Future%20Propulsion"
-    },
-    "ksp_version": "1.0.2",
-    "version": "0.5.0",
+    "install": [
+        {
+            "file": "Extras/HydrogenNTRs",
+            "install_to": "GameData/NearFuturePropulsion"
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/Nertea_3884/Near_Future_Propulsion/Near_Future_Propulsion-0.5.0.zip",
-    "x_generated_by": "netkan",
-    "download_size": 44019254
+    "download_size": 44019254,
+    "download_hash": {
+        "sha1": "C948106B95B2D613B924A9D7538B1FD2CA04F6E8",
+        "sha256": "E4E0255626FB9D6D224779AF731DFE87D940F205D1DEEA68DAA75079CAB58E8A"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

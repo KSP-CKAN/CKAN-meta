@@ -1,30 +1,41 @@
 {
-    "spec_version"   : "v1.4",
-    "name"           : "HGR 1.875m parts",
-    "author"         : ["Orionkermin"],
-    "abstract"       : "Stock alike command pods and an 1.875m diameter of parts",
-    "identifier"     : "HGR",
-    "license"        : "restricted",
-    "version"        : "1.2.1",
-    "release_status" : "stable",
-    "ksp_version"    : "1.0.2",
-    "resources" : {
-        "homepage"     : "http://forum.kerbalspaceprogram.com/threads/60974",
-        "x_curse"      : "http://kerbal.curseforge.com/ksp-mods/222583-hgr-875m-parts"
+    "spec_version": "v1.4",
+    "identifier": "HGR",
+    "name": "HGR 1.875m parts",
+    "abstract": "Stock alike command pods and an 1.875m diameter of parts",
+    "author": [
+        "Orionkermin"
+    ],
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/60974",
+        "x_curse": "http://kerbal.curseforge.com/ksp-mods/222583-hgr-875m-parts"
     },
-    "download"       : "http://addons-origin.cursecdn.com/files/2237/481/HGR_V1.2.1.zip",
-    "install" : [
+    "version": "1.2.1",
+    "ksp_version": "1.0.2",
+    "depends": [
         {
-            "find"       : "HGR",
-            "filter"     : "Props",
-            "install_to" : "GameData"
-        },
-        {
-            "find"       : "HGR_Redux",
-            "install_to" : "GameData"
+            "name": "HGR-Props"
         }
     ],
-    "depends"  : [
-        { "name" : "HGR-Props" }
-    ]
+    "install": [
+        {
+            "find": "HGR",
+            "filter": "Props",
+            "install_to": "GameData"
+        },
+        {
+            "find": "HGR_Redux",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://addons-origin.cursecdn.com/files/2237/481/HGR_V1.2.1.zip",
+    "download_size": 15692367,
+    "download_hash": {
+        "sha1": "7EB99A5C338FBC1B19A125E7497665EFD2F7D5DC",
+        "sha256": "8DAC932FC5F7DF2F37AA7EE139E53F8CD1CDE7771DA8A02EEBD2F8907B975BA8"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

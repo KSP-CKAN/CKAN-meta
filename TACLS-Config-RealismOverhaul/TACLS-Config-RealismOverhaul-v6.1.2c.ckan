@@ -1,39 +1,44 @@
 {
-  "spec_version": 1,
-  "ksp_version": "any",
-  "name": "TAC Life Support (TACLS) - Realism Overhaul Config",
-  "identifier": "TACLS-Config-RealismOverhaul",
-  "abstract": "Realism Overhaul config for TACLS",
-  "license": "CC-BY-SA",
-  "release_status": "stable",
-  "depends": [
-    {
-      "name": "RealismOverhaul"
+    "spec_version": 1,
+    "identifier": "TACLS-Config-RealismOverhaul",
+    "name": "TAC Life Support (TACLS) - Realism Overhaul Config",
+    "abstract": "Realism Overhaul config for TACLS",
+    "author": "RedAV8R",
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/RealismOverhaul"
     },
-    {
-      "name": "TACLS"
-    }
-  ],
-  "provides": [
-    "TACLS-Config"
-  ],
-  "conflicts": [
-    {
-      "name": "TACLS-Config"
-    }
-  ],
-  "install": [
-    {
-      "file": "ThunderAerospace",
-      "install_to": "GameData"
-    }
-  ],
-  "resources": {
-    "repository": "https://github.com/KSP-RO/RealismOverhaul"
-  },
-  "author": "RedAV8R",
-  "version": "v6.1.2c",
-  "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v6.1.2c/RealismOverhaul-6.1.2c.zip",
-  "x_generated_by": "netkan",
-  "download_size": 1385555
+    "version": "v6.1.2c",
+    "ksp_version": "any",
+    "provides": [
+        "TACLS-Config"
+    ],
+    "depends": [
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "TACLS"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TACLS-Config"
+        }
+    ],
+    "install": [
+        {
+            "file": "ThunderAerospace",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v6.1.2c/RealismOverhaul-6.1.2c.zip",
+    "download_size": 1385555,
+    "download_hash": {
+        "sha1": "8B4FD4690FEDA443A72E976D8186561EF84DF766",
+        "sha256": "E6A53A532AE4BA779C8C464D27549739A1BA7E02E6CD9EC30BC4D06DECAE0160"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

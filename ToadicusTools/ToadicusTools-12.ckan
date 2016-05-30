@@ -1,22 +1,27 @@
 {
     "spec_version": "v1.4",
     "identifier": "ToadicusTools",
+    "name": "ToadicusTools",
+    "abstract": "A library of tools for KSP mods.",
+    "author": "toadicus",
     "license": "BSD-2-clause",
+    "resources": {
+        "kerbalstuff": "https://kerbalstuff.com/mod/470/ToadicusTools"
+    },
+    "version": "12",
+    "ksp_version": "1.0.0",
     "install": [
         {
             "file": "GameData/ToadicusTools",
             "install_to": "GameData"
         }
     ],
-    "resources": {
-        "kerbalstuff": "https://kerbalstuff.com/mod/470/ToadicusTools"
-    },
-    "ksp_version": "1.0.0",
-    "name": "ToadicusTools",
-    "abstract": "A library of tools for KSP mods.",
-    "author": "toadicus",
-    "version": "12",
     "download": "http://ckan1.spacedock.info/storage/toadicus_101/ToadicusTools/ToadicusTools-12.zip",
-    "x_generated_by": "netkan",
-    "download_size": 70206
+    "download_size": 70206,
+    "download_hash": {
+        "sha1": "943D23FC0C7B759CD1DCFD7E90C539DB63A8857B",
+        "sha256": "E655DD457F916E58519115A10E06A85219FE8B68A135553F771118553E705B35"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

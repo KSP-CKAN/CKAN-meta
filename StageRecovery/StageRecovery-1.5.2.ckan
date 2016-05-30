@@ -1,37 +1,41 @@
 {
-  "spec_version": 1,
-  "identifier": "StageRecovery",
-  "suggests": [
-    {
-      "name": "KerbalConstructionTime"
+    "spec_version": 1,
+    "identifier": "StageRecovery",
+    "name": "StageRecovery",
+    "abstract": "Recover Funds+ from Dropped Stages",
+    "author": "magico13",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/86677-0-24-2-StageRecovery-Recover-Funds-from-Dropped-Stages-v1-3-(8-5-14)",
+        "kerbalstuff": "https://kerbalstuff.com/mod/97/StageRecovery"
     },
-    {
-      "name": "Toolbar"
-    }
-  ],
-  "conflicts": [
-    {
-      "name": "DebRefund"
-    }
-  ],
-  "install": [
-    {
-      "file": "GameData/StageRecovery",
-      "install_to": "GameData"
-    }
-  ],
-  "x_netkan_license_ok": true,
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/86677-0-24-2-StageRecovery-Recover-Funds-from-Dropped-Stages-v1-3-(8-5-14)",
-    "kerbalstuff": "https://kerbalstuff.com/mod/97/StageRecovery"
-  },
-  "ksp_version": "0.25",
-  "name": "StageRecovery",
-  "license": "GPL-3.0",
-  "abstract": "Recover Funds+ from Dropped Stages",
-  "author": "magico13",
-  "version": "1.5.2",
-  "download": "http://ckan1.spacedock.info/storage/magico13_568/StageRecovery/StageRecovery-1.5.2.zip",
-  "x_generated_by": "netkan",
-  "download_size": 41366
+    "version": "1.5.2",
+    "ksp_version": "0.25",
+    "suggests": [
+        {
+            "name": "KerbalConstructionTime"
+        },
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "DebRefund"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/StageRecovery",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/magico13_568/StageRecovery/StageRecovery-1.5.2.zip",
+    "download_size": 41366,
+    "download_hash": {
+        "sha1": "7FE02FA3BE4F0633151158646A0DF393334ADF1E",
+        "sha256": "A96EBBFFB14230A9B0192CCC36C21939F9C7C378E46F0809FDD16DA6AF35F43F"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
