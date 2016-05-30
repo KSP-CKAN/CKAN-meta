@@ -1,27 +1,33 @@
 {
     "spec_version": "v1.4",
-    "name": "Transfer Window Planner",
     "identifier": "TransferWindowPlanner",
+    "name": "Transfer Window Planner",
     "abstract": "An ingame implementation of Alexmun's Launch Window Planner",
+    "author": "TriggerAu",
     "license": "MIT",
     "release_status": "stable",
-    "author": "TriggerAu",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/93115",
-        "license": "https://github.com/TriggerAu/TransferWindowPlanner/blob/master/LICENSE",
         "repository": "https://github.com/TriggerAu/TransferWindowPlanner",
-        "kerbalstuff": "https://kerbalstuff.com/mod/268/Transfer%20Window%20Planner",
+        "license": "https://github.com/TriggerAu/TransferWindowPlanner/blob/master/LICENSE",
         "manual": "http://triggerau.github.io/TransferWindowPlanner/",
+        "kerbalstuff": "https://kerbalstuff.com/mod/268/Transfer%20Window%20Planner",
         "x_curse": "http://kerbal.curseforge.com/ksp-mods/224116-transfer-window-planner"
     },
+    "version": "v1.2.2.0",
+    "ksp_version": "0.90.0",
     "install": [
         {
             "find": "TransferWindowPlanner",
             "install_to": "GameData/TriggerTech"
         }
     ],
-    "ksp_version": "0.90.0",
-    "version": "v1.2.2.0",
     "download": "https://github.com/TriggerAu/TransferWindowPlanner/releases/download/v1.2.2.0/TransferWindowPlanner_1.2.2.0.zip",
-    "download_size": 90317
+    "download_size": 90317,
+    "download_hash": {
+        "sha1": "058DF058650193F9540CE015EF3473D725A0E471",
+        "sha256": "62D9BAEC7C1C286997CE85AF33292485301FC053CF3882D73C22BEA407880699"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
