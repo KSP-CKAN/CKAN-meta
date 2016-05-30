@@ -1,7 +1,17 @@
 {
-    "identifier": "kOS-Classic",
-    "license": "GPL-3.0",
     "spec_version": "v1.4",
+    "comment": "ugly installation solution that is forced by the lack of a top-level folder in the version at time of writing",
+    "identifier": "kOS-Classic",
+    "name": "kOS Classic",
+    "abstract": "Classic version of the kOS scriptable autopilot system.",
+    "author": "Nivekk",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://kosdev.blogspot.ca/",
+        "kerbalstuff": "https://kerbalstuff.com/mod/702/kOS%20Classic"
+    },
+    "version": "1.0.0",
+    "ksp_version": "0.90",
     "install": [
         {
             "file": "Flags",
@@ -24,17 +34,12 @@
             "install_to": "GameData/kOSClassic"
         }
     ],
-    "comment": "ugly installation solution that is forced by the lack of a top-level folder in the version at time of writing",
-    "resources": {
-        "homepage": "http://kosdev.blogspot.ca/",
-        "kerbalstuff": "https://kerbalstuff.com/mod/702/kOS%20Classic"
-    },
-    "ksp_version": "0.90",
-    "name": "kOS Classic",
-    "abstract": "Classic version of the kOS scriptable autopilot system.",
-    "author": "Nivekk",
-    "version": "1.0.0",
     "download": "http://ckan1.spacedock.info/storage/Nivekk_8838/kOS_Classic/kOS_Classic-1.0.0.zip",
-    "x_generated_by": "netkan",
-    "download_size": 659259
+    "download_size": 659259,
+    "download_hash": {
+        "sha1": "79EC424BE8709C3F561C6F4DDCD1BE1A6E84373E",
+        "sha256": "95984369DDA0183F2510E792B81A01717B53DB743ED15A2659F8528CA7C7D190"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
