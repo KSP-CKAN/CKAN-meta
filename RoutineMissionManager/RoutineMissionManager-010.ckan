@@ -1,29 +1,33 @@
 {
     "spec_version": 1,
     "identifier": "RoutineMissionManager",
-    "x_netkan_license_ok": true,
+    "name": "Routine Mission Manager",
+    "abstract": "This mod allows a player to track flights to stations in orbit of Kerbin and to then have these missions automatically repeated with the original mission vehicle ending up docked at the station.",
+    "author": "PrivateFlip",
+    "license": "BSD-2-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/85630-Plugin-0-90-Routine-Mission-Manager-v002-(alpha)?p=1260437&viewfull=1#post1260437",
+        "kerbalstuff": "https://kerbalstuff.com/mod/463/Routine%20Mission%20Manager"
+    },
+    "version": "010",
+    "ksp_version": "0.90",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
     "install": [
         {
             "file": "GameData/RoutineMissionManager",
             "install_to": "GameData"
         }
     ],
-    "depends": [
-        {
-            "name": "ModuleManager"
-        }
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/85630-Plugin-0-90-Routine-Mission-Manager-v002-(alpha)?p=1260437&viewfull=1#post1260437",
-        "kerbalstuff": "https://kerbalstuff.com/mod/463/Routine%20Mission%20Manager"
-    },
-    "ksp_version": "0.90",
-    "name": "Routine Mission Manager",
-    "license": "BSD-2-clause",
-    "abstract": "This mod allows a player to track flights to stations in orbit of Kerbin and to then have these missions automatically repeated with the original mission vehicle ending up docked at the station.",
-    "author": "PrivateFlip",
-    "version": "010",
     "download": "http://ckan1.spacedock.info/storage/PrivateFlip_4947/Routine_Mission_Manager/Routine_Mission_Manager-010.zip",
-    "x_generated_by": "netkan",
-    "download_size": 72990
+    "download_size": 72990,
+    "download_hash": {
+        "sha1": "CEEEC118C1CB4E718A3277E311FBFCBBC5546EE6",
+        "sha256": "A9E9A1E70C4E245859DA1AEA4C6AC375A1EEF24C83FA409D11559B6F067D9174"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
