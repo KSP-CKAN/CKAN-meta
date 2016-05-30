@@ -1,45 +1,50 @@
 {
-  "spec_version": 1,
-  "identifier": "RP-0",
-  "name": "Realistic Progression Zero",
-  "abstract": "Realistic Progression Zero - The lightweight Realism Overhaul tech tree",
-  "license": "CC-BY-4.0",
-  "author": "RP-0 Group",
-  "release_status": "development",
-  "depends": [
-    {
-      "name": "ModuleManager"
+    "spec_version": 1,
+    "identifier": "RP-0",
+    "name": "Realistic Progression Zero",
+    "abstract": "Realistic Progression Zero - The lightweight Realism Overhaul tech tree",
+    "author": "RP-0 Group",
+    "license": "CC-BY-4.0",
+    "release_status": "development",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/RP-0"
     },
-    {
-      "name": "RealismOverhaul"
+    "version": "v0.02",
+    "ksp_version": "0.90",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "SXT"
+        },
+        {
+            "name": "ProceduralFairings"
+        },
+        {
+            "name": "CommunityTechTree"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ProceduralDyanmics"
+        },
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "ProceduralParts"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RP-0/releases/download/v0.02/RP-0-v0.02.zip",
+    "download_size": 9055,
+    "download_hash": {
+        "sha1": "5EE35CA291AD7C14FBA41FAFAE567A3187FB3992",
+        "sha256": "5F4B5465A63DAFE27CF48649A8B0612A45AD63C63BA8DDAF5CCDE7FD500E9003"
     },
-    {
-      "name": "SXT"
-    },
-    {
-      "name": "ProceduralFairings"
-    },
-    {
-      "name": "CommunityTechTree"
-    }
-  ],
-  "recommends": [
-    {
-      "name": "ProceduralDyanmics"
-    },
-    {
-      "name": "TweakScale"
-    },
-    {
-      "name": "ProceduralParts"
-    }
-  ],
-  "resources": {
-    "repository": "https://github.com/KSP-RO/RP-0"
-  },
-  "version": "v0.02",
-  "download": "https://github.com/KSP-RO/RP-0/releases/download/v0.02/RP-0-v0.02.zip",
-  "x_generated_by": "netkan",
-  "download_size": 9055,
-    "ksp_version": "0.90"
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
