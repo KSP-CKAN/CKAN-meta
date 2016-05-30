@@ -1,13 +1,16 @@
 {
     "spec_version": 1,
     "identifier": "StationPartsExpansion",
+    "name": "Stockalike Station Parts Expansion",
+    "abstract": "Expand space and surface stations with this purpose-built collection of stockalike parts",
+    "author": "Nertea",
     "license": "CC-BY-NC-SA-4.0",
-    "install": [
-        {
-            "file": "GameData/StationPartsExpansion",
-            "install_to": "GameData"
-        }
-    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/91814",
+        "kerbalstuff": "https://kerbalstuff.com/mod/351/Stockalike%20Station%20Parts%20Expansion"
+    },
+    "version": "0.3.1",
+    "ksp_version": "1.0.0",
     "depends": [
         {
             "name": "RasterPropMonitor-Core"
@@ -21,16 +24,18 @@
             "name": "CommunityTechTree"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/91814",
-        "kerbalstuff": "https://kerbalstuff.com/mod/351/Stockalike%20Station%20Parts%20Expansion"
-    },
-    "ksp_version": "1.0.0",
-    "name": "Stockalike Station Parts Expansion",
-    "abstract": "Expand space and surface stations with this purpose-built collection of stockalike parts",
-    "author": "Nertea",
-    "version": "0.3.1",
+    "install": [
+        {
+            "file": "GameData/StationPartsExpansion",
+            "install_to": "GameData"
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/Nertea_3884/Stockalike_Station_Parts_Expansion/Stockalike_Station_Parts_Expansion-0.3.1.zip",
-    "x_generated_by": "netkan",
-    "download_size": 23939354
+    "download_size": 23939354,
+    "download_hash": {
+        "sha1": "E6EF9D441DC77485AB8D37983CDE31176E7CEC8F",
+        "sha256": "0CF536FFBD02677FBDB98029624EE6C18E0514838D289E7CD7D37A0D64561BB2"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
