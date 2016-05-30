@@ -1,23 +1,30 @@
 {
-   "resources" : {
-      "homepage" : "http://forum.kerbalspaceprogram.com/threads/24551-Firespitter-propeller-plane-and-helicopter-parts",
-      "repository" : "https://github.com/snjo/Firespitter/"
-   },
-   "abstract" : "Core Firespitter.dll. Install `Firespitter` for the whole shebang",
-   "license" : "restricted",
-   "release_status" : "stable",
-   "version" : "7.1",
-   "ksp_version" : "1.0.2",
-   "download" : "https://github.com/BobPalmer/Firespitter/releases/download/7.1.plugin/FSPlugin_7.1.zip",
-   "comment" : "recompiled by RoverDude, we'll need a .netkan pointing to the official repo later",
-   "author" : "Snjo",
-   "install" : [
-      {
-         "install_to" : "GameData",
-         "file" : "Firespitter"
-      }
-   ],
-   "spec_version" : 1,
-   "identifier" : "FirespitterCore",
-   "name" : "Firespitter Core"
+    "spec_version": 1,
+    "comment": "recompiled by RoverDude, we'll need a .netkan pointing to the official repo later",
+    "identifier": "FirespitterCore",
+    "name": "Firespitter Core",
+    "abstract": "Core Firespitter.dll. Install `Firespitter` for the whole shebang",
+    "author": "Snjo",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/24551-Firespitter-propeller-plane-and-helicopter-parts",
+        "repository": "https://github.com/snjo/Firespitter/"
+    },
+    "version": "7.1",
+    "ksp_version": "1.0.2",
+    "install": [
+        {
+            "install_to": "GameData",
+            "file": "Firespitter"
+        }
+    ],
+    "download": "https://github.com/BobPalmer/Firespitter/releases/download/7.1.plugin/FSPlugin_7.1.zip",
+    "download_size": 100236,
+    "download_hash": {
+        "sha1": "AE6C38E70958DC6EC7169634CF11634965FD66EA",
+        "sha256": "E1AE68823C3837B5FA8E2EA502C16C2851584299DCA913147FAB36237BC847FB"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
