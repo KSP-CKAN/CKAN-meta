@@ -1,38 +1,48 @@
 {
     "spec_version": "v1.4",
-    "name"     : "Advanced Jet Engine (AJE)",
-    "abstract" : "Realistic jet engines for KSP",
     "identifier": "AdvancedJetEngine",
-    "download" : "https://github.com/camlost2/AJE/archive/1.6.zip",
-    "license"  : "LGPL-2.0",
-    "version"  : "1.6",
-    "release_status" : "stable",
-    "ksp_version" : "0.25",
-    "install": [
-        {
-            "find"       : "AJE",
-            "install_to" : "GameData"
-        }
-    ],
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/70008",
-        "github"   : {
-            "url"      : "https://github.com/camlost2/AJE",
-            "releases" : true
+    "name": "Advanced Jet Engine (AJE)",
+    "abstract": "Realistic jet engines for KSP",
+    "license": "LGPL-2.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/70008",
+        "github": {
+            "url": "https://github.com/camlost2/AJE",
+            "releases": true
         }
     },
-    "install" : [
+    "version": "1.6",
+    "ksp_version": "0.25",
+    "depends": [
         {
-            "file"       : "AJE-1.6/GameData",
-            "install_to" : "GameData"
+            "name": "FerramAerospaceResearch"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.3.5"
         }
     ],
-    "depends" : [
-        { "name" : "FerramAerospaceResearch" },
-        { "name" : "ModuleManager", "min_version" : "2.3.5" }
+    "recommends": [
+        {
+            "name": "RealFuels"
+        },
+        {
+            "name": "HotRockets"
+        }
     ],
-    "recommends" : [
-        { "name" : "RealFuels" },
-        { "name" : "HotRockets" }
-    ]
+    "install": [
+        {
+            "file": "AJE-1.6/GameData",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/camlost2/AJE/archive/1.6.zip",
+    "download_size": 936135,
+    "download_hash": {
+        "sha1": "A2CA6E8F6C060F79676411BABB468FFD6125B411",
+        "sha256": "3CEB46739AF7C6E9E3FF89E4005F70E6562744740C04992ACCA1D31A0FA1109C"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
