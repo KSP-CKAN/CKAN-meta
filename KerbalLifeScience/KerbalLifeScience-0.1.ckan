@@ -1,14 +1,15 @@
 {
-    "identifier": "KerbalLifeScience",
-    "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": "v1.4",
+    "identifier": "KerbalLifeScience",
+    "name": "Kerbal Life Science",
+    "abstract": "Use Kerbals as test subjects to get science",
+    "author": "N3h3mia",
     "license": "GPL-3.0",
-    "install": [
-        {
-            "file": "NehemiahInc/KerbalLifeScience",
-            "install_to": "GameData/NehemiahInc"
-        }
-    ],
+    "resources": {
+        "kerbalstuff": "https://kerbalstuff.com/mod/627/Kerbal%20Life%20Science"
+    },
+    "version": "0.1",
+    "ksp_version": "0.90",
     "depends": [
         {
             "name": "NehemiahScienceCommon"
@@ -17,15 +18,19 @@
             "name": "NehemiahMultiPurposeParts"
         }
     ],
-    "resources": {
-        "kerbalstuff": "https://kerbalstuff.com/mod/627/Kerbal%20Life%20Science"
-    },
-    "ksp_version": "0.90",
-    "name": "Kerbal Life Science",
-    "abstract": "Use Kerbals as test subjects to get science",
-    "author": "N3h3mia",
-    "version": "0.1",
+    "install": [
+        {
+            "file": "NehemiahInc/KerbalLifeScience",
+            "install_to": "GameData/NehemiahInc"
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/N3h3mia_5677/Kerbal_Life_Science/Kerbal_Life_Science-0.1.zip",
-    "x_generated_by": "netkan",
-    "download_size": 4137647
+    "download_size": 4137647,
+    "download_hash": {
+        "sha1": "DF4810C68B841B917F4D67D25EC668D53E25069C",
+        "sha256": "44FA482C2ECDBA651D8A5748640C7E2DCB79ADB1078781607F59289BC43760DB"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "x_generated_by": "netkan"
 }
