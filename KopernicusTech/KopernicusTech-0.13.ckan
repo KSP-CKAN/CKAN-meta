@@ -1,27 +1,15 @@
 {
     "spec_version": "v1.4",
-    "identifier"  : "KopernicusTech",
-    "name"        : "KopernicusTech",
-    "abstract"    : "An attempt to integrate Kopernicus with KittopiaTech",
-    "license"     : "GPL-3.0",
-    "version"     : "0.13",
-    "author"      : "Gravitasi",
-    "ksp_version" : "0.90",
+    "identifier": "KopernicusTech",
+    "name": "KopernicusTech",
+    "abstract": "An attempt to integrate Kopernicus with KittopiaTech",
+    "author": "Gravitasi",
+    "license": "GPL-3.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/109122"
     },
-    "download": "https://www.dropbox.com/s/7b999gme8p7cgfr/KopernicusTech_v0.13.zip?dl=1",
-    "install": [
-        {
-            "find": "KittopiaSpace",
-            "install_to": "GameData",
-            "filter": "Textures"
-        },
-        {
-            "find": "Kopernicus",
-            "install_to": "GameData"
-        }
-    ],
+    "version": "0.13",
+    "ksp_version": "0.90",
     "depends": [
         {
             "name": "ModuleManager"
@@ -39,5 +27,24 @@
         {
             "name": "KittopiaTech"
         }
-    ]
+    ],
+    "install": [
+        {
+            "find": "KittopiaSpace",
+            "install_to": "GameData",
+            "filter": "Textures"
+        },
+        {
+            "find": "Kopernicus",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://www.dropbox.com/s/7b999gme8p7cgfr/KopernicusTech_v0.13.zip?dl=1",
+    "download_size": 161613,
+    "download_hash": {
+        "sha1": "4CAAE272C479C8CA8F3E6D42569719539A9A5781",
+        "sha256": "F14741F537A183384D1AAB44F191D97E06F1919FC50B49C6863DF2C2911777FA"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
