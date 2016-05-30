@@ -1,25 +1,36 @@
 {
-    "spec_version"   : 1,
-    "name"           : "ExtraPlanetaryLaunchpads->Karbonite Alternate workshop",
-    "identifier"     : "ExtraPlanetaryLaunchpads-KarboniteAdaptationAltWorkshop",
-    "abstract"       : "Alternate workshop for ExtraPlanetaryLaunchpads->Karbonite Adaptation",
-    "download"       : "https://dl.dropboxusercontent.com/u/19908938/AltOrbitalWorkshop.zip",
-    "license"        : "unknown",
-    "author"         : "rabidninjawombat",
-    "version"        : "0",
-    "release_status" : "stable",
-    "ksp_version"    : "0.25",
-    "resources"      : {
-          "homepage" : "http://forum.kerbalspaceprogram.com/threads/89774"
+    "spec_version": 1,
+    "identifier": "ExtraPlanetaryLaunchpads-KarboniteAdaptationAltWorkshop",
+    "name": "ExtraPlanetaryLaunchpads->Karbonite Alternate workshop",
+    "abstract": "Alternate workshop for ExtraPlanetaryLaunchpads->Karbonite Adaptation",
+    "author": "rabidninjawombat",
+    "license": "unknown",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/89774"
     },
-    "depends" : [
-    {"name" : "ExtraPlanetaryLaunchpads"},
-    {"name" : "Karbonite"}
-    ],
-    "install" : [
+    "version": "0",
+    "ksp_version": "0.25",
+    "depends": [
         {
-            "file"       : "GameData/WombatConversions",
-            "install_to" : "GameData"
+            "name": "ExtraPlanetaryLaunchpads"
+        },
+        {
+            "name": "Karbonite"
         }
-    ]
+    ],
+    "install": [
+        {
+            "file": "GameData/WombatConversions",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://dl.dropboxusercontent.com/u/19908938/AltOrbitalWorkshop.zip",
+    "download_size": 1817705,
+    "download_hash": {
+        "sha1": "71EA21CBB12F1781E9503FBB3011C460AD9262CC",
+        "sha256": "33FC35657E714AD73D057EB9132E4078AEDEFBB221E3836491A97F3A18985D52"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
