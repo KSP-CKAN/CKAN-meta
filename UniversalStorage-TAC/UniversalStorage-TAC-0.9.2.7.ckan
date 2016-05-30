@@ -1,25 +1,37 @@
 {
     "spec_version": 1,
+    "comment": "Hand packaged by Felger, if anything's wrong, it's my fault.",
     "identifier": "UniversalStorage-TAC",
-    "ksp_version": "0.25",
-    "resources":
-    {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/75129"
-    },
     "name": "Universal Storage TAC Pack",
-    "license": "restricted",
     "abstract": "Universal storage - TACLS extensions",
     "author": "Paul Kingtiger",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/75129"
+    },
     "version": "0.9.2.7",
-    "download": "http://www.kingtiger.co.uk/kingtiger/wordpress/wp-content/uploads/2014/11/US_TAC_0.9.2.7.zip",
-    "comment" : "Hand packaged by Felger, if anything's wrong, it's my fault.",
-    "depends" : [
-        { "name" : "UniversalStorage" },
-        { "name" : "TACLS" }
+    "ksp_version": "0.25",
+    "depends": [
+        {
+            "name": "UniversalStorage"
+        },
+        {
+            "name": "TACLS"
+        }
     ],
-    "install": [ {
-        "file"       : "UniversalStorage",
-        "install_to" : "GameData",
-        "filter"         : "US License.pdf"
-    } ]
+    "install": [
+        {
+            "file": "UniversalStorage",
+            "install_to": "GameData",
+            "filter": "US License.pdf"
+        }
+    ],
+    "download": "http://www.kingtiger.co.uk/kingtiger/wordpress/wp-content/uploads/2014/11/US_TAC_0.9.2.7.zip",
+    "download_size": 3995643,
+    "download_hash": {
+        "sha1": "ACC83BFD3183E7B31561F771F7A7C7EB2D417B36",
+        "sha256": "1A407730142BA247E9BEA76A29A1F596FBFF608701D944D1F092A0D5D0DF4D29"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
