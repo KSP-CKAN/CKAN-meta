@@ -1,14 +1,16 @@
 {
     "spec_version": 1,
     "identifier": "AntennaRange",
+    "name": "AntennaRange",
+    "abstract": "Enforce and Encourage Antenna Diversity",
+    "author": "toadicus",
     "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/56440",
+        "kerbalstuff": "https://kerbalstuff.com/mod/254/AntennaRange"
+    },
+    "version": "1.7b",
     "ksp_version": "0.90",
-    "install": [
-        {
-            "file": "GameData/AntennaRange",
-            "install_to": "GameData"
-        }
-    ],
     "depends": [
         {
             "name": "ModuleManager"
@@ -17,15 +19,18 @@
             "name": "ToadicusTools"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/56440",
-        "kerbalstuff": "https://kerbalstuff.com/mod/254/AntennaRange"
-    },
-    "name": "AntennaRange",
-    "abstract": "Enforce and Encourage Antenna Diversity",
-    "author": "toadicus",
-    "version": "1.7b",
+    "install": [
+        {
+            "file": "GameData/AntennaRange",
+            "install_to": "GameData"
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/toadicus_101/AntennaRange/AntennaRange-1.7b.zip",
-    "x_generated_by": "netkan",
-    "download_size": 155472
+    "download_size": 155472,
+    "download_hash": {
+        "sha1": "2C83BA903BBA0E697310D44079FAE5A561763F21",
+        "sha256": "03B473C73AE24766C90531800AC2DD179480921FD44CD4F48492612103CCC1C6"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

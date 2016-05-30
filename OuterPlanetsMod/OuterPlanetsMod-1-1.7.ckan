@@ -1,7 +1,19 @@
 {
     "spec_version": "v1.4",
     "identifier": "OuterPlanetsMod",
+    "name": "Outer Planets Mod",
+    "abstract": "Expands the Kerbol system with new planets and moons based on Saturn, Uranus, Neptune and their moons",
+    "author": "CaptRobau",
     "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/104280-0-90-Outer-Planet-Mods-Expands-the-Kerbol-system-with-new-planets-based-on-Saturn",
+        "kerbalstuff": "https://kerbalstuff.com/mod/437/Outer%20Planets%20Mod"
+    },
+    "version": "1:1.7",
+    "ksp_version": "1.0.4",
+    "provides": [
+        "PlanetPack"
+    ],
     "depends": [
         {
             "name": "ModuleManager",
@@ -11,17 +23,6 @@
             "name": "Kopernicus",
             "min_version": "pre-alpha-09"
         }
-    ],
-    "conflicts": [
-        {
-            "name": "CustomBiomes"
-        },
-        {
-            "name": "PlanetPack"
-        }
-    ],
-    "provides": [
-        "PlanetPack"
     ],
     "suggests": [
         {
@@ -78,23 +79,27 @@
             "name": "TextureReplacer"
         }
     ],
+    "conflicts": [
+        {
+            "name": "CustomBiomes"
+        },
+        {
+            "name": "PlanetPack"
+        }
+    ],
     "install": [
         {
             "find": "OPM",
             "install_to": "GameData"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/104280-0-90-Outer-Planet-Mods-Expands-the-Kerbol-system-with-new-planets-based-on-Saturn",
-        "kerbalstuff": "https://kerbalstuff.com/mod/437/Outer%20Planets%20Mod"
-    },
-    "ksp_version": "1.0.4",
-    "name": "Outer Planets Mod",
-    "abstract": "Expands the Kerbol system with new planets and moons based on Saturn, Uranus, Neptune and their moons",
-    "author": "CaptRobau",
-    "version": "1:1.7",
     "download": "http://ckan1.spacedock.info/storage/CaptRobau_2958/Outer_Planets_Mod/Outer_Planets_Mod-1.7.zip",
-    "x_generated_by": "netkan",
+    "download_size": 67815748,
+    "download_hash": {
+        "sha1": "59FE8269BD87ED13BA2BEDA244A214395A052CAA",
+        "sha256": "F554E5C98BEF6AE11384709AF6432BA48DFB56EEBEDD9781EC6ECA03D716EE5E"
+    },
+    "download_content_type": "application/zip",
     "x_screenshot": "https://kerbalstuff.com/content/CaptRobau_2958/Outer_Planets_Mod/Outer_Planets_Mod.png",
-    "download_size": 67815748
+    "x_generated_by": "netkan"
 }

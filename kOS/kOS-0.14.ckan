@@ -1,25 +1,32 @@
 {
     "spec_version": 1,
-    "name"     : "kOS - Kerbal OS",
-    "identifier" : "kOS",
-    "abstract" : "A programming and automation environment for KSP craft.",
-    "download" : "https://github.com/KSP-KOS/KOS/releases/download/v0.14/kOS.v14.zip",
-    "license"  : "GPL-3.0",
-    "version"  : "0.14",
-    "release_status" : "stable",
-    "ksp_version" : "0.24.2",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/68089-0-23-kOS-Scriptable-Autopilot-System-v0-11-2-13",
-        "manual"   : "http://ksp-kos.github.io/KOS_DOC/",
-        "github"   : {
-            "url"      : "https://github.com/KSP-KOS/KOS",
-            "releases" : true
+    "identifier": "kOS",
+    "name": "kOS - Kerbal OS",
+    "abstract": "A programming and automation environment for KSP craft.",
+    "license": "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/68089-0-23-kOS-Scriptable-Autopilot-System-v0-11-2-13",
+        "manual": "http://ksp-kos.github.io/KOS_DOC/",
+        "github": {
+            "url": "https://github.com/KSP-KOS/KOS",
+            "releases": true
         }
     },
-    "install" : [
+    "version": "0.14",
+    "ksp_version": "0.24.2",
+    "install": [
         {
-            "file"       : "GameData/kOS",
-            "install_to" : "GameData"
+            "file": "GameData/kOS",
+            "install_to": "GameData"
         }
-    ]
+    ],
+    "download": "https://github.com/KSP-KOS/KOS/releases/download/v0.14/kOS.v14.zip",
+    "download_size": 2445771,
+    "download_hash": {
+        "sha1": "C5A224AC4397770C0B19B4A6417F6C5052191608",
+        "sha256": "E0FB79C81D8FCDA8DB6E38B104106C3B7D078FDC06ACA2BC7834973B43D789CB"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

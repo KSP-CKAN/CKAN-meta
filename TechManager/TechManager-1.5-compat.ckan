@@ -1,17 +1,23 @@
 {
     "spec_version": 1,
+    "comment": "Nobody's had problems running TM 1.5 under 0.90, so this is a compatibility shim to allow it to be installed. Once TM 1.6 comes out, CKAN users should be able to install without pain.",
     "identifier": "TechManager",
+    "name": "TechManager",
+    "abstract": "This mod will allow you to change the tech tree, including the creation of new tech nodes. ",
+    "author": "anonish",
+    "license": "MIT",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/98293-0-25-TechManager-Version-1-0",
         "kerbalstuff": "https://kerbalstuff.com/mod/297/TechManager"
     },
-    "ksp_version": "0.90",
-    "comment": "Nobody's had problems running TM 1.5 under 0.90, so this is a compatibility shim to allow it to be installed. Once TM 1.6 comes out, CKAN users should be able to install without pain.",
-    "name": "TechManager",
-    "license": "MIT",
-    "abstract": "This mod will allow you to change the tech tree, including the creation of new tech nodes. ",
-    "author": "anonish",
     "version": "1.5-compat",
+    "ksp_version": "0.90",
     "download": "https://s3-us-west-2.amazonaws.com/ksp-ckan/DD419605.zip",
-    "download_size": 39956
+    "download_size": 39956,
+    "download_hash": {
+        "sha1": "930B36B422E5CE3327BDE59AC372C6B5D54A7802",
+        "sha256": "F78CDEFBC5CE15A22BC64137CD5A4EF2554EA705E7F1AD7B403C359A95F4F80B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

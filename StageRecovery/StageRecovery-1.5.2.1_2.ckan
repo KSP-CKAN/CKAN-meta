@@ -1,38 +1,42 @@
 {
-  "spec_version": 1,
-  "identifier": "StageRecovery",
-  "ksp_version": "0.90",
-  "resources": {
-    "repository": "https://github.com/magico13/StageRecovery",
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/86677-0-24-2-StageRecovery-Recover-Funds-from-Dropped-Stages-v1-3-(8-5-14)",
-    "kerbalstuff": "https://kerbalstuff.com/mod/97/StageRecovery"
-  },
-  "suggests": [
-    {
-      "name": "KerbalConstructionTime"
+    "spec_version": 1,
+    "identifier": "StageRecovery",
+    "name": "StageRecovery",
+    "abstract": "Recover Funds+ from Dropped Stages",
+    "author": "magico13",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/86677-0-24-2-StageRecovery-Recover-Funds-from-Dropped-Stages-v1-3-(8-5-14)",
+        "repository": "https://github.com/magico13/StageRecovery",
+        "kerbalstuff": "https://kerbalstuff.com/mod/97/StageRecovery"
     },
-    {
-      "name": "Toolbar"
-    }
-  ],
-  "conflicts": [
-    {
-      "name": "DebRefund"
-    }
-  ],
-  "install": [
-    {
-      "file": "GameData/StageRecovery",
-      "install_to": "GameData"
-    }
-  ],
-  "x_netkan_license_ok": true,
-  "name": "StageRecovery",
-  "license": "GPL-3.0",
-  "abstract": "Recover Funds+ from Dropped Stages",
-  "author": "magico13",
-  "version": "1.5.2.1_2",
-  "download": "http://ckan1.spacedock.info/storage/magico13_568/StageRecovery/StageRecovery-1.5.2.1_2.zip",
-  "x_generated_by": "netkan",
-  "download_size": 41443
+    "version": "1.5.2.1_2",
+    "ksp_version": "0.90",
+    "suggests": [
+        {
+            "name": "KerbalConstructionTime"
+        },
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "DebRefund"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/StageRecovery",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/magico13_568/StageRecovery/StageRecovery-1.5.2.1_2.zip",
+    "download_size": 41443,
+    "download_hash": {
+        "sha1": "25A0B7557E55DC72B4F773C88D6E967A864699DE",
+        "sha256": "762395EEABC115F75A692E6C97BAE2C9DB8834337DE5069AA5E734B1F35E03BD"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

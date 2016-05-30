@@ -1,32 +1,36 @@
 {
-  "spec_version": "v1.4",
-  "identifier": "ContractConfigurator-SCANsat",
-  "abstract": "A Mission pack creating SCANsat contracts",
-  "name": "SCANsat mission pack",
-  "license": "WTFPL",
-  "x_netkan_license_ok": true,
-  "x_maintained_by": "hakan42, who loves to fly missions with contracts in them",
-  "ksp_version_max" : "1.0.5",
-  "depends": [
-    {
-      "name": "ContractConfigurator"
+    "spec_version": "v1.4",
+    "identifier": "ContractConfigurator-SCANsat",
+    "name": "SCANsat mission pack",
+    "abstract": "A Mission pack creating SCANsat contracts",
+    "author": "SimonTheSourcerer",
+    "license": "WTFPL",
+    "resources": {
+        "repository": "https://github.com/SimonTheSourcerer/CCSCANsatMissionPack"
     },
-    {
-      "name": "SCANsat"
-    }
-  ],
-  "install": [
-    {
-      "find": "CC_Contracts",
-      "install_to": "GameData"
-    }
-  ],
-  "resources": {
-    "repository": "https://github.com/SimonTheSourcerer/CCSCANsatMissionPack"
-  },
-  "author": "SimonTheSourcerer",
-  "version": "1.0.1",
-  "download": "https://github.com/SimonTheSourcerer/CCSCANsatMissionPack/releases/download/1.0.1/CCSCANsatMissionPack.zip",
-  "x_generated_by": "netkan",
-  "download_size": 14294
+    "version": "1.0.1",
+    "ksp_version_max": "1.0.5",
+    "depends": [
+        {
+            "name": "ContractConfigurator"
+        },
+        {
+            "name": "SCANsat"
+        }
+    ],
+    "install": [
+        {
+            "find": "CC_Contracts",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/SimonTheSourcerer/CCSCANsatMissionPack/releases/download/1.0.1/CCSCANsatMissionPack.zip",
+    "download_size": 14294,
+    "download_hash": {
+        "sha1": "154F25116BA91185089332EF42BEA99CBC2206FE",
+        "sha256": "E957009686C12D2C2148BCE1E10E77585170A8DA409FBAA2524D394216835B6D"
+    },
+    "download_content_type": "application/zip",
+    "x_maintained_by": "hakan42, who loves to fly missions with contracts in them",
+    "x_generated_by": "netkan"
 }

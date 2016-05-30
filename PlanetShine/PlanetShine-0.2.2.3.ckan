@@ -1,7 +1,21 @@
 {
     "spec_version": "v1.2",
     "identifier": "PlanetShine",
+    "name": "PlanetShine",
+    "abstract": "Planets and moons reflects their light to your vessel + other ambient light improvements",
+    "author": "Valerian",
     "license": "Apache-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/96497",
+        "kerbalstuff": "https://kerbalstuff.com/mod/266/PlanetShine"
+    },
+    "version": "0.2.2.3",
+    "ksp_version": "1.0.0",
+    "depends": [
+        {
+            "name": "PlanetShine-Config"
+        }
+    ],
     "install": [
         {
             "file": "GameData/PlanetShine/Icons",
@@ -16,21 +30,12 @@
             "install_to": "GameData/PlanetShine"
         }
     ],
-    "depends": [
-        {
-            "name": "PlanetShine-Config"
-        }
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/96497",
-        "kerbalstuff": "https://kerbalstuff.com/mod/266/PlanetShine"
-    },
-    "ksp_version": "1.0.0",
-    "name": "PlanetShine",
-    "abstract": "Planets and moons reflects their light to your vessel + other ambient light improvements",
-    "author": "Valerian",
-    "version": "0.2.2.3",
     "download": "http://ckan1.spacedock.info/storage/Valerian_2822/PlanetShine/PlanetShine-0.2.2.3.zip",
-    "x_generated_by": "netkan",
-    "download_size": 43079
+    "download_size": 43079,
+    "download_hash": {
+        "sha1": "BA78280108BDAFECB55E680DDC1952582A21B3F7",
+        "sha256": "02339AC6428B3C521BA3EE7D3DFB6EF2188AC10EC8A3D1694E7B4BA8CA6BD6BC"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

@@ -7,8 +7,8 @@
     "license": "CC-BY-NC-SA-4.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/134835-1-0-4-BETA-Pathfinder-0-8-1-KSP-Meets-The-Martian",
-        "kerbalstuff": "https://kerbalstuff.com/mod/933/Pathfinder",
         "repository": "https://github.com/Angel-125/Pathfinder",
+        "kerbalstuff": "https://kerbalstuff.com/mod/933/Pathfinder",
         "x_screenshot": "https://kerbalstuff.com/content/Angel125_11824/Pathfinder/Pathfinder-1435207719.3211224.jpg"
     },
     "version": "0.8.3",
@@ -27,6 +27,11 @@
             "min_version": "2.6.5"
         }
     ],
+    "conflicts": [
+        {
+            "name": "Pathfinder-AntennarangePatch"
+        }
+    ],
     "install": [
         {
             "file": "GameData/WildBlueIndustries/Pathfinder",
@@ -35,10 +40,10 @@
     ],
     "download": "http://ckan1.spacedock.info/storage/Angel125_11824/Pathfinder/Pathfinder-0.8.3.zip",
     "download_size": 14578647,
-    "conflicts": [
-        {
-            "name": "Pathfinder-AntennarangePatch"
-        }
-    ],
+    "download_hash": {
+        "sha1": "D836245071ADC2351820D3F348052E9965DA9F9B",
+        "sha256": "049BA469E3A38ADC0D1EE795FB0C11CE7B33647306BD2CEB48BFC0D394FF772B"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }

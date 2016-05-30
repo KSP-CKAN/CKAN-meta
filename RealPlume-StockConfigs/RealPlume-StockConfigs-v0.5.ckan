@@ -1,10 +1,19 @@
 {
     "spec_version": "v1.4",
     "identifier": "RealPlume-StockConfigs",
-    "ksp_version": "1.0.4",
     "name": "Real Plume - Stock Configs",
     "abstract": "A set of effects and basic configs that can be attached to any engine as appropriate.  Requires secondary configs to function correctly.",
+    "author": "Felger",
     "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://github.com/KSP-RO/RealPlume/wiki",
+        "repository": "https://github.com/KSP-RO/RealPlume-StockConfigs"
+    },
+    "version": "v0.5",
+    "ksp_version": "1.0.4",
+    "provides": [
+        "RealPlumeConfigs"
+    ],
     "depends": [
         {
             "name": "RealPlume"
@@ -54,22 +63,18 @@
             "name": "VenStockRevamp"
         }
     ],
-    "provides": [
-        "RealPlumeConfigs"
-    ],
-    "resources": {
-        "homepage": "https://github.com/KSP-RO/RealPlume/wiki",
-        "repository": "https://github.com/KSP-RO/RealPlume-StockConfigs"
-    },
     "install": [
         {
             "find": "RealPlume-Stock",
             "install_to": "GameData/RealPlume"
         }
     ],
-    "version": "v0.5",
-    "author": "Felger",
     "download": "https://github.com/KSP-RO/RealPlume-StockConfigs/releases/download/v0.5/RealPlume-StockConfigs_v0.5.zip",
     "download_size": 100161,
+    "download_hash": {
+        "sha1": "BA318DEA993E46281558AA72621C4FF4F8193863",
+        "sha256": "4DF4D446CF325081D031852C7A40F034CE392007031C4D9D34A5F7E6F173D12F"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }

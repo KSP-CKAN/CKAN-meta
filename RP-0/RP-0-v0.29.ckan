@@ -3,9 +3,17 @@
     "identifier": "RP-0",
     "name": "Realistic Progression Zero",
     "abstract": "Realistic Progression Zero - The lightweight Realism Overhaul tech tree",
-    "license": "CC-BY-4.0",
     "author": "RP-0 Group",
+    "license": "CC-BY-4.0",
     "release_status": "development",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/RP-0"
+    },
+    "version": "v0.29",
+    "ksp_version": "0.90",
+    "provides": [
+        "FinePrint-Config"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
@@ -46,9 +54,6 @@
             "name": "VenStockRevamp"
         }
     ],
-    "provides": [
-        "FinePrint-Config"
-    ],
     "conflicts": [
         {
             "name": "FinePrint-Config"
@@ -60,12 +65,12 @@
             "install_to": "GameData"
         }
     ],
-    "resources": {
-        "repository": "https://github.com/KSP-RO/RP-0"
-    },
-    "version": "v0.29",
     "download": "https://github.com/KSP-RO/RP-0/releases/download/v0.29/RP-0-v0.29.zip",
-    "x_generated_by": "netkan",
     "download_size": 56395,
-    "ksp_version": "0.90"
+    "download_hash": {
+        "sha1": "A7C88C3E1FB9E4D31F8ACB729B1B69AF188CD3A9",
+        "sha256": "24E2D2099689AD682830A940C134CE09B1A39254AFDFFFBAC0D55CD070A3BA1C"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

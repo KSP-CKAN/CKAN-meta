@@ -1,21 +1,42 @@
 {
-"spec_version": 1,
-"identifier" : "MechJebForAll",
-"name" : "MechJeb and Engineer for all!",
-"author" : [ "nadseh" ],
-"version" : "1.2.0.0",
-"abstract" : "Automatically includes a MechJeb computer, Flight Engineer and Build Engineer on any craft that includes a probe core or a command module.",
-"ksp_version" : "any",
-"license" : "GPL-3.0",
-"download": "http://addons-origin.cursecdn.com/files/2235/984/MechJebAndEngineerForAll-v1.2.0.0.zip",
-"depends": [{ "name": "ModuleManager" }],
-"recommends":[
-{ "name": "MechJeb2" },
-{ "name": "KerbalEngineerRedux" }],
-"resources" : {
-    "homepage"     : "http://forum.kerbalspaceprogram.com/threads/83362"
-},
-"install": [ {"file": "MechJebAndEngineerForAll.cfg",
-            "install_to": "GameData" }
-]
+    "spec_version": 1,
+    "identifier": "MechJebForAll",
+    "name": "MechJeb and Engineer for all!",
+    "abstract": "Automatically includes a MechJeb computer, Flight Engineer and Build Engineer on any craft that includes a probe core or a command module.",
+    "author": [
+        "nadseh"
+    ],
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/83362"
+    },
+    "version": "1.2.0.0",
+    "ksp_version": "any",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "KerbalEngineerRedux"
+        }
+    ],
+    "install": [
+        {
+            "file": "MechJebAndEngineerForAll.cfg",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://addons-origin.cursecdn.com/files/2235/984/MechJebAndEngineerForAll-v1.2.0.0.zip",
+    "download_size": 25669,
+    "download_hash": {
+        "sha1": "CC8BCBA4F132DD883216DE9D5AAEAAF3DEA1300B",
+        "sha256": "6DFF659CD9516E5AF75B9AA61F1594B32519E941CCDAB49FF4F67BA28AFA026E"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

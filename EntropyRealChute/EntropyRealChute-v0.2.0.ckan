@@ -1,42 +1,47 @@
 {
-  "spec_version": 1,
-  "identifier": "EntropyRealChute",
-  "release_status": "development",
-  "license": "GPL-3.0",
-  "depends": [
-    {
-      "name": "DangIt"
+    "spec_version": 1,
+    "identifier": "EntropyRealChute",
+    "name": "Entropy",
+    "abstract": "A Hardmode for Ippo's DangIt!",
+    "author": "Coffeeman",
+    "license": "GPL-3.0",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/102197",
+        "repository": "https://github.com/602p/Entropy",
+        "bugtracker": "https://github.com/602p/Entropy/issues",
+        "kerbalstuff": "https://kerbalstuff.com/mod/388"
     },
-    {
-      "name": "RealChute"
+    "version": "v0.2.0",
+    "ksp_version": "0.25",
+    "depends": [
+        {
+            "name": "DangIt"
+        },
+        {
+            "name": "RealChute"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Entropy"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/z_Entropy_realchutes",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/Coffeeman_4174/Entropy/Entropy-v0.2.0.zip",
+    "download_size": 18232,
+    "download_hash": {
+        "sha1": "8E74A4D67097AD11326CEABCFC530CB4D14187B4",
+        "sha256": "12E41E2F7A75926D187B6878CEF1E41CEE695EB829204B753CE36B60FBD0EF56"
     },
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/102197",
-    "bugtracker": "https://github.com/602p/Entropy/issues",
-    "repository": "https://github.com/602p/Entropy",
-    "kerbalstuff": "https://kerbalstuff.com/mod/388"
-  },
-  "install": [
-    {
-      "file": "GameData/z_Entropy_realchutes",
-      "install_to": "GameData"
-    }
-  ],
-  "recommends": [
-    {
-      "name": "Entropy"
-    }
-  ],
-  "ksp_version": "0.25",
-  "name": "Entropy",
-  "abstract": "A Hardmode for Ippo's DangIt!",
-  "author": "Coffeeman",
-  "version": "v0.2.0",
-  "download": "http://ckan1.spacedock.info/storage/Coffeeman_4174/Entropy/Entropy-v0.2.0.zip",
-  "x_generated_by": "netkan",
-  "download_size": 18232
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

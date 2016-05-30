@@ -1,24 +1,33 @@
 {
     "spec_version": "v1.4",
+    "comment": "This mod would work as a netkan except for file tree, in the future ckan-core#131 may address this",
     "identifier": "PhoenixIndustriesCargoResupplySystem-large",
     "name": "Phoenix Industries Cargo Resupply System - 2.5m",
+    "abstract": "A four part mod containing a probe capsule, storage trunk, solar panels, and heat shield. KIS and MechJeb compatible.",
+    "author": "MoviesColin",
     "license": "CC-BY-NC-SA-4.0",
-
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/122510",
+        "kerbalstuff": "https://kerbalstuff.com/mod/831/Phoenix%20Industries%20Cargo%20Resupply%20System"
+    },
+    "version": "1.2",
+    "ksp_version": "1.0.2",
+    "provides": [
+        "PhoenixIndustriesCargoResupplySystem"
+    ],
+    "recommends": [
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "KIS"
+        }
+    ],
     "conflicts": [
         {
             "name": "PhoenixIndustriesCargoResupplySystem"
         }
     ],
-
-    "provides": [
-        "PhoenixIndustriesCargoResupplySystem"
-    ],
-
-    "recommends": [
-        { "name": "MechJeb2" },
-        { "name": "KIS"}
-    ],
-
     "install": [
         {
             "filter": "thumbs.db",
@@ -26,18 +35,12 @@
             "install_to": "GameData"
         }
     ],
-
-    "comment": "This mod would work as a netkan except for file tree, in the future ckan-core#131 may address this",
-
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/122510",
-        "kerbalstuff": "https://kerbalstuff.com/mod/831/Phoenix%20Industries%20Cargo%20Resupply%20System"
-    },
-    "ksp_version": "1.0.2",
-    "abstract": "A four part mod containing a probe capsule, storage trunk, solar panels, and heat shield. KIS and MechJeb compatible.",
-    "author": "MoviesColin",
-    "version": "1.2",
     "download": "http://ckan1.spacedock.info/storage/MoviesColin_10247/Phoenix_Industries_Cargo_Resupply_System/Phoenix_Industries_Cargo_Resupply_System-1.2.zip",
-    "x_generated_by": "netkan",
-    "download_size": 1693917
+    "download_size": 1693917,
+    "download_hash": {
+        "sha1": "2E08993F72E7111584B291940BC5AE7C6D551815",
+        "sha256": "272262E148BF5FBBF3E5AA2572AFA8FECFF4957432167E1947FA245A52D85C43"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

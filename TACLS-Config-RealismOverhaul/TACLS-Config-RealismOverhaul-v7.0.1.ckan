@@ -1,39 +1,44 @@
 {
-  "spec_version": 1,
-  "ksp_version": "any",
-  "name": "TAC Life Support (TACLS) - Realism Overhaul Config",
-  "identifier": "TACLS-Config-RealismOverhaul",
-  "abstract": "Realism Overhaul config for TACLS",
-  "license": "CC-BY-SA",
-  "release_status": "stable",
-  "depends": [
-    {
-      "name": "RealismOverhaul"
+    "spec_version": 1,
+    "identifier": "TACLS-Config-RealismOverhaul",
+    "name": "TAC Life Support (TACLS) - Realism Overhaul Config",
+    "abstract": "Realism Overhaul config for TACLS",
+    "author": "Felger",
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/RealismOverhaul"
     },
-    {
-      "name": "TACLS"
-    }
-  ],
-  "provides": [
-    "TACLS-Config"
-  ],
-  "conflicts": [
-    {
-      "name": "TACLS-Config"
-    }
-  ],
-  "install": [
-    {
-      "file": "ThunderAerospace",
-      "install_to": "GameData"
-    }
-  ],
-  "resources": {
-    "repository": "https://github.com/KSP-RO/RealismOverhaul"
-  },
-  "author": "Felger",
-  "version": "v7.0.1",
-  "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v7.0.1/RealismOverhaul7_0_1.zip",
-  "x_generated_by": "netkan",
-  "download_size": 1391813
+    "version": "v7.0.1",
+    "ksp_version": "any",
+    "provides": [
+        "TACLS-Config"
+    ],
+    "depends": [
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "TACLS"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TACLS-Config"
+        }
+    ],
+    "install": [
+        {
+            "file": "ThunderAerospace",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v7.0.1/RealismOverhaul7_0_1.zip",
+    "download_size": 1391813,
+    "download_hash": {
+        "sha1": "4BF7BCBA79BB1418916D4BEC5EA112808A3E99F8",
+        "sha256": "CC8F0D8DA108DEBBCEB15607E61863F2683C91D7F8FCBFA13FDAA655A9FD503E"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

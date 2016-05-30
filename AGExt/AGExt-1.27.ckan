@@ -1,56 +1,61 @@
 {
-  "spec_version": "v1.4",
-  "identifier": "AGExt",
-  "license": "GPL-3.0",
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "recommends": [
-    {
-      "name": "Toolbar"
-    }
-  ],
-  "install": [
-    {
-      "file": "GameData/Diazo",
-      "install_to": "GameData/Diazo"
-    }
-  ],
-  "suggests": [
-    {
-      "name": "SCANsat"
+    "spec_version": "v1.4",
+    "identifier": "AGExt",
+    "name": "Action Groups Extended",
+    "abstract": "Increase to 250 action groups with In-Flight editing and the ability to name groups so you remember what they do.",
+    "author": "Diazo",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/74195",
+        "kerbalstuff": "https://kerbalstuff.com/mod/455/Action%20Groups%20Extended"
     },
-    {
-      "name": "Kethane"
+    "version": "1.27",
+    "ksp_version": "0.90",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "Kethane"
+        },
+        {
+            "name": "FerramAerospaceResearch"
+        },
+        {
+            "name": "Firespitter"
+        },
+        {
+            "name": "InfernalRobotics"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "WarpPlugin"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Diazo",
+            "install_to": "GameData/Diazo"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/Diazo_5608/Action_Groups_Extended/Action_Groups_Extended-1.27.zip",
+    "download_size": 66538,
+    "download_hash": {
+        "sha1": "8DC59E87E3766C0CC7FC6519C6ACECABAE80C28F",
+        "sha256": "B13FEA7842EB77D712F1BA78C02EB1544B4FE766A4A92B42D5517E837B31C213"
     },
-    {
-      "name": "FerramAerospaceResearch"
-    },
-    {
-      "name": "Firespitter"
-    },
-    {
-      "name": "InfernalRobotics"
-    },
-    {
-      "name": "TACLS"
-    },
-    {
-      "name": "WarpPlugin"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/74195",
-    "kerbalstuff": "https://kerbalstuff.com/mod/455/Action%20Groups%20Extended"
-  },
-  "ksp_version": "0.90",
-  "name": "Action Groups Extended",
-  "abstract": "Increase to 250 action groups with In-Flight editing and the ability to name groups so you remember what they do.",
-  "author": "Diazo",
-  "version": "1.27",
-  "download": "http://ckan1.spacedock.info/storage/Diazo_5608/Action_Groups_Extended/Action_Groups_Extended-1.27.zip",
-  "x_generated_by": "netkan",
-  "download_size": 66538
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

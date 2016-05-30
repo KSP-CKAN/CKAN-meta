@@ -1,25 +1,33 @@
 {
     "spec_version": 1,
-    "version": "1.3",
     "identifier": "Service-Compartments-6S",
     "name": "6S Service Compartment Tubes",
     "abstract": "It's a tube.. and a hull... and a cargo bay... and a.. well, just about everything. And it is only 2 PARTS!!!",
-    "resources":
-    {
+    "author": "nothke",
+    "license": "CC-BY-NC-SA",
+    "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/61040"
     },
-    "license": "CC-BY-NC-SA",
-    "author": "nothke",
-    "download": "http://addons.cursecdn.com/files/2221/294/Nothke_SerCom_v1.3.zip",
+    "version": "1.3",
     "ksp_version_min": "0.25",
-    "x_maintained_by" : "Hand packaged by hakan42, if anything's wrong, it's my fault.",
-    "install": [
+    "depends": [
         {
-            "file"       : "NothkeSerCom",
-            "install_to" : "GameData"
+            "name": "FirespitterCore"
         }
     ],
-    "depends": [
-        { "name": "FirespitterCore" }
-    ]
+    "install": [
+        {
+            "file": "NothkeSerCom",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://addons.cursecdn.com/files/2221/294/Nothke_SerCom_v1.3.zip",
+    "download_size": 287448,
+    "download_hash": {
+        "sha1": "C2D5C69729140486F2F43A5169ADFB577A3D0349",
+        "sha256": "317027F88AAACA0175AAC3F251ADF427C813AB181FD2FB6038F88BF1A50C4ED1"
+    },
+    "download_content_type": "application/zip",
+    "x_maintained_by": "Hand packaged by hakan42, if anything's wrong, it's my fault.",
+    "x_generated_by": "netkan"
 }

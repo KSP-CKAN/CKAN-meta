@@ -1,62 +1,67 @@
 {
-  "spec_version": 1,
-  "identifier": "StockPlugins",
-  "license": "public-domain",
-  "install": [
-    {
-      "file": "GameData/Engineer_Stock",
-      "install_to": "GameData"
+    "spec_version": 1,
+    "identifier": "StockPlugins",
+    "name": "StockPlugins",
+    "abstract": "StockPlugins is several ModuleManager config files which adds the possibility to use a plugin without the additional parts. (StockPlugins support Engineer, KerbalEngineer, KerbalGPS, MechJeb, Protractor and Telemachus)",
+    "author": "malah",
+    "license": "public-domain",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/99869",
+        "kerbalstuff": "https://kerbalstuff.com/mod/402/StockPlugins"
     },
-    {
-      "file": "GameData/KerbalEngineer_Stock",
-      "install_to": "GameData"
+    "version": "v1.00",
+    "ksp_version": "0.25",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "StockRT"
+        },
+        {
+            "name": "KerbalEngineerRedux"
+        },
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "Telemachus"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Engineer_Stock",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/KerbalEngineer_Stock",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/KerbalGPS_Stock",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/MechJeb2_Stock",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/Protractor_Stock",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/Telemachus_Stock",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/malah_88/StockPlugins/StockPlugins-v1.00.zip",
+    "download_size": 30906,
+    "download_hash": {
+        "sha1": "4E499E04EC7BB206B71D10BC6A398C76A92AB8B8",
+        "sha256": "6CFC37767D93F5AFE198C68BD238B60FB1AF5A6A48ED8E775B0D5E2DF2AD36FE"
     },
-    {
-      "file": "GameData/KerbalGPS_Stock",
-      "install_to": "GameData"
-    },
-    {
-      "file": "GameData/MechJeb2_Stock",
-      "install_to": "GameData"
-    },
-    {
-      "file": "GameData/Protractor_Stock",
-      "install_to": "GameData"
-    },
-    {
-      "file": "GameData/Telemachus_Stock",
-      "install_to": "GameData"
-    }
-  ],
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "suggests": [
-    {
-      "name": "StockRT"
-    },
-    {
-      "name": "KerbalEngineerRedux"
-    },
-    {
-      "name": "MechJeb2"
-    },
-    {
-      "name": "Telemachus"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/99869",
-    "kerbalstuff": "https://kerbalstuff.com/mod/402/StockPlugins"
-  },
-  "ksp_version": "0.25",
-  "name": "StockPlugins",
-  "abstract": "StockPlugins is several ModuleManager config files which adds the possibility to use a plugin without the additional parts. (StockPlugins support Engineer, KerbalEngineer, KerbalGPS, MechJeb, Protractor and Telemachus)",
-  "author": "malah",
-  "version": "v1.00",
-  "download": "http://ckan1.spacedock.info/storage/malah_88/StockPlugins/StockPlugins-v1.00.zip",
-  "x_generated_by": "netkan",
-  "download_size": 30906
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

@@ -1,30 +1,35 @@
 {
     "spec_version": "v1.4",
-    "name": "Alternate Resource Panel",
     "identifier": "AlternateResourcePanel",
+    "name": "Alternate Resource Panel",
     "abstract": "An alternate view of vessel resources plugin for Kerbal Space Program",
+    "author": "TriggerAu",
     "license": "MIT",
     "release_status": "stable",
-    "author": "TriggerAu",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/60227",
-        "license": "https://github.com/TriggerAu/AlternateResourcePanel/blob/master/LICENSE",
         "repository": "https://github.com/TriggerAu/AlternateResourcePanel",
-        "kerbalstuff": "https://kerbalstuff.com/mod/195/Alternate%20Resource%20Panel",
+        "license": "https://github.com/TriggerAu/AlternateResourcePanel/blob/master/LICENSE",
         "manual": "https://sites.google.com/site/kspalternateresourcepanel/",
+        "kerbalstuff": "https://kerbalstuff.com/mod/195/Alternate%20Resource%20Panel",
         "x_curse": "http://kerbal.curseforge.com/ksp-mods/220649-alternate-resource-panel",
         "x_screenshot": "https://kerbalstuff.com/content/TriggerAu_1745/Alternate_Resource_Panel/Alternate_Resource_Panel.png"
     },
+    "version": "2.7.2.0",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.99",
     "install": [
         {
             "find": "KSPAlternateResourcePanel",
             "install_to": "GameData/TriggerTech"
         }
     ],
-    "version": "2.7.2.0",
     "download": "http://ckan1.spacedock.info/storage/TriggerAu_1745/Alternate_Resource_Panel/Alternate_Resource_Panel-2.7.2.0.zip",
-    "ksp_version_min": "1.0.0",
-    "ksp_version_max": "1.0.99",
     "download_size": 301944,
+    "download_hash": {
+        "sha1": "FE9B3ACECF54E407CD450BF8480181E5F613F69C",
+        "sha256": "D2C34217CA40DB9514E4E4001978286B2D9CBFEE1E948A5D83F38FD55A536A3A"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }

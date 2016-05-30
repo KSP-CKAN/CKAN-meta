@@ -1,15 +1,27 @@
 {
     "spec_version": 1,
     "identifier": "FuelScience",
+    "name": "Fuel Science",
+    "abstract": "An addition to the Station Science mod by ethernet.",
+    "description": "Included in this mod are three new experiments located in the fuel branches of the tech tree, to help balance the science-heavy electrics side.",
+    "author": "ArcaneZedric",
     "license": "GPL-3.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/67359"
     },
+    "version": "0.4",
+    "ksp_version_min": "0.23.5",
+    "ksp_version_max": "0.90",
+    "depends": [
+        {
+            "name": "StationScience"
+        }
+    ],
     "install": [
         {
             "file": "GameData/ArcanumIndustries",
             "install_to": "GameData",
-            "comment" : "We need to filter out some configs which otherwise result in duplicate parts; these are already in StationScience, which this depends upon",
+            "comment": "We need to filter out some configs which otherwise result in duplicate parts; these are already in StationScience, which this depends upon",
             "filter": [
                 "exper01PlantGrowth.cfg",
                 "exper02ProgradeKuarqs.cfg",
@@ -20,17 +32,12 @@
             ]
         }
     ],
-    "depends": [
-        {
-            "name": "StationScience"
-        }
-    ],
-    "ksp_version_min": "0.23.5",
-    "ksp_version_max": "0.90",
-    "name": "Fuel Science",
-    "abstract": "An addition to the Station Science mod by ethernet.",
-    "description": "Included in this mod are three new experiments located in the fuel branches of the tech tree, to help balance the science-heavy electrics side.",
-    "author": "ArcaneZedric",
-    "version": "0.4",
-    "download": "https://dl.dropboxusercontent.com/u/4943779/CostlyScience/CostlyScience_v0.4.zip"
+    "download": "https://dl.dropboxusercontent.com/u/4943779/CostlyScience/CostlyScience_v0.4.zip",
+    "download_size": 541097,
+    "download_hash": {
+        "sha1": "A087F259EF74E4AA4D9EFB8389530618AF8FEC06",
+        "sha256": "F902A5157C18E87ECA6977D22B32E66D0AA59A071675A88DEB1C6894F8BB0C9B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

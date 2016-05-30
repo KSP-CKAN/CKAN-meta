@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "KerbinSideGAP",
+    "name": "Kerbin Side GAP",
+    "abstract": "Aircraft routes all around the Kerbin! Contracts to perform various flights between majority of Kerbin Side bases.",
+    "author": "Keniamin",
+    "license": "CC-BY-NC-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/133545-10x-kerbin-side-gap/",
+        "repository": "https://github.com/Keniamin/KerbinSideGAP"
+    },
+    "version": "1.5",
+    "depends": [
+        {
+            "name": "KerbinSide-virt"
+        },
+        {
+            "name": "ContractConfigurator",
+            "min_version": "1.12.1"
+        },
+        {
+            "name": "ContractConfigurator-KerbinSideJobs",
+            "min_version": "2.0"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "NavUtilities"
+        },
+        {
+            "name": "WaypointManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KerbalAircraftExpansion"
+        },
+        {
+            "name": "WiderContractsApp"
+        }
+    ],
+    "install": [
+        {
+            "file": "KerbinSideGAP",
+            "install_to": "GameData/ContractPacks"
+        },
+        {
+            "file": "KerbinSideRunways.rwy",
+            "install_to": "GameData/KerbalScienceFoundation/NavInstruments/Runways"
+        }
+    ],
+    "download": "https://github.com/Keniamin/KerbinSideGAP/releases/download/1.5/KerbinSideGAP-1.5.zip",
+    "download_size": 171573,
+    "download_hash": {
+        "sha1": "8ADA2EAB666BFC4829C3DE8553E505A486C10E4C",
+        "sha256": "80071F2195198E1BE4CFA978D32BC8D412BC6E72A15D245859131BFF47C7C550"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

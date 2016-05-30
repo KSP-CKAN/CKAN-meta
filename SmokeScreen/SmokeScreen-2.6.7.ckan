@@ -3,21 +3,28 @@
     "identifier": "SmokeScreen",
     "name": "SmokeScreen - Extended FX Plugin",
     "abstract": "SmokeScreen is a plugin that build on the engine FX added in .23 and adds new features to them. Most of the features ideas comes from Nothke.",
-    "license": "BSD-2-clause",
     "author": "Sarbian",
+    "license": "BSD-2-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/71630",
+        "repository": "https://github.com/sarbian/SmokeScreen/",
+        "ci": "https://ksp.sarbian.com/jenkins/job/SmokeScreen/"
+    },
+    "version": "2.6.7",
     "ksp_version_min": "1.0.0",
     "ksp_version_max": "1.0.4",
-    "resources": {
-        "ci": "https://ksp.sarbian.com/jenkins/job/SmokeScreen/",
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/71630",
-        "repository": "https://github.com/sarbian/SmokeScreen/"
-    },
     "install": [
         {
             "file": "GameData/SmokeScreen",
             "install_to": "GameData"
         }
     ],
-    "version": "2.6.7",
-    "download": "https://ksp.sarbian.com/jenkins/job/SmokeScreen/45/artifact/SmokeScreen-2.6.7.0.zip"
+    "download": "https://ksp.sarbian.com/jenkins/job/SmokeScreen/45/artifact/SmokeScreen-2.6.7.0.zip",
+    "download_size": 26203,
+    "download_hash": {
+        "sha1": "E3D80FC22A21E73442806D2EE5CDEC6CD92039E6",
+        "sha256": "E501DFB4FD8093661B94D1D668A46F79756D7345689A6A97A75AB7F8520E7829"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

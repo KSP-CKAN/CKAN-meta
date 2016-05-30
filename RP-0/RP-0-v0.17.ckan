@@ -1,63 +1,68 @@
 {
-  "spec_version": 1,
-  "identifier": "RP-0",
-  "name": "Realistic Progression Zero",
-  "abstract": "Realistic Progression Zero - The lightweight Realism Overhaul tech tree",
-  "license": "CC-BY-4.0",
-  "author": "RP-0 Group",
-  "release_status": "development",
-  "depends": [
-    {
-      "name": "ModuleManager"
+    "spec_version": 1,
+    "identifier": "RP-0",
+    "name": "Realistic Progression Zero",
+    "abstract": "Realistic Progression Zero - The lightweight Realism Overhaul tech tree",
+    "author": "RP-0 Group",
+    "license": "CC-BY-4.0",
+    "release_status": "development",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/RP-0"
     },
-    {
-      "name": "RealismOverhaul"
+    "version": "v0.17",
+    "ksp_version": "0.90",
+    "provides": [
+        "FinePrint-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "SXT"
+        },
+        {
+            "name": "ProceduralFairings"
+        },
+        {
+            "name": "CommunityTechTree"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ProceduralDynamics"
+        },
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "ProceduralParts"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "FinePrint-Config"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/RP-0",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/FinePrint",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RP-0/releases/download/v0.17/RP-0-v0.17.zip",
+    "download_size": 45430,
+    "download_hash": {
+        "sha1": "7D43F310BC3A1DF872906F982C5BA676E268DF2F",
+        "sha256": "9DF300E5581829DEF6BF6E7465476751A97FA220F5F9118D7FC44CEA37D7FF67"
     },
-    {
-      "name": "SXT"
-    },
-    {
-      "name": "ProceduralFairings"
-    },
-    {
-      "name": "CommunityTechTree"
-    }
-  ],
-  "recommends": [
-    {
-      "name": "ProceduralDynamics"
-    },
-    {
-      "name": "TweakScale"
-    },
-    {
-      "name": "ProceduralParts"
-    }
-  ],
-  "provides": [
-    "FinePrint-Config"
-  ],
-  "conflicts": [
-    {
-      "name": "FinePrint-Config"
-    }
-  ],
-  "install": [
-    {
-      "file": "GameData/RP-0",
-      "install_to": "GameData"
-    },
-    {
-      "file": "GameData/FinePrint",
-      "install_to": "GameData"
-    }
-  ],
-  "resources": {
-    "repository": "https://github.com/KSP-RO/RP-0"
-  },
-  "version": "v0.17",
-  "download": "https://github.com/KSP-RO/RP-0/releases/download/v0.17/RP-0-v0.17.zip",
-  "x_generated_by": "netkan",
-  "download_size": 45430,
-    "ksp_version": "0.90"
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

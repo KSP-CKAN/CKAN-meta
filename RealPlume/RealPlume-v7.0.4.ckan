@@ -1,43 +1,48 @@
 {
-  "spec_version": "v1.2",
-  "name": "Real Plume",
-  "identifier": "RealPlume",
-  "abstract": "Option install for Realism Overhaul, adds realistic plume expansion to engines.  See thread for currently configured engines.",
-  "license": "CC-BY-SA",
-  "release_status": "stable",
-  "depends": [
-    {
-      "name": "RealismOverhaul"
+    "spec_version": "v1.2",
+    "identifier": "RealPlume",
+    "name": "Real Plume",
+    "abstract": "Option install for Realism Overhaul, adds realistic plume expansion to engines.  See thread for currently configured engines.",
+    "author": "Felger",
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/99966",
+        "repository": "https://github.com/KSP-RO/RealismOverhaul"
     },
-    {
-      "name": "SmokeScreen"
+    "version": "v7.0.4",
+    "ksp_version": "0.90.0",
+    "depends": [
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "SmokeScreen"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "RealismOverhaul/SmokeScreen_EffectCfgs",
+            "install_to": "GameData/RealismOverhaul"
+        },
+        {
+            "file": "RealismOverhaul/SmokeScreen_MP_Nazari_FX",
+            "install_to": "GameData/RealismOverhaul"
+        },
+        {
+            "file": "RealismOverhaul/SmokeScreen_RE_Sounds",
+            "install_to": "GameData/RealismOverhaul"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v7.0.4/RealismOverhaul7_0_4.zip",
+    "download_size": 17674454,
+    "download_hash": {
+        "sha1": "0620E9B706E8E8A2E5AE11F4EFD2E3F07B780FE0",
+        "sha256": "978686E1CFB89C1809C70AA65E15E26CCE51D5DAD83E455F433E82D506AA38DB"
     },
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/99966",
-    "repository": "https://github.com/KSP-RO/RealismOverhaul"
-  },
-  "install": [
-    {
-      "file": "RealismOverhaul/SmokeScreen_EffectCfgs",
-      "install_to": "GameData/RealismOverhaul"
-    },
-    {
-      "file": "RealismOverhaul/SmokeScreen_MP_Nazari_FX",
-      "install_to": "GameData/RealismOverhaul"
-    },
-    {
-      "file": "RealismOverhaul/SmokeScreen_RE_Sounds",
-      "install_to": "GameData/RealismOverhaul"
-    }
-  ],
-  "author": "Felger",
-  "version": "v7.0.4",
-  "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v7.0.4/RealismOverhaul7_0_4.zip",
-  "x_generated_by": "netkan",
-  "download_size": 17674454,
-  "ksp_version": "0.90.0"
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

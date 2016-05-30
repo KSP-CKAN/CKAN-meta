@@ -1,9 +1,18 @@
 {
     "spec_version": "v1.4",
+    "identifier": "InFlightFlagSwitcher",
     "name": "InFlightFlagSwitcher",
     "abstract": "Allows players to change their flag at any point during flight",
-    "identifier": "InFlightFlagSwitcher",
+    "author": "iPeer",
     "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/127902",
+        "repository": "https://github.com/iPeer/InFlightFlagSwitcher",
+        "bugtracker": "https://github.com/iPeer/InFlightFlagSwitcher/issues"
+    },
+    "version": "1.0.0",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.99",
     "depends": [
         {
             "name": "ModuleManager"
@@ -19,16 +28,12 @@
             ]
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/127902",
-        "repository": "https://github.com/iPeer/InFlightFlagSwitcher",
-        "bugtracker": "https://github.com/iPeer/InFlightFlagSwitcher/issues"
-    },
-    "version": "1.0.0",
-    "author": "iPeer",
     "download": "https://github.com/iPeer/InFlightFlagSwitcher/releases/download/1.0/InFlightFlagSwitcher1.0.zip",
-    "ksp_version_min": "1.0.0",
-    "ksp_version_max": "1.0.99",
     "download_size": 47864,
+    "download_hash": {
+        "sha1": "968DD5DC53D42EA7EB08DB63C0D9199C6169263D",
+        "sha256": "D68BDF0EB61A5C47977F43C7378CE1EC4C2B3B7DCA9D1E105C6177F39C872BFF"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }

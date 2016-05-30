@@ -1,13 +1,16 @@
 {
     "spec_version": "v1.4",
     "identifier": "OPTSpacePlaneParts",
+    "name": "OPT Space Plane Parts",
+    "abstract": "A set of larger space plane/station parts",
+    "author": "kyeon",
     "license": "CC-BY-NC-SA-4.0",
-    "install": [
-        {
-            "find": "OPT",
-            "install_to": "GameData"
-        }
-    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/97525-WIP-Large-Diameter-Space-Plane-Parts",
+        "kerbalstuff": "https://kerbalstuff.com/mod/340/OPT%20Space%20Plane%20Parts"
+    },
+    "version": "V1.4.9Repack",
+    "ksp_version": "0.90",
     "depends": [
         {
             "name": "FirespitterCore"
@@ -16,16 +19,18 @@
             "name": "ModuleManager"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/97525-WIP-Large-Diameter-Space-Plane-Parts",
-        "kerbalstuff": "https://kerbalstuff.com/mod/340/OPT%20Space%20Plane%20Parts"
-    },
-    "ksp_version": "0.90",
-    "name": "OPT Space Plane Parts",
-    "abstract": "A set of larger space plane/station parts",
-    "author": "kyeon",
-    "version": "V1.4.9Repack",
+    "install": [
+        {
+            "find": "OPT",
+            "install_to": "GameData"
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/kyeon_4065/OPT_Space_Plane_Parts/OPT_Space_Plane_Parts-V1.4.9Repack.zip",
-    "x_generated_by": "netkan",
-    "download_size": 18023348
+    "download_size": 18023348,
+    "download_hash": {
+        "sha1": "BDEE0C74A773706B0BD63E245112ED036836C504",
+        "sha256": "A3B96D7CAE14D8475F56448210CA6DE1EB78106EE3B2B5A8921DB92854762A68"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

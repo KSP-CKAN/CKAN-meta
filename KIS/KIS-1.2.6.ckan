@@ -1,18 +1,31 @@
 {
-    "spec_version"    : 1,
-    "name"            : "Kerbal Inventory System",
-    "identifier"      : "KIS",
-    "abstract"        : "KIS introduces new gameplay mechanics by adding a brand new inventory system and EVA usables items as tools. You want to build a rover on Duna from scratch? Now you can...",
+    "spec_version": 1,
+    "identifier": "KIS",
+    "name": "Kerbal Inventory System",
+    "abstract": "KIS introduces new gameplay mechanics by adding a brand new inventory system and EVA usables items as tools. You want to build a rover on Duna from scratch? Now you can...",
+    "author": [
+        "KospY",
+        "Winn75",
+        "IgorZ"
+    ],
+    "license": "restricted",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/113111",
         "repository": "https://github.com/KospY/KIS"
     },
-    "download"        : "http://kerbal.curseforge.com/projects/kerbal-inventory-system-kis/files/2292986/download",
+    "version": "1.2.6",
+    "ksp_version": "1.0.5",
     "suggests": [
-        { "name": "KAS" }
+        {
+            "name": "KAS"
+        }
     ],
-    "license"         : "restricted",
-    "author"          : [ "KospY", "Winn75", "IgorZ" ],
-    "version"         : "1.2.6",
-    "ksp_version"     : "1.0.5"
+    "download": "http://kerbal.curseforge.com/projects/kerbal-inventory-system-kis/files/2292986/download",
+    "download_size": 5448753,
+    "download_hash": {
+        "sha1": "FD9F1B039698ED195E4B45419601CB555251BAB3",
+        "sha256": "828B67CB3072AF92A5BDA6865250EC9D6A3293479140B4CF9B730BB37F428D1D"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

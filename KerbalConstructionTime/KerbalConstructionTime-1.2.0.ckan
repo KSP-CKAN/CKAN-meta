@@ -7,8 +7,8 @@
     "license": "GPL-3.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/92377-0-24-2-Kerbal-Construction-Time-Release-v1-0-0-(8-29-14)",
-        "kerbalstuff": "https://kerbalstuff.com/mod/125/Kerbal%20Construction%20Time",
         "repository": "https://github.com/magico13/KCT",
+        "kerbalstuff": "https://kerbalstuff.com/mod/125/Kerbal%20Construction%20Time",
         "x_screenshot": "https://kerbalstuff.com/content/magico13_568/Kerbal_Construction_Time/Kerbal_Construction_Time.png"
     },
     "version": "1.2.0",
@@ -23,6 +23,11 @@
             "name": "Toolbar"
         }
     ],
+    "conflicts": [
+        {
+            "name": "TarsierSpaceTech"
+        }
+    ],
     "install": [
         {
             "file": "GameData/KerbalConstructionTime",
@@ -31,10 +36,10 @@
     ],
     "download": "http://ckan1.spacedock.info/storage/magico13_568/Kerbal_Construction_Time/Kerbal_Construction_Time-1.2.0.zip",
     "download_size": 609270,
-    "conflicts": [
-        {
-            "name": "TarsierSpaceTech"
-        }
-    ],
+    "download_hash": {
+        "sha1": "480F517273988DC256D1208F31EC2D49979800F8",
+        "sha256": "4810BF48C549D4CF54E1A67CCCA6331802D4AC1EB6831B1D53123FDADCF1917B"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }

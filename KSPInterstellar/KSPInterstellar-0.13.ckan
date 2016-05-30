@@ -1,30 +1,40 @@
 {
-    "spec_version"      : 1,
-    "identifier"        : "KSPInterstellar",
-    "name"              : "KSP Interstellar",
-    "author"            : "Fractal_UK",
-    "version"           : "0.13",
-    "abstract"          : "Advanced tech",
-    "ksp_version"       : "0.25",
-    "license"           : "unknown",
-    "x_maintained_by"   : "distantcam",
-
-    "download"          : "https://bitbucket.org/FractalUK/kspinstellar/downloads/KSPInterstellar-v0.13.zip",
-
+    "spec_version": 1,
+    "identifier": "KSPInterstellar",
+    "name": "KSP Interstellar",
+    "abstract": "Advanced tech",
+    "author": "Fractal_UK",
+    "license": "unknown",
+    "version": "0.13",
+    "ksp_version": "0.25",
     "depends": [
-        { "name": "OpenResourceSystem" },
-        { "name": "TreeLoader" },
-        { "name": "ModuleManager" }
-    ],
-
-    "install": [
         {
-            "file"       : "GameData/WarpPlugin",
-            "install_to" : "GameData"
+            "name": "OpenResourceSystem"
         },
         {
-            "file"       : "GameData/ORSResourcePack",
-            "install_to" : "GameData"
+            "name": "TreeLoader"
+        },
+        {
+            "name": "ModuleManager"
         }
-    ]
+    ],
+    "install": [
+        {
+            "file": "GameData/WarpPlugin",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/ORSResourcePack",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://bitbucket.org/FractalUK/kspinstellar/downloads/KSPInterstellar-v0.13.zip",
+    "download_size": 51346282,
+    "download_hash": {
+        "sha1": "BDA55494B12884C0F3E9A4B189743874F01A36CF",
+        "sha256": "F089ABEA44A2CE90D59909DBA932DF5926E9CDC7B89E681FBF4C175F7A8F3709"
+    },
+    "download_content_type": "application/zip",
+    "x_maintained_by": "distantcam",
+    "x_generated_by": "netkan"
 }

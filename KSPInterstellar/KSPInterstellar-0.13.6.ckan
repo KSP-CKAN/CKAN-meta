@@ -1,40 +1,53 @@
 {
-    "spec_version"      : 1,
-    "identifier"        : "KSPInterstellar",
-    "name"              : "KSP Interstellar",
-    "author"            : [ "Fractal_UK", "Boris-Barboris" ],
-    "version"           : "0.13.6",
-    "abstract"          : "Advanced tech",
-    "release_status"    : "development",
-    "ksp_version"       : "0.90",
-    "license"           : "restricted",
-    "x_maintained_by"   : "hakan42 who would like to fly like Scott Manley",
-
-    "download"          : "https://dl.dropboxusercontent.com/u/23572905/KSP_Mods/Interstellar_090_0136.zip",
-
-    "resources" : {
-        "homepage"   : "http://forum.kerbalspaceprogram.com/threads/104943",
-        "repository" : "https://github.com/Boris-Barboris/KSPInterstellar"
-    },
-
-    "depends": [
-        { "name": "CommunityResourcePack" },
-        { "name": "ModuleManager" },
-        { "name": "Toolbar" },
-
-        { "name": "TechManager" },
-
-        { "name": "TweakScale" }
+    "spec_version": 1,
+    "identifier": "KSPInterstellar",
+    "name": "KSP Interstellar",
+    "abstract": "Advanced tech",
+    "author": [
+        "Fractal_UK",
+        "Boris-Barboris"
     ],
-
-    "install": [
+    "license": "restricted",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/104943",
+        "repository": "https://github.com/Boris-Barboris/KSPInterstellar"
+    },
+    "version": "0.13.6",
+    "depends": [
         {
-            "file"       : "WarpPlugin",
-            "install_to" : "GameData"
+            "name": "CommunityResourcePack"
         },
         {
-            "file"       : "ORSResourcePack",
-            "install_to" : "GameData"
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Toolbar"
+        },
+        {
+            "name": "TechManager"
+        },
+        {
+            "name": "TweakScale"
         }
-    ]
+    ],
+    "install": [
+        {
+            "file": "WarpPlugin",
+            "install_to": "GameData"
+        },
+        {
+            "file": "ORSResourcePack",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://dl.dropboxusercontent.com/u/23572905/KSP_Mods/Interstellar_090_0136.zip",
+    "download_size": 51788055,
+    "download_hash": {
+        "sha1": "BDFFDFE7DF91F28A2025B630695D550B21B143E6",
+        "sha256": "8543641A551CE205F828FA59CEF245A50374A5D53C2831885CCB1E89EB2998F8"
+    },
+    "download_content_type": "application/zip",
+    "x_maintained_by": "hakan42 who would like to fly like Scott Manley",
+    "x_generated_by": "netkan"
 }

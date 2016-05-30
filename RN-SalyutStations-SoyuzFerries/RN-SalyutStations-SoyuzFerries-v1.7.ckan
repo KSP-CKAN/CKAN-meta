@@ -1,16 +1,33 @@
 {
     "spec_version": "v1.4",
+    "comment": "Ships explicitly not installed by author request (he no longer maintains them)",
     "identifier": "RN-SalyutStations-SoyuzFerries",
     "name": "Salyut Stations and Soyuz Ferries",
-    "author": "Raidernick",
     "abstract": "This is a salyut mod for the DOS & OPS style stations. It contains fully functional replicas of Salyut 1, 4, 6 and 7. It also now contains Almaz 2, 3 and 5, as well as Soyuz 7K-T, 7K-OKA, 7K-OKP 7K-T-AF and Progress 7K-TG, and Vostok and Voskhod spacecraft, and TKS/VA spacecraft",
-    "comment": "Ships explicitly not installed by author request (he no longer maintains them)",
+    "author": "Raidernick",
+    "license": "CC-BY-NC-ND-3.0",
     "resources": {
         "homepage": "https://github.com/KSP-RO/SalyutStations-SoyuzFerries",
         "repository": "https://github.com/KSP-RO/SalyutStations-SoyuzFerries"
     },
-    "license": "CC-BY-NC-ND-3.0",
+    "version": "v1.7",
     "ksp_version": "1.0",
+    "depends": [
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "ReflectionPlugin"
+        },
+        {
+            "name": "SovietPackCore"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RN-SovietRockets"
+        }
+    ],
     "install": [
         {
             "find": "KOSMOS",
@@ -29,24 +46,12 @@
             "install_to": "GameData"
         }
     ],
-    "depends": [
-        {
-            "name": "FirespitterCore"
-        },
-        {
-            "name": "ReflectionPlugin"
-        },
-        {
-            "name": "SovietPackCore"
-        }
-    ],
-    "recommends": [
-        {
-            "name": "RN-SovietRockets"
-        }
-    ],
-    "version": "v1.7",
     "download": "https://github.com/KSP-RO/SalyutStations-SoyuzFerries/releases/download/v1.7/RN_SalyutStations_v1.7.zip",
     "download_size": 105710177,
+    "download_hash": {
+        "sha1": "DFEED66B98462C1EFC4CF95B0427982D80AD225C",
+        "sha256": "248B061F8C4E1A53D25DDBFE413E32D5D465EF99C696F80155E98366F94D6494"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }

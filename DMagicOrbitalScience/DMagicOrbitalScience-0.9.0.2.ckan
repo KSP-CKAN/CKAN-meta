@@ -1,46 +1,51 @@
 {
-  "spec_version": 1,
-  "identifier": "DMagicOrbitalScience",
-  "license": "BSD-3-clause",
-  "install": [
-    {
-      "file": "GameData/DMagic Orbital Science",
-      "install_to": "GameData"
-    }
-  ],
-  "resources": {
-    "repository": "https://github.com/DMagic1/Orbital-Science",
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/64972",
-    "kerbalstuff": "https://kerbalstuff.com/mod/5/DMagic%20Orbital%20Science"
-  },
-  "recommends": [
-    {
-      "name": "ContractsWindowPlus"
-    }
-  ],
-  "suggests": [
-    {
-      "name": "CustomBiomes"
+    "spec_version": 1,
+    "identifier": "DMagicOrbitalScience",
+    "name": "DMagic Orbital Science",
+    "abstract": "New science parts and experiments",
+    "author": "DMagic",
+    "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/64972",
+        "repository": "https://github.com/DMagic1/Orbital-Science",
+        "kerbalstuff": "https://kerbalstuff.com/mod/5/DMagic%20Orbital%20Science"
     },
-    {
-      "name": "UniversalStorage"
+    "version": "0.9.0.2",
+    "ksp_version": "0.25",
+    "recommends": [
+        {
+            "name": "ContractsWindowPlus"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CustomBiomes"
+        },
+        {
+            "name": "UniversalStorage"
+        },
+        {
+            "name": "ScienceAlert"
+        },
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/DMagic Orbital Science",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/DMagic_6/DMagic_Orbital_Science/DMagic_Orbital_Science-0.9.0.2.zip",
+    "download_size": 9331873,
+    "download_hash": {
+        "sha1": "B0AE44F950E6324F6165BE9ABC26E6065F9FEA7A",
+        "sha256": "9C168EF4CE0784FDB62747730DDF77666EDA89C095A2ECDAC03BF249F9008A29"
     },
-    {
-      "name": "ScienceAlert"
-    },
-    {
-      "name": "SCANsat"
-    },
-    {
-      "name": "CommunityTechTree"
-    }
-  ],
-  "ksp_version": "0.25",
-  "name": "DMagic Orbital Science",
-  "abstract": "New science parts and experiments",
-  "author": "DMagic",
-  "version": "0.9.0.2",
-  "download": "http://ckan1.spacedock.info/storage/DMagic_6/DMagic_Orbital_Science/DMagic_Orbital_Science-0.9.0.2.zip",
-  "x_generated_by": "netkan",
-  "download_size": 9331873
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

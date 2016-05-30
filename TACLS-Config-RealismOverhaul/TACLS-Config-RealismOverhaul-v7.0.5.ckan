@@ -1,11 +1,19 @@
 {
     "spec_version": 1,
-    "ksp_version": "any",
-    "name": "TAC Life Support (TACLS) - Realism Overhaul Config",
     "identifier": "TACLS-Config-RealismOverhaul",
+    "name": "TAC Life Support (TACLS) - Realism Overhaul Config",
     "abstract": "Realism Overhaul config for TACLS",
+    "author": "Felger",
     "license": "CC-BY-SA",
     "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/RealismOverhaul"
+    },
+    "version": "v7.0.5",
+    "ksp_version": "any",
+    "provides": [
+        "TACLS-Config"
+    ],
     "depends": [
         {
             "name": "RealismOverhaul"
@@ -13,9 +21,6 @@
         {
             "name": "TACLS"
         }
-    ],
-    "provides": [
-        "TACLS-Config"
     ],
     "conflicts": [
         {
@@ -28,12 +33,12 @@
             "install_to": "GameData"
         }
     ],
-    "resources": {
-        "repository": "https://github.com/KSP-RO/RealismOverhaul"
-    },
-    "author": "Felger",
-    "version": "v7.0.5",
     "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v7.0.5/RealismOverhaul7_0_5.zip",
-    "x_generated_by": "netkan",
-    "download_size": 17637311
+    "download_size": 17637311,
+    "download_hash": {
+        "sha1": "DE990A3F4D7384DC3D71273B64B3E675836D9C31",
+        "sha256": "4B733BC7452F312FCB913FD2B339ABAAC824AEAA7ACC6469F52CF06029AC776A"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

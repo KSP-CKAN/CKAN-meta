@@ -7,19 +7,25 @@
         "sarbian"
     ],
     "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/92907",
+        "repository": "https://github.com/sarbian/GCMonitor/",
+        "x_ci": "https://ksp.sarbian.com/jenkins/job/GCMonitor/"
+    },
+    "version": "1.2.4.0",
+    "ksp_version": "1.0.2",
     "install": [
         {
             "find": "GCMonitor",
             "install_to": "GameData"
         }
     ],
-    "resources": {
-        "x_ci": "https://ksp.sarbian.com/jenkins/job/GCMonitor/",
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/92907",
-        "repository": "https://github.com/sarbian/GCMonitor/"
-    },
-    "ksp_version": "1.0.2",
-    "version": "1.2.4.0",
     "download": "https://ksp.sarbian.com/jenkins/job/GCMonitor/21/artifact/GCMonitor-1.2.4.0.zip",
-    "download_size": 63349
+    "download_size": 63349,
+    "download_hash": {
+        "sha1": "802A45B32A02895D06CDDFE4EECA50689DDCA362",
+        "sha256": "360D9D10E32B8EBE0F49AC4E4A469B3B656331276CFA0567E67007C03354F389"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

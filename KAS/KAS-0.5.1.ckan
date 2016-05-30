@@ -1,18 +1,36 @@
 {
-    "spec_version"   : 1,
-    "name"           : "Kerbal Attachment System",
-    "identifier"     : "KAS",
-    "abstract"       : "KAS introduces new gameplay mechanics by adding winches, containers, dynamic struts/pipes and grabbable & attachable parts.",
-    "resources"      : {
+    "spec_version": 1,
+    "identifier": "KAS",
+    "name": "Kerbal Attachment System",
+    "abstract": "KAS introduces new gameplay mechanics by adding winches, containers, dynamic struts/pipes and grabbable & attachable parts.",
+    "author": [
+        "KospY",
+        "Winn75",
+        "zzz",
+        "Majiir",
+        "a.g."
+    ],
+    "license": "restricted",
+    "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/92514"
     },
-    "download"       : "http://addons-origin.cursecdn.com/files/2238/254/KAS_v0.5.1.zip",
-    "license"        : "restricted",
-    "author"         : [ "KospY", "Winn75", "zzz", "Majiir", "a.g." ],
-    "version"        : "0.5.1",
-    "ksp_version"    : "1.0.2",
-    "depends" : [
-        { "name": "ModuleManager" },
-        { "name": "KIS", "min_version": "1.1.4" }
-    ]
+    "version": "0.5.1",
+    "ksp_version": "1.0.2",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KIS",
+            "min_version": "1.1.4"
+        }
+    ],
+    "download": "http://addons-origin.cursecdn.com/files/2238/254/KAS_v0.5.1.zip",
+    "download_size": 2660240,
+    "download_hash": {
+        "sha1": "8FCF867C53E7A40D3C9A7CF14979B7E37EC54204",
+        "sha256": "6A7434AFE9204391482F3CCD0B64DF4CA0D0006835A7D03880942E3351ED9185"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }

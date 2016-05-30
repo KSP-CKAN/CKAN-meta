@@ -1,8 +1,16 @@
 {
-    "x_via": "Automated KerbalStuff CKAN submission",
     "spec_version": 1,
-    "license": "CC-BY-NC-SA-4.0",
     "identifier": "StockFuelSwitch",
+    "name": "Stock Fuel Switch",
+    "abstract": "Choose your Fuel!",
+    "author": "Porkjet",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/121321",
+        "kerbalstuff": "https://kerbalstuff.com/mod/795/Stock%20Fuel%20Switch"
+    },
+    "version": "1.0.1",
+    "ksp_version": "1.0.2",
     "depends": [
         {
             "name": "FirespitterCore"
@@ -11,22 +19,19 @@
             "name": "ModuleManager"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/121321",
-        "kerbalstuff": "https://kerbalstuff.com/mod/795/Stock%20Fuel%20Switch"
-    },
     "install": [
         {
             "file": "FSfuelSwitchPatch.cfg",
             "install_to": "GameData"
         }
     ],
-    "ksp_version": "1.0.2",
-    "name": "Stock Fuel Switch",
-    "abstract": "Choose your Fuel!",
-    "author": "Porkjet",
-    "version": "1.0.1",
     "download": "http://ckan1.spacedock.info/storage/Porkjet_3416/Stock_Fuel_Switch/Stock_Fuel_Switch-1.0.1.zip",
-    "x_generated_by": "netkan",
-    "download_size": 127606
+    "download_size": 127606,
+    "download_hash": {
+        "sha1": "0C0E052A285D1DE089E8220E48756A995F9930D0",
+        "sha256": "0718C1346945C4F1F14E4562268D1F41B71CC744B404B28A53F79AE76D3C0677"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated KerbalStuff CKAN submission",
+    "x_generated_by": "netkan"
 }

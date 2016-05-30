@@ -1,7 +1,19 @@
 {
-    "identifier": "OuterPlanetsMod",
-    "license": "CC-BY-NC-SA-4.0",
     "spec_version": "v1.4",
+    "identifier": "OuterPlanetsMod",
+    "name": "Outer Planets Mod",
+    "abstract": "Expands the Kerbol system with new planets and moons based on Saturn, Uranus, Neptune and their moons",
+    "author": "CaptRobau",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/104280-0-90-Outer-Planet-Mods-Expands-the-Kerbol-system-with-new-planets-based-on-Saturn",
+        "kerbalstuff": "https://kerbalstuff.com/mod/437/Outer%20Planets%20Mod"
+    },
+    "version": "1.6.5",
+    "ksp_version": "1.0.0",
+    "provides": [
+        "PlanetPack"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
@@ -44,9 +56,6 @@
             "name": "TextureReplacer"
         }
     ],
-    "provides": [
-        "PlanetPack"
-    ],
     "conflicts": [
         {
             "name": "PlanetPack"
@@ -79,16 +88,12 @@
             ]
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/104280-0-90-Outer-Planet-Mods-Expands-the-Kerbol-system-with-new-planets-based-on-Saturn",
-        "kerbalstuff": "https://kerbalstuff.com/mod/437/Outer%20Planets%20Mod"
-    },
-    "ksp_version": "1.0.0",
-    "name": "Outer Planets Mod",
-    "abstract": "Expands the Kerbol system with new planets and moons based on Saturn, Uranus, Neptune and their moons",
-    "author": "CaptRobau",
-    "version": "1.6.5",
     "download": "http://ckan1.spacedock.info/storage/CaptRobau_2958/Outer_Planets_Mod/Outer_Planets_Mod-1.6.5.zip",
-    "x_generated_by": "netkan",
-    "download_size": 53975255
+    "download_size": 53975255,
+    "download_hash": {
+        "sha1": "8138B8ADACFA50AE6A35748CD704528F8619CBBC",
+        "sha256": "ADE80C32809AF018BAFFB6CCB74DACB5CAB20F884EDF1C2B4999425CC78A8A1D"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
