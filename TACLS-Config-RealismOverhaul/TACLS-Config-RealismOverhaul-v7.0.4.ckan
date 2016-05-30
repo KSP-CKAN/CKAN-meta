@@ -1,39 +1,44 @@
 {
-  "spec_version": 1,
-  "ksp_version": "any",
-  "name": "TAC Life Support (TACLS) - Realism Overhaul Config",
-  "identifier": "TACLS-Config-RealismOverhaul",
-  "abstract": "Realism Overhaul config for TACLS",
-  "license": "CC-BY-SA",
-  "release_status": "stable",
-  "depends": [
-    {
-      "name": "RealismOverhaul"
+    "spec_version": 1,
+    "identifier": "TACLS-Config-RealismOverhaul",
+    "name": "TAC Life Support (TACLS) - Realism Overhaul Config",
+    "abstract": "Realism Overhaul config for TACLS",
+    "author": "Felger",
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/RealismOverhaul"
     },
-    {
-      "name": "TACLS"
-    }
-  ],
-  "provides": [
-    "TACLS-Config"
-  ],
-  "conflicts": [
-    {
-      "name": "TACLS-Config"
-    }
-  ],
-  "install": [
-    {
-      "file": "ThunderAerospace",
-      "install_to": "GameData"
-    }
-  ],
-  "resources": {
-    "repository": "https://github.com/KSP-RO/RealismOverhaul"
-  },
-  "author": "Felger",
-  "version": "v7.0.4",
-  "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v7.0.4/RealismOverhaul7_0_4.zip",
-  "x_generated_by": "netkan",
-  "download_size": 17674454
+    "version": "v7.0.4",
+    "ksp_version": "any",
+    "provides": [
+        "TACLS-Config"
+    ],
+    "depends": [
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "TACLS"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TACLS-Config"
+        }
+    ],
+    "install": [
+        {
+            "file": "ThunderAerospace",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v7.0.4/RealismOverhaul7_0_4.zip",
+    "download_size": 17674454,
+    "download_hash": {
+        "sha1": "0620E9B706E8E8A2E5AE11F4EFD2E3F07B780FE0",
+        "sha256": "978686E1CFB89C1809C70AA65E15E26CCE51D5DAD83E455F433E82D506AA38DB"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
