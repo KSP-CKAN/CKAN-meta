@@ -1,64 +1,69 @@
 {
-  "spec_version": 1,
-  "identifier": "B9",
-  "license": "CC-BY-NC-SA-3.0",
-  "depends": [
-    {
-      "name": "CrossFeedEnabler"
+    "spec_version": 1,
+    "identifier": "B9",
+    "name": "B9 Aerospace Pack",
+    "abstract": "Essential and enormous set of structural, control, propulsion, command and utility parts for aerospace designs.",
+    "author": "bac9",
+    "license": "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/92630-0-24-2-B9-Aerospace-Release-5",
+        "kerbalstuff": "https://kerbalstuff.com/mod/132/B9%20Aerospace%20Pack"
     },
-    {
-      "name": "FirespitterCore"
+    "version": "R5.2.6",
+    "ksp_version": "0.25",
+    "depends": [
+        {
+            "name": "CrossFeedEnabler"
+        },
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "KineTechAnimation"
+        },
+        {
+            "name": "KlockheedMartian-Gimbal"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.5.1"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        },
+        {
+            "name": "ResGen"
+        },
+        {
+            "name": "VirginKalactic-NodeToggle"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "HotRockets"
+        },
+        {
+            "name": "AerodynamicModel"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/B9_Aerospace",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships",
+            "install_to": "Ships",
+            "optional": true,
+            "description": "B9 example crafts"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/bac9_821/B9_Aerospace_Pack/B9_Aerospace_Pack-R5.2.6.zip",
+    "download_size": 70963352,
+    "download_hash": {
+        "sha1": "098864B8DF619EEDDA107F90116BB490F0F84403",
+        "sha256": "51CE4BE53F321E2488E92E77941EE3853EFA8F1DF7D7AF122B696C3C96123C5B"
     },
-    {
-      "name": "KineTechAnimation"
-    },
-    {
-      "name": "KlockheedMartian-Gimbal"
-    },
-    {
-      "name": "ModuleManager",
-      "min_version": "2.5.1"
-    },
-    {
-      "name": "RasterPropMonitor-Core"
-    },
-    {
-      "name": "ResGen"
-    },
-    {
-      "name": "VirginKalactic-NodeToggle"
-    }
-  ],
-  "recommends": [
-    {
-      "name": "HotRockets"
-    },
-    {
-      "name": "AerodynamicModel"
-    }
-  ],
-  "install": [
-    {
-      "file": "GameData/B9_Aerospace",
-      "install_to": "GameData"
-    },
-    {
-      "file": "Ships",
-      "install_to": "Ships",
-      "optional": true,
-      "description": "B9 example crafts"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/92630-0-24-2-B9-Aerospace-Release-5",
-    "kerbalstuff": "https://kerbalstuff.com/mod/132/B9%20Aerospace%20Pack"
-  },
-  "ksp_version": "0.25",
-  "name": "B9 Aerospace Pack",
-  "abstract": "Essential and enormous set of structural, control, propulsion, command and utility parts for aerospace designs.",
-  "author": "bac9",
-  "version": "R5.2.6",
-  "download": "http://ckan1.spacedock.info/storage/bac9_821/B9_Aerospace_Pack/B9_Aerospace_Pack-R5.2.6.zip",
-  "x_generated_by": "netkan",
-  "download_size": 70963352
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
