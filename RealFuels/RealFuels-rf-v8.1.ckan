@@ -1,57 +1,62 @@
 {
-  "spec_version": 1,
-  "name": "Real Fuels",
-  "abstract": "Real fuels and tanks for KSP",
-  "identifier": "RealFuels",
-  "license": "CC-BY-SA",
-  "author": [
-    "ialdabaoth",
-    "NathanKell"
-  ],
-  "release_status": "stable",
-  "ksp_version": "0.25",
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/64118",
-    "repository": "https://github.com/NathanKell/ModularFuelSystem"
-  },
-  "install": [
-    {
-      "file": "RealFuels",
-      "install_to": "GameData"
+    "spec_version": 1,
+    "identifier": "RealFuels",
+    "name": "Real Fuels",
+    "abstract": "Real fuels and tanks for KSP",
+    "author": [
+        "ialdabaoth",
+        "NathanKell"
+    ],
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/64118",
+        "repository": "https://github.com/NathanKell/ModularFuelSystem"
     },
-    {
-      "file": "TweakScale",
-      "install_to": "GameData"
-    }
-  ],
-  "depends": [
-    {
-      "name": "ModuleManager"
+    "version": "rf-v8.1",
+    "ksp_version": "0.25",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealFuels-Engine-Configs"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CrossFeedEnabler"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "EngineIgnitor"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ModularFuelSystem"
+        },
+        {
+            "name": "ModularFuelTanks"
+        }
+    ],
+    "install": [
+        {
+            "file": "RealFuels",
+            "install_to": "GameData"
+        },
+        {
+            "file": "TweakScale",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/NathanKell/ModularFuelSystem/releases/download/rf-v8.1/RealFuels_v8.1.zip",
+    "download_size": 264528,
+    "download_hash": {
+        "sha1": "8482BE4C47F4A5776A901268754283F465F02745",
+        "sha256": "182B37977DCB87E64F5303686E2D3B87E2B56F8D4CB82215D32B17C6A58773B5"
     },
-    {
-      "name": "RealFuels-Engine-Configs"
-    }
-  ],
-  "conflicts": [
-    {
-      "name": "ModularFuelSystem"
-    },
-    {
-      "name": "ModularFuelTanks"
-    }
-  ],
-  "recommends": [
-    {
-      "name": "CrossFeedEnabler"
-    }
-  ],
-  "suggests": [
-    {
-      "name": "EngineIgnitor"
-    }
-  ],
-  "version": "rf-v8.1",
-  "download": "https://github.com/NathanKell/ModularFuelSystem/releases/download/rf-v8.1/RealFuels_v8.1.zip",
-  "x_generated_by": "netkan",
-  "download_size": 264528
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
