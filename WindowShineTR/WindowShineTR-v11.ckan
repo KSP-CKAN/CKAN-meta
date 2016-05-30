@@ -1,24 +1,35 @@
 {
-    "spec_version"    : 1,
-    "identifier"      : "WindowShineTR",
-    "name"            : "WindowShine",
-    "author"          : "Avera9eJoe",
-    "abstract"        : "Stock reflective windows and solar panels + mod support!",
-    "version"         : "v11",
-    "ksp_version"     : "1.0.5",
-    "license"         : "CC-BY-NC-4.0",
-    "depends"         : [
-        { "name" : "TextureReplacer" },
-        { "name" : "ModuleManager" }
-    ],
-    "resources"       : {
+    "spec_version": 1,
+    "identifier": "WindowShineTR",
+    "name": "WindowShine",
+    "abstract": "Stock reflective windows and solar panels + mod support!",
+    "author": "Avera9eJoe",
+    "license": "CC-BY-NC-4.0",
+    "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/110080-105"
     },
-    "download"        : "https://www.dropbox.com/s/ot46u84krjub5k8/WindowShineTR-v11.zip?dl=1",
-    "install"         : [
+    "version": "v11",
+    "ksp_version": "1.0.5",
+    "depends": [
         {
-        "file"       : "GameData/TextureReplacer",
-        "install_to" : "GameData"
+            "name": "TextureReplacer"
+        },
+        {
+            "name": "ModuleManager"
         }
-    ]
+    ],
+    "install": [
+        {
+            "file": "GameData/TextureReplacer",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://www.dropbox.com/s/ot46u84krjub5k8/WindowShineTR-v11.zip?dl=1",
+    "download_size": 5398593,
+    "download_hash": {
+        "sha1": "5CF0B3096026BEACFA15E4581FB2E56F8E9906C4",
+        "sha256": "4DD1851AAFED17BD211133305CD7B51E0EFCB144114EC6FB36E4094D703572E3"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
