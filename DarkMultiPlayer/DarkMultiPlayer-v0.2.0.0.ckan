@@ -1,27 +1,31 @@
 {
-  "spec_version": 1,
-  "identifier": "DarkMultiPlayer",
-  "release_status": "development",
-  "resources": {
-    "manual": "https://github.com/godarklight/DarkMultiPlayer/blob/master/README.md",
-    "repository": "https://github.com/godarklight/DarkMultiPlayer",
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/79111-DarkMultiPlayer-0-1-0-0-KSP-0-23-5-Alpha/page1",
-    "kerbalstuff": "https://kerbalstuff.com/mod/4/DarkMultiPlayer%20Client"
-  },
-  "install": [
-    {
-      "file": "DMPClient/GameData/DarkMultiPlayer",
-      "install_to": "GameData"
-    }
-  ],
-  "x_netkan_license_ok": true,
-  "ksp_version": "0.90",
-  "name": "DarkMultiPlayer Client",
-  "license": "MIT",
-  "abstract": "DarkMultiPlayer is a multiplayer mod for KSP 0.25. It supports subspace-style (and master controlled warp) warping & career mode, with an easy-to-edit server database.",
-  "author": "godarklight",
-  "version": "v0.2.0.0",
-  "download": "http://ckan1.spacedock.info/storage/godarklight_5/DarkMultiPlayer_Client/DarkMultiPlayer_Client-v0.2.0.0.zip",
-  "x_generated_by": "netkan",
-  "download_size": 197948
+    "spec_version": 1,
+    "identifier": "DarkMultiPlayer",
+    "name": "DarkMultiPlayer Client",
+    "abstract": "DarkMultiPlayer is a multiplayer mod for KSP 0.25. It supports subspace-style (and master controlled warp) warping & career mode, with an easy-to-edit server database.",
+    "author": "godarklight",
+    "license": "MIT",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/79111-DarkMultiPlayer-0-1-0-0-KSP-0-23-5-Alpha/page1",
+        "repository": "https://github.com/godarklight/DarkMultiPlayer",
+        "manual": "https://github.com/godarklight/DarkMultiPlayer/blob/master/README.md",
+        "kerbalstuff": "https://kerbalstuff.com/mod/4/DarkMultiPlayer%20Client"
+    },
+    "version": "v0.2.0.0",
+    "ksp_version": "0.90",
+    "install": [
+        {
+            "file": "DMPClient/GameData/DarkMultiPlayer",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/godarklight_5/DarkMultiPlayer_Client/DarkMultiPlayer_Client-v0.2.0.0.zip",
+    "download_size": 197948,
+    "download_hash": {
+        "sha1": "CB40013BF58278EBF8E1A263B1DC01A897E5D4B1",
+        "sha256": "0DCD623066AACEC881A50F58F0167EB9F76769291C57719D974321912267BAD1"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
