@@ -3,10 +3,25 @@
     "identifier": "DistantObject-RealSolarSystem",
     "name": "Distant Object Enhancement Real Solar System config",
     "abstract": "For the basic version of NathanKell's Real Solar System mod",
+    "author": "MOARdV",
     "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/98943",
+        "kerbalstuff": "https://kerbalstuff.com/mod/403/Distant%20Object%20Enhancement%20bis"
+    },
+    "version": "v1.5.3",
+    "ksp_version": "1.0.0",
+    "provides": [
+        "DistantObject-config"
+    ],
     "depends": [
         {
             "name": "DistantObject"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "DistantObject-config"
         }
     ],
     "install": [
@@ -15,22 +30,12 @@
             "install_to": "GameData"
         }
     ],
-    "provides": [
-        "DistantObject-config"
-    ],
-    "conflicts": [
-        {
-            "name": "DistantObject-config"
-        }
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/98943",
-        "kerbalstuff": "https://kerbalstuff.com/mod/403/Distant%20Object%20Enhancement%20bis"
-    },
-    "ksp_version": "1.0.0",
-    "author": "MOARdV",
-    "version": "v1.5.3",
     "download": "http://ckan1.spacedock.info/storage/MOARdV_3078/Distant_Object_Enhancement_bis/Distant_Object_Enhancement_bis-v1.5.3.zip",
-    "x_generated_by": "netkan",
-    "download_size": 44137
+    "download_size": 44137,
+    "download_hash": {
+        "sha1": "DA84F8600778806C7F173B5B29F5EBCB8FBD08AF",
+        "sha256": "D7CD8FC8A92FAED3B415037554F55A651339E56E8B3BC8C344D8403CC08151D3"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
