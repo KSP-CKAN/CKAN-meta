@@ -1,32 +1,58 @@
 {
     "spec_version": 1,
+    "comment": "Updated to 0.90 compatible by Daz based on 0.90 mods still using it",
     "identifier": "ModuleFixer",
-    "ksp_version_min" : "0.25",
-    "ksp_version_max" : "0.90",
-    "comment"       : "Updated to 0.90 compatible by Daz based on 0.90 mods still using it",
-    "resources":
-    {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/63109"
-    },
-    "conflicts" : [ { "name" : "Karbonite" },
-                    { "name" : "KarbonitePlus" },
-                    { "name" : "AlcubierreStandalone" },
-                    { "name" : "USI-ART" },
-                    { "name" : "USI-EXP" },
-                    { "name" : "USI-FTT" },
-                    { "name" : "USI-SRV" },
-                    { "name" : "USITools" },
-                    { "name" : "UKS" } ],
     "name": "Module Fixer",
-    "license": "GPL-3.0",
     "abstract": "This fixes the problems of exploding/expanding parts in the VAB while hovering over some parts in some mods.",
     "author": "arsenic87",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/63109"
+    },
     "version": "3",
-    "download": "https://www.dropbox.com/s/pllcpggs805zwmt/uploads_2013_12_Modulefixer3.zip?dl=1",
+    "ksp_version_min": "0.25",
+    "ksp_version_max": "0.90",
+    "conflicts": [
+        {
+            "name": "Karbonite"
+        },
+        {
+            "name": "KarbonitePlus"
+        },
+        {
+            "name": "AlcubierreStandalone"
+        },
+        {
+            "name": "USI-ART"
+        },
+        {
+            "name": "USI-EXP"
+        },
+        {
+            "name": "USI-FTT"
+        },
+        {
+            "name": "USI-SRV"
+        },
+        {
+            "name": "USITools"
+        },
+        {
+            "name": "UKS"
+        }
+    ],
     "install": [
         {
-            "file"       : "Modulefixer.dll",
-            "install_to" : "GameData"
+            "file": "Modulefixer.dll",
+            "install_to": "GameData"
         }
-    ]
+    ],
+    "download": "https://www.dropbox.com/s/pllcpggs805zwmt/uploads_2013_12_Modulefixer3.zip?dl=1",
+    "download_size": 2511,
+    "download_hash": {
+        "sha1": "B408F4A0CC2D778487BE837C2D5028822F59F720",
+        "sha256": "5298CEC041EF370AA565D9F7E1476B777DF68A41806A82EA7D99B3C1FE7596DB"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
