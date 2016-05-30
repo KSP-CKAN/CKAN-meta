@@ -1,46 +1,51 @@
 {
-  "spec_version": 1,
-  "name": "USI Freight Transport Technologies",
-  "identifier": "USI-FTT",
-  "author": "RoverDude",
-  "abstract": "A series of modular parts for all of your hauling, mining, and exploration needs!",
-  "license": "CC-BY-NC-SA",
-  "release_status": "stable",
-  "ksp_version": "0.25",
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/91706",
-    "repository": "https://github.com/BobPalmer/FTT"
-  },
-  "depends": [
-    {
-      "name": "FirespitterCore",
-      "min_version": "7.0.5398.27328"
+    "spec_version": 1,
+    "identifier": "USI-FTT",
+    "name": "USI Freight Transport Technologies",
+    "abstract": "A series of modular parts for all of your hauling, mining, and exploration needs!",
+    "author": "RoverDude",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/91706",
+        "repository": "https://github.com/BobPalmer/FTT"
     },
-    {
-      "name": "ModuleManager",
-      "min_version": "2.5.1"
+    "version": "0.2.4",
+    "ksp_version": "0.25",
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "7.0.5398.27328"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.5.1"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.2.4"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.2.3"
+        },
+        {
+            "name": "ORSX",
+            "min_version": "0.1.3"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/UmbraSpaceIndustries",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/BobPalmer/FTT/releases/download/0.2.4/FTT_0.2.4.zip",
+    "download_size": 34515777,
+    "download_hash": {
+        "sha1": "20C2BAEA0C25CCEFA2884A5826160BDA934C39D7",
+        "sha256": "2C30741FC2A963426EFA23A14ABE10C9E9CA8FB07F8C339FCA3E84147BEBEE13"
     },
-    {
-      "name": "USITools",
-      "min_version": "0.2.4"
-    },
-    {
-      "name": "CommunityResourcePack",
-      "min_version": "0.2.3"
-    },
-    {
-      "name": "ORSX",
-      "min_version": "0.1.3"
-    }
-  ],
-  "install": [
-    {
-      "file": "GameData/UmbraSpaceIndustries",
-      "install_to": "GameData"
-    }
-  ],
-  "version": "0.2.4",
-  "download": "https://github.com/BobPalmer/FTT/releases/download/0.2.4/FTT_0.2.4.zip",
-  "x_generated_by": "netkan",
-  "download_size": 34515777
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
