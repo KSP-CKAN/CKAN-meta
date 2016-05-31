@@ -3,17 +3,13 @@
     "identifier": "AnimatedDecouplers-x86",
     "name": "Animated Decouplers",
     "abstract": "Extensions of KSP's decouplers that play animations.",
+    "author": "Starwaster",
     "license": "CC-BY-SA-4.0",
-    "ksp_version": "1.0",
     "resources": {
         "repository": "https://github.com/Starwaster/AnimatedDecouplers"
     },
-    "install": [
-        {
-            "file": "GameData/AnimatedDecouplers",
-            "install_to": "GameData"
-        }
-    ],
+    "version": "1.0.2",
+    "ksp_version": "1.0",
     "provides": [
         "AnimatedDecouplers"
     ],
@@ -22,9 +18,18 @@
             "name": "AnimatedDecouplers-x64"
         }
     ],
-    "author": "Starwaster",
-    "version": "1.0.2",
+    "install": [
+        {
+            "file": "GameData/AnimatedDecouplers",
+            "install_to": "GameData"
+        }
+    ],
     "download": "https://github.com/Starwaster/AnimatedDecouplers/releases/download/1.0.2/AnimatedDecouplers_v1.0.2_KSP_1.0.zip",
-    "x_generated_by": "netkan",
-    "download_size": 3023
+    "download_size": 3023,
+    "download_hash": {
+        "sha1": "DB43635AF537256C694D54A529671D70339E4BF0",
+        "sha256": "862BBD3F6449330A61E1DC7D5769B17CCDAFDA3705F00C56BF86EA0C70DB8368"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
