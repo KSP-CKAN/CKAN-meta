@@ -1,41 +1,46 @@
 {
-  "spec_version": 1,
-  "identifier": "DistantObject-default",
-  "name": "Distant Object Enhancement default config",
-  "abstract": "Default planets colors",
-  "license": "CC-BY-4.0",
-  "depends": [
-    {
-      "name": "DistantObject"
-    }
-  ],
-  "install": [
-    {
-      "file": "GameData/DistantObject",
-      "install_to": "GameData",
-      "filter": [
-        "DistantObject.dll",
-        "Flare",
-        "Icons"
-      ]
-    }
-  ],
-  "provides": [
-    "DistantObject-config"
-  ],
-  "conflicts": [
-    {
-      "name": "DistantObject-config"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/98943",
-    "kerbalstuff": "https://kerbalstuff.com/mod/403/Distant%20Object%20Enhancement%20bis"
-  },
-  "ksp_version": "0.90",
-  "author": "MOARdV",
-  "version": "v1.5.0",
-  "download": "http://ckan1.spacedock.info/storage/MOARdV_3078/Distant_Object_Enhancement_bis/Distant_Object_Enhancement_bis-v1.5.0.zip",
-  "x_generated_by": "netkan",
-  "download_size": 40401
+    "spec_version": 1,
+    "identifier": "DistantObject-default",
+    "name": "Distant Object Enhancement default config",
+    "abstract": "Default planets colors",
+    "author": "MOARdV",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/98943",
+        "kerbalstuff": "https://kerbalstuff.com/mod/403/Distant%20Object%20Enhancement%20bis"
+    },
+    "version": "v1.5.0",
+    "ksp_version": "0.90",
+    "provides": [
+        "DistantObject-config"
+    ],
+    "depends": [
+        {
+            "name": "DistantObject"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "DistantObject-config"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/DistantObject",
+            "install_to": "GameData",
+            "filter": [
+                "DistantObject.dll",
+                "Flare",
+                "Icons"
+            ]
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/MOARdV_3078/Distant_Object_Enhancement_bis/Distant_Object_Enhancement_bis-v1.5.0.zip",
+    "download_size": 40401,
+    "download_hash": {
+        "sha1": "B820DDBFE8867406866682F9AF6C4014835487C8",
+        "sha256": "2E51B6FCDD1319F61755663CFB4CAEE3449133D76F4A8D94B563EE065B76B400"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
