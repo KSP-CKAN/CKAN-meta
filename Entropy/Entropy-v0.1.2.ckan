@@ -1,39 +1,44 @@
 {
-  "spec_version": 1,
-  "identifier": "Entropy",
-  "release_status": "development",
-  "license": "GPL-3.0",
-  "depends": [
-    {
-      "name": "DangIt"
+    "spec_version": 1,
+    "identifier": "Entropy",
+    "name": "Entropy",
+    "abstract": "A Hardmode for Ippo's DangIt!",
+    "author": "Coffeeman",
+    "license": "GPL-3.0",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/102197",
+        "repository": "https://github.com/602p/Entropy",
+        "bugtracker": "https://github.com/602p/Entropy/issues",
+        "kerbalstuff": "https://kerbalstuff.com/mod/388"
     },
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/102197",
-    "bugtracker": "https://github.com/602p/Entropy/issues",
-    "repository": "https://github.com/602p/Entropy",
-    "kerbalstuff": "https://kerbalstuff.com/mod/388"
-  },
-  "install": [
-    {
-      "file": "GameData/Entropy",
-      "install_to": "GameData"
-    }
-  ],
-  "suggests": [
-    {
-      "name": "EntropyRealChute"
-    }
-  ],
-  "ksp_version": "0.25",
-  "name": "Entropy",
-  "abstract": "A Hardmode for Ippo's DangIt!",
-  "author": "Coffeeman",
-  "version": "v0.1.2",
-  "download": "http://ckan1.spacedock.info/storage/Coffeeman_4174/Entropy/Entropy-v0.1.2.zip",
-  "x_generated_by": "netkan",
-  "download_size": 17333
+    "version": "v0.1.2",
+    "ksp_version": "0.25",
+    "depends": [
+        {
+            "name": "DangIt"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "EntropyRealChute"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Entropy",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/Coffeeman_4174/Entropy/Entropy-v0.1.2.zip",
+    "download_size": 17333,
+    "download_hash": {
+        "sha1": "DD601B098BA4F7B34521F4E3E4EB5C9F6B57FD39",
+        "sha256": "2446DC95FF60FC72470D8D92F68C8E267657EB5E332018C6C385D154342AB0C1"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
