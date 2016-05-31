@@ -1,10 +1,17 @@
 {
     "spec_version": 1,
-    "name": "Real Solar System",
     "identifier": "RealSolarSystem",
+    "name": "Real Solar System",
     "abstract": "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
+    "author": "NathanKell",
     "license": "CC-BY-NC-SA",
     "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/55145",
+        "repository": "https://github.com/NathanKell/RealSolarSystem"
+    },
+    "version": "v8.5",
+    "ksp_version": "0.90.0",
     "depends": [
         {
             "name": "RSSTextures"
@@ -33,20 +40,18 @@
             "name": "RemoteTech-Config-RSS"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/55145",
-        "repository": "https://github.com/NathanKell/RealSolarSystem"
-    },
     "install": [
         {
             "file": "RealSolarSystem",
             "install_to": "GameData"
         }
     ],
-    "author": "NathanKell",
-    "version": "v8.5",
     "download": "https://github.com/NathanKell/RealSolarSystem/releases/download/v8.5/RealSolarSystem_v8.5.zip",
-    "x_generated_by": "netkan",
     "download_size": 15560854,
-    "ksp_version": "0.90.0"
+    "download_hash": {
+        "sha1": "23C462C19AA554772D4888D5F22C77C1DDBD969B",
+        "sha256": "AD3D3A496E16798C69C400B86D5F14E35549BEBABBD99DA1669931F7B65BA1D3"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
