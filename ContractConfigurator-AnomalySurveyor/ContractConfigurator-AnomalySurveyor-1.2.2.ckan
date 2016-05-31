@@ -1,11 +1,20 @@
 {
     "spec_version": "v1.4",
     "identifier": "ContractConfigurator-AnomalySurveyor",
-    "abstract": "Contracts to guide you to the various easter eggs in the game.",
     "name": "Contract Pack: Anomaly Surveyor",
+    "abstract": "Contracts to guide you to the various easter eggs in the game.",
+    "author": "nightingale",
     "license": "CC-BY-NC-SA-4.0",
     "release_status": "stable",
-    "author": "nightingale",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/109471",
+        "repository": "https://github.com/jrossignol/ContractPack-AnomalySurveyor",
+        "bugtracker": "https://github.com/jrossignol/ContractPack-AnomalySurveyor/issues",
+        "license": "https://raw.githubusercontent.com/jrossignol/ContractPack-AnomalySurveyor/master/GameData/ContractPacks/AnomalySurveyor/LICENSE.txt"
+    },
+    "version": "1.2.2",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.0.99",
     "depends": [
         {
             "name": "ContractConfigurator"
@@ -28,16 +37,12 @@
             "install_to": "GameData/ContractPacks"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/109471",
-        "bugtracker": "https://github.com/jrossignol/ContractPack-AnomalySurveyor/issues",
-        "license": "https://raw.githubusercontent.com/jrossignol/ContractPack-AnomalySurveyor/master/GameData/ContractPacks/AnomalySurveyor/LICENSE.txt",
-        "repository": "https://github.com/jrossignol/ContractPack-AnomalySurveyor"
-    },
-    "version": "1.2.2",
     "download": "https://github.com/jrossignol/ContractPack-AnomalySurveyor/releases/download/1.2.2/ContractPack-AnomalySurveyor_1.2.2.zip",
-    "ksp_version_min": "1.0.0",
-    "ksp_version_max": "1.0.99",
     "download_size": 94052,
+    "download_hash": {
+        "sha1": "A17A45664D26A0631AB07ECF3B45ED9BF70C973C",
+        "sha256": "8E2CAB5B77B2390495A81F5B3CE32FB2A42325364A9DD4464B76BF62E7DCADA6"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }
