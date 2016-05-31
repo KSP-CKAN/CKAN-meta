@@ -1,23 +1,30 @@
 {
-    "spec_version"   : 1,
-    "name"           : "Open Resource Standard Fork",
-    "version"        : "0.1.1",
-    "author"         : "RoverDude",
-    "identifier"     : "ORSX",
-    "abstract"       : "An ORS Fork",
-    "license"        : "BSD-3-clause",
-    "release_status" : "stable",
-    "ksp_version"    : "0.25",
-    "download"       : "https://github.com/BobPalmer/ORSX/archive/0.1.1.zip",
-    "resources"      : {
-        "github"     : {
-            "url"    : "https://github.com/BobPalmer/ORSX"
+    "spec_version": 1,
+    "identifier": "ORSX",
+    "name": "Open Resource Standard Fork",
+    "abstract": "An ORS Fork",
+    "author": "RoverDude",
+    "license": "BSD-3-clause",
+    "release_status": "stable",
+    "resources": {
+        "github": {
+            "url": "https://github.com/BobPalmer/ORSX"
         }
     },
-    "install" : [
+    "version": "0.1.1",
+    "ksp_version": "0.25",
+    "install": [
         {
-            "file"       : "ORSX-0.1.1/GameData/ORSX",
-            "install_to" : "GameData"
+            "file": "ORSX-0.1.1/GameData/ORSX",
+            "install_to": "GameData"
         }
-    ]
+    ],
+    "download": "https://github.com/BobPalmer/ORSX/archive/0.1.1.zip",
+    "download_size": 60716,
+    "download_hash": {
+        "sha1": "424F1F26FE09350BA3DFE01017685B877A825459",
+        "sha256": "F11247644A9F464B542CFA00CF6F18AF03B37EF2D781F0B3DE18E382C3B16CCA"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
