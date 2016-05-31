@@ -1,16 +1,17 @@
 {
     "spec_version": 1,
-    "name": "Action Groups Extended",
     "identifier": "AGExt",
-    "author": "Diazo",
+    "name": "Action Groups Extended",
     "abstract": "Increases the number of action groups to 250 and allows in-flight editing.",
+    "author": "Diazo",
     "license": "GPL-3.0",
     "release_status": "stable",
-    "ksp_version": "0.90",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/74195",
         "repository": "https://github.com/SirDiazo/AGExt"
     },
+    "version": "1.29d",
+    "ksp_version": "0.90",
     "depends": [
         {
             "name": "ModuleManager"
@@ -27,6 +28,13 @@
             "install_to": "GameData"
         }
     ],
+    "download": "https://github.com/SirDiazo/AGExt/releases/download/1.29d/ActionGroupsExtended129d.zip",
+    "download_size": 72284,
+    "download_hash": {
+        "sha1": "4079152CD7504CA81932FA3DA6B3EED3B3118292",
+        "sha256": "D297667DC60EBB7187CA9B07713FD6914513D6154798F8E1BE0D07C7EECE2185"
+    },
+    "download_content_type": "application/zip",
     "x_supports": [
         {
             "name": "SCANsat"
@@ -50,8 +58,5 @@
             "name": "WarpPlugin"
         }
     ],
-    "version": "1.29d",
-    "download": "https://github.com/SirDiazo/AGExt/releases/download/1.29d/ActionGroupsExtended129d.zip",
-    "x_generated_by": "netkan",
-    "download_size": 72284
+    "x_generated_by": "netkan"
 }
