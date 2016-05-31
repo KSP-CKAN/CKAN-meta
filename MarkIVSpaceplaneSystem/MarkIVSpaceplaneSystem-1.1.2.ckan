@@ -1,13 +1,16 @@
 {
     "spec_version": 1,
     "identifier": "MarkIVSpaceplaneSystem",
+    "name": "Mark IV Spaceplane System",
+    "abstract": "A heavy-lift spaceplane fuselage designed to carry 2.5m parts",
+    "author": "Nertea",
     "license": "CC-BY-NC-SA-4.0",
-    "install": [
-        {
-            "file": "GameData/MarkIVSystem",
-            "install_to": "GameData"
-        }
-    ],
+    "resources": {
+        "kerbalstuff": "https://kerbalstuff.com/mod/380/Mark%20IV%20Spaceplane%20System",
+        "x_screenshot": "https://kerbalstuff.com/content/Nertea_3884/Mark_IV_Spaceplane_System/Mark_IV_Spaceplane_System.png"
+    },
+    "version": "1.1.2",
+    "ksp_version": "0.90.0",
     "depends": [
         {
             "name": "NearFutureProps"
@@ -22,16 +25,18 @@
             "comment": "MM is needed to apply the compatibility patches, but not strictly required."
         }
     ],
-    "ksp_version": "0.90.0",
-    "name": "Mark IV Spaceplane System",
-    "abstract": "A heavy-lift spaceplane fuselage designed to carry 2.5m parts",
-    "version": "1.1.2",
-    "author": "Nertea",
+    "install": [
+        {
+            "file": "GameData/MarkIVSystem",
+            "install_to": "GameData"
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/Nertea_3884/Mark_IV_Spaceplane_System/Mark_IV_Spaceplane_System-1.1.2.zip",
-    "resources": {
-        "kerbalstuff": "https://kerbalstuff.com/mod/380/Mark%20IV%20Spaceplane%20System",
-        "x_screenshot": "https://kerbalstuff.com/content/Nertea_3884/Mark_IV_Spaceplane_System/Mark_IV_Spaceplane_System.png"
-    },
     "download_size": 26155781,
+    "download_hash": {
+        "sha1": "E3F4E03E6A51A881FAA9EC1655DACB7C85E8D166",
+        "sha256": "81A8067DEA43F75A0194BE3A16580C9CCBE9E20F8F7B913D290A35FCA065678D"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }
