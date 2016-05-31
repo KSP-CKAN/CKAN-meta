@@ -1,21 +1,27 @@
 {
-    "identifier": "CriticalTemperatureGauge",
     "spec_version": "v1.4",
+    "identifier": "CriticalTemperatureGauge",
+    "name": "Critical temperature gauge ",
+    "abstract": "Tweakable temperature gauge.",
+    "author": "Ravien",
     "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/119686"
+    },
+    "version": "1.0.2-d",
+    "ksp_version": "1.0.2",
     "install": [
         {
             "find": "Ravien",
             "install_to": "GameData"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/119686"
-    },
-    "ksp_version": "1.0.2",
-    "name": "Critical temperature gauge ",
-    "abstract": "Tweakable temperature gauge.",
-    "author": "Ravien",
-    "version": "1.0.2-d",
     "download": "http://ckan1.spacedock.info/storage/Ravien_9669/Critical_temperature_gauge/Critical_temperature_gauge-1.0.2-d.zip",
-    "download_size": 10655
+    "download_size": 10655,
+    "download_hash": {
+        "sha1": "AF891911D9F144D719BB48C86E4AE35949DFFE81",
+        "sha256": "EA4E8FACF8490160B1C44D6EC6C91A3E3B9C708E9A7A4037DACAEC5FD6254CF6"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
