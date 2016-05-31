@@ -1,25 +1,35 @@
 {
-    "spec_version"   : 1,
-    "name"           : "ModuleRCSFX",
-    "abstract"       : "A fixed version of the stock RCS module",
-    "identifier"     : "ModuleRCSFX",
-    "download"       : "https://github.com/NathanKell/ModuleRCSFX/releases/download/v3.1/ModuleRCSFX_v3.1.zip",
-    "license"        : "CC-BY-SA",
-    "author"         : [ "ialdabaoth", "NathanKell" ],
-    "version"        : "3.1",
-    "release_status" : "stable",
-    "ksp_version"    : "0.25",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/92290",
-        "github"   : {
-            "url"      : "https://github.com/NathanKell/ModuleRCSFX",
-            "releases" : true
+    "spec_version": 1,
+    "identifier": "ModuleRCSFX",
+    "name": "ModuleRCSFX",
+    "abstract": "A fixed version of the stock RCS module",
+    "author": [
+        "ialdabaoth",
+        "NathanKell"
+    ],
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/92290",
+        "github": {
+            "url": "https://github.com/NathanKell/ModuleRCSFX",
+            "releases": true
         }
     },
-    "install" : [
+    "version": "3.1",
+    "ksp_version": "0.25",
+    "install": [
         {
-            "file"       : "ModuleRCSFX",
-            "install_to" : "GameData"
+            "file": "ModuleRCSFX",
+            "install_to": "GameData"
         }
-    ]
+    ],
+    "download": "https://github.com/NathanKell/ModuleRCSFX/releases/download/v3.1/ModuleRCSFX_v3.1.zip",
+    "download_size": 5382,
+    "download_hash": {
+        "sha1": "2DC363F83CAAFB0CF5BFE950C39C7D67D9B6890A",
+        "sha256": "EDE2D8C7E7ACD24AF43C5B88195D39C21AAD1ED5298F452CDCFF038D095BB17D"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
