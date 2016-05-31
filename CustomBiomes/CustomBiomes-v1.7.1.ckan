@@ -1,34 +1,39 @@
 {
-  "spec_version": 1,
-  "name": "Custom Biomes",
-  "identifier": "CustomBiomes",
-  "abstract": "Add or replace biomes to any celestial body in KSP",
-  "license": "CC-BY-NC-SA-3.0",
-  "release_status": "stable",
-  "ksp_version": "0.90",
-  "depends": [
-    {
-      "name": "CustomBiomes-Data"
-    }
-  ],
-  "recommends": [
-    {
-      "name": "CustomBiomes-Data-Stock"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/66256",
-    "repository": "https://github.com/NathanKell/CustomBiomes"
-  },
-  "install": [
-    {
-      "file": "CustomBiomes",
-      "install_to": "GameData"
-    }
-  ],
-  "author": "NathanKell",
-  "version": "v1.7.1",
-  "download": "https://github.com/NathanKell/CustomBiomes/releases/download/v1.7.1/CustomBiomes_1_7_1.zip",
-  "x_generated_by": "netkan",
-  "download_size": 24676
+    "spec_version": 1,
+    "identifier": "CustomBiomes",
+    "name": "Custom Biomes",
+    "abstract": "Add or replace biomes to any celestial body in KSP",
+    "author": "NathanKell",
+    "license": "CC-BY-NC-SA-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/66256",
+        "repository": "https://github.com/NathanKell/CustomBiomes"
+    },
+    "version": "v1.7.1",
+    "ksp_version": "0.90",
+    "depends": [
+        {
+            "name": "CustomBiomes-Data"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CustomBiomes-Data-Stock"
+        }
+    ],
+    "install": [
+        {
+            "file": "CustomBiomes",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/NathanKell/CustomBiomes/releases/download/v1.7.1/CustomBiomes_1_7_1.zip",
+    "download_size": 24676,
+    "download_hash": {
+        "sha1": "7B6D5A1F546BB9CA1B8D52E2E289C8DF0A2F1340",
+        "sha256": "7195C267E5BB2ED49A32BD2315AD5B537B58E16B69CA860268E260CD7BA6F030"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
