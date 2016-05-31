@@ -1,24 +1,17 @@
 {
     "spec_version": "v1.4",
-    "identifier"  : "KittopiaTech",
-    "name"        : "KittopiaTech",
-    "abstract"    : "An in game planet editor",
-    "license"     : "unknown",
-    "version"     : "0.192",
-    "comment"     : "Development halted until further notice",
-    "author"      : "KCreator",
-    "ksp_version" : "0.90",
+    "comment": "Development halted until further notice",
+    "identifier": "KittopiaTech",
+    "name": "KittopiaTech",
+    "abstract": "An in game planet editor",
+    "author": "KCreator",
+    "license": "unknown",
     "resources": {
-        "repository": "https://github.com/KCreator/Kittopiatech_Planeteditor",
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/68619"
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/68619",
+        "repository": "https://github.com/KCreator/Kittopiatech_Planeteditor"
     },
-    "download": "https://dl.dropboxusercontent.com/u/80556647/PlanetaryEditingToolsUI.zip",
-    "install": [
-        {
-            "find": "KittopiaSpace",
-            "install_to": "GameData"
-        }
-    ],
+    "version": "0.192",
+    "ksp_version": "0.90",
     "conflicts": [
         {
             "name": "Kopernicus"
@@ -26,5 +19,19 @@
         {
             "name": "KopernicusTech"
         }
-    ]
+    ],
+    "install": [
+        {
+            "find": "KittopiaSpace",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://dl.dropboxusercontent.com/u/80556647/PlanetaryEditingToolsUI.zip",
+    "download_size": 51602,
+    "download_hash": {
+        "sha1": "3BF5B0079593FD69098B234648486576A16EDF36",
+        "sha256": "DD712B0B92F09C1CF966E0332BA0DE8740FD115C68A47E08215171147CF1EBB6"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
