@@ -7,8 +7,8 @@
     "license": "CC-BY-4.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/98943",
-        "kerbalstuff": "https://kerbalstuff.com/mod/403/Distant%20Object%20Enhancement%20bis",
-        "repository": "https://github.com/MOARdV/DistantObject"
+        "repository": "https://github.com/MOARdV/DistantObject",
+        "kerbalstuff": "https://kerbalstuff.com/mod/403/Distant%20Object%20Enhancement%20bis"
     },
     "version": "v1.6.2",
     "ksp_version": "1.0.4",
@@ -20,6 +20,11 @@
             "name": "DistantObject"
         }
     ],
+    "conflicts": [
+        {
+            "name": "DistantObject-config"
+        }
+    ],
     "install": [
         {
             "file": "Alternate Planet Color Configs/Real Solar System (default)/DistantObject",
@@ -28,10 +33,10 @@
     ],
     "download": "http://ckan1.spacedock.info/storage/MOARdV_3078/Distant_Object_Enhancement_bis/Distant_Object_Enhancement_bis-v1.6.2.zip",
     "download_size": 38434,
-    "conflicts": [
-        {
-            "name": "DistantObject-config"
-        }
-    ],
+    "download_hash": {
+        "sha1": "AA8475B37DDC1D902C26A29A8582991ECE50B0BA",
+        "sha256": "6B92C54E8FC957BE3D9AD2259977A61328E48AFB467F8EC23FE04C4E56DB9149"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }
