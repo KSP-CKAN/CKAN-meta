@@ -1,31 +1,36 @@
 {
-  "spec_version": 1,
-  "identifier": "ContractConfigurator",
-  "name": "Contract Configurator",
-  "abstract": "A config-file based solution for creating new contracts!",
-  "license": "CC-BY-NC-SA-4.0",
-  "release_status": "stable",
-  "author": "nightingale",
-  "description": "A config-file based solution for creating new contracts!",
-  "suggests": [
-    {
-      "name": "CoherentContracts"
+    "spec_version": 1,
+    "identifier": "ContractConfigurator",
+    "name": "Contract Configurator",
+    "abstract": "A config-file based solution for creating new contracts!",
+    "description": "A config-file based solution for creating new contracts!",
+    "author": "nightingale",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/101604",
+        "repository": "https://github.com/jrossignol/ContractConfigurator",
+        "bugtracker": "https://github.com/jrossignol/ContractConfigurator/issues",
+        "license": "https://raw.githubusercontent.com/jrossignol/ContractConfigurator/master/LICENSE.txt",
+        "manual": "https://github.com/jrossignol/ContractConfigurator/wiki"
     },
-    {
-      "name": "ContractsWindowPlus"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/101604",
-    "bugtracker": "https://github.com/jrossignol/ContractConfigurator/issues",
-    "license": "https://raw.githubusercontent.com/jrossignol/ContractConfigurator/master/LICENSE.txt",
-    "manual": "https://github.com/jrossignol/ContractConfigurator/wiki",
-    "repository": "https://github.com/jrossignol/ContractConfigurator"
-  },
-  "version": "0.3.3",
-  "download": "https://github.com/jrossignol/ContractConfigurator/releases/download/0.3.3/ContractConfigurator_0.3.3.zip",
-  "x_generated_by": "netkan",
-  "download_size": 42261,
-  "ksp_version_min": "0.90.0",
-  "ksp_version_max": "0.90.0"
+    "version": "0.3.3",
+    "ksp_version_min": "0.90.0",
+    "ksp_version_max": "0.90.0",
+    "suggests": [
+        {
+            "name": "CoherentContracts"
+        },
+        {
+            "name": "ContractsWindowPlus"
+        }
+    ],
+    "download": "https://github.com/jrossignol/ContractConfigurator/releases/download/0.3.3/ContractConfigurator_0.3.3.zip",
+    "download_size": 42261,
+    "download_hash": {
+        "sha1": "736709A0801B56420B32200159F5EEC2A1E2438F",
+        "sha256": "17CF21009FA9F72226914893BC07E16255F3F1B3510C21E3E58DC12F5BC98CAE"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
