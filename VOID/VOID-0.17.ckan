@@ -1,28 +1,33 @@
 {
     "spec_version": 1,
     "identifier": "VOID",
+    "name": "VOID",
+    "abstract": "Vessel Orbital Informational Display",
+    "author": "toadicus",
     "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/54533",
+        "kerbalstuff": "https://kerbalstuff.com/mod/253/VOID"
+    },
+    "version": "0.17",
+    "ksp_version": "0.90",
+    "depends": [
+        {
+            "name": "ToadicusTools"
+        }
+    ],
     "install": [
         {
             "file": "GameData/VOID",
             "install_to": "GameData"
         }
     ],
-    "depends": [
-        {
-            "name": "ToadicusTools"
-        }
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/54533",
-        "kerbalstuff": "https://kerbalstuff.com/mod/253/VOID"
-    },
-    "ksp_version": "0.90",
-    "name": "VOID",
-    "abstract": "Vessel Orbital Informational Display",
-    "author": "toadicus",
-    "version": "0.17",
     "download": "http://ckan1.spacedock.info/storage/toadicus_101/VOID/VOID-0.17.zip",
-    "x_generated_by": "netkan",
-    "download_size": 293395
+    "download_size": 293395,
+    "download_hash": {
+        "sha1": "76FBA1719F145DFDEBCC8A79B172C964763368C2",
+        "sha256": "A8142EA13B4E795AC153AAADEFE250ECAB7305530A4077C1D0D53C07794AAC86"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
