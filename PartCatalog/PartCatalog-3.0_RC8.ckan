@@ -1,25 +1,32 @@
 {
     "spec_version": 1,
+    "comment": "Hand packaged by Felger, if anything's wrong, it's my fault.",
     "identifier": "PartCatalog",
-    "ksp_version": "0.25",
-    "resources":
-    {
+    "name": "Part Catalog",
+    "abstract": "The PartCatalog allows you categorize your parts into Tags in order to make your building experience less frustrating by reducing the time you're looking for that one part.",
+    "author": "BlackNecro",
+    "license": "CC-BY-SA-3.0",
+    "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/35018-0-25-PartCatalog-3-0-RC8-(2014-10-08)"
     },
-    "name"    : "Part Catalog",
-    "license" : "CC-BY-SA-3.0",
-    "abstract": "The PartCatalog allows you categorize your parts into Tags in order to make your building experience less frustrating by reducing the time you're looking for that one part.",
-    "author"  : "BlackNecro",
-    "version" : "3.0_RC8",
+    "version": "3.0_RC8",
+    "ksp_version": "0.25",
+    "install": [
+        {
+            "file": "KSPLua",
+            "install_to": "GameData"
+        },
+        {
+            "file": "PartCatalog",
+            "install_to": "GameData"
+        }
+    ],
     "download": "https://dl.dropboxusercontent.com/u/11467249/PartCatalog/PartCatalog3.0_RC8.zip",
-    "comment" : "Hand packaged by Felger, if anything's wrong, it's my fault.",
-    "install" :
-    [{
-        "file"      : "KSPLua",
-        "install_to": "GameData"
+    "download_size": 1023949,
+    "download_hash": {
+        "sha1": "B23CB50E810E7A57C28D628F80DB7999E0719810",
+        "sha256": "1BD2E4444935303D8074219BECE33DFDC47B12901C673D7BDC9CE92D27E2BF47"
     },
-    {
-        "file"      : "PartCatalog",
-        "install_to": "GameData"
-    }]
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
