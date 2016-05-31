@@ -1,14 +1,20 @@
 {
     "spec_version": "v1.4",
     "identifier": "Hangar",
-    "x_netkan_license_ok": true,
+    "name": "Hangar",
+    "abstract": "Hangars are parts that can store whole ships inside. Stored ships are not docked but unloaded, which reduces part count considerably.",
+    "author": "allista",
+    "license": "CC-BY-4.0",
     "resources": {
-        "bugtracker": "https://github.com/allista/hangar/issues",
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/88933",
         "repository": "https://github.com/allista/hangar",
-        "kerbalstuff": "https://kerbalstuff.com/mod/270/Hangar",
+        "bugtracker": "https://github.com/allista/hangar/issues",
         "manual": "https://github.com/allista/hangar/wiki",
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/88933"
+        "kerbalstuff": "https://kerbalstuff.com/mod/270/Hangar"
     },
+    "version": "2.2.0",
+    "ksp_version_min": "0.90.0",
+    "ksp_version_max": "0.90.0",
     "depends": [
         {
             "name": "ModuleManager"
@@ -39,14 +45,12 @@
             "comment": "Contains KSPAPIExtensions mod in this distribution"
         }
     ],
-    "name": "Hangar",
-    "license": "CC-BY-4.0",
-    "abstract": "Hangars are parts that can store whole ships inside. Stored ships are not docked but unloaded, which reduces part count considerably.",
-    "author": "allista",
-    "version": "2.2.0",
     "download": "http://ckan1.spacedock.info/storage/allista_2936/Hangar/Hangar-2.2.0.zip",
-    "x_generated_by": "netkan",
     "download_size": 22667125,
-    "ksp_version_min": "0.90.0",
-    "ksp_version_max": "0.90.0"
+    "download_hash": {
+        "sha1": "61A4EE664D6D2F4D704A6F3383AB75BDC5273E8D",
+        "sha256": "478CABE421D14A93720F1A74147CE625629886297F28C15CA4425F99971B8485"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
