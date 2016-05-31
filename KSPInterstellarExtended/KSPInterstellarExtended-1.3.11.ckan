@@ -1,14 +1,18 @@
 {
     "spec_version": 1,
     "identifier": "KSPInterstellarExtended",
+    "name": "KSP Interstellar Extended",
+    "abstract": "Full download of KSPI-E",
+    "author": "FreeThinker",
     "license": "GPL-3.0",
-    "install": [
-        {
-            "file": "GameData/WarpPlugin",
-            "install_to": "GameData",
-            "filter": "MiniAVC.xml"
-        }
-    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/111159-WIP-0-90-KSP-Interstellar-Extended",
+        "repository": "https://github.com/sswelm/KSPInterstellar",
+        "kerbalstuff": "https://kerbalstuff.com/mod/791/KSP%20Interstellar%20Extended",
+        "x_screenshot": "https://kerbalstuff.com/content/FreeThinker_6401/KSP_Interstellar_Extended/KSP_Interstellar_Extended-1431587321.3258672.jpg"
+    },
+    "version": "1.3.11",
+    "ksp_version": "1.0.4",
     "depends": [
         {
             "name": "CommunityResourcePack",
@@ -44,18 +48,19 @@
             "name": "CrossFeedEnabler"
         }
     ],
-    "ksp_version": "1.0.4",
-    "name": "KSP Interstellar Extended",
-    "abstract": "Full download of KSPI-E",
-    "version": "1.3.11",
-    "author": "FreeThinker",
+    "install": [
+        {
+            "file": "GameData/WarpPlugin",
+            "install_to": "GameData",
+            "filter": "MiniAVC.xml"
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/FreeThinker_6401/KSP_Interstellar_Extended/KSP_Interstellar_Extended-1.3.11.zip",
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/111159-WIP-0-90-KSP-Interstellar-Extended",
-        "repository": "https://github.com/sswelm/KSPInterstellar",
-        "kerbalstuff": "https://kerbalstuff.com/mod/791/KSP%20Interstellar%20Extended",
-        "x_screenshot": "https://kerbalstuff.com/content/FreeThinker_6401/KSP_Interstellar_Extended/KSP_Interstellar_Extended-1431587321.3258672.jpg"
-    },
     "download_size": 45381702,
+    "download_hash": {
+        "sha1": "B061D6C7F28841D29E0E05F70E7CF589335D5C99",
+        "sha256": "FA170B3ED7EDA511996FEB090AB8F703ABD75FF94591326E0187D5089EB96D4D"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }
