@@ -1,11 +1,17 @@
 {
     "spec_version": 1,
     "identifier": "ContractConfigurator-ContractPack-SCANsat",
-    "abstract": "A contract pack containing contracts for SCANSat.",
     "name": "Contract Pack: SCANSat",
+    "abstract": "A contract pack containing contracts for SCANSat.",
+    "author": "DBT85",
     "license": "CC-BY-NC-SA-4.0",
     "release_status": "stable",
-    "author": "DBT85",
+    "resources": {
+        "repository": "https://github.com/DBT85/CC-CP-SCANSat"
+    },
+    "version": "v0.4.0",
+    "ksp_version_min": "0.90.0",
+    "ksp_version_max": "0.90.0",
     "depends": [
         {
             "name": "ContractConfigurator"
@@ -21,13 +27,12 @@
             "install_to": "GameData/ContractPacks"
         }
     ],
-    "resources": {
-        "repository": "https://github.com/DBT85/CC-CP-SCANSat"
-    },
-    "version": "v0.4.0",
     "download": "https://github.com/DBT85/CC-CP-SCANSat/releases/download/v0.4.0/CC-CP-SCANSat-0.4.0.zip",
-    "x_generated_by": "netkan",
     "download_size": 31980,
-    "ksp_version_min": "0.90.0",
-    "ksp_version_max": "0.90.0"
+    "download_hash": {
+        "sha1": "C93D6DCC57BDF937DEB9357133B3775010B3F3A8",
+        "sha256": "2EA13BEAE80F4C29A16079E1BD21EA98849A7A204447A8A812F2CFF9C223B51F"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
