@@ -1,24 +1,34 @@
 {
     "spec_version": 1,
+    "comment": "Hand packaged by Felger, if anything's wrong, it's my fault.",
     "identifier": "PorkjetHabitats",
-    "ksp_version_min": "0.25",
-    "ksp_version_max": "0.90",
-    "resources":
-    {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/64442"
-    },
     "name": "Habitat Pack",
-    "license": "restricted",
     "abstract": "This pack provides a variety of habitat modules and base building parts to give players the ability to colonize space in a more realistic way.",
     "author": "Porkjet",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/64442"
+    },
     "version": "0.4",
-    "download": "https://www.dropbox.com/s/7rfuu6ott8j5bl7/Habitat%20Pack.zip?dl=1",
-    "comment" : "Hand packaged by Felger, if anything's wrong, it's my fault.",
-    "depends" : [ {"name" : "FirespitterCore" } ],
+    "ksp_version_min": "0.25",
+    "ksp_version_max": "0.90",
+    "depends": [
+        {
+            "name": "FirespitterCore"
+        }
+    ],
     "install": [
         {
-            "file"       : "GameData/HabitatPack",
-            "install_to" : "GameData"
+            "file": "GameData/HabitatPack",
+            "install_to": "GameData"
         }
-    ]
+    ],
+    "download": "https://www.dropbox.com/s/7rfuu6ott8j5bl7/Habitat%20Pack.zip?dl=1",
+    "download_size": 12376115,
+    "download_hash": {
+        "sha1": "DBD999ECF60E6351F3EF8DA422128E7A717AB826",
+        "sha256": "912EC404B47E52D0933D807287D1CC4E46E8164AC0AF0C8D18D3DA6748596E3D"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
