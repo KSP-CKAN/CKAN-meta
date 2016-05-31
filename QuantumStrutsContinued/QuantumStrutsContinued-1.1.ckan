@@ -1,31 +1,36 @@
 {
-  "spec_version": 1,
-  "identifier": "QuantumStrutsContinued",
-  "license": "BSD-2-clause",
-  "install": [
-    {
-      "file": "GameData/QuantumStrutsContinued",
-      "install_to": "GameData"
-    }
-  ],
-  "suggests": [
-    {
-      "name": "ModuleManager"
+    "spec_version": 1,
+    "identifier": "QuantumStrutsContinued",
+    "name": "QuantumStrutsContinued",
+    "abstract": "Magical struts for rigidifying vessels outside the assembly buildings",
+    "author": "toadicus",
+    "license": "BSD-2-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/93818",
+        "kerbalstuff": "https://kerbalstuff.com/mod/168/QuantumStrutsContinued"
     },
-    {
-      "name": "KAS"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/93818",
-    "kerbalstuff": "https://kerbalstuff.com/mod/168/QuantumStrutsContinued"
-  },
-  "ksp_version": "0.25",
-  "name": "QuantumStrutsContinued",
-  "abstract": "Magical struts for rigidifying vessels outside the assembly buildings",
-  "author": "toadicus",
-  "version": "1.1",
-  "download": "http://ckan1.spacedock.info/storage/toadicus_101/QuantumStrutsContinued/QuantumStrutsContinued-1.1.zip",
-  "x_generated_by": "netkan",
-  "download_size": 913747
+    "version": "1.1",
+    "ksp_version": "0.25",
+    "suggests": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KAS"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/QuantumStrutsContinued",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/toadicus_101/QuantumStrutsContinued/QuantumStrutsContinued-1.1.zip",
+    "download_size": 913747,
+    "download_hash": {
+        "sha1": "A9E40E151EADBB5403AA8BC5F524FD40860B5926",
+        "sha256": "A52DCDF9D3DC902B7257E2F7532D6C951FC8A634F1C125AE5BBEC0E5E4ECCFF4"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
