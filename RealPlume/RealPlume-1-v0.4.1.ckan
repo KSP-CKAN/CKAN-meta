@@ -1,12 +1,18 @@
 {
     "spec_version": "v1.4",
-    "ksp_version_min": "1.0.2",
-    "ksp_version_max": "1.0.4",
-    "name": "Real Plume",
     "identifier": "RealPlume",
+    "name": "Real Plume",
     "abstract": "A set of effects and basic configs that can be attached to any engine as appropriate.  Requires secondary configs to function correctly.",
+    "author": "Felger",
     "license": "CC-BY-NC-SA",
     "release_status": "stable",
+    "resources": {
+        "homepage": "https://github.com/KSP-RO/RealPlume/wiki",
+        "repository": "https://github.com/KSP-RO/RealPlume"
+    },
+    "version": "1:v0.4.1",
+    "ksp_version_min": "1.0.2",
+    "ksp_version_max": "1.0.4",
     "depends": [
         {
             "name": "ModuleManager"
@@ -28,19 +34,18 @@
             "name": "HotRockets"
         }
     ],
-    "resources": {
-        "homepage": "https://github.com/KSP-RO/RealPlume/wiki",
-        "repository": "https://github.com/KSP-RO/RealPlume"
-    },
     "install": [
         {
             "find": "RealPlume",
             "install_to": "GameData"
         }
     ],
-    "version": "1:v0.4.1",
-    "author": "Felger",
     "download": "https://github.com/KSP-RO/RealPlume/releases/download/v0.4.1/RealPlume_v0.4.1.zip",
     "download_size": 25145593,
+    "download_hash": {
+        "sha1": "D87B8B2DBC1DACF42C1B0121A4966B8E68569F27",
+        "sha256": "912B29A5ADDFC3AC48BB8B884DB4792AEE10B0DF7228A74A6B241447001F58B7"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }
