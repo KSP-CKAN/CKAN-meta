@@ -1,33 +1,38 @@
 {
-  "spec_version": 1,
-  "name": "KarbonitePlus",
-  "identifier": "KarbonitePlus",
-  "author": "RoverDude",
-  "abstract": "New resources and parts for Karbonite, including the resource Karborundum",
-  "license": "CC-BY-NC-SA-4.0",
-  "release_status": "stable",
-  "ksp_version": "0.90",
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/93054",
-    "repository": "https://github.com/BobPalmer/KarbonitePlus"
-  },
-  "depends": [
-    {
-      "name": "Karbonite"
-    }
-  ],
-  "comment": "This may be renamed to USI-KarbonitePlus in the future",
-  "provides": [
-    "USI-KarbonitePlus"
-  ],
-  "install": [
-    {
-      "file": "GameData/UmbraSpaceIndustries",
-      "install_to": "GameData"
-    }
-  ],
-  "version": "0.2.3",
-  "download": "https://github.com/BobPalmer/KarbonitePlus/releases/download/0.2.3/KPlus_0.2.3.Zip",
-  "x_generated_by": "netkan",
-  "download_size": 9479781
+    "spec_version": 1,
+    "comment": "This may be renamed to USI-KarbonitePlus in the future",
+    "identifier": "KarbonitePlus",
+    "name": "KarbonitePlus",
+    "abstract": "New resources and parts for Karbonite, including the resource Karborundum",
+    "author": "RoverDude",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/93054",
+        "repository": "https://github.com/BobPalmer/KarbonitePlus"
+    },
+    "version": "0.2.3",
+    "ksp_version": "0.90",
+    "provides": [
+        "USI-KarbonitePlus"
+    ],
+    "depends": [
+        {
+            "name": "Karbonite"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/UmbraSpaceIndustries",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/BobPalmer/KarbonitePlus/releases/download/0.2.3/KPlus_0.2.3.Zip",
+    "download_size": 9479781,
+    "download_hash": {
+        "sha1": "72B397CF3D876433828B252E628883CB9F83E613",
+        "sha256": "D56D557064BDA3853ECC75987FA0B2F6D5A9703846B0FF8D82085839B59F8B97"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
