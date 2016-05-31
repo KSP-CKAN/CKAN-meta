@@ -1,21 +1,21 @@
 {
     "spec_version": 1,
     "identifier": "FerramAerospaceResearch",
+    "name": "Ferram Aerospace Research",
+    "abstract": "FAR replaces KSP's stock part-centered aerodynamics model with one based on real-life physics.",
+    "author": "ferram4",
     "license": "GPL-3.0",
     "release_status": "stable",
     "resources": {
-        "repository": "https://github.com/ferram4/Ferram-Aerospace-Research",
         "homepage": "http://forum.kerbalspaceprogram.com/threads/20451",
+        "repository": "https://github.com/ferram4/Ferram-Aerospace-Research",
         "kerbalstuff": "https://kerbalstuff.com/mod/52/Ferram%20Aerospace%20Research"
     },
+    "version": "v0.15.3_Froude",
+    "ksp_version": "1.0.2",
     "provides": [
         "AerodynamicModel",
         "FAR"
-    ],
-    "conflicts": [
-        {
-            "name": "AerodynamicModel"
-        }
     ],
     "depends": [
         {
@@ -23,6 +23,11 @@
         },
         {
             "name": "ModularFlightIntegrator"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AerodynamicModel"
         }
     ],
     "install": [
@@ -37,12 +42,12 @@
             "description": "FAR example craft"
         }
     ],
-    "ksp_version": "1.0.2",
-    "name": "Ferram Aerospace Research",
-    "abstract": "FAR replaces KSP's stock part-centered aerodynamics model with one based on real-life physics.",
-    "author": "ferram4",
-    "version": "v0.15.3_Froude",
     "download": "http://ckan1.spacedock.info/storage/ferram4_54/Ferram_Aerospace_Research/Ferram_Aerospace_Research-v0.15.3_Froude.zip",
-    "x_generated_by": "netkan",
-    "download_size": 724272
+    "download_size": 724272,
+    "download_hash": {
+        "sha1": "DBCC75BA98A34BB5EF34B2F2090D35B6AC08CFBD",
+        "sha256": "BC1CC3E236A02A60851C4D397A868E803CBE0C5CF465E3EA29D1C9B3F17482E8"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
