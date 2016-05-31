@@ -1,194 +1,199 @@
 {
-  "spec_version": 1,
-  "name": "Realism Overhaul",
-  "identifier": "RealismOverhaul",
-  "abstract": "Multipatch to KSP to give things realistic stats and sizes",
-  "license": "CC-BY-SA",
-  "release_status": "stable",
-  "depends": [
-    {
-      "name": "AJE"
+    "spec_version": 1,
+    "identifier": "RealismOverhaul",
+    "name": "Realism Overhaul",
+    "abstract": "Multipatch to KSP to give things realistic stats and sizes",
+    "author": "Felger",
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/99966",
+        "repository": "https://github.com/KSP-RO/RealismOverhaul"
     },
-    {
-      "name": "CrossFeedEnabler"
+    "version": "v7.0.3",
+    "ksp_version": "0.25.0",
+    "provides": [
+        "RealFuels-Engine-Configs"
+    ],
+    "depends": [
+        {
+            "name": "AJE"
+        },
+        {
+            "name": "CrossFeedEnabler"
+        },
+        {
+            "name": "FerramAerospaceResearch"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ModuleRCSFX"
+        },
+        {
+            "name": "RealFuels"
+        },
+        {
+            "name": "RealSolarSystem"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ActiveTextureManagement"
+        },
+        {
+            "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "DeadlyReentry"
+        },
+        {
+            "name": "EngineIgnitor"
+        },
+        {
+            "name": "FShangarExtender"
+        },
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "ModuleFixer"
+        },
+        {
+            "name": "NBody"
+        },
+        {
+            "name": "PartCatalog"
+        },
+        {
+            "name": "ProceduralDynamics"
+        },
+        {
+            "name": "ProceduralFairings"
+        },
+        {
+            "name": "ProceduralParts"
+        },
+        {
+            "name": "RealChute"
+        },
+        {
+            "name": "RemoteTech"
+        },
+        {
+            "name": "RT2RSSSettingsFile"
+        },
+        {
+            "name": "SelectRoot"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "TACLS-Config-RealismOverhaul"
+        },
+        {
+            "name": "TextureReplacer"
+        },
+        {
+            "name": "Toolbar"
+        },
+        {
+            "name": "TweakScale"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Service-Compartments-6S"
+        },
+        {
+            "name": "AIESAerospace"
+        },
+        {
+            "name": "ALCOR"
+        },
+        {
+            "name": "DMagicOrbitalScience"
+        },
+        {
+            "name": "FASA"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "KWRocketry"
+        },
+        {
+            "name": "LazTekSpaceXExploration"
+        },
+        {
+            "name": "LazTekSpaceXHistoric"
+        },
+        {
+            "name": "LazTekSpaceXLaunch"
+        },
+        {
+            "name": "NearFutureConstruction"
+        },
+        {
+            "name": "NearFutureElectric"
+        },
+        {
+            "name": "NearFuturePropulsion"
+        },
+        {
+            "name": "NearFutureSolar"
+        },
+        {
+            "name": "NearFutureSpacecraft"
+        },
+        {
+            "name": "PorkjetHabitats"
+        },
+        {
+            "name": "RLA-Stockalike"
+        },
+        {
+            "name": "RocketdyneF-1"
+        },
+        {
+            "name": "SovietEngines"
+        },
+        {
+            "name": "SXT"
+        },
+        {
+            "name": "UniversalStorage"
+        },
+        {
+            "name": "UniversalStorage-KAS"
+        },
+        {
+            "name": "UniversalStorage-TAC"
+        }
+    ],
+    "install": [
+        {
+            "file": "RealismOverhaul",
+            "install_to": "GameData"
+        },
+        {
+            "file": "KAS",
+            "install_to": "GameData",
+            "comment": "KAS config, does not overwrite"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v7.0.3/RealismOverhaul7_0_3.zip",
+    "download_size": 5112829,
+    "download_hash": {
+        "sha1": "1CC15FD0FC5460CCEEA40950A938DA0F9478F92F",
+        "sha256": "980FA88486702EC1AC0A1A50E1096412D43784FBC86BF3FBBCC9CCF42A97119C"
     },
-    {
-      "name": "FerramAerospaceResearch"
-    },
-    {
-      "name": "KerbalJointReinforcement"
-    },
-    {
-      "name": "ModuleManager"
-    },
-    {
-      "name": "ModuleRCSFX"
-    },
-    {
-      "name": "RealFuels"
-    },
-    {
-      "name": "RealSolarSystem"
-    }
-  ],
-  "recommends": [
-    {
-      "name": "ActiveTextureManagement"
-    },
-    {
-      "name": "ConnectedLivingSpace"
-    },
-    {
-      "name": "DeadlyReentry"
-    },
-    {
-      "name": "EngineIgnitor"
-    },
-    {
-      "name": "FShangarExtender"
-    },
-    {
-      "name": "MechJeb2"
-    },
-    {
-      "name": "ModuleFixer"
-    },
-    {
-      "name": "NBody"
-    },
-    {
-      "name": "PartCatalog"
-    },
-    {
-      "name": "ProceduralDynamics"
-    },
-    {
-      "name": "ProceduralFairings"
-    },
-    {
-      "name": "ProceduralParts"
-    },
-    {
-      "name": "RealChute"
-    },
-    {
-      "name": "RemoteTech"
-    },
-    {
-      "name": "RT2RSSSettingsFile"
-    },
-    {
-      "name": "SelectRoot"
-    },
-    {
-      "name": "TACLS"
-    },
-    {
-      "name": "TACLS-Config-RealismOverhaul"
-    },
-    {
-      "name": "TextureReplacer"
-    },
-    {
-      "name": "Toolbar"
-    },
-    {
-      "name": "TweakScale"
-    }
-  ],
-  "suggests": [
-    {
-      "name": "Service-Compartments-6S"
-    },
-    {
-      "name": "AIESAerospace"
-    },
-    {
-      "name": "ALCOR"
-    },
-    {
-      "name": "DMagicOrbitalScience"
-    },
-    {
-      "name": "FASA"
-    },
-    {
-      "name": "KAS"
-    },
-    {
-      "name": "KWRocketry"
-    },
-    {
-      "name": "LazTekSpaceXExploration"
-    },
-    {
-      "name": "LazTekSpaceXHistoric"
-    },
-    {
-      "name": "LazTekSpaceXLaunch"
-    },
-    {
-      "name": "NearFutureConstruction"
-    },
-    {
-      "name": "NearFutureElectric"
-    },
-    {
-      "name": "NearFuturePropulsion"
-    },
-    {
-      "name": "NearFutureSolar"
-    },
-    {
-      "name": "NearFutureSpacecraft"
-    },
-    {
-      "name": "PorkjetHabitats"
-    },
-    {
-      "name": "RLA-Stockalike"
-    },
-    {
-      "name": "RocketdyneF-1"
-    },
-    {
-      "name": "SovietEngines"
-    },
-    {
-      "name": "SXT"
-    },
-    {
-      "name": "UniversalStorage"
-    },
-    {
-      "name": "UniversalStorage-KAS"
-    },
-    {
-      "name": "UniversalStorage-TAC"
-    }
-  ],
-  "provides": [
-    "RealFuels-Engine-Configs"
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/99966",
-    "repository": "https://github.com/KSP-RO/RealismOverhaul"
-  },
-  "install": [
-    {
-      "file": "RealismOverhaul",
-      "install_to": "GameData"
-    },
-    {
-      "file": "KAS",
-      "install_to": "GameData",
-      "comment": "KAS config, does not overwrite"
-    }
-  ],
-  "author": "Felger",
-  "version": "v7.0.3",
-  "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v7.0.3/RealismOverhaul7_0_3.zip",
-  "x_generated_by": "netkan",
-  "download_size": 5112829,
-  "ksp_version": "0.25.0"
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
