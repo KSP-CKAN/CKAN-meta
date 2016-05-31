@@ -8,8 +8,8 @@
     "release_status": "stable",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/20451",
-        "kerbalstuff": "https://kerbalstuff.com/mod/52/Ferram%20Aerospace%20Research",
         "repository": "https://github.com/ferram4/Ferram-Aerospace-Research",
+        "kerbalstuff": "https://kerbalstuff.com/mod/52/Ferram%20Aerospace%20Research",
         "x_screenshot": "https://kerbalstuff.com/content/ferram4_54/Ferram_Aerospace_Research/Ferram_Aerospace_Research.png"
     },
     "version": "3:0.15.4.1",
@@ -26,6 +26,11 @@
             "name": "ModularFlightIntegrator"
         }
     ],
+    "conflicts": [
+        {
+            "name": "AerodynamicModel"
+        }
+    ],
     "install": [
         {
             "file": "GameData/FerramAerospaceResearch",
@@ -40,10 +45,10 @@
     ],
     "download": "http://ckan1.spacedock.info/storage/ferram4_54/Ferram_Aerospace_Research/Ferram_Aerospace_Research-v0.15.4.1_Goldstein.zip",
     "download_size": 730759,
-    "conflicts": [
-        {
-            "name": "AerodynamicModel"
-        }
-    ],
+    "download_hash": {
+        "sha1": "537C6C5166DF2CDF87724A114BD420D640C41EB1",
+        "sha256": "C2B4DD32462001BE5C59C7989A319F63B88FDDBA83242E3C81D42D11525AE791"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }
