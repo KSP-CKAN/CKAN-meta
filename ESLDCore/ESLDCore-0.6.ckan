@@ -1,20 +1,17 @@
 {
     "spec_version": 1,
-    "name": "ESLD Jump Beacons",
-    "author": "TMarkos",
     "identifier": "ESLDCore",
+    "name": "ESLD Jump Beacons",
+    "abstract": "Point-to-point jump beacons with fuel, gravity restrictions and more.",
+    "author": "TMarkos",
     "license": "GPL-2.0",
     "resources": {
-        "repository": "https://github.com/TMarkos/ESLDBeacons",
         "homepage": "http://forum.kerbalspaceprogram.com/threads/91582-24-2-ESLD-Jump-Beacons-Dev-0-2c-2014-08-30",
+        "repository": "https://github.com/TMarkos/ESLDBeacons",
         "kerbalstuff": "https://kerbalstuff.com/mod/127/ESLD%20Jump%20Beacons"
     },
-    "install": [
-        {
-            "file": "ESLDBeacons/GameData/ESLDBeacons",
-            "install_to": "GameData"
-        }
-    ],
+    "version": "0.6",
+    "ksp_version": "1.0.4",
     "depends": [
         {
             "name": "CommunityResourcePack"
@@ -23,11 +20,19 @@
             "name": "ModuleManager"
         }
     ],
-    "ksp_version": "1.0.4",
-    "abstract": "Point-to-point jump beacons with fuel, gravity restrictions and more.",
-    "version": "0.6",
+    "install": [
+        {
+            "file": "ESLDBeacons/GameData/ESLDBeacons",
+            "install_to": "GameData"
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/TMarkos_733/ESLD_Jump_Beacons/ESLD_Jump_Beacons-0.6.zip",
-    "x_generated_by": "netkan",
+    "download_size": 4750845,
+    "download_hash": {
+        "sha1": "D35C9F1D7BF67D623ADF02250AC50256839ECEF0",
+        "sha256": "6C0BAB3FEFB8731DA9FDCD50A23BF2C250B2C8ED898922CE4D9FA4B5924013F9"
+    },
+    "download_content_type": "application/zip",
     "x_screenshot": "https://kerbalstuff.com/content/TMarkos_733/ESLD_Jump_Beacons/ESLD_Jump_Beacons.png",
-    "download_size": 4750845
+    "x_generated_by": "netkan"
 }
