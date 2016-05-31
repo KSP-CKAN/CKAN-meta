@@ -1,24 +1,36 @@
 {
-    "spec_version" : 1,
-    "name"         : "HotRockets - Emissive patch",
-    "abstract"     : "A simple patch to adjust the emissive color of the Turbofan engine",
-    "identifier"   : "HotRocketsEmissivePatch",
-    "download"     : "http://addons-origin.cursecdn.com/files/2227/269/HotRockets%20emissive%20patch.zip",
-    "license"      : "CC-BY-NC",
-    "author"       : [ "Nazari1382" ],
-    "version"      : "7.9",
-    "release_status" : "stable",
-    "ksp_version"  : "0.90",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/65754"
+    "spec_version": 1,
+    "identifier": "HotRocketsEmissivePatch",
+    "name": "HotRockets - Emissive patch",
+    "abstract": "A simple patch to adjust the emissive color of the Turbofan engine",
+    "author": [
+        "Nazari1382"
+    ],
+    "license": "CC-BY-NC",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/65754"
     },
-    "install" : [
+    "version": "7.9",
+    "ksp_version": "0.90",
+    "depends": [
         {
-            "file"       : "MP_Nazari",
-            "install_to" : "GameData"
+            "name": "HotRockets",
+            "min_version": "7.9"
         }
     ],
-    "depends" : [
-        { "name" : "HotRockets", "min_version" : "7.9" }
-    ]
+    "install": [
+        {
+            "file": "MP_Nazari",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://addons-origin.cursecdn.com/files/2227/269/HotRockets%20emissive%20patch.zip",
+    "download_size": 189772,
+    "download_hash": {
+        "sha1": "7F3A52E283B5B4D6FF7BE1BF35C38D0FD741AE09",
+        "sha256": "CB57B2A24EC05D4441A6153BEB3405D5967F2A477BDD58AA7769734FD6DFA8B3"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
