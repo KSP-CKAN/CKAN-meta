@@ -3,10 +3,25 @@
     "identifier": "DistantObject-default",
     "name": "Distant Object Enhancement default config",
     "abstract": "Default planets colors",
+    "author": "MOARdV",
     "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/98943",
+        "kerbalstuff": "https://kerbalstuff.com/mod/403/Distant%20Object%20Enhancement%20bis"
+    },
+    "version": "v1.5.4",
+    "ksp_version": "1.0.0",
+    "provides": [
+        "DistantObject-config"
+    ],
     "depends": [
         {
             "name": "DistantObject"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "DistantObject-config"
         }
     ],
     "install": [
@@ -20,22 +35,12 @@
             ]
         }
     ],
-    "provides": [
-        "DistantObject-config"
-    ],
-    "conflicts": [
-        {
-            "name": "DistantObject-config"
-        }
-    ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/98943",
-        "kerbalstuff": "https://kerbalstuff.com/mod/403/Distant%20Object%20Enhancement%20bis"
-    },
-    "ksp_version": "1.0.0",
-    "author": "MOARdV",
-    "version": "v1.5.4",
     "download": "http://ckan1.spacedock.info/storage/MOARdV_3078/Distant_Object_Enhancement_bis/Distant_Object_Enhancement_bis-v1.5.4.zip",
-    "x_generated_by": "netkan",
-    "download_size": 44159
+    "download_size": 44159,
+    "download_hash": {
+        "sha1": "0F37D3090CF0A7CBA27C778215E7962C1B587B89",
+        "sha256": "11A85701432D9DF456925FD903EEFE33EAD97AE861E686571135EFD2E901B1DC"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
