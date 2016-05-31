@@ -1,7 +1,17 @@
 {
     "spec_version": "v1.4",
     "identifier": "KeepFit",
-    "x_netkan_license_ok": true,
+    "name": "keepfit",
+    "abstract": "Gee Effects and Kerbal fitness degradation",
+    "author": "timmers_uk",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/67739",
+        "kerbalstuff": "https://kerbalstuff.com/mod/295/keepfit"
+    },
+    "version": "0.3.1.1",
+    "ksp_version_min": "0.90.0",
+    "ksp_version_max": "0.90.0",
     "depends": [
         {
             "name": "ModuleManager",
@@ -14,18 +24,12 @@
             "install_to": "GameData/Timmers"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/67739",
-        "kerbalstuff": "https://kerbalstuff.com/mod/295/keepfit"
-    },
-    "name": "keepfit",
-    "license": "MIT",
-    "abstract": "Gee Effects and Kerbal fitness degradation",
-    "author": "timmers_uk",
-    "version": "0.3.1.1",
     "download": "http://ckan1.spacedock.info/storage/timmers_uk_1564/keepfit/keepfit-0.3.1.1.zip",
-    "x_generated_by": "netkan",
     "download_size": 67989,
-    "ksp_version_min": "0.90.0",
-    "ksp_version_max": "0.90.0"
+    "download_hash": {
+        "sha1": "16E026E52985E94F24B0C77304625F5179521258",
+        "sha256": "D2AEBA4D9D57BCB0B0F8612B8434F49E61F56C647463DAAE34ECE8C786C8BFEC"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
