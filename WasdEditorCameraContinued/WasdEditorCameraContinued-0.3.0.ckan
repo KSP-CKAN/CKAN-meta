@@ -6,11 +6,16 @@
     "author": "linuxgurugamer",
     "license": "MIT",
     "resources": {
-        "kerbalstuff": "https://kerbalstuff.com/mod/1157/WASDEditorCameraContinued",
-        "repository": "https://github.com/linuxgurugamer/WasdEditorCameraContinued"
+        "repository": "https://github.com/linuxgurugamer/WasdEditorCameraContinued",
+        "kerbalstuff": "https://kerbalstuff.com/mod/1157/WASDEditorCameraContinued"
     },
     "version": "0.3.0",
     "ksp_version": "1.0.4",
+    "conflicts": [
+        {
+            "name": "WasdEditorCamera"
+        }
+    ],
     "install": [
         {
             "find": "WasdEditorCamera",
@@ -19,10 +24,10 @@
     ],
     "download": "http://ckan1.spacedock.info/storage/linuxgurugamer_4490/WASDEditorCameraContinued/WASDEditorCameraContinued-0.3.0.zip",
     "download_size": 21583,
-    "conflicts": [
-        {
-            "name": "WasdEditorCamera"
-        }
-    ],
+    "download_hash": {
+        "sha1": "96181D1E62970F07EF662EE74EAEC70367A99C1D",
+        "sha256": "9F7DDF82916023ABA61A65AF92010DD6160A35E754C6C4A59288DC770282C818"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }
