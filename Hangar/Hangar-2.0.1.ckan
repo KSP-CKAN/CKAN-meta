@@ -1,34 +1,38 @@
 {
-  "spec_version": 1,
-  "identifier": "Hangar",
-  "license": "CC-BY-4.0",
-  "depends": [
-    {
-      "name": "ModuleManager"
+    "spec_version": 1,
+    "identifier": "Hangar",
+    "name": "Hangar",
+    "abstract": "Hangars are parts that can store whole ships inside. Stored ships are not docked but unloaded, which reduces part count considerably.",
+    "author": "allista",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/88933-0-25-0-Hangar-v1-3-0",
+        "kerbalstuff": "https://kerbalstuff.com/mod/270/Hangar"
     },
-    {
-      "name": "KSPAPIExtensions"
-    }
-  ],
-  "install": [
-    {
-      "file": "GameData/Hangar",
-      "install_to": "GameData",
-      "filter": "KSPAPIExtensions.dll",
-      "comment": "Contains KSPAPIExtensions mod in this distribution"
-    }
-  ],
-  "x_netkan_license_ok": true,
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/88933-0-25-0-Hangar-v1-3-0",
-    "kerbalstuff": "https://kerbalstuff.com/mod/270/Hangar"
-  },
-  "ksp_version": "0.90",
-  "name": "Hangar",
-  "abstract": "Hangars are parts that can store whole ships inside. Stored ships are not docked but unloaded, which reduces part count considerably.",
-  "author": "allista",
-  "version": "2.0.1",
-  "download": "http://ckan1.spacedock.info/storage/allista_2936/Hangar/Hangar-2.0.1.zip",
-  "x_generated_by": "netkan",
-  "download_size": 25095013
+    "version": "2.0.1",
+    "ksp_version": "0.90",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KSPAPIExtensions"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Hangar",
+            "install_to": "GameData",
+            "filter": "KSPAPIExtensions.dll",
+            "comment": "Contains KSPAPIExtensions mod in this distribution"
+        }
+    ],
+    "download": "http://ckan1.spacedock.info/storage/allista_2936/Hangar/Hangar-2.0.1.zip",
+    "download_size": 25095013,
+    "download_hash": {
+        "sha1": "1FCB96C93D554A5A97D82270102428FBDEC2793A",
+        "sha256": "BB3AB9735C3504357A28BD0EBB6FEEEEE553C76A1D45D9CA66B5934E00C164E1"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
