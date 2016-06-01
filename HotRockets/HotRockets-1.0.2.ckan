@@ -1,13 +1,16 @@
 {
     "spec_version": 1,
-    "license": "CC-BY-NC-4.0",
     "identifier": "HotRockets",
-    "install": [
-        {
-            "file": "MP_Nazari",
-            "install_to": "GameData"
-        }
-    ],
+    "name": "HotRockets",
+    "abstract": "HotRockets (does not include plugins) - REQUIRES SMOKESCREEN AND MODULEMANAGER TO WORK.",
+    "author": "nazari",
+    "license": "CC-BY-NC-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/65754-HotRockets!-Particle-FX-Replacement-Tutorial",
+        "kerbalstuff": "https://kerbalstuff.com/mod/741/HotRockets"
+    },
+    "version": "1.0.2",
+    "ksp_version": "1.0.2",
     "depends": [
         {
             "name": "ModuleManager"
@@ -16,16 +19,18 @@
             "name": "SmokeScreen"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/65754-HotRockets!-Particle-FX-Replacement-Tutorial",
-        "kerbalstuff": "https://kerbalstuff.com/mod/741/HotRockets"
-    },
-    "ksp_version": "1.0.2",
-    "name": "HotRockets",
-    "abstract": "HotRockets (does not include plugins) - REQUIRES SMOKESCREEN AND MODULEMANAGER TO WORK.",
-    "author": "nazari",
-    "version": "1.0.2",
+    "install": [
+        {
+            "file": "MP_Nazari",
+            "install_to": "GameData"
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/nazari_71/HotRockets/HotRockets-1.0.2.zip",
-    "x_generated_by": "netkan",
-    "download_size": 2325283
+    "download_size": 2325283,
+    "download_hash": {
+        "sha1": "7C8714853AF386DBDB50ABC301F547789A903D3B",
+        "sha256": "6483C335C708AD435CB9DA38BF8D7F343C5E83F03B677362927354E072BCAB7E"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
