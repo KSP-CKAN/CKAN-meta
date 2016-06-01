@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Multiple configs can be installed; RO disables its engine configs if RFStockalike is detected. KSP-CKAN/NetKAN#55.",
+    "identifier": "RFStockalike",
+    "name": "Real Fuels: Stockalike RF Configs",
+    "abstract": "Adds RealFuels configs to stock and many mods' engines, keeping engine role as designed to fit with stock and stock-aligned mods.",
+    "author": "Raptor831",
+    "license": "CC-BY-SA",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/81239",
+        "repository": "https://github.com/Raptor831/RFStockalike"
+    },
+    "version": "v3.2.1",
+    "provides": [
+        "RealFuels-Engine-Configs"
+    ],
+    "depends": [
+        {
+            "name": "RealFuels"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/RealFuels-Stockalike",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/RealPlume-RFStockalike",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/zzRFStockalike",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Raptor831/RFStockalike/releases/download/v3.2.1/RFStockalike_3_2_1.zip",
+    "download_size": 170684,
+    "download_hash": {
+        "sha1": "95E118727939EAE4AE8E0F45307976F1D9F101DC",
+        "sha256": "E3B6AAD23CA98B59DFEA453E626FE013A5886BA4194D1886CBB3AB10A973A29F"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
