@@ -1,13 +1,16 @@
 {
     "spec_version": 1,
     "identifier": "TweakableEverything",
+    "name": "TweakableEverything",
+    "abstract": "For all your part tweaking needs",
+    "author": "toadicus",
     "license": "BSD-3-clause",
-    "install": [
-        {
-            "file": "GameData/TweakableEverything",
-            "install_to": "GameData"
-        }
-    ],
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/64711",
+        "kerbalstuff": "https://kerbalstuff.com/mod/255/TweakableEverything"
+    },
+    "version": "1.11",
+    "ksp_version": "1.0.2",
     "depends": [
         {
             "name": "ModuleManager"
@@ -19,16 +22,18 @@
             "name": "EVAManager"
         }
     ],
-    "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/64711",
-        "kerbalstuff": "https://kerbalstuff.com/mod/255/TweakableEverything"
-    },
-    "ksp_version": "1.0.2",
-    "name": "TweakableEverything",
-    "abstract": "For all your part tweaking needs",
-    "author": "toadicus",
-    "version": "1.11",
+    "install": [
+        {
+            "file": "GameData/TweakableEverything",
+            "install_to": "GameData"
+        }
+    ],
     "download": "http://ckan1.spacedock.info/storage/toadicus_101/TweakableEverything/TweakableEverything-1.11.zip",
-    "x_generated_by": "netkan",
-    "download_size": 356683
+    "download_size": 356683,
+    "download_hash": {
+        "sha1": "51859CD20C5A634BB996BDA537D789C4D169D956",
+        "sha256": "BC2E3FD72CED17D7531C4425B37BDF64D29F607E3EE73EC01AC454B6C57310CF"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
