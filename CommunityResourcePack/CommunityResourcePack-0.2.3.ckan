@@ -1,28 +1,33 @@
 {
-  "spec_version": 1,
-  "name": "Community Resource Pack",
-  "author": "RoverDude",
-  "identifier": "CommunityResourcePack",
-  "abstract": "Common resources for KSP mods",
-  "license": "CC-BY-NC-SA-4.0",
-  "release_status": "stable",
-  "ksp_version": "0.25",
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/91998",
-    "repository": "https://github.com/BobPalmer/CommunityResourcePack"
-  },
-  "install": [
-    {
-      "file": "GameData/CommunityResourcePack",
-      "install_to": "GameData"
+    "spec_version": 1,
+    "identifier": "CommunityResourcePack",
+    "name": "Community Resource Pack",
+    "abstract": "Common resources for KSP mods",
+    "author": "RoverDude",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/91998",
+        "repository": "https://github.com/BobPalmer/CommunityResourcePack"
     },
-    {
-      "file": "GameData/TextureReplacer",
-      "install_to": "GameData"
-    }
-  ],
-  "version": "0.2.3",
-  "download": "https://github.com/BobPalmer/CommunityResourcePack/releases/download/0.2.3/CRP_0.2.3.zip",
-  "x_generated_by": "netkan",
-  "download_size": 16354356
+    "version": "0.2.3",
+    "ksp_version": "0.25",
+    "install": [
+        {
+            "file": "GameData/CommunityResourcePack",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/TextureReplacer",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/BobPalmer/CommunityResourcePack/releases/download/0.2.3/CRP_0.2.3.zip",
+    "download_size": 16354356,
+    "download_hash": {
+        "sha1": "EFDDCFED2B1764ADCCFC3FAF101F34DB0F537C0B",
+        "sha256": "DB1C7913EFA07A8EFACA685433A2AD5CD297ABE2DC3F72957F006961241CE2A6"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
