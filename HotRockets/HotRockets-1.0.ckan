@@ -1,25 +1,38 @@
 {
-    "spec_version" : 1,
-    "name"         : "HotRockets! Particle FX Replacement",
-    "abstract"     : "Replacement for stock engine particle FX",
-    "identifier"   : "HotRockets",
-    "download"     : "http://addons-origin.cursecdn.com/files/2236/411/HotRockets_1.0x_CorePack_Nazari.zip",
-    "license"      : "CC-BY-NC",
-    "author"       : [ "Nazari1382" ],
-    "version"      : "1.0",
-    "release_status" : "stable",
-    "ksp_version"  : "1.0.0",
-    "resources" : {
-        "homepage" : "http://forum.kerbalspaceprogram.com/threads/65754"
+    "spec_version": 1,
+    "identifier": "HotRockets",
+    "name": "HotRockets! Particle FX Replacement",
+    "abstract": "Replacement for stock engine particle FX",
+    "author": [
+        "Nazari1382"
+    ],
+    "license": "CC-BY-NC",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/65754"
     },
-    "install" : [
+    "version": "1.0",
+    "ksp_version": "1.0.0",
+    "depends": [
         {
-            "file"       : "MP_Nazari",
-            "install_to" : "GameData"
+            "name": "ModuleManager"
+        },
+        {
+            "name": "SmokeScreen"
         }
     ],
-    "depends" : [
-        { "name" : "ModuleManager"},
-        { "name" : "SmokeScreen" }
-    ]
+    "install": [
+        {
+            "file": "MP_Nazari",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "http://addons-origin.cursecdn.com/files/2236/411/HotRockets_1.0x_CorePack_Nazari.zip",
+    "download_size": 2376630,
+    "download_hash": {
+        "sha1": "2B014A2E0E4C5BAD7FA5B777388FCB2F02FFA823",
+        "sha256": "F3B3A4DB205BEA00BA9BA9A4B1E6EA4B9207C1D67340F5AE28FCDCCC52EAE046"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
