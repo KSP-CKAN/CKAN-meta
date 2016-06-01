@@ -1,34 +1,39 @@
 {
-  "spec_version": 1,
-  "identifier": "AutoAction",
-  "name": "Auto Action",
-  "abstract": "Automatically activate action groups (and RCS/SAS) on vessel launch",
-  "license": "GPL-3.0",
-  "release_status": "stable",
-  "ksp_version": "0.90",
-  "author": "Diazo",
-  "depends": [
-    {
-      "name": "ModuleManager"
-    }
-  ],
-  "suggests": [
-    {
-      "name": "Toolbar"
-    }
-  ],
-  "resources": {
-    "homepage": "http://forum.kerbalspaceprogram.com/threads/101994",
-    "repository": "https://github.com/SirDiazo/AutoAction"
-  },
-  "install": [
-    {
-      "file": "GameData/Diazo",
-      "install_to": "GameData"
-    }
-  ],
-  "version": "1.2a",
-  "download": "https://github.com/SirDiazo/AutoAction/releases/download/1.2a/AutoActions12a.zip",
-  "x_generated_by": "netkan",
-  "download_size": 16100
+    "spec_version": 1,
+    "identifier": "AutoAction",
+    "name": "Auto Action",
+    "abstract": "Automatically activate action groups (and RCS/SAS) on vessel launch",
+    "author": "Diazo",
+    "license": "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/101994",
+        "repository": "https://github.com/SirDiazo/AutoAction"
+    },
+    "version": "1.2a",
+    "ksp_version": "0.90",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Diazo",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/SirDiazo/AutoAction/releases/download/1.2a/AutoActions12a.zip",
+    "download_size": 16100,
+    "download_hash": {
+        "sha1": "875A2554E2CFA1E4A2DB3C6EC59A08A294183636",
+        "sha256": "A5F20A032A8311EC4D383D4AF239F0319B28B83BBEA0819BF0D66CB6A5E9D445"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
 }
