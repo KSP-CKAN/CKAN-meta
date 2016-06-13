@@ -1,0 +1,69 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NewHorizons",
+    "name": "New Horizons",
+    "abstract": "Rearranges the stock system and introduces 19 more bodies to visit and explore.",
+    "author": "KillAshley",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/114092",
+        "repository": "https://github.com/KillAshley/New_Horizons"
+    },
+    "version": "1:2.0.0",
+    "ksp_version": "1.0.5",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus",
+            "min_version": "1:beta-05-2"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ActiveTextureManagement"
+        },
+        {
+            "name": "DMagicOrbitalScience"
+        },
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "PlanetShine"
+        },
+        {
+            "name": "ResearchBodies"
+        },
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "BilliardsPlanetPack"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "ToySolarSystem"
+        }
+    ],
+    "install": [
+        {
+            "find": "New_Horizons",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KillAshley/New_Horizons/releases/download/2.0.0/NewHorizons_v2.0.0.zip",
+    "download_size": 75785545,
+    "download_hash": {
+        "sha1": "3896EE82552193B68C7171CD669A65CBEBBDFA9E",
+        "sha256": "72D69F5E99E6544CEF257C454087FF2A0EF30C37197C49187D29C771EA964A4A"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
