@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.16",
+    "comment": "This may be renamed to USI-KarbonitePlus in the future",
+    "identifier": "KarbonitePlus",
+    "name": "KarbonitePlus",
+    "abstract": "New resources and parts for Karbonite, including the resource Karborundum",
+    "author": "RoverDude",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/83948-105",
+        "repository": "https://github.com/BobPalmer/KarbonitePlus"
+    },
+    "version": "0.6.4.0",
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.3",
+    "provides": [
+        "USI-KarbonitePlus"
+    ],
+    "depends": [
+        {
+            "name": "USITools"
+        },
+        {
+            "name": "USI-Core"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Karbonite"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/KarbonitePlus",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/BobPalmer/KarbonitePlus/releases/download/0.6.4.0/KPlus_0.6.4.0.zip",
+    "download_size": 16388419,
+    "download_hash": {
+        "sha1": "87BD5F212E3C4A4086BDB2473898BA666CE3854C",
+        "sha256": "2E6219651F6B37E3B9A47F82B631A57324044B16E7545FADB80B5BC591F822C5"
+    },
+    "download_content_type": "application/zip",
+    "x_last_revision_by": "harryyoung",
+    "x_generated_by": "netkan"
+}
