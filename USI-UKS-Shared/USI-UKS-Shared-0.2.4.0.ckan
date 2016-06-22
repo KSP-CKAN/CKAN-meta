@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "USI-UKS-Shared",
+    "name": "USI Kolonization Core",
+    "abstract": "Kolonization Core for both MKSLight and MKS/OKS",
+    "author": "RoverDude",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://bobpalmer.github.io/UmbraSpaceIndustries/",
+        "repository": "https://github.com/BobPalmer/Kolonization"
+    },
+    "version": "0.2.4.0",
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.3",
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "7.0.5398.27328"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.5.1"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.4.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.2.3"
+        },
+        {
+            "name": "USI-Core"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/Kolonization",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/BobPalmer/Kolonization/releases/download/0.2.4.0/Kolonization_0.2.4.0.zip",
+    "download_size": 10138085,
+    "download_hash": {
+        "sha1": "9D9BA6552EED82FF9F40FBBCC92C1E4088A27304",
+        "sha256": "ED6522CF57A76471FA30493D9351676DD7CBB0E862B52688CBA1E379ACAC2ADF"
+    },
+    "download_content_type": "application/zip",
+    "x_last_revision_by": "harryyoung",
+    "x_generated_by": "netkan"
+}
