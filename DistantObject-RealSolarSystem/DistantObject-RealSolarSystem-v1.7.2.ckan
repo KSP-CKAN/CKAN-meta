@@ -1,0 +1,41 @@
+{
+    "spec_version": 1,
+    "identifier": "DistantObject-RealSolarSystem",
+    "name": "Distant Object Enhancement Real Solar System config",
+    "abstract": "For the basic version of NathanKell's Real Solar System mod",
+    "author": "MOARdV",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "repository": "https://github.com/MOARdV/DistantObject"
+    },
+    "version": "v1.7.2",
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.2",
+    "provides": [
+        "DistantObject-config"
+    ],
+    "depends": [
+        {
+            "name": "DistantObject"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "DistantObject-config"
+        }
+    ],
+    "install": [
+        {
+            "file": "Alternate Planet Color Configs/Real Solar System (default)/DistantObject",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/MOARdV/DistantObject/releases/download/v1.7.2/DistantObject_1.7.2.zip",
+    "download_size": 39717,
+    "download_hash": {
+        "sha1": "64AED47B8071F7E05A7BD95011216DD1D6B7CFC5",
+        "sha256": "30645EBCD7FBEA0D09B85DC6587B838B54CBCE271EF275CCC2BCECCB763E45F3"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
