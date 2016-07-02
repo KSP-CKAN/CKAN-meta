@@ -1,0 +1,34 @@
+{
+    "spec_version": 1,
+    "identifier": "DistantObject",
+    "name": "Distant Object Enhancement",
+    "abstract": "Visual enhancement mod that makes objects realistically visible over large distances.",
+    "author": "MOARdV",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "repository": "https://github.com/MOARdV/DistantObject"
+    },
+    "version": "v1.7.2",
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.2",
+    "depends": [
+        {
+            "name": "DistantObject-config"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/DistantObject",
+            "install_to": "GameData",
+            "filter": "PlanetColors.cfg"
+        }
+    ],
+    "download": "https://github.com/MOARdV/DistantObject/releases/download/v1.7.2/DistantObject_1.7.2.zip",
+    "download_size": 39717,
+    "download_hash": {
+        "sha1": "64AED47B8071F7E05A7BD95011216DD1D6B7CFC5",
+        "sha256": "30645EBCD7FBEA0D09B85DC6587B838B54CBCE271EF275CCC2BCECCB763E45F3"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
