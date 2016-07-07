@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SDHI-ServiceModuleSystem",
+    "name": "Sum Dum Heavy Industries - Service Module System",
+    "abstract": "Service Module and accessories designed specifically for use with the stock Mk1-2 Command Pod, vaguely resembling NASA's Orion MPCV. May or may not have a convincing stockalike appearance.",
+    "author": "sumghai",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/48073-11-sdhi-service-module-system-v311-23-april-2016/",
+        "repository": "https://github.com/sumghai/SDHI_ServiceModuleSystem"
+    },
+    "version": "v3.2",
+    "ksp_version": "1.1.2",
+    "depends": [
+        {
+            "name": "AnimatedDecouplers"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealChute"
+        },
+        {
+            "name": "SDHI-SharedAssets"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "DeadlyReentry"
+        },
+        {
+            "name": "FerramAerospaceResearch"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "ShipManifest"
+        },
+        {
+            "name": "ConnectedLivingSpace"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/SDHI",
+            "install_to": "GameData",
+            "filter": [
+                "Agencies"
+            ]
+        }
+    ],
+    "download": "https://github.com/sumghai/SDHI_ServiceModuleSystem/releases/download/3.2/ksp_sdhi_sms_v3_2.zip",
+    "download_size": 3533443,
+    "download_hash": {
+        "sha1": "3C8E577842E2347667EF45F20441A4F303F60D49",
+        "sha256": "D4B96347B5E542F2B7F050E7E76315BE1F5C0E38B446D3E0673CE5931F81A4C1"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
