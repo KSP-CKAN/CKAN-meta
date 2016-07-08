@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "MagiCore",
+    "name": "MagiCore",
+    "abstract": "A common set of utilities for magico13's mods",
+    "author": "magico13",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/97033-10x",
+        "repository": "https://github.com/magico13/MagiCore"
+    },
+    "version": "1.1.2",
+    "ksp_version_min": "1.1.2",
+    "ksp_version_max": "1.1.3",
+    "install": [
+        {
+            "find": "MagiCore-License.txt",
+            "find_matches_files": true,
+            "install_to": "GameData"
+        },
+        {
+            "find": "MagiCore.dll",
+            "find_matches_files": true,
+            "install_to": "GameData"
+        },
+        {
+            "find": "MagiCore.version",
+            "find_matches_files": true,
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/magico13/MagiCore/releases/download/1.1.2/MagiCore-1.1.2.zip",
+    "download_size": 7864,
+    "download_hash": {
+        "sha1": "690B159B00B14CCC0C33CF134B9A401486FB1804",
+        "sha256": "DF7DEA20D678F5DEC9F1F2E5E07095B08BA82869CE75AA1D6398CAAB7A1D3B7E"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
