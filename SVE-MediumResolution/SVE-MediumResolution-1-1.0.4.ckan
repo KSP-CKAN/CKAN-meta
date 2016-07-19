@@ -1,0 +1,65 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SVE-MediumResolution",
+    "name": "Stock Visual Enhancements: Medium Resolution",
+    "abstract": "Medium Resolution For SVE",
+    "author": "Berlin88",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/143288-113-101-stock-visual-enhancements/&page=1",
+        "spacedock": "https://spacedock.info/mod/828/Stock%20Visual%20Enhancements:%20Medium%20Resolution",
+        "x_screenshot": "https://spacedock.info/content/Berlin88_6236/Stock_Visual_Enhancements_Medium_Resolution/Stock_Visual_Enhancements_Medium_Resolution-1467942986.7835994.png"
+    },
+    "version": "1:1.0.4",
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.99",
+    "provides": [
+        "StockVisualEnhancements",
+        "Scatterer"
+    ],
+    "depends": [
+        {
+            "name": "Scatterer-sunflare"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "SVE-Terrain"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "StockVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/StockVisualEnhancements",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/scatterer",
+            "install_to": "GameData",
+            "filter": "sunflare"
+        },
+        {
+            "find": "GameData/EnvironmentalVisualEnhancements",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/828/Stock%20Visual%20Enhancements:%20Medium%20Resolution/download/1.0.4",
+    "download_size": 133957227,
+    "download_hash": {
+        "sha1": "5ED80BE94C6093D1DCA33E638A5BF9061FD242C4",
+        "sha256": "262F88345AC95E7F77D6B3C22C40825ADFA0EC13358B914CF3EB9C300E737FC0"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
