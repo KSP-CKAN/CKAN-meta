@@ -1,0 +1,68 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SVE-HighResolution",
+    "name": "Stock Visual Enhancements",
+    "abstract": "A visual enhancement pack using EVE and Scatterer for the stock planets. ",
+    "author": [
+        "Nhawks17",
+        "Berlin88"
+    ],
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/143288-113-101-stock-visual-enhancements/&page=1",
+        "spacedock": "https://spacedock.info/mod/58/Stock%20Visual%20Enhancements",
+        "x_screenshot": "https://spacedock.info/content/Nhawks17_319/Stock_Visual_Enhancements/Stock_Visual_Enhancements-1467893319.4696925.png"
+    },
+    "version": "1:1.0.4",
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.99",
+    "provides": [
+        "StockVisualEnhancements",
+        "Scatterer"
+    ],
+    "depends": [
+        {
+            "name": "Scatterer-sunflare"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "SVE-Terrain"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "StockVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/StockVisualEnhancements",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/scatterer",
+            "install_to": "GameData",
+            "filter": "sunflare"
+        },
+        {
+            "find": "GameData/EnvironmentalVisualEnhancements",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/58/Stock%20Visual%20Enhancements/download/1.0.4",
+    "download_size": 216448819,
+    "download_hash": {
+        "sha1": "4DFB94983BCA89B0ED4895A44DBFE16437DCECEC",
+        "sha256": "F016D1A4BC758AA9F31E85C0CC9288121CA54AC384F44104A739EE294B71C2B3"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
