@@ -1,0 +1,72 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "QuizTechAeroPackContinued",
+    "name": "QuizTech Aero Pack",
+    "abstract": "Continuation of the QuizTech Aero Pack",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/836/QuizTechAeroPackContinued",
+        "repository": "https://github.com/linuxgurugamer/QuizTechAeroPackContinued/releases/tag/1.3.0",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/QuizTechAeroPackContinued/QuizTechAeroPackContinued-1468183290.92634.png"
+    },
+    "version": "1.3.1",
+    "ksp_version": "1.1.3",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "BDAnimationModules"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "ThrottleControlledAvionics"
+        },
+        {
+            "name": "B9AerospaceProceduralParts"
+        },
+        {
+            "name": "AdjustableLandingGear"
+        },
+        {
+            "name": "Mk2Essentials"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "QuizTechAeroPack-internals"
+        },
+        {
+            "name": "QuizTechAeroPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "QuizTechAeroContinued",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Ships/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/836/QuizTechAeroPackContinued/download/1.3.1",
+    "download_size": 112636795,
+    "download_hash": {
+        "sha1": "8DB77DCC3A698EF970B8AE66CD0CAC68CF95FE28",
+        "sha256": "ADC1689D0F9BCC3AA7665DFCAB65534DF7B70A1A94970D9E1839D06647DA8551"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
