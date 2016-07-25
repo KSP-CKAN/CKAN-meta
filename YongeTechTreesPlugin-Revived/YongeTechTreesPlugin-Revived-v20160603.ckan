@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Probus has indicated an intention to upload this as a separate mod, rather than bundling in ETT",
+    "identifier": "YongeTechTreesPlugin-Revived",
+    "name": "YongeTech Tech Trees Plugin Revived",
+    "abstract": "Provides support to make creating and using custom tech trees easier. Allows part unlocks to be listed in the TechTree ConfigNode rather than having to edit every Part ConfigNode. Adds support for using custom textures to create icons for the tech tree. Adds a tree selection window to let the player select a tree for each new game.",
+    "author": [
+        "yongedevil",
+        "Probus"
+    ],
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/112886-*",
+        "spacedock": "https://spacedock.info/mod/199/Engineering%20Tech%20Tree",
+        "repository": "https://github.com/yongedevil/YTK_TechTrees",
+        "x_screenshot": "https://spacedock.info/content/Probus_261/Engineering_Tech_Tree/Engineering_Tech_Tree-1455988837.071927.jpg"
+    },
+    "version": "v20160603",
+    "ksp_version": "1.1.3",
+    "provides": [
+        "YongeTechTreesPlugin"
+    ],
+    "suggests": [
+        {
+            "name": "ETT"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/YongeTech_TechTreesPlugin",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/YongeTech_TechTreeConverter",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/199/Engineering%20Tech%20Tree/download/v20160603",
+    "download_size": 1658078,
+    "download_hash": {
+        "sha1": "E446D389AAEBA1B2BC7F6E72BC586CF0D9C34B68",
+        "sha256": "BCBE880558A3F7A8E8BCF9695A4D020BE65E7D9E584A7925684332AF794B8D8C"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
