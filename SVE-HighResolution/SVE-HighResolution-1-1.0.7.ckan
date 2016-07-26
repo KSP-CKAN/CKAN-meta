@@ -1,0 +1,67 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SVE-HighResolution",
+    "name": "Stock Visual Enhancements",
+    "abstract": "A visual enhancement pack using EVE and Scatterer for the stock planets. ",
+    "author": [
+        "Nhawks17",
+        "Berlin88"
+    ],
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/143288-113-101-stock-visual-enhancements/&page=1",
+        "spacedock": "https://spacedock.info/mod/58/Stock%20Visual%20Enhancements",
+        "x_screenshot": "https://spacedock.info/content/Nhawks17_319/Stock_Visual_Enhancements/Stock_Visual_Enhancements-1467893319.4696925.png"
+    },
+    "version": "1:1.0.7",
+    "ksp_version": "1.1.3",
+    "provides": [
+        "StockVisualEnhancements",
+        "Scatterer"
+    ],
+    "depends": [
+        {
+            "name": "Scatterer-sunflare"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "SVE-Terrain"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "StockVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/StockVisualEnhancements",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/scatterer",
+            "install_to": "GameData",
+            "filter": "sunflare"
+        },
+        {
+            "find": "GameData/EnvironmentalVisualEnhancements",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/58/Stock%20Visual%20Enhancements/download/1.0.7",
+    "download_size": 250634008,
+    "download_hash": {
+        "sha1": "2EA4F2BC3C90D456B839B44DD747DE529F2DD9CD",
+        "sha256": "9C7D1058B7E3192D5F442151C7BBFEBA58E79F618EFC0880436BC151B427F950"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
