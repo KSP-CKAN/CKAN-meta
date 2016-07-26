@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SVE-MediumResolution",
+    "name": "Stock Visual Enhancements: Medium Resolution",
+    "abstract": "Medium Resolution For SVE",
+    "author": "Berlin88",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/143288-113-101-stock-visual-enhancements/&page=1",
+        "spacedock": "https://spacedock.info/mod/828/Stock%20Visual%20Enhancements:%20Medium%20Resolution",
+        "x_screenshot": "https://spacedock.info/content/Berlin88_6236/Stock_Visual_Enhancements_Medium_Resolution/Stock_Visual_Enhancements_Medium_Resolution-1467942986.7835994.png"
+    },
+    "version": "1:1.0.6",
+    "ksp_version": "1.1.3",
+    "provides": [
+        "StockVisualEnhancements",
+        "Scatterer"
+    ],
+    "depends": [
+        {
+            "name": "Scatterer-sunflare"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "SVE-Terrain"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "StockVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/StockVisualEnhancements",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/scatterer",
+            "install_to": "GameData",
+            "filter": "sunflare"
+        },
+        {
+            "find": "GameData/EnvironmentalVisualEnhancements",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/828/Stock%20Visual%20Enhancements:%20Medium%20Resolution/download/1.0.6",
+    "download_size": 141230038,
+    "download_hash": {
+        "sha1": "FCE09AC712F919AB3E8FE2206A36641106409E8C",
+        "sha256": "3FD3980D19191CE5222FDB6B310CC3662602626A533FC00FDAA4639DEA2E3FEB"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
