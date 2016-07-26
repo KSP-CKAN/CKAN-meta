@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SVE-LowResolution",
+    "name": "Stock Visual Enhancements: Low Resolution",
+    "abstract": "Low Resolution for SVE",
+    "author": "Berlin88",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/143288-113-101-stock-visual-enhancements/&page=1",
+        "spacedock": "https://spacedock.info/mod/827/Stock%20Visual%20Enhancements:%20Low%20Resolution",
+        "x_screenshot": "https://spacedock.info/content/Berlin88_6236/Stock_Visual_Enhancements_Low_Resolution/Stock_Visual_Enhancements_Low_Resolution-1467942527.3939347.png"
+    },
+    "version": "1:1.0.5",
+    "ksp_version": "1.1.3",
+    "provides": [
+        "StockVisualEnhancements",
+        "Scatterer"
+    ],
+    "depends": [
+        {
+            "name": "Scatterer-sunflare"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "SVE-Terrain"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "StockVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/StockVisualEnhancements",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/scatterer",
+            "install_to": "GameData",
+            "filter": "sunflare"
+        },
+        {
+            "find": "GameData/EnvironmentalVisualEnhancements",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/827/Stock%20Visual%20Enhancements:%20Low%20Resolution/download/1.0.5",
+    "download_size": 101603457,
+    "download_hash": {
+        "sha1": "3DB6C8E2BF04AA8A46D7F2B2DAEACF3A5C7A786B",
+        "sha256": "886373E5DA1B3F97E2DC5BA5F7F292E4833EA33BE6070E01FA9493720982AF84"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
