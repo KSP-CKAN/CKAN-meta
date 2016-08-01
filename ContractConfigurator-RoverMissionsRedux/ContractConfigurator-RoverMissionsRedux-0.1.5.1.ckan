@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ContractConfigurator-RoverMissionsRedux",
+    "name": "Contract Pack: Rover Missions",
+    "abstract": "Rover missions",
+    "author": "linuxgurugamer",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/129173-/",
+        "spacedock": "https://spacedock.info/mod/52/Contract%20Pack:%20Rover%20Missions",
+        "repository": "https://github.com/linuxgurugamer/RoverContracts"
+    },
+    "version": "0.1.5.1",
+    "ksp_version_min": "1.1.3",
+    "ksp_version_max": "1.1.99",
+    "depends": [
+        {
+            "name": "SpacetuxSA"
+        },
+        {
+            "name": "ContractConfigurator",
+            "min_version": "1.9.2.1"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "WaypointManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "RoverMissions",
+            "install_to": "GameData/ContractPacks/Spacetux"
+        }
+    ],
+    "download": "https://spacedock.info/mod/52/Contract%20Pack:%20Rover%20Missions/download/0.1.5.1",
+    "download_size": 193957,
+    "download_hash": {
+        "sha1": "8368114FCACB3E773D5BAD18DB3918D034A7A8DA",
+        "sha256": "1732D3F17E10DF76AFB1C878F58DE3FF9DB92A6BBF11B14D94089F2DE69C0C6B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
