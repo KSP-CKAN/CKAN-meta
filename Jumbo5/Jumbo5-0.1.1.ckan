@@ -1,0 +1,27 @@
+{
+    "spec_version": "v1.4",
+    "identifier"  : "Jumbo5",
+    "name"        : "Jumbo 5x",
+    "author"      : "GregroxMun",
+    "version"     : "0.1.1",
+    "abstract"    : "6.4 is not a round number, 5 is a round number, download this for reasons",
+	"resources"		: { "homepage" : "http://forum.kerbalspaceprogram.com/threads/105528" },
+    "ksp_version" : "0.90",
+    "license"     : "CC-BY-NC-4.0",
+    "download": "https://www.dropbox.com/s/q9olkzqw96nbz3s/Jumbo5x%20v0.1.1.zip?dl=1",
+	"provides"		: [ "RSSConfig" ],
+	"conflicts"		: [ {"name" : "RSSConfig" } ],
+	"depends"		: [ { "name" : "RSS-Core" },
+						{ "name" : "ModuleManager"} ],
+	"install"		: [ {
+						"find" : "RealSolarSystem",
+						"install_to" : "GameData",
+						"filter_regexp" : [ "RealSolarSystem.dll",
+											"RealSolarSystem/Plugins/Icons" ]
+						} ],
+	"recommends"	: [ { "name" : "FerramAerospaceResearch" },
+						{ "name" : "VenStockRevamp" },
+						{ "name" : "BetterBuoyancy" },
+						{ "name" : "DeadlyReentry" },
+						{ "name" : "ProceduralFairings" } ]
+}

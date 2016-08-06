@@ -1,0 +1,28 @@
+{
+    "spec_version": "v1.4",
+    "identifier"  : "Kerbol-10",
+    "name"        : "10x Kerbol system",
+    "author"      : "jsimmons",
+    "version"     : "3.1.0",
+    "abstract"    : "Rescales the Kerbol system to 10x its original size",
+	"resources"		: { "homepage" : "http://forum.kerbalspaceprogram.com/threads/90547" },
+    "ksp_version" : "0.90",
+    "license"     : "unknown",
+    "download": "http://www.infradead.org/~jsimmons/Eve-7.4-Default.zip",
+	"provides"		: [ "RSSConfig" ],
+	"conflicts"		: [ {"name" : "RSSConfig" } ],
+	"depends"		: [ { "name" : "RSS-Core" },
+						{ "name" : "ModuleManager"} ],
+	"install"		: [ {
+						"find" : "RealSolarSystem",
+						"install_to" : "GameData",
+						"filter_regexp" : [ "RealSolarSystem.dll",
+											"RealSolarSystem/Plugins/Icons",
+											"RealSolarSystem/DDSLoader", 
+											"RealSolarSystem.version",
+											"Readme_RSS.txt" ]
+						} ],
+	"recommends"	: [ { "name" : "FerramAerospaceResearch" },
+						{ "name" : "RemoteTech-Config-Kerbol_10" } ],
+	"suggests"		: [ { "name" : "RealismOverhaul" } ]
+}
