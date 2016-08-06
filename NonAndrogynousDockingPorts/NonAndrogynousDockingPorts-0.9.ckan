@@ -1,0 +1,20 @@
+{
+	"spec_version"	: "v1.4",
+	"identifier"	: "NonAndrogynousDockingPorts",
+	"abstract"		: "An early set of docking ports that only work with the opposite gender",
+	"version"		: "0.9",
+	"release_status" : "stable",
+	"name"			: "Non-Androgynous Docking Ports",
+	"license"		: "CC-BY-NC-SA-4.0",
+	"author"		: "Cpt. Kipard",
+	"resources"		: { "homepage" : "http://forum.kerbalspaceprogram.com/threads/73005" },
+	"install"		: [
+						{
+						"find" : "KipEng",
+						"install_to" : "GameData"
+						}
+				],
+	"depends" 		: [ { "name" : "AdaptiveDockingNode" } ],
+	"suggests"		: [ { "name" : "ConnectedLivingSpace"} ],
+	"download"		: "http://download1045.mediafire.com/cq2vulvrr7gg/dndv22xb648cpj4/NonAndrogynousDockingPorts.zip"
+}
