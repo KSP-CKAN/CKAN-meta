@@ -1,0 +1,16 @@
+{
+	"spec_version"	:	1,
+	"identifier"	:	"spacetuxUnmannedContracts",
+	"$kref"		:	"#/ckan/kerbalstuff/651",
+	"x_netkan_license_ok": 	true,
+
+	"depends" : [
+		{ "name" : "ContractConfigurator" }
+	],
+	"install" : [
+        {
+            "file"       : "GameData/ContractPacks/spacetux",
+            "install_to" : "GameData/ContractPacks"
+        }
+    ]
+}
