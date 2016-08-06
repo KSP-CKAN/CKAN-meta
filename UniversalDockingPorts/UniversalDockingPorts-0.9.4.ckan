@@ -1,0 +1,21 @@
+{
+	"spec_version"	: "v1.4",
+	"identifier"	: "UniversalDockingPorts",
+	"abstract"		: "A set of Universal Docking Ports designed for space tugs",
+	"version"		: "0.9.4",
+	"release_status" : "stable",
+	"name"			: "Universal Docking Ports",
+	"license"		: "CC-BY-NC-SA-4.0",
+	"author"		: "Cpt. Kipard",
+	"resources"		: { "homepage" : "http://forum.kerbalspaceprogram.com/threads/73005" },
+	"install"		: [
+						{
+						"find" : "KipEng",
+						"install_to" : "GameData"
+						}
+				],
+	"depends" 		: [ { "name" : "AdaptiveDockingNode" },
+						{ "name" : "ModuleManager" } ],
+	"suggests"		: [ { "name" : "ConnectedLivingSpace"} ],
+	"download"		: "http://download895.mediafire.com/gtligsb5ah5g/q8behlr8zqabm4i/UniversalDockingPorts.zip"
+}
