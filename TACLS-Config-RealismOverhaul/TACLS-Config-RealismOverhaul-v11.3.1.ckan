@@ -1,0 +1,44 @@
+{
+    "spec_version": 1,
+    "identifier": "TACLS-Config-RealismOverhaul",
+    "name": "TAC Life Support (TACLS) - Realism Overhaul Config",
+    "abstract": "Realism Overhaul config for TACLS",
+    "author": "NathanKell",
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/RealismOverhaul"
+    },
+    "version": "v11.3.1",
+    "ksp_version": "any",
+    "provides": [
+        "TACLS-Config"
+    ],
+    "depends": [
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "TACLS"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TACLS-Config"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ThunderAerospace",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v11.3.1/RealismOverhaul-v11.3.1.zip",
+    "download_size": 8306340,
+    "download_hash": {
+        "sha1": "442206ECB962C691E7D12A7BC5FA56C0FEE0F10D",
+        "sha256": "0B874C65D6A0BBC54304132C01DE5EA6FF6FF3CDEB507C5539FE74DC9E982EB3"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
