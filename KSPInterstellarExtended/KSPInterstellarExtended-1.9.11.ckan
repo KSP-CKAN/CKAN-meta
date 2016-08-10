@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KSPInterstellarExtended",
+    "name": "KSP Interstellar Extended",
+    "abstract": "KSP Interstellar Extended (KSPI-E) is a plugin for Kerbal Space Program, designed to encourage bootstrapping toward ever more advanced levels of technology as well as utilizing In-Situ resources to expand the reach of Kerbal civilization. KSP Interstellar Extended aims to continue in Fractals original KSPI vision in providing a realistic road to the stars.",
+    "author": "FreeThinker",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/100190-113/&page=1",
+        "spacedock": "https://spacedock.info/mod/172/KSP%20Interstellar%20Extended",
+        "repository": "https://github.com/sswelm/KSP-Interstellar-Extended",
+        "x_screenshot": "https://spacedock.info/content/FreeThinker_517/KSP_Interstellar_Extended/KSP_Interstellar_Extended-1470128568.7429862.png"
+    },
+    "version": "1.9.11",
+    "ksp_version": "1.1.3",
+    "depends": [
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.5.4"
+        },
+        {
+            "name": "Toolbar",
+            "min_version": "1.7.12"
+        },
+        {
+            "name": "InterstellarFuelSwitch",
+            "min_version": "2.1.0"
+        },
+        {
+            "name": "TweakScale",
+            "min_version": "2.2.13"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.25"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "FilterExtensions"
+        },
+        {
+            "name": "KSP-AVC"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/WarpPlugin",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/172/KSP%20Interstellar%20Extended/download/1.9.11",
+    "download_size": 75675933,
+    "download_hash": {
+        "sha1": "12CE72013FB6E26432639EAD4E0BDC203D601905",
+        "sha256": "9FAA548700B358D479E5FA8FEACB568B6DA3BD2855EC628DC0941AC3EC99FE30"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
