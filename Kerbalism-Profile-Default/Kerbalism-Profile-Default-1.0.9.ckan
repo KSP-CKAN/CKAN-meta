@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "Kerbalism-Profile-Default",
+    "name": "Kerbalism - Default Profile",
+    "abstract": "Default profile for Kerbalism",
+    "author": "ShotgunNinja",
+    "license": "public-domain",
+    "resources": {
+        "homepage": "https://github.com/ShotgunNinja/Kerbalism/wiki",
+        "spacedock": "https://spacedock.info/mod/533/Kerbalism",
+        "repository": "https://github.com/ShotgunNinja/Kerbalism",
+        "x_screenshot": "https://spacedock.info/content/ShotgunNinja_2282/Kerbalism/Kerbalism-1460950521.2737155.png"
+    },
+    "version": "1.0.9",
+    "ksp_version": "1.1.3",
+    "provides": [
+        "Kerbalism-Profile"
+    ],
+    "depends": [
+        {
+            "name": "Kerbalism"
+        },
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-Profile"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Kerbalism/Profiles/Default.cfg",
+            "install_to": "GameData/Kerbalism/Profiles"
+        }
+    ],
+    "download": "https://spacedock.info/mod/533/Kerbalism/download/1.0.9",
+    "download_size": 3900982,
+    "download_hash": {
+        "sha1": "F63B86A7F2AD2144D7C8FB7685051F3773C119FB",
+        "sha256": "7CE0FAA64CAF8A4151F4A5AE468966F5F6F6A240A4DE4AE0CDC21A50084B5F16"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
