@@ -1,0 +1,41 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "SMURFF-Extras-VenStockRevamp",
+    "name": "SMURFF Extras - Ven Stock Revamp",
+    "abstract": "Extra SMURFF patches for Ven Stock Revamp.",
+    "author": "Kerbas-ad-astra",
+    "license": "Apache-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/117992-/",
+        "repository": "https://github.com/Kerbas-ad-astra/SMURFF"
+    },
+    "version": "1.5.4",
+    "ksp_version_min": "1.1.2",
+    "ksp_version_max": "1.1.3",
+    "depends": [
+        {
+            "name": "SMURFF"
+        },
+        {
+            "name": "VenStockRevamp"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.16"
+        }
+    ],
+    "install": [
+        {
+            "file": "Extras/VSR_CryoX_SoftTanks.cfg",
+            "install_to": "GameData/SMURFF/Extras"
+        }
+    ],
+    "download": "https://github.com/Kerbas-ad-astra/SMURFF/releases/download/v1.5.4/SMURFF-1.5.4.zip",
+    "download_size": 19270,
+    "download_hash": {
+        "sha1": "308B797A10DA836ECC086ABE241F489F2A809CC1",
+        "sha256": "F6D8B5ECEB3826B55D2F4D0F0C0334181FCF125A1BDDFC5EF2C829DD7DA971E6"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
