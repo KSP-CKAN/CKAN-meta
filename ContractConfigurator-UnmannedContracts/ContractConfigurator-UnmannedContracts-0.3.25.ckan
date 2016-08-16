@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ContractConfigurator-UnmannedContracts",
+    "name": "Contract Pack: Unmanned Contracts",
+    "abstract": "Unmanned contracts",
+    "author": "linuxgurugamer",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/113400",
+        "spacedock": "https://spacedock.info/mod/55/Contract%20Pack:%20Unmanned%20Contracts",
+        "repository": "https://github.com/linuxgurugamer/UnmannedContracts"
+    },
+    "version": "0.3.25",
+    "ksp_version_min": "1.1.0",
+    "ksp_version_max": "1.1.99",
+    "depends": [
+        {
+            "name": "ContractConfigurator"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "SpacetuxSA"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CoherentContracts"
+        },
+        {
+            "name": "ContractConfigurator-AdvancedProgression"
+        }
+    ],
+    "install": [
+        {
+            "find": "UnmannedContracts",
+            "install_to": "GameData/ContractPacks/Spacetux"
+        }
+    ],
+    "download": "https://spacedock.info/mod/55/Contract%20Pack:%20Unmanned%20Contracts/download/0.3.25",
+    "download_size": 202790,
+    "download_hash": {
+        "sha1": "E9728E368308C30751B2FFB3C6B1FC66C53431A0",
+        "sha256": "11FA249E65E18556FD2302DD64F81A6EF53299A029EC4B9ACFD4B4066E654B7C"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
