@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.4",
+    "comment": "flagmod",
+    "identifier": "AustrianSpaceAgency",
+    "name": "Austrian Space Agency",
+    "abstract": "A small collection of KSP Flags",
+    "author": [
+        "brama0309"
+    ],
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/brama0309/AustrianSpaceAgency",
+        "repository": "https://github.com/brama0309/AustrianSpaceAgency"
+    },
+    "version": "1.1.1",
+    "ksp_version": "any",
+    "depends": [
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/AustrianSpaceAgency",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Suits/AustrianSpaceAgency",
+            "install_to": "GameData/TextureReplacer/Suits"
+        }
+    ],
+    "download": "https://github.com/brama0309/AustrianSpaceAgency/releases/download/1.1.1/AustrianSpaceAgency-1.1.1.zip",
+    "download_size": 2126428,
+    "download_hash": {
+        "sha1": "A4F28ED799423E98306A001CDC47EB7EB80B580A",
+        "sha256": "C81B3E75A18F979AE526FBF12432F244F567EE0A7B8361A6991F23D5BBF869B0"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
