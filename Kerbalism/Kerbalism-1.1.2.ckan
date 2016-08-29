@@ -1,0 +1,91 @@
+{
+    "spec_version": 1,
+    "identifier": "Kerbalism",
+    "name": "Kerbalism",
+    "abstract": "Add life support, quality-of-life, radiation, malfunctions, signals and space weather mechanics.",
+    "author": "ShotgunNinja",
+    "license": "public-domain",
+    "resources": {
+        "homepage": "https://github.com/ShotgunNinja/Kerbalism/wiki",
+        "spacedock": "https://spacedock.info/mod/533/Kerbalism",
+        "repository": "https://github.com/ShotgunNinja/Kerbalism",
+        "x_screenshot": "https://spacedock.info/content/ShotgunNinja_2282/Kerbalism/Kerbalism-1460950521.2737155.png"
+    },
+    "version": "1.1.2",
+    "ksp_version": "1.1.3",
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.24"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Kerbalism-Profile"
+        }
+    ],
+    "supports": [
+        {
+            "name": "AntennaRange"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "CryoTanks"
+        },
+        {
+            "name": "DangIt"
+        },
+        {
+            "name": "DeepFreeze"
+        },
+        {
+            "name": "KerbalAtomics"
+        },
+        {
+            "name": "KerbalPlanetaryBaseSystems"
+        },
+        {
+            "name": "NearFutureElectrical"
+        },
+        {
+            "name": "NearFutureSolar"
+        },
+        {
+            "name": "NearFutureSpacecraft"
+        },
+        {
+            "name": "origameFoldableAssets"
+        },
+        {
+            "name": "RemoteTech"
+        },
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "VenStockRevamp"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Kerbalism",
+            "install_to": "GameData",
+            "filter_regexp": [
+                "GameData/Kerbalism/Profiles/.+\\.cfg$"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/533/Kerbalism/download/1.1.2",
+    "download_size": 4624631,
+    "download_hash": {
+        "sha1": "5FFC61E7032EB00821DC2EAE773BD7189E8832AD",
+        "sha256": "DE8E9449B7AD1B94F3EB403E0410B060A742A0EBCA6760D6C24A5471ED8C9301"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
