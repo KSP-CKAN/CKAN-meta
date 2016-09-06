@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.16",
     "identifier": "TACLS-Config-Stock",
     "name": "TAC Life Support (TACLS) - stock config",
     "abstract": "Stock configuration for TACLS",
@@ -29,16 +29,9 @@
     ],
     "install": [
         {
-            "find": "GameData/ThunderAerospace/TacLifeSupport",
-            "install_to": "GameData/ThunderAerospace",
-            "filter": [
-                "PluginData",
-                "Textures",
-                "MiniAVC.dll",
-                "TacLifeSupport.dll",
-                "TacLifeSupport.version"
-            ],
-            "filter_regexp": "MM_*"
+            "find": "ThunderAerospace/TacLifeSupport/LifeSupport.cfg",
+            "find_matches_files": true,
+            "install_to": "GameData/ThunderAerospace/TacLifeSupport"
         }
     ],
     "download": "https://github.com/KSP-RO/TacLifeSupport/releases/download/v0.12.4/TacLifeSupport_v0.12.4.zip",
