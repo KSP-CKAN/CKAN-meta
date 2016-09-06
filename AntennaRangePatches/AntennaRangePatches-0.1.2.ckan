@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "AntennaRangePatches",
+    "name": "AntennaRangePatches",
+    "abstract": "Various patches for Antenna Range mod",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/876/AntennaRangePatches",
+        "repository": "https://github.com/linuxgurugamer/AntennaRangePatches"
+    },
+    "version": "0.1.2",
+    "ksp_version_min": "1.0.4",
+    "ksp_version_max": "1.1.99",
+    "depends": [
+        {
+            "name": "AntennaRange"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Antennas"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AntennaPatch4AntennaRange"
+        },
+        {
+            "name": "RemoteTech"
+        }
+    ],
+    "install": [
+        {
+            "find": "AntennaRangePatches",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/876/AntennaRangePatches/download/0.1.2",
+    "download_size": 2156212,
+    "download_hash": {
+        "sha1": "D175E694EED6BD17E74171D2B2A9823CB122F38B",
+        "sha256": "8C2012D8F71A88F77F4B7998919EECE1C9EEBBE7031505B2C52122887FBE87FE"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
