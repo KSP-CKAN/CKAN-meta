@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerboKatzSmallUtilities-DestroyAll",
+    "name": "KerboKatz - SmallUtilities - DestroyAll",
+    "abstract": "Adds the ability to destroy multiple vessels quickly.",
+    "author": [
+        "SpaceTiger",
+        "SpaceKitty"
+    ],
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://kerbokatz.github.io/",
+        "repository": "https://github.com/Xarun/SmallUtilities",
+        "bugtracker": "https://github.com/Xarun/SmallUtilities/issues"
+    },
+    "version": "1.4.3",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.2.0",
+    "depends": [
+        {
+            "name": "KerboKatzUtilities",
+            "min_version": "1.4.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerboKatzSmallUtilities"
+        }
+    ],
+    "install": [
+        {
+            "find": "DestroyAll",
+            "install_to": "GameData/KerboKatz/SmallUtilities"
+        }
+    ],
+    "download": "https://github.com/KerboKatz/SmallUtilities/releases/download/1.4.3/SmallUtilities.DestroyAll.zip",
+    "download_size": 80557,
+    "download_hash": {
+        "sha1": "D40A227C68FC7E7B42FF7C1EEA859E4614A7CAC0",
+        "sha256": "A6E8E5B94674C3DCB7D51F297BEAFFE700F59870096352A5B608323DEA4069EF"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
