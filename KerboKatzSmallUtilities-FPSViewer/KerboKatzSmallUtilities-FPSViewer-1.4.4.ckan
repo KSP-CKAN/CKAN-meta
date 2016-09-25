@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerboKatzSmallUtilities-FPSViewer",
+    "name": "KerboKatz - SmallUtilities - FPSViewer",
+    "abstract": "A simple and easy way to display the current game fps",
+    "author": [
+        "SpaceTiger",
+        "SpaceKitty"
+    ],
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://kerbokatz.github.io/",
+        "repository": "https://github.com/Xarun/SmallUtilities",
+        "bugtracker": "https://github.com/Xarun/SmallUtilities/issues"
+    },
+    "version": "1.4.4",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.2.0",
+    "depends": [
+        {
+            "name": "KerboKatzUtilities",
+            "min_version": "1.4.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerboKatzSmallUtilities"
+        }
+    ],
+    "install": [
+        {
+            "find": "FPSViewer",
+            "install_to": "GameData/KerboKatz/SmallUtilities"
+        }
+    ],
+    "download": "https://github.com/KerboKatz/SmallUtilities/releases/download/1.4.4/SmallUtilities.FPSViewer.zip",
+    "download_size": 69272,
+    "download_hash": {
+        "sha1": "51FCE7EAD56636025F6AD73F42055948F93077EB",
+        "sha256": "DEE32E3DC58E425B5FB1FF7CBB77A43B7D043B00F71778CBA1E9C816ED9F5279"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
