@@ -1,0 +1,37 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "PlanetShine",
+    "name": "PlanetShine",
+    "abstract": "Planets and moons reflects their light to your vessel + other ambient light improvements",
+    "author": "Valerian",
+    "license": "Apache-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/87012-12-/",
+        "curse": "http://kerbal.curseforge.com/projects/224876",
+        "repository": "https://github.com/valerian/ksp-planetshine",
+        "x_screenshot": "https://media-curse.cursecdn.com/attachments/169/72/d0e68b14eff9e5e5bc041e0d54a91577.jpeg"
+    },
+    "version": "0.2.5.2",
+    "ksp_version_min": "1.2",
+    "ksp_version_max": "1.2.99",
+    "depends": [
+        {
+            "name": "PlanetShine-Config"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/PlanetShine",
+            "install_to": "GameData",
+            "filter": "Config"
+        }
+    ],
+    "download": "https://addons-origin.cursecdn.com/files/2334/110/PlanetShine-0.2.5.2.zip",
+    "download_size": 45469,
+    "download_hash": {
+        "sha1": "774BAF8A749F82D345C24262F1CAE84B039A26B5",
+        "sha256": "AC6B894A32CDC612092E71E719D638B8642AB0238BC73386C7CFD3E58999C66D"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
