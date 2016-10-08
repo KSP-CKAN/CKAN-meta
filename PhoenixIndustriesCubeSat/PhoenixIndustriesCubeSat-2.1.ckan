@@ -12,6 +12,11 @@
     },
     "version": "2.1",
     "ksp_version": "1.1.3",
+    "depends": [
+        {
+            "name": "PhoenixIndustriesFlags"
+        }
+    ],
     "recommends": [
         {
             "name": "MechJeb2"
@@ -23,7 +28,11 @@
     "install": [
         {
             "find": "CTN",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": [
+                "Thumbs.db",
+                "Flags"
+            ]
         }
     ],
     "download": "https://spacedock.info/mod/247/Phoenix%20Industries%20-%20%C2%B3Sat%20/download/2.1",
