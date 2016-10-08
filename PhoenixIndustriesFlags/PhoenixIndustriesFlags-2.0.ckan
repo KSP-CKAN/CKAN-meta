@@ -1,5 +1,6 @@
 {
     "spec_version": "v1.4",
+    "comment": "flagmod",
     "identifier": "PhoenixIndustriesFlags",
     "name": "Phoenix Industries Flags",
     "abstract": "Flags by Phoenix Industries",
@@ -11,11 +12,12 @@
         "x_screenshot": "https://spacedock.info/content/MoviesColin_1252/Phoenix_Industries_-_Boosters/Phoenix_Industries_-_Boosters-1475119665.5887043.jpg"
     },
     "version": "2.0",
-    "ksp_version": "1.1.3",
+    "ksp_version": "any",
     "install": [
         {
             "find": "Flags",
-            "install_to": "GameData/CTN"
+            "install_to": "GameData/CTN",
+            "filter": "Thumbs.db"
         }
     ],
     "download": "https://spacedock.info/mod/246/Phoenix%20Industries%20-%20Boosters/download/2.0",
