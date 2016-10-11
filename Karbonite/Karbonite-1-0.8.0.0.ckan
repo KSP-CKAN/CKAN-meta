@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.16",
+    "comment": "This may be renamed to USI-Karbonite in the future",
+    "identifier": "Karbonite",
+    "name": "Karbonite",
+    "abstract": "A newly discovered mineral that has hydrocarbon-like properties and is perfect for processing into a fuel. It's easily mined from the surface, and can be found in liquid or gaseous forms on certain planets.",
+    "author": "RoverDude",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/80650-105",
+        "repository": "https://github.com/BobPalmer/Karbonite"
+    },
+    "version": "1:0.8.0.0",
+    "ksp_version": "1.2.0",
+    "provides": [
+        "USI-Karbonite"
+    ],
+    "depends": [
+        {
+            "name": "USITools"
+        },
+        {
+            "name": "USI-Core"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/Karbonite",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/BobPalmer/Karbonite/releases/download/0.8.0.0/Karbonite_0.8.0.0.zip",
+    "download_size": 28194705,
+    "download_hash": {
+        "sha1": "6049083DB4CFA80BB8FA3A224B02D978AC2CE671",
+        "sha256": "B0A272AA52B342964B8FD3B098864033748BDF42A73355C805B424817557552D"
+    },
+    "download_content_type": "application/zip",
+    "x_last_revision_by": "harryyoung",
+    "x_generated_by": "netkan"
+}
