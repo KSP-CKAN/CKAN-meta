@@ -1,0 +1,65 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "UKS",
+    "name": "USI Kolonization Systems (MKS/OKS)",
+    "abstract": "A series of interlocking modules for building long-term, self sustaining colonies in orbit and on other planets and moons.",
+    "description": "MKS introduces a series of parts specifically designed to provide self-sustaining life support for your Kerbals. While the parts will function without a life support mod, the design is centered around providing an appropriate challenge where players will weigh the costs, risks, and rewards of supplying missions exclusively with carried life support supplies, or in making the investment in a permanent colony. That being said, this is not just a single greenhouse part (although food production is part of the mod). Rather, it brings an entire colonization end-game to KSP in a fun and challenging way.",
+    "author": "RoverDude",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/79588",
+        "repository": "https://github.com/BobPalmer/MKS"
+    },
+    "version": "1:0.50.0.0",
+    "ksp_version": "1.2.0",
+    "provides": [
+        "MKS"
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "USITools"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "USI-Core"
+        },
+        {
+            "name": "Konstruction"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "USI-LS",
+            "min_version": "v0.1.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/MKS",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/BobPalmer/MKS/releases/download/0.50.0.0/MKS_0.50.0.0.zip",
+    "download_size": 24246515,
+    "download_hash": {
+        "sha1": "AE5A1BF1ECE1C13F64E8021C7BEEECBCD981DF9F",
+        "sha256": "F12D34EA3E0E105FA863EC0BC009AB4E992637D85E18C97424F218E3BDA4C60F"
+    },
+    "download_content_type": "application/zip",
+    "x_last_revision_by": "roverdude",
+    "x_generated_by": "netkan"
+}
