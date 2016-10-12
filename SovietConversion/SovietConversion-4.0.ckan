@@ -1,0 +1,76 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Check Contares max version",
+    "identifier": "SovietConversion",
+    "name": "Soviet Space Program Career Conversion",
+    "abstract": "Converts a [new] career mode game into the old Soviet Space program.",
+    "author": "tjsnh",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/112836-soviet-space-program-career-mode-total-conversion-v30-7232016/&page=1",
+        "spacedock": "https://spacedock.info/mod/858/Soviet%20Space%20Program%20Career%20Conversion",
+        "x_screenshot": "https://spacedock.info/content/tjsnh_6849/Soviet_Space_Program_Career_Conversion/Soviet_Space_Program_Career_Conversion-1469286074.5940025.png"
+    },
+    "version": "4.0",
+    "ksp_version": "1.2.0",
+    "depends": [
+        {
+            "name": "Tantares"
+        },
+        {
+            "name": "TantaresLV"
+        },
+        {
+            "name": "ABLaunchers"
+        },
+        {
+            "name": "Contares",
+            "max_version": "1.7.4"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "AdditionalProgressionContracts"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "AsteroidDay"
+        },
+        {
+            "name": "Taerobee"
+        },
+        {
+            "name": "Kosmodrome"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ContractConfigurator-AdvancedProgression"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RemoteTech"
+        }
+    ],
+    "install": [
+        {
+            "file": "Ships",
+            "install_to": "Ships"
+        },
+        {
+            "find": "SovietConversion",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/858/Soviet%20Space%20Program%20Career%20Conversion/download/4.0",
+    "download_size": 8530937,
+    "download_hash": {
+        "sha1": "46D20890FD6442153A984DECA3F072EC8B4ADE08",
+        "sha256": "3A6D46F67FCB858B9BCE436FA43C123D538908DF821731E266CF667799981911"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
