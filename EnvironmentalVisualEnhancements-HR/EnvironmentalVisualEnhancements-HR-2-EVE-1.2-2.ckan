@@ -1,0 +1,42 @@
+{
+    "spec_version": 1,
+    "identifier": "EnvironmentalVisualEnhancements-HR",
+    "name": "Environmental Visual Enhancements - Config files",
+    "abstract": "Default configuration for EVE",
+    "author": "WazWaz",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/149733-EVE",
+        "repository": "https://github.com/WazWaz/EnvironmentalVisualEnhancements"
+    },
+    "version": "2:EVE-1.2-2",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.2.0",
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "depends": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/BoulderCo",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases/download/EVE-1.2-2/AnyCPU-Configs-Release.zip",
+    "download_size": 61435120,
+    "download_hash": {
+        "sha1": "DEC0A1EF5B8079282A920CEEF25F977B3BD138D0",
+        "sha256": "05237ED5B4068161EA4D67CEA6A316FE091C9DA9527FF4353099570677F89FFF"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
