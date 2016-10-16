@@ -1,0 +1,41 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "SVE-Sunflare",
+    "name": "Stock Visual Enhancements: Sunflare",
+    "abstract": "Stock Visual Enhancements version of the sunflare component of scatterer",
+    "author": "Galileo88",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/Galileo88/StockVisualEnhancements"
+    },
+    "version": "1:1.0.83",
+    "ksp_version": "1.1.3",
+    "provides": [
+        "Scatterer-sunflare"
+    ],
+    "depends": [
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Scatterer-sunflare"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/scatterer/sunflare",
+            "install_to": "GameData/scatterer"
+        }
+    ],
+    "download": "https://github.com/Galileo88/StockVisualEnhancements/releases/download/1.0.83/SVE.LR.1.0.83.zip",
+    "download_size": 116168486,
+    "download_hash": {
+        "sha1": "3B54DF83CCDC5784F58B4EC8FE3D336301307E16",
+        "sha256": "7AA879B8A846A4BA853368E8FA28B42330F35BB0221B1BB6152A5B42E177DB92"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
