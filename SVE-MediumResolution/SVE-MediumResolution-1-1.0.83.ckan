@@ -1,0 +1,71 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SVE-MediumResolution",
+    "name": "Stock Visual Enhancements",
+    "abstract": "Stock Visual Enhancements",
+    "author": "Galileo88",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/Galileo88/StockVisualEnhancements"
+    },
+    "version": "1:1.0.83",
+    "ksp_version": "1.1.3",
+    "provides": [
+        "StockVisualEnhancements",
+        "Scatterer"
+    ],
+    "depends": [
+        {
+            "name": "Scatterer-sunflare"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "SVE-Terrain"
+        },
+        {
+            "name": "PlanetShine"
+        },
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "StockVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/StockVisualEnhancements",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/scatterer",
+            "install_to": "GameData",
+            "filter": "sunflare"
+        },
+        {
+            "find": "GameData/EnvironmentalVisualEnhancements",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Galileo88/StockVisualEnhancements/releases/download/1.0.83/SVE.MR.1.0.83.zip",
+    "download_size": 154707961,
+    "download_hash": {
+        "sha1": "F1C9B9E98A9C73F9AFCBF62EC8380179EAF2899F",
+        "sha256": "2E929129A7614C6B393A1B8FC054245753E5A7D1E5F5A3FED140206FA3B49B88"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
