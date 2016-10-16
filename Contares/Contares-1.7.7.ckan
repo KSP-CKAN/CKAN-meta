@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Contares",
+    "name": "CONTARES",
+    "abstract": "CONTARES with addon for TANTARES and TANTARES LV",
+    "author": "hraban",
+    "license": "CC-BY-NC-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/122102-contares-170-addons-for-tantares-and-tantareslv/",
+        "spacedock": "https://spacedock.info/mod/180/CONTARES",
+        "x_screenshot": "https://spacedock.info/content/hraban_869/CONTARES/CONTARES-1455896875.9979718.png"
+    },
+    "version": "1.7.7",
+    "ksp_version": "1.2.0",
+    "depends": [
+        {
+            "name": "Tantares"
+        },
+        {
+            "name": "TantaresLV"
+        },
+        {
+            "name": "RealPlume"
+        },
+        {
+            "name": "Contares-Common"
+        },
+        {
+            "name": "RetractableLiftingSurface"
+        }
+    ],
+    "install": [
+        {
+            "find": "Contares",
+            "install_to": "GameData",
+            "filter": [
+                "Agencies",
+                "CONTARES_TweakScale.cfg"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/180/CONTARES/download/1.7.7",
+    "download_size": 97065583,
+    "download_hash": {
+        "sha1": "EE6EA6E775DB6FAE4E3EDB67AA1E8C49F695728F",
+        "sha256": "6A25E27039D04702D43899922B56CD01C34F8658F812AA259D78A4B319D3AB89"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
