@@ -2,14 +2,17 @@
     "spec_version": "v1.4",
     "identifier": "ThrottleControlledAvionics",
     "name": "Throttle Controlled Avionics",
-    "abstract": "Realtime engine balancing, precise hovering control and VTOL autopiloting.",
-    "author": "allista",
+    "abstract": "TCA is a plugin that enhances the attitude control of a ship by dynamically changing the output of its engines and RCS thrusters. Even with most unbalanced designs TCA maintains stable flight and quick precise response to user or autopilot input. TCA also provides many sophisticated autopilot programs based on this core functionality, including waypoint navigation and automatic landing. It is also fast enough to simultaneously control a whole squadron of ships without much overhead.",
+    "author": [
+        "allista"
+    ],
     "license": "CC-BY-SA-4.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/97154-throttle-controlled-avionics-2302-105-continued",
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/97154-throttle-controlled-avionics",
         "spacedock": "https://spacedock.info/mod/198/Throttle%20Controlled%20Avionics",
         "repository": "https://github.com/qfeys/ThrottleControlledAvionics",
         "bugtracker": "https://github.com/qfeys/ThrottleControlledAvionics/issues",
+        "manual": "https://github.com/qfeys/ThrottleControlledAvionics/blob/master/GameData/ThrottleControlledAvionics/INSTRUCTIONS.md",
         "x_screenshot": "https://spacedock.info/content/allista_931/Throttle_Controlled_Avionics/Throttle_Controlled_Avionics-1455987208.8846784.png"
     },
     "version": "v3.2.4",
@@ -26,9 +29,6 @@
     "suggests": [
         {
             "name": "KSP-AVC"
-        },
-        {
-            "name": "Toolbar"
         },
         {
             "name": "KerbalJointReinforcement"
