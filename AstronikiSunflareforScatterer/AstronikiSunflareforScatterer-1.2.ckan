@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "AstronikiSunflareforScatterer",
+    "name": "Astroniki Sunflare for Scatterer",
+    "abstract": "Changes sunflare provided with scatterer to a nicer, more realistic one.",
+    "author": "Thomassino",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/134130-105-scatterer-addon-astroniki-sunflare-for-scatterer/",
+        "spacedock": "https://spacedock.info/mod/408/Astroniki%20Sunflare%20for%20Scatterer",
+        "x_screenshot": "https://spacedock.info/content/Thomassino_2081/Astroniki_Sunflare_for_Scatterer/Astroniki_Sunflare_for_Scatterer-1462797910.416716.png"
+    },
+    "version": "1.2",
+    "ksp_version": "1.2.0",
+    "provides": [
+        "Scatterer-sunflare"
+    ],
+    "depends": [
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Scatterer-sunflare"
+        }
+    ],
+    "install": [
+        {
+            "find": "Sunflares",
+            "install_to": "GameData/scatterer/config"
+        }
+    ],
+    "download": "https://spacedock.info/mod/408/Astroniki%20Sunflare%20for%20Scatterer/download/1.2",
+    "download_size": 2548616,
+    "download_hash": {
+        "sha1": "053ECA0266C276B8CF40F68D04D923C6CCA44D60",
+        "sha256": "B5B7D6962FCFA22B363A59C928CB5DE28B9923171B7787C6AC7A24D87F4D4232"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
