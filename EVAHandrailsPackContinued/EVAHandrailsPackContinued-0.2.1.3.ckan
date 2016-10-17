@@ -1,0 +1,49 @@
+{
+    "spec_version": 1,
+    "identifier": "EVAHandrailsPackContinued",
+    "name": "EVA Handrails Continued",
+    "abstract": "handrails",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-SA-3.0",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/49/EVA%20Handrails%20Continued",
+        "repository": "https://github.com/linuxgurugamer/EVAHandrailsPack"
+    },
+    "version": "0.2.1.3",
+    "ksp_version_min": "1.0.2",
+    "ksp_version_max": "1.2.99",
+    "provides": [
+        "NebulaEVAHandrails"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.5"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "EvaHandrailsKISCompatibility"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "NebulaEVAHandrails"
+        }
+    ],
+    "install": [
+        {
+            "file": "NEBULA",
+            "install_to": "GameData",
+            "filter_regexp": "ModuleManager.+\\.dll"
+        }
+    ],
+    "download": "https://spacedock.info/mod/49/EVA%20Handrails%20Continued/download/0.2.1.3",
+    "download_size": 188524,
+    "download_hash": {
+        "sha1": "65417C537E37CA2B49E26B760D7CA0A27F311609",
+        "sha256": "862EE0E095326C4B86BD413A803898CF582E25B5E63157AD64F24763CF065263"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
