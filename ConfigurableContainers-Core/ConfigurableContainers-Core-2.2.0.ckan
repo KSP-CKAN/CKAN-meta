@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ConfigurableContainers-Core",
+    "name": "Configurable Containers",
+    "abstract": "This is the core configuration for the Configurable Containers.",
+    "author": [
+        "allista"
+    ],
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/150104-12-configurable-containers",
+        "spacedock": "https://spacedock.info/mod/1002/Configurable%20Containers",
+        "repository": "https://github.com/allista/ConfigurableContainers",
+        "bugtracker": "https://github.com/allista/ConfigurableContainers/issues",
+        "x_screenshot": "https://spacedock.info/content/allista_931/Configurable_Containers/Configurable_Containers-1476558929.8494947.png"
+    },
+    "version": "2.2.0",
+    "ksp_version": "1.2.0",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KSP-AVC"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ConfigurableContainers",
+            "install_to": "GameData",
+            "filter": [
+                "Parts",
+                "ConfigurableContainers.version"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/1002/Configurable%20Containers/download/2.2.0",
+    "download_size": 101030,
+    "download_hash": {
+        "sha1": "A6A3F39B3F48EA23A388A7F36DD2763643695903",
+        "sha256": "12849C292BDA87FD8A334BD305FDB4DDE67DB385A67291C4EC075ECF82DEF37B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
