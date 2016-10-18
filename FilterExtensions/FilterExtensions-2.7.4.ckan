@@ -1,0 +1,45 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "FilterExtensions",
+    "name": "Filter Extensions - Plugin",
+    "abstract": "Plugin allowing for configurable filters for the VAB/SPH using .cfg files.",
+    "author": "Crzyrndm",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/104231",
+        "repository": "https://github.com/Crzyrndm/FilterExtension"
+    },
+    "version": "2.7.4",
+    "ksp_version": "1.2.0",
+    "recommends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "FilterExtensionsDefaultConfig"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/000_FilterExtensions",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/000_FilterExtensions Configs",
+            "install_to": "GameData",
+            "filter": [
+                "Default",
+                "StockRework"
+            ]
+        }
+    ],
+    "download": "https://github.com/Crzyrndm/FilterExtension/releases/download/2.7.4/Filter.Extensions.v2.7.4.zip",
+    "download_size": 540060,
+    "download_hash": {
+        "sha1": "5028FFBE175BA9612E082725362B23B7AAA5917F",
+        "sha256": "4B801058FD00F44C9A1E01D6DBAD6F2611EDD3EBA7DB83D6B59204FC91B24D73"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
