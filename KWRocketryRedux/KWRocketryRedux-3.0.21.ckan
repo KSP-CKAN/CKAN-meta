@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KWRocketryRedux",
+    "name": "KW Rocketry Redux",
+    "abstract": "This is the full KW Rocketry with the Community Fixes included.  Repackaged so that the power configs are selecteable in CKAN",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-SA-3.0",
+    "resources": {
+        "homepage": "https://github.com/linuxgurugamer/KWRocketryRedux",
+        "repository": "https://github.com/linuxgurugamer/KWRocketryRedux"
+    },
+    "version": "3.0.21",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.2.99",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KWRocketryRedux-power"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KWRocketry"
+        },
+        {
+            "name": "KWRocketry-CommunityFixes"
+        },
+        {
+            "name": "KWRocketry-CommunityFixes-interstage"
+        }
+    ],
+    "install": [
+        {
+            "find": "KWRocketry/GameData/KWRocketry",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/KWRocketryRedux/releases/download/3.0.21/KWRocketryRedux-3.0.21.zip",
+    "download_size": 50859179,
+    "download_hash": {
+        "sha1": "49F1C34189E1EA0B62BCDC0EFD90D8964CE270CD",
+        "sha256": "ACD83671F60572A0709B797AEDD042C967BD3547E25B66DDAF987D744E49CBEE"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
