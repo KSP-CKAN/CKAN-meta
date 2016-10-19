@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CepheusSunflare",
+    "name": "Cepheus Sunflare",
+    "abstract": "Slightly yellow-ish sunflare, fits well with stock kerbal sun. Note it needs SCATTERER to work.",
+    "author": "Thomassino",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/134130-12-thomassinos-sunflares/",
+        "spacedock": "https://spacedock.info/mod/997/Cepheus%20Sunflare",
+        "x_screenshot": "https://spacedock.info/content/Thomassino_2081/Cepheus_Sunflare/Cepheus_Sunflare-1476528247.1532526.png"
+    },
+    "version": "1.2",
+    "ksp_version": "1.2.0",
+    "provides": [
+        "Scatterer-sunflare"
+    ],
+    "depends": [
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Scatterer-sunflare"
+        }
+    ],
+    "install": [
+        {
+            "find": "Sunflares",
+            "install_to": "GameData/scatterer/config"
+        }
+    ],
+    "download": "https://spacedock.info/mod/997/Cepheus%20Sunflare/download/1.2",
+    "download_size": 650613,
+    "download_hash": {
+        "sha1": "649BBC2ED3A8266714DB4A01BEAC15D299E87BE7",
+        "sha256": "4BF5128903E07C3FA6451BC004BEA35DCC7896F9FF90F5AFC4F3167D47D99FF4"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
