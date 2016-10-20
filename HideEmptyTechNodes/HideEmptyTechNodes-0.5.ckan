@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "HideEmptyTechNodes",
+    "name": "Hide Empty Tech Tree Nodes",
+    "abstract": "Hides any tech tree nodes that don't have parts. Also reassigns parent node connections so that non-empty nodes have only non-empty parents. To be used with the Community Tech Tree.",
+    "author": "ev0",
+    "license": "CC-BY-NC-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/118305-11-hide-empty-tech-tree-nodes-for-community-tech-tree-derivatives-v04/",
+        "spacedock": "https://spacedock.info/mod/577/Hide%20Empty%20Tech%20Tree%20Nodes",
+        "repository": "https://www.dropbox.com/sh/69zemikf4hyvqss/AAC9QvCWAoOMdyxeqTqotxmfa?dl=0",
+        "x_screenshot": "https://spacedock.info/content/ev0_3901/Hide_Empty_Tech_Tree_Nodes/Hide_Empty_Tech_Tree_Nodes-1461472715.9140308.jpg"
+    },
+    "version": "0.5",
+    "ksp_version": "1.2.0",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/HideEmptyTechTreeNodes",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/577/Hide%20Empty%20Tech%20Tree%20Nodes/download/0.5",
+    "download_size": 15527,
+    "download_hash": {
+        "sha1": "8B2660A147C0291976A7B0A7BD1B8649DEC8182E",
+        "sha256": "8E6E2485C86542D1B380BC0137317AD68039D8660769E8830540757A9EF2A7AE"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
