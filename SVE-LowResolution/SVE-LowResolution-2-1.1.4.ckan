@@ -1,0 +1,66 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SVE-LowResolution",
+    "name": "Stock Visual Enhancements-Low Res",
+    "abstract": "A visual enhancement pack using EVE and Scatterer for the stock planets. ",
+    "author": "Galileo88",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/Galileo88/StockVisualEnhancements"
+    },
+    "version": "2:1.1.4",
+    "ksp_version_min": "1.2",
+    "ksp_version_max": "1.2.0",
+    "provides": [
+        "StockVisualEnhancements",
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "depends": [
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "SVE-Scatterer-Config"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "SVE-Terrain"
+        },
+        {
+            "name": "PlanetShine"
+        },
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "StockVisualEnhancements"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/StockVisualEnhancements",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Galileo88/StockVisualEnhancements/releases/download/1.1.4/SVE.LR.1.1.4.zip",
+    "download_size": 25563438,
+    "download_hash": {
+        "sha1": "DA742A49C759160AE8ED2820D59AFD5A31C243C6",
+        "sha256": "BF6EECE8398AAE676C1C64019C27A4073DD7E0BA794323978D2476943D2D56F1"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
