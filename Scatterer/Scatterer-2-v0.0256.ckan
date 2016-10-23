@@ -17,6 +17,9 @@
     "depends": [
         {
             "name": "Scatterer-sunflare"
+        },
+        {
+            "name": "Scatterer-config"
         }
     ],
     "conflicts": [
@@ -28,7 +31,7 @@
         {
             "find": "scatterer",
             "install_to": "GameData",
-            "filter": "Sunflares"
+            "filter_regexp": "config\\/.*"
         }
     ],
     "download": "https://spacedock.info/mod/141/scatterer/download/0.0256",
