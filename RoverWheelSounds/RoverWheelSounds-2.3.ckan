@@ -1,0 +1,35 @@
+{
+    "spec_version": 1,
+    "comment": "Staging enabled due to manual KSP version information.",
+    "identifier": "RoverWheelSounds",
+    "name": "Rover Wheel Sounds",
+    "abstract": "A plugin for Kerbal Space Program which adds sound effects to rover wheels.",
+    "author": "pizzaoverhead",
+    "license": "GPL-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/50431-RoverWheelSounds",
+        "repository": "https://github.com/pizzaoverhead/WheelSounds"
+    },
+    "version": "2.3",
+    "ksp_version": "1.2.0",
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.5.1"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/WheelSounds",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/pizzaoverhead/WheelSounds/releases/download/v2.3/WheelSoundsV2.3.zip",
+    "download_size": 2553196,
+    "download_hash": {
+        "sha1": "A9520D00D0A36C3BB500D52E5F052D55EB445CFE",
+        "sha256": "4E1FACA9BAD4517977FFC901F7D1C9F1FEA5EBD79968DF1359355FCF9EFA1FF8"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
