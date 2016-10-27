@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.16",
     "identifier": "ConfigurableContainers-Core",
     "name": "Configurable Containers",
     "abstract": "This is the core configuration for the Configurable Containers.",
@@ -31,12 +31,8 @@
     ],
     "install": [
         {
-            "file": "GameData/ConfigurableContainers",
-            "install_to": "GameData",
-            "filter": [
-                "Parts",
-                "ConfigurableContainers.version"
-            ]
+            "file": "GameData/ConfigurableContainers/TankConfigs.cfg",
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/1002/Configurable%20Containers/download/2.3.0",
