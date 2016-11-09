@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SVT-HighResolution",
+    "name": "Stock Visual Terrain-High Res",
+    "abstract": "A terrain enhancement pack using Kopernicus for the stock planets.",
+    "author": "Galileo88",
+    "license": "CC-BY-NC-ND",
+    "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/Galileo88/Stock-Visual-Terrain"
+    },
+    "version": "2.0",
+    "ksp_version": "1.2.1",
+    "provides": [
+        "SVE-Terrain"
+    ],
+    "depends": [
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "StockVisualEnhancements"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SVE-Terrain"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/SVEKopernicus",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Galileo88/Stock-Visual-Terrain/releases/download/2.0/SVT.High.Resolution.v2.0.zip",
+    "download_size": 196142966,
+    "download_hash": {
+        "sha1": "0F25DD9B086A27A803F6D8F0E77C580DA0C485E1",
+        "sha256": "C304D100689BBE97C09010912DC756E80FDCF7466EDEFDA4D8F0604FF25C7DBE"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
