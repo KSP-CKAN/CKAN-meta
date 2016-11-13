@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "ConfigurableContainers-Core",
+    "name": "Configurable Containers Core",
+    "abstract": "This is the core configuration for the Configurable Containers.",
+    "author": [
+        "allista"
+    ],
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/150104-12-configurable-containers",
+        "spacedock": "https://spacedock.info/mod/1002/Configurable%20Containers",
+        "repository": "https://github.com/allista/ConfigurableContainers",
+        "bugtracker": "https://github.com/allista/ConfigurableContainers/issues",
+        "x_screenshot": "https://spacedock.info/content/allista_931/Configurable_Containers/Configurable_Containers-1476558929.8494947.png"
+    },
+    "version": "2.3.1",
+    "ksp_version": "1.2.1",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KSP-AVC"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ConfigurableContainers/TankTypes.cfg",
+            "install_to": "GameData/ConfigurableContainers"
+        },
+        {
+            "file": "GameData/ConfigurableContainers/TankConfigs.cfg",
+            "install_to": "GameData/ConfigurableContainers"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1002/Configurable%20Containers/download/2.3.1",
+    "download_size": 122148,
+    "download_hash": {
+        "sha1": "28B105CFA9E6C650B8ACC0CDFD4396E82610B984",
+        "sha256": "A80EDB6EAA38680F598A0166154B8864213D59FF33DE12D2F62CF2D21F8EBC47"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
