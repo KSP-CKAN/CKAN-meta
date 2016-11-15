@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "LLL",
+    "name": "Lack Luster Labs Continued",
+    "abstract": "Big, boxy parts",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/856/Lack%20Luster%20Labs%20Continued",
+        "repository": "https://github.com/linuxgurugamer/LLL-Continued"
+    },
+    "version": "1:1.0.2-beta",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.2.1",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "FirespitterCore"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "CrewManifest"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/LLL",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/LLL-Extra",
+            "install_to": "GameData/LLL",
+            "filter": "Parts"
+        }
+    ],
+    "download": "https://spacedock.info/mod/856/Lack%20Luster%20Labs%20Continued/download/1.0.2-beta",
+    "download_size": 11961254,
+    "download_hash": {
+        "sha1": "CFAF4756674CFB38D9CA68A4853505610FAB3D9D",
+        "sha256": "27992DA43F4A7FEB40CA889748D696D28DA112FD5E324880BE293361CCE53EBB"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
