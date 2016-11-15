@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "IXSWarpshipOS",
+    "name": "IXS-Warpship-OS",
+    "abstract": "Kerbal remake of Dr. White's concept design of a warp capable space vessel using Dr. Alcubierre's theory on bending space-time, effectively circumventing Einstein's law of relativity. This mod continues the work RoverDude, Stevie_D and Sophia. This mod requires RoverDude's Alcubierre Drive (standalone) and Community Resource Pack. Suggested additional mod: Spacedocks (by Fenrir)",
+    "author": "Denko666",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/149873-ixs-warpship-original-series/",
+        "spacedock": "https://spacedock.info/mod/589/IXS-Warpship-OS",
+        "repository": "https://github.com/bartblommaerts/warpship",
+        "x_screenshot": "https://spacedock.info/content/Denko666_1695/IXS-Warpship-OS/IXS-Warpship-OS-1478106155.1607766.png"
+    },
+    "version": "0.4.0.4-rebalanced",
+    "ksp_version": "1.2.1",
+    "depends": [
+        {
+            "name": "AlcubierreStandalone"
+        },
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SpaceDock"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "WarpShip"
+        },
+        {
+            "name": "KSPInterstellarExtended"
+        }
+    ],
+    "install": [
+        {
+            "find": "IXSWarpShipOS",
+            "install_to": "GameData",
+            "filter": ".DS_Store"
+        }
+    ],
+    "download": "https://spacedock.info/mod/589/IXS-Warpship-OS/download/0.4.0.4-rebalanced",
+    "download_size": 13713356,
+    "download_hash": {
+        "sha1": "4D37DA8C2A2C4D36938E47EF11141F00D3E77F8E",
+        "sha256": "2DE27F9B56FB001BE04A33D2F79C3AC98DEC5B013EF8900AAD56FFDFA8D44D7B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
