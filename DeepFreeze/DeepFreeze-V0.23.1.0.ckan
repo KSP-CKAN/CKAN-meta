@@ -21,6 +21,9 @@
         },
         {
             "name": "REPOSoftTech-Agencies"
+        },
+        {
+            "name": "RSTKSPUtils"
         }
     ],
     "recommends": [
@@ -56,7 +59,10 @@
         {
             "find": "REPOSoftTech",
             "install_to": "GameData",
-            "filter": "Agencies"
+            "filter": [
+                "Agencies",
+                "RSTKSPUtils"
+            ]
         }
     ],
     "download": "https://spacedock.info/mod/142/DeepFreeze%20Continued.../download/V0.23.1.0",
