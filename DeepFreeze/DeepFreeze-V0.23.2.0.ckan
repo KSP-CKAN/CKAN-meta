@@ -1,0 +1,77 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DeepFreeze",
+    "name": "DeepFreeze Continued...",
+    "abstract": "This mod provides the ability to freeze and thaw kerbals for those long space journeys.",
+    "author": "Jplrepo",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/112328-11-deepfreeze-continued",
+        "spacedock": "https://spacedock.info/mod/142/DeepFreeze%20Continued...",
+        "repository": "https://github.com/JPLRepo/DeepFreeze",
+        "x_screenshot": "https://spacedock.info/content/Jplrepo_405/DeepFreeze_Continued/DeepFreeze_Continued-1455815976.3129282.png"
+    },
+    "version": "V0.23.2.0",
+    "ksp_version_min": "1.2.1",
+    "ksp_version_max": "1.2.2",
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.3.5"
+        },
+        {
+            "name": "REPOSoftTech-Agencies"
+        },
+        {
+            "name": "RSTKSPUtils"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Toolbar"
+        },
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "BackgroundProcessing"
+        },
+        {
+            "name": "ShipManifest"
+        },
+        {
+            "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "USI-LS"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "AmpYearPowerManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "REPOSoftTech",
+            "install_to": "GameData",
+            "filter": [
+                "Agencies",
+                "RSTKSPUtils"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/142/DeepFreeze%20Continued.../download/V0.23.2.0",
+    "download_size": 22806551,
+    "download_hash": {
+        "sha1": "275B52C06AAC87F6914C857859B14C7ABD576D1D",
+        "sha256": "453A28E4F90AB8248F184C12648A741AAB441CDAC90FDF3A983D62CE8566A81A"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Author JPLRepo",
+    "x_generated_by": "netkan"
+}
