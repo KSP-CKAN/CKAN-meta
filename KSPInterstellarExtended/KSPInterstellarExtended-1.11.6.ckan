@@ -1,0 +1,63 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KSPInterstellarExtended",
+    "name": "KSP Interstellar Extended",
+    "abstract": "KSP Interstellar Extended (KSPI-E) is a plugin for Kerbal Space Program, designed to encourage bootstrapping toward ever more advanced levels of technology as well as utilizing In-Situ resources to expand the reach of Kerbal civilization. KSP Interstellar Extended aims to continue in Fractals original KSPI vision in providing a realistic road to the stars. Note: requires CTT 3.0.1",
+    "author": "FreeThinker",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/100190-113/&page=1",
+        "spacedock": "https://spacedock.info/mod/172/KSP%20Interstellar%20Extended",
+        "repository": "https://github.com/sswelm/KSP-Interstellar-Extended",
+        "x_screenshot": "https://spacedock.info/content/FreeThinker_517/KSP_Interstellar_Extended/KSP_Interstellar_Extended-1470128568.7429862.png"
+    },
+    "version": "1.11.6",
+    "ksp_version": "1.2.2",
+    "depends": [
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.6.1"
+        },
+        {
+            "name": "InterstellarFuelSwitch",
+            "min_version": "2.2.5"
+        },
+        {
+            "name": "TweakScale",
+            "min_version": "2.3.1"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.7.1"
+        },
+        {
+            "name": "CommunityTechTree",
+            "min_version": "3.0.1"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "FilterExtensions"
+        },
+        {
+            "name": "KSP-AVC"
+        },
+        {
+            "name": "HideEmptyTechNodes"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/WarpPlugin",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/172/KSP%20Interstellar%20Extended/download/1.11.6",
+    "download_size": 122066802,
+    "download_hash": {
+        "sha1": "0C36DD99960E6C1920E3FE363ECE30DCEEFC6F18",
+        "sha256": "123F08A9944F29C1AAD6E2B0EB9E91D401D731BE4B39BF5704399FF5BBC941F4"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
