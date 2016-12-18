@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "USI-EXP",
+    "name": "USI Exploration Pack",
+    "abstract": "PackRat Rover and parts geared towards planetary exploration",
+    "author": "RoverDude",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/78242-105",
+        "repository": "https://github.com/BobPalmer/ExplorationPack"
+    },
+    "version": "0.7.0.0",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.2.2",
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "7.0.5398.27328"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.5.1"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.4.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.2.3"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/ExpPack",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/BobPalmer/ExplorationPack/releases/download/0.7.0.0/ExpPack_0.7.0.0.zip",
+    "download_size": 12285205,
+    "download_hash": {
+        "sha1": "B5972918115D12CE4B34EEC75F00E1E877443A42",
+        "sha256": "12C88A5E166CAA702DA00258BC38AF20BC94687CC36D6B520052E63CA83E0348"
+    },
+    "download_content_type": "application/zip",
+    "x_last_revision_by": "harryyoung",
+    "x_generated_by": "netkan"
+}
