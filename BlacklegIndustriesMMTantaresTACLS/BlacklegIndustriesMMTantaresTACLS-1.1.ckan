@@ -1,0 +1,39 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "BlacklegIndustriesMMTantaresTACLS",
+    "name": "BlackInd MM Tantares TACLifeSupport",
+    "abstract": "Blackleg Industries Module Manager Patches (Tantares TACLifeSupport)",
+    "author": "blackleg",
+    "license": "CC0",
+    "resources": {
+        "homepage": "http://www.blackleg.es",
+        "repository": "https://github.com/blackleg/blackind-mmpatches"
+    },
+    "version": "1.1",
+    "ksp_version": "1.2",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Tantares"
+        }
+    ],
+    "install": [
+        {
+            "file": "blackind/MMPatches/Tantares_TACLifeSupport.cfg",
+            "install_to": "GameData/blackind/MMPatches/"
+        }
+    ],
+    "download": "https://github.com/blackleg/blackind-mmpatches/releases/download/1.1/blackind.zip",
+    "download_size": 1107,
+    "download_hash": {
+        "sha1": "CD28871DF890FEE601C399C268C7A261F9AFA41A",
+        "sha256": "82E0DE4E44B46C5DEAA9913345A8EE987120A43CF4CFA2ABDA2A9A684550A80D"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
