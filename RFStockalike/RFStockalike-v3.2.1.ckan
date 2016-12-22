@@ -12,11 +12,17 @@
     },
     "version": "v3.2.1",
     "provides": [
+        "RealPlumeConfigs",
         "RealFuels-Engine-Configs"
     ],
     "depends": [
         {
             "name": "RealFuels"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealPlume"
         }
     ],
     "install": [
