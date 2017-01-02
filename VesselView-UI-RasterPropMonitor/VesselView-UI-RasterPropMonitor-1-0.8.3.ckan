@@ -1,6 +1,7 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "VesselView",
+    "spec_version": "v1.16",
+    "comment": "Providing but not conflicting is deliberate, as both UIs can be installed at the same time.",
+    "identifier": "VesselView-UI-RasterPropMonitor",
     "name": "Vessel Viewer Continued",
     "abstract": "View your vessel in the IVA ",
     "author": "linuxgurugamer",
@@ -13,19 +14,27 @@
     },
     "version": "1:0.8.3",
     "ksp_version": "1.2.2",
+    "provides": [
+        "VesselView-UI"
+    ],
     "depends": [
         {
-            "name": "VesselView-UI"
+            "name": "VesselView"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RasterPropMonitor"
         }
     ],
     "install": [
         {
-            "find": "VesselView",
-            "filter": [
-                "VesselViewRPM.dll",
-                "VesselViewPlugin.dll"
-            ],
-            "install_to": "GameData"
+            "find": "VesselViewRPM.dll",
+            "find_matches_files": true,
+            "install_to": "GameData/VesselView"
         }
     ],
     "download": "https://spacedock.info/mod/923/Vessel%20Viewer%20Continued/download/0.8.3",
