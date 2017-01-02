@@ -1,0 +1,39 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "VesselView",
+    "name": "Vessel Viewer Continued",
+    "abstract": "View your vessel in the IVA ",
+    "author": "linuxgurugamer",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/146692-113-vessel-viewer-continued/",
+        "spacedock": "https://spacedock.info/mod/923/Vessel%20Viewer%20Continued",
+        "repository": "https://github.com/linuxgurugamer/VesselViewer/",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Vessel_Viewer_Continued/Vessel_Viewer_Continued-1472389126.1938586.png"
+    },
+    "version": "2:0.8.3",
+    "ksp_version": "1.2.2",
+    "depends": [
+        {
+            "name": "VesselView-UI"
+        }
+    ],
+    "install": [
+        {
+            "find": "VesselView",
+            "filter": [
+                "VesselViewRPM.dll",
+                "VesselViewPlugin.dll"
+            ],
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/923/Vessel%20Viewer%20Continued/download/0.8.3",
+    "download_size": 1459644,
+    "download_hash": {
+        "sha1": "DA1FCABCA1809328255DD02F3F780CBB4C8FF826",
+        "sha256": "D3FABB8EA39B3E60FB7415EB5034F670F849D7DBAE8E6AEB6F1E11E911E4165B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
