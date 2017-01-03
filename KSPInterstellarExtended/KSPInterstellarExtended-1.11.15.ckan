@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.4",
+    "comment": "return vref when .version file is valid",
+    "identifier": "KSPInterstellarExtended",
+    "name": "KSP Interstellar Extended",
+    "abstract": "KSP Interstellar Extended (KSPI-E) is a plugin for Kerbal Space Program, designed to encourage bootstrapping toward ever more advanced levels of technology as well as utilizing In-Situ resources to expand the reach of Kerbal civilization. KSP Interstellar Extended aims to continue in Fractals original KSPI vision in providing a realistic road to the stars. Note: requires CTT 3.0.1",
+    "author": "FreeThinker",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/100190-113/&page=1",
+        "spacedock": "https://spacedock.info/mod/172/KSP%20Interstellar%20Extended",
+        "repository": "https://github.com/sswelm/KSP-Interstellar-Extended",
+        "x_screenshot": "https://spacedock.info/content/FreeThinker_517/KSP_Interstellar_Extended/KSP_Interstellar_Extended-1470128568.7429862.png"
+    },
+    "version": "1.11.15",
+    "ksp_version": "1.2.2",
+    "depends": [
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.6.4"
+        },
+        {
+            "name": "InterstellarFuelSwitch",
+            "min_version": "2.3.1"
+        },
+        {
+            "name": "TweakScale",
+            "min_version": "2.3.3"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.7.4"
+        },
+        {
+            "name": "CommunityTechTree",
+            "min_version": "3.0.1"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "FilterExtensions"
+        },
+        {
+            "name": "KSP-AVC"
+        },
+        {
+            "name": "HideEmptyTechNodes"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/WarpPlugin",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/172/KSP%20Interstellar%20Extended/download/1.11.15",
+    "download_size": 122486638,
+    "download_hash": {
+        "sha1": "E1650611169DC95D1E4FBA985C00E93A0CB71BF9",
+        "sha256": "B33484AA8AF74D69B4D75615313F9B0ED5C331DED158F227B8F209393DF58A3B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
