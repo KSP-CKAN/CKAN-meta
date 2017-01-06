@@ -1,0 +1,47 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "KerbalAircraftExpansion",
+    "name": "Kerbal Aircraft Expansion",
+    "abstract": "A pack of select vanilla-inspired parts for your aircrafting needs.",
+    "author": "keptin",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/69426-*"
+    },
+    "version": "2:2.6.4",
+    "ksp_version_min": "1.2.1",
+    "ksp_version_max": "1.2.2",
+    "depends": [
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "FirespitterResourcesConfig"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "KAX",
+            "install_to": "GameData",
+            "filter": [
+                "Example Craft"
+            ]
+        },
+        {
+            "file": "KAX/Example Craft",
+            "install_to": "Ships",
+            "as": "SPH"
+        }
+    ],
+    "download": "http://addons-origin.cursecdn.com/files/2358/481/KAX_v2.6.4.zip",
+    "download_size": 18760539,
+    "download_hash": {
+        "sha1": "FA32A62E4C627D7E5A4BF3F05A4CA568457D4222",
+        "sha256": "EFD10F4B2D1311E6A8C77A9274E5620111A7B9AC033DB79D9488309FBCE40EEA"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
