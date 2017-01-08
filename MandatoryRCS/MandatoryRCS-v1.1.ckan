@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.20",
+    "identifier": "MandatoryRCS",
+    "name": "Mandatory RCS",
+    "abstract": "Several modifications to make RCS thrusters mandatory to have authority on your vessel orientation. Nerf reaction wheels so they provide only stabilization and don't respond to pilot or SAS input. Also make angular velocity and SAS orientation hold persistent trough timewarps and reloads.",
+    "author": "gotmachine",
+    "license": "Unlicense",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/154658-122-mandatoryrcs-10/",
+        "repository": "https://github.com/gotmachine/MandatoryRCS"
+    },
+    "version": "v1.1",
+    "ksp_version": "1.2.2",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RLAContinued"
+        },
+        {
+            "name": "RCSBuildAid"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "PersistentRotation"
+        },
+        {
+            "name": "SemiSaturatableRW"
+        }
+    ],
+    "download": "https://github.com/gotmachine/MandatoryRCS/releases/download/v1.1/MandatoryRCS_v1.1_KSP1.2.2.zip",
+    "download_size": 10673,
+    "download_hash": {
+        "sha1": "186EE1A0A536C3A36645F709821E3D8C7A86ABC1",
+        "sha256": "0724FF4E5713A09CF72BE73D4F63A915212AE049DC7A5DC7E7FDECF658754411"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
