@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Texture only",
+    "identifier": "OinkersSkybox",
+    "name": "Oinker's Skybox 2.0 Brighter [4]",
+    "abstract": "This skybox approximates what the naked eye can see when not adjusted for darkness (fewer visible stars). Made using Tycho super-hi-res image.  Drop into \\GameData\\TextureReplacer folder. Six 4096 DDS's DXT1 images (no mipmaps for a skybox) ",
+    "author": "Oinker",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/96851-105-texturereplacer-2411-17112015/&do=findComment&comment=1986705",
+        "spacedock": "https://spacedock.info/mod/1131/Oinker's%20Skybox%202.0%20Brighter%20[4]",
+        "x_screenshot": "https://spacedock.info/content/Oinker_4625/Oinkers_Skybox_2.0_Brighter_4/Oinkers_Skybox_2.0_Brighter_4-1482859464.7945268.jpg"
+    },
+    "version": "2.0_brighter",
+    "ksp_version": "any",
+    "depends": [
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "install": [
+        {
+            "find": "Default",
+            "install_to": "GameData/TextureReplacer/"
+        },
+        {
+            "find": "EnvMap",
+            "install_to": "GameData/TextureReplacer/"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1131/Oinker%27s%20Skybox%202.0%20Brighter%20%5B4%5D/download/2.0_brighter",
+    "download_size": 1228822,
+    "download_hash": {
+        "sha1": "6FDAEE0DC24FFF4A1F376F377BC89BB09DD508AA",
+        "sha256": "7A18CC1549034CBAAEA6B27B780CB3088F96739664F5C366EBB0F1C6FA53E314"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
