@@ -1,0 +1,47 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ASETProps-CE",
+    "name": "ASET Props - Community Edition",
+    "abstract": "This pack is for the modders who create IVA’s for the spacecraft.",
+    "author": [
+        "alexustas",
+        "Olympic1"
+    ],
+    "license": "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/116430-aset/",
+        "spacedock": "https://spacedock.info/mod/1180/ASET%20Props%20-%20Community%20Edition",
+        "repository": "https://github.com/Olympic1/ASET_CE"
+    },
+    "version": "1.4",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.2.2",
+    "provides": [
+        "ASETProps"
+    ],
+    "depends": [
+        {
+            "name": "RasterPropMonitor-Core",
+            "min_version": "1:v0.28.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ASETProps"
+        }
+    ],
+    "install": [
+        {
+            "find": "ASET",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1180/ASET%20Props%20-%20Community%20Edition/download/1.4",
+    "download_size": 9690539,
+    "download_hash": {
+        "sha1": "F66B8B2ED299831B8D279E25E4CD3BBDB774558E",
+        "sha256": "0ABE7213F3934FEEF4DF7DEF4C5012671A4FB26883A0862D14BB6A8C0EF863CC"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
