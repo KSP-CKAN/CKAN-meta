@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "REKT",
+    "name": "Recoverable Emergency Kerbal Transport",
+    "abstract": "REKT",
+    "author": "steedcrugeon",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://github.com/steedcrugeon/REKT",
+        "spacedock": "https://spacedock.info/mod/1021/Recoverable%20Emergency%20Kerbal%20Transport",
+        "x_screenshot": "https://spacedock.info/content/steedcrugeon_8650/Recoverable_Emergency_Kerbal_Transport/Recoverable_Emergency_Kerbal_Transport-1477517270.5627637.png"
+    },
+    "version": "v0.4.3.1",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.2.2",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RetractableLiftingSurface"
+        }
+    ],
+    "install": [
+        {
+            "install_to": "GameData",
+            "find_regexp": "REKT-",
+            "filter": "RetractableLiftingSurface"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1021/Recoverable%20Emergency%20Kerbal%20Transport/download/v0.4.3.1",
+    "download_size": 4522708,
+    "download_hash": {
+        "sha1": "697FE56112145B927B81F169F4D9ED827EA123DB",
+        "sha256": "6E27B2295098B0C62FBDDA0CAFDF21A5878DA0514CD0C84CD949A5C8D299D62E"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
