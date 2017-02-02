@@ -1,0 +1,66 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SVE-MediumResolution",
+    "name": "Stock Visual Enhancements-Medium Res",
+    "abstract": "A visual enhancement pack using EVE and Scatterer for the stock planets. ",
+    "author": "Galileo88",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/Galileo88/StockVisualEnhancements"
+    },
+    "version": "2:1.1.6",
+    "ksp_version_min": "1.2",
+    "ksp_version_max": "1.2.2",
+    "provides": [
+        "StockVisualEnhancements",
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "depends": [
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "SVE-Scatterer-Config"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "SVE-Terrain"
+        },
+        {
+            "name": "PlanetShine"
+        },
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "StockVisualEnhancements"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/StockVisualEnhancements",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Galileo88/StockVisualEnhancements/releases/download/1.1.6/SVE.MR.1.1.6.zip",
+    "download_size": 52734743,
+    "download_hash": {
+        "sha1": "396C61D4D385C02887B1F66A84F8E0B81DC91FD3",
+        "sha256": "201E6A171C82B09BBC8158D3B032EF3CCE757A5829C245E7E0D006544C7ECB02"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
