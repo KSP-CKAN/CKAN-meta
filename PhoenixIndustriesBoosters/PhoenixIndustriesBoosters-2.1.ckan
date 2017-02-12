@@ -15,13 +15,19 @@
     "depends": [
         {
             "name": "PhoenixIndustriesFlags"
+        },
+        {
+            "name": "PhoenixIndustriesAgencies"
         }
     ],
     "install": [
         {
             "find": "CTN",
             "install_to": "GameData",
-            "filter": "Flags"
+            "filter": [
+                "Flags",
+                "Agencies"
+            ]
         }
     ],
     "download": "https://spacedock.info/mod/246/Phoenix%20Industries%20-%20Boosters/download/2.1",
