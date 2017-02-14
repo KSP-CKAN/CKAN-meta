@@ -1,0 +1,51 @@
+{
+    "spec_version": 1,
+    "comment": "Indexed by author. Please report any problems at the repository bugtracker.",
+    "identifier": "Astrogator",
+    "name": "Astrogator",
+    "abstract": "Summary of transfer windows with automatic maneuver node creation",
+    "description": "Displays a table of all of the bodies reachable from the current location, along with the time till burn and delta V needed to reach them. These values can be used to time warp or generate maneuver nodes. Supports prograde and retrograde orbits, nested ejection trajectories, transfers to satellites of the current parent body, and transfers to other vessels.",
+    "author": "HebaruSan",
+    "license": "GPL-3.0",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/155998-122-astrogator",
+        "repository": "https://github.com/HebaruSan/Astrogator",
+        "bugtracker": "https://github.com/HebaruSan/Astrogator/issues"
+    },
+    "version": "v0.5.0",
+    "ksp_version_min": "1.2.2",
+    "ksp_version_max": "1.2.99",
+    "suggests": [
+        {
+            "name": "GravityTurn"
+        },
+        {
+            "name": "Trajectories"
+        },
+        {
+            "name": "BetterBurnTime"
+        },
+        {
+            "name": "PreciseNode"
+        },
+        {
+            "name": "PreciseManeuver"
+        },
+        {
+            "name": "LandingHeight"
+        },
+        {
+            "name": "NavballDockingIndicator"
+        }
+    ],
+    "download": "https://github.com/HebaruSan/Astrogator/releases/download/v0.5.0/Astrogator.zip",
+    "download_size": 84934,
+    "download_hash": {
+        "sha1": "1E5171E1B34C211E01F898F6305036C6B92E7886",
+        "sha256": "B68CD082B1FCAB5D9C0727D1E74A0946862FE913E7E2C2015D83C44259806156"
+    },
+    "download_content_type": "application/zip",
+    "kind": "package",
+    "x_generated_by": "netkan"
+}
