@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "ThrottleControlledAvionics",
+    "name": "Throttle Controlled Avionics",
+    "abstract": "TCA is a plugin that enhances the attitude control of a ship by dynamically changing the output of its engines and RCS thrusters. Even with most unbalanced designs TCA maintains stable flight and quick precise response to user or autopilot input. TCA also provides many sophisticated autopilot programs based on this core functionality, including waypoint navigation and automatic landing. It is also fast enough to simultaneously control a whole squadron of ships without much overhead.",
+    "author": [
+        "allista"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/97154-throttle-controlled-avionics",
+        "spacedock": "https://spacedock.info/mod/198/Throttle%20Controlled%20Avionics",
+        "repository": "https://github.com/qfeys/ThrottleControlledAvionics",
+        "bugtracker": "https://github.com/qfeys/ThrottleControlledAvionics/issues",
+        "manual": "https://github.com/qfeys/ThrottleControlledAvionics/blob/master/GameData/ThrottleControlledAvionics/INSTRUCTIONS.md",
+        "x_screenshot": "https://spacedock.info/content/allista_931/Throttle_Controlled_Avionics/Throttle_Controlled_Avionics-1455987208.8846784.png"
+    },
+    "version": "v3.4.1",
+    "ksp_version": "1.2.2",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "AT-Utils"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KSP-AVC"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "download": "https://spacedock.info/mod/198/Throttle%20Controlled%20Avionics/download/3.4.1",
+    "download_size": 333139,
+    "download_hash": {
+        "sha1": "C4E02AB614804D48E43FB681A59E8054CF1230C4",
+        "sha256": "FF66CC08401EDEE5B4B892F022929293565C6FA9F9312A3594C54B4B93937243"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
