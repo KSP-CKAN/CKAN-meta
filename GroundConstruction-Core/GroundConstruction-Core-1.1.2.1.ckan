@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "GroundConstruction-Core",
+    "name": "Ground Construction Core",
+    "abstract": "This is the core component of the Ground Construction mod. It should only be installed as a dependency by other mods.",
+    "author": [
+        "allista"
+    ],
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/154167-122-ground-construction",
+        "spacedock": "https://spacedock.info/mod/1123/Ground%20Construction",
+        "repository": "https://github.com/allista/GroundConstruction",
+        "bugtracker": "https://github.com/allista/GroundConstruction/issues",
+        "x_screenshot": "https://spacedock.info/content/allista_931/Ground_Construction/Ground_Construction-1482512368.397066.png"
+    },
+    "version": "1.1.2.1",
+    "ksp_version": "1.2.2",
+    "depends": [
+        {
+            "name": "AT-Utils"
+        },
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/GroundConstruction/Icons",
+            "install_to": "GameData/GroundConstruction"
+        },
+        {
+            "file": "GameData/GroundConstruction/Plugins",
+            "install_to": "GameData/GroundConstruction"
+        },
+        {
+            "file": "GameData/GroundConstruction/GroundConstruction.version",
+            "install_to": "GameData/GroundConstruction"
+        },
+        {
+            "file": "GameData/GroundConstruction/KitResources.cfg",
+            "install_to": "GameData/GroundConstruction"
+        },
+        {
+            "file": "GameData/GroundConstruction/Engineer.cfg",
+            "install_to": "GameData/GroundConstruction"
+        },
+        {
+            "file": "GameData/GroundConstruction/Parts/DIYKit",
+            "install_to": "GameData/GroundConstruction/Parts"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1123/Ground%20Construction/download/1.1.2.1",
+    "download_size": 6141043,
+    "download_hash": {
+        "sha1": "A972AC7280CA0673575681086F5628E1D0A2FC99",
+        "sha256": "2948386121C52C855878380003C1564A49BA9B9AB9A297D1A39BEF415AFDB7B5"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
