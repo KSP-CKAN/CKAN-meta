@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Contares",
+    "name": "CONTARES",
+    "abstract": "CONTARES (KhiNa is rising) with addon for TANTARES and TANTARES LV",
+    "author": "hraban",
+    "license": "CC-BY-NC-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/122102-contares-170-addons-for-tantares-and-tantareslv/",
+        "spacedock": "https://spacedock.info/mod/180/CONTARES",
+        "x_screenshot": "https://spacedock.info/content/hraban_869/CONTARES/CONTARES-1480868016.2151837.png"
+    },
+    "version": "1.8.3",
+    "ksp_version": "1.2.2",
+    "depends": [
+        {
+            "name": "Tantares"
+        },
+        {
+            "name": "TantaresLV"
+        },
+        {
+            "name": "RealPlume"
+        },
+        {
+            "name": "Contares-Common"
+        },
+        {
+            "name": "RetractableLiftingSurface"
+        }
+    ],
+    "install": [
+        {
+            "find": "Contares",
+            "install_to": "GameData",
+            "filter": [
+                "Agencies",
+                "CONTARES_TweakScale.cfg"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/180/CONTARES/download/1.8.3",
+    "download_size": 104018515,
+    "download_hash": {
+        "sha1": "92751EDED520C0C602290BE0AA2A0179CD76D727",
+        "sha256": "62868D71E77B32C8DF2D197A48D7FB7C1D7228D859CF902C23D887B022DB274C"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
