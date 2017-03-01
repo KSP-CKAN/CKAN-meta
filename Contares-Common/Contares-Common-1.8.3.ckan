@@ -1,0 +1,35 @@
+{
+    "spec_version": "v1.16",
+    "comment": "agencymod",
+    "identifier": "Contares-Common",
+    "name": "Contares Common",
+    "abstract": "Agency details common to Contares mods",
+    "author": "hraban",
+    "license": "CC-BY-NC-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/122102-contares-170-addons-for-tantares-and-tantareslv/",
+        "spacedock": "https://spacedock.info/mod/180/CONTARES",
+        "x_screenshot": "https://spacedock.info/content/hraban_869/CONTARES/CONTARES-1480868016.2151837.png"
+    },
+    "version": "1.8.3",
+    "ksp_version": "any",
+    "install": [
+        {
+            "find": "Agencies",
+            "install_to": "GameData/Contares"
+        },
+        {
+            "find": "CONTARES_TweakScale.cfg",
+            "find_matches_files": true,
+            "install_to": "GameData/Contares/Patches"
+        }
+    ],
+    "download": "https://spacedock.info/mod/180/CONTARES/download/1.8.3",
+    "download_size": 104018515,
+    "download_hash": {
+        "sha1": "92751EDED520C0C602290BE0AA2A0179CD76D727",
+        "sha256": "62868D71E77B32C8DF2D197A48D7FB7C1D7228D859CF902C23D887B022DB274C"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
