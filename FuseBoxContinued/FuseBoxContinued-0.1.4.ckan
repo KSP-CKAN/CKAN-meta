@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "FuseBoxContinued",
+    "name": "FuseBox Continued",
+    "abstract": "Keep track of your electrical usage in the Editor and in Flight",
+    "author": "linuxgurugamer",
+    "license": "GPL-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/157896-122-fusebox-continued-electric-charge-tracker-and-build-helper/",
+        "spacedock": "https://spacedock.info/mod/1263/FuseBox%20Continued",
+        "repository": "https://github.com/linuxgurugamer/FuseBoxContinued",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/FuseBox_Continued/FuseBox_Continued-1489890268.7722282.jpg"
+    },
+    "version": "0.1.4",
+    "ksp_version_min": "1.2.2",
+    "ksp_version_max": "1.2.98",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AmpYearPowerManager"
+        }
+    ],
+    "install": [
+        {
+            "install_to": "GameData",
+            "find": "Fusebox"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1263/FuseBox%20Continued/download/0.1.4",
+    "download_size": 59433,
+    "download_hash": {
+        "sha1": "61EC857C7432284F0EA89C446DDD1FD938E9E91F",
+        "sha256": "E5EF0CB54FA78B11FEB9A85D8DD82E2850EE8B394DEDAEA66B5E0F222298E256"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
