@@ -1,0 +1,76 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "QuizTechAeroPackContinued",
+    "name": "QuizTech Aero Pack",
+    "abstract": "Continuation of the QuizTech Aero Pack",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/145635-113-quiztech-aero-pack-continued/",
+        "spacedock": "https://spacedock.info/mod/836/QuizTechAeroPackContinued",
+        "repository": "https://github.com/linuxgurugamer/QuizTechAeroPackContinued/releases/tag/1.3.0",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/QuizTechAeroPackContinued/QuizTechAeroPackContinued-1468183290.92634.png"
+    },
+    "version": "1.3.9",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.2.99",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "BDAnimationModules"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RasterPropMonitor-Core"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "ThrottleControlledAvionics"
+        },
+        {
+            "name": "B9AerospaceProceduralParts"
+        },
+        {
+            "name": "AdjustableLandingGear"
+        },
+        {
+            "name": "Mk2Essentials"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "QuizTechAeroPack-internals"
+        },
+        {
+            "name": "QuizTechAeroPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "QuizTechAeroContinued",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Ships/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/836/QuizTechAeroPackContinued/download/1.3.9",
+    "download_size": 40308230,
+    "download_hash": {
+        "sha1": "FB28A1D67AC8B96EF5620B49B9D317291ABA3FFB",
+        "sha256": "472CB9CE9F7C58FE5B52574D55C1A138691EA589F85D35C1B2761D719AAA416A"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
