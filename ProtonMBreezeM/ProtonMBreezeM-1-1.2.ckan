@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ProtonMBreezeM",
+    "name": "Proton-M / Breeze-M",
+    "abstract": "High detailed Proton-M heavy booster with Breeze-M upper stage.",
+    "author": "InsaneDruid",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/120548-105-proton-m-breeze-m/",
+        "spacedock": "https://spacedock.info/mod/177/Proton-M%20/%20Breeze-M",
+        "repository": "https://github.com/InsaneDruid/Proton-M",
+        "x_screenshot": "https://spacedock.info/content/InsaneDruid_689/Proton-M_Breeze-M/Proton-M_Breeze-M-1460053380.0076952.jpg"
+    },
+    "version": "1:1.2",
+    "ksp_version": "1.2",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RealPlume-StockConfigs"
+        },
+        {
+            "name": "RFStockalike"
+        },
+        {
+            "name": "FilterExtensions"
+        },
+        {
+            "name": "Firespitter"
+        },
+        {
+            "name": "Tantares"
+        }
+    ],
+    "install": [
+        {
+            "find": "HGA",
+            "install_to": "GameData"
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find": "@thumbs",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/177/Proton-M%20/%20Breeze-M/download/1.2",
+    "download_size": 28865177,
+    "download_hash": {
+        "sha1": "A3DE9F396A478E17104285AC4C1A84EAED4FC4FC",
+        "sha256": "D30003ECEF7ADC3918926086B8E88D31B63A5E65FBCAF7B01E662980B3D350E6"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
