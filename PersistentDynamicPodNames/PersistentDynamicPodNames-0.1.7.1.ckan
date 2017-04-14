@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "PersistentDynamicPodNames",
+    "name": "Persistent Dynamic Pod Names",
+    "abstract": "Configurable names for pods and ships",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://github.com/linuxgurugamer/PersistentDynamicPodNames",
+        "repository": "https://github.com/linuxgurugamer/PersistentDynamicPodNames"
+    },
+    "version": "0.1.7.1",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.2.99",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "JanitorsCloset"
+        }
+    ],
+    "install": [
+        {
+            "find": "PersistentDynamicPodNames",
+            "install_to": "GameData",
+            "filter_regexp": "ModuleManager.+\\.dll"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/PersistentDynamicPodNames/releases/download/0.1.7.1/PersistentDynamicPodNames-0.1.7.1.zip",
+    "download_size": 73378,
+    "download_hash": {
+        "sha1": "9231477F0E94E26370E5A4A17F63D6B0E94860A3",
+        "sha256": "8585820327EB4B3C0BC534D94E9DE2D400555EC3031C55AE1F50AFB03782C0C8"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
