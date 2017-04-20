@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "StockVisualEnhancements",
+    "name": "Stock Visual Enhancements",
+    "abstract": "A visual enhancement pack using EVE and Scatterer for the stock planets. ",
+    "author": "Galileo88",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/Galileo88/StockVisualEnhancements"
+    },
+    "version": "3:1.2.2",
+    "ksp_version": "1.2.2",
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "depends": [
+        {
+            "name": "SVE-Textures"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "PlanetShine"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/StockVisualEnhancements",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Galileo88/StockVisualEnhancements/releases/download/1.2.2/SVE.v1.2.2.zip",
+    "download_size": 43952004,
+    "download_hash": {
+        "sha1": "A93852A102E86C09A1E516FE1AE276A1B5A5E1F8",
+        "sha256": "D390AC9CCD88A543C3E25152B88BE702AC9F9E2A488BC9DC26715DB1C49D9289"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
