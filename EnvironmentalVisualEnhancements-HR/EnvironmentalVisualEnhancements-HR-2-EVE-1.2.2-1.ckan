@@ -1,0 +1,46 @@
+{
+    "spec_version": 1,
+    "identifier": "EnvironmentalVisualEnhancements-HR",
+    "name": "Environmental Visual Enhancements - Stock Planet Config files",
+    "abstract": "Default configuration for EVE",
+    "author": "WazWaz",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/149733-EVE",
+        "repository": "https://github.com/WazWaz/EnvironmentalVisualEnhancements"
+    },
+    "version": "2:EVE-1.2.2-1",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.2.2",
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "EnvironmentalVisualEnhancements-Config-stock"
+    ],
+    "depends": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements-Config-stock"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/BoulderCo",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/WazWaz/EnvironmentalVisualEnhancements/releases/download/EVE-1.2.2-1/EnvironmentalVisualEnhancements-Configs-1.2.2.1.zip",
+    "download_size": 61435120,
+    "download_hash": {
+        "sha1": "831EB77B86AE2A652A6B18B3B0DFCDF6DFC69374",
+        "sha256": "D4CB6F9EC08ABAE876E2CA8EBA7B6159213EBD6FE612C138ED5B5E91325CFD84"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
