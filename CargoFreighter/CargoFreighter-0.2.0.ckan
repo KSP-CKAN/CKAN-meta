@@ -15,6 +15,9 @@
     "ksp_version_max": "1.2.2",
     "depends": [
         {
+            "name": "USITools"
+        },
+        {
             "name": "CommunityResourcePack"
         },
         {
@@ -30,21 +33,7 @@
                 ".*\\.pdb$"
             ],
             "install_to": "GameData",
-            "find": "UmbraSpaceIndustries"
-        },
-        {
-            "filter_regexp": [
-                ".*\\.pdb$"
-            ],
-            "install_to": "GameData",
             "find": "CoyoteSpaceIndustries"
-        },
-        {
-            "filter_regexp": [
-                ".*\\.pdb$"
-            ],
-            "install_to": "GameData",
-            "find": "000_USITools"
         },
         {
             "install_to": "Ships",
