@@ -3,15 +3,15 @@
     "identifier": "RealismOverhaul",
     "name": "Realism Overhaul",
     "abstract": "Multipatch to KSP to give spacecraft components realistic stats and sizes, and performance based on real-world spacecraft.",
-    "author": "NathanKell",
+    "author": "stratochief66",
     "license": "CC-BY-SA",
     "release_status": "stable",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/99966",
         "repository": "https://github.com/KSP-RO/RealismOverhaul"
     },
-    "version": "10.1.0",
-    "ksp_version": "1.0.4",
+    "version": "v10.6.0",
+    "ksp_version": "1.0.5",
     "provides": [
         "RealPlumeConfigs",
         "RealFuels-Engine-Configs"
@@ -21,9 +21,6 @@
             "name": "AdvancedJetEngine"
         },
         {
-            "name": "CrossFeedEnabler"
-        },
-        {
             "name": "FerramAerospaceResearch"
         },
         {
@@ -31,9 +28,6 @@
         },
         {
             "name": "ModuleManager"
-        },
-        {
-            "name": "ModuleRCSFX"
         },
         {
             "name": "RealChute"
@@ -53,10 +47,7 @@
     ],
     "recommends": [
         {
-            "name": "B9AerospaceProceduralParts"
-        },
-        {
-            "name": "BetterBuoyancy"
+            "name": "B9-PWings-Fork"
         },
         {
             "name": "ConnectedLivingSpace"
@@ -77,9 +68,6 @@
             "name": "MechJeb2"
         },
         {
-            "name": "ModuleFixer"
-        },
-        {
             "name": "ProceduralFairings"
         },
         {
@@ -89,13 +77,13 @@
             "name": "ProceduralParts"
         },
         {
+            "name": "RCSBuildAid"
+        },
+        {
             "name": "RealSolarSystem"
         },
         {
             "name": "RemoteTech"
-        },
-        {
-            "name": "RemoteTech-Config-RSS"
         },
         {
             "name": "SemiSaturatableRW"
@@ -105,12 +93,6 @@
         },
         {
             "name": "TACLS-Config-RealismOverhaul"
-        },
-        {
-            "name": "TestFlight"
-        },
-        {
-            "name": "TestFlightConfigRO"
         },
         {
             "name": "TextureReplacer"
@@ -128,6 +110,9 @@
         },
         {
             "name": "ALCOR"
+        },
+        {
+            "name": "AtomicAge"
         },
         {
             "name": "DMagicOrbitalScience"
@@ -187,6 +172,21 @@
             "name": "SovietEngines"
         },
         {
+            "name": "RN-SalyutStations-SoyuzFerries"
+        },
+        {
+            "name": "RN-Skylab"
+        },
+        {
+            "name": "RN-SovietProbes"
+        },
+        {
+            "name": "RN-SovietRockets"
+        },
+        {
+            "name": "RN-USProbesPack"
+        },
+        {
             "name": "SpaceFactory-Voskhod-unofficial"
         },
         {
@@ -194,6 +194,15 @@
         },
         {
             "name": "SXT"
+        },
+        {
+            "name": "Taerobee"
+        },
+        {
+            "name": "Tantares"
+        },
+        {
+            "name": "TantaresLV"
         },
         {
             "name": "UniversalStorage"
@@ -216,11 +225,6 @@
             "install_to": "GameData"
         },
         {
-            "file": "GameData/KAS",
-            "install_to": "GameData",
-            "comment": "KAS config, does not overwrite"
-        },
-        {
             "file": "GameData/EngineGroupController",
             "install_to": "GameData",
             "comment": "Engine Group Controller, unique to RO."
@@ -236,11 +240,11 @@
             "comment": "SPH craft files"
         }
     ],
-    "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v10.1.0/RealismOverhaul-v10.1.0.zip",
-    "download_size": 5917552,
+    "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v10.6.0/RealismOverhaul-v10.6.0.zip",
+    "download_size": 6911247,
     "download_hash": {
-        "sha1": "42F76F87C9F4B3DE286853B13F79BAC61B4BD32F",
-        "sha256": "A9BF899F3443F74A4490D20A9C54DE227C26A2A34632B6E19B3F120E2224757F"
+        "sha1": "46C96998A100199B41A30E7420FB2D0A19B59BF7",
+        "sha256": "88C9372D4F471B6E0817DC363094A31E4FCC98028DE46A38AED6D58534494FFC"
     },
     "download_content_type": "application/zip",
     "x_generated_by": "netkan"
