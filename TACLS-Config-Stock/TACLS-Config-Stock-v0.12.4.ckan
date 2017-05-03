@@ -13,7 +13,7 @@
         "repository": "https://github.com/KSP-RO/TacLifeSupport"
     },
     "version": "v0.12.4",
-    "ksp_version": "any",
+    "ksp_version_max": "1.1.3",
     "provides": [
         "TACLS-Config"
     ],
@@ -31,6 +31,7 @@
         {
             "find": "ThunderAerospace/TacLifeSupport/LifeSupport.cfg",
             "find_matches_files": true,
+            "comment": "This installs only the LifeSupport.cfg file",
             "install_to": "GameData/ThunderAerospace/TacLifeSupport"
         }
     ],
