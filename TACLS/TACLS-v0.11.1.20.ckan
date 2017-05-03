@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.2",
     "identifier": "TACLS",
     "name": "TAC Life Support (TACLS)",
     "abstract": "Adds life support requirements and resources to all kerbals",
@@ -7,21 +7,18 @@
     "license": "CC-BY-NC-SA-3.0",
     "release_status": "stable",
     "resources": {
-        "repository": "https://github.com/taraniselsu/TacLifeSupport"
+        "homepage": "https://github.com/taraniselsu/TacLifeSupport/wiki",
+        "repository": "https://github.com/taraniselsu/TacLifeSupport",
+        "bugtracker": "https://github.com/taraniselsu/TacLifeSupport/issues"
     },
-    "version": "v0.10.1",
-    "ksp_version": "0.25",
+    "version": "v0.11.1.20",
+    "ksp_version": "1.0.2",
     "depends": [
         {
             "name": "ModuleManager"
         },
         {
             "name": "TACLS-Config"
-        }
-    ],
-    "recommends": [
-        {
-            "name": "MiniAVC"
         }
     ],
     "suggests": [
@@ -36,11 +33,11 @@
             "filter_regexp": "PluginData/TacLifeSupport/LifeSupport\\.cfg$"
         }
     ],
-    "download": "https://github.com/taraniselsu/TacLifeSupport/releases/download/v0.10.1/TacLifeSupport_0.10.1.13.zip",
-    "download_size": 5997448,
+    "download": "https://github.com/taraniselsu/TacLifeSupport/releases/download/v0.11.1.20/TacLifeSupport_0.11.1.20.zip",
+    "download_size": 5996971,
     "download_hash": {
-        "sha1": "278B0C8F4AC73DF9A4C73F9914363343E14A4890",
-        "sha256": "7E136D5DE98DC7B09D420B48DAF376298E3D103581E4C4C9BF1EA5F4D0EBFDF4"
+        "sha1": "B5764E7F699F59B86E7B01BAD774A48BFC7D5E20",
+        "sha256": "5E6E216A5F2F73F7D5544FE85C45D8919ADC35ACA91FE22EC3ED65BB56A7A7F1"
     },
     "download_content_type": "application/zip",
     "x_generated_by": "netkan"
