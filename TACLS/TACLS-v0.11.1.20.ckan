@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "TACLS",
+    "name": "TAC Life Support (TACLS)",
+    "abstract": "Adds life support requirements and resources to all kerbals",
+    "author": "Taranis Elsu",
+    "license": "CC-BY-NC-SA-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://github.com/taraniselsu/TacLifeSupport/wiki",
+        "repository": "https://github.com/taraniselsu/TacLifeSupport",
+        "bugtracker": "https://github.com/taraniselsu/TacLifeSupport/issues"
+    },
+    "version": "v0.11.1.20",
+    "ksp_version": "1.0.2",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TACLS-Config"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KSP-AVC"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ThunderAerospace",
+            "install_to": "GameData",
+            "filter_regexp": "PluginData/TacLifeSupport/LifeSupport\\.cfg$"
+        }
+    ],
+    "download": "https://github.com/taraniselsu/TacLifeSupport/releases/download/v0.11.1.20/TacLifeSupport_0.11.1.20.zip",
+    "download_size": 5996971,
+    "download_hash": {
+        "sha1": "B5764E7F699F59B86E7B01BAD774A48BFC7D5E20",
+        "sha256": "5E6E216A5F2F73F7D5544FE85C45D8919ADC35ACA91FE22EC3ED65BB56A7A7F1"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
