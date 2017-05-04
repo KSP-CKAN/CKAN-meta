@@ -1,0 +1,71 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SSRSS-Cont",
+    "name": "SSRSS Continued",
+    "abstract": "Stock Size Real Solar System.",
+    "author": "Galileo88",
+    "license": "CC-BY-NC-ND",
+    "resources": {
+        "repository": "https://github.com/Galileo88/SSRSSContinued"
+    },
+    "version": "v0.0.2.5",
+    "ksp_version": "1.2.2",
+    "provides": [
+        "Scatterer-config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "SSRSS-Rescale"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "SSRSS-StockIncl"
+        },
+        {
+            "name": "SSRSS-Clouds"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "PlanetShine"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Scatterer-config"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/SSRSS",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Galileo88/SSRSSContinued/releases/download/v0.0.2.5/SSRSS.v0.0.2.5.zip",
+    "download_size": 238495954,
+    "download_hash": {
+        "sha1": "C2D9E7DBACDF755C6D9826B612DFF5B8F4264EA3",
+        "sha256": "A34C679FD757D17C3AFFA1689BE77E42594FAFFF072A317651DFCF1FAFEDDF3C"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
