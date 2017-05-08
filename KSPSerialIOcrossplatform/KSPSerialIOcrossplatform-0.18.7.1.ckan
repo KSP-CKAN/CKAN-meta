@@ -1,0 +1,41 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KSPSerialIOcrossplatform",
+    "name": "KSP Serial IO (cross platform)",
+    "abstract": "Sends and receives data packets over a serial port. A fork of KSPSerialIO for macOS and Linux.",
+    "author": "stibbons",
+    "license": "CC-BY",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/850/KSP%20Serial%20IO%20(cross%20platform)",
+        "repository": "https://github.com/phardy/KSPSerialIO"
+    },
+    "version": "0.18.7.1",
+    "ksp_version": "1.2.2",
+    "conflicts": [
+        {
+            "name": "SerialIO"
+        }
+    ],
+    "install": [
+        {
+            "file": "KSPSerialIO/KSPSerialIO.dll",
+            "install_to": "GameData/KSPSerialIO"
+        },
+        {
+            "file": "KSPSerialIO/PsimaxSerial.dll",
+            "install_to": "GameData/KSPSerialIO"
+        },
+        {
+            "file": "KSPSerialIO/PluginData/KSPSerialIO/config.xml",
+            "install_to": "GameData/KSPSerialIO/PluginData/KSPSerialIO"
+        }
+    ],
+    "download": "https://spacedock.info/mod/850/KSP%20Serial%20IO%20%28cross%20platform%29/download/0.18.7.1",
+    "download_size": 28828,
+    "download_hash": {
+        "sha1": "597FF7CAE34E963BB5DFDFB60D3B5530556A5818",
+        "sha256": "F937F53DB7BA85869115AF4945E820CC198E6668EBDF0F0B54CDA0903AC14BA7"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
