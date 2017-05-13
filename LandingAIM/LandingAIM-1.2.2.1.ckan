@@ -1,0 +1,39 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "LandingAIM",
+    "name": "Landing AIM",
+    "abstract": "This - to display trajectory predictions. This mod is designed to help with a more accurate landing. If activated in the flight scene, it will draw the trajectory and predict the point of contact.",
+    "author": "DennyTX",
+    "license": "CC-BY-SA",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160494-122landing-aiming/",
+        "spacedock": "https://spacedock.info/mod/1365/Landing%20AIM",
+        "repository": "https://github.com/DennyTX/Landing-Aim",
+        "x_screenshot": "https://spacedock.info/content/DennyTX_1511/Landing_AIM/Landing_AIM-1494497641.0420814.png"
+    },
+    "version": "1.2.2.1",
+    "ksp_version": "1.2.2",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "filter_regexp": [
+                ".*\\.pdb$"
+            ],
+            "install_to": "GameData",
+            "find": "OLDD"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1365/Landing%20AIM/download/1.2.2.1",
+    "download_size": 9082,
+    "download_hash": {
+        "sha1": "BAED052A6FF919903FFD142E087702EF256C6945",
+        "sha256": "5E8CAEDFDA996D91759C34AFC8241C6E49CFC7B8CA7C69CF0E65B3416EC3DBB0"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
