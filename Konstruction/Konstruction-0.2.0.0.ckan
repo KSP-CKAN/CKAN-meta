@@ -7,7 +7,7 @@
     "license": "restricted",
     "release_status": "stable",
     "resources": {
-        "homepage": "http://bobpalmer.github.io/UmbraSpaceIndustries/",
+        "homepage": "http://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
         "repository": "https://github.com/BobPalmer/Konstruction"
     },
     "version": "0.2.0.0",
@@ -15,16 +15,24 @@
     "ksp_version_max": "1.3.9",
     "depends": [
         {
-            "name": "USITools"
+            "name": "FirespitterCore",
+            "min_version": "v7.6.0"
         },
         {
-            "name": "CommunityResourcePack"
+            "name": "ModuleManager",
+            "min_version": "2.7.5"
         },
         {
-            "name": "FirespitterCore"
+            "name": "USITools",
+            "min_version": "v0.9.0.0"
         },
         {
-            "name": "ModuleManager"
+            "name": "CommunityResourcePack",
+            "min_version": "v0.7.0.0"
+        },
+        {
+            "name": "CommunityCategoryKit",
+            "min_version": "v2.0.0.0"
         }
     ],
     "conflicts": [
@@ -49,6 +57,6 @@
         "sha256": "8387988E5CB72055D0E624452B91C7FDCCCDA4F87AA1851CAD1723AD15E579CF"
     },
     "download_content_type": "application/zip",
-    "x_last_revision_by": "Olympic1",
+    "x_last_revision_by": "DoktorKrogg",
     "x_generated_by": "netkan"
 }
