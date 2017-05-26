@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "USI-EXP",
+    "name": "USI Exploration Pack",
+    "abstract": "PackRat Rover and parts geared towards planetary exploration",
+    "author": "RoverDude",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "repository": "https://github.com/BobPalmer/ExplorationPack"
+    },
+    "version": "0.8.0.0",
+    "ksp_version_min": "1.2.9",
+    "ksp_version_max": "1.3.9",
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "v7.6.0"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.7.5"
+        },
+        {
+            "name": "USITools",
+            "min_version": "v0.9.0.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "v0.7.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/ExpPack",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        },
+        {
+            "find": "UmbraSpaceIndustries/SrvPack",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        },
+        {
+            "find": "UmbraSpaceIndustries/SubPack/Otter",
+            "install_to": "GameData/UmbraSpaceIndustries/SubPack"
+        }
+    ],
+    "download": "https://github.com/BobPalmer/ExplorationPack/releases/download/0.8.0.0/ExpPack_0.8.0.0.zip",
+    "download_size": 12299675,
+    "download_hash": {
+        "sha1": "193967F83815062D52A88133A38B52EFF551F89E",
+        "sha256": "20C45D0A5D06C8C85C67E1084BCE00939BDC289D2B81655A716EFA10DABFA15C"
+    },
+    "download_content_type": "application/zip",
+    "x_last_revision_by": "DoktorKrogg",
+    "x_generated_by": "netkan"
+}
