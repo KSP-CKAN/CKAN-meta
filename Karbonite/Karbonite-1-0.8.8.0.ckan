@@ -8,7 +8,7 @@
     "license": "restricted",
     "release_status": "stable",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/80650-105",
+        "homepage": "http://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
         "repository": "https://github.com/BobPalmer/Karbonite"
     },
     "version": "1:0.8.8.0",
@@ -19,19 +19,24 @@
     ],
     "depends": [
         {
-            "name": "USITools"
+            "name": "FirespitterCore",
+            "min_version": "v7.6.0"
         },
         {
-            "name": "USI-Core"
+            "name": "ModuleManager",
+            "min_version": "2.7.5"
         },
         {
-            "name": "CommunityResourcePack"
+            "name": "USITools",
+            "min_version": "v0.9.0.0"
         },
         {
-            "name": "FirespitterCore"
+            "name": "CommunityResourcePack",
+            "min_version": "v0.7.0.0"
         },
         {
-            "name": "ModuleManager"
+            "name": "USI-Core",
+            "min_version": "v0.4.0.0"
         }
     ],
     "suggests": [
@@ -61,6 +66,6 @@
         "sha256": "BAE6025116341CFCA550DB9819DA61A0B0FB8C939939C1600BD72701FEEA287D"
     },
     "download_content_type": "application/zip",
-    "x_last_revision_by": "harryyoung",
+    "x_last_revision_by": "DoktorKrogg",
     "x_generated_by": "netkan"
 }
