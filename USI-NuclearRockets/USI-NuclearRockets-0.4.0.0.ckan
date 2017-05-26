@@ -7,7 +7,7 @@
     "license": "restricted",
     "release_status": "development",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/121597-alpha-project-orion-nuclear-pulse-engine/",
+        "homepage": "http://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
         "repository": "https://github.com/BobPalmer/NuclearRockets"
     },
     "version": "0.4.0.0",
@@ -15,10 +15,12 @@
     "ksp_version_max": "1.3.9",
     "depends": [
         {
-            "name": "USITools"
+            "name": "USITools",
+            "min_version": "v0.9.0.0"
         },
         {
-            "name": "USI-Core"
+            "name": "USI-Core",
+            "min_version": "v0.4.0.0"
         }
     ],
     "conflicts": [
@@ -39,6 +41,6 @@
         "sha256": "0AAE5A5BCC576B6559510E64219922B41899356D3A8175CD9E760D80D4DFE9AF"
     },
     "download_content_type": "application/zip",
-    "x_last_revision_by": "harryyoung",
+    "x_last_revision_by": "DoktorKrogg",
     "x_generated_by": "netkan"
 }
