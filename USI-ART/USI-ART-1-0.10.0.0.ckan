@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "USI-ART",
+    "name": "USI Asteroid Recycling Technologies",
+    "abstract": "Allows you to remove asteroid mass and attach multiple reconfigurable storage tanks to the asteroid's surface.",
+    "author": "RoverDude",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/82809-105",
+        "repository": "https://github.com/BobPalmer/ART"
+    },
+    "version": "1:0.10.0.0",
+    "ksp_version_min": "1.2.9",
+    "ksp_version_max": "1.3.9",
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "v7.1.5"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.13"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.5.4"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.4.8"
+        },
+        {
+            "name": "USI-Core",
+            "min_version": "0.1.2"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/ART",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/BobPalmer/ART/releases/download/0.10.0.0/ART_0.10.0.0.zip",
+    "download_size": 16034984,
+    "download_hash": {
+        "sha1": "1E8812B6E0258A473187F972F66CE2A7D1CC0189",
+        "sha256": "2CAED441647E5E083B3870D5111C91BCA88FDF3DA7A6552B4F9CCB8E6A1BB1C4"
+    },
+    "download_content_type": "application/zip",
+    "x_last_revision_by": "harryyoung",
+    "x_generated_by": "netkan"
+}
