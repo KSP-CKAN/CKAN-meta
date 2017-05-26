@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Probus has indicated an intention to upload this as a separate mod, rather than bundling in ETT",
+    "identifier": "YongeTechTreesPlugin-Revived",
+    "name": "YongeTech Tech Trees Plugin Revived",
+    "abstract": "Provides support to make creating and using custom tech trees easier. Allows part unlocks to be listed in the TechTree ConfigNode rather than having to edit every Part ConfigNode. Adds support for using custom textures to create icons for the tech tree. Adds a tree selection window to let the player select a tree for each new game.",
+    "author": [
+        "yongedevil",
+        "Probus"
+    ],
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/112886-*",
+        "spacedock": "https://spacedock.info/mod/199/Engineering%20Tech%20Tree",
+        "repository": "https://github.com/yongedevil/YTK_TechTrees",
+        "x_screenshot": "https://spacedock.info/content/Probus_261/Engineering_Tech_Tree/Engineering_Tech_Tree-1455988837.071927.jpg"
+    },
+    "version": "20161211",
+    "ksp_version": "1.2.2",
+    "provides": [
+        "YongeTechTreesPlugin"
+    ],
+    "suggests": [
+        {
+            "name": "ETT"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "YongeTechTreesPlugin"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/YongeTech_TechTreesPlugin",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/YongeTech_TechTreeConverter",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/199/Engineering%20Tech%20Tree/download/v20161211",
+    "download_size": 1612679,
+    "download_hash": {
+        "sha1": "4747B53B731B444C174950893FD8A93E7A1B5EB6",
+        "sha256": "40FF21CBE7EC6EA1B1B648DFE4C814255275633884F702529247906306E7E0A4"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
