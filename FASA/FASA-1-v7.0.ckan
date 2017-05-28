@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "comment": "No Comment",
+    "identifier": "FASA",
+    "name": "FASA",
+    "abstract": "Re-release of FASA by Raidernick under the new management of Nathankell team.",
+    "author": "Raidernick",
+    "license": "CC-BY-SA",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/22888-105-fasa-544",
+        "repository": "https://github.com/KSP-RO/FASA-RO"
+    },
+    "version": "1:v7.0",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.2.2",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RasterPropMonitor"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "FASALaunchClamps"
+        }
+    ],
+    "install": [
+        {
+            "find": "FASA",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/FASA-RO/releases/download/v7.0/FASA_v7.0.zip",
+    "download_size": 93321431,
+    "download_hash": {
+        "sha1": "1D128D1EC3EFA6D7EC4B2481589A84E13AF565B3",
+        "sha256": "DBDFE2A082CBBE5EBCEB9920671C5D04C9C78B079C86EF5033BEF3D7D5634713"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
