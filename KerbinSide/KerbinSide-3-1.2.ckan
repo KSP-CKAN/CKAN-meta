@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "KerbinSide",
+    "name": "Kerbin-Side Complete continued",
+    "abstract": "Contuniation of Kerbin-Side ",
+    "author": "GER_Space",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160099-122-kerbin-side-continued/",
+        "spacedock": "https://spacedock.info/mod/1347/Kerbin-Side%20Complete%20continued"
+    },
+    "version": "3:1.2",
+    "ksp_version": "1.2.2",
+    "provides": [
+        "KerbinSide-virt"
+    ],
+    "depends": [
+        {
+            "name": "KerbalKonstructs"
+        },
+        {
+            "name": "KerbinSideCore"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbinSide-virt"
+        }
+    ],
+    "install": [
+        {
+            "find": "MainBases",
+            "install_to": "GameData/KerbinSide"
+        },
+        {
+            "find": "GroundControl",
+            "install_to": "GameData/KerbinSide"
+        },
+        {
+            "find": "KerbinSide-Complete.version",
+            "install_to": "GameData/KerbinSide",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/1347/Kerbin-Side%20Complete%20continued/download/1.2",
+    "download_size": 54498783,
+    "download_hash": {
+        "sha1": "2EE169EF687BB9A14B786C2EFCFF1616A8968D88",
+        "sha256": "23EB06BC131CCC730B12B774DFC0B094C4AC93AD9A0E33DE380AEE27641B0B2A"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
