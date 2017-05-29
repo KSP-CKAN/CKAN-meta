@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "KerbinSideSkyways",
+    "name": "Kerbin-Side SkyWays",
+    "abstract": "a lighter Version of Kerbin-SideComplete with only the bases and less facilities at the bases",
+    "author": "GER_Space",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160099-122-kerbin-side-continued/",
+        "spacedock": "https://spacedock.info/mod/1350/Kerbin-Side%20SkyWays"
+    },
+    "version": "3:1.2.1",
+    "ksp_version_min": "1.2.2",
+    "ksp_version_max": "1.3.0",
+    "provides": [
+        "KerbinSide-virt"
+    ],
+    "depends": [
+        {
+            "name": "KerbalKonstructs"
+        },
+        {
+            "name": "KerbinSideCore"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbinSide-virt"
+        }
+    ],
+    "install": [
+        {
+            "find": "MainBases",
+            "install_to": "GameData/KerbinSide"
+        },
+        {
+            "find": "KerbinSide-SkyWays.version",
+            "install_to": "GameData/KerbinSide",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/1350/Kerbin-Side%20SkyWays/download/1.2.1",
+    "download_size": 12006087,
+    "download_hash": {
+        "sha1": "8B12B822C7D4DD1DA163137AAF6F34D0F24BEB1F",
+        "sha256": "080B42CB84D80145B7CF44B7EA47751610C4B871BC099BFB94817437F01820BD"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
