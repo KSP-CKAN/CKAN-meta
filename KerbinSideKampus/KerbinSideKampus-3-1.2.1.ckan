@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "KerbinSideKampus",
+    "name": "Kerbin-Side Kampus cont.",
+    "abstract": "Adds some buildings around the KSC",
+    "author": "GER_Space",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160099-122-kerbin-side-continued/",
+        "spacedock": "https://spacedock.info/mod/1351/Kerbin-Side%20Kampus%20cont."
+    },
+    "version": "3:1.2.1",
+    "ksp_version_min": "1.2.2",
+    "ksp_version_max": "1.3.0",
+    "provides": [
+        "KerbinSide-virt"
+    ],
+    "depends": [
+        {
+            "name": "KerbalKonstructs"
+        },
+        {
+            "name": "KerbinSideCore"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbinSide-virt"
+        }
+    ],
+    "install": [
+        {
+            "find": "MainBases",
+            "install_to": "GameData/KerbinSide"
+        },
+        {
+            "find": "KerbinSide-Kampus.version",
+            "install_to": "GameData/KerbinSide",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/1351/Kerbin-Side%20Kampus%20cont./download/1.2.1",
+    "download_size": 8002204,
+    "download_hash": {
+        "sha1": "2F453FF907FF2BA5ACE754832573462B32254417",
+        "sha256": "4D4CE62AD4F387BD8885C7C60F3CF3F71D61335698AFBDB727B80D8B68FFA4D7"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
