@@ -1,0 +1,41 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KWRocketryRedux-GraduatedPwr",
+    "name": "KW Rocketry Redux - Graduated Power Response Configs",
+    "abstract": "For graduated power response on engines",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-SA-3.0",
+    "resources": {
+        "repository": "https://github.com/linuxgurugamer/KWRocketryRedux"
+    },
+    "version": "3.1.4",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.3.99",
+    "provides": [
+        "KWRocketryRedux-power"
+    ],
+    "depends": [
+        {
+            "name": "KWRocketryRedux"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KWRocketryRedux-power"
+        }
+    ],
+    "install": [
+        {
+            "find": "KWRocketry/Extras/GraduatedPowerResponseConfigs/GameData/KWRocketry",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/KWRocketryRedux/releases/download/3.1.4/KWRocketryRedux-3.1.4.zip",
+    "download_size": 51659412,
+    "download_hash": {
+        "sha1": "A2EED4FA046A2C706173DFC325077A7926F427C3",
+        "sha256": "C57C7CCB26381FAB63D6D39EC53AF9578A9067E864DEA63AD5D8297317F4149F"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
