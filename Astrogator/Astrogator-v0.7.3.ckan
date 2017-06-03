@@ -1,0 +1,65 @@
+{
+    "spec_version": 1,
+    "comment": "Indexed by author. Please report any problems at the repository bugtracker.",
+    "identifier": "Astrogator",
+    "name": "Astrogator",
+    "abstract": "Summary of transfer windows with automatic maneuver node creation",
+    "description": "Displays a table of all of the bodies reachable from the current location, along with the time till burn and delta V needed to reach them. These values can be used to time warp or generate maneuver nodes. Supports prograde and retrograde orbits, nested ejection trajectories, transfers to satellites of the current parent body, and transfers to other vessels.",
+    "author": "HebaruSan",
+    "license": "GPL-3.0",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/155998-122-astrogator",
+        "repository": "https://github.com/HebaruSan/Astrogator",
+        "bugtracker": "https://github.com/HebaruSan/Astrogator/issues"
+    },
+    "version": "v0.7.3",
+    "ksp_version_min": "1.3.0",
+    "ksp_version_max": "1.3.8",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "GravityTurn"
+        },
+        {
+            "name": "Trajectories"
+        },
+        {
+            "name": "BetterBurnTime"
+        },
+        {
+            "name": "PreciseNode"
+        },
+        {
+            "name": "PreciseManeuver"
+        },
+        {
+            "name": "LandingHeight"
+        },
+        {
+            "name": "NavballDockingIndicator"
+        },
+        {
+            "name": "WarpEverywhere"
+        },
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "ManeuverQueue"
+        }
+    ],
+    "download": "https://github.com/HebaruSan/Astrogator/releases/download/v0.7.3/Astrogator.zip",
+    "download_size": 110756,
+    "download_hash": {
+        "sha1": "3A277342405F4CCC8AC6DB85365370A9C355FFF6",
+        "sha256": "673C69E89E117E69D082596572F375BD5E97DDD4323F0109AD6B6DD3DB86653D"
+    },
+    "download_content_type": "application/zip",
+    "kind": "package",
+    "x_generated_by": "netkan"
+}
