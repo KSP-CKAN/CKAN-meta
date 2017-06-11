@@ -1,65 +1,79 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
+    "comment": "return vref when .version file is valid",
     "identifier": "KSPInterstellarExtended",
     "name": "KSP Interstellar Extended",
-    "abstract": "Full download of KSPI-E",
+    "abstract": "KSP Interstellar Extended (KSPI-E) is a plugin for Kerbal Space Program, designed to encourage bootstrapping toward ever more advanced levels of technology as well as utilizing In-Situ resources to expand the reach of Kerbal civilization. KSP Interstellar Extended aims to continue in Fractals original KSPI vision in providing a realistic road to the stars. Note: requires CTT 3.0.1",
     "author": "FreeThinker",
     "license": "GPL-3.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/111159-WIP-0-90-KSP-Interstellar-Extended",
-        "repository": "https://github.com/sswelm/KSPInterstellar",
-        "kerbalstuff": "https://kerbalstuff.com/mod/791/KSP%20Interstellar%20Extended",
-        "x_screenshot": "https://kerbalstuff.com/content/FreeThinker_6401/KSP_Interstellar_Extended/KSP_Interstellar_Extended-1431587321.3258672.jpg"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/100190-113/&page=1",
+        "spacedock": "https://spacedock.info/mod/172/KSP%20Interstellar%20Extended",
+        "repository": "https://github.com/sswelm/KSP-Interstellar-Extended",
+        "x_screenshot": "https://spacedock.info/content/FreeThinker_517/KSP_Interstellar_Extended/KSP_Interstellar_Extended-1470128568.7429862.png"
     },
     "version": "1.4.3",
-    "ksp_version": "1.0.4",
+    "ksp_version": "1.3.0",
     "depends": [
         {
             "name": "CommunityResourcePack",
-            "min_version": "0.4.2"
+            "min_version": "0.7.1"
         },
         {
-            "name": "Toolbar",
-            "min_version": "1.7.9"
-        },
-        {
-            "name": "InterstellarFuelSwitch",
-            "min_version": "1.7"
+            "name": "InterstellarFuelSwitch-Core",
+            "min_version": "2.6.1"
         },
         {
             "name": "TweakScale",
-            "min_version": "2.1"
+            "min_version": "2.3.3"
         },
         {
             "name": "ModuleManager",
-            "min_version": "2.6.3"
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "CommunityTechTree",
+            "min_version": "1:3.1.0"
+        },
+        {
+            "name": "UniversalStorage",
+            "min_version": "1.2.2"
         }
     ],
     "recommends": [
         {
-            "name": "FilterExtensions"
-        }
-    ],
-    "suggests": [
-        {
-            "name": "CommunityTechTree"
+            "name": "InterstellarFuelSwitch",
+            "min_version": "2.6.1"
         },
         {
-            "name": "CrossFeedEnabler"
+            "name": "FilterExtensions",
+            "min_version": "3.0.0"
+        },
+        {
+            "name": "HideEmptyTechNodes",
+            "min_version": "0.8.0"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        },
+        {
+            "name": "UniversalStorage"
+        },
+        {
+            "name": "PersistentRotation"
         }
     ],
     "install": [
         {
-            "file": "GameData/WarpPlugin",
-            "install_to": "GameData",
-            "filter": "MiniAVC.xml"
+            "find": "GameData/WarpPlugin",
+            "install_to": "GameData"
         }
     ],
-    "download": "https://archive.org/download/KSPInterstellarExtended-1.4.3/67B69B06-KSPInterstellarExtended-1.4.3.zip",
-    "download_size": 47886563,
+    "download": "https://spacedock.info/mod/172/KSP%20Interstellar%20Extended/download/1.4.3",
+    "download_size": 116932770,
     "download_hash": {
-        "sha1": "67B69B06081EC6E3D796255D63E7CBCEDE3FECEE",
-        "sha256": "796495DAB462DE7028431C5B39332D49732AD7A687BFD54FFE367B2637E18804"
+        "sha1": "F471E7595B3F2C3418B045FE0DF293D502817F99",
+        "sha256": "25D80260E5F154ECD647D2347EDD000C03B3FACFB305B05A0811CA92FBE4CDF0"
     },
     "download_content_type": "application/zip",
     "x_generated_by": "netkan"
