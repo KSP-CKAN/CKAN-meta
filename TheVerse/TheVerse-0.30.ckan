@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TheVerse",
+    "name": "Firefly's The Verse - 34Tauri(2020) [0.19 Alpha Dev] [WIP] [1.2.2] [Kopernicus]",
+    "abstract": "The Verse - Calling All Browncoats, Located approximately 20 Light Years from Kerbol, a small collection of stars have been identified. A new System has been found, and has now been named 34Tauri(2020).",
+    "author": "Pretorian28715",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160919-wip-122-kopernicus-34tauri2020-%25E2%2580%2593-the-verse-019-alpha-dev/",
+        "spacedock": "https://spacedock.info/mod/1388/Firefly's%20The%20Verse%20-%2034Tauri(2020)%20[0.19%20Alpha%20Dev]%20[WIP]%20[1.2.2]%20[Kopernicus]"
+    },
+    "version": "0.30",
+    "ksp_version": "1.3.0",
+    "depends": [
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "CommunityTerrainTexturePack"
+        }
+    ],
+    "install": [
+        {
+            "file": "1 - Main/GameData/TheVerse",
+            "install_to": "GameData"
+        },
+        {
+            "file": "2 - Planets/GameData/TheVerse",
+            "install_to": "GameData",
+            "filter_regexp": [
+                ".*\\.[vV]ersion",
+                ".*._License\\.txt",
+                "TBG_LICENSE.txt",
+                "TBG_Textures.txt"
+            ]
+        },
+        {
+            "file": "3 - Moons/GameData/TheVerse",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1388/Firefly%27s%20The%20Verse%20-%2034Tauri%282020%29%20%5B0.19%20Alpha%20Dev%5D%20%5BWIP%5D%20%5B1.2.2%5D%20%5BKopernicus%5D/download/0.30",
+    "download_size": 94441322,
+    "download_hash": {
+        "sha1": "D41D3576108FE184C469C4AD36D902AE02399122",
+        "sha256": "F43755D70C4BC01739BDE024442B415FCE2F620DADF8469A22B6754C8AC8C5F4"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
