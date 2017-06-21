@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "ConfigurableContainers-Core",
+    "name": "Configurable Containers Core",
+    "abstract": "This is the core configuration for the Configurable Containers.",
+    "author": [
+        "allista"
+    ],
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/150104-12-configurable-containers",
+        "spacedock": "https://spacedock.info/mod/1002/Configurable%20Containers",
+        "repository": "https://github.com/allista/ConfigurableContainers",
+        "bugtracker": "https://github.com/allista/ConfigurableContainers/issues",
+        "x_screenshot": "https://spacedock.info/content/allista_931/Configurable_Containers/Configurable_Containers-1476558929.8494947.png"
+    },
+    "version": "2.4.1",
+    "ksp_version": "1.3.0",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ConfigurableContainers/TankTypes.cfg",
+            "install_to": "GameData/ConfigurableContainers"
+        },
+        {
+            "file": "GameData/ConfigurableContainers/TankConfigs.cfg",
+            "install_to": "GameData/ConfigurableContainers"
+        },
+        {
+            "file": "GameData/ConfigurableContainers/Cryogenics.cfg",
+            "install_to": "GameData/ConfigurableContainers"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1002/Configurable%20Containers/download/2.4.1",
+    "download_size": 27455,
+    "download_hash": {
+        "sha1": "AB411B38CA408164E041443F40B34F115EFE3D90",
+        "sha256": "F313FB90A4E7194DC290DC4D4EF67DA52CBAB985C4E13BB4B07723825A22C121"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
