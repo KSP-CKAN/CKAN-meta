@@ -1,0 +1,34 @@
+{
+    "spec_version": 1,
+    "identifier": "SETI-MetaModPack",
+    "name": "SETI-MetaModPack",
+    "abstract": "Basic Configs to make SETI mods work well together.",
+    "author": "Y3mo",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/106130",
+        "repository": "https://github.com/Y3mo/SETI-MetaModPack"
+    },
+    "version": "1.3.0.0",
+    "ksp_version_min": "1.2.2",
+    "ksp_version_max": "1.99.99",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "SETImetaModPack",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Y3mo/SETI-MetaModPack/releases/download/1.3.0.0/SETImetaModPack-1.3.0.0.zip",
+    "download_size": 1338,
+    "download_hash": {
+        "sha1": "DE7ED9BB967E247F0B97E4BF6800C68CEBD682F2",
+        "sha256": "05F003826922B8195E8DA2576EB0F72306C79891199F45E51A58779F36A265A0"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
