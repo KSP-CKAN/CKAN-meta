@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Ships installed again",
+    "identifier": "RN-SovietProbes",
+    "name": "Soviet Probes",
+    "abstract": "So here is yet another project. This time I am working on the series of soviet probes, focusing on the luna and sputnik probes. I will also do Molniya and Polyot probes.",
+    "author": "Raidernick",
+    "license": "CC-BY-NC-ND-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/88045",
+        "repository": "https://github.com/KSP-RO/SovietProbes"
+    },
+    "version": "1:v2.4",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.3.99",
+    "depends": [
+        {
+            "name": "BDAnimationModules"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RN-SovietRockets"
+        }
+    ],
+    "install": [
+        {
+            "find": "RN_Soviet_Probes",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/SovietProbes/releases/download/v2.4/RN_Soviet_Probes_v2.4.zip",
+    "download_size": 20693603,
+    "download_hash": {
+        "sha1": "CA28F8E7E19574E37D1FD6F9A700F03CBB2F7007",
+        "sha256": "C6EB26A6CBEA6607FDBA4EBA7F1EC89C9AD83C5B55081E32D55DD8683CE119D6"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
