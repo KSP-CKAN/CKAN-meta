@@ -12,7 +12,9 @@
     "version": "1.2.2-RC3",
     "ksp_version": "1.2.2",
     "provides": [
-        "EnvironmentalVisualEnhancements-Config"
+        "EnvironmentalVisualEnhancements-Config",
+        "Scatterer-sunflare",
+        "Scatterer-config"
     ],
     "depends": [
         {
@@ -23,6 +25,14 @@
         },
         {
             "name": "RealSolarSystem"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Scatterer-sunflare"
+        },
+        {
+            "name": "Scatterer-config"
         }
     ],
     "install": [
