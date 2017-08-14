@@ -1,0 +1,45 @@
+{
+    "spec_version": 1,
+    "comment": "FAR only supports one wind provider at once",
+    "identifier": "KerbalWind",
+    "name": "Kerbal Wind",
+    "abstract": "Implements wind and a continuous-gusts model for Ferram Aerospace Research. Provides GUI with settings for wind direction, speed and turbulence magnitude.",
+    "author": [
+        "DaMichel",
+        "silverfox8124"
+    ],
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/threads/107989",
+        "repository": "https://github.com/DaMichel/KerbalWind"
+    },
+    "version": "R13",
+    "ksp_version": "1.1",
+    "provides": [
+        "FARWind"
+    ],
+    "depends": [
+        {
+            "name": "FerramAerospaceResearch"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "FARWind"
+        }
+    ],
+    "download": "https://github.com/DaMichel/KerbalWind/releases/download/R13/KerbalWind13.zip",
+    "download_size": 17054,
+    "download_hash": {
+        "sha1": "6BB043885D9C91D641B33C3673CC81124FCC6EB2",
+        "sha256": "B26E281F236BE6C0556CF2A28BA25820A8FEA4D682D7C028ADABF31ACD43CA21"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
