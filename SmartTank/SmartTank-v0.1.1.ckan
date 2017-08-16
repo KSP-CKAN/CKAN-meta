@@ -1,0 +1,56 @@
+{
+    "spec_version": 1,
+    "comment": "Indexed by author. Please report any problems at the repository bugtracker.",
+    "identifier": "SmartTank",
+    "name": "SmartTank",
+    "abstract": "Automatically resizes ProceduralParts fuel tanks to fit a specified thrust to weight ratio",
+    "description": "Uses an embedded copy of Kerbal Engineer's vessel simulator to determine the TWR of each stage, then adjusts the sizes of tanks from Procedural Parts to fit a user-specified TWR. Also sets top and bottom diameters to match attached parts, matches the fuel tank type to the attached engine, and allows the user to change the default texture. All such features can be toggled at the part level with tweakables or at the system level via a button in the stock toolbar.",
+    "author": "HebaruSan",
+    "license": "GPL-3.0",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/162743-130-smarttank/",
+        "repository": "https://github.com/HebaruSan/SmartTank",
+        "bugtracker": "https://github.com/HebaruSan/SmartTank/issues"
+    },
+    "version": "v0.1.1",
+    "ksp_version_min": "1.3.0",
+    "ksp_version_max": "1.3.8",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ProceduralParts"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "LoadingTipsPlus"
+        },
+        {
+            "name": "ProceduralParts-Textures-BattleTechAerospace"
+        },
+        {
+            "name": "ProceduralParts-Textures-SCCKSCS"
+        },
+        {
+            "name": "ProceduralParts-Textures-SaturnNova"
+        },
+        {
+            "name": "VensStylePPTextures"
+        },
+        {
+            "name": "MainSailorTextures-Complete"
+        }
+    ],
+    "download": "https://github.com/HebaruSan/SmartTank/releases/download/v0.1.1/SmartTank.zip",
+    "download_size": 86794,
+    "download_hash": {
+        "sha1": "A172B5DD507292D33B96CC093867246CFB54ABD9",
+        "sha256": "62D124FD8164FB751236755AA2BB9F431CBF4CBE8C2D75506A6209C6B102EE9D"
+    },
+    "download_content_type": "application/zip",
+    "kind": "package",
+    "x_generated_by": "netkan"
+}
