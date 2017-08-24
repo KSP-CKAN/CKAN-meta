@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Asclepius",
+    "name": "Asclepius",
+    "abstract": "Asclepius a Kopernicus planet SSTO playground",
+    "author": [
+        "MrChumley"
+    ],
+    "license": "CC0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/113949-105-asclepius-a-kopernicus-planet-ssto-playground/",
+        "repository": "https://github.com/MrChumley/Asclepius"
+    },
+    "version": "2:v3.0",
+    "ksp_version": "1.3",
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "Kopernicus",
+            "min_version": "2:release-1.3.0-2"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Asclepius-clouds"
+        },
+        {
+            "name": "ContractConfigurator-Asclepius"
+        }
+    ],
+    "install": [
+        {
+            "find": "Asclepius",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/MrChumley/Asclepius/releases/download/v3.0/AsclepiusV3-0.zip",
+    "download_size": 4444761,
+    "download_hash": {
+        "sha1": "58BAA3D9398B5107E2E0A4CF0FBA42F8CCCB9876",
+        "sha256": "409C25872F160BADF336471FB628E64D7C474B0612B678E154B734D7F3019F08"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
