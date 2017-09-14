@@ -13,6 +13,11 @@
     },
     "version": "0.1.0",
     "ksp_version": "1.3.0",
+    "depends": [
+        {
+            "name": "ProgressParser"
+        }
+    ],
     "install": [
         {
             "filter_regexp": [
@@ -20,13 +25,6 @@
             ],
             "install_to": "GameData",
             "find": "KaptainsLog"
-        },
-        {
-            "filter_regexp": [
-                ".*~$"
-            ],
-            "install_to": "GameData",
-            "find": "DMagicUtilities"
         }
     ],
     "download": "https://spacedock.info/mod/1523/The%20Kaptain%27s%20Log/download/0.1.0",
