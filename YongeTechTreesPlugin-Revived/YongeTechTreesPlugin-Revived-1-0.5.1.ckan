@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "YongeTechTreesPlugin-Revived",
+    "name": "YongeTech Tech Trees Plugin Revived",
+    "abstract": "Provides support to make creating and using custom tech trees easier. Allows part unlocks to be listed in the TechTree ConfigNode rather than having to edit every Part ConfigNode. Adds support for using custom textures to create icons for the tech tree. Adds a tree selection window to let the player select a tree for each new game.",
+    "author": [
+        "yongedevil",
+        "linuxgurugamer"
+    ],
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/165667-*",
+        "spacedock": "https://spacedock.info/mod/1526/YongeTech:%20Tech%20Trees%20Plugin%20Re-Revived",
+        "repository": "https://github.com/linuxgurugamer/YTK_TechTrees",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/YongeTech_Tech_Trees_Plugin_Re-Revived/YongeTech_Tech_Trees_Plugin_Re-Revived-1505867502.4576943.png"
+    },
+    "version": "1:0.5.1",
+    "ksp_version": "1.3.0",
+    "provides": [
+        "YongeTechTreesPlugin"
+    ],
+    "suggests": [
+        {
+            "name": "ETT"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "YongeTechTreesPlugin"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/YongeTech_TechTreesPlugin",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1526/YongeTech:%20Tech%20Trees%20Plugin%20Re-Revived/download/0.5.1",
+    "download_size": 49057,
+    "download_hash": {
+        "sha1": "53CD95517B504A2DFC2BB39D4ADEF1153425BCFC",
+        "sha256": "8255798DCE9D9D6A303504B1F8C153D9563AB17FDB15D9F96D2E13FD0E0D2FCF"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
