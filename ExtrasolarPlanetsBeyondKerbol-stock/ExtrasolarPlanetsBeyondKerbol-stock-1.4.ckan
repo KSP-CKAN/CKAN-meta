@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ExtrasolarPlanetsBeyondKerbol-stock",
+    "name": "Extrasolar Planets Byond Kerbol - Stock configuration",
+    "abstract": "Adds a new star system in orbit around the Kerbol System",
+    "author": "AndyDrawsPrettyPictures",
+    "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/130656-105-kopernicus-extrasolar-planets-beyond-kerbol-051/&page=1",
+        "spacedock": "https://spacedock.info/mod/202/Extrasolar:%20Planets%20Beyond%20Kerbol",
+        "x_screenshot": "https://spacedock.info/content/AndyDrawsPrettyPictures_749/Extrasolar_Planets_Beyond_Kerbol/Extrasolar_Planets_Beyond_Kerbol-1485483882.154574.png"
+    },
+    "version": "1.4",
+    "ksp_version": "1.3.0",
+    "provides": [
+        "CustomAsteroids-Pops"
+    ],
+    "depends": [
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KSPInterstellarExtended"
+        },
+        {
+            "name": "BetterTimeWarp"
+        },
+        {
+            "name": "USI-NuclearRockets"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "FinalFrontier"
+        },
+        {
+            "name": "DistantObject"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/Extrasolar",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/202/Extrasolar:%20Planets%20Beyond%20Kerbol/download/1.4",
+    "download_size": 215221236,
+    "download_hash": {
+        "sha1": "794E6E56A6CC7ABB9F540A5C0F93AC1006B3BB08",
+        "sha256": "B49861D6EBD364C47F7613788EE2E06B9A733866722979B739D224C43BF56F2E"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
