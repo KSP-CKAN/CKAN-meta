@@ -1,0 +1,98 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GPP",
+    "name": "Galileo's Planet Pack",
+    "abstract": "Galileo's Planet Pack is an all new solar system. With high quality planets to explore, and more challeging gameplay than the stock game, GPP will give even the most accomplished KSPer hours of fun. GPP removes the stock planetary system and will corrupt stock system game saves.",
+    "author": "Galileo88",
+    "license": "CC-BY-NC-ND",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152136-ksp-13-galileos-planet-pack-v151-8-sept-2017/",
+        "repository": "https://github.com/Galileo88/Galileos-Planet-Pack"
+    },
+    "version": "1.5.2",
+    "ksp_version": "1.3.0",
+    "provides": [
+        "Scatterer-sunflare",
+        "LoadingScreenManager"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "Scatterer-config"
+        },
+        {
+            "name": "GPPTextures"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "GPPCloudsHighRes"
+        },
+        {
+            "name": "GPPCloudsLowRes"
+        },
+        {
+            "name": "Strategia"
+        },
+        {
+            "name": "FinalFrontier"
+        },
+        {
+            "name": "TextureReplacer"
+        },
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "OPM-Galileo"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "LoadingScreenManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "GPP",
+            "install_to": "GameData",
+            "comment": "This is the main install for GPP"
+        },
+        {
+            "find": "Optional Mods/GPP_KSCSwitcher/GameData/KSCSwitcher",
+            "install_to": "GameData",
+            "comment": "This correctly installs KSCSwitcher for GPP"
+        },
+        {
+            "find": "Optional Mods/GPP_TextureReplacer/GameData/TextureReplacer",
+            "install_to": "GameData",
+            "comment": "This correctly installs TextureReplacer for GPP"
+        },
+        {
+            "find": "Optional Mods/GPP_FinalFrontier/GameData/Nereid",
+            "install_to": "GameData",
+            "comment": "This correctly installs Final Fronteir for GPP"
+        },
+        {
+            "find": "Optional Mods/LoadingScreen/GameData/LoadingScreenManager",
+            "install_to": "GameData",
+            "comment": "This correctly installs LoadingScreenManager for GPP"
+        }
+    ],
+    "download": "https://github.com/Galileo88/Galileos-Planet-Pack/releases/download/1.5.2/Galileos.Planet.Pack.1.5.2.zip",
+    "download_size": 254573508,
+    "download_hash": {
+        "sha1": "C79BC6EEFA5BD4418E6D5C121E71BB42201EE7AC",
+        "sha256": "C08DAC7C5882C27D5E590A442CBDC58FB5966FAE7F00B6EC78EFAF96B12476CA"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
