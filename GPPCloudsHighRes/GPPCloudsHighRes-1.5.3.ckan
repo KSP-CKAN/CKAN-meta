@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GPPCloudsHighRes",
+    "name": "GPP HighRes clouds",
+    "abstract": "High resolution clouds for GPP",
+    "author": "Galileo88",
+    "license": "CC-BY-NC-ND",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152136-ksp-13-galileos-planet-pack-v151-8-sept-2017/",
+        "repository": "https://github.com/Galileo88/Galileos-Planet-Pack"
+    },
+    "version": "1.5.3",
+    "ksp_version": "1.3.1",
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "depends": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "GPPCloudsLowRes"
+        }
+    ],
+    "install": [
+        {
+            "find": "Optional Mods/GPP_Clouds/High-res Clouds_GameData inside/GameData/GPP",
+            "install_to": "GameData",
+            "comment": "This installs the high resolution clouds configs for GPP"
+        }
+    ],
+    "download": "https://github.com/Galileo88/Galileos-Planet-Pack/releases/download/1.5.3/Galileos.Planet.Pack.1.5.3.zip",
+    "download_size": 254555900,
+    "download_hash": {
+        "sha1": "8FF503D7D4A0EF2F2AB006DEFA55627AFDEBAB27",
+        "sha256": "53A09DD9621CA53A60E2E4096DEF5FB913C72494DDC058D04F23326097CC5C28"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
