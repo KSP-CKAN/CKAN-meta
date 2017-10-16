@@ -3,13 +3,14 @@
     "identifier": "KeminiResearchProgram",
     "name": "Kemini Research Program",
     "abstract": "Early science from experiments based on real experiments from the Gemini Program",
+    "description": "The Kemini Research Program is a set of small orbital experiments inspired by real experiments run during the Gemini missions. No additional equipment is required - simply install an experiment in the capsule and run it once in orbit.",
     "author": [
         "N3h3miah",
-        "mwerle"
+        "Micha"
     ],
     "license": "GPL-3.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/149298-13-nehemia-engineering-orbital-science-neos-was-oms/",
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=149298",
         "repository": "https://github.com/mwerle/OrbitalMaterialScience"
     },
     "version": "0.7b2",
@@ -17,11 +18,17 @@
     "ksp_version_max": "1.3.99",
     "depends": [
         {
+            "name": "ModuleManager"
+        },
+        {
             "name": "NehemiahScienceCommon",
             "min_version": "1:0.7b2"
         }
     ],
     "recommends": [
+        {
+            "name": "Corvus125mTwoKerbalPod"
+        },
         {
             "name": "K2CommandPodCont"
         }
