@@ -1,0 +1,41 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DockingCamKURS",
+    "name": "Docking camera (KURS)",
+    "abstract": "Built-in cameras in Docking ports",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/166305-131-docking-camera-kurs-style/",
+        "spacedock": "https://spacedock.info/mod/1542/Docking%20camera%20(KURS)",
+        "repository": "https://github.com/linuxgurugamer/DockingCameraKURS",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Docking_camera_KURS/Docking_camera_KURS-1507522106.6492326.png"
+    },
+    "version": "1.3.2",
+    "ksp_version": "1.3.1",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "DockingcameraKURSstyle"
+        }
+    ],
+    "install": [
+        {
+            "find": "DockingCam",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1542/Docking%20camera%20%28KURS%29/download/1.3.2",
+    "download_size": 2956267,
+    "download_hash": {
+        "sha1": "7D2C1C8A594124A455BA6608B8761B7143A55028",
+        "sha256": "9CDBE499C8522BCA34A80F20CEBC5EB106BC5EBFADB4B84A1BAABB4A7CD29419"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
