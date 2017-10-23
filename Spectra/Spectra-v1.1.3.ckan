@@ -1,0 +1,81 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Spectra",
+    "name": "Spectra",
+    "abstract": "You are the closest to adventure, when you are the farthest from home.",
+    "author": "Avera9eJoe",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/159443-130131",
+        "spacedock": "https://spacedock.info/mod/1505/Spectra",
+        "repository": "http://N/A",
+        "x_screenshot": "https://spacedock.info/content/Avera9eJoe_1835/Spectra/Spectra-1503830916.373167.png"
+    },
+    "version": "v1.1.3",
+    "ksp_version_min": "1.3",
+    "ksp_version_max": "1.3.99",
+    "provides": [
+        "PlanetShine-Config"
+    ],
+    "depends": [
+        {
+            "name": "KSPRC-Textures"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "TextureReplacerReplaced"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "RealPlume-StockConfigs"
+        },
+        {
+            "name": "WindowShine"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "PlanetShine-Config"
+        }
+    ],
+    "install": [
+        {
+            "file": "Step 2 - Spectra/GameData/TextureReplacerReplaced",
+            "install_to": "GameData",
+            "filter": "logoFullRed_alt.dds"
+        },
+        {
+            "file": "Step 2 - Spectra/GameData/Spectra",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Step 4 - Extras/PlanetShine/Config",
+            "install_to": "GameData/PlanetShine"
+        },
+        {
+            "file": "Step 4 - Extras/PlanetShine/Icons",
+            "install_to": "GameData/PlanetShine"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1505/Spectra/download/v1.1.3",
+    "download_size": 390887376,
+    "download_hash": {
+        "sha1": "66BAF48E2D7928AA89DF78030D88E2700EBBC248",
+        "sha256": "F5403FA7DD66743EFA743EEAE61A429DE21B1CC68BB85ADD3101675A24AC3F54"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
