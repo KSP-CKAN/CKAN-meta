@@ -1,0 +1,60 @@
+{
+    "spec_version": 1,
+    "identifier": "ProbeControlRoom",
+    "name": "KSP ProbeControlRoom",
+    "abstract": "ProbeControlRoom for KerbalSpaceProgram",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-NC-SA-3.0",
+    "resources": {
+        "repository": "https://github.com/linuxgurugamer/KSP-ProbeControlRoom"
+    },
+    "version": "1.2.2.9",
+    "ksp_version": "1.3.1",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RasterPropMonitor"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SCANSat"
+        },
+        {
+            "name": "VesselViewer"
+        },
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "DockingPortAlignment"
+        },
+        {
+            "name": "kOS"
+        },
+        {
+            "name": "KPS-AVC"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ProbeControlRoom",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/KSP-ProbeControlRoom/releases/download/1.2.2.9/ProbeControlRoom-1.2.2.9.zip",
+    "download_size": 644601,
+    "download_hash": {
+        "sha1": "B77225B0536527D81E3E1CF60019CAB6310E1244",
+        "sha256": "04D181145C138B004B305EFD2DFEB099CB2FE312228B48DB9A401D936B4FC956"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
