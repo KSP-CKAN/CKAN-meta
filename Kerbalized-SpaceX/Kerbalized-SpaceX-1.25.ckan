@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "Kerbalized-SpaceX",
+    "name": "Kerbalized SpaceX",
+    "abstract": "SpaceX vehicles",
+    "description": "Dragon 1, Dragon 2, ITS Titan, BFR",
+    "author": "jharri74",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/162949-kerbalized-spacex",
+        "repository": "https://github.com/jharri74/Dragon2",
+        "bugtracker": "https://github.com/jharri74/Dragon2/issues"
+    },
+    "version": "1.25",
+    "depends": [
+        {
+            "name": "NearFutureSolar"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "install": [
+        {
+            "find": "JNH",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/jharri74/Dragon2/releases/download/1.25/Dragon2-master.zip",
+    "download_size": 35512693,
+    "download_hash": {
+        "sha1": "BAF329403227D3387E0E71D3793C67D0C483DF1F",
+        "sha256": "C71407E8DBA5AECDBE42BD467A6C29F476A6E40784AD82C04E5620EDFE5A4857"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
