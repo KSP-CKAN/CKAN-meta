@@ -7,10 +7,11 @@
     "license": "CC-BY-NC-4.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/threads/65754-HotRockets!-Particle-FX-Replacement-Tutorial",
-        "kerbalstuff": "https://kerbalstuff.com/mod/741/HotRockets"
+        "kerbalstuff": "https://kerbalstuff.com/mod/741/HotRockets",
+        "x_screenshot": "https://kerbalstuff.com/content/nazari_71/HotRockets/HotRockets-1435471247.54792.png"
     },
-    "version": "1.0.2",
-    "ksp_version": "1.0.2",
+    "version": "1:1.0.4.1",
+    "ksp_version": "1.0.4",
     "depends": [
         {
             "name": "ModuleManager"
@@ -19,17 +20,22 @@
             "name": "SmokeScreen"
         }
     ],
+    "conflicts": [
+        {
+            "name": "RealPlume"
+        }
+    ],
     "install": [
         {
             "file": "MP_Nazari",
             "install_to": "GameData"
         }
     ],
-    "download": "https://archive.org/download/HotRockets-1.0.2/7C871485-HotRockets-1.0.2.zip",
-    "download_size": 2325283,
+    "download": "https://s3-us-west-2.amazonaws.com/ksp-ckan/47AB60EB.zip",
+    "download_size": 2280347,
     "download_hash": {
-        "sha1": "7C8714853AF386DBDB50ABC301F547789A903D3B",
-        "sha256": "6483C335C708AD435CB9DA38BF8D7F343C5E83F03B677362927354E072BCAB7E"
+        "sha1": "FB72C13B02E6E3A053B52FA23924DD96D5D26384",
+        "sha256": "D80C69DD3C8EFAF3B5A37586F59837160BF47BC8FF769B89F73E852B09370451"
     },
     "download_content_type": "application/zip",
     "x_generated_by": "netkan"
