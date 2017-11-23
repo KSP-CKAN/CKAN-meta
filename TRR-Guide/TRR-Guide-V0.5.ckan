@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TRR-Guide",
+    "name": "TRR Guide",
+    "abstract": "TRR-Guide is a collection of textures made to be used as example with TextureReplacerReplaced.",
+    "author": [
+        "HaArLiNsH"
+    ],
+    "license": "MIT",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/161898-*",
+        "repository": "https://github.com/HaArLiNsH/TRR_Guide"
+    },
+    "version": "V0.5",
+    "ksp_version_min": "1.3.1",
+    "ksp_version_max": "1.3.9",
+    "provides": [
+        "TRR-Guide"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TextureReplacerReplaced"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "TRR-MyTextureMod"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "install": [
+        {
+            "find": "TRR_Guide",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/HaArLiNsH/TRR_Guide/releases/download/V0.5/TRR_Guide.V0.5.zip",
+    "download_size": 73622319,
+    "download_hash": {
+        "sha1": "6D165A7D115F58D570834FC6193598C35FA61764",
+        "sha256": "0DD0BA579CA207CA8B68E1466494DF73E8784F36EEC49F6AF4925299FF87850D"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
