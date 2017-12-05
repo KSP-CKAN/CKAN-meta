@@ -1,0 +1,83 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NehemiahEngineeringOrbitalScience",
+    "name": "Nehemiah Engineering Orbital Science",
+    "abstract": "Nehemiah Engineering Orbital Science is a collection of orbital science experiments aimed at prolonged station keeping.",
+    "description": "Nehemiah Engineering Orbital Science is a collection of orbital science experiments aimed at prolonged station keeping. It consists of three distinct sets of experiments:\n* Kemini Research Program (KRP) - early-game experiments run from within a capsule based on real-life experiments run during the Gemini program.\n* Kerbal Environmental Effects Study (KEES) - mid-game experiments for attaching to the outside of a small station based on real-life material exposure experiments run on the MIR station.\n* Orbital Station Science (OSS) - Kerbal Life Science (KLS) and Orbital Material Science (OMS) - late-game large-scale station experiments based on real-life ISS experiments. These require modular station construction and maintenance.\n\nAll of the experiments are designed to be run in the background while the player performs other missions.",
+    "author": [
+        "N3h3miah",
+        "Micha"
+    ],
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=149298",
+        "repository": "https://github.com/mwerle/OrbitalMaterialScience"
+    },
+    "version": "0.7.1",
+    "ksp_version_min": "1.3.0",
+    "ksp_version_max": "1.3.99",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KIS"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Corvus125mTwoKerbalPod"
+        },
+        {
+            "name": "K2CommandPodCont"
+        },
+        {
+            "name": "UniversalStorage"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "DockingPortAlignmentIndicator"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KeminiResearchProgram"
+        },
+        {
+            "name": "KerbalEnvironmentalEffectsStudy"
+        },
+        {
+            "name": "KerbalLifeScience"
+        },
+        {
+            "name": "NehemiahInc-Complete"
+        },
+        {
+            "name": "NehemiahMultiPurposeParts"
+        },
+        {
+            "name": "NehemiahScienceCommon"
+        },
+        {
+            "name": "OrbitalMaterialScience"
+        }
+    ],
+    "install": [
+        {
+            "file": "NehemiahInc",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/mwerle/OrbitalMaterialScience/releases/download/0.7.1/NehemiahEngineeringOrbitalScience_0.7.1.zip",
+    "download_size": 17143085,
+    "download_hash": {
+        "sha1": "2261B9ADAFC1C24284540D71FC021CA1A45CF0FC",
+        "sha256": "2DCA45DD6598526548156C43BDCF40DA2F969084E1E7E5C6A291C8757C69FD44"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
