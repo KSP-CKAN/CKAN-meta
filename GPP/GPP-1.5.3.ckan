@@ -12,7 +12,8 @@
     "version": "1.5.3",
     "ksp_version": "1.3.1",
     "provides": [
-        "Scatterer-sunflare"
+        "Scatterer-sunflare",
+        "LoadingScreenManager"
     ],
     "depends": [
         {
@@ -33,6 +34,12 @@
     ],
     "recommends": [
         {
+            "name": "GPPCloudsHighRes"
+        },
+        {
+            "name": "GPPCloudsLowRes"
+        },
+        {
             "name": "Strategia"
         },
         {
@@ -51,29 +58,6 @@
             "name": "KerbalKonstructs"
         },
         {
-            "name": "SigmaReplacements-Heads"
-        },
-        {
-            "name": "SigmaReplacements-Suits"
-        },
-        {
-            "name": "SigmaReplacements-Skybox"
-        },
-        {
-            "name": "SigmaReplacements-Navigation"
-        }
-    ],
-    "suggests": [
-        {
-            "name": "SigmaBinary-core"
-        },
-        {
-            "name": "GPPCloudsHighRes"
-        },
-        {
-            "name": "GPPCloudsLowRes"
-        },
-        {
             "name": "Rescale-25"
         },
         {
@@ -89,6 +73,11 @@
             "name": "Rescale-10625"
         }
     ],
+    "conflicts": [
+        {
+            "name": "LoadingScreenManager"
+        }
+    ],
     "install": [
         {
             "find": "GPP",
@@ -101,16 +90,26 @@
             "comment": "This correctly installs KSCSwitcher for GPP"
         },
         {
+            "find": "Optional Mods/GPP_TextureReplacer/GameData/TextureReplacer",
+            "install_to": "GameData",
+            "comment": "This correctly installs TextureReplacer for GPP"
+        },
+        {
             "find": "Optional Mods/GPP_FinalFrontier/GameData/Nereid",
             "install_to": "GameData",
-            "comment": "This correctly installs Final Frontier for GPP"
+            "comment": "This correctly installs Final Fronteir for GPP"
+        },
+        {
+            "find": "Optional Mods/LoadingScreen/GameData/LoadingScreenManager",
+            "install_to": "GameData",
+            "comment": "This correctly installs LoadingScreenManager for GPP"
         }
     ],
-    "download": "https://github.com/Galileo88/Galileos-Planet-Pack/releases/download/1.5.88/Galileos.Planet.Pack.1.5.88.zip",
-    "download_size": 306975218,
+    "download": "https://github.com/Galileo88/Galileos-Planet-Pack/releases/download/1.5.3/Galileos.Planet.Pack.1.5.3.zip",
+    "download_size": 253142370,
     "download_hash": {
-        "sha1": "07FECC18837A9FCD9925F909F7980EB4648B8BB5",
-        "sha256": "EF33521C943EB300DDA1FBE1A0C172D61158F06BDC6E935FF9B94C0A4C199E91"
+        "sha1": "4A5C84463BB80CB6FFF751E35CFF70D7FAE4E38B",
+        "sha256": "D652DD5F0BEE73B8F38C5940E9915270C4B8E53ABDEF770A4E2331B3039A8FC1"
     },
     "download_content_type": "application/zip",
     "x_generated_by": "netkan"
