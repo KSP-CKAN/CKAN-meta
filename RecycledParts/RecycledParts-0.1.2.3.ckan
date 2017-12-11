@@ -1,0 +1,102 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RecycledParts",
+    "name": "Recycled Parts",
+    "abstract": "Old mods recycled",
+    "author": "linuxgurugamer",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164829-13-spacetux-industries-recycled-parts/",
+        "spacedock": "https://spacedock.info/mod/1507/Recycled%20Parts",
+        "repository": "https://github.com/linuxgurugamer/RecycledParts"
+    },
+    "version": "0.1.2.3",
+    "ksp_version": "1.3.1",
+    "provides": [
+        "RecycledPartsAtomicAge",
+        "RecycledPartsMk2Lightning",
+        "RecycledPartsSpareParts",
+        "RecycledPartskal9000",
+        "RecycledPartsFarscape",
+        "RecycledPartsMk2KISContainers",
+        "RecycledPartsMk2Essentials",
+        "RecycledPartsFTmNAtomicRockets",
+        "RecycledPartsFTmNImprovedAtomicRockets",
+        "RecycledPartsRSCapsuledyne"
+    ],
+    "depends": [
+        {
+            "name": "B9-props"
+        },
+        {
+            "name": "KSPWheel"
+        },
+        {
+            "name": "PatchManager"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "BDAnimationModules"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CommunityTechTree"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "JanitorsCloset"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AtomicAge"
+        },
+        {
+            "name": "RecycledPartsAtomicAge"
+        },
+        {
+            "name": "RecycledPartsMk2Lightning"
+        },
+        {
+            "name": "kal9000"
+        },
+        {
+            "name": "RecycledPartskal9000"
+        },
+        {
+            "name": "Farscape"
+        },
+        {
+            "name": "RecycledPartsFarscape"
+        },
+        {
+            "name": "Mk2Essentials"
+        },
+        {
+            "name": "RandSCapsuledyne"
+        }
+    ],
+    "install": [
+        {
+            "install_to": "GameData",
+            "find": "SpaceTuxIndustries"
+        },
+        {
+            "install_to": "Ships",
+            "find": "SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1507/Recycled%20Parts/download/0.1.2.3",
+    "download_size": 32003778,
+    "download_hash": {
+        "sha1": "954A72F98F7161E6EEF8F7115CC2C3F110C9530F",
+        "sha256": "9532B01B61F1DC70DC67A8153CCBF9E381D59C848C736C6A89ABD1014322CE5E"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
