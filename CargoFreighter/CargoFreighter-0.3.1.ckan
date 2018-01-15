@@ -1,0 +1,80 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CargoFreighter",
+    "name": "Coyote Space Industries - Cargo Freighter",
+    "abstract": "",
+    "author": "dboi88",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/159615-12xcoyote-space-industries-cargo-freighter-v017/",
+        "spacedock": "https://spacedock.info/mod/1332/Coyote%20Space%20Industries%20-%20Cargo%20Freighter",
+        "x_screenshot": "https://spacedock.info/content/dboi88_12029/Coyote_Space_Industries_-_Cargo_Freighter/Coyote_Space_Industries_-_Cargo_Freighter-1493585995.7876618.png"
+    },
+    "version": "0.3.1",
+    "ksp_version": "1.3.1",
+    "depends": [
+        {
+            "name": "USITools"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "CommunityCategoryKit"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "FirespitterCore"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Hanger"
+        },
+        {
+            "name": "USI-LS"
+        },
+        {
+            "name": "UKS"
+        },
+        {
+            "name": "ExtraplanetaryLaunchpads"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "Workshop"
+        }
+    ],
+    "install": [
+        {
+            "filter_regexp": [
+                ".*\\.pdb$"
+            ],
+            "install_to": "GameData",
+            "find": "CoyoteSpaceIndustries"
+        },
+        {
+            "install_to": "Ships",
+            "find": "VAB"
+        },
+        {
+            "install_to": "Ships",
+            "find": "SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1332/Coyote%20Space%20Industries%20-%20Cargo%20Freighter/download/0.3.1",
+    "download_size": 48805820,
+    "download_hash": {
+        "sha1": "17F0CD2A9DBD25AC8A9A93AA685E55C80DE8459F",
+        "sha256": "B710DF2DC03926E53CDB57E855B724913EDF1CF091FC7B7929D2E40FDA79EB02"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}

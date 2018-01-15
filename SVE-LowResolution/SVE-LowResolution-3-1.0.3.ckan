@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Textures only",
+    "identifier": "SVE-LowResolution",
+    "name": "Stock Visual Enhancements-Low Resolution Textures",
+    "abstract": "Textures for Stock Visual Enhancements",
+    "author": "Galileo88",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/Galileo88/StockVisualEnhancements"
+    },
+    "version": "3:1.0.3",
+    "ksp_version_min": "1.2",
+    "provides": [
+        "SVE-Textures"
+    ],
+    "depends": [
+        {
+            "name": "StockVisualEnhancements"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SVE-Textures"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/StockVisualEnhancements",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Galileo88/StockVisualEnhancements/releases/download/1.0.3/SVE_LowResTextures.zip",
+    "download_size": 25062785,
+    "download_hash": {
+        "sha1": "1B3EF7D4272011A7247FA87C7847E088104971A8",
+        "sha256": "6AFA7BA579BF03DA1165B7AB91B1C66ACBA4EF381F97FA99FA86ADC3FD05A7F2"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

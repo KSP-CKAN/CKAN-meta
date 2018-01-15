@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Textures only",
+    "identifier": "AVP-4kTextures",
+    "name": "Astronomer's Visual Pack-4k Textures",
+    "abstract": "Textures for Astronomer's Visual pack",
+    "author": "themaster402",
+    "license": "LGPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/themaster402/AstronomersVisualPack"
+    },
+    "version": "v1.6",
+    "ksp_version_min": "1.2",
+    "provides": [
+        "AVP-Textures"
+    ],
+    "depends": [
+        {
+            "name": "AstronomersVisualPack"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AVP-Textures"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/AstronomersVisualPack",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/themaster402/AstronomersVisualPack/releases/download/v1.6/AVP_4kTextures.zip",
+    "download_size": 70579316,
+    "download_hash": {
+        "sha1": "00D16FF0E42FCEF1589CE2B4E8CB6FF0684B7C46",
+        "sha256": "7E577033B720C195EB19838B72FE4563C0D52B07D56E6F8E67E012FFCEEBD998"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

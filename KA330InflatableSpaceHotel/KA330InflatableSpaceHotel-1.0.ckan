@@ -1,0 +1,94 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "KA330InflatableSpaceHotel",
+    "name": "KA-330 Inflatable Space Hotel",
+    "abstract": "Re-creation of Bigelow Aerospace's BA-330, Kerbalow Aerospace's KA-330 Inflatable Space Hotel",
+    "author": "bcink",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169003-wip-ka-330-inflatable-space-habitat/",
+        "spacedock": "https://spacedock.info/mod/1653/KA-330%20Inflatable%20Space%20Hotel",
+        "x_screenshot": "https://spacedock.info/content/bcink_16644/KA-330_Inflatable_Space_Hotel/KA-330_Inflatable_Space_Hotel-1515545809.5486116.png"
+    },
+    "version": "1.0",
+    "ksp_version": "1.3.1",
+    "depends": [
+        {
+            "name": "TexturesUnlimited"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "NearFutureProps"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "USI-LS"
+        },
+        {
+            "name": "TweakScale"
+        }
+    ],
+    "install": [
+        {
+            "find": "Kerbalow",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Reflective",
+            "install_to": "GameData/Kerbalow"
+        },
+        {
+            "find": "KA330-ConnectedLivingSpace.cfg",
+            "install_to": "GameData/Kerbalow",
+            "find_matches_files": true
+        },
+        {
+            "find": "KA330-KerbalInventorySystem.cfg",
+            "install_to": "GameData/Kerbalow",
+            "find_matches_files": true
+        },
+        {
+            "find": "KA330-Snacks.cfg",
+            "install_to": "GameData/Kerbalow",
+            "find_matches_files": true
+        },
+        {
+            "find": "KA330-TACLS.cfg",
+            "install_to": "GameData/Kerbalow",
+            "find_matches_files": true
+        },
+        {
+            "find": "KA330-Tweakscale.cfg",
+            "install_to": "GameData/Kerbalow",
+            "find_matches_files": true
+        },
+        {
+            "find": "KA330-USILifeSupport.cfg",
+            "install_to": "GameData/Kerbalow",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/1653/KA-330%20Inflatable%20Space%20Hotel/download/1.0",
+    "download_size": 3596650,
+    "download_hash": {
+        "sha1": "1233E7066C5D554B1C84168484B23E59FCD4CE32",
+        "sha256": "C9AEB59C6B5F2634D2E4B0B84EAEAA705786339C940DDC031259B7BE7209850C"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
