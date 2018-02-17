@@ -1,0 +1,35 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "LoadingScreenManager",
+    "name": "LoadingScreenManager",
+    "abstract": "Customize your loading screen",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/162397-130-loading-screen-manager/",
+        "spacedock": "https://spacedock.info/mod/1422/LoadingScreenManager",
+        "repository": "https://github.com/linuxgurugamer/KSPLoadingScreenManager"
+    },
+    "version": "1.2.3.3",
+    "ksp_version": "1.3.1",
+    "install": [
+        {
+            "install_to": "GameData",
+            "find": "LoadingScreenManager"
+        },
+        {
+            "find_regexp": "LoadingScreenManager.*\\.dll$",
+            "find_matches_files": true,
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1422/LoadingScreenManager/download/1.2.3.3",
+    "download_size": 69535,
+    "download_hash": {
+        "sha1": "2FDA345D01E5D8D5DC9979D70655C0BE0B7B8995",
+        "sha256": "F15F4D975C20C69DB56BBFA8FE26A4064AFC12DB8133D07C3269070C529D01C9"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
