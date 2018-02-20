@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KSPSerialIOLinuxandMacPort",
+    "name": "KSP Serial IO Linux and Mac Port",
+    "abstract": "Port of KSPSerialIO for Mac and Linux",
+    "author": "marzubus",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/1699/KSP%20Serial%20IO%20Linux%20and%20Mac%20Port",
+        "repository": "https://github.com/unixunion/KSPSerialIO"
+    },
+    "version": "0.19.0",
+    "ksp_version": "1.3.1",
+    "conflicts": [
+        {
+            "name": "SerialIO"
+        },
+        {
+            "name": "KSPSerialIOcrossplatform"
+        },
+        {
+            "name": "SerialIO-MacLinuxWin"
+        },
+        {
+            "name": "PsimaxSerialLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "KSPSerialIO",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1699/KSP%20Serial%20IO%20Linux%20and%20Mac%20Port/download/0.19.0",
+    "download_size": 60457,
+    "download_hash": {
+        "sha1": "2A44C01B557E122707B4F27B9A3EB3216A16D9DC",
+        "sha256": "190BF7BF8DE8E92381D099B0F798AC9995914C573CD442B85BD584AD6D1ECC2C"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
