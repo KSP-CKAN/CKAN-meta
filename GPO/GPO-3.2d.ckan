@@ -1,12 +1,12 @@
 {
     "spec_version": "v1.4",
     "identifier": "GPO",
-    "name": "Gameslinx's Planet Overhaul (Stockalike Planet Pack)",
+    "name": "Gameslinx Planet Overhaul",
     "abstract": "This mod adds loads of stockalike but intuitive planets for you to land on! It comes with EVE and Scatterer configs for added beauty. Enjoy!",
     "author": "Gameslinx",
-    "license": "CC-BY-SA-3.0",
+    "license": "CC-BY-NC-ND-4.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155740-13-gameslinxs-planet-overhaul",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155740-*",
         "spacedock": "https://spacedock.info/mod/1247/Gameslinx's%20Planet%20Overhaul%20(Stockalike%20Planet%20Pack)",
         "x_screenshot": "https://spacedock.info/content/Gameslinx_10298/Gameslinxs_Planet_Overhaul_Stockalike_Planet_Pack/Gameslinxs_Planet_Overhaul_Stockalike_Planet_Pack-1495390946.495561.png"
     },
@@ -18,19 +18,25 @@
     ],
     "depends": [
         {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
             "name": "CommunityTerrainTexturePack"
         },
         {
             "name": "EnvironmentalVisualEnhancements"
         },
         {
-            "name": "Kopernicus"
-        },
-        {
-            "name": "LoadingScreenManager"
-        },
-        {
             "name": "ModularFlightIntegrator"
+        },
+        {
+            "name": "KS3P"
+        },
+        {
+            "name": "INSTANTIATOR"
         },
         {
             "name": "Scatterer"
