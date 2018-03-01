@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Textures only",
+    "identifier": "SVE-MediumResolution",
+    "name": "Stock Visual Enhancements-Medium Resolution Textures",
+    "abstract": "Textures for Stock Visual Enhancements",
+    "author": "Galileo88",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/Galileo88/StockVisualEnhancements"
+    },
+    "version": "3:1.0.4",
+    "ksp_version_min": "1.2",
+    "provides": [
+        "SVE-Textures"
+    ],
+    "depends": [
+        {
+            "name": "StockVisualEnhancements"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SVE-Textures"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/StockVisualEnhancements",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Galileo88/StockVisualEnhancements/releases/download/1.0.4/SVE_MedResTextures.zip",
+    "download_size": 43869915,
+    "download_hash": {
+        "sha1": "74D2A96E52B2509A176B89AEC009238BEF7340DD",
+        "sha256": "484F133B94375B3342F96EA38B1B33745D44D6B39474B74F0AAE9283E419EBF9"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
