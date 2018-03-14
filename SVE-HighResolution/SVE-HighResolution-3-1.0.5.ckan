@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Textures only",
+    "identifier": "SVE-HighResolution",
+    "name": "Stock Visual Enhancements-High Res Textures",
+    "abstract": "Textures for Stock Visual Enhancements",
+    "author": "Galileo88",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/Galileo88/StockVisualEnhancements"
+    },
+    "version": "3:1.0.5",
+    "ksp_version_min": "1.2",
+    "provides": [
+        "SVE-Textures"
+    ],
+    "depends": [
+        {
+            "name": "StockVisualEnhancements"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SVE-Textures"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/StockVisualEnhancements",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Galileo88/StockVisualEnhancements/releases/download/1.0.5/SVE_HighResTextures.zip",
+    "download_size": 62040335,
+    "download_hash": {
+        "sha1": "42A1ACC591571BCAF4E80B8831D02242F5CE87C1",
+        "sha256": "F7C95519D6C34978F8B72E310FD800B0A12936543B53128DDADF315F03A2724C"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
