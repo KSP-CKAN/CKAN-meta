@@ -1,0 +1,68 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DCKDavincisCombatKit",
+    "name": "DCK - Davinci's Combat Kit",
+    "abstract": "A mod for KSP that adds 22 camouflage patterns, 19 solid colors and 1 Waldoto Stock, Aviator Arsenal. BD Armory Continued, BDMk22, SM_AFVs, Mk2 Expansion, QuizTech, KAX, Airplane Plus, BAD T Props and Procedural Parts as well as rims and tires for the M1 and TR-2L wheels  DCK contains Stealth Coating parts (YCSM - You Can't See Me) that reduces the radar cross section of the craft it is attached to when using the YCSM part in conjunction with BDAc as well as Transparent/Invisible Aircraft Armor (FAR compatibility MM patch included for those who use DCK Aircraft Armor with FAR) to protect your shiny new paintjob  DCK also has Z-90 'Oval', Z-90 'Round' and Z-4190 'Bubble' shields to help protect your invisible armor from getting scratched",
+    "author": "DoctorDavinci",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/159310-13x-dck-v022-transparent-aircraft-armor-stealth-part-camo-and-other-goodies-for-ksp-stock-bdac-bdmk22-sm_afvs08302017/&tab=comments#comment-3023500",
+        "spacedock": "https://spacedock.info/mod/1524/DCK%20-%20Davinci's%20Combat%20Kit",
+        "repository": "https://github.com/DoctorDavinci/DCK",
+        "x_screenshot": "https://spacedock.info/content/DoctorDavinci_15594/DCK_-_Davincis_Combat_Kit/DCK_-_Davincis_Combat_Kit-1509867714.348913.png"
+    },
+    "version": "v0.4.0.0",
+    "ksp_version": "1.4.1",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "BDArmoryContinued"
+        },
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "FerramAerospaceResearch"
+        },
+        {
+            "name": "BDynamicsMk22Cockpits"
+        },
+        {
+            "name": "Mk2Expansion"
+        },
+        {
+            "name": "QuizTechAeroPackContinued"
+        }
+    ],
+    "install": [
+        {
+            "find": "DCKinc",
+            "install_to": "GameData"
+        },
+        {
+            "find": "DCK_AirplanePlus",
+            "install_to": "GameData"
+        },
+        {
+            "find": "DCK_AviatorArsenal",
+            "install_to": "GameData"
+        },
+        {
+            "find": "DCK_QuizTech",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1524/DCK%20-%20Davinci%27s%20Combat%20Kit/download/v0.4.0.0",
+    "download_size": 43259284,
+    "download_hash": {
+        "sha1": "6B0659274C1E8AC8D100B2A7234A6DE1086142C9",
+        "sha256": "DA150D669F4D497A399CB6DFA15A1FBC40BA927DF999E16A3E351CBBAE2526D2"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
