@@ -1,0 +1,70 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "GroundConstruction",
+    "name": "Ground Construction",
+    "abstract": "Build vessels directly on another planet using light-weight kits of high-tech components, with energy and raw materials produced on-site from Ore.",
+    "author": [
+        "allista"
+    ],
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/154167-122-ground-construction",
+        "spacedock": "https://spacedock.info/mod/1123/Ground%20Construction",
+        "repository": "https://github.com/allista/GroundConstruction",
+        "bugtracker": "https://github.com/allista/GroundConstruction/issues",
+        "x_screenshot": "https://spacedock.info/content/allista_931/Ground_Construction/Ground_Construction-1482512368.397066.png"
+    },
+    "version": "1.2.1.1",
+    "ksp_version": "1.4.1",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "GroundConstruction-Core"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ConfigurableContainers"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ThrottleControlledAvionics"
+        },
+        {
+            "name": "Hangar"
+        },
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "KSP-AVC"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/GroundConstruction/Patches",
+            "install_to": "GameData/GroundConstruction"
+        },
+        {
+            "file": "GameData/GroundConstruction/Parts",
+            "install_to": "GameData/GroundConstruction",
+            "filter": [
+                "DIYKit"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/1123/Ground%20Construction/download/1.2.1.1",
+    "download_size": 6154496,
+    "download_hash": {
+        "sha1": "57507AA939D05082AA3839C9ED780F6797668C9D",
+        "sha256": "DF627017F9F2EA965AFBC25D889BAEC578866381126DA27F53726E4A5E0B6B29"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
