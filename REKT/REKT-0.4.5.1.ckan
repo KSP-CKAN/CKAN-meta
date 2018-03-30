@@ -25,9 +25,13 @@
     ],
     "install": [
         {
-            "install_to": "GameData",
             "find": "SHED",
-            "filter": "RetractableLiftingSurface"
+            "install_to": "GameData",
+            "filter": [
+                "Agencies",
+                "License",
+                "RetractableLiftingSurface"
+            ]
         }
     ],
     "download": "https://spacedock.info/mod/1021/Recoverable%20Emergency%20Kerbal%20Transport/download/0.4.5.1",
