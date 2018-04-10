@@ -1,0 +1,35 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "ElonsRoadsterStarman",
+    "name": "Elon's Roadster & Starman",
+    "abstract": "Kerbin is Round.",
+    "author": "TheBigElon",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/1797/Elon's%20Roadster%20&%20Starman",
+        "x_screenshot": "https://spacedock.info/content/TheBigElon_19586/Elons_Roadster__Starman/Elons_Roadster__Starman-1523033876.7166455.jpg"
+    },
+    "version": "1.0.1",
+    "ksp_version": "1.4.2",
+    "install": [
+        {
+            "find": "Roadster+Starman",
+            "install_to": "GameData",
+            "filter": "Ships"
+        },
+        {
+            "find_regexp": "Ships/.*\\.craft",
+            "find_matches_files": true,
+            "install_to": "Ships/VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1797/Elon%27s%20Roadster%20%26%20Starman/download/1.0.1",
+    "download_size": 2530034,
+    "download_hash": {
+        "sha1": "95247C902AE1A6868F9742A5EEB35D5D4A06EE0F",
+        "sha256": "68CB5337A4BE5C0E94D0F0645CC0E17FB7634BE0EC6590086D78AFC57FEC28BB"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
