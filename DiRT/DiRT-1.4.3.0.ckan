@@ -1,0 +1,37 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DiRT",
+    "name": "KSP DiRT",
+    "abstract": "Drop-in Replacement Textures for Kerbal Space Program.",
+    "author": "cydonian-monk",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172055-*",
+        "repository": "https://github.com/cydonian-monk/KSP-DiRT"
+    },
+    "version": "1.4.3.0",
+    "ksp_version_min": "1.4.3",
+    "ksp_version_max": "1.4.9",
+    "conflicts": [
+        {
+            "name": "TextureReplacer"
+        },
+        {
+            "name": "TextureReplacerReplaced"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/DiRT",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/cydonian-monk/KSP-DiRT/releases/download/1.4.3.0/DiRT_1.4.3.0.zip",
+    "download_size": 12518,
+    "download_hash": {
+        "sha1": "20437D8A12FA31F991F5E47703B0AE96E8900AAC",
+        "sha256": "73F65A90781E1D162A8DCF7679C784365275D488285EE07C70A479671DBD59E5"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
