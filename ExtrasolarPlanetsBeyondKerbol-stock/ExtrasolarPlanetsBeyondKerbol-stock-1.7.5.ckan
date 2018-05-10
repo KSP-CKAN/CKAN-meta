@@ -1,0 +1,69 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ExtrasolarPlanetsBeyondKerbol-stock",
+    "name": "Extrasolar Planets Byond Kerbol - Stock configuration",
+    "abstract": "Adds a new star system in orbit around the Kerbol System",
+    "author": "AndyDrawsPrettyPictures",
+    "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/130656-105-kopernicus-extrasolar-planets-beyond-kerbol-051/&page=1",
+        "spacedock": "https://spacedock.info/mod/202/Extrasolar:%20Planets%20Beyond%20Kerbol",
+        "x_screenshot": "https://spacedock.info/content/AndyDrawsPrettyPictures_749/Extrasolar_Planets_Beyond_Kerbol/Extrasolar_Planets_Beyond_Kerbol-1514771531.544044.png"
+    },
+    "version": "1.7.5",
+    "ksp_version": "1.4.3",
+    "provides": [
+        "CustomAsteroids-Pops"
+    ],
+    "depends": [
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KSPInterstellarExtended"
+        },
+        {
+            "name": "BetterTimeWarp"
+        },
+        {
+            "name": "USI-NuclearRockets"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "StockVisualEnhancements"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "FinalFrontier"
+        },
+        {
+            "name": "DistantObject"
+        }
+    ],
+    "install": [
+        {
+            "find": "Extrasolar",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Extrasolar_Textures",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/202/Extrasolar:%20Planets%20Beyond%20Kerbol/download/1.7.5",
+    "download_size": 125085115,
+    "download_hash": {
+        "sha1": "A321FD2E6589E7C44671674D5F7D17A8C9F2BA58",
+        "sha256": "A78074ADF4A30365C33A20A3A0C886FC701497F185F2638F8F367F06BEA7C709"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
