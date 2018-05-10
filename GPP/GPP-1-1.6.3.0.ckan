@@ -1,0 +1,118 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GPP",
+    "name": "Galileo's Planet Pack",
+    "abstract": "Galileo's Planet Pack is an all new solar system. With high quality planets to explore, and more challeging gameplay than the stock game, GPP will give even the most accomplished KSPer hours of fun. GPP removes the stock planetary system and will corrupt stock system game saves.",
+    "author": "Galileo88",
+    "license": "CC-BY-NC-ND",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152136-ksp-13-galileos-planet-pack-v151-8-sept-2017/",
+        "repository": "https://github.com/Galileo88/Galileos-Planet-Pack"
+    },
+    "version": "1:1.6.3.0",
+    "ksp_version_min": "1.3.1",
+    "ksp_version_max": "1.4.4",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "GPPTextures"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Strategia"
+        },
+        {
+            "name": "FinalFrontier"
+        },
+        {
+            "name": "OPM-Galileo"
+        },
+        {
+            "name": "KerbalKonstructs"
+        },
+        {
+            "name": "SigmaReplacements-Descriptions"
+        },
+        {
+            "name": "SigmaReplacements-Heads"
+        },
+        {
+            "name": "SigmaReplacements-Suits"
+        },
+        {
+            "name": "SigmaReplacements-SkyBox"
+        },
+        {
+            "name": "SigmaReplacements-Navigation"
+        },
+        {
+            "name": "SigmaReplacements-MenuScenes"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SigmaBinary-core"
+        },
+        {
+            "name": "GPPCloudsHighRes"
+        },
+        {
+            "name": "GPPCloudsLowRes"
+        },
+        {
+            "name": "Rescale-25"
+        },
+        {
+            "name": "Rescale-32"
+        },
+        {
+            "name": "Rescale-64"
+        },
+        {
+            "name": "Rescale-10"
+        },
+        {
+            "name": "Rescale-10625"
+        },
+        {
+            "name": "BetterLookingOceans-HighRes"
+        },
+        {
+            "name": "BetterLookingOceans-MedRes"
+        },
+        {
+            "name": "BetterLookingOceans-LowRes"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "StockVisualEnhancements"
+        }
+    ],
+    "install": [
+        {
+            "find": "GPP",
+            "install_to": "GameData",
+            "comment": "This is the main install for GPP"
+        },
+        {
+            "find": "Optional Mods/GPP_FinalFrontier/GameData/Nereid",
+            "install_to": "GameData",
+            "comment": "This correctly installs Final Frontier for GPP"
+        }
+    ],
+    "download": "https://github.com/Galileo88/Galileos-Planet-Pack/releases/download/1.6.3.0/Galileos-Planet-Pack-1.6.3.0.zip",
+    "download_size": 378945256,
+    "download_hash": {
+        "sha1": "DCA9C372767EE202E209609B1C9BFA8D85130B0C",
+        "sha256": "073F21EDD8D61443ED11C3AA13A5C7A2BA835C3E1A56770879B40181165B9C80"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
