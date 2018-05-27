@@ -1,0 +1,62 @@
+{
+    "spec_version": 1,
+    "identifier": "AdvancedFlyByWire",
+    "name": "Advanced Fly-By-Wire (Windows, x64)",
+    "abstract": "Joystick & controller mod with multiple presets and in-flight controls binding!",
+    "author": "linuxgurugamer",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-14-afbw-joystick-controller-mod/",
+        "spacedock": "https://spacedock.info/mod/1869/ABFW%20Revived%20(Windows%20version)",
+        "repository": "https://github.com/linuxgurugamer/ksp-advanced-flybywire",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/ABFW_Revived_Windows_version/ABFW_Revived_Windows_version-1527383965.049963.png"
+    },
+    "version": "1.8.0",
+    "ksp_version_min": "1.4.1",
+    "ksp_version_max": "1.4.99",
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KSP-AVC"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AdvancedFlyByWire-Linux"
+        }
+    ],
+    "install": [
+        {
+            "file": "SDL2.dll",
+            "install_to": "GameRoot"
+        },
+        {
+            "file": "SDL_LICENSE",
+            "install_to": "GameRoot"
+        },
+        {
+            "file": "XInputInterface.dll",
+            "install_to": "GameRoot"
+        },
+        {
+            "file": "GameData/ksp-advanced-flybywire",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1869/ABFW%20Revived%20%28Windows%20version%29/download/1.8.0",
+    "download_size": 610091,
+    "download_hash": {
+        "sha1": "FB924596823D7C241B14DCAF9509F967B2AEDA4B",
+        "sha256": "44C22C91E7E6E2C9464486ED26ECE2CE3094F1B35763EBF54D18881B5406AAE1"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
