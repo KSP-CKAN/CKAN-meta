@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "OutOfGalaxySkybox",
+    "name": "Out of Galaxy Skybox",
+    "abstract": "This is a 4K Skybox i made using SpaceEngine.",
+    "author": "LOL221",
+    "license": "GPL-3.0",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/1943/Out%20of%20Galaxy%20Skybox",
+        "x_screenshot": "https://spacedock.info/content/LOL221_21252/Out_of_Galaxy_Skybox/Out_of_Galaxy_Skybox-1534477443.7008002.png"
+    },
+    "version": "1.1",
+    "ksp_version": "1.4.5",
+    "depends": [
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "install": [
+        {
+            "find_regexp": "GalaxyTex_PositiveX.png",
+            "install_to": "GameData/TextureReplacer/Default",
+            "find_matches_files": true
+        },
+        {
+            "find_regexp": "GalaxyTex_PositiveY.png",
+            "install_to": "GameData/TextureReplacer/Default",
+            "find_matches_files": true
+        },
+        {
+            "find_regexp": "GalaxyTex_PositiveZ.png",
+            "install_to": "GameData/TextureReplacer/Default",
+            "find_matches_files": true
+        },
+        {
+            "find_regexp": "GalaxyTex_NegativeX.png",
+            "install_to": "GameData/TextureReplacer/Default",
+            "find_matches_files": true
+        },
+        {
+            "find_regexp": "GalaxyTex_NegativeY.png",
+            "install_to": "GameData/TextureReplacer/Default",
+            "find_matches_files": true
+        },
+        {
+            "find_regexp": "GalaxyTex_NegativeZ.png",
+            "install_to": "GameData/TextureReplacer/Default",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/1943/Out%20of%20Galaxy%20Skybox/download/1.1",
+    "download_size": 18079374,
+    "download_hash": {
+        "sha1": "F757066D75462D90B450772B2C0F7E9409E102AA",
+        "sha256": "F4B02B26FB6AB9B464901A48920C71EBAB43433219A1A17F33F871FBD71EEAD8"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
