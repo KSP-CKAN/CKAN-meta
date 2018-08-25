@@ -1,0 +1,37 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "Moca",
+    "name": "Moca Vehicle",
+    "abstract": "The Green Rolf Moca is a vehicle for KSP. It was built to accept the RoveMax Model M1 wheels.",
+    "author": "greenrolf",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://greenrolf.wordpress.com/2018/08/25/new-release-moca/",
+        "spacedock": "https://spacedock.info/mod/1953/Moca%20Vehicle",
+        "x_screenshot": "https://spacedock.info/content/greenrolf_21152/Moca_Vehicle/Moca_Vehicle-1535226552.7985528.jpg"
+    },
+    "version": "1.0",
+    "ksp_version": "1.4.5",
+    "install": [
+        {
+            "find": "Green_Rolf_Moca",
+            "install_to": "GameData",
+            "filter": [
+                "Moca.craft"
+            ]
+        },
+        {
+            "find": "Moca.craft",
+            "install_to": "Ships/SPH",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/1953/Moca%20Vehicle/download/1.0",
+    "download_size": 3667050,
+    "download_hash": {
+        "sha1": "40CD7CD7F142E0BF8C3410FFB64DF285912D59B0",
+        "sha256": "0C4C7B830DD12807ABF8295E35A0A5E7ADD8692AF1C23B15E40726F405FA9492"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
