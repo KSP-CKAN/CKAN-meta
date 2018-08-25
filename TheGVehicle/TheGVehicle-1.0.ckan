@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "TheGVehicle",
+    "name": "The G vehicle",
+    "abstract": "The G vehicle is a vehicle for KSP.  It was built to accept the RoveMax Model M1 wheels.",
+    "author": "greenrolf",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://greenrolf.wordpress.com/2018/08/10/new-release-the-g/",
+        "spacedock": "https://spacedock.info/mod/1938/The%20G%20vehicle",
+        "repository": "https://github.com/greenrolf/Green_Rolf_The_G",
+        "x_screenshot": "https://spacedock.info/content/greenrolf_21152/The_G_vehicle/The_G_vehicle-1533892226.9074152.jpg"
+    },
+    "version": "1.0",
+    "ksp_version": "1.4.5",
+    "install": [
+        {
+            "find": "Green_Rolf_The_G",
+            "install_to": "GameData",
+            "filter": [
+                "The G.craft"
+            ]
+        },
+        {
+            "find": "The G.craft",
+            "install_to": "Ships/SPH",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/1938/The%20G%20vehicle/download/1.0",
+    "download_size": 4716354,
+    "download_hash": {
+        "sha1": "B36653AAFDF41AE599C59D604514299882C8512E",
+        "sha256": "6DEF5A048C88C0C170BD7E791999F4AEB21E7EF0D27418A4EAC37888C1A9900A"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
