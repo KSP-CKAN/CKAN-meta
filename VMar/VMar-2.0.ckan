@@ -1,0 +1,39 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "VMar",
+    "name": "VMar Vehicle",
+    "abstract": "The VMar is a car for KSP. It was built to accept the RoveMax Model M1 wheels.",
+    "author": "greenrolf",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://greenrolf.wordpress.com/2018/08/16/new-release-vmar/",
+        "spacedock": "https://spacedock.info/mod/1942/VMar%20Vehicle",
+        "repository": "https://github.com/greenrolf/Green_Rolf_VMar",
+        "x_screenshot": "https://spacedock.info/content/greenrolf_21152/VMar_Vehicle/VMar_Vehicle-1534431578.479045.jpg"
+    },
+    "version": "2.0",
+    "ksp_version": "1.4.5",
+    "install": [
+        {
+            "find": "Green_Rolf_Vmar",
+            "install_to": "GameData",
+            "filter": [
+                ".DS_Store",
+                "VMAR.craft"
+            ]
+        },
+        {
+            "find": "VMAR.craft",
+            "install_to": "Ships/SPH",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/1942/VMar%20Vehicle/download/2.0",
+    "download_size": 5838888,
+    "download_hash": {
+        "sha1": "36F4D0FD35C207E8CB36BCCDA68C30562825EE33",
+        "sha256": "75158C4A55A770ECF1E604FE3749B58790331A34623EA28E7AB3A9C1469A5848"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
