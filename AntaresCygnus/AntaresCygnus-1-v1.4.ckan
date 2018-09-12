@@ -1,0 +1,41 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Ships are installed by default again",
+    "identifier": "AntaresCygnus",
+    "name": "Antares-Cygnus",
+    "abstract": "A joint release between Kartoffelkuchen and Raidernick combining our Cygnus and Antares mods.",
+    "author": [
+        "Raidernick",
+        "Kartoffelkuchen"
+    ],
+    "license": "CC-BY-NC-ND-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/111292-122-131-antares-cygnus-joint-project-kisrt-support-configs-added-release-v13-7-3-17/",
+        "repository": "https://github.com/KSP-RO/Antares-Cygnus"
+    },
+    "version": "1:v1.4",
+    "ksp_version_min": "1.1.1",
+    "ksp_version_max": "1.4.99",
+    "install": [
+        {
+            "find": "KK_Antares",
+            "install_to": "GameData"
+        },
+        {
+            "find": "RN_Cygnus",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/Antares-Cygnus/releases/download/v1.4/RN_KK_Antares_Cygnus_v1.4.zip",
+    "download_size": 6620218,
+    "download_hash": {
+        "sha1": "DEDE73C8684AEE216B21C6ADF6C8862B24F8C1E3",
+        "sha256": "FC7619B129FB49750235DDFD85CD68CDA719C4127CE75D3F77E49B819F91B7B9"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
