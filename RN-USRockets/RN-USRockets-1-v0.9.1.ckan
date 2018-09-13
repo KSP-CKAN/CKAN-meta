@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RN-USRockets",
+    "name": "US Rockets",
+    "abstract": "This mod contains older, more obscure US rockets like Thor, Delta, Vanguard, Juno, Scout and even sounding rockets such as Aerobee.",
+    "author": "Raidernick",
+    "license": "CC-BY-NC-ND-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/98791-105",
+        "repository": "https://github.com/KSP-RO/USRockets"
+    },
+    "version": "1:v0.9.1",
+    "ksp_version_min": "1.3.0",
+    "ksp_version_max": "1.4.99",
+    "depends": [
+        {
+            "name": "BDAnimationModules"
+        },
+        {
+            "name": "TexturesUnlimited"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "SmokeScreen"
+        },
+        {
+            "name": "RN-USProbesPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "RN_US_Rockets",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/USRockets/releases/download/v0.9.1/RN_US_Rockets_v0.9.1.zip",
+    "download_size": 61581372,
+    "download_hash": {
+        "sha1": "44F6E0447D2423130CFD763B715764A5C3028354",
+        "sha256": "464CCCA7E5907E3AD71D099C4E6AD3F856B26A9D30A1060A87716D83BC11CE37"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
