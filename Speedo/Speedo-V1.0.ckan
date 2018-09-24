@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "Speedo",
+    "name": "Speedo Vehicle",
+    "abstract": "The Green Rolf Speedo is a vehicle for KSP. It was built to accept the RoveMax Model M1 wheels.",
+    "author": "greenrolf",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://greenrolf.wordpress.com/2018/08/28/new-release-speedo/",
+        "spacedock": "https://spacedock.info/mod/1956/Speedo%20Vehicle",
+        "x_screenshot": "https://spacedock.info/content/greenrolf_21152/Speedo_Vehicle/Speedo_Vehicle-1535461902.302046.jpg"
+    },
+    "version": "V1.0",
+    "ksp_version": "1.4.5",
+    "install": [
+        {
+            "find": "Green_Rolf_Speedo",
+            "install_to": "GameData",
+            "filter": [
+                ".DS_Store",
+                "Speedo.craft"
+            ]
+        },
+        {
+            "find": "Speedo.craft",
+            "find_matches_files": true,
+            "install_to": "Ships/SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1956/Speedo%20Vehicle/download/V1.0",
+    "download_size": 5638670,
+    "download_hash": {
+        "sha1": "403AA25A32F3B0E79C266DC0952C966B5125381D",
+        "sha256": "E84A41B510554AC291E2BCB6A47468D2A7B76FCB507DEC1BA963308BA068E947"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
