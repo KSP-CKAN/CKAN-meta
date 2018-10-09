@@ -10,7 +10,7 @@
     ],
     "license": "BSD-2-clause",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/151984-121-surface-experiment-pack-deployable-science-for-kiskas-v200-new-science-system-13nov16/",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155382-*",
         "spacedock": "https://spacedock.info/mod/318/Surface%20Experiment%20Pack",
         "repository": "https://github.com/CobaltWolf/Surface-Experiment-Pack",
         "x_screenshot": "https://spacedock.info/content/AlbertKermin_1290/Surface_Experiment_Pack/Surface_Experiment_Pack-1456786410.472347.png"
@@ -25,9 +25,26 @@
             "name": "KIS"
         }
     ],
+    "suggests": [
+        {
+            "name": "BluedogDB"
+        }
+    ],
     "supports": [
         {
-            "name": "OuterPlanets"
+            "name": "OuterPlanetsMod"
+        },
+        {
+            "name": "NewHorizons"
+        },
+        {
+            "name": "KerbalPlanetaryBaseSystems"
+        },
+        {
+            "name": "RemoteTech"
+        },
+        {
+            "name": "AntennaRange"
         }
     ],
     "install": [
