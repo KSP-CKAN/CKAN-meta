@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "ImpossibleInnovations",
+    "name": "Impossible Innovations",
+    "abstract": "This mod adds some late-game engines and tanks to the game. These parts are fusion-based or use advanced technologies.",
+    "author": [
+        "jandcando",
+        "Lisias"
+    ],
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175694-*",
+        "spacedock": "https://spacedock.info/mod/340/Impossible%20Innovations",
+        "repository": "https://github.com/net-lisias-ksp/ImpossibleInnovations",
+        "x_screenshot": "https://spacedock.info/content/jandcando_1755/Impossible_Innovations/Impossible_Innovations-1457039419.5458508.png"
+    },
+    "version": "0.8.8.2",
+    "ksp_version_min": "1.4.1",
+    "ksp_version_max": "1.4.99",
+    "depends": [
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ImpossibleInnovations",
+            "install_to": "GameData",
+            "filter": [
+                "Ships"
+            ]
+        },
+        {
+            "find": "Ships/VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find": "Ships/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/340/Impossible%20Innovations/download/0.8.8.2",
+    "download_size": 14157004,
+    "download_hash": {
+        "sha1": "D8B4F8150ECDA55518A286AFF538E7264EFCA297",
+        "sha256": "A48C7A6A4A0DC31561D78CE51F9F50D210B65588AC758099EBA854E1BAE315C6"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
