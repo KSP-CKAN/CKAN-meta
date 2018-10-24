@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Mk2Expansion",
+    "name": "Mk2 Stockalike Expansion",
+    "abstract": "Adds a wide variety of parts for the Mk2 formfactor",
+    "author": "SuicidalInsanity",
+    "license": "CC-BY-NC-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/109145-105-mk2-expansion-v1611-update-11132015/&page=1",
+        "spacedock": "https://spacedock.info/mod/473/Mk2%20Stockalike%20Expansion",
+        "repository": "https://github.com/SuicidalInsanity/Mk2Expansion",
+        "x_screenshot": "https://spacedock.info/content/SuicidalInsanity_1925/Mk2_Stockalike_Expansion/Mk2_Stockalike_Expansion-1459796616.997534.png"
+    },
+    "version": "2:1.8.3",
+    "ksp_version": "1.5.1",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "InterstellarFuelSwitch-Core"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "FerramAerospaceResearch"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/Mk2Expansion",
+            "install_to": "GameData"
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find": "SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/473/Mk2%20Stockalike%20Expansion/download/1.8.3",
+    "download_size": 29512827,
+    "download_hash": {
+        "sha1": "640E4BE37C454FBC4947F9AEA50A706D3A5EE94D",
+        "sha256": "9B3A4F25A123163F91D12E509DC5A194C0CF7EE72776109F5769A1B1B731291F"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
