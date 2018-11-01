@@ -1,0 +1,56 @@
+{
+    "spec_version": 1,
+    "identifier": "FerramAerospaceResearchContinued",
+    "name": "Ferram Aerospace Research",
+    "abstract": "FAR replaces KSP's stock part-centered aerodynamics model with one based on real-life physics.",
+    "author": [
+        "ferram4",
+        "dkavolis"
+    ],
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179445-*",
+        "repository": "https://github.com/dkavolis/Ferram-Aerospace-Research"
+    },
+    "version": "3:0.15.9.5",
+    "ksp_version_min": "1.5.0",
+    "ksp_version_max": "1.5.99",
+    "provides": [
+        "AerodynamicModel",
+        "FAR"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ModularFlightIntegrator"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AerodynamicModel"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/FerramAerospaceResearch",
+            "install_to": "GameData",
+            "filter": "config.xml"
+        },
+        {
+            "file": "Ships",
+            "install_to": "Ships",
+            "optional": true,
+            "description": "FAR example craft"
+        }
+    ],
+    "download": "https://github.com/dkavolis/Ferram-Aerospace-Research/releases/download/v0.15.9.5_Lighthill/FAR_0_15_9_5_Lighthill.zip",
+    "download_size": 763513,
+    "download_hash": {
+        "sha1": "69E8B63E07AE1D6B1DBE7D53A3F31D8D33DCE619",
+        "sha256": "08820ACE61961E2996FDD20B5C50CC28C4F70B0820E189617004DA66732CF297"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
