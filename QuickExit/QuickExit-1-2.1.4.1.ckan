@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "QuickExit",
+    "name": "QuickExit",
+    "abstract": "Adds the possibility to exit KSP at any time.",
+    "author": [
+        "malah",
+        "linuxgurugamer"
+    ],
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/85834-1",
+        "spacedock": "https://spacedock.info/mod/105/QuickExit",
+        "repository": "https://github.com/linuxgurugamer/QuickMods"
+    },
+    "version": "1:2.1.4.1",
+    "ksp_version_min": "1.5.1",
+    "ksp_version_max": "1.5.99",
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/QuickMods/QuickExit",
+            "install_to": "GameData/QuickMods"
+        }
+    ],
+    "download": "https://spacedock.info/mod/105/QuickExit/download/2.1.4.1",
+    "download_size": 28220,
+    "download_hash": {
+        "sha1": "A6FB90D6D93823349073AF3D3B2BC835D948C97E",
+        "sha256": "03BEE63D7E48489E578252C1B8F89501E28D1FF3396FE16FEC142D4C7FE23F70"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
