@@ -1,0 +1,41 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "KerbinSideAirRace",
+    "name": "Kerbin-Side AirRace cont.",
+    "abstract": "continuation of Kerbin-Side AirRace",
+    "author": "GER_Space",
+    "license": "restricted",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/1348/Kerbin-Side%20AirRace%20cont."
+    },
+    "version": "3:1.9.1",
+    "ksp_version_min": "1.2.2",
+    "ksp_version_max": "1.5.99",
+    "depends": [
+        {
+            "name": "KerbalKonstructs"
+        },
+        {
+            "name": "KerbinSide-virt"
+        }
+    ],
+    "install": [
+        {
+            "find": "AirRace",
+            "install_to": "GameData/KerbinSide"
+        },
+        {
+            "find": "KerbinSide-AirRace.version",
+            "install_to": "GameData/KerbinSide",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/1348/Kerbin-Side%20AirRace%20cont./download/1.9.1",
+    "download_size": 1621186,
+    "download_hash": {
+        "sha1": "6C043109F992E8BDB87A40F4A455DE74119F437C",
+        "sha256": "8E16D8773BE3FE2FE357EE329445C075A62F3AFA2D693EEE067365206F5CE639"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
