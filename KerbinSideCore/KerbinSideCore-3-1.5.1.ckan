@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "KerbinSideCore",
+    "name": "KerbinSide Core",
+    "abstract": "Shared files used by all KerbinSide variants",
+    "author": "GER_Space",
+    "license": "restricted",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/1347/Kerbin-Side%20Complete%20continued",
+        "x_screenshot": "https://spacedock.info/content/GER_Space_8909/Kerbin-Side_Complete_continued/Kerbin-Side_Complete_continued-1496653434.8552296.png"
+    },
+    "version": "3:1.5.1",
+    "ksp_version_min": "1.2.2",
+    "ksp_version_max": "1.5.1",
+    "depends": [
+        {
+            "name": "KerbalKonstructs"
+        }
+    ],
+    "install": [
+        {
+            "find": "CoreAssets",
+            "install_to": "GameData/KerbinSide"
+        },
+        {
+            "find": "Flags",
+            "install_to": "GameData/KerbinSide"
+        },
+        {
+            "find": "licence.txt",
+            "install_to": "GameData/KerbinSide",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/1347/Kerbin-Side%20Complete%20continued/download/1.5.1",
+    "download_size": 62651805,
+    "download_hash": {
+        "sha1": "CBEA7781DB71C4F5B5A075AC85387B9383AE2F9D",
+        "sha256": "B61E25C9EFC178A2F92F98B7FD5F746B94FE729CEE58491B5713A38D4172ACCD"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
