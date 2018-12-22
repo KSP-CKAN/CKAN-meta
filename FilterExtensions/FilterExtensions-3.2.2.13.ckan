@@ -1,0 +1,45 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "FilterExtensions",
+    "name": "Filter Extensions - Plugin",
+    "abstract": "Plugin allowing for configurable filters for the VAB/SPH using .cfg files.",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/168456-*",
+        "repository": "https://github.com/linuxgurugamer/FilterExtension"
+    },
+    "version": "3.2.2.13",
+    "ksp_version": "1.4.5",
+    "recommends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "FilterExtensionsDefaultConfig"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/000_FilterExtensions",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/000_FilterExtensions_Configs",
+            "install_to": "GameData",
+            "filter": [
+                "Default",
+                "StockRework"
+            ]
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/FilterExtension/releases/download/3.2.2.13/FilterExtension-1.4.5-3.2.2.13.zip",
+    "download_size": 823616,
+    "download_hash": {
+        "sha1": "1BD596A952BFE0593DAF93E7743CF4D6E53678A0",
+        "sha256": "29014BFCE0FD233275BDD955C4A26F868DD2965C2A5F84C2F4A2B3146627EFCC"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

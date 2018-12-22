@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "PADContinued",
+    "name": "Part Angle Display Continued",
+    "abstract": "A plugin that allows you to surface attach parts at accurate angles",
+    "author": "linuxgurugamer",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/170092-131-part-angle-display-continued-including-seamless-highly-accurate-rotation/",
+        "spacedock": "https://spacedock.info/mod/1679/Part%20Angle%20Display%20Continued",
+        "repository": "https://github.com/linuxgurugamer/PartAngleDisplay",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Part_Angle_Display_Continued/Part_Angle_Display_Continued-1516934366.3750505.jpg"
+    },
+    "version": "0.3.3.3",
+    "ksp_version": "1.4.1",
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "PartAngleDisplay"
+        }
+    ],
+    "install": [
+        {
+            "install_to": "GameData",
+            "find": "PartAngleDisplay"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1679/Part%20Angle%20Display%20Continued/download/0.3.3.3",
+    "download_size": 49431,
+    "download_hash": {
+        "sha1": "A80450C345E682B178DF45074ADAAB96D58BAE46",
+        "sha256": "FA3369AA1C0A66B9A81D75AE30B6BF2A2C25149EA71FEF9D2B236952EC4111EC"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}

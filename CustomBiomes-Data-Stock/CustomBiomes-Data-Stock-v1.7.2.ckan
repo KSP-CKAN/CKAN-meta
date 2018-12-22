@@ -1,0 +1,47 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "CustomBiomes-Data-Stock",
+    "name": "Custom Biomes (Stock data)",
+    "abstract": "Custom biomes data for the stock Kerbol system",
+    "author": "Trueborn",
+    "license": "CC-BY-NC-SA-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/60163-090-custom-biomes-170-17-dec/",
+        "repository": "https://github.com/NathanKell/CustomBiomes"
+    },
+    "version": "v1.7.2",
+    "ksp_version": "0.90",
+    "provides": [
+        "CustomBiomes-Data"
+    ],
+    "depends": [
+        {
+            "name": "CustomBiomes"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "CustomBiomes-Data"
+        }
+    ],
+    "install": [
+        {
+            "file": "CustomBiomes/PluginData/CustomBiomes",
+            "install_to": "GameData/CustomBiomes/PluginData",
+            "filter": [
+                "config.xml",
+                "Thumbs.db"
+            ],
+            "comment": "config.xml is bundled with the main mod itself"
+        }
+    ],
+    "download": "https://github.com/NathanKell/CustomBiomes/releases/download/v1.7.2/CustomBiomes_1_7_2.zip",
+    "download_size": 24559,
+    "download_hash": {
+        "sha1": "309BC4CEE59B88FDA1B2DEBBFE82CDA8A32A38F0",
+        "sha256": "DEABDD1822B5DFA29AB317353920805C90124B131A6E7F2E578C44D2139EB655"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

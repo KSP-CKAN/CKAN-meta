@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "BetterLookingOceans-HighRes",
+    "name": "Better Looking Oceans - High Resolution",
+    "abstract": "High quality, stock alike alternative to Scatterer's ocean shader",
+    "author": "Galileo88",
+    "license": "CC-BY-NC-ND",
+    "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/Galileo88/Better-Looking-Oceans"
+    },
+    "version": "1.3.0.3",
+    "ksp_version_min": "1.3.1",
+    "ksp_version_max": "1.4.2",
+    "depends": [
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "BetterLookingOceans-MedRes"
+        },
+        {
+            "name": "BetterLookingOceans-LowRes"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/BLO",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Galileo88/Better-Looking-Oceans/releases/download/1.3.0.3/BLO_High.zip",
+    "download_size": 20179396,
+    "download_hash": {
+        "sha1": "E8F81310AAAF6CF9E08229C7F39164812F27BE34",
+        "sha256": "F4F8A63849339E14C5C44647BD6E4AB06F0241048E5876161827E7EDD65361B1"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

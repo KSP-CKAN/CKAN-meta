@@ -1,0 +1,37 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "PicoPort4AllSizes",
+    "name": "PicoPort for all sizes",
+    "abstract": "This is a patch which makes the PicoPort available in many sizes",
+    "author": "linuxgurugamer",
+    "license": "MIT",
+    "resources": {
+        "repository": "https://github.com/linuxgurugamer/PicoPort4AllSizes"
+    },
+    "version": "0.1.2.1",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.4.99",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "PicoPort"
+        }
+    ],
+    "install": [
+        {
+            "install_to": "GameData",
+            "find": "SHED"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/PicoPort4AllSizes/releases/download/0.1.2.1/SHED-0.1.2.1.zip",
+    "download_size": 34345,
+    "download_hash": {
+        "sha1": "53D706D97CEED7B5F3D2B50CB7E407C82656E8CB",
+        "sha256": "A0263664D6BDC5A85D1959AD40CD5EE921ABBB2AB9154376C8B079626CA3740A"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}

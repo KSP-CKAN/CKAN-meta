@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Textures only",
+    "identifier": "SVE-HighResolution",
+    "name": "Stock Visual Enhancements-High Res Textures",
+    "abstract": "Textures for Stock Visual Enhancements",
+    "author": "Galileo88",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/143288-*",
+        "repository": "https://github.com/Galileo88/StockVisualEnhancements"
+    },
+    "version": "3:1.0.7",
+    "ksp_version_min": "1.2",
+    "provides": [
+        "SVE-Textures"
+    ],
+    "depends": [
+        {
+            "name": "StockVisualEnhancements"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SVE-Textures"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/StockVisualEnhancements",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Galileo88/StockVisualEnhancements/releases/download/1.0.7/SVE_HighResTextures.zip",
+    "download_size": 69248816,
+    "download_hash": {
+        "sha1": "B87D9AA1E141AC80564F5EDB4087713BC174CA77",
+        "sha256": "04BE734FE31B33EFC3B7D95510630F4F1E503B0A57E170BB1BA4770F40F8E49F"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

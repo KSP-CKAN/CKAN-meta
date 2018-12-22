@@ -1,0 +1,37 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Scatterer-config",
+    "name": "scatterer - default config",
+    "abstract": "The default configuration files for scatterer",
+    "author": "blackrack",
+    "license": "GPL-3.0",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/103963-wip-scatterer-atmospheric-scattering",
+        "spacedock": "https://spacedock.info/mod/141/scatterer",
+        "repository": "https://github.com/LGhassen/Scatterer",
+        "x_screenshot": "https://spacedock.info/content/blackrack_378/scatterer/scatterer-1456285817.4561393.jpg"
+    },
+    "version": "2:v0.0329_for_1.4.2",
+    "ksp_version": "1.4.2",
+    "conflicts": [
+        {
+            "name": "Scatterer-config"
+        }
+    ],
+    "install": [
+        {
+            "find": "scatterer/config",
+            "install_to": "GameData/scatterer",
+            "filter": "Sunflares"
+        }
+    ],
+    "download": "https://spacedock.info/mod/141/scatterer/download/v0.0329_for_1.4.2",
+    "download_size": 40938109,
+    "download_hash": {
+        "sha1": "5AEE7891E2200727E602149BF5B157853665C43B",
+        "sha256": "661964D35124413932927E48F869E579CECDA404DCF86D78DE8CF5B5E58D6774"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

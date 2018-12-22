@@ -1,0 +1,72 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RSSVE-HR",
+    "name": "RSS Visual Enhancements - High Resolution",
+    "abstract": "Visual enhancements for RSS to make your game look a hundred times better!",
+    "author": "PhineasFreak",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/153511-rssve",
+        "repository": "https://github.com/PhineasFreak/RSSVE"
+    },
+    "version": "v1.3.1-5",
+    "ksp_version": "1.3.1",
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "RSSVE-Textures"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "Scatterer",
+            "version": "2:v0.0320b"
+        },
+        {
+            "name": "Scatterer-config"
+        },
+        {
+            "name": "Scatterer-sunflare"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "DistantObjectEnhancement"
+        },
+        {
+            "name": "PlanetShine"
+        },
+        {
+            "name": "TextureReplacerReplaced"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        },
+        {
+            "name": "RSSVE-Textures"
+        }
+    ],
+    "install": [
+        {
+            "find": "RSSVE",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/PhineasFreak/RSSVE/releases/download/v1.3.1-5/RSSVE_HR_v1.3.1-5.zip",
+    "download_size": 312928401,
+    "download_hash": {
+        "sha1": "28AA5DC8693323A668BA9A50C9D0BE20FD58BA70",
+        "sha256": "7EAD97466A175C6C37D3A9D881A35C7399854C96FD2A4C2290DEB8379881EB67"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

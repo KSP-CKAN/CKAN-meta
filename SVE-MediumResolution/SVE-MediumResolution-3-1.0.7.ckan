@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Textures only",
+    "identifier": "SVE-MediumResolution",
+    "name": "Stock Visual Enhancements-Medium Resolution Textures",
+    "abstract": "Textures for Stock Visual Enhancements",
+    "author": "Galileo88",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/143288-*",
+        "repository": "https://github.com/Galileo88/StockVisualEnhancements"
+    },
+    "version": "3:1.0.7",
+    "ksp_version_min": "1.2",
+    "provides": [
+        "SVE-Textures"
+    ],
+    "depends": [
+        {
+            "name": "StockVisualEnhancements"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SVE-Textures"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/StockVisualEnhancements",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Galileo88/StockVisualEnhancements/releases/download/1.0.7/SVE_MedResTextures.zip",
+    "download_size": 51692814,
+    "download_hash": {
+        "sha1": "F69B6E222DDD004224DA105750747DA6D64A66B1",
+        "sha256": "045A2B8B9355272EEA2AF0BFE38641FDDA2D9A3CA0C892EF7314C47439DFF06F"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

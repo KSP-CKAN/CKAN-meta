@@ -1,0 +1,41 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "JDiminishingRTG",
+    "name": "JDiminishingRTG",
+    "abstract": "Realistic, configurable radioisotope decay!",
+    "author": [
+        "KwirkyJ",
+        "N70"
+    ],
+    "license": "GPL-3.0",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/1773/JDiminishingRTG",
+        "repository": "https://gitlab.com/N70/JDiminishingRTG"
+    },
+    "version": "1.5.0",
+    "ksp_version_min": "1.4.0",
+    "ksp_version_max": "1.4.2",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "JDiminishingRTG",
+            "install_to": "GameData",
+            "filter_regexp": [
+                "ModuleManager.*"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/1773/JDiminishingRTG/download/1.5.0",
+    "download_size": 72248,
+    "download_hash": {
+        "sha1": "FAFF7DD0D862DD175E5B1664E52FCF31EAC41F57",
+        "sha256": "EBC0C66CD6282CF9E8B07D855EE1545E7B9674080DE2F14EEC27D4115C446B04"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}

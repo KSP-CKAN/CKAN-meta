@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "ThrottleControlledAvionics",
+    "name": "Throttle Controlled Avionics",
+    "abstract": "TCA is a plugin that enhances the attitude control of a ship by dynamically changing the output of its engines and RCS thrusters. Even with most unbalanced designs TCA maintains stable flight and quick precise response to user or autopilot input. TCA also provides many sophisticated autopilot programs based on this core functionality, including waypoint navigation and automatic landing. It is also fast enough to simultaneously control a whole squadron of ships without much overhead.",
+    "author": [
+        "allista"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/97154-throttle-controlled-avionics",
+        "spacedock": "https://spacedock.info/mod/198/Throttle%20Controlled%20Avionics",
+        "repository": "https://github.com/allista/ThrottleControlledAvionics",
+        "bugtracker": "https://github.com/allista/ThrottleControlledAvionics/issues",
+        "manual": "https://github.com/allista/ThrottleControlledAvionics/blob/master/GameData/ThrottleControlledAvionics/INSTRUCTIONS.md",
+        "x_screenshot": "https://spacedock.info/content/allista_931/Throttle_Controlled_Avionics/Throttle_Controlled_Avionics-1455987208.8846784.png"
+    },
+    "version": "v3.5.2",
+    "ksp_version": "1.4.3",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "AT-Utils"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KSP-AVC"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "download": "https://spacedock.info/mod/198/Throttle%20Controlled%20Avionics/download/3.5.2",
+    "download_size": 390856,
+    "download_hash": {
+        "sha1": "36DEB2AC02D7356F367F459ED42D34B943BC9049",
+        "sha256": "57D3304A690A57B0E07131A0386903E7088A4D77D767E2B6DE9E14FC392C0EB1"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "BobsPanicBox",
+    "name": "Bobs Panic Box",
+    "abstract": "Automatic control of the abort sequence, depending on specified parameters",
+    "author": "linuxgurugamer",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/176073-14-bob",
+        "repository": "BobsPanicBox"
+    },
+    "version": "0.0.1.7",
+    "ksp_version_min": "1.4.3",
+    "ksp_version_max": "1.4.99",
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "PEBKACIndustriesLaunchEscapeSystem"
+        }
+    ],
+    "install": [
+        {
+            "install_to": "GameData",
+            "find": "BobsPanicBox"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/BobsPanicBox/releases/download/0.0.1.7/BobsPanicBox-0.0.1.7.zip",
+    "download_size": 55719,
+    "download_hash": {
+        "sha1": "C1667C4DBE183F32161CC7A75010A64F812D6372",
+        "sha256": "71843BC48D5BAD5240E350C7C1D0AEE639778F0818CEE8EE3A6F15DF700108CD"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}

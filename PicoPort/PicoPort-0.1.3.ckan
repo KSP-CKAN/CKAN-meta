@@ -20,8 +20,12 @@
     ],
     "install": [
         {
+            "find": "SHED",
             "install_to": "GameData",
-            "find": "SHED"
+            "filter": [
+                "Agencies",
+                "License"
+            ]
         }
     ],
     "download": "https://spacedock.info/mod/1165/PicoPort/download/0.1.3",

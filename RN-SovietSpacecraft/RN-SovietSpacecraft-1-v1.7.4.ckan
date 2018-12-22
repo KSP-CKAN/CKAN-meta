@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Ships installed again",
+    "identifier": "RN-SovietSpacecraft",
+    "name": "Soviet Spacecraft - Soyuz, Progress, Vostok/Voskhod, TKS/VA",
+    "abstract": "Soviet spacecraft pack that contains Soyuz 7K-T, 7K-OKA, 7K-OKP 7K-T-AF and Progress 7K-TG, and Vostok/Voskhod spacecraft, and TKS/VA",
+    "author": "Raidernick",
+    "license": "CC-BY-NC-ND-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/133579-105",
+        "repository": "https://github.com/KSP-RO/SovietSpacecraft"
+    },
+    "version": "1:v1.7.4",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.3.99",
+    "depends": [
+        {
+            "name": "BDAnimationModules"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TexturesUnlimited"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RN-SalyutStations"
+        },
+        {
+            "name": "RN-SovietRockets"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RN-SalyutStations-SoyuzFerries"
+        }
+    ],
+    "install": [
+        {
+            "find": "RN_Soyuz",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/SovietSpacecraft/releases/download/v1.7.4/RN_SovietSpacecraft_v1.7.4.zip",
+    "download_size": 87190269,
+    "download_hash": {
+        "sha1": "F483F9CF5A9A99D03996EA95AB6E9980C7E9DC8D",
+        "sha256": "805A032E0220DEB8E43D044515A586E34C659B51FC5986DEDE4E3F5A38586C04"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
