@@ -1,0 +1,45 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KVVContinued",
+    "name": "Kronal Vessel Viewer Continued",
+    "abstract": "Plugin that creates blue-print-like images (into your Screenshots/ directory) from the KSP Editor (VAB/SPH).",
+    "author": "linuxgurugamer",
+    "license": "unrestricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/152430-121-kvv-kronal-vessel-viewer-exploded-ship-view/",
+        "spacedock": "https://spacedock.info/mod/1092/Kronal%20Vessel%20Viewer%20Continued",
+        "repository": "https://github.com/linuxgurugamer/KronalVesselViewer",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Kronal_Vessel_Viewer_Continued/Kronal_Vessel_Viewer_Continued-1480167501.365928.png"
+    },
+    "version": "0.0.9.10",
+    "ksp_version_min": "1.5.1",
+    "ksp_version_max": "1.6.0",
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KronalVesselViewer"
+        }
+    ],
+    "install": [
+        {
+            "install_to": "GameData",
+            "find": "KronalVesselViewer"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1092/Kronal%20Vessel%20Viewer%20Continued/download/0.0.9.10",
+    "download_size": 2400991,
+    "download_hash": {
+        "sha1": "8B1B9B89801484D03E05D5E34183AFB06B3805F8",
+        "sha256": "EF86CD124ADAE1B4E889310EFC0B7B4A4EC6700A5B27A3201ABD210FFA08ECE4"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
