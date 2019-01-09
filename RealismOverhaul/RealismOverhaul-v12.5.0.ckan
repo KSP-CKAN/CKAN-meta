@@ -1,0 +1,246 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "RealismOverhaul",
+    "name": "Realism Overhaul",
+    "abstract": "Multipatch to KSP to give spacecraft components realistic stats and sizes, and performance based on real-world spacecraft.",
+    "author": "raidernick",
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/155700-122-realism-overhaul-v1150-05262017/",
+        "repository": "https://github.com/KSP-RO/RealismOverhaul"
+    },
+    "version": "v12.5.0",
+    "ksp_version_min": "1.3.0",
+    "ksp_version_max": "1.4.5",
+    "provides": [
+        "RealPlumeConfigs",
+        "RealFuels-Engine-Configs",
+        "TestFlightConfig"
+    ],
+    "depends": [
+        {
+            "name": "AdvancedJetEngine"
+        },
+        {
+            "name": "FAR"
+        },
+        {
+            "name": "KerbalJointReinforcementContinued"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealChute"
+        },
+        {
+            "name": "RealFuels"
+        },
+        {
+            "name": "RealHeat"
+        },
+        {
+            "name": "RealPlume"
+        },
+        {
+            "name": "SmokeScreen"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "B9-PWings-Fork"
+        },
+        {
+            "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "DeadlyReentry"
+        },
+        {
+            "name": "HangerExtenderExtended"
+        },
+        {
+            "name": "KSP-AVC"
+        },
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "ProceduralFairings"
+        },
+        {
+            "name": "ProceduralFairings-ForEverything"
+        },
+        {
+            "name": "ProceduralParts"
+        },
+        {
+            "name": "PersistentRotation"
+        },
+        {
+            "name": "RCSBuildAidCont"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "KSCSwitcher"
+        },
+        {
+            "name": "RealismOverhaulCraftFiles"
+        },
+        {
+            "name": "RemoteTech"
+        },
+        {
+            "name": "SemiSaturatableRW"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "TestFlight"
+        },
+        {
+            "name": "TexturesUnlimited"
+        },
+        {
+            "name": "Toolbar"
+        },
+        {
+            "name": "VenStockRevamp"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "DMagicOrbitalScience"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "ALCOR"
+        },
+        {
+            "name": "ATKPropulsionPack"
+        },
+        {
+            "name": "SpaceXLaunchVehicles"
+        },
+        {
+            "name": "CryoEngines"
+        },
+        {
+            "name": "FASA"
+        },
+        {
+            "name": "ForgottenRealEngines"
+        },
+        {
+            "name": "KWRocketryRedux"
+        },
+        {
+            "name": "FilterExtensions"
+        },
+        {
+            "name": "NearFutureConstruction"
+        },
+        {
+            "name": "NearFuturePropulsion"
+        },
+        {
+            "name": "NearFutureSolar"
+        },
+        {
+            "name": "NearFutureSpacecraft"
+        },
+        {
+            "name": "RLARecontinued"
+        },
+        {
+            "name": "SovietEnginePack"
+        },
+        {
+            "name": "RealScaleBoosters"
+        },
+        {
+            "name": "AntaresCygnus"
+        },
+        {
+            "name": "RN-SovietRockets"
+        },
+        {
+            "name": "RN-SalyutStations"
+        },
+        {
+            "name": "RN-Skylab"
+        },
+        {
+            "name": "RN-SovietProbes"
+        },
+        {
+            "name": "RN-USProbesPack"
+        },
+        {
+            "name": "RN-USRockets"
+        },
+        {
+            "name": "RocketdyneF-1"
+        },
+        {
+            "name": "SpaceShuttleSystem"
+        },
+        {
+            "name": "SXTContinued"
+        },
+        {
+            "name": "Taerobee"
+        },
+        {
+            "name": "NewTantares"
+        },
+        {
+            "name": "NewTantaresLV"
+        },
+        {
+            "name": "RealEngines"
+        },
+        {
+            "name": "UniversalStorage"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TweakableEverything"
+        },
+        {
+            "name": "RealPlumeConfigs"
+        },
+        {
+            "name": "TestFlightConfig"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/RealismOverhaul",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/EngineGroupController",
+            "install_to": "GameData",
+            "comment": "Engine Group Controller, unique to RO."
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v12.5.0/RealismOverhaul-v12.5.0.zip",
+    "download_size": 8812838,
+    "download_hash": {
+        "sha1": "5F03E88E45CD2F544563BDFE7B64EBE1AF96735D",
+        "sha256": "D71D6A05075C27B6CB2F9C3817EA581102C341BC0FB544C6FF75060BCE7E8D09"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
