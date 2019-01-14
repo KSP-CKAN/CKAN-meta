@@ -1,0 +1,37 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "B9PartSwitch",
+    "name": "B9 Part Switch",
+    "abstract": "A module which allows parts to switch objects, resources, nodes, attach points, temperature, add mass and cost, and more.",
+    "author": "blowfish",
+    "license": "LGPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=140541",
+        "repository": "https://github.com/blowfishpro/B9PartSwitch"
+    },
+    "version": "v2.6.0",
+    "ksp_version": "1.6.1",
+    "provides": [
+        "DeadskinsMeshSwitch"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "B9PartSwitch",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/blowfishpro/B9PartSwitch/releases/download/v2.6.0/B9PartSwitch_v2.6.0.zip",
+    "download_size": 62405,
+    "download_hash": {
+        "sha1": "23B3A04D4372BA4CA9BF60D9377807452E690A01",
+        "sha256": "3FD9DCC48F135C0547508BFA148F396529E6DF8904FA8AB3A2A6BC00F5315E32"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
