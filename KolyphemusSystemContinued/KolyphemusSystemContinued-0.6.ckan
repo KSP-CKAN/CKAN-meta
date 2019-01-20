@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KolyphemusSystemContinued",
+    "name": "Kolyphemus System Continued",
+    "abstract": "KolyphemusSystem is back!!!",
+    "author": "DavianLin",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "http://jebhangar.ru/",
+        "spacedock": "https://spacedock.info/mod/2055/Kolyphemus%20System%20Continued",
+        "x_screenshot": "https://spacedock.info/content/DavianLin_14120/Kolyphemus_System_Continued/Kolyphemus_System_Continued-1547133051.8294513.png"
+    },
+    "version": "0.6",
+    "ksp_version": "1.6.1",
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        }
+    ],
+    "install": [
+        {
+            "find": "KolyphemusSystemContinued/Kolyphemus",
+            "install_to": "GameData"
+        },
+        {
+            "find": "KolyphemusSystemContinued/BoulderCo",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2055/Kolyphemus%20System%20Continued/download/0.6",
+    "download_size": 173457607,
+    "download_hash": {
+        "sha1": "F568D05E415801037137AC061DA886BD8A8ACD3B",
+        "sha256": "CBCDA583EA98B2D6FA541D710147661A89E3C5D1B357D250A9CAFE008EC942B6"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
