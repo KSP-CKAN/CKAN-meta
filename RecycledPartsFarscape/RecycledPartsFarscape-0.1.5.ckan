@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RecycledPartsFarscape",
+    "name": "Recycled Parts Farscape",
+    "abstract": "Old mods recycled",
+    "author": "linuxgurugamer",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164829-13-spacetux-industries-recycled-parts/",
+        "spacedock": "https://spacedock.info/mod/1507/Recycled%20Parts",
+        "repository": "https://github.com/linuxgurugamer/RecycledParts"
+    },
+    "version": "0.1.5",
+    "ksp_version_min": "1.3.1",
+    "ksp_version_max": "1.6.1",
+    "depends": [
+        {
+            "name": "KSPWheel"
+        },
+        {
+            "name": "PatchManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CommunityTechTree"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "JanitorsCloset"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RecycledPartsFarscape"
+        }
+    ],
+    "install": [
+        {
+            "install_to": "GameData/SpaceTuxIndustries/RecycledParts",
+            "find": "Mike_NZ_Crafts"
+        },
+        {
+            "install_to": "Ships",
+            "find": "SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1507/Recycled%20Parts/download/0.1.5",
+    "download_size": 33496136,
+    "download_hash": {
+        "sha1": "F5BD1152021C4F118BC2800DF096297A80C10265",
+        "sha256": "4C9D3B08C254388FC335E95A20200A84BE81CD99D557BCF26460BA3EA6D93768"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
