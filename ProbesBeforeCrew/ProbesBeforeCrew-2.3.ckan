@@ -1,8 +1,8 @@
 {
     "spec_version": "v1.4",
     "identifier": "ProbesBeforeCrew",
-    "name": "Probes Before Crew",
-    "abstract": "Probes Before Crew does what it says on the box; it places remote technologies far ahead of crewed alternatives on the tech tree while also placing greater significance and reward on crewed actions and achievements as a result.",
+    "name": "Probes Before Crew [PBC]",
+    "abstract": "Tech tree overhaul that places probes before crew.",
     "author": "_Zee",
     "license": "MIT",
     "resources": {
@@ -11,7 +11,8 @@
         "x_screenshot": "https://spacedock.info/content/Zee_24726/Probes_Before_Crew/Probes_Before_Crew-1546487653.787477.jpg"
     },
     "version": "2.3",
-    "ksp_version": "1.6.1",
+    "ksp_version_min": "1.6.0",
+    "ksp_version_max": "1.6.99",
     "depends": [
         {
             "name": "ModuleManager"
@@ -20,18 +21,62 @@
             "name": "CommunityTechTree"
         }
     ],
+    "suggests": [
+        {
+            "name": "ContractConfigurator"
+        },
+        {
+            "name": "Strategia"
+        }
+    ],
     "supports": [
         {
             "name": "DMagicOrbitalScience"
         },
         {
-            "name": "UniversalStorage2"
+            "name": "KAS"
+        },
+        {
+            "name": "KIS"
         },
         {
             "name": "kOS"
         },
         {
-            "name": "TACLS"
+            "name": "Kerbalism"
+        },
+        {
+            "name": "MarkIVSpaceplaneSystem"
+        },
+        {
+            "name": "NearFutureConstruction"
+        },
+        {
+            "name": "NearFutureElectrical"
+        },
+        {
+            "name": "NearFutureLaunchVehicles"
+        },
+        {
+            "name": "NearFutureSolar"
+        },
+        {
+            "name": "NearFutureSpacecraft"
+        },
+        {
+            "name": "NearFuturePropulsion"
+        },
+        {
+            "name": "MissingHistory"
+        },
+        {
+            "name": "ProbeControlRoom"
+        },
+        {
+            "name": "RealChute"
+        },
+        {
+            "name": "RemoteTech"
         },
         {
             "name": "SCANsat"
@@ -40,10 +85,10 @@
             "name": "StationPartsExpansionRedux"
         },
         {
-            "name": "MissingHistory"
+            "name": "TACLS"
         },
         {
-            "name": "RemoteTech"
+            "name": "UniversalStorage2"
         }
     ],
     "install": [
