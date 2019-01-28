@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Insight",
+    "name": "Insight",
+    "abstract": "Replica of mision Insight.",
+    "author": "kunedo",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/181363-wip001-insight/",
+        "spacedock": "https://spacedock.info/mod/2058/Insight",
+        "repository": "https://github.com/Kunedo83/Insight",
+        "x_screenshot": "https://spacedock.info/content/kunedo_23610/Insight/Insight-1547414179.8739488.jpg"
+    },
+    "version": "0.0.1",
+    "ksp_version_min": "1.6.0",
+    "ksp_version_max": "1.6.1",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Toolbar"
+        },
+        {
+            "name": "ToolbarController"
+        }
+    ],
+    "install": [
+        {
+            "find": "Kunedo",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Ships",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2058/Insight/download/0.0.1",
+    "download_size": 78102324,
+    "download_hash": {
+        "sha1": "5607132F231783A6CBCD4A6E7A2374FA5E8B5369",
+        "sha256": "264F69A916E57E82BBD9B2DA60A83CAE1EE181890F4190CBE5E91DC641992611"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

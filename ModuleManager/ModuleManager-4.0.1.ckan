@@ -1,0 +1,34 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "ModuleManager",
+    "name": "Module Manager",
+    "abstract": "Modify KSP configs without conflict",
+    "author": [
+        "ialdabaoth",
+        "Sarbian"
+    ],
+    "license": "CC-BY-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/50533-141-module-manager-306-marsh-14th-2018-its-dangerous-to-go-alone-take-those-cats-with-you/",
+        "repository": "https://github.com/sarbian/ModuleManager",
+        "ci": "https://ksp.sarbian.com/jenkins/job/ModuleManager/"
+    },
+    "version": "4.0.1",
+    "ksp_version_min": "1.4.0",
+    "ksp_version_max": "1.6.90",
+    "install": [
+        {
+            "find_regexp": "ModuleManager.*\\.dll$",
+            "find_matches_files": true,
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://ksp.sarbian.com/jenkins/job/ModuleManager/148/artifact/ModuleManager-4.0.1.zip",
+    "download_size": 58630,
+    "download_hash": {
+        "sha1": "99BFBB9090A3AB7813C78D53FD0217FE44785138",
+        "sha256": "F6C1393AC378CB595C2340C78ED0045BF9009AFF35049B836EC5847559B54291"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

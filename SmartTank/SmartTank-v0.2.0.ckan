@@ -1,0 +1,53 @@
+{
+    "spec_version": 1,
+    "comment": "Indexed by author. Please report any problems at the repository bugtracker.",
+    "identifier": "SmartTank",
+    "name": "Smart Tank",
+    "abstract": "Automatically scale tanks from Procedural Parts to fit a specified TWR",
+    "description": "Uses an embedded copy of Kerbal Engineer's vessel simulator to determine the TWR of each stage, then adjusts the sizes of tanks from Procedural Parts to fit a user-specified TWR. Also sets top and bottom diameters to match attached parts, matches the fuel tank type to the attached engine, and allows the user to change the default texture. All such features can be toggled at the part level with tweakables or at the system level via a button in the stock toolbar.",
+    "author": "HebaruSan",
+    "license": "GPL-3.0",
+    "release_status": "development",
+    "resources": {
+        "repository": "https://github.com/HebaruSan/SmartTank"
+    },
+    "version": "v0.2.0",
+    "ksp_version": "1.6",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ProceduralParts"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "LoadingTipsPlus"
+        },
+        {
+            "name": "ProceduralParts-Textures-BattleTechAerospace"
+        },
+        {
+            "name": "ProceduralParts-Textures-SCCKSCS"
+        },
+        {
+            "name": "ProceduralParts-Textures-SaturnNova"
+        },
+        {
+            "name": "VensStylePPTextures"
+        },
+        {
+            "name": "MainSailorTextures-Complete"
+        }
+    ],
+    "download": "https://github.com/HebaruSan/SmartTank/releases/download/v0.2.0/SmartTank.zip",
+    "download_size": 39411,
+    "download_hash": {
+        "sha1": "C0DAAFA671B73439DD0CA97DCBC6A461199ABCE3",
+        "sha256": "922F158BAE8C65ED96FBB1036DAA2A3281F11CE45FED211B706A109DCE9C49F6"
+    },
+    "download_content_type": "application/zip",
+    "kind": "package",
+    "x_generated_by": "netkan"
+}

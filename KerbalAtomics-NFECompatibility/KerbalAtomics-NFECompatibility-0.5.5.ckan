@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalAtomics-NFECompatibility",
+    "name": "Kerbal Atomics - NFE Compatibility Patch",
+    "abstract": "Optional, experimental patch that makes Kerbal Atomics nuclear engines utilize the Near Future Electrical reactor plugin.",
+    "author": "Nertea",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/130503-10511-kerbal-atomics-fancy-nuclear-engines-initial-11-test/",
+        "spacedock": "https://spacedock.info/mod/710/Kerbal%20Atomics",
+        "repository": "https://github.com/ChrisAdderley/KerbalAtomics",
+        "x_screenshot": "https://spacedock.info/content/Nertea_200/Kerbal_Atomics/Kerbal_Atomics-1463537395.8438432.png"
+    },
+    "version": "0.5.5",
+    "ksp_version": "1.6.1",
+    "depends": [
+        {
+            "name": "KerbalAtomics"
+        },
+        {
+            "name": "NearFutureElectrical"
+        }
+    ],
+    "install": [
+        {
+            "find": "NearFutureElectricaNTRs",
+            "install_to": "GameData/KerbalAtomics/Extras"
+        }
+    ],
+    "download": "https://spacedock.info/mod/710/Kerbal%20Atomics/download/0.5.5",
+    "download_size": 67734859,
+    "download_hash": {
+        "sha1": "08F6923F29594F071297A8CB4BB01170355F5021",
+        "sha256": "FA0005730A47E86BB682C1D9B273864DF77D09B94954A7E938236CCCA3C4846D"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

@@ -1,0 +1,63 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "KerbinSide",
+    "name": "Kerbin-Side Complete continued",
+    "abstract": "Contuniation of Kerbin-Side ",
+    "author": "GER_Space",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160099-*",
+        "spacedock": "https://spacedock.info/mod/1347/Kerbin-Side%20Complete%20continued",
+        "x_screenshot": "https://spacedock.info/content/GER_Space_8909/Kerbin-Side_Complete_continued/Kerbin-Side_Complete_continued-1496653434.8552296.png"
+    },
+    "version": "3:1.5.1",
+    "ksp_version_min": "1.2.2",
+    "ksp_version_max": "1.5.1",
+    "provides": [
+        "KerbinSide-virt"
+    ],
+    "depends": [
+        {
+            "name": "KerbalKonstructs"
+        },
+        {
+            "name": "KerbinSideCore"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbinSide-virt"
+        }
+    ],
+    "install": [
+        {
+            "find": "MainBases",
+            "install_to": "GameData/KerbinSide"
+        },
+        {
+            "find": "GroundControl",
+            "install_to": "GameData/KerbinSide"
+        },
+        {
+            "find": "Centers",
+            "install_to": "GameData/KerbinSide"
+        },
+        {
+            "find": "FreeAssets",
+            "install_to": "GameData/KerbinSide"
+        },
+        {
+            "find": "KerbinSide-Complete.version",
+            "install_to": "GameData/KerbinSide",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/1347/Kerbin-Side%20Complete%20continued/download/1.5.1",
+    "download_size": 62651805,
+    "download_hash": {
+        "sha1": "CBEA7781DB71C4F5B5A075AC85387B9383AE2F9D",
+        "sha256": "B61E25C9EFC178A2F92F98B7FD5F746B94FE729CEE58491B5713A38D4172ACCD"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

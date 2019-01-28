@@ -1,0 +1,34 @@
+{
+    "spec_version": 1,
+    "identifier": "KerbalXMod",
+    "name": "KerbalX Mod",
+    "abstract": "Uploads and updates your craft to KerbalX from within the game in a few clicks. Also enables downloading craft.",
+    "author": "katateochi",
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/84389-kerbalxcom",
+        "repository": "https://github.com/Sujimichi/KerbalXMod",
+        "bugtracker": "https://github.com/Sujimichi/KerbalXMod/issues"
+    },
+    "version": "1.1.0",
+    "ksp_version_min": "1.4",
+    "depends": [
+        {
+            "name": "KXAPI"
+        }
+    ],
+    "install": [
+        {
+            "file": "KerbalX",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Sujimichi/KerbalXMod/releases/download/1.1.0/KerbalX.zip",
+    "download_size": 120700,
+    "download_hash": {
+        "sha1": "1601EB25FFEFD4A34883AD6C134791D055EC8558",
+        "sha256": "F9ECF16CB1341DDB213373BD20AC87787257875FB958EBA1009A682C9B53560A"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
