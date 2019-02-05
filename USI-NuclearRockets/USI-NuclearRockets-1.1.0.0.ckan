@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "USI-NuclearRockets",
+    "name": "'Project Orion' Nuclear Pulse Engine",
+    "abstract": "Nuclear Pulse Drives for KSP!",
+    "author": "RoverDude",
+    "license": "restricted",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "repository": "https://github.com/BobPalmer/NuclearRockets"
+    },
+    "version": "1.1.0.0",
+    "ksp_version_min": "1.6.0",
+    "ksp_version_max": "1.6.9",
+    "depends": [
+        {
+            "name": "USITools",
+            "min_version": "0.9.0.0"
+        },
+        {
+            "name": "USI-Core",
+            "min_version": "0.4.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/Orion",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/BobPalmer/NuclearRockets/releases/download/1.1.0.0/Orion_1.1.0.0.zip",
+    "download_size": 9850068,
+    "download_hash": {
+        "sha1": "B6224BB9049DADF7F9131DE5C049D42E8D53C95C",
+        "sha256": "81724100274442668331E6004E9C63CC9CFC38FE037B78A3B2AD9D4A415E03AB"
+    },
+    "download_content_type": "application/zip",
+    "x_last_revision_by": "DoktorKrogg",
+    "x_generated_by": "netkan"
+}
