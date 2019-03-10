@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.16",
+    "spec_version": "v1.26",
     "identifier": "ScottManleyHeadPack",
     "name": "Scott Manley Head Pack",
     "abstract": "Are you tired of not having Scott Manley in game? Are you tired of not looking at his pretty face while you playing KSP? ENOUGH! NOW YOU CAN LOOK AT HIM AS MUCH AS YOU WANT! Download our Scott Manley Head Pack today and get 50% more Scott!!!",
@@ -16,17 +16,11 @@
     "depends": [
         {
             "name": "ModuleManager"
-        }
-    ],
-    "recommends": [
-        {
-            "name": "SigmaReplacements-Heads"
-        }
-    ],
-    "suggests": [
-        {
-            "name": "TextureReplacerReplaced"
-        }
+        },
+        { "any_of": [
+            { "name": "SigmaReplacements-Heads" },
+            { "name": "TextureReplacerReplaced" }
+        ] }
     ],
     "download": "https://drive.google.com/uc?export=download&id=1X9vBLb9C5t2G5qfPCmtN_R-kF035UBPo",
     "download_size": 781384,
