@@ -1,8 +1,8 @@
 {
     "spec_version": "v1.4",
-    "identifier": "Scatterer",
-    "name": "scatterer",
-    "abstract": "Atmospheric scattering shaders",
+    "identifier": "Scatterer-config",
+    "name": "scatterer - default config",
+    "abstract": "The default configuration files for scatterer",
     "author": "blackrack",
     "license": "GPL-3.0",
     "release_status": "development",
@@ -12,33 +12,25 @@
         "repository": "https://github.com/LGhassen/Scatterer",
         "x_screenshot": "https://spacedock.info/content/blackrack_378/scatterer/scatterer-1456285817.4561393.jpg"
     },
-    "version": "2:v0.053",
+    "version": "2:v0.0520",
     "ksp_version": "1.6.1",
-    "depends": [
-        {
-            "name": "Scatterer-sunflare"
-        },
+    "conflicts": [
         {
             "name": "Scatterer-config"
         }
     ],
-    "conflicts": [
-        {
-            "name": "Scatterer"
-        }
-    ],
     "install": [
         {
-            "find": "scatterer",
-            "install_to": "GameData",
-            "filter_regexp": "config\\/.*"
+            "find": "scatterer/config",
+            "install_to": "GameData/scatterer",
+            "filter": "Sunflares"
         }
     ],
-    "download": "https://spacedock.info/mod/141/scatterer/download/0.053",
-    "download_size": 39563331,
+    "download": "https://spacedock.info/mod/141/scatterer/download/0.052",
+    "download_size": 39563949,
     "download_hash": {
-        "sha1": "795EAE8C6E44AC56DEF5DA1F11A534E8C31710DC",
-        "sha256": "F33324EF5ADA9F850D1E74E7A33A0826813F97B697732D330C154ABFAA300B07"
+        "sha1": "2B6FD6E8AC34E6CCC9E1FE5916E9C92B8431C721",
+        "sha256": "46101A88460EEE26A538B8D351EA8C93091276011EF3F9A974276EEE61F5D196"
     },
     "download_content_type": "application/zip",
     "x_generated_by": "netkan"
