@@ -1,10 +1,10 @@
 {
     "spec_version": "v1.4",
-    "identifier": "NearFutureSpacecraft",
-    "name": "Near Future Spacecraft",
-    "abstract": "New command pods, control systems and engines for crewed spacecraft",
+    "identifier": "NearFutureSpacecraft-OrbitalLFOEngines",
+    "name": "Near Future Spacecraft - LFO Engines",
+    "abstract": "Convertes the monopropellant-based orbital engines in NF Spacecraft to use Liquid Fuel/Oxidizer",
     "author": "Nertea",
-    "license": "restricted",
+    "license": "MIT",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155465-16x-near-future-technologies-16x-fixes-jan-21/",
         "spacedock": "https://spacedock.info/mod/708/Near%20Future%20Spacecraft",
@@ -16,46 +16,12 @@
     "ksp_version_max": "1.6.99",
     "depends": [
         {
-            "name": "NearFutureProps"
-        },
-        {
-            "name": "B9PartSwitch"
-        },
-        {
-            "name": "ModuleManager"
-        }
-    ],
-    "suggests": [
-        {
-            "name": "CommunityTechTree"
-        },
-        {
-            "name": "NearFutureConstruction"
-        },
-        {
-            "name": "NearFutureElectrical"
-        },
-        {
-            "name": "NearFuturePropulsion"
-        },
-        {
-            "name": "NearFutureSolar"
-        },
-        {
-            "name": "StationPartsExpansionRedux"
-        }
-    ],
-    "supports": [
-        {
-            "name": "RasterPropMonitor-Core"
-        },
-        {
-            "name": "ConnectedLivingSpace"
+            "name": "NearFutureSpacecraft"
         }
     ],
     "install": [
         {
-            "find": "NearFutureSpacecraft",
+            "find": "OrbitalLFOEngines",
             "install_to": "GameData"
         }
     ],
