@@ -1,8 +1,8 @@
 {
     "spec_version": "v1.4",
-    "identifier": "CustomAsteroids-Pops-OPM-Outer",
-    "name": "Custom Asteroids (Kuiper belt analog for OPM)",
-    "abstract": "Adds Kentaurs and trans-Neidonian objects",
+    "identifier": "CustomAsteroids-Pops-OPM-Reconfig",
+    "name": "Custom Asteroids (alternative OPM config)",
+    "abstract": "Replaces default OPM asteroid config with one that uses Custom ASteroids",
     "author": "Starstrider42",
     "license": "MIT",
     "resources": {
@@ -16,7 +16,10 @@
     ],
     "depends": [
         {
-            "name": "OuterPlanetsMod"
+            "name": "OuterPlanetsMod",
+            "min_version": "2:2.2.2",
+            "max_version": "2:2.99.99",
+            "comment": "Version where OPM switched to Kopernicus asteroids."
         },
         {
             "name": "CustomAsteroids",
@@ -29,7 +32,7 @@
         {
             "find": "config",
             "install_to": "GameData/CustomAsteroids",
-            "filter_regexp": "(?<!Trans-Neidon\\.cfg)$"
+            "filter_regexp": "(?<!OPM-Reconfig\\.cfg)$"
         }
     ],
     "download": "https://api.github.com/repos/Starstrider42/Custom-Asteroids-Extras/zipball/v1.1.0",
@@ -39,6 +42,6 @@
         "sha256": "C79BA2E8A74623E520BC48F6DB08AE7ED8D96A8B502A51D5E02CEE67396B698D"
     },
     "download_content_type": "application/zip",
-    "x_maintained_by": "Starstrider42",
+    "x_maintained_by": "HSJasperism",
     "x_generated_by": "netkan"
 }
