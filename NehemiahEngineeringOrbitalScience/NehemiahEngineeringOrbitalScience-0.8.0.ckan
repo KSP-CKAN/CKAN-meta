@@ -11,11 +11,22 @@
     "license": "GPL-3.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=149298",
-        "repository": "https://github.com/mwerle/OrbitalMaterialScience"
+        "spacedock": "https://spacedock.info/mod/1393/Nehemiah%20Engineering%20Orbital%20Science",
+        "repository": "https://github.com/mwerle/OrbitalMaterialScience",
+        "bugtracker": "https://github.com/mwerle/OrbitalMaterialScience/issues"
     },
     "version": "0.8.0",
     "ksp_version_min": "1.4.5",
     "ksp_version_max": "1.6.99",
+    "provides": [
+        "NehemiahInc-Complete",
+        "NehemiahScienceCommon",
+        "NehemiahMultiPurposeParts",
+        "KeminiResearchProgram",
+        "KerbalEnvironmentalEffectsStudy",
+        "KerbalLifeScience",
+        "OrbitalMaterialScience"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
@@ -37,13 +48,15 @@
     ],
     "suggests": [
         {
-            "name": "ConnectedLivingSpace"
-        },
-        {
             "name": "DockingPortAlignmentIndicator"
         },
         {
-            "name": "UniversalStorage"
+            "name": "UniversalStorage2"
+        }
+    ],
+    "supports": [
+        {
+            "name": "ConnectedLivingSpace"
         }
     ],
     "conflicts": [
@@ -67,6 +80,9 @@
         },
         {
             "name": "OrbitalMaterialScience"
+        },
+        {
+            "name": "Kerbalism"
         }
     ],
     "install": [
