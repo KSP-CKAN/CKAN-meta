@@ -1,0 +1,65 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TundraExploration",
+    "name": "Tundra Exploration - Stockalike Dragon V2 and Falcon 9",
+    "abstract": "This is a mod that adds SpaceX parts like the Dragon V2, Falcon 9, Starship and more!",
+    "author": [
+        "tygoo7",
+        "damon"
+    ],
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/166915-131-tundra-exploration-v093-stockalike-falcon-9-and-dragon-v2/",
+        "spacedock": "https://spacedock.info/mod/223/Tundra%20Exploration%20-%20Stockalike%20Dragon%20V2%20and%20Falcon%209",
+        "x_screenshot": "https://spacedock.info/content/tygoo7_912/Tundra_Exploration_-_Stockalike_Dragon_V2_and_Falcon_9/Tundra_Exploration_-_Stockalike_Dragon_V2_and_Falcon_9-1551828333.3935726.png"
+    },
+    "version": "1.4.0",
+    "ksp_version_min": "1.5.1",
+    "ksp_version_max": "1.7.99",
+    "depends": [
+        {
+            "name": "NearFutureSolar-Core"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "TundraTechnologies"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "SpaceXLegs"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RasterPropMonitor-Core"
+        },
+        {
+            "name": "RealPlume-StockConfigs"
+        }
+    ],
+    "install": [
+        {
+            "find": "TundraExploration",
+            "install_to": "GameData",
+            "filter": "Thumbs.db"
+        },
+        {
+            "find": "Ships/VAB",
+            "install_to": "Ships",
+            "optional": true,
+            "description": "Tundra Exploration example craft"
+        }
+    ],
+    "download": "https://spacedock.info/mod/223/Tundra%20Exploration%20-%20Stockalike%20Dragon%20V2%20and%20Falcon%209/download/1.4.0",
+    "download_size": 122168201,
+    "download_hash": {
+        "sha1": "04C188F9C4E5123F8B9F93D2AB38F3E5A543933D",
+        "sha256": "787CA8DE35F60AD6E0BC9EA4A1DE3B6BC36A88649C0FCC37ECD598C582C53FB0"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

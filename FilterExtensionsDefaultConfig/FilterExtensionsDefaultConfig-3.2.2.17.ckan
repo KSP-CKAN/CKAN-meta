@@ -1,0 +1,41 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "FilterExtensionsDefaultConfig",
+    "name": "Filter Extensions - Default Configuration",
+    "abstract": "Configuration files using Filter Extensions to create a large array of new part categories in the Editor",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/168456-14-filter-extensions-no-localization/",
+        "spacedock": "https://spacedock.info/mod/1972/Filter%20Extensions",
+        "repository": "https://github.com/linuxgurugamer/FilterExtension",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Filter_Extensions/Filter_Extensions-1537624808.6939957.jpg"
+    },
+    "version": "3.2.2.17",
+    "ksp_version_min": "1.5.1",
+    "ksp_version_max": "1.6.1",
+    "depends": [
+        {
+            "name": "FilterExtensions"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/000_FilterExtensions_Configs/Default",
+            "install_to": "GameData/000_FilterExtensions_Configs"
+        },
+        {
+            "file": "GameData/zFinal_FilterExtensions",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1972/Filter%20Extensions/download/3.2.2.17",
+    "download_size": 828779,
+    "download_hash": {
+        "sha1": "2816B4E3FA642A81278FB2AEE38BAC4F39F00E71",
+        "sha256": "648E4899B1BFF30418B40A3FFDF8AE9A7BF20DE692D5E788B7D520B1AE610271"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
