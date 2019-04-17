@@ -1,17 +1,21 @@
 {
     "spec_version": "v1.4",
     "identifier": "CryoTanks",
-    "name": "Cryogenic Tanks",
-    "abstract": "A set of fuel tanks containing liquid hydrogen, with active cryocooling",
+    "name": "Cryo Tanks",
+    "abstract": "A set of fuel tanks for containing Liquid Hydrogen. Also adds Liquid Hydrogen storage to most stock tanks",
     "author": "ChrisAdderley",
-    "license": "CC-BY-NC-SA-4.0",
+    "license": "restricted",
     "resources": {
+        "homepage": "https://github.com/ChrisAdderley/CryoTanks/wiki",
         "repository": "https://github.com/ChrisAdderley/CryoTanks"
     },
     "version": "1.1.2",
     "ksp_version_min": "1.7.0",
     "ksp_version_max": "1.7.99",
     "depends": [
+        {
+            "name": "CryoTanks-Core"
+        },
         {
             "name": "ModuleManager"
         },
@@ -32,8 +36,9 @@
     ],
     "install": [
         {
-            "file": "GameData/CryoTanks",
-            "install_to": "GameData"
+            "find": "CryoTanks",
+            "install_to": "GameData",
+            "filter": "SimpleBoiloff.dll"
         }
     ],
     "download": "https://github.com/ChrisAdderley/CryoTanks/releases/download/1.1.2/CryoTanks_1_1_2.zip",
