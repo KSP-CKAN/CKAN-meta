@@ -1,0 +1,39 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DockingCamKURS",
+    "name": "Docking Cam",
+    "abstract": "KURS style docking camera",
+    "author": "linuxgurugamer",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "repository": "https://github.com/linuxgurugamer/DockingCam"
+    },
+    "version": "1.3.4",
+    "ksp_version_min": "1.4.5",
+    "ksp_version_max": "1.6.1",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "DockingcameraKURSstyle"
+        }
+    ],
+    "install": [
+        {
+            "find": "DockingCamKURS",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/DockingCam/releases/download/1.3.4/DockingCamKURS-1.3.4.zip",
+    "download_size": 2929985,
+    "download_hash": {
+        "sha1": "EFE12E35CBAF793552188D737CEDE1D12798EB55",
+        "sha256": "A57AB420BFB361BEA8C95C459A879913D1E53BB100EB7340A212D0561BDC30DB"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
