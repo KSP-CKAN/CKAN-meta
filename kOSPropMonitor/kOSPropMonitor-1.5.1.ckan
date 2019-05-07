@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "kOSPropMonitor",
+    "name": "kOSPropMonitor",
+    "abstract": "kOS extension for RasterPropMonitor",
+    "author": "dsonbill",
+    "license": "GPL-3.0",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/98801-release-kospropmonitor-iva-kos-monitor/",
+        "spacedock": "https://spacedock.info/mod/712/kOSPropMonitor",
+        "repository": "https://github.com/dsonbill/kOSPropMonitor",
+        "x_screenshot": "https://spacedock.info/content/dsonbill_4842/kOSPropMonitor/kOSPropMonitor-1475972354.6025872.png"
+    },
+    "version": "1.5.1",
+    "ksp_version": "1.6.1",
+    "depends": [
+        {
+            "name": "kOS"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "kPM",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/712/kOSPropMonitor/download/1.5.1",
+    "download_size": 114039,
+    "download_hash": {
+        "sha1": "66D475E4487178E4B238EDD1036963B7617E16E5",
+        "sha256": "658E41E40741822DF0FEBCFCC62272E9E8AEA4EDA44FBE3A85B3CF26E51098AD"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
