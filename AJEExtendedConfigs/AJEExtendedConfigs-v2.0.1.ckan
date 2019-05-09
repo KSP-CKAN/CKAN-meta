@@ -1,0 +1,37 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "AJEExtendedConfigs",
+    "name": "AJE Extended",
+    "abstract": "This KSP mod adds extended support for AJE to other mods and also adds a number of engines not represented in existing configs.",
+    "author": "seanyoung247",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/seanyoung247/AJEExtended"
+    },
+    "version": "v2.0.1",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "AdvancedJetEngine"
+        }
+    ],
+    "install": [
+        {
+            "find": "AJEExtended",
+            "install_to": "GameData",
+            "filter": [
+                ".git"
+            ]
+        }
+    ],
+    "download": "https://github.com/seanyoung247/AJEExtended/releases/download/v2.0.1/AJEExtendedv201.zip",
+    "download_size": 125225,
+    "download_hash": {
+        "sha1": "CFD88DC48C7F7A7C4FA7B79F1A5658A8504FF4EC",
+        "sha256": "DA0D5267181E1270B59A3F593B810029493FF70F0359504188B3505C7E8534DE"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
