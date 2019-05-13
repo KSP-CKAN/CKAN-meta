@@ -1,0 +1,74 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "CustomAsteroids",
+    "name": "Custom Asteroids",
+    "abstract": "Lets users control where asteroids appear",
+    "author": "Starstrider42",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/72785-custom-asteroids/",
+        "spacedock": "https://spacedock.info/mod/210/Custom%20Asteroids",
+        "repository": "https://github.com/Starstrider42/Custom-Asteroids",
+        "bugtracker": "https://github.com/Starstrider42/Custom-Asteroids/issues",
+        "manual": "http://starstrider42.github.io/Custom-Asteroids/",
+        "x_screenshot": "https://spacedock.info/content/Starstrider42_1134/Custom_Asteroids/Custom_Asteroids-1461528691.6712377.png"
+    },
+    "version": "v1.7.0",
+    "ksp_version_min": "1.4.0",
+    "ksp_version_max": "1.7.0",
+    "depends": [
+        {
+            "name": "CustomAsteroids-Pops"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.23",
+            "comment": "Requires nested :HAS handling."
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CustomAsteroids-Pops-Stock-Stockalike"
+        },
+        {
+            "name": "CustomAsteroids-Pops-Stock-Inner"
+        },
+        {
+            "name": "CustomAsteroids-Pops-Stock-Outer"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "KSP-AVC"
+        }
+    ],
+    "supports": [
+        {
+            "name": "USI-ART",
+            "min_version": "0.8.2.0"
+        },
+        {
+            "name": "DMagicOrbitalScience",
+            "min_version": "1.2.4"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/CustomAsteroids",
+            "install_to": "GameData",
+            "filter": "config"
+        }
+    ],
+    "download": "https://spacedock.info/mod/210/Custom%20Asteroids/download/v1.7.0",
+    "download_size": 113640,
+    "download_hash": {
+        "sha1": "4A73F95F8AEFF534E493A68F824F02DD3E18C361",
+        "sha256": "0E0D8E9937B6DE919463F736EFE41BDD8AC682960579FD90FC20F36EBBB11FA1"
+    },
+    "download_content_type": "application/zip",
+    "x_maintained_by": "Starstrider42",
+    "x_generated_by": "netkan"
+}
