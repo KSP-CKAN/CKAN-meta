@@ -1,0 +1,115 @@
+{
+    "spec_version": "v1.2",
+    "comment": "Match to Custom Asteroids v1.6.0, see NetKAN#3841.",
+    "identifier": "CustomAsteroids-Pops-Stock-Inner",
+    "name": "Custom Asteroids (inner stock system data)",
+    "abstract": "Adds asteroids inside orbit of Jool",
+    "author": "Starstrider42",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/72785-custom-asteroids/",
+        "spacedock": "https://spacedock.info/mod/210/Custom%20Asteroids",
+        "repository": "https://github.com/Starstrider42/Custom-Asteroids",
+        "x_screenshot": "https://spacedock.info/content/Starstrider42_1134/Custom_Asteroids/Custom_Asteroids-1461528691.6712377.png"
+    },
+    "version": "v1.7.0",
+    "ksp_version_min": "1.4.0",
+    "ksp_version_max": "1.7.0",
+    "provides": [
+        "CustomAsteroids-Pops"
+    ],
+    "depends": [
+        {
+            "name": "CustomAsteroids",
+            "min_version": "v1.6.0",
+            "max_version": "v1.99.99",
+            "comment": "Requires localization support."
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AlienSpaceProgram",
+            "comment": "No Kerbin."
+        },
+        {
+            "name": "AlternisKerbolRekerjiggered",
+            "comment": "Completely different system."
+        },
+        {
+            "name": "AlternisRealSolarSystem",
+            "comment": "Completely different system."
+        },
+        {
+            "name": "BorisSystem",
+            "comment": "Terrestrial planet in asteroid belt."
+        },
+        {
+            "name": "ChaniPlanetPack",
+            "comment": "Giant planet in asteroid belt."
+        },
+        {
+            "name": "HarderSolarSystem",
+            "comment": "Stock orbits not inclined."
+        },
+        {
+            "name": "Kronkus",
+            "comment": "Giant planet in asteroid belt."
+        },
+        {
+            "name": "Ktolemy",
+            "comment": "Completely different system."
+        },
+        {
+            "name": "LittleGreenMenFromMars",
+            "comment": "Completely different system."
+        },
+        {
+            "name": "NewHorizons",
+            "comment": "Completely different system."
+        },
+        {
+            "name": "RealSolarSystem",
+            "comment": "Completely different system."
+        },
+        {
+            "name": "RhatssPlanetpack",
+            "comment": "Giant planet in asteroid belt."
+        },
+        {
+            "name": "sidosUraniaSystem",
+            "comment": "Giant planet in asteroid belt."
+        },
+        {
+            "name": "SmallSolarSystem",
+            "comment": "Completely different system."
+        },
+        {
+            "name": "StockAlikeSolarSystem",
+            "comment": "Completely different system."
+        },
+        {
+            "name": "TerrestrialPlanetPack",
+            "comment": "Giant planet in asteroid belt."
+        },
+        {
+            "name": "UnchartedLands",
+            "comment": "Completely different system."
+        }
+    ],
+    "install": [
+        {
+            "file": "Standard Setup/config",
+            "install_to": "GameData/CustomAsteroids",
+            "filter_regexp": "(?<!Basic Asteroids\\.cfg)$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/210/Custom%20Asteroids/download/v1.7.0",
+    "download_size": 113640,
+    "download_hash": {
+        "sha1": "4A73F95F8AEFF534E493A68F824F02DD3E18C361",
+        "sha256": "0E0D8E9937B6DE919463F736EFE41BDD8AC682960579FD90FC20F36EBBB11FA1"
+    },
+    "download_content_type": "application/zip",
+    "x_maintained_by": "Starstrider42",
+    "x_generated_by": "netkan"
+}
