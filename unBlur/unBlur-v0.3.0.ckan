@@ -1,0 +1,36 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "unBlur",
+    "name": "unBlur",
+    "abstract": "Allows fixing blurry UI textures without renaming or modifying actual texture files in the installation.",
+    "author": "cake-pie",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=184268",
+        "repository": "https://github.com/cake-pie/unBlur"
+    },
+    "version": "v0.3.0",
+    "ksp_version_min": "1.3.0",
+    "ksp_version_max": "1.7.9",
+    "supports": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.3.2"
+        }
+    ],
+    "install": [
+        {
+            "find_regexp": "unBlur.*\\.dll$",
+            "find_matches_files": true,
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/cake-pie/unBlur/releases/download/v0.3.0/unBlur.0.3.0.zip",
+    "download_size": 8631,
+    "download_hash": {
+        "sha1": "58398ACD9005824D5850782086536FA9DA1DFA15",
+        "sha256": "88577B9058C3BBE438CDFDFDA084BF10E4CEDA2FA25FFDB660CFA4DA2F1736F3"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
