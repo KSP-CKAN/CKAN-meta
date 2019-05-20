@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NearFutureSolar",
+    "name": "Near Future Solar",
+    "abstract": "This pack contains various solar panels sourced from real-life spacecraft concepts. They range from small concentrating panels to massive blanket arrays.",
+    "author": "Nertea",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/155465-122-near-future-technologies",
+        "spacedock": "https://spacedock.info/mod/559/Near%20Future%20Solar",
+        "repository": "https://github.com/ChrisAdderley/NearFutureSolar",
+        "x_screenshot": "https://spacedock.info/content/Nertea_200/Near_Future_Solar/Near_Future_Solar-1461341963.6733372.png"
+    },
+    "version": "1.0.1",
+    "ksp_version_min": "1.7.0",
+    "ksp_version_max": "1.7.99",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "NearFutureSolar-Core"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CommunityTechTree"
+        },
+        {
+            "name": "NearFutureConstruction"
+        },
+        {
+            "name": "NearFutureElectrical"
+        },
+        {
+            "name": "NearFuturePropulsion"
+        },
+        {
+            "name": "NearFutureSpacecraft"
+        }
+    ],
+    "install": [
+        {
+            "find": "NearFutureSolar",
+            "install_to": "GameData",
+            "filter": "NearFutureSolar.dll"
+        }
+    ],
+    "download": "https://spacedock.info/mod/559/Near%20Future%20Solar/download/1.0.1",
+    "download_size": 18548765,
+    "download_hash": {
+        "sha1": "E61BF39B570C2A2926BC87F8E81E81B579185DC2",
+        "sha256": "6D06459477CE94CA8205405D8BE91561EACB53C98AED28E5C07C3F45CAD35679"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
