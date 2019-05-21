@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "KerbalAircraftExpansion",
+    "name": "Kerbal Aircraft Expansion",
+    "abstract": "A pack of select vanilla-inspired parts for your aircrafting needs.",
+    "author": [
+        "keptin",
+        "SpannerMonkey",
+        "LisiasT"
+    ],
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/180268-*",
+        "spacedock": "https://spacedock.info/mod/2150/KAX",
+        "repository": "https://github.com/net-lisias-ksp/KAX/releases",
+        "x_screenshot": "https://spacedock.info/content/Lisias_20517/KAX/KAX-1557861049.2208164.jpg"
+    },
+    "version": "3:2.8.0.1",
+    "ksp_version_min": "1.4.1",
+    "ksp_version_max": "1.7.0",
+    "depends": [
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "FirespitterResourcesConfig"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/KAX",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2150/KAX/download/2.8.0.1",
+    "download_size": 22375995,
+    "download_hash": {
+        "sha1": "E87B45B0F248B7BD393C8FCBFE6457D08EF66AF1",
+        "sha256": "19D95CAECCE800121B053AC81AFBFE76A4912184235D900C93754219A19B919B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
