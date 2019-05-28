@@ -11,7 +11,18 @@
         "repository": "https://github.com/whale2/InnerLock"
     },
     "version": "0.0.4_ksp-1.6.1",
-    "ksp_version": "1.6.1",
+    "ksp_version_min": "1.4.0",
+    "ksp_version_max": "1.6.1",
+    "install": [
+        {
+            "find": "InnerLock",
+            "install_to": "GameData"
+        },
+        {
+            "find": "MagicSmokeIndustries",
+            "install_to": "GameData"
+        }
+    ],
     "download": "https://spacedock.info/mod/2113/InnerLock/download/0.0.4_ksp-1.6.1",
     "download_size": 150550,
     "download_hash": {
