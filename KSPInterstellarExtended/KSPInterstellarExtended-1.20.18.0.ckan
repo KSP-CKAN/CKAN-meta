@@ -1,0 +1,88 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KSPInterstellarExtended",
+    "name": "KSP Interstellar Extended",
+    "abstract": "KSP Interstellar Extended (KSPI-E) is a plugin for Kerbal Space Program, designed to encourage bootstrapping toward ever more advanced levels of technology as well as utilizing In-Situ resources to expand the reach of Kerbal civilization. KSP Interstellar Extended aims to continue in Fractals original KSPI vision in providing a realistic road to the stars. Note: requires CTT 3.0.1",
+    "author": "FreeThinker",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172026-*",
+        "spacedock": "https://spacedock.info/mod/172/KSP%20Interstellar%20Extended",
+        "repository": "https://github.com/sswelm/KSP-Interstellar-Extended",
+        "x_screenshot": "https://spacedock.info/content/FreeThinker_517/KSP_Interstellar_Extended/KSP_Interstellar_Extended-1470128568.7429862.png"
+    },
+    "version": "1.20.18.0",
+    "ksp_version": "1.3.1",
+    "depends": [
+        {
+            "name": "InterstellarFuelSwitch-Core"
+        },
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "PatchManager"
+        },
+        {
+            "name": "InterstellarFuelSwitch"
+        },
+        {
+            "name": "PersistentRotation"
+        },
+        {
+            "name": "FilterExtensions"
+        },
+        {
+            "name": "PhotonSailor"
+        },
+        {
+            "name": "BetterBurnTime"
+        },
+        {
+            "name": "HideEmptyTechNodes"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "CommunityTechTree"
+        },
+        {
+            "name": "HeatControl"
+        },
+        {
+            "name": "TexturesUnlimited"
+        },
+        {
+            "name": "UniversalStorage"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/WarpPlugin",
+            "install_to": "GameData"
+        },
+        {
+            "find": "InterstellarHybridRocketry",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/172/KSP%20Interstellar%20Extended/download/1.20.18.0",
+    "download_size": 166870766,
+    "download_hash": {
+        "sha1": "6C4E7428B4D31217AF088E0CCB9F0F791B7FD70A",
+        "sha256": "67E133DB5428C0849A153FC413D3FABF24E4E791FB27AF1A6BABD3EF1D22A750"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
