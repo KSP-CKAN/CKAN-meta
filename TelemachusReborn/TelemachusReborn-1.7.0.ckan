@@ -1,0 +1,50 @@
+{
+    "spec_version": 1,
+    "identifier": "TelemachusReborn",
+    "name": "Telemachus Reborn",
+    "abstract": "Telemachus is a universal Web Telemetry Mod for Kerbal Space Program. It allows you to access any aspects of game from browser.",
+    "author": "DanGSun",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179887-*",
+        "spacedock": "https://spacedock.info/mod/2012/Telemachus%20Reborn",
+        "repository": "https://github.com/TeleIO/Telemachus-1"
+    },
+    "version": "1.7.0",
+    "ksp_version_min": "1.6.0",
+    "ksp_version_max": "1.7",
+    "provides": [
+        "Telemachus"
+    ],
+    "recommends": [
+        {
+            "name": "RasterPropMonitor"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Telemachus"
+        },
+        {
+            "name": "TelemachusContinued"
+        },
+        {
+            "name": "Telemachus-2"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Telemachus",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/TeleIO/Telemachus-1/releases/download/v1.7.0-reborn-gyrfalcon/TelemachusReborn-v1.7_ksp-v1.7.zip",
+    "download_size": 10943498,
+    "download_hash": {
+        "sha1": "FE0070536905B923EE4DC37940769E68B6CE53E8",
+        "sha256": "1D175E5D65D2AB3FB0EE387B5423F210A3C11800DEF13DC459BDAB83B4CF3A3B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
