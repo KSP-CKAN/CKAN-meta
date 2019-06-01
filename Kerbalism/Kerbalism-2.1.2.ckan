@@ -23,6 +23,9 @@
         },
         {
             "name": "CommunityResourcePack"
+        },
+        {
+            "name": "Kerbalism-Config"
         }
     ],
     "recommends": [
@@ -77,6 +80,18 @@
     "conflicts": [
         {
             "name": "UKS"
+        }
+    ],
+    "install": [
+        {
+            "file": "Kerbalism",
+            "install_to": "GameData",
+            "filter_regexp": [
+                "Kerbalism/Profiles",
+                "Kerbalism/System",
+                "Kerbalism/ResourceConfigs",
+                "Kerbalism/Settings.cfg"
+            ]
         }
     ],
     "download": "https://spacedock.info/mod/1774/Kerbalism/download/2.1.2",
