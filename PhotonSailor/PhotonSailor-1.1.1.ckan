@@ -9,19 +9,35 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/176144-*",
         "spacedock": "https://spacedock.info/mod/1895/Photon%20Sailor",
         "repository": "https://github.com/sswelm/KSP-Interstellar-Extended",
-        "x_screenshot": "https://spacedock.info/content/FreeThinker_517/Photon_Sailor/Photon_Sailor-1530001785.2104235.png"
+        "x_screenshot": "https://spacedock.info/content/FreeThinker_517/Photon_Sailor/Photon_Sailor-1531575477.7373607.png"
     },
     "version": "1.1.1",
     "ksp_version": "1.4.3",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
     "recommends": [
         {
             "name": "PersistentRotation"
         },
         {
-            "name": "KSPInterstellarExtended"
+            "name": "KSPInterstellarExtended",
+            "min_version": "1.19.3"
         },
         {
             "name": "SolarSailNavigator"
+        },
+        {
+            "name": "TexturesUnlimited"
+        },
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "CommunityTechTree",
+            "min_version": "1:3.3.2"
         }
     ],
     "install": [
