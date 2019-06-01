@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Kopernicus",
+    "name": "Kopernicus Planetary System Modifier",
+    "abstract": "Allows users to replace the planetary system used by the game.",
+    "author": [
+        "BryceSchroeder",
+        "Teknoman117",
+        "Thomas P.",
+        "NathanKell",
+        "KillAshley",
+        "Gravitasi",
+        "KCreator",
+        "Sigma88"
+    ],
+    "license": "LGPL-3.0",
+    "release_status": "development",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/181547-*",
+        "repository": "https://github.com/Kopernicus/Kopernicus-Backport"
+    },
+    "version": "2:release-1.6.1-3",
+    "ksp_version": "1.6.1",
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "ModularFlightIntegrator",
+            "min_version": "1.2.4.0"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KittopiaTech"
+        }
+    ],
+    "install": [
+        {
+            "find": "Kopernicus",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Kopernicus/Kopernicus-Backport/releases/download/backport-1.6.1-3/Kopernicus-1.6.1-3.zip",
+    "download_size": 372037,
+    "download_hash": {
+        "sha1": "EDBFE8F7E65765934DC192925B9AAF9586FB94EA",
+        "sha256": "0987A60EC0E6215CC6675769A26004070E699AB63D0046088465BF079360D6BD"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
