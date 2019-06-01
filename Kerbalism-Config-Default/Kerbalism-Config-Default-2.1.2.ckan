@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Kerbalism-Config-Default",
+    "name": "Kerbalism - Default Config",
+    "abstract": "Default configuration for Kerbalism",
+    "author": "N70",
+    "license": "Unlicense",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172400-142-kerbalism-v141/",
+        "spacedock": "https://spacedock.info/mod/1774/Kerbalism",
+        "x_screenshot": "https://spacedock.info/content/N70_4889/Kerbalism/Kerbalism-1522554849.870197.png"
+    },
+    "version": "2.1.2",
+    "ksp_version_min": "1.4.0",
+    "ksp_version_max": "1.6.99",
+    "provides": [
+        "Kerbalism-Config"
+    ],
+    "depends": [
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-Config"
+        }
+    ],
+    "install": [
+        {
+            "file": "Kerbalism/System",
+            "install_to": "GameData/Kerbalism"
+        },
+        {
+            "file": "Kerbalism/ResourceConfigs",
+            "install_to": "GameData/Kerbalism"
+        },
+        {
+            "file": "Kerbalism/Settings.cfg",
+            "install_to": "GameData/Kerbalism"
+        },
+        {
+            "file": "Kerbalism/Profiles",
+            "install_to": "GameData/Kerbalism"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1774/Kerbalism/download/2.1.2",
+    "download_size": 4886739,
+    "download_hash": {
+        "sha1": "6FA2D000ABCFA3E65D273B0C0E542EED1FBAB766",
+        "sha256": "A84C50A07CE47CC03AC78BA3C29DE14C578E2E943CB3309B37951DB0B0A195DB"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
