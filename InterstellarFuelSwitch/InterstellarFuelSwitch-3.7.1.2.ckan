@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "InterstellarFuelSwitch",
+    "name": "Interstellar Fuel Switch",
+    "abstract": "Library that enables switching the contents, meshes, and textures of tanks.",
+    "author": "FreeThinker",
+    "license": "GPL-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/106243-105interstellar-fuel-switch-118-updated-10-11-2015/",
+        "spacedock": "https://spacedock.info/mod/175/Interstellar%20Fuel%20Switch",
+        "bugtracker": "https://github.com/sswelm/KSP-Interstellar-Extended/issues",
+        "x_screenshot": "https://spacedock.info/content/FreeThinker_517/Interstellar_Fuel_Switch/Interstellar_Fuel_Switch-1481278354.0821617.jpg"
+    },
+    "version": "3.7.1.2",
+    "ksp_version": "1.5.1",
+    "depends": [
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.5.1"
+        },
+        {
+            "name": "InterstellarFuelSwitch-Core",
+            "min_version": "1.28"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KSPInterstellarExtended"
+        },
+        {
+            "name": "PatchManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "InterstellarFuelSwitch",
+            "install_to": "GameData",
+            "filter": [
+                "Plugins",
+                "Resources",
+                "Localization"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/175/Interstellar%20Fuel%20Switch/download/3.7.1.2",
+    "download_size": 9330787,
+    "download_hash": {
+        "sha1": "34E633A0A0BC04DB8473C45EE7F5007711F7B21B",
+        "sha256": "B0A2B5718664BCBD00FE6937FC8739315166E4CD8C0C7C2D4F8D135F9A2F8EB8"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
