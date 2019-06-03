@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "AirlockPlus",
+    "name": "AirlockPlus",
+    "abstract": "Allows the use of any airlock on a vessel in conjunction with any crew part on the vessel, without requiring manual crew transfer.",
+    "author": "cake-pie",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?showtopic=160268",
+        "repository": "https://github.com/cake-pie/AirlockPlus"
+    },
+    "version": "v0.0.11",
+    "ksp_version_min": "1.3.0",
+    "ksp_version_max": "1.7.8",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CommunityTraitIcons"
+        }
+    ],
+    "supports": [
+        {
+            "name": "ConnectedLivingSpace"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/AirlockPlus",
+            "install_to": "GameData"
+        },
+        {
+            "find_regexp": "0Harmony.*\\.dll$",
+            "find_matches_files": true,
+            "install_to": "GameData/AirlockPlus"
+        }
+    ],
+    "download": "https://github.com/cake-pie/AirlockPlus/releases/download/v0.0.11/AirlockPlus.0.0.11.zip",
+    "download_size": 66647,
+    "download_hash": {
+        "sha1": "3B31840254FE904010D4F3087E4008E44F35999D",
+        "sha256": "B6BFC85C88201044B5128C460F05D0AF929F2853F3899E55F3E214076B225E12"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
