@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KolyphemusSystemContinued",
+    "name": "Kolyphemus System Continued",
+    "abstract": "KolyphemusSystem is back!!!",
+    "author": "DavianLin",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/181302-16x-kolyphemus-system-continued",
+        "spacedock": "https://spacedock.info/mod/2055/Kolyphemus%20System%20Continued",
+        "x_screenshot": "https://spacedock.info/content/DavianLin_14120/Kolyphemus_System_Continued/Kolyphemus_System_Continued-1547133051.8294513.png"
+    },
+    "version": "0.7.5",
+    "ksp_version": "1.7.1",
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        }
+    ],
+    "install": [
+        {
+            "find": "KolyphemusSystemContinued/Kolyphemus",
+            "install_to": "GameData"
+        },
+        {
+            "find": "KolyphemusSystemContinued/BoulderCo",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2055/Kolyphemus%20System%20Continued/download/0.7.5",
+    "download_size": 158209742,
+    "download_hash": {
+        "sha1": "8A7277AEF7FD5975B6A06F84B99D602C69B9EA3B",
+        "sha256": "1633B4B325AD403C4496348E7DB1F040EE054A068D58B940079EA6DC40D6179F"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
