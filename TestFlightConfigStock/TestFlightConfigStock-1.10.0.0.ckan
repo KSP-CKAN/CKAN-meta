@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "TestFlightConfigStock",
+    "name": "TestFlight Config Stock",
+    "abstract": "Config pack for the TestFlight plugin.  This config pack adds TestFlight support for Stock parts.",
+    "author": "siimav",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/99043-122-testflight-v180-01-may-2017-bring-flight-testing-to-ksp/",
+        "repository": "https://github.com/KSP-RO/TestFlight",
+        "bugtracker": "https://github.com/KSP-RO/TestFlight/issues"
+    },
+    "version": "1.10.0.0",
+    "ksp_version": "1.6.1",
+    "provides": [
+        "TestFlightConfig"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.1"
+        },
+        {
+            "name": "TestFlight",
+            "min_version": "1.3.1"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TestFlightConfig"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/TestFlight",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/TestFlight/releases/download/1.10.0.0/TestFlightConfigStock-1.10.0.0.zip",
+    "download_size": 3033,
+    "download_hash": {
+        "sha1": "87BAA38CD74E109AC9810DEC3CD46834A183ED01",
+        "sha256": "66A2EFC1176B7FC1F9222D415AAEA34C006733D4F91D7CD51C706A1EDE801FA1"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
