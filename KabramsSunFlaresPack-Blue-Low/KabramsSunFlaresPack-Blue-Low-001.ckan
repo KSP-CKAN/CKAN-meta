@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "KabramsSunFlaresPack-Blue-Low",
+    "name": "Kabrams Sun Flare Blue Low",
+    "abstract": "(6) High Quality flares for the Scatterer mod. Including Low, Medium, and High quality presets, for support of up to 4K screen sizes.",
+    "author": "0_0_1",
+    "license": "restricted",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/1843/Kabrams%20Sun%20Flare's%20Pack%20for%20Scatterer.",
+        "x_screenshot": "https://spacedock.info/content/0_0_1_20001/Kabrams_Sun_Flares_Pack_for_Scatterer/Kabrams_Sun_Flares_Pack_for_Scatterer-1526489053.4851332.png"
+    },
+    "version": "001",
+    "ksp_version": "any",
+    "provides": [
+        "Scatterer-sunflare"
+    ],
+    "depends": [
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Scatterer-sunflare"
+        }
+    ],
+    "install": [
+        {
+            "find": "Low_Quality/Blue/Sun",
+            "install_to": "GameData/scatterer/config/Sunflares"
+        },
+        {
+            "find": "Low_Quality/Blue/Sun.cfg",
+            "install_to": "GameData/scatterer/config/Sunflares",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/1843/Kabrams%20Sun%20Flare%27s%20Pack%20for%20Scatterer./download/001",
+    "download_size": 130088492,
+    "download_hash": {
+        "sha1": "2E67F82155CF8477E57E35405D4EB95EAE8F413C",
+        "sha256": "4C3216E781B9240B74D976B6EAD608031950F181F750A804424300DF16BD8BC8"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
