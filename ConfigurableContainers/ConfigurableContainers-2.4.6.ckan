@@ -1,0 +1,118 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "ConfigurableContainers",
+    "name": "Configurable Containers",
+    "abstract": "This mod converts all the stock fuel tanks and resource containers so that you can change the resource(s) they hold in Editor and in Flight.",
+    "author": [
+        "allista"
+    ],
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/150104-12-configurable-containers",
+        "spacedock": "https://spacedock.info/mod/1002/Configurable%20Containers",
+        "repository": "https://github.com/allista/ConfigurableContainers",
+        "bugtracker": "https://github.com/allista/ConfigurableContainers/issues",
+        "x_screenshot": "https://spacedock.info/content/allista_931/Configurable_Containers/Configurable_Containers-1476558929.8494947.png"
+    },
+    "version": "2.4.6",
+    "ksp_version": "1.7.2",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "AT-Utils"
+        },
+        {
+            "name": "ConfigurableContainers-Core"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KSP-AVC"
+        },
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+    "supports": [
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "Goodspeed"
+        },
+        {
+            "name": "KWRocketryRebalanced"
+        },
+        {
+            "name": "Mk2Expansion"
+        },
+        {
+            "name": "Mk3Expansion"
+        },
+        {
+            "name": "SpaceY-Lifters"
+        },
+        {
+            "name": "SpaceY-Expanded"
+        },
+        {
+            "name": "FuelTanksPlus"
+        },
+        {
+            "name": "ModRocketSys"
+        },
+        {
+            "name": "StandardPropulsionSystems"
+        },
+        {
+            "name": "NearFuturePropulsion"
+        },
+        {
+            "name": "TALSphericalToroidalPack"
+        },
+        {
+            "name": "MunarIndustriesFTX"
+        },
+        {
+            "name": "RaginCaucasian"
+        },
+        {
+            "name": "B9-PWings-Fork"
+        },
+        {
+            "name": "BluedogDB"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ModularFuelTanks"
+        },
+        {
+            "name": "RealFuels"
+        },
+        {
+            "name": "InterstellarFuelSwitch"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ConfigurableContainers",
+            "install_to": "GameData",
+            "filter": [
+                "TankTypes.cfg",
+                "TankConfigs.cfg",
+                "Cryogenics.cfg"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/1002/Configurable%20Containers/download/2.4.6",
+    "download_size": 268562,
+    "download_hash": {
+        "sha1": "6BCB783BA7A7FB3486FE6C7EA1FFE4E5D572BCA4",
+        "sha256": "7ED5D4FB8726E1D4A6E5284A5E6C7CD31B98105FB7F4360C2420E053BA40B4F0"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
