@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.6",
+    "identifier": "AmpYearPowerManager",
+    "name": "AmpYear",
+    "abstract": "The AmpYear Power Manager makes electricity more manageable.",
+    "author": "Jplrepo",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/114991-105-ampyear-main-reserve-power-manager-ion-rcs-traffic-light-icons-edition-v1200-28-feb-2016/",
+        "spacedock": "https://spacedock.info/mod/144/AmpYear",
+        "repository": "https://github.com/JPLRepo/AmpYear",
+        "x_screenshot": "https://spacedock.info/content/Jplrepo_405/AmpYear/AmpYear-1497785254.4353824.png"
+    },
+    "version": "1:V1.5.5.0",
+    "ksp_version_min": "1.7.0",
+    "ksp_version_max": "1.7.99",
+    "localizations": [
+        "en-us",
+        "es-es",
+        "es-mx",
+        "ja",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.3.5"
+        },
+        {
+            "name": "REPOSoftTech-Agencies"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "install": [
+        {
+            "find": "REPOSoftTech",
+            "install_to": "GameData",
+            "filter": [
+                "Agencies",
+                "RSTKSPUtils"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/144/AmpYear/download/V1.5.5.0",
+    "download_size": 1171096,
+    "download_hash": {
+        "sha1": "4390AB995EE13F24F9DC866733AD478D313D5400",
+        "sha256": "4B93FE8677659AF14B51AA4FE57F9C19DF9DC4E9E2140ACD05F6487E9710FF3E"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
