@@ -1,0 +1,86 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Spectra",
+    "name": "Spectra",
+    "abstract": "A well optimized and yet breathtakingly beautiful revamp of all celestial bodies in KSP",
+    "author": "Avera9eJoe",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/159443-*",
+        "spacedock": "https://spacedock.info/mod/1505/Spectra",
+        "repository": "http://N/A",
+        "x_screenshot": "https://spacedock.info/content/Avera9eJoe_1835/Spectra/Spectra-1503830916.373167.png"
+    },
+    "version": "1.2.3",
+    "ksp_version": "1.7.2",
+    "provides": [
+        "PlanetShine-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "TextureReplacer"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "RealPlume-StockConfigs"
+        },
+        {
+            "name": "ReStock"
+        },
+        {
+            "name": "PlanetShine"
+        },
+        {
+            "name": "SpaceplaneCorrections"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "PlanetShine-Config"
+        }
+    ],
+    "install": [
+        {
+            "file": "Step 2 - Spectra/GameData/TextureReplacer",
+            "install_to": "GameData",
+            "filter": "logoFullRed_alt.dds"
+        },
+        {
+            "file": "Step 2 - Spectra/GameData/Spectra",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Step 2 - Spectra/GameData/KSPRC",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Step 3 - Extras/PlanetShine/Config",
+            "install_to": "GameData/PlanetShine"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1505/Spectra/download/1.2.3",
+    "download_size": 418539190,
+    "download_hash": {
+        "sha1": "272DE5D1CD9C51B46B0B5762A312CEA7E968B57D",
+        "sha256": "5FBB320241457B25FA74CFC3A935528A63A3EBC783E05EABD722EEAFB8F59209"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
