@@ -1,0 +1,41 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalAtomics-NTRModSupport",
+    "name": "Kerbal Atomics - Other Mod Support",
+    "abstract": "Optional patch that modifies a number of mod NTRs so they use LH2 for additional performance. Will negatively affect vessels with these engines in-flight. ",
+    "author": "Nertea",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/130503-16x-kerbal-atomics-fancy-nuclear-engines-january-21/",
+        "spacedock": "https://spacedock.info/mod/710/Kerbal%20Atomics",
+        "repository": "https://github.com/ChrisAdderley/KerbalAtomics",
+        "x_screenshot": "https://spacedock.info/content/Nertea_200/Kerbal_Atomics/Kerbal_Atomics-1463537395.8438432.png"
+    },
+    "version": "1.0.3",
+    "ksp_version_min": "1.7.1",
+    "ksp_version_max": "1.7.99",
+    "depends": [
+        {
+            "name": "KerbalAtomics"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbalAtomics-NTRsUseLF"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalAtomicsLH2NTRModSupport",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/710/Kerbal%20Atomics/download/1.0.3",
+    "download_size": 71075144,
+    "download_hash": {
+        "sha1": "E45C1F4C6D8B77CF555AE7E3FB5AE0EA8D68EEA9",
+        "sha256": "CACE3F8D8837CA94A204AAD70F7F2C9872278119E8ED798E702174C94EE1012A"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
