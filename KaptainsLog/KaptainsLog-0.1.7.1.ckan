@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KaptainsLog",
+    "name": "The Kaptain's Log",
+    "abstract": "Record everything that goes on",
+    "author": "linuxgurugamer",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/165482-13-the-kaptains-log-pics-soon/",
+        "spacedock": "https://spacedock.info/mod/1523/The%20Kaptain's%20Log",
+        "repository": "https://github.com/linuxgurugamer/KaptainsLog",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/The_Kaptains_Log/The_Kaptains_Log-1505356184.2723196.png"
+    },
+    "version": "0.1.7.1",
+    "ksp_version_min": "1.5.1",
+    "ksp_version_max": "1.7.3",
+    "depends": [
+        {
+            "name": "ProgressParser"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "filter_regexp": [
+                ".*~$"
+            ],
+            "install_to": "GameData",
+            "find": "KaptainsLog"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1523/The%20Kaptain%27s%20Log/download/0.1.7.1",
+    "download_size": 1388210,
+    "download_hash": {
+        "sha1": "AAB7F4AF7F53E570C9AB18AC8BC8A80EE9C536E3",
+        "sha256": "87205771045467A2FF4D7FECF50DDD7C919652758C041835B5278A99DF9C2424"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
