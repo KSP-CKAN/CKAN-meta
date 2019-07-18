@@ -1,0 +1,76 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "RealismOverhaulCraftFiles",
+    "name": "Realism Overhaul Craft Files",
+    "abstract": "Craft files for the various mods suggested by Realism Overhaul.",
+    "author": "raidernick",
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/140070-11",
+        "repository": "https://github.com/KSP-RO/RealismOverhaul"
+    },
+    "version": "v12.7.2",
+    "depends": [
+        {
+            "name": "RealismOverhaul"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "FASA"
+        },
+        {
+            "name": "AntaresCygnus"
+        },
+        {
+            "name": "RN-SovietRockets"
+        },
+        {
+            "name": "RN-SalyutStations"
+        },
+        {
+            "name": "RN-SovietSpacecraft"
+        },
+        {
+            "name": "RN-Skylab"
+        },
+        {
+            "name": "RN-SovietProbes"
+        },
+        {
+            "name": "RN-USProbesPack"
+        },
+        {
+            "name": "RN-USRockets"
+        },
+        {
+            "name": "NewTantares"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ROEngines"
+        }
+    ],
+    "install": [
+        {
+            "file": "Ships/VAB",
+            "install_to": "Ships",
+            "comment": "VAB craft files"
+        },
+        {
+            "file": "Ships/SPH",
+            "install_to": "Ships",
+            "comment": "SPH craft files"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v12.7.2/RealismOverhaul-v12.7.2.zip",
+    "download_size": 11655200,
+    "download_hash": {
+        "sha1": "82574CD2A35E4F42B231A24FAE250BE82D4F2E37",
+        "sha256": "85AC30812214A7454A7FBC24C4A315B1F78AFED57CD82959D1525A818F540CF4"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
