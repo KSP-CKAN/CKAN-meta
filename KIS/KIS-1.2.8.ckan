@@ -10,17 +10,32 @@
     ],
     "license": "restricted",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/113111",
-        "repository": "https://github.com/KospY/KIS"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/149848-kerbal-inventory-system-kis",
+        "curse": "https://kerbal.curseforge.com/projects/228561",
+        "repository": "https://github.com/ihsoft/KIS",
+        "bugtracker": "https://github.com/ihsoft/KIS/issues",
+        "manual": "https://github.com/ihsoft/KIS/raw/master/User%20Guide.pdf",
+        "x_screenshot": "https://media.forgecdn.net/avatars/thumbnails/15/210/120/120/635619081870286480.jpeg"
     },
     "version": "1.2.8",
     "ksp_version": "1.1",
+    "recommends": [
+        {
+            "name": "CommunityCategoryKit"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
     "suggests": [
         {
             "name": "KAS"
+        },
+        {
+            "name": "EasyVesselSwitch"
         }
     ],
-    "download": "http://kerbal.curseforge.com/projects/kerbal-inventory-system-kis/files/2297486/download",
+    "download": "https://media.forgecdn.net/files/2297/486/KIS_v1.2.8.zip",
     "download_size": 5450101,
     "download_hash": {
         "sha1": "5F7B9A53A3BD015646C940422BE65D75C190CBF7",
