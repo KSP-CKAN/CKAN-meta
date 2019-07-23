@@ -2,7 +2,7 @@
     "spec_version": 1,
     "identifier": "KAS",
     "name": "Kerbal Attachment System",
-    "abstract": "KAS introduces new gameplay mechanics by adding winches, containers, dynamic struts/pipes and grabbable & attachable parts.",
+    "abstract": "KAS introduces new gameplay mechanics by adding winches, struts, and pipes. Now you can easily connect vessels in EVA without docking them!",
     "author": [
         "KospY",
         "Winn75",
@@ -12,21 +12,24 @@
     ],
     "license": "restricted",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/threads/92514"
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/142594-kerbal-attachment-system-kas/",
+        "curse": "https://kerbal.curseforge.com/projects/223900",
+        "repository": "https://github.com/ihsoft/KAS",
+        "bugtracker": "https://github.com/ihsoft/KAS/issues",
+        "x_screenshot": "https://media.forgecdn.net/avatars/thumbnails/17/968/120/120/635672058281519835.png"
     },
     "version": "0.5.2",
     "ksp_version_min": "1.0.2",
     "ksp_version_max": "1.0.4",
-    "depends": [
+    "recommends": [
         {
-            "name": "ModuleManager"
+            "name": "KIS"
         },
         {
-            "name": "KIS",
-            "min_version": "1.1.5"
+            "name": "EasyVesselSwitch"
         }
     ],
-    "download": "http://addons-origin.cursecdn.com/files/2240/844/KAS_v0.5.2.zip",
+    "download": "https://media.forgecdn.net/files/2240/844/KAS_v0.5.2.zip",
     "download_size": 3033561,
     "download_hash": {
         "sha1": "136B826437DF1666A720527D9ACDF835E8B73F54",
