@@ -12,12 +12,20 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/186526-151-161-172-tac-fuel-balancer/",
         "spacedock": "https://spacedock.info/mod/640/TacFuelBalancer",
-        "repository": "https://github.com/thewebbooth/TacFuelBalancer",
+        "repository": "https://github.com/linuxgurugamer/TacFuelBalancer",
         "x_screenshot": "https://spacedock.info/content/zkeyaerospace_1268/TacFuelBalancer/TacFuelBalancer-1466458494.3982704.png"
     },
     "version": "v2.21.4",
     "ksp_version_min": "1.5.1",
     "ksp_version_max": "1.7.3",
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
     "suggests": [
         {
             "name": "KSP-AVC"
