@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "USI-Core",
+    "name": "USI Core",
+    "abstract": "Kontainers, Reactors and shared tools for USI mods",
+    "author": "RoverDude",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "repository": "https://github.com/UmbraSpaceIndustries/USI_Core"
+    },
+    "version": "1.2.0.0",
+    "ksp_version_min": "1.6.0",
+    "ksp_version_max": "1.8.9",
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "v7.6.0"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.9.0.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.7.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/UmbraSpaceIndustries",
+            "install_to": "GameData",
+            "filter": [
+                "FX",
+                "Konstruction"
+            ]
+        }
+    ],
+    "download": "https://github.com/UmbraSpaceIndustries/USI_Core/releases/download/1.2.0.0/USICore_1.2.0.0.zip",
+    "download_size": 10539503,
+    "download_hash": {
+        "sha1": "567ECEC167CFEB9A7E079642D92BBF79E7DF11C2",
+        "sha256": "1269F042C1337B6D0AE17C20337245E50426C9D8BDDE13E2E0601990B289759A"
+    },
+    "download_content_type": "application/zip",
+    "x_last_revision_by": "DoktorKrogg",
+    "x_generated_by": "netkan"
+}
