@@ -1,0 +1,45 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TestFlightConfigLibrary",
+    "name": "TestFlight Generic Config Library",
+    "abstract": "ModuleManager scripts for simplifying and standardizing TestFlight configs. Do *not* provide TestFlight support by themselves.",
+    "author": "Starstrider42",
+    "license": "MIT",
+    "release_status": "testing",
+    "resources": {
+        "repository": "https://github.com/Starstrider42/TestFlight-Configs",
+        "bugtracker": "https://github.com/Starstrider42/TestFlight-Configs/issues"
+    },
+    "version": "0.1.0",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TestFlight",
+            "min_version": "1.8.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RealismOverhaul",
+            "comment": "RO uses similar scripts; they will likely interfere with each other."
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/TestFlight/Config",
+            "install_to": "GameData/TestFlight",
+            "filter_regexp": "(?<!Generic_.+\\.cfg)$"
+        }
+    ],
+    "download": "https://github.com/Starstrider42/TestFlight-Configs/releases/download/0.1.0/Stock%2B-TF-Configs-0.1.0.zip",
+    "download_size": 16862,
+    "download_hash": {
+        "sha1": "A1967F9198AC36AB3AAB1D927FC10277C112A620",
+        "sha256": "864BEA68BCCD0D55FA7D84F1F12523BB38A7848C01F788A2CD72107D4B568545"
+    },
+    "download_content_type": "application/zip",
+    "x_maintained_by": "Starstrider42",
+    "x_generated_by": "netkan"
+}
