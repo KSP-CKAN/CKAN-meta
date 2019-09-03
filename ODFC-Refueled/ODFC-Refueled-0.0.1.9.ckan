@@ -1,0 +1,74 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ODFC-Refueled",
+    "name": "On Demand Fuel Cells Refueled (core)",
+    "abstract": "On Demand Fuel Cells (ODFC) is a plugin to simulate fuel cells in Kerbal Space Program (KSP), and do a better job of it than stock's use of a resource converter.  The main difference is it only generates electricity when it's really needed (batteries almost empty), and otherwise lets electricity of a craft float up and down, as it might in a solar powered vehicle when the sun is eclipsed by another celestial body.  It also allows fuel cells to generate byproducts, aimed at supporting life support mods like TACLS. ",
+    "author": "zer0Kerbal",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/187625-*",
+        "spacedock": "https://spacedock.info/mod/2223/On%20Demand%20Fuel%20Cells%20Refueled%20(core)",
+        "repository": "https://github.com/zer0Kerbal/ODFCr/releases",
+        "x_screenshot": "https://spacedock.info/content/zer0Kerbal_21147/On_Demand_Fuel_Cells_Refueled_core/On_Demand_Fuel_Cells_Refueled_core-1567519835.2824144.png"
+    },
+    "version": "0.0.1.9",
+    "ksp_version": "1.7.3",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "BluedogDB"
+        },
+        {
+            "name": "StockalikeMiningExtension"
+        },
+        {
+            "name": "UniversalStorage"
+        },
+        {
+            "name": "UniversalStorage2"
+        },
+        {
+            "name": "RLAReborn"
+        }
+    ],
+    "supports": [
+        {
+            "name": "AllYAll"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "BackgroundProcessing"
+        },
+        {
+            "name": "BackgroundResources"
+        },
+        {
+            "name": "KerbalChangelog"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "OFDC"
+        }
+    ],
+    "install": [
+        {
+            "find": "OnDemandFuelCells",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2223/On%20Demand%20Fuel%20Cells%20Refueled%20%28core%29/download/0.0.1.9",
+    "download_size": 27475,
+    "download_hash": {
+        "sha1": "91A2FC1C1558C1A649D9F6440D41BF1775B3332C",
+        "sha256": "D2C465E0B446825409D8CD86C22D78C60DE5D4B390DD2AE64B31E0844531F7A0"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
