@@ -1,7 +1,7 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "KopernicusExpansionContinued-CometTail",
-    "name": "Kopernicus Expansion Continued - Comet Tail",
+    "spec_version": "v1.16",
+    "identifier": "KopernicusExpansionContinued-Common",
+    "name": "Kopernicus Expansion Continued - Common",
     "abstract": "A partially continuation of KopernicusExpansion by Mr. HappyFace",
     "author": [
         "MrHappyFace",
@@ -15,18 +15,13 @@
     "depends": [
         {
             "name": "Kopernicus"
-        },
-        {
-            "name": "KopernicusExpansionContinued-Common"
         }
     ],
     "install": [
         {
-            "find": "KopernicusExpansion",
-            "install_to": "GameData",
-            "filter": [
-                "KEX-Common.dll"
-            ]
+            "find": "KEX-Common.dll",
+            "find_matches_files": true,
+            "install_to": "GameData/KopernicusExpansion/Plugins"
         }
     ],
     "download": "https://github.com/StollD/KopernicusExpansion-Continued/releases/download/release-1.7.1-5/KEX-CometTail-1.7.1-5.zip",
