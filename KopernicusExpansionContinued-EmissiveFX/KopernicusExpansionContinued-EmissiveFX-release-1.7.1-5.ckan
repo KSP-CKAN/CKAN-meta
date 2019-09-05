@@ -15,12 +15,18 @@
     "depends": [
         {
             "name": "Kopernicus"
+        },
+        {
+            "name": "KopernicusExpansionContinued-Common"
         }
     ],
     "install": [
         {
             "find": "KopernicusExpansion",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": [
+                "KEX-Common.dll"
+            ]
         }
     ],
     "download": "https://github.com/StollD/KopernicusExpansion-Continued/releases/download/release-1.7.1-5/KEX-EmissiveFX-1.7.1-5.zip",
