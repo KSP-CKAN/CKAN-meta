@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RealPlume",
+    "name": "Real Plume",
+    "abstract": "A set of effects and basic configs that can be attached to any engine as appropriate.  Requires secondary configs to function correctly.",
+    "author": "zorg2044",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://github.com/KSP-RO/RealPlume/wiki",
+        "repository": "https://github.com/KSP-RO/RealPlume"
+    },
+    "version": "2:v12.0.0",
+    "ksp_version_min": "1.1",
+    "ksp_version_max": "1.7.99",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "SmokeScreen"
+        },
+        {
+            "name": "RealPlumeConfigs"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "EngineLighting"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "HotRockets"
+        }
+    ],
+    "install": [
+        {
+            "find": "RealPlume",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealPlume/releases/download/v12.0.0/RealPlume_v12.0.0.zip",
+    "download_size": 26853665,
+    "download_hash": {
+        "sha1": "7C5C31A61EFAC5717E8CA10587F5D4AD53EB2D29",
+        "sha256": "E02D393791DBDEC2927A65431D2C6C4D83492846AACADB0DB646295DA40C10E3"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
