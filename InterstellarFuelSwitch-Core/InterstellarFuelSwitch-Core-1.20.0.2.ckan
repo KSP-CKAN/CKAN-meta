@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "InterstellarFuelSwitch-Core",
+    "name": "Interstellar Fuel Switch Core",
+    "abstract": "Core plugin for Interstellar Fuel Switch",
+    "author": "FreeThinker",
+    "license": "GPL-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/106243-105interstellar-fuel-switch-118-updated-10-11-2015/",
+        "spacedock": "https://spacedock.info/mod/175/Interstellar%20Fuel%20Switch",
+        "x_screenshot": "https://spacedock.info/content/FreeThinker_517/Interstellar_Fuel_Switch/Interstellar_Fuel_Switch-1481278354.0821617.jpg"
+    },
+    "version": "1.20.0.2",
+    "ksp_version": "1.5.1",
+    "localizations": [
+        "en-us",
+        "es-es",
+        "fr-fr",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "DeadskinsTextureSwitch",
+        "DeadskinsMeshSwitch"
+    ],
+    "recommends": [
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.7.1"
+        },
+        {
+            "name": "TweakScale",
+            "min_version": "2.3.6"
+        }
+    ],
+    "install": [
+        {
+            "find": "InterstellarFuelSwitch/Plugins",
+            "install_to": "GameData/InterstellarFuelSwitch"
+        },
+        {
+            "find": "InterstellarFuelSwitch/Resources",
+            "install_to": "GameData/InterstellarFuelSwitch"
+        },
+        {
+            "find": "InterstellarFuelSwitch/Localization",
+            "install_to": "GameData/InterstellarFuelSwitch"
+        }
+    ],
+    "download": "https://spacedock.info/mod/175/Interstellar%20Fuel%20Switch/download/1.20.0.2",
+    "download_size": 13927555,
+    "download_hash": {
+        "sha1": "081E8106A79E1733AD6F06213F4434499C1F48AF",
+        "sha256": "EAE2C921E626D2F18E979E136199ABDA5CBC1860381754C3946B31866D1309EC"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
