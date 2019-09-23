@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CommunityPartsTitlesExtrasNoCCKDup",
+    "name": "Community Parts Titles Extras: CCK - No Duplicates",
+    "abstract": "If parts are placed in a CCK category, it usually also appeared in the original category. This patch hide all CCK-parts from the original categories. CPT give new titles considering the No Duplicates, so it is recommended. The mod was separated, because it has one disadvantage: parts what was hided from their original categories are not available in the search.",
+    "author": "flart",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/174189-*",
+        "repository": "https://github.com/yalov/CommunityPartsTitles"
+    },
+    "version": "0.4.6",
+    "ksp_version_min": "1.3.0",
+    "ksp_version_max": "1.7.9",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CommunityPartsTitles"
+        },
+        {
+            "name": "CommunityPartsTitlesExtrasCategory"
+        },
+        {
+            "name": "CommunityCategoryKit"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/002_CommunityPartsTitles/Extras/category_hide_cck.cfg",
+            "install_to": "GameData/002_CommunityPartsTitles/Extras/",
+            "comment": "Install category_hide_cck.cfg into Extras/ folder. So it is kind of Extra for Extra."
+        }
+    ],
+    "download": "https://github.com/yalov/CommunityPartsTitles/releases/download/0.4.6/CommunityPartsTitles-v0.4.6.zip",
+    "download_size": 139993,
+    "download_hash": {
+        "sha1": "D6E3BE63F85671D1F3BFADFF6E3BC3EFABA52DE7",
+        "sha256": "C935D5639441798E9C1D193385C92BD03A6911B8870C5317A491FFDB54C8FC24"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
