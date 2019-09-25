@@ -17,10 +17,19 @@
     ],
     "recommends": [
         {
+            "name": "CommunityPartsTitlesExtrasCategory"
+        },
+        {
+            "name": "CommunityPartsTitlesExtrasNoCCKDup"
+        },
+        {
             "name": "ModuleManager"
         },
         {
             "name": "SpeedUnitAnnex"
+        },
+        {
+            "name": "CommunityCategoryKit"
         }
     ],
     "suggests": [
@@ -29,9 +38,6 @@
         },
         {
             "name": "KIS"
-        },
-        {
-            "name": "CommunityCategoryKit"
         },
         {
             "name": "KerbalEngineerRedux"
@@ -85,6 +91,9 @@
             "name": "HeatControl"
         },
         {
+            "name": "RecycledPartsAtomicAge"
+        },
+        {
             "name": "MissingHistory"
         },
         {
@@ -92,6 +101,9 @@
         },
         {
             "name": "TACLS"
+        },
+        {
+            "name": "Snacks"
         },
         {
             "name": "FASALaunchClampsContinued"
@@ -158,16 +170,27 @@
             "name": "MandatoryRCSPartPack"
         },
         {
+            "name": "InternalRCS"
+        },
+        {
             "name": "DockRotate"
         },
         {
             "name": "PWBFuelBalancerRestored"
+        },
+        {
+            "name": "Interkosmos"
+        },
+        {
+            "name": "SolidFuelCell"
         }
     ],
     "install": [
         {
             "file": "GameData/002_CommunityPartsTitles",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": "Extras",
+            "comment": "Exclude Extras/ folder. There are CommunityPartsTitlesExtrasCategory and CommunityPartsTitlesExtrasNoCCKDup for it"
         }
     ],
     "download": "https://github.com/yalov/CommunityPartsTitles/releases/download/0.5.0/CommunityPartsTitles-v0.5.0.zip",
