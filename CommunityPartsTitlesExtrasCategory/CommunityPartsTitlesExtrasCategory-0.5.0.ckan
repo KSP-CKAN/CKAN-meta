@@ -1,0 +1,47 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CommunityPartsTitlesExtrasCategory",
+    "name": "Community Parts Titles Extras: Categories",
+    "abstract": "Highly recommended Extras for the Community Parts Titles. Create new categories or place parts to a more appropriate category. Though these techniques aren't overused",
+    "author": "flart",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/174189-*",
+        "repository": "https://github.com/yalov/CommunityPartsTitles"
+    },
+    "version": "0.5.0",
+    "ksp_version_min": "1.3.0",
+    "ksp_version_max": "1.7.9",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CommunityPartsTitles"
+        },
+        {
+            "name": "CommunityPartsTitlesExtrasNoCCKDup"
+        },
+        {
+            "name": "CommunityCategoryKit"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/002_CommunityPartsTitles/Extras",
+            "install_to": "GameData/002_CommunityPartsTitles",
+            "filter": "category_hide_cck.cfg",
+            "comment": "Extras folder without the category_hide_cck.cfg. There is CommunityPartsTitlesExtrasNoDup for it"
+        }
+    ],
+    "download": "https://github.com/yalov/CommunityPartsTitles/releases/download/0.5.0/CommunityPartsTitles-v0.5.0.zip",
+    "download_size": 142266,
+    "download_hash": {
+        "sha1": "384FEA9890253BC11C299156D42557894C6DBD42",
+        "sha256": "A962E8C023445775DE1DF44B060829B067EC183E892C90A8209BF13BD399A863"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
