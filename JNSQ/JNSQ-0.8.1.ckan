@@ -1,0 +1,105 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "JNSQ",
+    "name": "JNSQ",
+    "abstract": "A 1/4 real scale, reimagined stock planet pack",
+    "author": "Team Galileo",
+    "license": "CC-BY-NC-ND-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184880-*",
+        "repository": "https://github.com/Galileo88/JNSQ"
+    },
+    "version": "0.8.1",
+    "ksp_version_min": "1.6.1",
+    "ksp_version_max": "1.7.3",
+    "localizations": [
+        "en-us",
+        "es-es",
+        "es-mx",
+        "ja",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "Scatterer-sunflare",
+        "DistantObject-config",
+        "PlanetShine-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "PlanetShine"
+        },
+        {
+            "name": "RationalResources"
+        },
+        {
+            "name": "Strategia"
+        },
+        {
+            "name": "FinalFrontier"
+        },
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        },
+        {
+            "name": "StockVisualEnhancements"
+        },
+        {
+            "name": "Spectra"
+        },
+        {
+            "name": "AstronomersVisualPack"
+        },
+        {
+            "name": "SciFiVisualEnhancements"
+        },
+        {
+            "name": "DistantObject-RealSolarSystem"
+        },
+        {
+            "name": "PlanetShine-Config"
+        },
+        {
+            "name": "CustomBarnKit-RO"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/JNSQ",
+            "install_to": "GameData",
+            "comment": "This correctly installs JNSQ"
+        }
+    ],
+    "download": "https://github.com/Galileo88/JNSQ/releases/download/0.8.1/JNSQ.0.8.1.zip",
+    "download_size": 2122312367,
+    "download_hash": {
+        "sha1": "59218CD8AA2E801BB5AC7A1A13D93F1250B21402",
+        "sha256": "7CFCBFEF2FCFCED141107786521F3B2DABC6F3B4796EFDAFBA8BE8841E9526E8"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
