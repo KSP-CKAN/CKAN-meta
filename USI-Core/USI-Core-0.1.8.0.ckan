@@ -30,7 +30,11 @@
     "install": [
         {
             "file": "GameData/UmbraSpaceIndustries",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": [
+                "FX",
+                "Konstruction"
+            ]
         }
     ],
     "download": "https://github.com/BobPalmer/USI_Core/releases/download/0.1.8.0/USICore_0.1.8.0.zip",
