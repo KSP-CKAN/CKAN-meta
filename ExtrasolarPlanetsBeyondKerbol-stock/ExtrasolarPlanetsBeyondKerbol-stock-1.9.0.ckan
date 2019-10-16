@@ -1,0 +1,69 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ExtrasolarPlanetsBeyondKerbol-stock",
+    "name": "Extrasolar Planets Byond Kerbol - Stock configuration",
+    "abstract": "Adds a new star system in orbit around the Kerbol System",
+    "author": "AndyDrawsPrettyPictures",
+    "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/130656-105-kopernicus-extrasolar-planets-beyond-kerbol-051/&page=1",
+        "spacedock": "https://spacedock.info/mod/202/Extrasolar:%20Planets%20Beyond%20Kerbol",
+        "x_screenshot": "https://spacedock.info/content/AndyDrawsPrettyPictures_749/Extrasolar_Planets_Beyond_Kerbol/Extrasolar_Planets_Beyond_Kerbol-1570618203.7334712.png"
+    },
+    "version": "1.9.0",
+    "ksp_version": "1.7.3",
+    "provides": [
+        "CustomAsteroids-Pops"
+    ],
+    "depends": [
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KSPInterstellarExtended"
+        },
+        {
+            "name": "BetterTimeWarp"
+        },
+        {
+            "name": "USI-NuclearRockets"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "StockVisualEnhancements"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "FinalFrontier"
+        },
+        {
+            "name": "DistantObject"
+        }
+    ],
+    "install": [
+        {
+            "find": "Extrasolar",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Extrasolar_Textures",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/202/Extrasolar:%20Planets%20Beyond%20Kerbol/download/1.9.0",
+    "download_size": 368099804,
+    "download_hash": {
+        "sha1": "D92785431FA60523B5187FF59A2873C379DFCCD3",
+        "sha256": "E58F4F838462320D40729953D874D7A504411DEA25A087FD8DCB9037A2555961"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
