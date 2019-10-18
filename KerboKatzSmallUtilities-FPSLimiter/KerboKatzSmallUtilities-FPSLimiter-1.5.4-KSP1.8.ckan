@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerboKatzSmallUtilities-FPSLimiter",
+    "name": "KerboKatz - SmallUtilities - FPSLimiter",
+    "abstract": "Limits the fps (frames per second) while kerbal is running in the background causing it to use less CPU & GPU cycles.",
+    "author": [
+        "SpaceTiger",
+        "SpaceKitty"
+    ],
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://kerbokatz.github.io/",
+        "repository": "https://github.com/Xarun/SmallUtilities",
+        "bugtracker": "https://github.com/Xarun/SmallUtilities/issues"
+    },
+    "version": "1.5.4-KSP1.8",
+    "ksp_version_min": "1.4.0",
+    "ksp_version_max": "1.4.3",
+    "depends": [
+        {
+            "name": "KerboKatzUtilities",
+            "min_version": "1.5.2"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerboKatzSmallUtilities"
+        }
+    ],
+    "install": [
+        {
+            "find": "FPSLimiter",
+            "install_to": "GameData/KerboKatz/SmallUtilities"
+        }
+    ],
+    "download": "https://github.com/KerboKatz/SmallUtilities/releases/download/1.5.4-KSP1.8/SmallUtilities.FPSLimiter.zip",
+    "download_size": 73739,
+    "download_hash": {
+        "sha1": "C06F4E05B9446BE8C1C363972DA23D5F6C9A7F95",
+        "sha256": "F56DE4A0D583DCA72D5BC81D0CA1E51EA93C09F1921F2020153901B7DA831FF7"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
