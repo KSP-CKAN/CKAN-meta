@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.26",
     "identifier": "ChakaMonkeyExplorationSystems",
     "name": "Chaka Monkey Exploration Systems",
     "abstract": "A complete space program based on NASA and Boeing proposals for future missions. ",
@@ -17,7 +17,14 @@
             "name": "AnimatedDecouplers"
         },
         {
-            "name": "KerbalJointReinforcement"
+            "any_of": [
+                {
+                    "name": "KerbalJointReinforcement"
+                },
+                {
+                    "name": "KerbalJointReinforcementNext"
+                }
+            ]
         },
         {
             "name": "ProceduralFairings"
