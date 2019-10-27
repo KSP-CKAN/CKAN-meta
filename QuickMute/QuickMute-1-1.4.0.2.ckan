@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "QuickMute",
+    "name": "QuickMute",
+    "abstract": "Adds the possibility to mute all the KSP sounds.",
+    "author": [
+        "malah",
+        "linuxgurugamer"
+    ],
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/174445-151-malahs-quick-mods/",
+        "spacedock": "https://spacedock.info/mod/108/QuickMute",
+        "repository": "https://github.com/linuxgurugamer/QuickMods"
+    },
+    "version": "1:1.4.0.2",
+    "ksp_version": "1.8.0",
+    "localizations": [
+        "en-us",
+        "fr-fr"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/QuickMods/QuickMute",
+            "install_to": "GameData/QuickMods"
+        }
+    ],
+    "download": "https://spacedock.info/mod/108/QuickMute/download/1.4.0.2",
+    "download_size": 52226,
+    "download_hash": {
+        "sha1": "EFC15C8231C7975629DCE7A9C741051E5E1D1412",
+        "sha256": "F3858BF5577AB669B7624177600BBEDFD2F6A11344A037C921F4414415B23CE6"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
