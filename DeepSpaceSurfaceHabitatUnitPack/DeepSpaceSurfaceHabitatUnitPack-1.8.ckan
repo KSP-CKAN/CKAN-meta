@@ -1,0 +1,75 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "DeepSpaceSurfaceHabitatUnitPack",
+    "name": "Deep Space Surface Habitat Unit Pack",
+    "abstract": "Expandable surface habitat units with life support compatibility",
+    "author": "bcink",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/168182-wip-deep-space-surface-habitat-unit/",
+        "spacedock": "https://spacedock.info/mod/1622/Deep%20Space%20Surface%20Habitat%20Unit%20Pack",
+        "x_screenshot": "https://spacedock.info/content/bcink_16644/Deep_Space_Surface_Habitat_Unit_Pack/Deep_Space_Surface_Habitat_Unit_Pack-1514423146.0117652.png"
+    },
+    "version": "1.8",
+    "ksp_version": "1.8.0",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "USI-LS"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/DSSHU",
+            "install_to": "GameData"
+        },
+        {
+            "find": "DSSHU-ConnectedLivingSpace.cfg",
+            "install_to": "GameData/DSSHU",
+            "find_matches_files": true
+        },
+        {
+            "find": "DSSHU-KerbalInventorySystem.cfg",
+            "install_to": "GameData/DSSHU",
+            "find_matches_files": true
+        },
+        {
+            "find": "DSSHU-Tweakscale.cfg",
+            "install_to": "GameData/DSSHU",
+            "find_matches_files": true
+        },
+        {
+            "find": "DSSHU-USILifeSupport.cfg",
+            "install_to": "GameData/DSSHU",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/1622/Deep%20Space%20Surface%20Habitat%20Unit%20Pack/download/1.8",
+    "download_size": 3685876,
+    "download_hash": {
+        "sha1": "CA81325830F8E56124944DD98D2CC2076095D8F7",
+        "sha256": "C2FF2AD8C1C4392F81DF1EF87B0B6F3E152DB5533E62AD89600122780B0E4D63"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
