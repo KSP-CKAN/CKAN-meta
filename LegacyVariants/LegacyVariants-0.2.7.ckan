@@ -1,0 +1,37 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "LegacyVariants",
+    "name": "Legacy Variants",
+    "abstract": "Adds Legacy parts back as variants of the replacement parts",
+    "author": "Ruben",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://www.youtube.com/watch?v=giqqnS_ylYk",
+        "spacedock": "https://spacedock.info/mod/1961/Legacy%20Variants",
+        "x_screenshot": "https://spacedock.info/content/Ruben_419/Legacy_Variants/Legacy_Variants-1535950339.16499.png"
+    },
+    "version": "0.2.7",
+    "ksp_version": "1.8.1",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "KSC",
+            "install_to": "GameData",
+            "filter_regexp": [
+                "~$"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/1961/Legacy%20Variants/download/0.2.7",
+    "download_size": 66610,
+    "download_hash": {
+        "sha1": "41BCB044C455D89DA3C4CBC2B8A3A014C7224A37",
+        "sha256": "CC8FC20CC1F37C14EE7A3B9AA33EBD2CF194735CB3E1A0E29677E0F67AC63734"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
