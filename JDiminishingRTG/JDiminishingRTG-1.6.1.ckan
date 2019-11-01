@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "JDiminishingRTG",
+    "name": "JDiminishingRTG",
+    "abstract": "More realistic RTG, with multiple fuel types and half-lives taken into account",
+    "author": [
+        "KwirkyJ",
+        "linuxgurugamer"
+    ],
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182640-161-jdiminishingrtg-v140-realistic-configurable-radioisotope-decay/",
+        "spacedock": "https://spacedock.info/mod/2096/JDiminishingRTG",
+        "repository": "https://github.com/linuxgurugamer/JDiminishingRTG/"
+    },
+    "version": "1.6.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.1",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "JDiminishingRTG",
+            "install_to": "GameData",
+            "filter_regexp": [
+                "ModuleManager.*"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/2096/JDiminishingRTG/download/1.6.1",
+    "download_size": 37780,
+    "download_hash": {
+        "sha1": "2A18485002B64E40BB217D643872AC9BD3D1974A",
+        "sha256": "D5E04EF66A14F4A42223DB03BA7231D179B69882A245085D456D5CE052C1B5C5"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
