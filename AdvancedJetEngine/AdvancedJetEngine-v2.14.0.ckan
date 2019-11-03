@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "AdvancedJetEngine",
+    "name": "Advanced Jet Engine",
+    "abstract": "Gives jets, propellers, and rotors realistic performance.",
+    "author": [
+        "blowfish",
+        "NathanKell",
+        "camlost"
+    ],
+    "license": "LGPL-2.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?showtopic=139868",
+        "repository": "https://github.com/KSP-RO/AJE"
+    },
+    "version": "v2.14.0",
+    "ksp_version": "1.7.3",
+    "localizations": [
+        "zh-cn",
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "FAR"
+        },
+        {
+            "name": "SolverEngines"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealFuels"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RealPlume"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/AJE",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/AJE/releases/download/v2.14.0/Advanced_Jet_Engine_v2.14.0.zip",
+    "download_size": 643920,
+    "download_hash": {
+        "sha1": "20B40FF394D7A90427DDF8D919AB96C03C7A7B25",
+        "sha256": "DA25C5DC277534106BFFD2945B8B9AC7F8015B83AC00CC3B3683FB818F7CD603"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
