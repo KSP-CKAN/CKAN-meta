@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Kerbalism-Config-Default",
+    "name": "Kerbalism - Default Config",
+    "abstract": "Default configuration for Kerbalism",
+    "author": [
+        "Kerbalism Contributors"
+    ],
+    "license": "Unlicense",
+    "resources": {
+        "repository": "https://github.com/Kerbalism/Kerbalism"
+    },
+    "version": "3.1",
+    "ksp_version_min": "1.5.0",
+    "ksp_version_max": "1.8.9",
+    "localizations": [
+        "en-us",
+        "ru",
+        "de-de",
+        "pt-br"
+    ],
+    "provides": [
+        "Kerbalism-Config"
+    ],
+    "depends": [
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-Config"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismConfig",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Kerbalism/Kerbalism/releases/download/3.1/Kerbalism-Config_v3.1_for_KSP1.5.0-1.8.9.zip",
+    "download_size": 3491177,
+    "download_hash": {
+        "sha1": "6868088EE373BF445D5952AD817CCD1C0F7A868B",
+        "sha256": "46C3640D6649AFFB269AFEF747C086A470F6E97B93325A27FA5FB0465786FAEE"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
