@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CryoTanks",
+    "name": "Cryo Tanks",
+    "abstract": "A set of fuel tanks for containing Liquid Hydrogen. Also adds Liquid Hydrogen storage to most stock tanks",
+    "author": "ChrisAdderley",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://github.com/ChrisAdderley/CryoTanks/wiki",
+        "repository": "https://github.com/ChrisAdderley/CryoTanks"
+    },
+    "version": "1.4.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.99",
+    "localizations": [
+        "ru",
+        "zh-cn",
+        "de-de",
+        "en-us",
+        "es-es",
+        "fr-fr"
+    ],
+    "depends": [
+        {
+            "name": "CryoTanks-Core"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "DynamicBatteryStorage"
+        }
+    ],
+    "supports": [
+        {
+            "name": "KerbalAtomics"
+        },
+        {
+            "name": "CryoEngines"
+        }
+    ],
+    "install": [
+        {
+            "find": "CryoTanks",
+            "install_to": "GameData",
+            "filter": "SimpleBoiloff.dll"
+        }
+    ],
+    "download": "https://github.com/ChrisAdderley/CryoTanks/releases/download/1.4.0/CryoTanks_1_4_0.zip",
+    "download_size": 60220341,
+    "download_hash": {
+        "sha1": "7D047DCD36C51A8ECD9D4CA8F5BF490BD04F5A56",
+        "sha256": "9DD5F895175C80BF51850585D65D678CF650ED863B23D3B91D8501E770CED885"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
