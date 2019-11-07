@@ -1,0 +1,41 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalAtomics-NTRsUseLF",
+    "name": "Kerbal Atomics - Liquid Fuel Only",
+    "abstract": "Optional patch that makes all Liquid Hydrogen using engines in Kerbal Atomics use Liquid Fuel only, with a performance penalty. Will negatively affect vessels with KA engines in-flight.",
+    "author": "Nertea",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/130503-16x-kerbal-atomics-fancy-nuclear-engines-january-21/",
+        "spacedock": "https://spacedock.info/mod/710/Kerbal%20Atomics",
+        "repository": "https://github.com/ChrisAdderley/KerbalAtomics",
+        "x_screenshot": "https://spacedock.info/content/Nertea_200/Kerbal_Atomics/Kerbal_Atomics-1463537395.8438432.png"
+    },
+    "version": "1.1.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.99",
+    "depends": [
+        {
+            "name": "KerbalAtomics"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbalAtomics-NTRModSupport"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalAtomicsNTRsUseLF",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/710/Kerbal%20Atomics/download/1.1.1",
+    "download_size": 81762766,
+    "download_hash": {
+        "sha1": "7DAB645D2607AAECA8CFD7C36BB6C8D382541337",
+        "sha256": "070C73CFEBFAB986234787A3E6956F345B3F077B8A7913C4E6AF7750BF103A27"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
