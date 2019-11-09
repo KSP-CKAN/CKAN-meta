@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Mk3Expansion",
+    "name": "Mk3 Stockalike Expansion",
+    "abstract": "Adds a variety of new Mk3 parts to KSP",
+    "author": "SuicidalInsanity",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/109401-mk2mk3-expansion-dev-thread-105-m3x-108-update-11715/&page=1",
+        "spacedock": "https://spacedock.info/mod/663/Mk3%20Stockalike%20Expansion",
+        "repository": "https://github.com/SuicidalInsanity/Mk3Expansion",
+        "x_screenshot": "https://spacedock.info/content/SuicidalInsanity_1925/Mk3_Stockalike_Expansion/Mk3_Stockalike_Expansion-1462484679.499563.png"
+    },
+    "version": "1.4.8.5",
+    "ksp_version": "1.8.1",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "B9PartSwitch"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/Mk3Expansion",
+            "install_to": "GameData"
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find": "SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/663/Mk3%20Stockalike%20Expansion/download/1.4.8.5",
+    "download_size": 20093116,
+    "download_hash": {
+        "sha1": "AFB0652AA6F470E534FCDDD054774EB46FB9AEB1",
+        "sha256": "BCCC51BE3C1F7C7418172D994B8EAF61933C9C42E07B6F4C6F524DD0B8190BED"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
