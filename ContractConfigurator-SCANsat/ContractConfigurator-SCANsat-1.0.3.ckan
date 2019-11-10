@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ContractConfigurator-SCANsat",
+    "name": "SCANsat mission pack",
+    "abstract": "A Mission pack creating SCANsat contracts",
+    "author": "SimonTheSourcerer",
+    "license": "WTFPL",
+    "resources": {
+        "repository": "https://github.com/SimonTheSourcerer/CCSCANsatMissionPack"
+    },
+    "version": "1.0.3",
+    "ksp_version": "0.90.0",
+    "provides": [
+        "ContractConfigurator-SCANsat"
+    ],
+    "depends": [
+        {
+            "name": "ContractConfigurator"
+        },
+        {
+            "name": "SCANsat",
+            "min_version": "9.0"
+        }
+    ],
+    "install": [
+        {
+            "find": "ContractPacks",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/SimonTheSourcerer/CCSCANsatMissionPack/releases/download/1.0.3/CCSCANsatMissionPack.zip",
+    "download_size": 13875,
+    "download_hash": {
+        "sha1": "C71DE617D21B32F343386643986AFFFD4A44C369",
+        "sha256": "A831CF3C76C8A168EDD9246AC536C59C7E8CFDCD0CCEABAC41C33F0336267957"
+    },
+    "download_content_type": "application/zip",
+    "x_maintained_by": "hakan42, who loves to fly missions with contracts in them",
+    "x_generated_by": "netkan"
+}
