@@ -1,0 +1,53 @@
+{
+    "spec_version": 1,
+    "identifier": "AdvancedFlyByWire-Linux",
+    "name": "Advanced Fly-By-Wire (Linux)",
+    "abstract": "AFBW is an input overhaul mod. It dramatically enhances the stock input system with a bunch of fixes and many new features.",
+    "author": "linuxgurugamer",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-*",
+        "spacedock": "https://spacedock.info/mod/1870/AFBW%20Revived%20(Linux%20version)",
+        "repository": "https://github.com/linuxgurugamer/ksp-advanced-flybywire",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/AFBW_Revived_Linux_version/AFBW_Revived_Linux_version-1527384062.2632098.png"
+    },
+    "version": "1.8.3",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.1",
+    "provides": [
+        "AdvancedFlyByWireRevived"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KSP-AVC"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AdvancedFlyByWireRevived"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ksp-advanced-flybywire",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1870/AFBW%20Revived%20%28Linux%20version%29/download/1.8.3",
+    "download_size": 111895,
+    "download_hash": {
+        "sha1": "A97C4416E3B734B41163DF5D10A8D6566BEE3267",
+        "sha256": "E8EF5C498B44DF110852B0A5D634B91E9BC4AA14BCADAD81D36EDC445D3C44D2"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
