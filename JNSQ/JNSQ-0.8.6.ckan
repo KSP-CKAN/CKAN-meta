@@ -1,0 +1,165 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "JNSQ",
+    "name": "JNSQ",
+    "abstract": "Stock planets, reimagined, at 1/4 real scale",
+    "author": "Team Galileo",
+    "license": "CC-BY-NC-ND-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184880-*",
+        "repository": "https://github.com/Galileo88/JNSQ",
+        "metanetkan": "https://raw.githubusercontent.com/Galileo88/JNSQ/master/CKAN/JNSQ.netkan"
+    },
+    "version": "0.8.6",
+    "ksp_version_min": "1.6.1",
+    "ksp_version_max": "1.7.3",
+    "localizations": [
+        "en-us",
+        "es-es",
+        "es-mx",
+        "ja",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "Scatterer-sunflare",
+        "Kronometer"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "PlanetShine"
+        },
+        {
+            "name": "RationalResources"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "Strategia"
+        },
+        {
+            "name": "FinalFrontier"
+        },
+        {
+            "name": "TextureReplacer"
+        },
+        {
+            "name": "JX2Antenna"
+        },
+        {
+            "name": "CommNetAntennasInfo"
+        },
+        {
+            "name": "AntennaHelper"
+        },
+        {
+            "name": "KerbalAlarmClock"
+        },
+        {
+            "name": "KopernicusExpansionContinued-EVAFootprints"
+        },
+        {
+            "name": "Kerbalism"
+        },
+        {
+            "name": "ResearchBodies"
+        },
+        {
+            "name": "WaypointManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        },
+        {
+            "name": "StockVisualEnhancements"
+        },
+        {
+            "name": "SVE-Terrain"
+        },
+        {
+            "name": "Spectra"
+        },
+        {
+            "name": "AstronomersVisualPack"
+        },
+        {
+            "name": "SciFiVisualEnhancements"
+        },
+        {
+            "name": "GPP"
+        },
+        {
+            "name": "OuterPlanetsMod"
+        },
+        {
+            "name": "DistantObject-RealSolarSystem"
+        },
+        {
+            "name": "CustomBarnKit-RO"
+        },
+        {
+            "name": "BetterLookingOceans-HighRes"
+        },
+        {
+            "name": "BetterLookingOceans-MedRes"
+        },
+        {
+            "name": "BetterLookingOceans-LowRes"
+        },
+        {
+            "name": "Rescale-10625"
+        },
+        {
+            "name": "Rescale-10"
+        },
+        {
+            "name": "Rescale-64"
+        },
+        {
+            "name": "Rescale-32"
+        },
+        {
+            "name": "Rescale-25"
+        },
+        {
+            "name": "Kerbalism-Config-RO"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/JNSQ",
+            "install_to": "GameData",
+            "comment": "This correctly installs JNSQ"
+        }
+    ],
+    "download": "https://github.com/Galileo88/JNSQ/releases/download/0.8.6/JNSQ.0.8.6.zip",
+    "download_size": 1947651888,
+    "download_hash": {
+        "sha1": "8DAFFC288F5C7D625874C59AC280EBC958D21846",
+        "sha256": "A0D8FC0E98584872F0D55B038CED09112B5D5A51C02BCA50F96244314B308BBD"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
