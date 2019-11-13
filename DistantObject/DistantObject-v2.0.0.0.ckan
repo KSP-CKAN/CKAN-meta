@@ -1,0 +1,39 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DistantObject",
+    "name": "Distant Object Enhancement Continued",
+    "abstract": "Visual enhancement mod that makes objects realistically visible over large distances",
+    "author": [
+        "duckytopia",
+        "MOARdv",
+        "TheDarkBadger"
+    ],
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189759-*",
+        "repository": "https://github.com/TheDarkBadger/DistantObject"
+    },
+    "version": "v2.0.0.0",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.8.99",
+    "depends": [
+        {
+            "name": "DistantObject-config"
+        }
+    ],
+    "install": [
+        {
+            "find": "DistantObject",
+            "install_to": "GameData",
+            "filter": "PlanetColors.cfg"
+        }
+    ],
+    "download": "https://github.com/TheDarkBadger/DistantObject/releases/download/v2.0.0.0/DistantObject-v2.0.0.0.zip",
+    "download_size": 30992,
+    "download_hash": {
+        "sha1": "9624A8B09A50A175CB584327D5F827D60A348206",
+        "sha256": "5B9605E8783AC863B1A68B8F31D2C1736AEE5CEF9FEAE91A486BFBBA58F7AC29"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
