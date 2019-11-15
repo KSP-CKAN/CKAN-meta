@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Ships installed again, updated",
+    "identifier": "RN-Skylab",
+    "name": "Skylab",
+    "abstract": "This mod comes with everything you need to create your own Skylab, broken solar panels and all!",
+    "author": "Raidernick",
+    "license": "CC-BY-NC-ND-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/77855-122-131-skylab-compatible-with-decq-oldd-fasa-release-v181-72217/",
+        "repository": "https://github.com/KSP-RO/Skylab"
+    },
+    "version": "1:v1.8.4",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.7.99",
+    "depends": [
+        {
+            "name": "BDAnimationModules"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "RN_Skylab",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/Skylab/releases/download/v1.8.4/RN_Skylab_v1.8.4.zip",
+    "download_size": 7576684,
+    "download_hash": {
+        "sha1": "66E57FBF6F87329342FD78F25B4334974C0BAAA0",
+        "sha256": "4BEA10311FCA635AED59A80051FBFF557AAF0B3EC932D6C110E4252E8A99B914"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
