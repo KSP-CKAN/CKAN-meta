@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerboKatzSmallUtilities-KerbalScienceExchange",
+    "name": "KerboKatz - SmallUtilities - KerbalScienceExchange",
+    "abstract": "This little tool allows you exchange funds for science and vice versa.",
+    "author": [
+        "SpaceTiger",
+        "SpaceKitty"
+    ],
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://kerbokatz.github.io/",
+        "repository": "https://github.com/Xarun/SmallUtilities",
+        "bugtracker": "https://github.com/Xarun/SmallUtilities/issues"
+    },
+    "version": "1.5.4-KSP1.8",
+    "ksp_version": "1.8",
+    "depends": [
+        {
+            "name": "KerboKatzUtilities",
+            "min_version": "1.5.2"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerboKatzSmallUtilities"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalScienceExchange",
+            "install_to": "GameData/KerboKatz/SmallUtilities"
+        }
+    ],
+    "download": "https://github.com/KerboKatz/SmallUtilities/releases/download/1.5.4-KSP1.8/SmallUtilities.KerbalScienceExchange.zip",
+    "download_size": 70869,
+    "download_hash": {
+        "sha1": "C9B3D853F7061D192B5DCB03E463E24752746C79",
+        "sha256": "F7DDF1F76C672A25A13C74625F6700B13F778BBC46898DAB43EBEE44DE17F553"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
