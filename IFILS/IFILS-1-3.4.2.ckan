@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "IFILS",
+    "name": "Intersteller Flight Inc. Life Support (IFI-LS)",
+    "abstract": "Revamped Life Support mod",
+    "author": "linuxgurugamer",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/168008-131-interstellar-flight-inc-life-support-full-release/",
+        "spacedock": "https://spacedock.info/mod/1610/Intersteller%20Flight%20Inc.%20Life%20Support%20(IFI-LS)",
+        "repository": "https://github.com/linuxgurugamer/IFI-Life-Support"
+    },
+    "version": "1:3.4.2",
+    "ksp_version": "1.3.1",
+    "depends": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "CommunityCategoryKit"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "filter_regexp": [
+                ".*~$"
+            ],
+            "install_to": "GameData",
+            "find": "IFILS"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1610/Intersteller%20Flight%20Inc.%20Life%20Support%20%28IFI-LS%29/download/3.4.2",
+    "download_size": 35581947,
+    "download_hash": {
+        "sha1": "C9641C935E651370F57911B4584A9DF2C2D89333",
+        "sha256": "D21A23A8DB88C6599BC59DF20BCFA9E439C563FD4134E0420B0960630064D386"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
