@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ProceduralAirships",
+    "name": "Procedural Airships",
+    "abstract": "Procedural Airships - A ProceduralParts Expansion",
+    "author": [
+        "RadarManFromTheMoon",
+        "ItMustBeACamel"
+    ],
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/89388-*",
+        "repository": "https://github.com/ItMustBeACamel/ProcAirships"
+    },
+    "version": "1:1.3",
+    "ksp_version_min": "0.90.0",
+    "depends": [
+        {
+            "name": "ProceduralParts"
+        }
+    ],
+    "install": [
+        {
+            "find": "ProcAirships",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships",
+            "install_to": "Ships"
+        },
+        {
+            "file": "saves",
+            "install_to": "Tutorial"
+        }
+    ],
+    "download": "https://github.com/ItMustBeACamel/ProcAirships/releases/download/1.3/ProcAirships-1.3.zip",
+    "download_size": 137050,
+    "download_hash": {
+        "sha1": "5CD22FA3C20427105D4023D8841069680C80CD72",
+        "sha256": "E222DEB385C504772B6A5BFBD1405D98C1A5701BEB62C5FFC49780B4110228A0"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
