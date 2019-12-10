@@ -6,7 +6,7 @@
     "author": "linuxgurugamer",
     "license": "GPL-3.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169509-141-toolbar-controller-for-modders/",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169509-*",
         "spacedock": "https://spacedock.info/mod/1931/ToolbarController",
         "repository": "https://github.com/linuxgurugamer/ToolbarControl/"
     },
@@ -25,8 +25,8 @@
     ],
     "install": [
         {
-            "install_to": "GameData",
-            "find": "001_ToolbarControl"
+            "find": "001_ToolbarControl",
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/1931/ToolbarController/download/0.1.9.4",
@@ -36,6 +36,9 @@
         "sha256": "E413EED309965B3C0C2D8279BA671E52B9286B7CC18FF564EAEBEA051EE5EB51"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
+    "tags": [
+        "plugin",
+        "library"
+    ],
     "x_generated_by": "netkan"
 }
