@@ -20,16 +20,16 @@
             "name": "ModuleManager"
         },
         {
+            "name": "RasterPropMonitor-Core",
+            "min_version": "0.28.0"
+        },
+        {
             "name": "ASETProps",
             "min_version": "1.4"
         },
         {
             "name": "ASETAvionics",
             "min_version": "2.0"
-        },
-        {
-            "name": "RasterPropMonitor-Core",
-            "min_version": "0.28.0"
         }
     ],
     "recommends": [
@@ -40,8 +40,8 @@
     ],
     "install": [
         {
-            "install_to": "GameData",
-            "find": "ASET"
+            "find": "ASET",
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/1214/%20%27Mk1%20Cockpit%27%20IVA%20Replacement%20by%20ASET/download/1.1",
@@ -51,6 +51,9 @@
         "sha256": "6A11281F4AD7020E990A34BE9EBB6641227C7B7A33A40E6CDA2018F03C6030AA"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
+    "tags": [
+        "config",
+        "manned"
+    ],
     "x_generated_by": "netkan"
 }
