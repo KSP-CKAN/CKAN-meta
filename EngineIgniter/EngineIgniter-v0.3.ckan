@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "EngineIgniter",
     "name": "Engine Igniter",
     "abstract": "This mod limits the number of times an engine may restart. Configuration is provided for stock/Squad engines and a few popular mods' engines, and may be extended through the use of ModuleManager patches.",
@@ -18,6 +18,12 @@
             "name": "ModuleManager"
         }
     ],
+    "install": [
+        {
+            "find": "GameData/EngineIgniter",
+            "install_to": "GameData"
+        }
+    ],
     "download": "https://github.com/jamesharling/EngineIgniter/releases/download/v0.3/EngineIgniter.0.3.zip",
     "download_size": 29244,
     "download_hash": {
@@ -25,5 +31,8 @@
         "sha256": "F9E2355D97F858D589854867C6BB65CFF03B7E2BA6AF263E2E4ECC5782476547"
     },
     "download_content_type": "application/zip",
+    "tags": [
+        "plugin"
+    ],
     "x_generated_by": "netkan"
 }
