@@ -27,11 +27,11 @@
     ],
     "install": [
         {
+            "find": "DeepSky",
+            "install_to": "GameData",
             "filter_regexp": [
                 ".*\\.pdb$"
-            ],
-            "install_to": "GameData",
-            "find": "DeepSky"
+            ]
         }
     ],
     "download": "https://spacedock.info/mod/1252/Airline%20Kuisine/download/2.3.0",
@@ -41,6 +41,9 @@
         "sha256": "F3EC6DE0B1F5A2C3AFB7F42ED4AED6A7F14EBA7017766991FA9452BB2C854B69"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
+    "tags": [
+        "parts",
+        "manned"
+    ],
     "x_generated_by": "netkan"
 }
