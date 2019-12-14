@@ -25,10 +25,15 @@
             "name": "InterstellarFuelSwitch-Core"
         }
     ],
+    "recommends": [
+        {
+            "name": "PatchManager"
+        }
+    ],
     "install": [
         {
-            "install_to": "GameData",
-            "find": "NSS"
+            "find": "NSS",
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/1074/OctoSat%20Continued/download/0.1.14",
@@ -38,6 +43,9 @@
         "sha256": "FD5708EC11ACC70EF5472B59B10D75D954E6C25A63E26D7803120C1427320F95"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
+    "tags": [
+        "config",
+        "parts"
+    ],
     "x_generated_by": "netkan"
 }
