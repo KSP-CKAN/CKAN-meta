@@ -4,20 +4,25 @@
     "name": "Inline Ballutes",
     "abstract": "Inline Ballutes - aerobrake your rocket in an upper atmosphere",
     "author": [
-        "linuxgurugamer",
-        "riocrokite"
+        "riocrokite",
+        "linuxgurugamer"
     ],
+    "version": "1.2.10",
+    "ksp_version_min": "1.8.0",
     "license": "CC-BY-NC-SA-4.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121162-*",
         "repository": "https://github.com/linuxgurugamer/InlineBallutes"
     },
-    "version": "1.2.10",
-    "ksp_version_min": "1.8.0",
-    "suggests": [
+    "tags": [
+        "parts"
+    ],
+    "depends": [
         {
-            "name": "FerramAerospaceResearch"
-        },
+            "name": "FAR"
+        }
+    ],
+    "suggests": [
         {
             "name": "EntropyRealChute"
         },

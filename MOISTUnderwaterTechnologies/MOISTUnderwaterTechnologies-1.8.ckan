@@ -12,24 +12,22 @@
     },
     "version": "1.8",
     "ksp_version": "1.8.1",
-    "localizations": [
-        "de-de",
-        "en-us",
-        "es-es",
-        "fr-fr",
-        "ja",
-        "ru",
-        "zh-cn"
-    ],
     "depends": [
         {
             "name": "CommunityResourcePack"
+        },
+        {
+            "name": "SinkEmAll"
         }
     ],
     "install": [
         {
             "find": "JDSA",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": [
+                "CommunityResourcePack",
+                "SinkEmAll"
+            ]
         }
     ],
     "download": "https://spacedock.info/mod/1717/MOIST%21%20Underwater%20Technologies/download/1.8",
@@ -39,6 +37,8 @@
         "sha256": "31A876620095CACFEFF78E855D6579889CD05D549FE1F8B3A160CD4A0EC2BA3C"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated SpaceDock CKAN submission",
+    "tags": [
+        "parts"
+    ],
     "x_generated_by": "netkan"
 }

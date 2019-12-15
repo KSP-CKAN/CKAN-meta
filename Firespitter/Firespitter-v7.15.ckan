@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Firespitter",
+    "name": "Firespitter",
+    "abstract": "Propeller plane and helicopter parts",
+    "author": [
+        "BobPalmer",
+        "snjo"
+    ],
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://snjo.github.io/",
+        "repository": "https://github.com/snjo/Firespitter"
+    },
+    "version": "v7.15",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.9",
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "7.1"
+        },
+        {
+            "name": "FirespitterResourcesConfig"
+        }
+    ],
+    "install": [
+        {
+            "find": "Firespitter",
+            "install_to": "GameData",
+            "filter": [
+                "Firespitter.version",
+                "Plugins",
+                "Resources",
+                "Old Example Craft.zip"
+            ],
+            "comment": "Plugins and version file are installed from FirespitterCore, Resources from FirespitterResourcesConfig"
+        }
+    ],
+    "download": "https://github.com/snjo/Firespitter/releases/download/v7.15/Firespitter_7.15.zip",
+    "download_size": 30747452,
+    "download_hash": {
+        "sha1": "8053C02A7FFF59FCD2DFB0A31CF19FC42BD9802A",
+        "sha256": "C5DDC4D1B6EF3E31F1901FD4568137016749F47E13742D9FB23B5A32FA845037"
+    },
+    "download_content_type": "application/zip",
+    "tags": [
+        "parts",
+        "manned",
+        "sound"
+    ],
+    "x_generated_by": "netkan"
+}
