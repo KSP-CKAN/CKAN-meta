@@ -4,6 +4,10 @@
     "name": "Contract Configurator",
     "abstract": "A config-file based solution for creating new contracts!",
     "author": "nightingale",
+    "version": "1.28.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.99.99",
+    "ksp_version_strict": true,
     "license": "MIT",
     "release_status": "stable",
     "resources": {
@@ -14,10 +18,11 @@
         "manual": "https://github.com/jrossignol/ContractConfigurator/wiki",
         "metanetkan": "https://raw.githubusercontent.com/jrossignol/ContractConfigurator/master/ContractConfigurator.netkan"
     },
-    "version": "1.28.0",
-    "ksp_version_min": "1.8.0",
-    "ksp_version_max": "1.99.99",
-    "ksp_version_strict": true,
+    "tags": [
+        "plugin",
+        "library",
+        "career"
+    ],
     "recommends": [
         {
             "name": "WaypointManager"
@@ -35,10 +40,5 @@
         "sha256": "57D53DE07DE6E251721DADFC6FE78966BEC9B41F2A9DF732F6A13E893FF04CE5"
     },
     "download_content_type": "application/zip",
-    "tags": [
-        "plugin",
-        "library",
-        "career"
-    ],
     "x_generated_by": "netkan"
 }
