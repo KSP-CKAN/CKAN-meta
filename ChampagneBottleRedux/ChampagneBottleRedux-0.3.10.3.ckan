@@ -4,16 +4,20 @@
     "name": "Champagne Bottle Redux",
     "abstract": "KSP workers suggested names for ships",
     "author": "linuxgurugamer",
+    "version": "0.3.10.3",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.1",
     "license": "CC-BY-NC-SA",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/138349-champagne-bottle-redux/",
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/138349-*",
         "spacedock": "https://spacedock.info/mod/613/Champagne%20Bottle%20Redux",
         "repository": "https://github.com/linuxgurugamer/ChampagneBottleRedux",
         "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Champagne_Bottle_Redux/Champagne_Bottle_Redux-1507555067.0730748.png"
     },
-    "version": "0.3.10.3",
-    "ksp_version_min": "1.8.0",
-    "ksp_version_max": "1.8.1",
+    "tags": [
+        "plugin",
+        "editor"
+    ],
     "depends": [
         {
             "name": "ToolbarController"
@@ -23,6 +27,9 @@
         }
     ],
     "recommends": [
+        {
+            "name": "Toolbar"
+        },
         {
             "name": "JanitorsCloset"
         }

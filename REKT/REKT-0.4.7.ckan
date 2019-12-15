@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "REKT",
+    "name": "Recoverable Emergency Kerbal Transport",
+    "abstract": "REKT",
+    "author": [
+        "steedcrugeon",
+        "linuxgurugamer"
+    ],
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/181613-145-151-161-rekt-escape-pod-mod/",
+        "spacedock": "https://spacedock.info/mod/1021/Recoverable%20Emergency%20Kerbal%20Transport",
+        "repository": "https://github.com/linuxgurugamer/REKT",
+        "x_screenshot": "https://spacedock.info/content/steedcrugeon_8650/Recoverable_Emergency_Kerbal_Transport/Recoverable_Emergency_Kerbal_Transport-1477517270.5627637.png"
+    },
+    "version": "0.4.7",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.1",
+    "localizations": [
+        "es-es"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RetractableLiftingSurface"
+        },
+        {
+            "name": "KSPWheel"
+        }
+    ],
+    "install": [
+        {
+            "find": "SHED",
+            "install_to": "GameData",
+            "filter": [
+                "Agencies",
+                "License",
+                "RetractableLiftingSurface"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/1021/Recoverable%20Emergency%20Kerbal%20Transport/download/0.4.7",
+    "download_size": 6332877,
+    "download_hash": {
+        "sha1": "D9969147C4C7A1C6778FEAF78B1168364BC3F24C",
+        "sha256": "739353BABC10E42146D46BF395E3F232FC73446333F70C98A6657C37186E1490"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

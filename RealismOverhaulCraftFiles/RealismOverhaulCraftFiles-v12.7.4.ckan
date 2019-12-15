@@ -1,0 +1,83 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "RealismOverhaulCraftFiles",
+    "name": "Realism Overhaul Craft Files",
+    "abstract": "Craft files for the various mods suggested by Realism Overhaul.",
+    "author": [
+        "raidernick",
+        "KSP-RO"
+    ],
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/140070-11",
+        "repository": "https://github.com/KSP-RO/RealismOverhaul",
+        "metanetkan": "https://raw.githubusercontent.com/KSP-RO/RealismOverhaul/master/RealismOverhaulCraftFiles.netkan"
+    },
+    "version": "v12.7.4",
+    "depends": [
+        {
+            "name": "RealismOverhaul"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "FASA"
+        },
+        {
+            "name": "AntaresCygnus"
+        },
+        {
+            "name": "RN-SovietRockets"
+        },
+        {
+            "name": "RN-SalyutStations"
+        },
+        {
+            "name": "RN-SovietSpacecraft"
+        },
+        {
+            "name": "RN-Skylab"
+        },
+        {
+            "name": "RN-SovietProbes"
+        },
+        {
+            "name": "RN-USProbesPack"
+        },
+        {
+            "name": "RN-USRockets"
+        },
+        {
+            "name": "NewTantares"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ROEngines"
+        }
+    ],
+    "install": [
+        {
+            "file": "Ships/VAB",
+            "install_to": "Ships",
+            "comment": "VAB craft files"
+        },
+        {
+            "file": "Ships/SPH",
+            "install_to": "Ships",
+            "comment": "SPH craft files"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v12.7.4/RealismOverhaul-v12.7.4.zip",
+    "download_size": 11552160,
+    "download_hash": {
+        "sha1": "8A0278E721F97415E3CD85B61FDD68A11E66646B",
+        "sha256": "EB3834C8C4AAE404BC596CDD6F5850908521DCC572BCCA92DCD7B78BDF0D1DD0"
+    },
+    "download_content_type": "application/zip",
+    "tags": [
+        "config"
+    ],
+    "x_generated_by": "netkan"
+}

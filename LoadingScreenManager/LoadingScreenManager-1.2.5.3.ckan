@@ -15,8 +15,8 @@
     "ksp_version_max": "1.6.0",
     "install": [
         {
-            "install_to": "GameData",
-            "find": "LoadingScreenManager"
+            "find": "LoadingScreenManager",
+            "install_to": "GameData"
         },
         {
             "find_regexp": "LoadingScreenManager.*\\.dll$",
@@ -31,6 +31,8 @@
         "sha256": "654AAA5BE572347D5825074C19CAA41F94EE248E3ABF7645EB7963D864C1D4D5"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
+    "tags": [
+        "plugin"
+    ],
     "x_generated_by": "netkan"
 }

@@ -4,6 +4,9 @@
     "name": "AoA Technologies",
     "abstract": "AoA Tech Spacedock Version: requires installation of ModuleManager, Firespitter plugin and RPM",
     "author": "Wolfair_Corp",
+    "version": "1.4.1.1",
+    "ksp_version_min": "1.4.0",
+    "ksp_version_max": "1.5.1",
     "license": "unknown",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/153428-122-aoa-technologies-maintenance-thread/",
@@ -11,9 +14,11 @@
         "repository": "https://github.com/WolfairCorp/AoA-Technologies/",
         "x_screenshot": "https://spacedock.info/content/Wolfair_Corp_5739/AoA_Technologies/AoA_Technologies-1482100655.7339098.png"
     },
-    "version": "1.4.1.1",
-    "ksp_version_min": "1.4.0",
-    "ksp_version_max": "1.5.1",
+    "tags": [
+        "config",
+        "parts",
+        "manned"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
@@ -36,8 +41,8 @@
     ],
     "install": [
         {
-            "install_to": "GameData",
-            "find": "AoATech"
+            "find": "AoATech",
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/1116/AoA%20Technologies/download/1.4.1.1",
@@ -47,6 +52,5 @@
         "sha256": "C29D91D32A5DD8184764D6335F306CE8C1929D583215E49938CCF891A029D511"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
     "x_generated_by": "netkan"
 }

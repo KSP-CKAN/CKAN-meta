@@ -20,35 +20,35 @@
             "name": "ModuleManager"
         },
         {
-            "name": "ASETProps",
-            "min_version": "1.4"
-        },
-        {
             "name": "RasterPropMonitor-Core",
             "min_version": "0.28.0"
+        },
+        {
+            "name": "ASETProps",
+            "min_version": "1.4"
         }
     ],
     "recommends": [
         {
-            "name": "SCANsat"
-        },
-        {
             "name": "MechJeb2"
         },
         {
-            "name": "RealChute"
+            "name": "SCANsat"
         },
         {
             "name": "VesselView"
         },
         {
             "name": "DockingPortAlignmentIndicator"
+        },
+        {
+            "name": "Astrogator"
         }
     ],
     "install": [
         {
-            "install_to": "GameData/ASET",
-            "find": "ASET/Mk1-2_IVA_Replacement_by_ASET"
+            "find": "ASET/Mk1-2_IVA_Replacement_by_ASET",
+            "install_to": "GameData/ASET"
         }
     ],
     "download": "https://spacedock.info/mod/1206/%27MK1-2%27%20IVA%20Replacement%20by%20ASET/download/0.3",
@@ -58,6 +58,9 @@
         "sha256": "79CD8F55DF18BC07A5047A75CB8259616636E7D93BC6F27BB46EA445AEDDA7F8"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
+    "tags": [
+        "config",
+        "manned"
+    ],
     "x_generated_by": "netkan"
 }

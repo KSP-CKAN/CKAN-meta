@@ -6,7 +6,7 @@
     "author": "Acea",
     "license": "CC-BY-SA-4.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/118521-nas-naval-artillery-system/",
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/118521-*",
         "spacedock": "https://spacedock.info/mod/83/NAS%20-%20Naval%20Artillery%20System",
         "repository": "https://git.ustclug.org/shenzhou05/ASW/tree/master",
         "x_screenshot": "https://spacedock.info/content/Acea_282/NAS_-_Naval_Artillery_System/NAS_-_Naval_Artillery_System-1524923799.0690284.png"
@@ -23,7 +23,21 @@
     ],
     "depends": [
         {
+            "name": "ModuleManager"
+        },
+        {
             "name": "BDArmoryContinued"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "HangarExtender"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        },
+        {
+            "name": "LargeBoatPartsPack"
         }
     ],
     "download": "https://spacedock.info/mod/83/NAS%20-%20Naval%20Artillery%20System/download/0.7.0",
@@ -33,5 +47,8 @@
         "sha256": "94BD6789B82A8E28E09107D4177B28BAD8E2FBA3D346BCBD86B2A6483EECF1A5"
     },
     "download_content_type": "application/zip",
+    "tags": [
+        "parts"
+    ],
     "x_generated_by": "netkan"
 }

@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.16",
+    "comment": "Providing but not conflicting is deliberate, as both UIs can be installed at the same time.",
+    "identifier": "VesselView-UI-RasterPropMonitor",
+    "name": "VesselView-UI-RasterPropMonitor",
+    "abstract": "View your vessel in the IVA ",
+    "author": "linuxgurugamer",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/146692-113-vessel-viewer-continued/",
+        "spacedock": "https://spacedock.info/mod/923/Vessel%20Viewer%20Continued",
+        "repository": "https://github.com/linuxgurugamer/VesselViewer/",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Vessel_Viewer_Continued/Vessel_Viewer_Continued-1472389126.1938586.png"
+    },
+    "version": "1:0.8.8.2",
+    "ksp_version": "1.8.1",
+    "provides": [
+        "VesselView-UI"
+    ],
+    "depends": [
+        {
+            "name": "VesselView"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RasterPropMonitor"
+        }
+    ],
+    "install": [
+        {
+            "find": "VesselViewRPM.dll",
+            "find_matches_files": true,
+            "install_to": "GameData/VesselView/Plugins"
+        }
+    ],
+    "download": "https://spacedock.info/mod/923/Vessel%20Viewer%20Continued/download/0.8.8.2",
+    "download_size": 863872,
+    "download_hash": {
+        "sha1": "4919B2E1802B30370A8C9F44A18659A2F611FCFE",
+        "sha256": "1929052339F9199B7184F7BBE14908D6287FDE13A2BC0DF25F1EC6D9C771C7EC"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

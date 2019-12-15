@@ -1,0 +1,78 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "ROEngines",
+    "name": "ROEngines",
+    "abstract": "ROEngines is a mod that takes the best versions of engine models available and uses them as the in-game models for Realism Overhaul parts.",
+    "author": "pap1723",
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/ROEngines",
+        "metanetkan": "https://raw.githubusercontent.com/KSP-RO/ROEngines/master/ROEngines.netkan"
+    },
+    "version": "v1.4.0.0",
+    "ksp_version_min": "1.6.1",
+    "ksp_version_max": "1.7.3",
+    "depends": [
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "RealFuels"
+        },
+        {
+            "name": "PatchManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "TexturesUnlimited"
+        },
+        {
+            "name": "ROCapsules"
+        },
+        {
+            "name": "ROTanks"
+        },
+        {
+            "name": "ProceduralFairings"
+        },
+        {
+            "name": "ProceduralParts"
+        },
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "KSCSwitcher"
+        },
+        {
+            "name": "RP-0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TweakableEverything"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ROEngines",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/ROEngines/releases/download/v1.4.0.0/ROEngines-v1.4.0.0.zip",
+    "download_size": 64864514,
+    "download_hash": {
+        "sha1": "3B6FBB2978B71DAB7D6B5B9772A357A8885282AC",
+        "sha256": "E65A0C81ECC96F003A3224D5E7AAF43AFA2A0E3D78957B6EFEAF3238410588D3"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

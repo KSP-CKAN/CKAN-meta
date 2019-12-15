@@ -1,0 +1,36 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SSRSS-Rescale",
+    "name": "Stock Size Real Solar System - Rescale",
+    "abstract": "Rescales the system to stock size.",
+    "author": "Sigma88",
+    "license": "restricted",
+    "resources": {
+        "repository": "https://github.com/Sigma88/Sigma-Dimensions"
+    },
+    "version": "2:v0.10.6",
+    "depends": [
+        {
+            "name": "SSRSS-Cont"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SigmaDimensions"
+        }
+    ],
+    "install": [
+        {
+            "find": "Dimensions",
+            "install_to": "GameData/Sigma"
+        }
+    ],
+    "download": "https://github.com/Sigma88/Sigma-Dimensions/releases/download/v0.10.6/Sigma-Dimensions.v0.10.6.zip",
+    "download_size": 606429,
+    "download_hash": {
+        "sha1": "14E153CB53FF9B0FF6661072204A2B2B227D0DD0",
+        "sha256": "06BED40A041EFF4BB2D8CB3BBE1156AA00A2F07BBC57CE125757C6A6F5BFF9AA"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}

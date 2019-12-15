@@ -1,0 +1,74 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "GroundConstruction",
+    "name": "Global Construction",
+    "abstract": "Build vessels directly on other planets and in orbit using light-weight kits of high-tech components, with energy and raw materials produced on-site from Ore.",
+    "author": [
+        "allista"
+    ],
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/154167-122-ground-construction",
+        "spacedock": "https://spacedock.info/mod/1123/Ground%20Construction",
+        "repository": "https://github.com/allista/GroundConstruction",
+        "bugtracker": "https://github.com/allista/GroundConstruction/issues",
+        "metanetkan": "https://raw.githubusercontent.com/allista/GroundConstruction/master/GroundConstruction.netkan",
+        "x_screenshot": "https://spacedock.info/content/allista_931/Ground_Construction/Ground_Construction-1536838498.3931928.png"
+    },
+    "version": "2.5.1",
+    "ksp_version": "1.8.1",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "GroundConstruction-Core"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ConfigurableContainers"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ThrottleControlledAvionics"
+        },
+        {
+            "name": "Hangar"
+        },
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "KSP-AVC"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/GroundConstruction/Patches",
+            "install_to": "GameData/GroundConstruction"
+        },
+        {
+            "file": "GameData/GroundConstruction/Parts",
+            "install_to": "GameData/GroundConstruction",
+            "filter": [
+                "DIYKit"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/1123/Ground%20Construction/download/2.5.1",
+    "download_size": 15630194,
+    "download_hash": {
+        "sha1": "8CC311D797588CA86C77B6B72B2E85F8DBB8C0BD",
+        "sha256": "A2DE5FCEA83F35138CA483C9A878DD063FCA8578D32BCD7F7D5BAE0EC8417256"
+    },
+    "download_content_type": "application/zip",
+    "tags": [
+        "parts"
+    ],
+    "x_generated_by": "netkan"
+}

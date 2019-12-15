@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ReStock",
+    "name": "ReStock",
+    "abstract": "A community-built replacement for KSP's part models and textures. No effects on gameplay",
+    "author": "ReStock Team",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182679-161-restock-revamping-ksps-art/",
+        "repository": "https://github.com/PorktoberRevolution/ReStocked",
+        "metanetkan": "https://github.com/PorktoberRevolution/ReStocked/raw/master/CKAN/ReStock.netkan"
+    },
+    "version": "1.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.99",
+    "localizations": [
+        "zh-cn",
+        "de-de",
+        "en-us",
+        "es-es",
+        "fr-fr",
+        "pt-br"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ReStockPlus"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "VenStockRevamp"
+        }
+    ],
+    "install": [
+        {
+            "find": "ReStock",
+            "install_to": "GameData",
+            "comment": "Restock installation"
+        }
+    ],
+    "download": "https://github.com/PorktoberRevolution/ReStocked/releases/download/1.0.1/ReStock_1_0_1.zip",
+    "download_size": 160738733,
+    "download_hash": {
+        "sha1": "CDCBD0CCA8B6DBE627231F6E3C47F53D54C025C9",
+        "sha256": "2D091CECD932C08A8DD9A2392F32F7F60E051E69613A2D52335AFEE3255FB2A9"
+    },
+    "download_content_type": "application/zip",
+    "tags": [
+        "parts",
+        "graphics"
+    ],
+    "x_generated_by": "netkan"
+}

@@ -20,35 +20,35 @@
             "name": "ModuleManager"
         },
         {
-            "name": "ASETProps",
-            "min_version": "1.4"
-        },
-        {
             "name": "RasterPropMonitor-Core",
             "min_version": "0.28.0"
+        },
+        {
+            "name": "ASETProps",
+            "min_version": "1.4"
         }
     ],
     "recommends": [
         {
-            "name": "SCANsat"
-        },
-        {
             "name": "MechJeb2"
         },
         {
-            "name": "RealChute"
+            "name": "SCANsat"
         },
         {
             "name": "VesselView"
         },
         {
             "name": "DockingPortAlignmentIndicator"
+        },
+        {
+            "name": "Astrogator"
         }
     ],
     "install": [
         {
-            "install_to": "GameData",
-            "find": "ASET"
+            "find": "ASET",
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/1205/ALCOR%20Advanced%20IVA/download/0.9.7",
@@ -58,6 +58,9 @@
         "sha256": "30B5D6DFCC479874D630CCA1D1E52D5882A023BD200BE350834A1FF256E8CB07"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
+    "tags": [
+        "config",
+        "manned"
+    ],
     "x_generated_by": "netkan"
 }

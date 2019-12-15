@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ReStockPlus",
+    "name": "ReStock+",
+    "abstract": "A carefully curated set of new parts that fill gaping holes in the stock lineup, adding for example missing size classes for important part types",
+    "author": "ReStock Team",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182679-161-restock-revamping-ksps-art/",
+        "repository": "https://github.com/PorktoberRevolution/ReStocked",
+        "metanetkan": "https://github.com/PorktoberRevolution/ReStocked/raw/master/CKAN/ReStockPlus.netkan"
+    },
+    "version": "1.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.99",
+    "localizations": [
+        "zh-cn",
+        "de-de",
+        "en-us",
+        "pt-br"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ReStock"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "VenStockRevamp"
+        }
+    ],
+    "install": [
+        {
+            "find": "ReStockPlus",
+            "install_to": "GameData",
+            "comment": "Restock+ installation"
+        }
+    ],
+    "download": "https://github.com/PorktoberRevolution/ReStocked/releases/download/1.0.1/ReStockPlus_1_0_1.zip",
+    "download_size": 18306154,
+    "download_hash": {
+        "sha1": "216B831E88EB28D77455CA5274D8099B2B91972C",
+        "sha256": "7BB9A771E9E5C3F0D4D19EAF322155549C511DA629CCA6FA1FD36E7015201042"
+    },
+    "download_content_type": "application/zip",
+    "tags": [
+        "parts"
+    ],
+    "x_generated_by": "netkan"
+}

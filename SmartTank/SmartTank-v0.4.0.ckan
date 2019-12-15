@@ -1,0 +1,64 @@
+{
+    "spec_version": 1,
+    "comment": "Indexed by author. Please report any problems at the repository bugtracker.",
+    "identifier": "SmartTank",
+    "name": "Smart Tank",
+    "abstract": "Automatically scale tanks from Procedural Parts to fit a specified TWR",
+    "description": "Uses the stock vessel simulator to determine the TWR of each stage, then adjusts the sizes of tanks from Procedural Parts to fit a user-specified TWR. Also sets top and bottom diameters to match attached parts, matches the fuel tank type to the attached engine, and allows the user to change the default texture. All such features can be toggled at the part level with tweakables or at the system level via a button in the stock toolbar.",
+    "author": "HebaruSan",
+    "license": "GPL-3.0",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/162743-*",
+        "repository": "https://github.com/HebaruSan/SmartTank",
+        "bugtracker": "https://github.com/HebaruSan/SmartTank/issues"
+    },
+    "version": "v0.4.0",
+    "ksp_version": "1.8",
+    "localizations": [
+        "es-es",
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ProceduralParts"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "LoadingTipsPlus"
+        },
+        {
+            "name": "ProceduralParts-Textures-BattleTechAerospace"
+        },
+        {
+            "name": "ProceduralParts-Textures-SCCKSCS"
+        },
+        {
+            "name": "ProceduralParts-Textures-SaturnNova"
+        },
+        {
+            "name": "VensStylePPTextures"
+        },
+        {
+            "name": "MainSailorTextures-Complete"
+        }
+    ],
+    "download": "https://github.com/HebaruSan/SmartTank/releases/download/v0.4.0/SmartTank.zip",
+    "download_size": 40384,
+    "download_hash": {
+        "sha1": "196810E985801A00B58DF022B7A7145EA6A61011",
+        "sha256": "3B2A24DB2DD47E8EAEE4F3D8C0D04FD72788B4C25BC670A37D913779D0217D4C"
+    },
+    "download_content_type": "application/zip",
+    "kind": "package",
+    "tags": [
+        "plugin",
+        "editor",
+        "convenience"
+    ],
+    "x_generated_by": "netkan"
+}
