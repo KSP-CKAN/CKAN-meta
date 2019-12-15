@@ -6,6 +6,8 @@
     "abstract": "A space-navigational aide for Kerbal Space Program",
     "description": "Displays a table of all of the bodies reachable from the current location, along with the time till burn and delta V needed to reach them. These values can be used to time warp or generate maneuver nodes. Supports prograde and retrograde orbits, nested ejection trajectories, transfers to satellites of the current parent body, and transfers to other vessels.",
     "author": "HebaruSan",
+    "version": "v0.10.0",
+    "ksp_version": "1.8",
     "license": "GPL-3.0",
     "release_status": "development",
     "resources": {
@@ -13,8 +15,11 @@
         "repository": "https://github.com/HebaruSan/Astrogator",
         "bugtracker": "https://github.com/HebaruSan/Astrogator/issues"
     },
-    "version": "v0.10.0",
-    "ksp_version": "1.8",
+    "tags": [
+        "plugin",
+        "information",
+        "control"
+    ],
     "localizations": [
         "es-es",
         "fr-fr",
@@ -66,10 +71,5 @@
     },
     "download_content_type": "application/zip",
     "kind": "package",
-    "tags": [
-        "plugin",
-        "information",
-        "control"
-    ],
     "x_generated_by": "netkan"
 }
