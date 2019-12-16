@@ -6,6 +6,8 @@
     "abstract": "Automatically scale tanks from Procedural Parts to fit a specified TWR",
     "description": "Uses the stock vessel simulator to determine the TWR of each stage, then adjusts the sizes of tanks from Procedural Parts to fit a user-specified TWR. Also sets top and bottom diameters to match attached parts, matches the fuel tank type to the attached engine, and allows the user to change the default texture. All such features can be toggled at the part level with tweakables or at the system level via a button in the stock toolbar.",
     "author": "HebaruSan",
+    "version": "v0.4.0",
+    "ksp_version": "1.8",
     "license": "GPL-3.0",
     "release_status": "development",
     "resources": {
@@ -13,8 +15,11 @@
         "repository": "https://github.com/HebaruSan/SmartTank",
         "bugtracker": "https://github.com/HebaruSan/SmartTank/issues"
     },
-    "version": "v0.4.0",
-    "ksp_version": "1.8",
+    "tags": [
+        "plugin",
+        "editor",
+        "convenience"
+    ],
     "localizations": [
         "es-es",
         "en-us"
@@ -55,10 +60,5 @@
     },
     "download_content_type": "application/zip",
     "kind": "package",
-    "tags": [
-        "plugin",
-        "editor",
-        "convenience"
-    ],
     "x_generated_by": "netkan"
 }
