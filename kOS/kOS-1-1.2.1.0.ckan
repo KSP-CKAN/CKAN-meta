@@ -4,6 +4,9 @@
     "name": "kOS: Scriptable Autopilot System",
     "abstract": "kOS is a scriptable autopilot Mod for Kerbal Space Program. It allows you write small programs that automate specific tasks.",
     "author": "many KSP-KOS contributers, currently dunbaratu and hvacengi",
+    "version": "1:1.2.1.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.99",
     "license": "GPL-3.0",
     "release_status": "stable",
     "resources": {
@@ -12,9 +15,10 @@
         "manual": "http://ksp-kos.github.io/KOS_DOC/",
         "metanetkan": "https://raw.githubusercontent.com/KSP-KOS/KOS/master/kOS.netkan"
     },
-    "version": "1:1.2.1.0",
-    "ksp_version_min": "1.8.0",
-    "ksp_version_max": "1.8.99",
+    "tags": [
+        "plugin",
+        "control"
+    ],
     "recommends": [
         {
             "name": "ModuleManager",
@@ -47,9 +51,5 @@
         "sha256": "3D04DA4C288375DF8444B56F96A6D47EFE58B4E5B98DE53CD98C0E5B99C21CA1"
     },
     "download_content_type": "application/zip",
-    "tags": [
-        "plugin",
-        "control"
-    ],
     "x_generated_by": "netkan"
 }
