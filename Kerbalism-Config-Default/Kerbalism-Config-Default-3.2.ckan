@@ -1,0 +1,68 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Kerbalism-Config-Default",
+    "name": "Kerbalism - Default Config",
+    "abstract": "Default configuration for Kerbalism",
+    "author": [
+        "Kerbalism Contributors"
+    ],
+    "version": "3.2",
+    "ksp_version_min": "1.5.0",
+    "ksp_version_max": "1.8.9",
+    "license": "Unlicense",
+    "resources": {
+        "repository": "https://github.com/Kerbalism/Kerbalism"
+    },
+    "localizations": [
+        "en-us",
+        "es-es",
+        "ru",
+        "de-de",
+        "pt-br"
+    ],
+    "provides": [
+        "Kerbalism-Config"
+    ],
+    "depends": [
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-Config"
+        },
+        {
+            "name": "UKS"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "USI-LS"
+        },
+        {
+            "name": "BackgroundResources"
+        },
+        {
+            "name": "BackgroundProcessing"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismConfig",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Kerbalism/Kerbalism/releases/download/3.2/Kerbalism-Config_v3.2_for_KSP1.5.0-1.8.9.zip",
+    "download_size": 8257398,
+    "download_hash": {
+        "sha1": "3083EA4F07E29B469D07F0776FBC49014A6BD526",
+        "sha256": "82CEE36281A29117E7DC84C51C81877F040F210168A4963534072AF931956C73"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
