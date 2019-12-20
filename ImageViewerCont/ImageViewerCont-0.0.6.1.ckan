@@ -14,10 +14,21 @@
         "repository": "https://github.com/linuxgurugamer/ksp-img_viewer",
         "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Image_Viewer_Continued/Image_Viewer_Continued-1486669877.0698829.png"
     },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ToolbarController"
+        }
+    ],
     "install": [
         {
-            "install_to": "GameData",
-            "find": "ImageViewer"
+            "find": "ImageViewer",
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/1037/Image%20Viewer%20Continued/download/0.0.6.1",
@@ -27,6 +38,5 @@
         "sha256": "2D8AD046EA9C197C18BD690E44EE6F3CBBDEC3DA994093E1EED0C19930000873"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
     "x_generated_by": "netkan"
 }
