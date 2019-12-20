@@ -14,13 +14,17 @@
         "repository": "https://github.com/linuxgurugamer/BOMPs",
         "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/BOMPs/BOMPs-1493902399.1295142.png"
     },
+    "tags": [
+        "parts",
+        "unmanned"
+    ],
     "install": [
         {
             "filter_regexp": [
                 ".*~$"
             ],
-            "install_to": "GameData",
-            "find": "BOMPs"
+            "find": "BOMPs",
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/1354/BOMPs/download/1.0.2",
@@ -30,6 +34,5 @@
         "sha256": "362E714B95809BE37637C5221418A410BDF6AC41160ACB84B9E2E9B9F6FAD51A"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
     "x_generated_by": "netkan"
 }
