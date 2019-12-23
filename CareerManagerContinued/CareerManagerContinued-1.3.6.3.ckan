@@ -13,6 +13,10 @@
         "spacedock": "https://spacedock.info/mod/1221/CareerManagerContinued",
         "repository": "https://github.com/linuxgurugamer/CareerManagerContinued"
     },
+    "tags": [
+        "plugin",
+        "career"
+    ],
     "depends": [
         {
             "name": "ToolbarController"
@@ -28,8 +32,8 @@
     ],
     "install": [
         {
-            "install_to": "GameData",
-            "find": "CareerManager"
+            "find": "CareerManager",
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/1221/CareerManagerContinued/download/1.3.6.3",
@@ -39,6 +43,5 @@
         "sha256": "FA01501F51CAB17CC15D7BB9E0B17BD8A28951AEA59DF91ABCC9AAA506EAE370"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
     "x_generated_by": "netkan"
 }

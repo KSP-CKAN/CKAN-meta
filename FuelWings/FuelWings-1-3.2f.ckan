@@ -12,6 +12,9 @@
         "spacedock": "https://spacedock.info/mod/1290/FuelWings",
         "x_screenshot": "https://spacedock.info/content/BeautiCode_11821/FuelWings/FuelWings-1490978780.7555523.png"
     },
+    "tags": [
+        "config"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
@@ -28,7 +31,10 @@
     "install": [
         {
             "find": "GameData/FuelWings",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": [
+                "ModularFuelTanks"
+            ]
         }
     ],
     "download": "https://spacedock.info/mod/1290/FuelWings/download/3.2f",
@@ -38,6 +44,5 @@
         "sha256": "45E56FD81753F983A5492244B938A2CE3E3B8FAD4A5D38B5C1E68FE978069C3E"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated SpaceDock CKAN submission",
     "x_generated_by": "netkan"
 }

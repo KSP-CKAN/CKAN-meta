@@ -14,17 +14,22 @@
         "repository": "https://github.com/linuxgurugamer/KSP-ProbeControlRoom",
         "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Probe_Control_Room_Recontrolled/Probe_Control_Room_Recontrolled-1508688524.1949446.png"
     },
+    "tags": [
+        "plugin",
+        "uncrewed"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
         },
         {
             "name": "RasterPropMonitor-Core"
-        }
-    ],
-    "recommends": [
+        },
         {
-            "name": "Toolbar"
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
         }
     ],
     "suggests": [
@@ -54,8 +59,8 @@
     ],
     "install": [
         {
-            "install_to": "GameData",
-            "find": "ProbeControlRoom"
+            "find": "ProbeControlRoom",
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/1558/Probe%20Control%20Room%20Recontrolled/download/1.2.3",
@@ -65,6 +70,5 @@
         "sha256": "40BD9B33098DA90C7071C50A622FB3C3C4C0F8A917DEB72C8BA8A9BA1E3BC79E"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
     "x_generated_by": "netkan"
 }

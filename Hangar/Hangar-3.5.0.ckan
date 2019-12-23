@@ -1,0 +1,70 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "Hangar",
+    "name": "Hangar",
+    "abstract": "Hangars are parts that can store whole ships inside. Stored ships are not docked but unloaded, which reduces part count considerably, improving framerate and memory footprint while allowing to carry out missions of great complexity.",
+    "author": [
+        "allista"
+    ],
+    "version": "3.5.0",
+    "ksp_version": "1.8.1",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/80225-12-hangar",
+        "spacedock": "https://spacedock.info/mod/1000/Hangar",
+        "repository": "https://github.com/allista/hangar",
+        "bugtracker": "https://github.com/allista/hangar/issues",
+        "manual": "https://github.com/allista/hangar/wiki",
+        "metanetkan": "https://raw.githubusercontent.com/allista/hangar/master/Hangar.netkan",
+        "x_screenshot": "https://spacedock.info/content/allista_931/Hangar/Hangar-1476552531.0361087.png"
+    },
+    "tags": [
+        "plugin",
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "AT-Utils"
+        },
+        {
+            "name": "ConfigurableContainers-Core"
+        },
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "EditorExtensions"
+        },
+        {
+            "name": "ThrottleControlledAvionics"
+        },
+        {
+            "name": "ConfigurableContainers"
+        },
+        {
+            "name": "GroundConstruction"
+        },
+        {
+            "name": "KSP-AVC"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Hangar",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1000/Hangar/download/3.5.0",
+    "download_size": 31731868,
+    "download_hash": {
+        "sha1": "EB3082F98B496AEE6B7CE105FE2A14E95CE6ABC4",
+        "sha256": "F1978ED64E042564E199AD50ACB3BCA9891706643D2FEADCFAEDC679D7E6EF2B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
