@@ -10,6 +10,10 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/158971-*",
         "repository": "https://github.com/LouisB3/KSP-ExtendedAntennaProgression"
     },
+    "tags": [
+        "parts",
+        "comms"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
@@ -17,8 +21,8 @@
     ],
     "install": [
         {
-            "install_to": "GameData",
-            "find": "ExtendedAntennaProgression"
+            "find": "ExtendedAntennaProgression",
+            "install_to": "GameData"
         }
     ],
     "download": "https://api.github.com/repos/LouisB3/KSP-ExtendedAntennaProgression/zipball/v0.1.2",
@@ -28,6 +32,5 @@
         "sha256": "3A3D2C368E8350EA06E11F64DABEEC1D100DBED2DFDE1FC487CD7346160885B1"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
     "x_generated_by": "netkan"
 }
