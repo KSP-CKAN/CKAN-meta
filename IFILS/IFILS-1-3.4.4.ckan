@@ -12,6 +12,11 @@
         "spacedock": "https://spacedock.info/mod/1610/Intersteller%20Flight%20Inc.%20Life%20Support%20(IFI-LS)",
         "repository": "https://github.com/linuxgurugamer/IFI-Life-Support"
     },
+    "tags": [
+        "plugin",
+        "crewed",
+        "parts"
+    ],
     "depends": [
         {
             "name": "CommunityResourcePack"
@@ -28,8 +33,8 @@
             "filter_regexp": [
                 ".*~$"
             ],
-            "install_to": "GameData",
-            "find": "IFILS"
+            "find": "IFILS",
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/1610/Intersteller%20Flight%20Inc.%20Life%20Support%20%28IFI-LS%29/download/3.4.4",
@@ -39,6 +44,5 @@
         "sha256": "510E54F906BA6DECB55A14CDC43713B0167895CC642C226C0A466AA9762FA3B0"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
     "x_generated_by": "netkan"
 }

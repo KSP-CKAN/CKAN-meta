@@ -13,6 +13,10 @@
         "spacedock": "https://spacedock.info/mod/1473/Tac%20Sticky%20Controls",
         "repository": "https://github.com/linuxgurugamer/TacStickyControls"
     },
+    "tags": [
+        "plugin",
+        "control"
+    ],
     "depends": [
         {
             "name": "ToolbarController"
@@ -23,8 +27,8 @@
     ],
     "install": [
         {
-            "install_to": "GameData",
-            "find": "TacStickyControls"
+            "find": "TacStickyControls",
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/1473/Tac%20Sticky%20Controls/download/0.4.4",
@@ -34,6 +38,5 @@
         "sha256": "5D3DAA3F03327FBE8236C7427361F5EAB05AFF4D19CF5E3FB5FC7699C2020FCD"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
     "x_generated_by": "netkan"
 }
