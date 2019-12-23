@@ -11,6 +11,10 @@
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/156262-020-the-more-habitable-planets-mod-122/",
         "spacedock": "https://spacedock.info/mod/1215/More%20Habitable%20Planets%20Mod!"
     },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
@@ -21,8 +25,8 @@
     ],
     "install": [
         {
-            "install_to": "GameData",
-            "find": "MoreHabitalableAreasMod"
+            "find": "GameData/MoreHabitalableAreasMod",
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/1215/More%20Habitable%20Planets%20Mod%21/download/0.3.0",
@@ -32,6 +36,5 @@
         "sha256": "534CFF208622D90B905AAE051B055B5930A312B59F6F8C641A1D319FB9CE4C93"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
     "x_generated_by": "netkan"
 }

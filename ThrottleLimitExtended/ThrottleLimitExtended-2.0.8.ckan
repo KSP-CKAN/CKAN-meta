@@ -13,6 +13,10 @@
         "spacedock": "https://spacedock.info/mod/1640/Throttle%20Limit%20Extended",
         "repository": "https://github.com/linuxgurugamer/ThrottleLimitExtended"
     },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
@@ -20,8 +24,8 @@
     ],
     "install": [
         {
-            "install_to": "GameData",
-            "find": "ThrottleLimitExtended"
+            "find": "ThrottleLimitExtended",
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/1640/Throttle%20Limit%20Extended/download/2.0.8",
@@ -31,6 +35,5 @@
         "sha256": "9A34D69C99C953EB89087EE65E4CCC8893FE158E7A897CB5A3E978A52B0F469A"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
     "x_generated_by": "netkan"
 }

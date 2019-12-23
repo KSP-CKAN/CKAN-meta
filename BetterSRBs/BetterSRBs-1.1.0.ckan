@@ -8,12 +8,21 @@
     "ksp_version_min": "1.5.0",
     "license": "CC-BY-NC-ND",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175316-ksp-15x-bettersrbs-v104-17-oct-2018/",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175316-*",
         "repository": "https://github.com/OhioBob/BetterSRBs"
     },
+    "tags": [
+        "plugin",
+        "parts"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "SmartParts"
         }
     ],
     "install": [
@@ -29,6 +38,5 @@
         "sha256": "E50B59F109BFD9F10AC48BF2EBC01E72EDB005C07BCAC7841D52B4E36EF7820F"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
     "x_generated_by": "netkan"
 }
