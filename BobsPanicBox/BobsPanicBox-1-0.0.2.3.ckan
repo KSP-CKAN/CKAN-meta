@@ -9,11 +9,15 @@
     "ksp_version_max": "1.8.1",
     "license": "GPL-3.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/176073-14-bob",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/176073-*",
         "spacedock": "https://spacedock.info/mod/1894/Bob's%20Panic%20Box",
         "repository": "https://github.com/linuxgurugamer/BobsPanicBox",
         "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Bobs_Panic_Box/Bobs_Panic_Box-1529932018.4543815.png"
     },
+    "tags": [
+        "plugin",
+        "control"
+    ],
     "depends": [
         {
             "name": "ToolbarController"
@@ -32,8 +36,8 @@
     ],
     "install": [
         {
-            "install_to": "GameData",
-            "find": "BobsPanicBox"
+            "find": "BobsPanicBox",
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/1894/Bob%27s%20Panic%20Box/download/0.0.2.3",
@@ -43,6 +47,5 @@
         "sha256": "DAA49F97D7E0C8E017373BB9FA1835BAB88C41E45C59ADB12BC5EB2E4C741825"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
     "x_generated_by": "netkan"
 }

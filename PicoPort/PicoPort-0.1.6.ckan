@@ -16,6 +16,9 @@
         "repository": "https://github.com/linuxgurugamer/PicoPort",
         "x_screenshot": "https://spacedock.info/content/steedcrugeon_8650/PicoPort/PicoPort-1484439960.4712257.png"
     },
+    "tags": [
+        "parts"
+    ],
     "localizations": [
         "de-de",
         "en-us",
@@ -25,6 +28,11 @@
     "depends": [
         {
             "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "IndicatorLights"
         }
     ],
     "install": [
@@ -44,6 +52,5 @@
         "sha256": "645F7337A4B2074B42DFAAC692804EDFE182C678E32B03206F9BBA9210C5A7A3"
     },
     "download_content_type": "application/zip",
-    "x_via": "Automated Linuxgurugamer CKAN script",
     "x_generated_by": "netkan"
 }

@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RecycledPartsMk2Lightning",
+    "name": "Recycled Parts Mk2 Lightning",
+    "abstract": "Old mods recycled",
+    "author": "linuxgurugamer",
+    "version": "0.2.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.1",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164829-13-spacetux-industries-recycled-parts/",
+        "spacedock": "https://spacedock.info/mod/1507/Recycled%20Parts",
+        "repository": "https://github.com/linuxgurugamer/RecycledParts"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "JanitorsCloset"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RecycledPartsMk2Lightning"
+        }
+    ],
+    "install": [
+        {
+            "find": "BahaSP",
+            "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1507/Recycled%20Parts/download/0.2.0.1",
+    "download_size": 33500470,
+    "download_hash": {
+        "sha1": "11C8917159310FC04380C27004699D534D302A52",
+        "sha256": "FC3D8415B8AE87B9F02E2887324AF4E8A5E5F1E2AF476339D270025EE5546E4B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
