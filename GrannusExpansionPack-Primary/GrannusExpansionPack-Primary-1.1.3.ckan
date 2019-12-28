@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GrannusExpansionPack-Primary",
+    "name": "Grannus Expansion Pack Primary",
+    "abstract": "Grannus Expansion Pack as a primary star system, with Grannus as the central star and Nodens the home world",
+    "author": "OhioBob",
+    "version": "1.1.3",
+    "ksp_version_min": "1.7.1",
+    "license": "CC-BY-NC-ND",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169664-*",
+        "repository": "https://github.com/OhioBob/Grannus-Expansion-Pack"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "GrannusExpansionPack"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "PlanetShine"
+        },
+        {
+            "name": "Kerbalism"
+        },
+        {
+            "name": "Kronometer"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "GPPSecondary"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "GPP"
+        }
+    ],
+    "install": [
+        {
+            "find": "GEP_Primary/GameData/GEP_Primary",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/OhioBob/Grannus-Expansion-Pack/releases/download/1.1.3/GrannusExpansionPack_1.1.3.zip",
+    "download_size": 338457004,
+    "download_hash": {
+        "sha1": "E40F588C576542846E9FAE359E8D67C985B0CCD1",
+        "sha256": "0AA616186294E9D7FA87436222105706522109FF8A471BED97EA072EBA904567"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
