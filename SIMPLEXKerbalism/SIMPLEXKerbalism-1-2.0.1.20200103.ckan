@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "SIMPLEXKerbalism",
+    "name": "SIMPLEX Kerbalism",
+    "abstract": "Kerbalism Simplex provides simplified Life Support resource system with a more stock feel",
+    "author": "theJesuit",
+    "version": "1:2.0.1.20200103",
+    "ksp_version": "1.8.1",
+    "license": "Unlicense",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/181681-161-simplex-living-12/",
+        "spacedock": "https://spacedock.info/mod/2300/SIMPLEX%20Kerbalism"
+    },
+    "tags": [
+        "config",
+        "parts",
+        "crewed",
+        "resources"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "pt-br",
+        "ru"
+    ],
+    "provides": [
+        "Kerbalism-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-Config"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismSimplex",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2300/SIMPLEX%20Kerbalism/download/2.0.1.20200103",
+    "download_size": 3492646,
+    "download_hash": {
+        "sha1": "D3FF6294AEF15F19EB81A35E974F8887D5688E87",
+        "sha256": "C38247846FBB7927F04F22B40AC4476EAB6B85F2A2341C1283AB6DB2925DAF88"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
