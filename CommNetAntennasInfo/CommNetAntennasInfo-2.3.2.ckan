@@ -27,6 +27,9 @@
     "recommends": [
         {
             "name": "CommNetAntennasExtension"
+        },
+        {
+            "name": "CommNetAntennasConsumptor"
         }
     ],
     "suggests": [
@@ -43,6 +46,12 @@
     "conflicts": [
         {
             "name": "RemoteTech"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/CommNetAntennasInfo",
+            "install_to": "GameData"
         }
     ],
     "download": "https://github.com/yalov/CommNetAntennasInfo/releases/download/2.3.2/CommNetAntennasInfo-v2.3.2.zip",
