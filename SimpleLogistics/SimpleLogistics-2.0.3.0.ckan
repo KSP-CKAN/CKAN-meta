@@ -3,7 +3,10 @@
     "identifier": "SimpleLogistics",
     "name": "SimpleLogistics",
     "abstract": "A simple mod for sharing resources between vessels within physics range.",
-    "author": "RealGecko,zer0Kerbal",
+    "author": [
+        "RealGecko",
+        "zer0Kerbal"
+    ],
     "version": "2.0.3.0",
     "ksp_version": "1.8.1",
     "license": "GPL-3.0",
@@ -23,6 +26,12 @@
     "depends": [
         {
             "name": "ModuleManager"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
         }
     ],
     "recommends": [
