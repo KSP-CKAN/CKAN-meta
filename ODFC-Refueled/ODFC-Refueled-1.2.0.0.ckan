@@ -17,6 +17,9 @@
         "plugin",
         "convenience"
     ],
+    "provides": [
+        "ODFC"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
@@ -58,7 +61,7 @@
     ],
     "conflicts": [
         {
-            "name": "OFDC"
+            "name": "ODFC"
         }
     ],
     "install": [
