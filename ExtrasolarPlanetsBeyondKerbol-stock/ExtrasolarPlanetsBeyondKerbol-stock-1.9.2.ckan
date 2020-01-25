@@ -1,0 +1,74 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ExtrasolarPlanetsBeyondKerbol-stock",
+    "name": "Extrasolar Planets Byond Kerbol - Stock configuration",
+    "abstract": "Adds a new star system in orbit around the Kerbol System",
+    "author": "AndyDrawsPrettyPictures",
+    "version": "1.9.2",
+    "ksp_version": "1.7.3",
+    "license": "BSD-3-clause",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188764-173-extrasolar-v191-102819/",
+        "spacedock": "https://spacedock.info/mod/202/Extrasolar:%20Planets%20Beyond%20Kerbol",
+        "x_screenshot": "https://spacedock.info/content/AndyDrawsPrettyPictures_749/Extrasolar_Planets_Beyond_Kerbol/Extrasolar_Planets_Beyond_Kerbol-1570618203.7334712.png"
+    },
+    "tags": [
+        "config",
+        "planet-pack",
+        "graphics"
+    ],
+    "provides": [
+        "CustomAsteroids-Pops"
+    ],
+    "depends": [
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KSPInterstellarExtended"
+        },
+        {
+            "name": "BetterTimeWarp"
+        },
+        {
+            "name": "USI-NuclearRockets"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "StockVisualEnhancements"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "FinalFrontier"
+        },
+        {
+            "name": "DistantObject"
+        }
+    ],
+    "install": [
+        {
+            "find": "Extrasolar",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Extrasolar_Textures",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/202/Extrasolar:%20Planets%20Beyond%20Kerbol/download/1.9.2",
+    "download_size": 491560530,
+    "download_hash": {
+        "sha1": "750E5755045FEC26E4AB7FFBBFBDFB6ACF35A3EF",
+        "sha256": "C8210B572BF6EFCC62CDB17536640A31DA8A80B2920EE55D8BEA00D390F058CD"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
