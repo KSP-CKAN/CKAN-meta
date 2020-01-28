@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NovaPunchRebalanced",
+    "name": "NovaPunch Rebalanced",
+    "abstract": "A continuation of the venerable NovaPunch launcher pack.  This is mostly Engines and Tanks, with a few Command Modules, and a small lander setup.",
+    "author": "linuxgurugamer",
+    "version": "0.1.7.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.1",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/178797-*",
+        "spacedock": "https://spacedock.info/mod/2003/NovaPunch%20Rebalanced",
+        "repository": "https://github.com/linuxgurugamer/NovaPunch/",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/NovaPunch_Rebalanced/NovaPunch_Rebalanced-1541957481.4639502.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "NovaPunchRebalanced-Freyja"
+        },
+        {
+            "name": "NovaPunchRebalanced-Odin"
+        },
+        {
+            "name": "NovaPunchRebalanced-Thor"
+        }
+    ],
+    "install": [
+        {
+            "find": "NovaPunch",
+            "install_to": "GameData",
+            "filter": [
+                "Freyja",
+                "Odin",
+                "Thor"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/2003/NovaPunch%20Rebalanced/download/0.1.7.1",
+    "download_size": 63208818,
+    "download_hash": {
+        "sha1": "01859AEBAE572923994781EA1E27F34214FA2CB5",
+        "sha256": "A659DEDCFDD953AD7D373687D62173BE8820B1F8A6D7BA143631988E08FBB15E"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
