@@ -1,0 +1,86 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GrannusExpansionPack",
+    "name": "Grannus Expansion Pack",
+    "abstract": "Grannus Expansion Pack",
+    "author": "OhioBob",
+    "version": "1.1.4",
+    "ksp_version_min": "1.8.1",
+    "license": "CC-BY-NC-ND",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169664-*",
+        "repository": "https://github.com/OhioBob/Grannus-Expansion-Pack"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "localizations": [
+        "en-us",
+        "es-es",
+        "es-mx",
+        "ja",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "ResearchBodies"
+        },
+        {
+            "name": "FinalFrontier"
+        },
+        {
+            "name": "KerbalHealth"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "GPP"
+        },
+        {
+            "name": "GrannusExpansionPack-Primary"
+        },
+        {
+            "name": "GrannusExpansionPack-JNSQ"
+        },
+        {
+            "name": "GrannusExpansionPack-CommNet"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/GEP",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/Nereid",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/OhioBob/Grannus-Expansion-Pack/releases/download/1.1.4/GrannusExpansionPack_1.1.4.zip",
+    "download_size": 338456612,
+    "download_hash": {
+        "sha1": "9245F46A8B517B1D3416B797C10013A324AEBD80",
+        "sha256": "0B4546777577016FCCD6A538F2E5ACDFF735D3965AF7AF7F21FE72DED3EF4133"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
