@@ -1,0 +1,67 @@
+{
+    "spec_version": "v1.12",
+    "identifier": "RealSolarSystem",
+    "name": "Real Solar System",
+    "abstract": "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
+    "author": [
+        "NathanKell",
+        "eggrobin",
+        "raidernick",
+        "PhineasFreak"
+    ],
+    "version": "v18.0",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.8.99",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/177216-*",
+        "repository": "https://github.com/KSP-RO/RealSolarSystem"
+    },
+    "tags": [
+        "planet-pack",
+        "config",
+        "plugin",
+        "resources"
+    ],
+    "provides": [
+        "CustomAsteroids-Pops"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus",
+            "min_version": "2:release-1.3.1-7"
+        },
+        {
+            "name": "RSSTextures"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "KSCSwitcher"
+        },
+        {
+            "name": "RSSDateTimeFormatter"
+        }
+    ],
+    "install": [
+        {
+            "find": "RealSolarSystem",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealSolarSystem/releases/download/v18.0/RealSolarSystem_v18.0.zip",
+    "download_size": 2088286,
+    "download_hash": {
+        "sha1": "90ACF1004F81BEDE6F0D42AC260DE96FF4F5C859",
+        "sha256": "B6DA81F34D10EC18B6CFB0BCA4C92290E44AB5A84B702A07E02D56D747C2A08B"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
