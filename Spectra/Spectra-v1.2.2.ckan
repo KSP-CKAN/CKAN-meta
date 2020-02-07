@@ -15,12 +15,17 @@
     "version": "v1.2.2",
     "ksp_version": "1.7.1",
     "provides": [
-        "PlanetShine-Config"
+        "PlanetShine-Config",
+        "EnvironmentalVisualEnhancements-Config",
+        "Scatterer-config",
+        "Scatterer-sunflare"
     ],
     "depends": [
         {
             "name": "ModuleManager"
-        },
+        }
+    ],
+    "recommends": [
         {
             "name": "EnvironmentalVisualEnhancements"
         },
@@ -32,9 +37,7 @@
         },
         {
             "name": "Kopernicus"
-        }
-    ],
-    "recommends": [
+        },
         {
             "name": "DistantObject"
         },
@@ -54,6 +57,18 @@
     "conflicts": [
         {
             "name": "PlanetShine-Config"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        },
+        {
+            "name": "Scatterer-config"
+        },
+        {
+            "name": "Scatterer-sunflare"
+        },
+        {
+            "name": "GreenSkullRevived"
         }
     ],
     "install": [
