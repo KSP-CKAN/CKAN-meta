@@ -1,0 +1,92 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "LessRealThanReal",
+    "name": "Less Real Than Real(ism)",
+    "abstract": "Real Progression One without RealismOverhaul",
+    "author": "pehvbot",
+    "version": "v1.01",
+    "ksp_version": "1.8.1",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189978-*",
+        "repository": "https://github.com/pehvbot/LRTR"
+    },
+    "tags": [
+        "plugin",
+        "config",
+        "parts",
+        "tech-tree",
+        "career",
+        "science"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "CustomBarnKit"
+        },
+        {
+            "name": "RSSDateTimeFormatter"
+        },
+        {
+            "name": "ContractConfigurator"
+        },
+        {
+            "name": "DMagicScienceAnimate"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ReStockPlus"
+        },
+        {
+            "name": "KSCSwitcher"
+        },
+        {
+            "name": "KerbalConstructionTime"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KerbalAlarmClock"
+        },
+        {
+            "name": "KRASH"
+        },
+        {
+            "name": "ScrapYard"
+        },
+        {
+            "name": "OhScrap"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RealismOverhaul"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/LRTR",
+            "install_to": "GameData",
+            "filter": [
+                ".DS_Store"
+            ]
+        }
+    ],
+    "download": "https://github.com/pehvbot/LRTR/releases/download/v1.01/LRTR-v1.01.zip",
+    "download_size": 20295598,
+    "download_hash": {
+        "sha1": "9F3C0B81C17E8EC4F3CA3BE76128FB57FAE05FEC",
+        "sha256": "3FC5D921881EB51D6EBACCCAC3E953C91EE84DD845D6FBC94FF41CAAA8E8404D"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
