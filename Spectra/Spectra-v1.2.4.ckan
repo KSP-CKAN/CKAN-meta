@@ -1,0 +1,102 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Spectra",
+    "name": "Spectra",
+    "abstract": "A well optimized and yet breathtakingly beautiful revamp of all celestial bodies in KSP",
+    "author": "Avera9eJoe",
+    "version": "v1.2.4",
+    "ksp_version": "1.8.1",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/159443-*",
+        "spacedock": "https://spacedock.info/mod/1505/Spectra",
+        "repository": "http://N/A",
+        "x_screenshot": "https://spacedock.info/content/Avera9eJoe_1835/Spectra/Spectra-1503830916.373167.png"
+    },
+    "tags": [
+        "config",
+        "planet-pack",
+        "graphics"
+    ],
+    "provides": [
+        "PlanetShine-Config",
+        "EnvironmentalVisualEnhancements-Config",
+        "Scatterer-config",
+        "Scatterer-sunflare"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "TextureReplacer"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "RealPlume-StockConfigs"
+        },
+        {
+            "name": "ReStock"
+        },
+        {
+            "name": "PlanetShine"
+        },
+        {
+            "name": "SpaceplaneCorrections"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "PlanetShine-Config"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        },
+        {
+            "name": "Scatterer-config"
+        },
+        {
+            "name": "Scatterer-sunflare"
+        },
+        {
+            "name": "GreenSkullRevived"
+        }
+    ],
+    "install": [
+        {
+            "file": "Step 2 - Spectra/GameData/TextureReplacer",
+            "install_to": "GameData",
+            "filter": "logoFullRed_alt.dds"
+        },
+        {
+            "file": "Step 2 - Spectra/GameData/Spectra",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Step 2 - Spectra/GameData/KSPRC",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1505/Spectra/download/1.2.4",
+    "download_size": 418426207,
+    "download_hash": {
+        "sha1": "1D65416F71C64041651CCA5C85F538450AFC6AAE",
+        "sha256": "D37F4946BE73B196E09B9037A40D30E5650C08FAE8D0925DF65330FC1C2325F7"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
