@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SOS",
+    "name": "SOS (Save Our Settings)",
+    "abstract": "Save staging, action group and axis group changes on the launch pad",
+    "author": "linuxgurugamer",
+    "version": "0.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.1",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191312-18x-sos",
+        "spacedock": "https://spacedock.info/mod/2325/SOS%20(Save%20Our%20Settings)",
+        "repository": "https://github.com/linuxgurugamer/SOS",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/SOS_Save_Our_Settings/SOS_Save_Our_Settings-1581379847.4057326.png"
+    },
+    "localizations": [
+        "en-us",
+        "es-es",
+        "fr-fr",
+        "it-it",
+        "ru-ru"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "SOS",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2325/SOS%20%28Save%20Our%20Settings%29/download/0.0.1",
+    "download_size": 64446,
+    "download_hash": {
+        "sha1": "B6FB81EA0952A55560AA954C0845A7D913BD210D",
+        "sha256": "F1818D7F0900C11E2735828CAA970B89556373D4B7CD42F501DB8DE7DAEF429C"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
