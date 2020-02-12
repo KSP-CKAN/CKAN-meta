@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "AIES-Patches",
+    "name": "AIES Patches for the AIES Aerospace mod",
+    "abstract": "Patches to bring the AIES mod up-to-date",
+    "author": "linuxgurugamer",
+    "version": "0.0.1.3",
+    "ksp_version_min": "1.8.0",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "repository": "https://github.com/linuxgurugamer/AIES_Patches"
+    },
+    "tags": [
+        "parts",
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "AIESAerospace-Unofficial"
+        },
+        {
+            "name": "AIES-Antenna-Patches"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "AIES_Patches",
+            "install_to": "GameData",
+            "filter": [
+                "DeimosRast",
+                "TK421d",
+                "MiniAVC.dll"
+            ]
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/AIES_Patches/releases/download/0.0.1.3/AIES_Patches-1.8.0-0.0.1.3.zip",
+    "download_size": 74373,
+    "download_hash": {
+        "sha1": "0CB6945966BB82B6F03C83FA0B0D5A9A1DF7D39F",
+        "sha256": "B7DBEF1BD2E98D3DE1EA30CB03C835A6E81BE68F6A20396F04806D5FCDC5F2AE"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
