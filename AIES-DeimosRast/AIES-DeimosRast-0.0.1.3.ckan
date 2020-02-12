@@ -1,0 +1,45 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "AIES-DeimosRast",
+    "name": "Antenna Patches from @DeimosRast for the AIES-Patches mod",
+    "abstract": "These are antenna patches from @DeimosRast needed to update the AIES Aerospace mod for KSP 1.8.x and beyond",
+    "author": "linuxgurugamer",
+    "version": "0.0.1.3",
+    "ksp_version_min": "1.8.0",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "repository": "https://github.com/linuxgurugamer/AIES_Patches"
+    },
+    "tags": [
+        "parts",
+        "config"
+    ],
+    "provides": [
+        "AIES-Antenna-Patches"
+    ],
+    "depends": [
+        {
+            "name": "AIES-Patches"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AIES-Antenna-Patches"
+        }
+    ],
+    "install": [
+        {
+            "find": "AIES_Patches/DeimosRast",
+            "install_to": "GameData/AIES_Patches"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/AIES_Patches/releases/download/0.0.1.3/AIES_Patches-1.8.0-0.0.1.3.zip",
+    "download_size": 74373,
+    "download_hash": {
+        "sha1": "0CB6945966BB82B6F03C83FA0B0D5A9A1DF7D39F",
+        "sha256": "B7DBEF1BD2E98D3DE1EA30CB03C835A6E81BE68F6A20396F04806D5FCDC5F2AE"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
