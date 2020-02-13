@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "InfernalRoboticsRealismOverhaul",
+    "name": "Infernal RO-Robotics",
+    "abstract": "Infernal Robotics fork for Realism Overhaul",
+    "author": [
+        "r4m0n",
+        "ziw",
+        "sirkut",
+        "Devo",
+        "ZodiusInfuser",
+        "whale_2"
+    ],
+    "version": "2.2.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.9.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://github.com/whale2/InfernalRobotics/tree/master",
+        "spacedock": "https://spacedock.info/mod/2329/Infernal%20RO-Robotics",
+        "repository": "https://github.com/whale2/InfernalRobotics/tree/master"
+    },
+    "tags": [
+        "parts",
+        "plugin"
+    ],
+    "provides": [
+        "InfernalRobotics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "InfernalRobotics"
+        }
+    ],
+    "install": [
+        {
+            "find": "MagicSmokeIndustries",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2329/Infernal%20RO-Robotics/download/2.2.0",
+    "download_size": 2937082,
+    "download_hash": {
+        "sha1": "D97DEF870CD9A8BAD999935CB2516A494C4E1DE3",
+        "sha256": "6595FEC2367EBA9FB0D1FF76866EBD93D19EFC818D9A2217B1C621E1D0B87066"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
