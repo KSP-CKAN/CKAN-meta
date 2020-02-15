@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DE-IVAExtension",
+    "name": "DE IVAExtension",
+    "abstract": "An IVA mod for KSP, to add more interactive IVAs",
+    "author": "DemonEin",
+    "version": "v1.0.2",
+    "ksp_version": "1.8",
+    "license": "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/186715-*",
+        "repository": "https://github.com/DemonEin/DE_IVAExtension"
+    },
+    "tags": [
+        "config",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        },
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "supports": [
+        {
+            "name": "ProbeControlRoom"
+        }
+    ],
+    "install": [
+        {
+            "find": "DE_IVAExtension",
+            "install_to": "GameData"
+        },
+        {
+            "find": "ProbeControlRoom",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/DemonEin/DE_IVAExtension/releases/download/v1.0.2/DE_IVAExtension_1.0.2.zip",
+    "download_size": 114275,
+    "download_hash": {
+        "sha1": "9B519423D09427701AC06822F813C23B3F954A95",
+        "sha256": "18F5BA4650F273F5EAC46C2EC83C928C7FFA24CFEC9DEFEFB3A58D9AC3C64045"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
