@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ChayrolDesignOrg",
+    "name": "Chrayol Design Org.",
+    "abstract": "Add ISRO rockets and spacecraft. Eventually the plan is to add SLV, GSLV MK1-3, RLV, along with a couple of probes (Ex. Chandrayaan, Mangalyaan etc).",
+    "author": "DylanSemrau",
+    "version": "v1.0",
+    "ksp_version": "1.8.1",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189111-*",
+        "spacedock": "https://spacedock.info/mod/2337/Chrayol%20Design%20Org.",
+        "repository": "https://github.com/DylanSemrau/Chrayol-Design-Org.",
+        "x_screenshot": "https://spacedock.info/content/DylanSemrau_24866/Chrayol_Design_Org/Chrayol_Design_Org-1581901666.0282884.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "JNSQ"
+        },
+        {
+            "name": "RealPlume-StockConfigs"
+        },
+        {
+            "name": "BluedogDB"
+        },
+        {
+            "name": "ModularLaunchPads"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/Chrayol_Design_Org",
+            "install_to": "GameData",
+            "filter": [
+                ".gitignore"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/2337/Chrayol%20Design%20Org./download/v1.0",
+    "download_size": 14433233,
+    "download_hash": {
+        "sha1": "AC1793CEB8FF99BC18023A1AB60FC249C19BCD3F",
+        "sha256": "F29BD3D14FA1854945B99FC97C73A33903BE7870382B39240BA44783FDF44CFB"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
