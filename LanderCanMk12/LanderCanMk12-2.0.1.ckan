@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "LanderCanMk12",
+    "name": "LanderCanMk12",
+    "abstract": "After observing subway commuters during rush hour our lead engineer figured out how to add 2 more seats to the interior.",
+    "author": "MacLuky",
+    "version": "2.0.1",
+    "ksp_version": "1.9.0",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/165240-13-landercan-mk12-v10/",
+        "spacedock": "https://spacedock.info/mod/1520/LanderCanMk12",
+        "x_screenshot": "https://spacedock.info/content/MacLuky_11628/LanderCanMk12/LanderCanMk12-1504708388.3238177.png"
+    },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "JSIPartUtilities"
+        },
+        {
+            "name": "Mk1CockpitIVAReplbyASET"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "filter": [
+                ".DS_Store",
+                "__MACOSX"
+            ],
+            "find": "MacLuky",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1520/LanderCanMk12/download/2.0.1",
+    "download_size": 4765895,
+    "download_hash": {
+        "sha1": "77A8405B94292BB216DE0876F4BAD204C9C2D1A9",
+        "sha256": "8C341057B4D8B463B002614BE66AE2F27C97CF00C1FCDDCEBF0F935F98057ABC"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
