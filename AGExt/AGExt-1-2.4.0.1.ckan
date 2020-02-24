@@ -9,19 +9,14 @@
     ],
     "version": "1:2.4.0.1",
     "ksp_version_min": "1.8.0",
-    "ksp_version_max": "1.8.1",
     "license": "GPL-3.0",
     "release_status": "stable",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/167269-*",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/167269-1",
         "spacedock": "https://spacedock.info/mod/1685/Action%20Groups%20Extended",
         "repository": "https://github.com/linuxgurugamer/AGExt",
         "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Action_Groups_Extended/Action_Groups_Extended-1517453673.540609.jpg"
     },
-    "tags": [
-        "plugin",
-        "convenience"
-    ],
     "localizations": [
         "de-de",
         "en-us",
@@ -35,15 +30,15 @@
             "name": "ModuleManager"
         },
         {
-            "name": "ToolbarController"
-        },
-        {
             "name": "ClickThroughBlocker"
         }
     ],
     "recommends": [
         {
-            "name": "Toolbar"
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ClickThroughBlocker"
         }
     ],
     "install": [
@@ -52,11 +47,11 @@
             "install_to": "GameData"
         }
     ],
-    "download": "https://spacedock.info/mod/1685/Action%20Groups%20Extended/download/2.4.0.1",
+    "download": "https://github.com/linuxgurugamer/AGExt/releases/download/2.4.0.1/AGExt-1.8.0-2.4.0.1.zip",
     "download_size": 134184,
     "download_hash": {
-        "sha1": "A24255C75B51AF55E974C9960DA21F25FEB25337",
-        "sha256": "A5C6D7DE0C06CEDC0C8A34B4DFC20BFE73D6E4AA4F2A6D6ECDD6E0D42F253344"
+        "sha1": "5B1DE2402EF4B1DE1E557DC9740A46F8DB9D26DF",
+        "sha256": "CBC9DFC6F936A671CA91FEB6014BE1199A2DBD51E87A0135E30C21B8A3241CF1"
     },
     "download_content_type": "application/zip",
     "x_generated_by": "netkan"
