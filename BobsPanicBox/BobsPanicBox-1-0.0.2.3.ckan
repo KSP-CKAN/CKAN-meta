@@ -6,7 +6,6 @@
     "author": "linuxgurugamer",
     "version": "1:0.0.2.3",
     "ksp_version_min": "1.8.0",
-    "ksp_version_max": "1.8.1",
     "license": "GPL-3.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/176073-*",
@@ -31,7 +30,13 @@
     ],
     "recommends": [
         {
-            "name": "PEBKACIndustriesLaunchEscapeSystem"
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ModuleManager"
         }
     ],
     "install": [
@@ -40,7 +45,7 @@
             "install_to": "GameData"
         }
     ],
-    "download": "https://spacedock.info/mod/1894/Bob%27s%20Panic%20Box/download/0.0.2.3",
+    "download": "https://github.com/linuxgurugamer/BobsPanicBox/releases/download/0.0.2.3/BobsPanicBox-1.8.0-0.0.2.3.zip",
     "download_size": 61421,
     "download_hash": {
         "sha1": "CC1A1A1B3A4BEE28BC3B85877223C08BC94740C3",
