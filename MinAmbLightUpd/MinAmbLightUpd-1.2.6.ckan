@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "MinAmbLightUpd",
+    "name": "Minimum Ambient Lighting Updated",
+    "abstract": "A small plugin that will set the minimum ambient light level in each scene",
+    "author": "linuxgurugamer",
+    "version": "1.2.6",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.9.1",
+    "license": "BSD-2-clause",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190080-*",
+        "spacedock": "https://spacedock.info/mod/2279/Minimum%20Ambient%20Lighting%20Updated",
+        "repository": "https://github.com/linuxgurugamer/MinimumAmbientLightingUpdated",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Minimum_Ambient_Lighting_Updated/Minimum_Ambient_Lighting_Updated-1575091496.7562273.png"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "MinimumAmbientLightingUpdated",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2279/Minimum%20Ambient%20Lighting%20Updated/download/1.2.6",
+    "download_size": 13498,
+    "download_hash": {
+        "sha1": "B18744918FFCAABDF3F7FF4FE363B3955707B948",
+        "sha256": "61C11403D1B12B08253258C9998211A49253F635613AAF74FBE41BFF227EBD29"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
