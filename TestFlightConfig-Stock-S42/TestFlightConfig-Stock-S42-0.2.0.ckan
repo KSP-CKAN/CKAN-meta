@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.4",
+    "comment": "ksp_version_max because each release adds TF-eligible parts",
+    "identifier": "TestFlightConfig-Stock-S42",
+    "name": "TestFlight Config for Stock (alternative config)",
+    "abstract": "This config pack adds TestFlight support for Stock parts.",
+    "author": "Starstrider42",
+    "version": "0.2.0",
+    "ksp_version_min": "1.4",
+    "ksp_version_max": "1.9",
+    "license": "MIT",
+    "release_status": "testing",
+    "resources": {
+        "repository": "https://github.com/Starstrider42/TestFlight-Configs",
+        "bugtracker": "https://github.com/Starstrider42/TestFlight-Configs/issues"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "TestFlightConfig"
+    ],
+    "depends": [
+        {
+            "name": "TestFlightConfigLibrary"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TestFlightConfigStock",
+            "comment": "Modifies same parts"
+        },
+        {
+            "name": "RealismOverhaul",
+            "comment": "Removes stock parts"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/TestFlight/Config",
+            "install_to": "GameData/TestFlight",
+            "filter_regexp": "(?<!Stock_.+\\.cfg)$"
+        }
+    ],
+    "download": "https://github.com/Starstrider42/TestFlight-Configs/releases/download/0.2.0/Stock%2B-TF-Configs-0.2.0.zip",
+    "download_size": 18167,
+    "download_hash": {
+        "sha1": "FC1892FAA414397BE6FF03358618D536B349D1E1",
+        "sha256": "D9F01FA77648D0639507F52C6B0B75FFFC9940EC4AD82454CBE65409E5EB8B13"
+    },
+    "download_content_type": "application/zip",
+    "x_maintained_by": "Starstrider42",
+    "x_generated_by": "netkan"
+}
