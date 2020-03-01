@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TestFlightConfig-NFPropulsion",
+    "name": "TestFlight Config for Near Future Propulsion",
+    "abstract": "This config pack adds TestFlight support for Near Future Propulsion parts. It does not affect stock parts; install a stock TestFlight config if desired.",
+    "author": "Starstrider42",
+    "version": "0.2.0",
+    "license": "MIT",
+    "release_status": "testing",
+    "resources": {
+        "repository": "https://github.com/Starstrider42/TestFlight-Configs",
+        "bugtracker": "https://github.com/Starstrider42/TestFlight-Configs/issues"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "TestFlightConfig"
+    ],
+    "depends": [
+        {
+            "name": "TestFlightConfigLibrary"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "NearFuturePropulsion",
+            "min_version": "1.0"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/TestFlight/Config",
+            "install_to": "GameData/TestFlight",
+            "filter_regexp": "(?<!NFP_.+\\.cfg)$"
+        }
+    ],
+    "download": "https://github.com/Starstrider42/TestFlight-Configs/releases/download/0.2.0/Stock%2B-TF-Configs-0.2.0.zip",
+    "download_size": 18167,
+    "download_hash": {
+        "sha1": "FC1892FAA414397BE6FF03358618D536B349D1E1",
+        "sha256": "D9F01FA77648D0639507F52C6B0B75FFFC9940EC4AD82454CBE65409E5EB8B13"
+    },
+    "download_content_type": "application/zip",
+    "x_maintained_by": "Starstrider42",
+    "x_generated_by": "netkan"
+}
