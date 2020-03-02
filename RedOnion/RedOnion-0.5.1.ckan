@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RedOnion",
+    "name": "Red Onion",
+    "abstract": "Unrestricted In-game scripting mod for KSP with Repl/Editor/Intellisense. Two scripting languages implemented: Lua and a custom JS/Ruby-like language.",
+    "author": [
+        "evan_dickinson",
+        "firdacz"
+    ],
+    "version": "0.5.1",
+    "ksp_version": "1.9.1",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189983-18x-redonion-unrestricted-in-game-scripting-v-040/",
+        "spacedock": "https://spacedock.info/mod/2116/Red%20Onion",
+        "repository": "https://github.com/evandisoft/RedOnion"
+    },
+    "tags": [
+        "plugin",
+        "control",
+        "app"
+    ],
+    "install": [
+        {
+            "find": "Licenses",
+            "install_to": "GameData/RedOnion"
+        },
+        {
+            "find": "Plugins",
+            "install_to": "GameData/RedOnion"
+        },
+        {
+            "file": "Resources.zip",
+            "install_to": "GameData/RedOnion"
+        },
+        {
+            "file": "Scripts.zip",
+            "install_to": "GameData/RedOnion"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2116/Red%20Onion/download/0.5.1",
+    "download_size": 574439,
+    "download_hash": {
+        "sha1": "574353741A535F3B514E32727491E3644D562025",
+        "sha256": "F24B2979D6428D287B85E9E8CB4E60D01F83BD98F817583F0069D1D5A7D8A6F6"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
