@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalKomets",
+    "name": "Kerbal Komets",
+    "abstract": "Add komets to your game!",
+    "author": "Angel125",
+    "version": "0.7.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.9.0",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/157387-122-kerbalkomets-v020-add-komets-to-your-game/",
+        "spacedock": "https://spacedock.info/mod/1249/Kerbal%20Komets",
+        "repository": "https://github.com/Angel-125/KerbalKomets",
+        "x_screenshot": "https://spacedock.info/content/Angel125_1093/Kerbal_Komets/Kerbal_Komets-1488831145.115356.png"
+    },
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries",
+            "install_to": "GameData",
+            "filter_regexp": [
+                ".*\\.pdb$"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/1249/Kerbal%20Komets/download/0.7.1",
+    "download_size": 143914,
+    "download_hash": {
+        "sha1": "639A80B05D143B7D88B185702D02AB9C953A0CF5",
+        "sha256": "2127AB6C524FC7C060248CC1456CD85BAE1EB95D543ECA358F31D0E71DE7D30C"
+    },
+    "download_content_type": "application/zip",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
