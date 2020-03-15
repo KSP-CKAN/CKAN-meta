@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KVVContinued",
+    "name": "Kronal Vessel Viewer Continued",
+    "abstract": "Plugin that creates blue-print-like images (into your Screenshots/ directory) from the KSP Editor (VAB/SPH).",
+    "author": [
+        "linuxgurugamer",
+        "Kerbas_ad_astra"
+    ],
+    "version": "0.1.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.9.1",
+    "license": "unrestricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190989-18x-kronal-vessel-viewer-kvv-010-throwing-shade-02020-jan-12/",
+        "spacedock": "https://spacedock.info/mod/1092/Kronal%20Vessel%20Viewer%20Continued",
+        "repository": "https://github.com/Kerbas-ad-astra/KronalVesselViewer",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Kronal_Vessel_Viewer_Continued/Kronal_Vessel_Viewer_Continued-1480167501.365928.png"
+    },
+    "tags": [
+        "plugin",
+        "editor"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KronalVesselViewer"
+        }
+    ],
+    "install": [
+        {
+            "install_to": "GameData",
+            "find": "KronalVesselViewer"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1092/Kronal%20Vessel%20Viewer%20Continued/download/0.1.1",
+    "download_size": 2905288,
+    "download_hash": {
+        "sha1": "224D8667041F7F3C4B0D94E27EE1F6317E49AD05",
+        "sha256": "54AAC30264069F50A032F768C196F247A85643ED35C91936CC794603BBCDBAA1"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
