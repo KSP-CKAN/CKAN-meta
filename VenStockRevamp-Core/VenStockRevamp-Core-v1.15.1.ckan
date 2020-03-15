@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "VenStockRevamp-Core",
+    "name": "Ven's Stock Part Revamp Core",
+    "abstract": "Shared resources for Ven's Stock Revamp and Ven's New Parts",
+    "author": [
+        "VenVen",
+        "Kerbas-ad-astra"
+    ],
+    "version": "v1.15.1",
+    "ksp_version_min": "1.9.0",
+    "ksp_version_max": "1.9.1",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189732-*",
+        "repository": "https://github.com/Kerbas-ad-astra/Stock-Revamp"
+    },
+    "tags": [
+        "parts",
+        "graphics"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "VenStockRevamp"
+        },
+        {
+            "name": "VenStockRevamp-NewParts"
+        }
+    ],
+    "install": [
+        {
+            "find": "VenStockRevamp",
+            "install_to": "GameData",
+            "filter": [
+                "PathPatches",
+                "Squad",
+                "Part Bin"
+            ]
+        }
+    ],
+    "download": "https://github.com/Kerbas-ad-astra/Stock-Revamp/releases/download/v1.15.1/VenStockRevamp-v1.15.1.zip",
+    "download_size": 142283541,
+    "download_hash": {
+        "sha1": "D7957C28F19E04A257DEDC774AFE443E3996A00E",
+        "sha256": "CF3B1F8D238755760E24D6AC9612FAE30B5CD96F774F0E24B7A87C059ED33132"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
