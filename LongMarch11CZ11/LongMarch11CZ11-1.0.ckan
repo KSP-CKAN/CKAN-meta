@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "LongMarch11CZ11",
+    "name": "LongMarch-11（CZ-11）",
+    "abstract": "万户出品，必属精品！",
+    "author": "Karrot",
+    "version": "1.0",
+    "ksp_version": "1.9.1",
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/2362/LongMarch-11（CZ-11）",
+        "x_screenshot": "https://spacedock.info/content/Karrot_36750/LongMarch-11CZ-11/LongMarch-11CZ-11-1583908366.0765135.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "Wanhu-Common"
+        }
+    ],
+    "install": [
+        {
+            "find": "Wanhu",
+            "install_to": "GameData",
+            "filter": [
+                "Assets",
+                "Flags",
+                "FX",
+                "Icons",
+                "WanhuTools.dll",
+                "WanhuCategory.cfg"
+            ],
+            "filter_regexp": [
+                ".*\\.craft$"
+            ]
+        },
+        {
+            "find": "CZ-11.craft",
+            "find_matches_files": true,
+            "install_to": "Ships/VAB"
+        },
+        {
+            "find": "CZ-11-StyleA.craft",
+            "find_matches_files": true,
+            "install_to": "Ships/VAB"
+        },
+        {
+            "find": "CZ-11-StyleB.craft",
+            "find_matches_files": true,
+            "install_to": "Ships/VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2362/LongMarch-11%EF%BC%88CZ-11%EF%BC%89/download/1.0",
+    "download_size": 13683144,
+    "download_hash": {
+        "sha1": "18D09DD77931401803BF554E03ACCA50BDC59AEB",
+        "sha256": "3A64BCE66CA9836E6C97B4F1C61791CDD05F3A554C681D4F3461EB360030CB84"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
