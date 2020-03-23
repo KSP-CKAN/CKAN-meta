@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "Wanhu-Common",
+    "name": "Wanhu Common",
+    "abstract": "Shared files for the Long March mods",
+    "author": "Karrot",
+    "version": "1.0",
+    "ksp_version": "1.9.1",
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/2362/LongMarch-11（CZ-11）",
+        "x_screenshot": "https://spacedock.info/content/Karrot_36750/LongMarch-11CZ-11/LongMarch-11CZ-11-1583908366.0765135.png"
+    },
+    "tags": [
+        "library",
+        "plugin"
+    ],
+    "install": [
+        {
+            "find": "Wanhu/Wanhu_Parts/Assets",
+            "install_to": "GameData/Wanhu/Wanhu_Parts"
+        },
+        {
+            "find": "Wanhu/Wanhu_Parts/Flags",
+            "install_to": "GameData/Wanhu/Wanhu_Parts"
+        },
+        {
+            "find": "Wanhu/Wanhu_Parts/FX",
+            "install_to": "GameData/Wanhu/Wanhu_Parts"
+        },
+        {
+            "find": "Wanhu/Wanhu_Parts/Icons",
+            "install_to": "GameData/Wanhu/Wanhu_Parts"
+        },
+        {
+            "find": "Wanhu/Wanhu_Parts/WanhuTools.dll",
+            "find_matches_files": true,
+            "install_to": "GameData/Wanhu/Wanhu_Parts"
+        },
+        {
+            "find": "Wanhu/Wanhu_Parts/WanhuCategory.cfg",
+            "find_matches_files": true,
+            "install_to": "GameData/Wanhu/Wanhu_Parts"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2362/LongMarch-11%EF%BC%88CZ-11%EF%BC%89/download/1.0",
+    "download_size": 13683144,
+    "download_hash": {
+        "sha1": "18D09DD77931401803BF554E03ACCA50BDC59AEB",
+        "sha256": "3A64BCE66CA9836E6C97B4F1C61791CDD05F3A554C681D4F3461EB360030CB84"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
