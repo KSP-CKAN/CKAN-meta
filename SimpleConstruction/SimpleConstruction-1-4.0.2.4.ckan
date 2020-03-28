@@ -1,0 +1,105 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SimpleConstruction",
+    "name": "SimpleConstruction Updated",
+    "abstract": "This mod aims to provide simple craft building capability in flight mode to stock parts.",
+    "author": [
+        "matterbeam",
+        "RealGecko",
+        "zer0Kerbal"
+    ],
+    "version": "1:4.0.2.4",
+    "ksp_version_min": "1.7.1",
+    "ksp_version_max": "1.8.9",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191424-ksp-*",
+        "spacedock": "https://spacedock.info/mod/59/SimpleConstruction",
+        "repository": "https://github.com/zer0Kerbal/SimpleConstruction",
+        "x_screenshot": "https://spacedock.info/content/matterbeam_328/SimpleConstruction/SimpleConstruction-1455675320.902058.jpg"
+    },
+    "tags": [
+        "plugin",
+        "resources",
+        "config"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "provides": [
+        "ExtraPlanetaryLaunchpads"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalStats"
+        },
+        {
+            "name": "Toolbar"
+        },
+        {
+            "name": "DeadskinsMeshSwitch"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "StockalikeMiningExtension"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "NotSoSimpleConstruction"
+        },
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "InfernalRoboticsNext"
+        },
+        {
+            "name": "KerbalJointReinforcementNext"
+        }
+    ],
+    "supports": [
+        {
+            "name": "KerbalChangelog"
+        },
+        {
+            "name": "Kethane"
+        },
+        {
+            "name": "B9PartSwitch"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ExtraPlanetaryLaunchpads"
+        }
+    ],
+    "install": [
+        {
+            "find": "SimpleConstruction",
+            "install_to": "GameData"
+        },
+        {
+            "find": "ExtraplanetaryLaunchpads",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/59/SimpleConstruction/download/4.0.2.4",
+    "download_size": 166883,
+    "download_hash": {
+        "sha1": "692BF92C80BEB55386B98C4998655AF7964BB01A",
+        "sha256": "BD2F414C19E318D069588BFCE10D8D95C46F5771C25B003B424A9BE9355EA890"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
