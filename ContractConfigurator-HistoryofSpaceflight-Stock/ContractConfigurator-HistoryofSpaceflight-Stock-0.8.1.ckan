@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ContractConfigurator-HistoryofSpaceflight-Stock",
+    "name": "History of Spaceflight Stock",
+    "abstract": "A contract pack recreating almost all real-life missions that were actually flown, currently up until 1967. This version is for users of Stock and any other non-RSS planet pack.",
+    "author": [
+        "Morphisor",
+        "Frylovespi"
+    ],
+    "version": "0.8.1",
+    "ksp_version_min": "1.2.2",
+    "ksp_version_max": "1.99.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/192880-12-19x-contract-pack-history-of-spaceflight/",
+        "spacedock": "https://spacedock.info/mod/2386/History%20of%20Spaceflight%20Stock",
+        "repository": "https://github.com/Frylovespi/History-of-Spaceflight/"
+    },
+    "tags": [
+        "config",
+        "career"
+    ],
+    "provides": [
+        "ContractConfigurator-HistoryofSpaceflight"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ContractConfigurator"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "BluedogDB"
+        },
+        {
+            "name": "NewTantares"
+        },
+        {
+            "name": "ProbesPlus"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ContractConfigurator-HistoryofSpaceflight"
+        }
+    ],
+    "install": [
+        {
+            "find": "ContractPacks",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2386/History%20of%20Spaceflight%20Stock/download/0.8.1",
+    "download_size": 4845424,
+    "download_hash": {
+        "sha1": "FE81853E992CC38412C95D90E9794BD298CC22D2",
+        "sha256": "F40D7B80C3791BBB76AD0EFA5854FD1E935BE744BB1DECA6A51E676AC1F5AEC7"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
