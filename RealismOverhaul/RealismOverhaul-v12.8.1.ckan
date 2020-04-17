@@ -1,0 +1,276 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "RealismOverhaul",
+    "name": "Realism Overhaul",
+    "abstract": "Multipatch to KSP to give spacecraft components realistic stats and sizes, and performance based on real-world spacecraft.",
+    "author": [
+        "NathanKell",
+        "SirKeplan",
+        "StollD",
+        "blowfishpro",
+        "cherrydev",
+        "pjf",
+        "rsparkyc",
+        "stratochief66",
+        "zorg2044",
+        "raidernick"
+    ],
+    "version": "v12.8.1",
+    "ksp_version_min": "1.7.3",
+    "ksp_version_max": "1.8.99",
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/155700-122-realism-overhaul-v1150-05262017/",
+        "repository": "https://github.com/KSP-RO/RealismOverhaul",
+        "metanetkan": "https://raw.githubusercontent.com/KSP-RO/RealismOverhaul/master/RealismOverhaul.netkan"
+    },
+    "tags": [
+        "config",
+        "plugin",
+        "parts",
+        "planet-pack"
+    ],
+    "provides": [
+        "RealPlumeConfigs",
+        "RealFuels-Engine-Configs",
+        "TestFlightConfig"
+    ],
+    "depends": [
+        {
+            "name": "AdvancedJetEngine"
+        },
+        {
+            "name": "FAR"
+        },
+        {
+            "name": "KerbalJointReinforcementContinued"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealChute"
+        },
+        {
+            "name": "RealFuels"
+        },
+        {
+            "name": "RealHeat"
+        },
+        {
+            "name": "RealPlume"
+        },
+        {
+            "name": "SmokeScreen"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "B9-PWings-Fork"
+        },
+        {
+            "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "DeadlyReentry"
+        },
+        {
+            "name": "HangerExtenderExtended"
+        },
+        {
+            "name": "KSP-AVC"
+        },
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "ProceduralFairings"
+        },
+        {
+            "name": "ProceduralFairings-ForEverything"
+        },
+        {
+            "name": "ProceduralParts"
+        },
+        {
+            "name": "PersistentRotation"
+        },
+        {
+            "name": "RCSBuildAidCont"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "KSCSwitcher"
+        },
+        {
+            "name": "RemoteTech"
+        },
+        {
+            "name": "SemiSaturatableRW"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "TestFlight"
+        },
+        {
+            "name": "TexturesUnlimited"
+        },
+        {
+            "name": "Toolbar"
+        },
+        {
+            "name": "VenStockRevamp"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RealismOverhaulCraftFiles"
+        },
+        {
+            "name": "ROEngines"
+        },
+        {
+            "name": "DMagicOrbitalScience"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "ALCOR"
+        },
+        {
+            "name": "ATKPropulsionPack"
+        },
+        {
+            "name": "SpaceXLaunchVehicles"
+        },
+        {
+            "name": "CryoEngines"
+        },
+        {
+            "name": "FASA"
+        },
+        {
+            "name": "ForgottenRealEngines"
+        },
+        {
+            "name": "KWRocketryRedux"
+        },
+        {
+            "name": "FilterExtensions"
+        },
+        {
+            "name": "NearFutureConstruction"
+        },
+        {
+            "name": "NearFuturePropulsion"
+        },
+        {
+            "name": "NearFutureSolar"
+        },
+        {
+            "name": "NearFutureSpacecraft"
+        },
+        {
+            "name": "RLARecontinued"
+        },
+        {
+            "name": "SovietEnginePack"
+        },
+        {
+            "name": "RealScaleBoosters"
+        },
+        {
+            "name": "AntaresCygnus"
+        },
+        {
+            "name": "RN-SovietRockets"
+        },
+        {
+            "name": "RN-SalyutStations"
+        },
+        {
+            "name": "RN-Skylab"
+        },
+        {
+            "name": "RN-SovietProbes"
+        },
+        {
+            "name": "RN-SovietSpacecraft"
+        },
+        {
+            "name": "RN-USProbesPack"
+        },
+        {
+            "name": "RN-USRockets"
+        },
+        {
+            "name": "RocketdyneF-1"
+        },
+        {
+            "name": "SpaceShuttleSystem"
+        },
+        {
+            "name": "SXTContinued"
+        },
+        {
+            "name": "Taerobee"
+        },
+        {
+            "name": "NewTantares"
+        },
+        {
+            "name": "NewTantaresLV"
+        },
+        {
+            "name": "RealEngines"
+        },
+        {
+            "name": "UniversalStorage"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TweakableEverything"
+        },
+        {
+            "name": "RealPlumeConfigs"
+        },
+        {
+            "name": "Smokescreen"
+        },
+        {
+            "name": "KerbalJointReinforcementNext"
+        },
+        {
+            "name": "TestFlightConfig"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/RealismOverhaul",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/EngineGroupController",
+            "install_to": "GameData",
+            "comment": "Engine Group Controller, unique to RO."
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v12.8.1/RealismOverhaul-v12.8.1.zip",
+    "download_size": 11731484,
+    "download_hash": {
+        "sha1": "7356BCA5DCA63B68B96EAC1E1E782C20BDDE976A",
+        "sha256": "FB9D935725A35F692E1B3B30751F1366C9FC8E3C67B56356C939C3875042B13E"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
