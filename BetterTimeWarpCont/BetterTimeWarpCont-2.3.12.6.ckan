@@ -3,20 +3,31 @@
     "identifier": "BetterTimeWarpCont",
     "name": "BetterTimeWarpContinued",
     "abstract": "Improved time warping",
-    "author": "linuxgurugamer",
+    "author": [
+        "HappyFaceIndustries",
+        "linuxgurugamer"
+    ],
     "version": "2.3.12.6",
     "ksp_version_min": "1.8.0",
     "license": "GPL-3.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/154935-*",
         "spacedock": "https://spacedock.info/mod/1162/BetterTimeWarpContinued",
-        "repository": "https://github.com/linuxgurugamer/BetterTimeWarp",
+        "repository": "https://github.com/linuxgurugamer/BetterTimeWarpContinued",
         "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/BetterTimeWarpContinued/BetterTimeWarpContinued-1488337554.886011.png"
     },
+    "depends": [
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ToolbarController"
+        }
+    ],
     "install": [
         {
-            "install_to": "GameData",
-            "find": "BetterTimeWarp"
+            "find": "BetterTimeWarp",
+            "install_to": "GameData"
         }
     ],
     "download": "https://github.com/linuxgurugamer/BetterTimeWarpContinued/releases/download/2.3.12.6/BetterTimeWarp-1.8.0-2.3.12.6-180.zip",
