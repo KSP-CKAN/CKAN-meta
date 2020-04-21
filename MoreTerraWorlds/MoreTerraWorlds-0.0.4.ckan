@@ -1,0 +1,65 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "MoreTerraWorlds",
+    "name": "More Terra Worlds",
+    "abstract": "This Addon adds 2 Gas Giants with many Laythe like Moons and thanks Cyrus Playz for allowing me to use your configs ..... I hope you like it :D",
+    "author": [
+        "KSP_Planets",
+        "JacobJHC"
+    ],
+    "version": "0.0.4",
+    "ksp_version": "1.8.1",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://discord.gg/ueXYgad",
+        "spacedock": "https://spacedock.info/mod/2406/More%20Terra%20Worlds",
+        "x_screenshot": "https://spacedock.info/content/KSP_Planets_40115/More_Terra_Worlds/More_Terra_Worlds-1587244502.457165.png"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "Scatterer-config",
+        "Scatterer-sunflare"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Scatterer-config"
+        },
+        {
+            "name": "Scatterer-sunflare"
+        }
+    ],
+    "install": [
+        {
+            "find": "More_Terra_Worlds",
+            "install_to": "GameData"
+        },
+        {
+            "find": "scatterer/config",
+            "install_to": "GameData/scatterer"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2406/More%20Terra%20Worlds/download/0.0.4",
+    "download_size": 335995469,
+    "download_hash": {
+        "sha1": "9A0782F56A25FF2690E060171BD6A96A0C979FE9",
+        "sha256": "318A1EF30679B2DB3D5E74A7F8B8BFD7CB473D2815D3184A51CCE23CCE748F11"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
