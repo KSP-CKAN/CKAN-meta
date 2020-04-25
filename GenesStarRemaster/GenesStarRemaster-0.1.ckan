@@ -1,0 +1,65 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GenesStarRemaster",
+    "name": "Gene's Star Remaster",
+    "abstract": "A Kopernicus Planet Pack that adds a Barnard's Star analog",
+    "author": "AR3S",
+    "version": "0.1",
+    "ksp_version": "1.8.1",
+    "license": "CC-BY-NC-3.0",
+    "resources": {
+        "homepage": "https://discord.gg/pWfYbfm",
+        "spacedock": "https://spacedock.info/mod/2411/Gene's%20Star%20Remaster",
+        "repository": "https://github.com/AR3S-Vega/GenesStar",
+        "x_screenshot": "https://spacedock.info/content/AR3S_40365/Genes_Star_Remaster/Genes_Star_Remaster-1587814724.782395.png"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "Scatterer-sunflare"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "Scatterer-config"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        },
+        {
+            "name": "Scatterer-sunflare"
+        }
+    ],
+    "install": [
+        {
+            "find": "GenesStar",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2411/Gene%27s%20Star%20Remaster/download/0.1",
+    "download_size": 215563748,
+    "download_hash": {
+        "sha1": "EE8E3E2F7405B51B49DCB2D5B4AF096C9A4C606E",
+        "sha256": "9CEEC87469BF3D690924E3C738D2D71C151AE3C53DAAC9629D913EEA3E33D97A"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
