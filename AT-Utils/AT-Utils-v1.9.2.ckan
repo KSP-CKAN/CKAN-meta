@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "AT-Utils",
+    "name": "AT Utils",
+    "abstract": "A common library for a set of plugins made by Allista.",
+    "author": [
+        "allista"
+    ],
+    "version": "v1.9.2",
+    "ksp_version_min": "1.9.0",
+    "ksp_version_max": "1.9.1",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/allista/AT_Utils",
+        "repository": "https://github.com/allista/AT_Utils",
+        "bugtracker": "https://github.com/allista/AT_Utils/issues",
+        "metanetkan": "https://raw.githubusercontent.com/allista/AT_Utils/master/AT-Utils.netkan"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "depends": [
+        {
+            "name": "ConfigurableContainers-Core"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/000_AT_Utils",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/allista/AT_Utils/releases/download/v1.9.2/AT_Utils-1.9.2.0.zip",
+    "download_size": 243177,
+    "download_hash": {
+        "sha1": "7E9130CA7E187F1B020DF09EC88977F747FA8216",
+        "sha256": "2163EB8FE7492555ED20BF936CB8FCDA5B90EECD238159257A9CD02EAE4163BB"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
