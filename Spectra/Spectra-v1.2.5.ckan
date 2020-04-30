@@ -20,12 +20,14 @@
     ],
     "provides": [
         "PlanetShine-Config",
-        "EnvironmentalVisualEnhancements-Config",
-        "Scatterer-sunflare"
+        "EnvironmentalVisualEnhancements-Config"
     ],
     "depends": [
         {
             "name": "ModuleManager"
+        },
+        {
+            "name": "Scatterer-sunflare-default"
         }
     ],
     "recommends": [
@@ -63,9 +65,6 @@
         },
         {
             "name": "EnvironmentalVisualEnhancements-Config"
-        },
-        {
-            "name": "Scatterer-sunflare"
         },
         {
             "name": "GreenSkullRevived"
