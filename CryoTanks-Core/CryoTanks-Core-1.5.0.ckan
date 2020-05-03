@@ -1,0 +1,38 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CryoTanks-Core",
+    "name": "Cryo Tanks Core",
+    "abstract": "This is the CryoTanks plugin stand-alone, for adding functionality to other mods. It contains no parts and does nothing by itself.",
+    "author": "ChrisAdderley",
+    "version": "1.5.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.9.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/ChrisAdderley/CryoTanks/wiki",
+        "repository": "https://github.com/ChrisAdderley/CryoTanks",
+        "metanetkan": "https://github.com/ChrisAdderley/CryoTanks/raw/master/CKAN/CryoTanks-Core.netkan"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "supports": [
+        {
+            "name": "CryoTanks"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/CryoTanks/Plugins/SimpleBoiloff.dll",
+            "install_to": "GameData/CryoTanks/Plugins"
+        }
+    ],
+    "download": "https://github.com/ChrisAdderley/CryoTanks/releases/download/1.5.0/CryoTanks_1_5_0.zip",
+    "download_size": 60295274,
+    "download_hash": {
+        "sha1": "D16072CC4EB61C8B99F9099329586597E76DDFD5",
+        "sha256": "6E28DA99E5116A5A9A337569617030CB40DE9BB9E964AD922315FE24D4EF1F8F"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
