@@ -1,0 +1,45 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CryoEngines-NFAero",
+    "name": "Cryogenic Engines - Near Future Aeronautics",
+    "abstract": "Optional patch to convert relevant engines in Near Future Aeronautics to burn Liquid Hydrogen",
+    "author": "Nertea",
+    "version": "1.1.3",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.9.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/106089-16x-cryogenic-engines-high-isp-chemical-rockets-january-21/",
+        "spacedock": "https://spacedock.info/mod/709/Cryogenic%20Engines",
+        "repository": "https://github.com/ChrisAdderley/CryoEngines",
+        "metanetkan": "https://raw.githubusercontent.com/ChrisAdderley/CryoEngines/master/CKAN/CryoEngines-NFAero.netkan",
+        "x_screenshot": "https://spacedock.info/content/Nertea_200/Cryogenic_Engines/Cryogenic_Engines-1463537159.2542982.png"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "CryoEngines"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "CryoEngines-LFO"
+        }
+    ],
+    "install": [
+        {
+            "find": "CryoEnginesNFAero",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/709/Cryogenic%20Engines/download/1.1.3",
+    "download_size": 76720252,
+    "download_hash": {
+        "sha1": "AFD40DCDB3029E3A845D5454E73A8A7E7582E9E3",
+        "sha256": "FC59CEA73BA73ACFA77DB5306E1A4BA710608206B999F8BAB44E71074A031604"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
