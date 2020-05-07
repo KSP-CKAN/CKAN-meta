@@ -11,6 +11,7 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/106243-105interstellar-fuel-switch-118-updated-10-11-2015/",
         "spacedock": "https://spacedock.info/mod/175/Interstellar%20Fuel%20Switch",
+        "repository": "https://github.com/sswelm/KSP-Interstellar-Extended/tree/master/FuelSwitch",
         "x_screenshot": "https://spacedock.info/content/FreeThinker_517/Interstellar_Fuel_Switch/Interstellar_Fuel_Switch-1481278354.0821617.jpg"
     },
     "tags": [
@@ -28,6 +29,11 @@
     "provides": [
         "DeadskinsTextureSwitch",
         "DeadskinsMeshSwitch"
+    ],
+    "depends": [
+        {
+            "name": "TweakScale"
+        }
     ],
     "recommends": [
         {
