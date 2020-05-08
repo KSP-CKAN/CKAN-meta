@@ -10,20 +10,21 @@
         "spacedock": "https://spacedock.info/mod/175/Interstellar%20Fuel%20Switch",
         "x_screenshot": "https://spacedock.info/content/FreeThinker_517/Interstellar_Fuel_Switch/Interstellar_Fuel_Switch-1481278354.0821617.jpg"
     },
-    "version": "2.13.0",
-    "ksp_version": "1.4.2",
+    "version": "3.6.6",
+    "ksp_version": "1.4.5",
     "provides": [
         "DeadskinsTextureSwitch",
         "DeadskinsMeshSwitch"
+    ],
+    "depends": [
+        {
+            "name": "TweakScale"
+        }
     ],
     "recommends": [
         {
             "name": "CommunityResourcePack",
             "min_version": "0.7.1"
-        },
-        {
-            "name": "TweakScale",
-            "min_version": "2.3.6"
         }
     ],
     "install": [
@@ -40,11 +41,11 @@
             "install_to": "GameData/InterstellarFuelSwitch"
         }
     ],
-    "download": "https://spacedock.info/mod/175/Interstellar%20Fuel%20Switch/download/2.13.0",
-    "download_size": 4488467,
+    "download": "https://spacedock.info/mod/175/Interstellar%20Fuel%20Switch/download/3.6.6",
+    "download_size": 8709797,
     "download_hash": {
-        "sha1": "8CEDFE2E3520261720CF54C391320347E45FA9C8",
-        "sha256": "227895416BB200C152125C198B2BD6EE90AB2940B998D0C1395DD66DF1BA31F6"
+        "sha1": "A40153EA65049587FE971688A7E4A099F049B461",
+        "sha256": "CF2054D2CD13949375E1A14D5035D91EFEAB8B0107336E925D45A4B8CF0E2D26"
     },
     "download_content_type": "application/zip",
     "x_generated_by": "netkan"
