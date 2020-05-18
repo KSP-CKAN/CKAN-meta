@@ -20,14 +20,17 @@
     ],
     "depends": [
         {
+            "name": "ModuleManager"
+        },
+        {
             "name": "KWRocketry-CommunityFixes"
         }
     ],
     "install": [
         {
             "find": "KWPatch-interstage.cfg",
-            "find_matches_files": true,
-            "install_to": "GameData/KWCommunityFixes"
+            "install_to": "GameData/KWCommunityFixes",
+            "find_matches_files": true
         }
     ],
     "download": "https://spacedock.info/mod/51/KW%20Rocketry%20-%20Community%20Fixes/download/0.4.14.1",
