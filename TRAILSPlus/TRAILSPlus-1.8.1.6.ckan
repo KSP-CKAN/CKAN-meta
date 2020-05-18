@@ -18,14 +18,12 @@
     "tags": [
         "parts"
     ],
-    "download": "https://spacedock.info/mod/2277/T.R.A.I.L.S.%20Plus/download/1.8.1.6",
-    "download_size": 4873969,
-    "download_hash": {
-        "sha1": "EA0CBDCAD2FEBA5D8DF49C410C22A0178197719E",
-        "sha256": "E2268E0236FAF7FF08F53756137536561FDFC56B05C79CD9B70F92BA696FC135"
-    },
-    "download_content_type": "application/zip",
-    "recommended": [
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
         {
             "name": "BluedogDB"
         },
@@ -33,5 +31,12 @@
             "name": "EVAParachutes"
         }
     ],
+    "download": "https://spacedock.info/mod/2277/T.R.A.I.L.S.%20Plus/download/1.8.1.6",
+    "download_size": 4873969,
+    "download_hash": {
+        "sha1": "EA0CBDCAD2FEBA5D8DF49C410C22A0178197719E",
+        "sha256": "E2268E0236FAF7FF08F53756137536561FDFC56B05C79CD9B70F92BA696FC135"
+    },
+    "download_content_type": "application/zip",
     "x_generated_by": "netkan"
 }
