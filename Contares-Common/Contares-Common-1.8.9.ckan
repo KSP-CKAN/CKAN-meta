@@ -16,6 +16,11 @@
     "tags": [
         "agency"
     ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
     "install": [
         {
             "find": "Agencies",
@@ -23,8 +28,8 @@
         },
         {
             "find": "CONTARES_TweakScale.cfg",
-            "find_matches_files": true,
-            "install_to": "GameData/Contares/Patches"
+            "install_to": "GameData/Contares/Patches",
+            "find_matches_files": true
         }
     ],
     "download": "https://spacedock.info/mod/180/CONTARES/download/1.8.9",
