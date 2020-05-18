@@ -20,6 +20,11 @@
         "en-us",
         "es-es"
     ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
     "conflicts": [
         {
             "name": "RLA-Stockalike"
@@ -33,8 +38,8 @@
     ],
     "install": [
         {
-            "install_to": "GameData",
-            "find": "RLA_Reborn"
+            "find": "RLA_Reborn",
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/1880/RLA%20Reborn/download/0.15.2",
