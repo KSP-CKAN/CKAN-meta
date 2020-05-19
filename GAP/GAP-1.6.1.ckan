@@ -5,7 +5,8 @@
     "abstract": "Contracts for aircraft development, charters, repeatable flights, Coast Guard rescue and retrieval operations, stunts, and Space Shuttle missions!",
     "author": "inigma",
     "version": "1.6.1",
-    "ksp_version": "1.6.1",
+    "ksp_version_min": "1.4.0",
+    "ksp_version_max": "1.6.1",
     "license": "MIT",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/129208-contract-pack-giving-aircraft-a-purpose-gap-112-air-flights-tours-coast-guard-sts-jan-31-2016/",
@@ -19,10 +20,10 @@
     ],
     "depends": [
         {
-            "name": "ContractConfigurator"
+            "name": "ModuleManager"
         },
         {
-            "name": "ModuleManager"
+            "name": "ContractConfigurator"
         }
     ],
     "recommends": [
