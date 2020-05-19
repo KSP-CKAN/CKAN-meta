@@ -5,7 +5,8 @@
     "abstract": "Adds plane parts. Images are on the album.",
     "author": "blackheart612",
     "version": "26.5",
-    "ksp_version": "1.8.1",
+    "ksp_version_min": "1.4.0",
+    "ksp_version_max": "1.8.1",
     "license": "CC-BY-NC-ND-4.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/140262-112-airplane-plus-hiring-prop-config-maker/",
@@ -18,13 +19,13 @@
     ],
     "depends": [
         {
+            "name": "ModuleManager"
+        },
+        {
             "name": "FirespitterCore"
         },
         {
             "name": "FirespitterResourcesConfig"
-        },
-        {
-            "name": "ModuleManager"
         }
     ],
     "download": "https://spacedock.info/mod/716/Airplane%20Plus/download/26.5",
