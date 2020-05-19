@@ -6,7 +6,8 @@
     "abstract": "View your vessel in the IVA ",
     "author": "linuxgurugamer",
     "version": "1:0.8.8.3",
-    "ksp_version": "1.9.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.9.0",
     "license": "MIT",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/146692-113-vessel-viewer-continued/",
@@ -35,8 +36,8 @@
     "install": [
         {
             "find": "VesselViewPlugin.dll",
-            "find_matches_files": true,
-            "install_to": "GameData/VesselView/Plugins"
+            "install_to": "GameData/VesselView/Plugins",
+            "find_matches_files": true
         }
     ],
     "download": "https://spacedock.info/mod/923/Vessel%20Viewer%20Continued/download/0.8.8.3",
