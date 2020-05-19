@@ -5,7 +5,8 @@
     "abstract": "Library that enables switching the contents, meshes, and textures of tanks.",
     "author": "FreeThinker",
     "version": "3.14.2.5",
-    "ksp_version": "1.9.1",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.9.1",
     "license": "GPL-2.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/106243-105interstellar-fuel-switch-118-updated-10-11-2015/",
@@ -20,11 +21,11 @@
     ],
     "depends": [
         {
-            "name": "InterstellarFuelSwitch-Core",
-            "min_version": "1.28"
+            "name": "ModuleManager"
         },
         {
-            "name": "ModuleManager"
+            "name": "InterstellarFuelSwitch-Core",
+            "min_version": "1.28"
         },
         {
             "name": "CommunityTechTree"
