@@ -20,7 +20,22 @@
             "name": "ModuleManager"
         }
     ],
+    "recommends": [
+        {
+            "name": "TexturesUnlimited"
+        },
+        {
+            "name": "AnimatedDecouplers"
+        },
+        {
+            "name": "RetractableLiftingSurface"
+        }
+    ],
     "install": [
+        {
+            "find": "Kartoffelkuchen",
+            "install_to": "GameData"
+        },
         {
             "find": "Launchers Pack",
             "install_to": "GameData"
