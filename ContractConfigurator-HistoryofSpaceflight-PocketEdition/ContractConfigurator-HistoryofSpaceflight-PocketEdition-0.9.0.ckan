@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ContractConfigurator-HistoryofSpaceflight-PocketEdition",
+    "name": "History of Spaceflight Pocket Edition",
+    "abstract": "A contract pack recreating almost all real-life missions that were actually flown, currently up until 1967. This is the 'light' variety of the Stock version of this mod.",
+    "author": [
+        "Morphisor",
+        "Frylovespi"
+    ],
+    "version": "0.9.0",
+    "ksp_version_min": "1.2.2",
+    "ksp_version_max": "1.99.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/192880-12-19x-contract-pack-history-of-spaceflight/",
+        "spacedock": "https://spacedock.info/mod/2387/History%20of%20Spaceflight%20Pocket%20Edition",
+        "repository": "https://github.com/Frylovespi/History-of-Spaceflight/"
+    },
+    "tags": [
+        "config",
+        "career"
+    ],
+    "provides": [
+        "ContractConfigurator-HistoryofSpaceflight"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ContractConfigurator"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "BluedogDB"
+        },
+        {
+            "name": "NewTantares"
+        },
+        {
+            "name": "ProbesPlus"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ContractConfigurator-HistoryofSpaceflight"
+        }
+    ],
+    "install": [
+        {
+            "find": "ContractPacks",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2387/History%20of%20Spaceflight%20Pocket%20Edition/download/0.9.0",
+    "download_size": 4422404,
+    "download_hash": {
+        "sha1": "91F0C268AE10B1FE09E9871D0812938797140970",
+        "sha256": "BA3421455FE266D4F0A6E13FC0013BD2599D700B5E7220CAEDF334869C8226B3"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
