@@ -21,20 +21,17 @@
     ],
     "depends": [
         {
-            "name": "ModuleManager"
-        },
-        {
             "name": "FirespitterCore"
         }
     ],
     "install": [
         {
+            "find": "AAI",
+            "install_to": "GameData",
             "filter": [
                 ".DS_Store",
                 "__MACOSX"
-            ],
-            "find": "AAI",
-            "install_to": "GameData"
+            ]
         }
     ],
     "download": "https://spacedock.info/mod/1270/new%20reaction%20wheels/download/1.2.9",
