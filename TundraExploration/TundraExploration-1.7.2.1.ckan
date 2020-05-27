@@ -1,0 +1,74 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TundraExploration",
+    "name": "Tundra Exploration - Stockalike Dragon V2 and Falcon 9",
+    "abstract": "This is a mod that adds SpaceX parts like the Dragon V2, Falcon 9, Starship and more!",
+    "author": "damon",
+    "version": "1.7.2.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.9.99",
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/166915-131-tundra-exploration-v093-stockalike-falcon-9-and-dragon-v2/",
+        "spacedock": "https://spacedock.info/mod/223/Tundra%20Exploration%20-%20Stockalike%20Dragon%20V2%20and%20Falcon%209",
+        "x_screenshot": "https://spacedock.info/content/damon_4180/Tundra_Exploration_-_Stockalike_Dragon_V2_and_Falcon_9/Tundra_Exploration_-_Stockalike_Dragon_V2_and_Falcon_9-1575140669.4396348.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "SpaceXLegs"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "AnimatedDecouplers"
+        },
+        {
+            "name": "RetractableLiftingSurface"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "NearFutureSolar-Core"
+        },
+        {
+            "name": "NearFutureProps"
+        },
+        {
+            "name": "SmokeScreen"
+        },
+        {
+            "name": "FMRS"
+        }
+    ],
+    "install": [
+        {
+            "find": "TundraExploration",
+            "install_to": "GameData",
+            "filter": "Thumbs.db"
+        },
+        {
+            "find": "Ships/VAB",
+            "install_to": "Ships",
+            "optional": true,
+            "description": "Tundra Exploration example craft"
+        }
+    ],
+    "download": "https://spacedock.info/mod/223/Tundra%20Exploration%20-%20Stockalike%20Dragon%20V2%20and%20Falcon%209/download/1.7.2.1",
+    "download_size": 180753817,
+    "download_hash": {
+        "sha1": "3F08E0E9B73E8BD471BB6B57B14BB9006AED4A55",
+        "sha256": "4EDA14E1E507CC20FBC588464255D9F144E3239C4C149126FC080826685E2306"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
