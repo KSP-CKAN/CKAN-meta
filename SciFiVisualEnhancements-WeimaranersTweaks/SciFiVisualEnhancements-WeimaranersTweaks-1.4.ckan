@@ -1,0 +1,66 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SciFiVisualEnhancements-WeimaranersTweaks",
+    "name": "Weimaraner's Sci-Fi VE Config Tweaks",
+    "abstract": "Some config tweaks for Sci-Fi VE",
+    "author": "weimaraner",
+    "version": "1.4",
+    "ksp_version": "1.9.1",
+    "license": "CC-BY-NC-2.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/194102-19x-weimaraners-sci-fi-ve-config-tweaks/",
+        "spacedock": "https://spacedock.info/mod/2415/Weimaraner's%20Sci-Fi%20VE%20Config%20Tweaks",
+        "x_screenshot": "https://spacedock.info/content/weimaraner_40318/Weimaraners_Sci-Fi_VE_Config_Tweaks/Weimaraners_Sci-Fi_VE_Config_Tweaks-1590281276.6988182.png"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "SciFiVisualEnhancements"
+    ],
+    "depends": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        },
+        {
+            "name": "SciFiVisualEnhancements"
+        }
+    ],
+    "install": [
+        {
+            "find": "ScifiVisualEnchancements_Base",
+            "install_to": "GameData"
+        },
+        {
+            "find": "ScifiVisualEnchancements_Atmospheres",
+            "install_to": "GameData"
+        },
+        {
+            "find": "ScifiVisualEnchancements_Clouds",
+            "install_to": "GameData"
+        },
+        {
+            "find": "ScifiVisualEnchancements_Dust",
+            "install_to": "GameData"
+        },
+        {
+            "find": "ScifiVisualEnchancements_Glows",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2415/Weimaraner%27s%20Sci-Fi%20VE%20Config%20Tweaks/download/1.4",
+    "download_size": 69658386,
+    "download_hash": {
+        "sha1": "BD3E38A971AFF6A0AC8043CD092A000B3BF1FD33",
+        "sha256": "86F9C9DD4C09D942F91201246B084525D54EA5F71DD6261980D671C23CEA0885"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
