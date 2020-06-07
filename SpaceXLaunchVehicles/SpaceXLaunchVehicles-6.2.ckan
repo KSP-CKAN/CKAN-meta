@@ -1,7 +1,7 @@
 {
     "spec_version": "v1.4",
     "identifier": "SpaceXLaunchVehicles",
-    "name": "SpaceX Launch Vehicles",
+    "name": "SpaceX Launch Vehicles - Real Size",
     "abstract": "Crew Dragon, Starlink, Falcon 9, Falcon Heavy, Drone Ships to land your boosters on, Raptor engines and much more!",
     "author": "Kartoffelkuchen",
     "version": "6.2",
@@ -31,6 +31,11 @@
             "name": "RetractableLiftingSurface"
         }
     ],
+    "conflicts": [
+        {
+            "name": "SpaceXLaunchVehicles-StockSize"
+        }
+    ],
     "install": [
         {
             "find": "Kartoffelkuchen",
@@ -41,7 +46,7 @@
             "install_to": "GameData"
         },
         {
-            "find": "Ships/VAB",
+            "file": "Ships/VAB",
             "install_to": "Ships"
         }
     ],
