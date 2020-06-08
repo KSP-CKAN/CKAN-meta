@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RealFuels-Stock",
+    "name": "RealFuels-Stock",
+    "abstract": "Adds RealFuels configs to stock and many mods' engines, keeping engine role as designed to fit with stock and stock-aligned mods.",
+    "author": [
+        "Raptor831",
+        "ValiZockt"
+    ],
+    "version": "v4.1.0",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.9.1",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/194394-*",
+        "repository": "https://github.com/ValiZockt/RealFuels-Stock",
+        "bugtracker": "https://github.com/ValiZockt/RealFuels-Stock/issues"
+    },
+    "tags": [
+        "config",
+        "resources"
+    ],
+    "provides": [
+        "RealPlumeConfigs",
+        "RealFuels-Engine-Configs"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealFuels"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealPlume"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RealPlume-StockConfigs"
+        },
+        {
+            "name": "RFStockalike"
+        }
+    ],
+    "install": [
+        {
+            "find": "RealFuels-Stock",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/ValiZockt/RealFuels-Stock/releases/download/v4.1.0/RealFuels-Stock-v4.1.0.zip",
+    "download_size": 322779,
+    "download_hash": {
+        "sha1": "E90340E078EF7612C82B946F2BEF1D47FDDB0E7B",
+        "sha256": "89948B5A0DE7DEAAC4CF7AA6BFD30EC8C746E76717FBB01E00B4FAF5A1DF9DCB"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
