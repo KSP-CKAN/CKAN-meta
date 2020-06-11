@@ -28,7 +28,10 @@
     "install": [
         {
             "find": "GameData/DiRT",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": [
+                "__MACOSX"
+            ]
         }
     ],
     "download": "https://github.com/cydonian-monk/KSP-DiRT/releases/download/1.8.0.0/DiRT_1.8.0.0.zip",
