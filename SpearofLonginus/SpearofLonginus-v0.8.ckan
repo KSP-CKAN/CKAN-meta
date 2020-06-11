@@ -18,7 +18,11 @@
     "install": [
         {
             "find": "GameData/Spear of Longinus",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": [
+                "__MACOSX",
+                ".DS_Store"
+            ]
         }
     ],
     "download": "https://github.com/satoi8080/KSP-Spear-of-Longinus/releases/download/v0.8/SpearofLonginus.zip",
