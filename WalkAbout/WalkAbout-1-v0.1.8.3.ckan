@@ -12,16 +12,23 @@
     "ksp_version_max": "1.9.1",
     "license": "GPL-3.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193732-*",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193732-18x-19x-walkabout-beta/",
         "spacedock": "https://spacedock.info/mod/228/WalkAbout",
         "repository": "https://github.com/linuxgurugamer/WalkAbout",
         "x_screenshot": "https://spacedock.info/content/Antipodes_555/WalkAbout/WalkAbout-1456147829.247913.jpg"
     },
+    "tags": [
+        "plugin",
+        "crewed",
+        "convenience"
+    ],
     "install": [
         {
             "find": "WalkAbout",
             "install_to": "GameData",
-            "filter": "source"
+            "filter": [
+                "source"
+            ]
         }
     ],
     "download": "https://spacedock.info/mod/228/WalkAbout/download/0.1.8.3",
