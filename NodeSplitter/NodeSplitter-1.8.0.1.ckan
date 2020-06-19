@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NodeSplitter",
+    "name": "ManeuverNodeSplitter",
+    "abstract": "Split a maneuver node into multiple smaller nodes",
+    "author": "linuxgurugamer",
+    "version": "1.8.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.9.1",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/194881-18x-19x-maneuver-node-splitter/",
+        "spacedock": "https://spacedock.info/mod/2453/ManeuverNodeSplitter",
+        "repository": "https://github.com/linuxgurugamer/ManeuverNodeSplitter",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/ManeuverNodeSplitter/ManeuverNodeSplitter-1592582742.0069296.png"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "ManeuverNodeSplitter",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2453/ManeuverNodeSplitter/download/1.8.0.1",
+    "download_size": 22401,
+    "download_hash": {
+        "sha1": "7C40876D4710134362924B66E5343DAC4255A341",
+        "sha256": "C975F22ECBA5C62CA5DEBD29C5181628DFE14D036879A0F03195BBD7D1A856B6"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
