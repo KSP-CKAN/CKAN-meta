@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KipDockingPorts",
+    "name": "KipDockingPorts",
+    "abstract": "A set of useful docking ports for Kerbal Space Program.",
+    "author": [
+        "CaptainKipard",
+        "micha"
+    ],
+    "version": "v0.2",
+    "ksp_version_min": "1.0.5",
+    "ksp_version_max": "1.9.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?showtopic=194930",
+        "spacedock": "https://spacedock.info/mod/2454/KipDockingPorts",
+        "repository": "https://github.com/mwerle/KipDockingPorts",
+        "x_screenshot": "https://spacedock.info/content/micha_8295/KipDockingPorts/KipDockingPorts-1593005870.1450794.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KipEng-Agency"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "DockingPortAlignmentIndicator"
+        }
+    ],
+    "install": [
+        {
+            "find": "KipEng",
+            "install_to": "GameData",
+            "filter": [
+                "Agencies"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/2454/KipDockingPorts/download/v0.2",
+    "download_size": 4173162,
+    "download_hash": {
+        "sha1": "2DDC486128133FCB3E262255D07675596EB56703",
+        "sha256": "2CE386D03EF5504146AE80E18730580CD86023AF3320EDE75DF4353051D12C18"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
