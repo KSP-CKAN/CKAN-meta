@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CommNetAntennasConsumptor",
+    "name": "CommNet Antennas Consumptor",
+    "abstract": "Antennas consume EC for supporting CommNet: EC is consumed always when extended; add new action: disable/enable static antennas ??? EC is consumed always when enabled.",
+    "author": "flart",
+    "version": "3.0.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.9.9",
+    "license": "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/177292-*",
+        "repository": "https://github.com/yalov/CommNetAntennasConsumptor",
+        "bugtracker": "https://github.com/yalov/CommNetAntennasConsumptor/issues"
+    },
+    "tags": [
+        "plugin",
+        "comms"
+    ],
+    "localizations": [
+        "en-us",
+        "ru"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CommNetAntennasExtension"
+        },
+        {
+            "name": "CommNetAntennasInfo"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RemoteTech"
+        }
+    ],
+    "download": "https://github.com/yalov/CommNetAntennasConsumptor/releases/download/3.0.0/CommNetAntennasConsumptor-v3.0.0.zip",
+    "download_size": 83253,
+    "download_hash": {
+        "sha1": "2F63A6E0F5FBFCE00FB06FAE9994CB669C86BBF3",
+        "sha256": "68D366940B55592C23836A5634717FE3D33CCC39681C24D5FEBD179E9F4F4487"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
