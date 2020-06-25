@@ -1,0 +1,63 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KipLowProfileHubs",
+    "name": "KipLowProfileHubs",
+    "abstract": "A set of hubs for station construction.",
+    "author": [
+        "CaptainKipard",
+        "micha"
+    ],
+    "version": "v2.4",
+    "ksp_version_min": "1.0.5",
+    "ksp_version_max": "1.9.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?showtopic=194984",
+        "spacedock": "https://spacedock.info/mod/2457/KipLowProfileHubs",
+        "repository": "https://github.com/mwerle/KipLowProfileHubs",
+        "x_screenshot": "https://spacedock.info/content/micha_8295/KipLowProfileHubs/KipLowProfileHubs-1593005930.8216813.png"
+    },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KipEng-Agency"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "IFILS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "TACLS"
+        }
+    ],
+    "install": [
+        {
+            "find": "KipEng",
+            "install_to": "GameData",
+            "filter": [
+                "Agencies"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/2457/KipLowProfileHubs/download/v2.4",
+    "download_size": 4363803,
+    "download_hash": {
+        "sha1": "E2BC5D98FF1AFB32CE76D121A7F3B623FBBDC53E",
+        "sha256": "7864842562697F08422792389E213A6501D727060A3CB4BC42D773915725A202"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
