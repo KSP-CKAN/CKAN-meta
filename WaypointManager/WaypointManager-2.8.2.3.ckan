@@ -1,0 +1,47 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "WaypointManager",
+    "name": "Waypoint Manager",
+    "abstract": "Display waypoints while in flight, create custom waypoints.",
+    "author": [
+        "jrossignol",
+        "linuxgurugamer"
+    ],
+    "version": "2.8.2.3",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.99.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/194876-18x-19x-waypoint-manager/",
+        "repository": "https://github.com/linuxgurugamer/WaypointManager"
+    },
+    "tags": [
+        "plugin",
+        "information",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "WaypointManager",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/WaypointManager/releases/download/2.8.2.3/WaypointManager-1.8.0-2.8.2.3.zip",
+    "download_size": 112329,
+    "download_hash": {
+        "sha1": "F79056A576CC0BD7EE3C7CDA42D7914A05BACC43",
+        "sha256": "EDA0470107B4680D9F15FD139F06BC3EEDED8345C3265138052D4B58C1D75F67"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-07-03T19:15:03Z",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
