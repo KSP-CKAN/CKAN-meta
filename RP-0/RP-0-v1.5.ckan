@@ -59,16 +59,41 @@
     ],
     "recommends": [
         {
-            "name": "VenStockRevamp"
+            "any_of": [
+                {
+                    "name": "VenStockRevamp"
+                },
+                {
+                    "name": "ReStock"
+                }
+            ]
         },
         {
-            "name": "ConnectedLivingSpace"
+            "name": "ROEngines"
+        },
+        {
+            "name": "ROTanks"
+        },
+        {
+            "name": "ROCapsules"
+        },
+        {
+            "name": "ROSolar"
+        },
+        {
+            "name": "B9-PWings-Fork"
+        },
+        {
+            "name": "PersistentRotation"
         },
         {
             "name": "HangerExtenderExtended"
         },
         {
             "name": "KerbalAlarmClock"
+        },
+        {
+            "name": "KerbalRenamer"
         },
         {
             "name": "KRASH"
@@ -78,6 +103,9 @@
         },
         {
             "name": "MechJeb2"
+        },
+        {
+            "name": "AtmosphereAutopilot"
         },
         {
             "name": "ProceduralFairings"
@@ -108,10 +136,14 @@
             "name": "ShipManifest"
         },
         {
-            "name": "Kerbalism-Config-RO"
-        },
-        {
-            "name": "TACLS"
+            "any_of": [
+                {
+                    "name": "Kerbalism-Config-RO"
+                },
+                {
+                    "name": "TACLS"
+                }
+            ]
         },
         {
             "any_of": [
@@ -122,12 +154,6 @@
                     "name": "TestLite"
                 }
             ]
-        },
-        {
-            "name": "TextureReplacer"
-        },
-        {
-            "name": "Toolbar"
         }
     ],
     "suggests": [
@@ -138,22 +164,25 @@
             "name": "FASA"
         },
         {
+            "name": "TextureReplacer"
+        },
+        {
+            "name": "SemiSaturatableRW"
+        },
+        {
             "name": "JanitorsCloset"
+        },
+        {
+            "name": "HyperEdit"
+        },
+        {
+            "name": "EditorExtensionsRedux"
         },
         {
             "name": "KerbalEngineerRedux"
         },
         {
-            "name": "KerbalRenamer"
-        },
-        {
             "name": "kOS"
-        },
-        {
-            "name": "ROEngines"
-        },
-        {
-            "name": "ROCapsules"
         },
         {
             "name": "RealScaleBoosters"
@@ -189,7 +218,25 @@
             "name": "Taerobee"
         },
         {
+            "name": "NearFutureSolar"
+        },
+        {
+            "name": "NearFutureConstruction"
+        },
+        {
+            "name": "InternalRCS"
+        },
+        {
+            "name": "ProbesPlus"
+        },
+        {
+            "name": "ATKPropulsionPack"
+        },
+        {
             "name": "WaypointManager"
+        },
+        {
+            "name": "NavHud"
         }
     ],
     "conflicts": [
