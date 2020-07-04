@@ -1,0 +1,45 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GrannusExpansionPack-JNSQ",
+    "name": "Grannus Expansion Pack JNSQ",
+    "abstract": "Grannus Expansion Pack rescaled 2.5x to provide compatibility with the JNSQ planet pack",
+    "author": "OhioBob",
+    "version": "1.2.0",
+    "ksp_version_min": "1.8.1",
+    "license": "CC-BY-NC-ND",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169664-*",
+        "repository": "https://github.com/OhioBob/Grannus-Expansion-Pack",
+        "bugtracker": "https://github.com/OhioBob/Grannus-Expansion-Pack/issues"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "GrannusExpansionPack"
+        },
+        {
+            "name": "JNSQ"
+        }
+    ],
+    "install": [
+        {
+            "find": "GEP_JNSQ/GameData/GEP_JNSQ",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/OhioBob/Grannus-Expansion-Pack/releases/download/1.2.0/GrannusExpansionPack_1.2.0.zip",
+    "download_size": 320336032,
+    "download_hash": {
+        "sha1": "04D4753BB618E7BB76CBDEC971EBF60FD8156567",
+        "sha256": "A0BC0C70B6EC21E61AECBB4096B093FBB06DF8B4F5ACDAED006847836406EC44"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-07-04T12:15:05Z",
+    "x_generated_by": "netkan"
+}
