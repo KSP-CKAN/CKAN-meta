@@ -27,9 +27,6 @@
         },
         {
             "name": "AT-Utils"
-        },
-        {
-            "name": "ConfigurableContainers-Core"
         }
     ],
     "suggests": [
@@ -42,13 +39,31 @@
     ],
     "supports": [
         {
-            "name": "TweakScale"
+            "name": "B9-PWings-Fork"
+        },
+        {
+            "name": "BluedogDB"
+        },
+        {
+            "name": "DodoLabsStockalikeElectron"
+        },
+        {
+            "name": "FuelTanksPlus"
         },
         {
             "name": "Goodspeed"
         },
         {
+            "name": "Hangar"
+        },
+        {
             "name": "KWRocketryRebalanced"
+        },
+        {
+            "name": "KerbalPlanetaryBaseSystems"
+        },
+        {
+            "name": "Mk-X"
         },
         {
             "name": "Mk2Expansion"
@@ -57,49 +72,52 @@
             "name": "Mk3Expansion"
         },
         {
-            "name": "SpaceY-Lifters"
+            "name": "Mk3HypersonicSystems"
         },
         {
-            "name": "SpaceY-Expanded"
+            "name": "ModularRocketSystem"
         },
         {
-            "name": "FuelTanksPlus"
-        },
-        {
-            "name": "ModRocketSys"
-        },
-        {
-            "name": "StandardPropulsionSystems"
-        },
-        {
-            "name": "NearFuturePropulsion"
-        },
-        {
-            "name": "TALSphericalToroidalPack"
+            "name": "ModularRocketSystemsLITE"
         },
         {
             "name": "MunarIndustriesFTX"
         },
         {
+            "name": "NearFuturePropulsion"
+        },
+        {
+            "name": "OPTReconfig"
+        },
+        {
+            "name": "OPTSpacePlaneParts"
+        },
+        {
             "name": "RaginCaucasian"
-        },
-        {
-            "name": "B9-PWings-Fork"
-        },
-        {
-            "name": "BluedogDB"
-        },
-        {
-            "name": "StockalikeMiningExtension"
-        },
-        {
-            "name": "KerbalPlanetaryBaseSystems"
         },
         {
             "name": "ReStockPlus"
         },
         {
-            "name": "StreamlineEnginesRCSsandfueltank"
+            "name": "SpaceY-Expanded"
+        },
+        {
+            "name": "SpaceY-Lifters"
+        },
+        {
+            "name": "StandardPropulsionSystems"
+        },
+        {
+            "name": "StockalikeMiningExtension"
+        },
+        {
+            "name": "StreamlineEnginesRCSsandfueltanks"
+        },
+        {
+            "name": "TALSphericalToroidalPack"
+        },
+        {
+            "name": "TweakScale"
         }
     ],
     "conflicts": [
@@ -113,12 +131,7 @@
     "install": [
         {
             "file": "GameData/ConfigurableContainers",
-            "install_to": "GameData",
-            "filter": [
-                "TankTypes.cfg",
-                "TankConfigs.cfg",
-                "Cryogenics.cfg"
-            ]
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/1002/Configurable%20Containers/download/2.4.8.3",
