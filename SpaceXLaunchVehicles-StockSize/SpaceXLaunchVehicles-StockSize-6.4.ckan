@@ -1,0 +1,70 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "SpaceXLaunchVehicles-StockSize",
+    "name": "SpaceX Launch Vehicles - Stock Size",
+    "abstract": "Crew Dragon, Starlink, Falcon 9, Falcon Heavy, Drone Ships to land your boosters on, Raptor engines and much more!",
+    "author": "Kartoffelkuchen",
+    "version": "6.4",
+    "ksp_version": "1.10.0",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193933-19x-kks-spacex-pack-17-05-2020/",
+        "spacedock": "https://spacedock.info/mod/269/SpaceX%20Launch%20Vehicles",
+        "x_screenshot": "https://spacedock.info/content/Kartoffelkuchen_1350/SpaceX_Launch_Vehicles/SpaceX_Launch_Vehicles-1589667274.7884016.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "provides": [
+        "SpaceXLaunchVehicles"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "TexturesUnlimited"
+        },
+        {
+            "name": "AnimatedDecouplers"
+        },
+        {
+            "name": "RetractableLiftingSurface"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SpaceXLaunchVehicles"
+        }
+    ],
+    "install": [
+        {
+            "find": "Kartoffelkuchen",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Launchers Pack",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Rescaled/GameData",
+            "install_to": "GameData",
+            "as": "Kartoffelkuchen"
+        },
+        {
+            "file": "Rescaled/Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/269/SpaceX%20Launch%20Vehicles/download/6.4",
+    "download_size": 129316030,
+    "download_hash": {
+        "sha1": "CF0F77A15EE05C9DDBFBF0B1F3082A7B804AFDBF",
+        "sha256": "9D3481113C748ABFA3A488B17D942A60CBAA95AAB351B923D1409C418926981E"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-07-06T12:33:56.783754+00:00",
+    "x_generated_by": "netkan"
+}
