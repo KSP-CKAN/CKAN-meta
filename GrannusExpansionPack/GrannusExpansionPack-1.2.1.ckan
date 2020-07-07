@@ -50,6 +50,9 @@
         },
         {
             "name": "KerbalHealth"
+        },
+        {
+            "name": "Grannus-RibbonPack"
         }
     ],
     "suggests": [
@@ -73,7 +76,10 @@
         },
         {
             "find": "GameData/Nereid",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": [
+                "Grannus"
+            ]
         }
     ],
     "download": "https://github.com/OhioBob/Grannus-Expansion-Pack/releases/download/1.2.1/GrannusExpansionPack_1.2.1.zip",
