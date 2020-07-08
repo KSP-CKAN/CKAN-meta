@@ -1,0 +1,75 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TundraExploration",
+    "name": "Tundra Exploration - Stockalike Dragon V2 and Falcon 9",
+    "abstract": "This is a mod that adds SpaceX parts like the Dragon V2, Falcon 9, Starship and more!",
+    "author": "damon",
+    "version": "2.0.2",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.10.99",
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/166915-131-tundra-exploration-v093-stockalike-falcon-9-and-dragon-v2/",
+        "spacedock": "https://spacedock.info/mod/223/Tundra%20Exploration%20-%20Stockalike%20Dragon%20V2%20and%20Falcon%209",
+        "x_screenshot": "https://spacedock.info/content/damon_4180/Tundra_Exploration_-_Stockalike_Dragon_V2_and_Falcon_9/Tundra_Exploration_-_Stockalike_Dragon_V2_and_Falcon_9-1575140669.4396348.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "SpaceXLegs"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "AnimatedDecouplers"
+        },
+        {
+            "name": "RetractableLiftingSurface"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "NearFutureSolar-Core"
+        },
+        {
+            "name": "NearFutureProps"
+        },
+        {
+            "name": "SmokeScreen"
+        },
+        {
+            "name": "FMRS"
+        }
+    ],
+    "install": [
+        {
+            "find": "TundraExploration",
+            "install_to": "GameData",
+            "filter": "Thumbs.db"
+        },
+        {
+            "find": "Ships/VAB",
+            "install_to": "Ships",
+            "optional": true,
+            "description": "Tundra Exploration example craft"
+        }
+    ],
+    "download": "https://spacedock.info/mod/223/Tundra%20Exploration%20-%20Stockalike%20Dragon%20V2%20and%20Falcon%209/download/2.0.2",
+    "download_size": 183908461,
+    "download_hash": {
+        "sha1": "EA2860EEC9EBE2F2C5056FCFA2BB24C343F87DDE",
+        "sha256": "0BC13D5DDED14DE6D378B0979F07940F578AC85849997AD9C75BC3EDFE36431B"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-07-08T20:51:13.305043+00:00",
+    "x_generated_by": "netkan"
+}
