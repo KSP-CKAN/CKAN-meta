@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ResourceMonitors",
+    "name": "Margo's Resource Monitors",
+    "abstract": "This mod will allow you to set monitors on any resource in any/all vessels in the game.  An alarm will sound if the level is passed, any time warping will be safely stopped and you will be transported to the vessel in question.",
+    "author": "linuxgurugamer",
+    "version": "0.0.2",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.10.0",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/194173-18x-19x-margos-resource-monitors/",
+        "spacedock": "https://spacedock.info/mod/2467/Margo's%20Resource%20Monitors",
+        "repository": "https://github.com/linuxgurugamer/ResourceMonitors"
+    },
+    "tags": [
+        "plugin",
+        "information",
+        "resources"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "ResourceMonitors",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2467/Margo%27s%20Resource%20Monitors/download/0.0.2",
+    "download_size": 2748730,
+    "download_hash": {
+        "sha1": "60A8BC7F3D46066F0C6723AEB2C62921FC2371C0",
+        "sha256": "03000CE2A6264946396B2936C2C3DBE4BE08C91162B09BA4BD6B894584E4CD13"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-07-08T14:01:06.650916+00:00",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
