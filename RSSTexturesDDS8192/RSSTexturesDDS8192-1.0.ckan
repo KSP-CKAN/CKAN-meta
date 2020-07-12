@@ -1,25 +1,26 @@
 {
     "spec_version"   : 1,
-    "name"           : "Real Solar System Textures DDS - 8192 x 4096",
     "identifier"     : "RSSTexturesDDS8192",
+    "name"           : "Real Solar System Textures DDS - 8192 x 4096",
+    "abstract"       : "Textures for Real Solar Systems",
+    "author"         : "NathanKell",
+    "license"        : "CC-BY-NC-SA",
+    "release_status" : "stable",
+    "version"        : "1.0",
+    "ksp_version_max": "0.90",
+    "resources": {
+        "homepage": "https://ksp.sarbian.com/nathankell/RealSolarSystem/Textures/"
+    },
     "provides"       : [ "RSSTextures" ],
     "conflicts"      : [
         { "name" : "RSSTexturesDDS2048" },
         { "name" : "RSSTexturesDDS4096" }
     ],
-    "abstract"       : "Textures for Real Solar Systems",
-    "download"       : "https://ksp.sarbian.com/nathankell/RealSolarSystem/Textures//RSSTextures8192DDS.zip",
-    "license"        : "CC-BY-NC-SA",
-    "version"        : "1.0",
-    "ksp_version_max"    : "0.90",
-    "release_status" : "stable",
-    "resources": {
-        "homepage": "https://ksp.sarbian.com/nathankell/RealSolarSystem/Textures/"
-    },
     "depends" : [
         { "name" : "RealSolarSystem", "min_version" : "v8.3" },
         { "name" : "DDSLoader" }
     ],
+    "download"       : "https://ksp.sarbian.com/nathankell/RealSolarSystem/Textures//RSSTextures8192DDS.zip",
     "install" : [
         {
             "file"       : "GameData/RSSTextures",

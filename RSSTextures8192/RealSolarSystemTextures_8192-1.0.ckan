@@ -1,21 +1,22 @@
 {
     "spec_version"   : 1,
-    "name"           : "Real Solar System Textures - 8192 x 4096",
     "identifier"     : "RSSTextures8192",
+    "name"           : "Real Solar System Textures - 8192 x 4096",
+    "abstract"       : "Textures for Real Solar Systems",
+    "author"         : "NathanKell",
+    "license"        : "CC-BY-NC-SA",
+    "release_status" : "stable",
+    "version"        : "1.0",
+    "ksp_version_max": "0.90",
     "provides"       : [ "RSSTextures" ],
     "conflicts"      : [
         { "name" : "RSSTextures2048" },
         { "name" : "RSSTextures4096" }
     ],
-    "abstract"       : "Textures for Real Solar Systems",
-    "download"       : "https://ksp.sarbian.com/nathankell/RealSolarSystem/Textures//8192.zip",
-    "license"        : "CC-BY-NC-SA",
-    "version"        : "1.0",
-    "ksp_version_max"    : "0.90",
-    "release_status" : "stable",
     "depends" : [
         { "name" : "RealSolarSystem" }
     ],
+    "download"       : "https://ksp.sarbian.com/nathankell/RealSolarSystem/Textures//8192.zip",
     "install" : [
         {
             "file"       : "RealSolarSystem",
