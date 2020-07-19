@@ -1,0 +1,82 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "CustomAsteroids",
+    "name": "Custom Asteroids",
+    "abstract": "Lets users control where asteroids appear",
+    "author": "Starstrider42",
+    "version": "v1.8.0",
+    "ksp_version_min": "1.4.0",
+    "ksp_version_max": "1.9.1",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/72785-custom-asteroids/",
+        "spacedock": "https://spacedock.info/mod/210/Custom%20Asteroids",
+        "repository": "https://github.com/Starstrider42/Custom-Asteroids",
+        "bugtracker": "https://github.com/Starstrider42/Custom-Asteroids/issues",
+        "manual": "http://starstrider42.github.io/Custom-Asteroids/",
+        "x_screenshot": "https://spacedock.info/content/Starstrider42_1134/Custom_Asteroids/Custom_Asteroids-1461528691.6712377.png"
+    },
+    "tags": [
+        "plugin",
+        "planet-pack"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "CustomAsteroids-Pops"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.23",
+            "comment": "Requires nested :HAS handling."
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CustomAsteroids-Pops-Stock-Stockalike"
+        },
+        {
+            "name": "CustomAsteroids-Pops-Stock-Inner"
+        },
+        {
+            "name": "CustomAsteroids-Pops-Stock-Outer"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "KSP-AVC"
+        }
+    ],
+    "supports": [
+        {
+            "name": "USI-ART",
+            "min_version": "0.8.2.0"
+        },
+        {
+            "name": "DMagicOrbitalScience",
+            "min_version": "1.2.4"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/CustomAsteroids",
+            "install_to": "GameData",
+            "filter": "config"
+        }
+    ],
+    "download": "https://spacedock.info/mod/210/Custom%20Asteroids/download/v1.8.0",
+    "download_size": 119637,
+    "download_hash": {
+        "sha1": "B77AA58665010C73EA749BE0EABB434409DA3998",
+        "sha256": "309990E2D5F1B32DE5CECD4FDFF62D70638F899A796EBF5027A2BC6C9EBE472F"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-07-19T00:44:28.136968+00:00",
+    "x_maintained_by": "Starstrider42",
+    "x_generated_by": "netkan"
+}
