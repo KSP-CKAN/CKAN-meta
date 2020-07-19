@@ -1,0 +1,131 @@
+{
+    "spec_version": "v1.2",
+    "comment": "Match to Custom Asteroids v1.6.0, see NetKAN#3841.",
+    "identifier": "CustomAsteroids-Pops-Stock-Outer",
+    "name": "Custom Asteroids (outer stock system data)",
+    "abstract": "Adds comets outside orbit of Jool",
+    "author": "Starstrider42",
+    "version": "v1.8.0",
+    "ksp_version_min": "1.4.0",
+    "ksp_version_max": "1.9.1",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/72785-custom-asteroids/",
+        "spacedock": "https://spacedock.info/mod/210/Custom%20Asteroids",
+        "repository": "https://github.com/Starstrider42/Custom-Asteroids",
+        "x_screenshot": "https://spacedock.info/content/Starstrider42_1134/Custom_Asteroids/Custom_Asteroids-1461528691.6712377.png"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "provides": [
+        "CustomAsteroids-Pops"
+    ],
+    "depends": [
+        {
+            "name": "CustomAsteroids",
+            "min_version": "v1.6.0",
+            "max_version": "v1.99.99",
+            "comment": "Requires localization support."
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AlternisKerbolRekerjiggered",
+            "comment": "Completely different system."
+        },
+        {
+            "name": "AlternisRealSolarSystem",
+            "comment": "Completely different system."
+        },
+        {
+            "name": "BorisSystem",
+            "comment": "Giant planet in Kuper belt."
+        },
+        {
+            "name": "FarloPlanetaryPack",
+            "comment": "Giant planet in scattered disk."
+        },
+        {
+            "name": "HarderSolarSystem",
+            "comment": "Stock orbits not inclined."
+        },
+        {
+            "name": "JungisPlanetPack",
+            "comment": "Giant planet in Kuper belt."
+        },
+        {
+            "name": "KerbolOrigins",
+            "comment": "Giant planet in scattered disk."
+        },
+        {
+            "name": "KPlus",
+            "comment": "Giant planet in scattered disk."
+        },
+        {
+            "name": "Ktolemy",
+            "comment": "Completely different system."
+        },
+        {
+            "name": "LittleGreenMenFromMars",
+            "comment": "Completely different system."
+        },
+        {
+            "name": "NewHorizons",
+            "comment": "Completely different system."
+        },
+        {
+            "name": "OuterPlanetsMod",
+            "comment": "Giant planets in Kuper belt and scattered disk."
+        },
+        {
+            "name": "RealSolarSystem",
+            "comment": "Completely different system."
+        },
+        {
+            "name": "SaruPlanetPack",
+            "comment": "Giant planet in Kuper belt."
+        },
+        {
+            "name": "SentarExpansion",
+            "comment": "Giant planet in scattered disk."
+        },
+        {
+            "name": "SmallSolarSystem",
+            "comment": "Completely different system."
+        },
+        {
+            "name": "StockAlikeSolarSystem",
+            "comment": "Completely different system."
+        },
+        {
+            "name": "TerrestrialPlanetPack",
+            "comment": "Terrestrial planets in Kuper belt and scattered disk."
+        },
+        {
+            "name": "UnchartedLands",
+            "comment": "Completely different system."
+        }
+    ],
+    "install": [
+        {
+            "file": "Standard Setup/config",
+            "install_to": "GameData/CustomAsteroids",
+            "filter_regexp": "(?<!Trans-Jool\\.cfg)$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/210/Custom%20Asteroids/download/v1.8.0",
+    "download_size": 119637,
+    "download_hash": {
+        "sha1": "B77AA58665010C73EA749BE0EABB434409DA3998",
+        "sha256": "309990E2D5F1B32DE5CECD4FDFF62D70638F899A796EBF5027A2BC6C9EBE472F"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-07-19T00:44:28.136968+00:00",
+    "x_maintained_by": "Starstrider42",
+    "x_generated_by": "netkan"
+}
