@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "ThrottleControlledAvionics",
+    "name": "Throttle Controlled Avionics",
+    "abstract": "TCA is a plugin that enhances the attitude control of a ship by dynamically changing the output of its engines and RCS thrusters. Even with most unbalanced designs TCA maintains stable flight and quick precise response to user or autopilot input. TCA also provides many sophisticated autopilot programs based on this core functionality, including waypoint navigation and automatic landing. It is also fast enough to simultaneously control a whole squadron of ships without much overhead.",
+    "author": [
+        "allista"
+    ],
+    "version": "v3.7.1",
+    "ksp_version_min": "1.9.0",
+    "ksp_version_max": "1.10.0",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/97154-throttle-controlled-avionics",
+        "spacedock": "https://spacedock.info/mod/198/Throttle%20Controlled%20Avionics",
+        "repository": "https://github.com/allista/ThrottleControlledAvionics",
+        "bugtracker": "https://github.com/allista/ThrottleControlledAvionics/issues",
+        "manual": "https://github.com/allista/ThrottleControlledAvionics/blob/master/GameData/ThrottleControlledAvionics/INSTRUCTIONS.md",
+        "metanetkan": "https://raw.githubusercontent.com/allista/ThrottleControlledAvionics/master/ThrottleControlledAvionics.netkan",
+        "x_screenshot": "https://spacedock.info/content/allista_931/Throttle_Controlled_Avionics/Throttle_Controlled_Avionics-1455987208.8846784.png"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "AT-Utils"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KSP-AVC"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "supports": [
+        {
+            "name": "Hangar"
+        }
+    ],
+    "download": "https://spacedock.info/mod/198/Throttle%20Controlled%20Avionics/download/3.7.1",
+    "download_size": 592822,
+    "download_hash": {
+        "sha1": "C3AB52048A9F7E8CB22F92DA84BAAB6EE5A03427",
+        "sha256": "89965A433EB5AFAAEAB228B63E387EA499DEAA0CD2754EAF7A33846C83AD4A85"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-07-22T13:22:34.44338+00:00",
+    "x_generated_by": "netkan"
+}
