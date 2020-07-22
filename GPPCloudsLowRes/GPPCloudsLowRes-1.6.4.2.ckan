@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GPPCloudsLowRes",
+    "name": "GPP LowRes clouds",
+    "abstract": "Low resolution clouds for GPP",
+    "author": [
+        "Galileo88",
+        "OhioBob"
+    ],
+    "version": "1.6.4.2",
+    "ksp_version": "1.4.5",
+    "license": "CC-BY-NC-ND",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152136-ksp-13-galileos-planet-pack-v151-8-sept-2017/",
+        "repository": "https://github.com/Galileo88/Galileos-Planet-Pack",
+        "bugtracker": "https://github.com/Galileo88/Galileos-Planet-Pack/issues",
+        "metanetkan": "https://raw.githubusercontent.com/Galileo88/Galileos-Planet-Pack/master/CKAN/GPPCloudsLowRes.netkan"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "depends": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "GPPCloudsHighRes"
+        }
+    ],
+    "install": [
+        {
+            "find": "Optional Mods/GPP_Clouds/Low-res Clouds_GameData inside/GameData/GPP",
+            "install_to": "GameData",
+            "comment": "This installs the low resolution clouds configs for GPP"
+        }
+    ],
+    "download": "https://github.com/Galileo88/Galileos-Planet-Pack/releases/download/1.6.4.2/Galileos-Planet-Pack-1.6.4.2.zip",
+    "download_size": 393797417,
+    "download_hash": {
+        "sha1": "EF3005CB598902A47E3E26FC9F0853FD061BD11E",
+        "sha256": "BF199AFDD7D5D94D5B78BCC8BF106F971A1EE6B99B721F870986858326D64AEA"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-07-22T22:06:41Z",
+    "x_generated_by": "netkan"
+}
