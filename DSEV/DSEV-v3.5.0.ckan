@@ -6,9 +6,9 @@
     "author": "Angel-125",
     "version": "v3.5.0",
     "ksp_version_min": "1.8.0",
-    "license": "unknown",
+    "license": "restricted",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/122162-181-19x-deep-space-exploration-vessels-build-nasa-inspired-ships-in-ksp/",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/122162-*",
         "repository": "https://github.com/Angel-125/DSEV",
         "bugtracker": "https://github.com/Angel-125/DSEV/issues"
     },
@@ -19,16 +19,19 @@
     ],
     "depends": [
         {
-            "name": "NearFutureProps"
-        },
-        {
             "name": "ModuleManager"
         },
         {
             "name": "WildBlueTools"
         },
         {
+            "name": "NearFutureProps"
+        },
+        {
             "name": "KerbalActuators"
+        },
+        {
+            "name": "ClassicStockResources"
         },
         {
             "name": "BarisBridge"
@@ -36,33 +39,27 @@
     ],
     "recommends": [
         {
-            "name": "Snacks"
+            "name": "RasterPropMonitor-Core"
         },
         {
-            "name": "ClassicStockResources"
+            "name": "ASETProps"
         },
         {
-            "name": "ExtraPlanetaryLaunchpads"
-        },
-        {
-            "name": "KIS"
-        },
-        {
-            "name": "KAS"
-        },
+            "name": "InfernalRobotics"
+        }
+    ],
+    "suggests": [
         {
             "name": "ASET"
-        },
-        {
-            "name": "ASETAvionics"
         }
     ],
     "install": [
         {
             "find": "WildBlueIndustries/DSEV",
-            "install_to": "GameData",
+            "install_to": "GameData/WildBlueIndustries",
             "filter_regexp": [
-                ".*\\.pdb$"
+                ".*\\.pdb$",
+                "ReferenceDesigns"
             ]
         },
         {
@@ -82,6 +79,5 @@
     },
     "download_content_type": "application/zip",
     "release_date": "2020-04-29T17:41:45Z",
-    "x_via": "Automated Linuxgurugamer CKAN script",
     "x_generated_by": "netkan"
 }
