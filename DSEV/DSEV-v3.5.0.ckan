@@ -1,0 +1,87 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DSEV",
+    "name": "DSEV",
+    "abstract": "Deep Space Exploration Vessels for KSP",
+    "author": "Angel-125",
+    "version": "v3.5.0",
+    "ksp_version_min": "1.8.0",
+    "license": "unknown",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/122162-181-19x-deep-space-exploration-vessels-build-nasa-inspired-ships-in-ksp/",
+        "repository": "https://github.com/Angel-125/DSEV",
+        "bugtracker": "https://github.com/Angel-125/DSEV/issues"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "NearFutureProps"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "WildBlueTools"
+        },
+        {
+            "name": "KerbalActuators"
+        },
+        {
+            "name": "BarisBridge"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "ClassicStockResources"
+        },
+        {
+            "name": "ExtraPlanetaryLaunchpads"
+        },
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "ASET"
+        },
+        {
+            "name": "ASETAvionics"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries/DSEV",
+            "install_to": "GameData",
+            "filter_regexp": [
+                ".*\\.pdb$"
+            ]
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find": "SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/Angel-125/DSEV/releases/download/v3.5.0/DSEV_3_5_0.zip",
+    "download_size": 83775404,
+    "download_hash": {
+        "sha1": "8716F23D98EFAE16DD88DF81DF1B048D0818738E",
+        "sha256": "0DA313FA3E2BFEEC2CB75D2B0EE216B21230BD372FC6F1DDEF35759F2B4E3884"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-04-29T17:41:45Z",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
