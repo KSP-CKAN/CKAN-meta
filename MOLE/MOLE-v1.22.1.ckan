@@ -6,9 +6,9 @@
     "author": "Angel-125",
     "version": "v1.22.1",
     "ksp_version_min": "1.8.0",
-    "license": "unknown",
+    "license": "restricted",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/154893-181-19x-mark-one-laboratory-extensions-mole/",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/154893-*",
         "repository": "https://github.com/Angel-125/MOLE",
         "bugtracker": "https://github.com/Angel-125/MOLE/issues"
     },
@@ -28,18 +28,26 @@
             "name": "KerbalActuators"
         },
         {
+            "name": "ClassicStockResources"
+        },
+        {
             "name": "BarisBridge"
         }
     ],
     "recommends": [
         {
-            "name": "Snacks"
-        },
-        {
-            "name": "ClassicStockResources"
+            "name": "ASETProps"
         },
         {
             "name": "ExtraPlanetaryLaunchpads"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Pathfinder"
+        },
+        {
+            "name": "RealChute"
         },
         {
             "name": "KIS"
@@ -48,19 +56,36 @@
             "name": "KAS"
         },
         {
-            "name": "ASET"
+            "name": "kOS"
         },
         {
-            "name": "ASETAvionics"
+            "name": "RasterPropMonitor-Core"
+        },
+        {
+            "name": "CactEyeCommunity"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Kerbalism"
         }
     ],
     "install": [
         {
             "find": "WildBlueIndustries/MOLE",
-            "install_to": "GameData",
+            "install_to": "GameData/WildBlueIndustries",
             "filter_regexp": [
-                ".*\\.pdb$"
+                ".*\\.pdb$",
+                "SampleCraft"
             ]
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
         }
     ],
     "download": "https://github.com/Angel-125/MOLE/releases/download/v1.22.1/MOLE_1_22_1.zip",
@@ -71,6 +96,5 @@
     },
     "download_content_type": "application/zip",
     "release_date": "2020-07-23T19:44:38Z",
-    "x_via": "Automated Linuxgurugamer CKAN script",
     "x_generated_by": "netkan"
 }
