@@ -6,14 +6,15 @@
     "author": "Angel-125",
     "version": "v2.17.1",
     "ksp_version_min": "1.8.0",
-    "license": "unknown",
+    "license": "restricted",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/150702-181-19x-heisenberg-airships-part-pack/",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/150702-*",
         "repository": "https://github.com/Angel-125/Airships",
         "bugtracker": "https://github.com/Angel-125/Airships/issues"
     },
     "tags": [
         "parts",
+        "plugin",
         "crewed"
     ],
     "depends": [
@@ -21,16 +22,16 @@
             "name": "ModuleManager"
         },
         {
-            "name": "HooliganLabsAirships"
-        },
-        {
-            "name": "FirespitterCore"
-        },
-        {
             "name": "WildBlueTools"
         },
         {
+            "name": "HooliganLabsAirships"
+        },
+        {
             "name": "KerbalActuators"
+        },
+        {
+            "name": "ClassicStockResources"
         },
         {
             "name": "BarisBridge"
@@ -38,13 +39,18 @@
     ],
     "recommends": [
         {
-            "name": "Snacks"
+            "name": "AirParkContinued"
         },
         {
-            "name": "ClassicStockResources"
+            "name": "ASETProps"
         },
         {
-            "name": "ExtraPlanetaryLaunchpads"
+            "name": "AircraftCarrierAccessories"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Pathfinder"
         },
         {
             "name": "KIS"
@@ -53,19 +59,31 @@
             "name": "KAS"
         },
         {
-            "name": "ASET"
+            "name": "kOS"
         },
         {
-            "name": "ASETAvionics"
+            "name": "Snacks"
+        },
+        {
+            "name": "TACLS"
         }
     ],
     "install": [
         {
             "find": "WildBlueIndustries/Heisenberg",
-            "install_to": "GameData",
+            "install_to": "GameData/WildBlueIndustries",
             "filter_regexp": [
-                ".*\\.pdb$"
+                ".*\\.pdb$",
+                "SampleCraft"
             ]
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find": "SPH",
+            "install_to": "Ships"
         }
     ],
     "download": "https://github.com/Angel-125/Airships/releases/download/v2.17.1/Heisenberg_2_17_1.zip",
@@ -76,6 +94,5 @@
     },
     "download_content_type": "application/zip",
     "release_date": "2020-02-11T03:11:44Z",
-    "x_via": "Automated Linuxgurugamer CKAN script",
     "x_generated_by": "netkan"
 }
