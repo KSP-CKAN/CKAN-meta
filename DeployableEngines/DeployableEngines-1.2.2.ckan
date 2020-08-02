@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DeployableEngines",
+    "name": "Deployable Engines Plugin",
+    "abstract": "A plugin to manage extending/retracting engine nozzles",
+    "author": "ChrisAdderley",
+    "version": "1.2.2",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.10.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/ChrisAdderley/DeployableEngines/wiki",
+        "repository": "https://github.com/ChrisAdderley/DeployableEngines",
+        "bugtracker": "https://github.com/ChrisAdderley/DeployableEngines/issues",
+        "metanetkan": "https://github.com/ChrisAdderley/DeployableEngines/raw/master/CKAN/DeployableEngines.netkan"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "supports": [
+        {
+            "name": "KerbalAtomics"
+        },
+        {
+            "name": "CryoEngines"
+        }
+    ],
+    "install": [
+        {
+            "find": "DeployableEngines",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/ChrisAdderley/DeployableEngines/releases/download/1.2.2/DeployableEngines_1_2_2.zip",
+    "download_size": 7810,
+    "download_hash": {
+        "sha1": "C876F0E5385E9F1E8538D3EC0444C5C7CB8194EC",
+        "sha256": "AAC5D48C8953DDD495AFC838B3C4C31268415867CA0D457A7D3134D550400C21"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-08-02T15:08:35Z",
+    "x_generated_by": "netkan"
+}
