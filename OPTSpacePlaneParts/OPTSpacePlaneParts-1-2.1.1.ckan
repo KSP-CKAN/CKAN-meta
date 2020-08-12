@@ -1,8 +1,8 @@
 {
     "spec_version": "v1.4",
     "identifier": "OPTSpacePlaneParts",
-    "name": "Orbit Portal Technology [OPT] Spaceplane Parts (Legacy)",
-    "abstract": "Parts from previous OPT versions, recommended to avoid game breaking if you used v1.8.6",
+    "name": "OPT Spaceplane (Legacy)",
+    "abstract": "Retired parts such as Stail fuselage, and expansion pack containing many wings and engines",
     "author": [
         "moobien",
         "kyeon",
@@ -17,7 +17,8 @@
         "x_screenshot": "https://spacedock.info/content/moobien_3210/Orbit_Portal_Technology_OPT_Spaceplane_Parts/Orbit_Portal_Technology_OPT_Spaceplane_Parts-1575436631.108278.jpg"
     },
     "tags": [
-        "parts"
+        "parts",
+        "crewed"
     ],
     "depends": [
         {
@@ -29,7 +30,16 @@
     ],
     "recommends": [
         {
+            "name": "KerbalFoundriesContinued"
+        },
+        {
             "name": "OPTSpacePlaneMain"
+        },
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "KerbalActuators"
         }
     ],
     "install": [
