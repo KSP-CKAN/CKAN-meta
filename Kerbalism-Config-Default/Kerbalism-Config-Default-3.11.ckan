@@ -1,0 +1,76 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Kerbalism-Config-Default",
+    "name": "Kerbalism - Default Config",
+    "abstract": "Default configuration for Kerbalism",
+    "author": "Kerbalism Contributors",
+    "version": "3.11",
+    "ksp_version_min": "1.5.0",
+    "ksp_version_max": "1.10.9",
+    "license": "Unlicense",
+    "resources": {
+        "repository": "https://github.com/Kerbalism/Kerbalism",
+        "bugtracker": "https://github.com/Kerbalism/Kerbalism/issues"
+    },
+    "tags": [
+        "config",
+        "physics",
+        "crewed",
+        "science"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn",
+        "es-es",
+        "ru",
+        "ko-kr",
+        "de-de",
+        "pt-br"
+    ],
+    "provides": [
+        "Kerbalism-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-Config"
+        },
+        {
+            "name": "UKS"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "USI-LS"
+        },
+        {
+            "name": "BackgroundProcessing"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismConfig",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Kerbalism/Kerbalism/releases/download/3.11/Kerbalism-Config_v3.11_for_KSP1.5.0-1.10.9.zip",
+    "download_size": 14944988,
+    "download_hash": {
+        "sha1": "BBFEBC90B78C6FA39D4388A4AE01DA7B6228CF78",
+        "sha256": "13C3E33CC614F4E1BC0ADFD4958600158AC35D0AA5277D8467ED7ED675388DFA"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-08-19T09:08:01Z",
+    "x_generated_by": "netkan"
+}
