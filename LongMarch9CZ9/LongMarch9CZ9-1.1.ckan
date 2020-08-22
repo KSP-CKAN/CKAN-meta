@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "LongMarch9CZ9",
+    "name": "LongMarch-9（CZ-9）",
+    "abstract": "万户出品，必属精品！",
+    "author": "Karrot",
+    "version": "1.1",
+    "ksp_version": "1.10.1",
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/2508/LongMarch-9（CZ-9）"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "Wanhu-Common"
+        }
+    ],
+    "install": [
+        {
+            "find": "Wanhu",
+            "install_to": "GameData",
+            "filter": [
+                "Assets",
+                "Flags",
+                "FX",
+                "Icons",
+                "WanhuTools.dll",
+                "WanhuCategory.cfg"
+            ],
+            "filter_regexp": [
+                ".*\\.craft$"
+            ]
+        },
+        {
+            "find": "CZ-09.craft",
+            "find_matches_files": true,
+            "install_to": "Ships/VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2508/LongMarch-9%EF%BC%88CZ-9%EF%BC%89/download/1.1",
+    "download_size": 80679065,
+    "download_hash": {
+        "sha1": "C7D0C9429D2808DD022E089A4CCCD628510D6BF1",
+        "sha256": "5BC554116A246BDE000F6D61706C91A4B2CC943486816C885C79C4B683B1B8DB"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-08-22T07:40:02.970522+00:00",
+    "x_generated_by": "netkan"
+}
