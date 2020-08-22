@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "LongMarch10CZ10",
+    "name": "LongMarch-10（CZ-10）",
+    "abstract": "万户出品，必属精品！",
+    "author": "Karrot",
+    "version": "1.3",
+    "ksp_version": "1.10.1",
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/2507/LongMarch-10（CZ-10）",
+        "x_screenshot": "https://spacedock.info/content/Karrot_36750/LongMarch-10CZ-10/LongMarch-10CZ-10-1598080268.1512942.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "Wanhu-Common"
+        }
+    ],
+    "install": [
+        {
+            "find": "Wanhu",
+            "install_to": "GameData",
+            "filter": [
+                "Assets",
+                "Flags",
+                "FX",
+                "Icons",
+                "WanhuTools.dll",
+                "WanhuCategory.cfg"
+            ],
+            "filter_regexp": [
+                ".*\\.craft$"
+            ]
+        },
+        {
+            "find": "CZ-10M.craft",
+            "find_matches_files": true,
+            "install_to": "Ships/VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2507/LongMarch-10%EF%BC%88CZ-10%EF%BC%89/download/1.3",
+    "download_size": 34396807,
+    "download_hash": {
+        "sha1": "5C053F4440311857A44DDFB39208EDE436D85164",
+        "sha256": "2BDCF5FC04B264519C3FC50AD48994F2EB96EC801BDBA20B5C38005A51117AB3"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-08-22T07:21:28.640316+00:00",
+    "x_generated_by": "netkan"
+}
