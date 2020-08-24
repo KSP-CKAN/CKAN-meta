@@ -1,0 +1,98 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Heisenberg",
+    "name": "Airships",
+    "abstract": "Giant floating aircraft",
+    "author": "Angel-125",
+    "version": "v2.17.3",
+    "ksp_version_min": "1.8.0",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/150702-*",
+        "repository": "https://github.com/Angel-125/Airships",
+        "bugtracker": "https://github.com/Angel-125/Airships/issues"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "WildBlueTools"
+        },
+        {
+            "name": "HooliganLabsAirships"
+        },
+        {
+            "name": "KerbalActuators"
+        },
+        {
+            "name": "ClassicStockResources"
+        },
+        {
+            "name": "BarisBridge"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "AirParkContinued"
+        },
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "AircraftCarrierAccessories"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Pathfinder"
+        },
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "kOS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "TACLS"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries/Heisenberg",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter_regexp": [
+                ".*\\.pdb$",
+                "SampleCraft"
+            ]
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find": "SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/Angel-125/Airships/releases/download/v2.17.3/Heisenberg_2_17_3.zip",
+    "download_size": 48570893,
+    "download_hash": {
+        "sha1": "BCBC4C0D6ABDCFFF5808A917E731966D4EF0174C",
+        "sha256": "A9CE2746F9BEA5D5442D72100D3F7D69F5312CF55A6F383614A7A67FDCDF88D6"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-08-24T19:24:11Z",
+    "x_generated_by": "netkan"
+}
