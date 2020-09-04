@@ -1,0 +1,70 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "InterstellarFuelSwitch-Core",
+    "name": "Interstellar Fuel Switch Core",
+    "abstract": "Core plugin for Interstellar Fuel Switch",
+    "author": "FreeThinker",
+    "version": "3.18",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.10.1",
+    "license": "GPL-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/106243-105interstellar-fuel-switch-118-updated-10-11-2015/",
+        "spacedock": "https://spacedock.info/mod/175/Interstellar%20Fuel%20Switch",
+        "repository": "https://github.com/sswelm/KSP-Interstellar-Extended/tree/master/FuelSwitch",
+        "x_screenshot": "https://spacedock.info/content/FreeThinker_517/Interstellar_Fuel_Switch/Interstellar_Fuel_Switch-1481278354.0821617.jpg"
+    },
+    "tags": [
+        "plugin",
+        "resources",
+        "library"
+    ],
+    "localizations": [
+        "en-us",
+        "es-es",
+        "fr-fr",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "DeadskinsTextureSwitch",
+        "DeadskinsMeshSwitch"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TweakScale"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.7.1"
+        }
+    ],
+    "install": [
+        {
+            "find": "InterstellarFuelSwitch/Plugins",
+            "install_to": "GameData/InterstellarFuelSwitch"
+        },
+        {
+            "find": "InterstellarFuelSwitch/Resources",
+            "install_to": "GameData/InterstellarFuelSwitch"
+        },
+        {
+            "find": "InterstellarFuelSwitch/Localization",
+            "install_to": "GameData/InterstellarFuelSwitch"
+        }
+    ],
+    "download": "https://spacedock.info/mod/175/Interstellar%20Fuel%20Switch/download/3.18",
+    "download_size": 20234754,
+    "download_hash": {
+        "sha1": "75F830093845BA3A122D6396A972330F9C73EC25",
+        "sha256": "6494B7FD0479A43668B0CA412CA499FE9B7B5EAFE294A0DE070C5F3FFF462A69"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-09-04T15:15:06.277743+00:00",
+    "x_generated_by": "netkan"
+}
