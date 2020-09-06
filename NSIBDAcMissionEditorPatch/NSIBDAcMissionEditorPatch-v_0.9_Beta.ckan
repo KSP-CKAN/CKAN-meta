@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "NSIBDAcMissionEditorPatch",
+    "name": "NSI BDAc Mission Editor Patch",
+    "abstract": "!!WARNING!! This patch will place BDAc and all associated MODS' parts into the Utility category for use in the Mission Editor. This patch also places a Weapon Manager, Surface AI, and Ship AI onto all Command Modules.",
+    "author": "Next_Star_Industries",
+    "version": "v_0.9_Beta",
+    "ksp_version": "1.10.1",
+    "license": "CC-BY-SA-2.0",
+    "resources": {
+        "homepage": "https://github.com/NextStarIndustries/Next-Star-Industries",
+        "spacedock": "https://spacedock.info/mod/2515/NSI%20BDAc%20Mission%20Editor%20Patch",
+        "x_screenshot": "https://spacedock.info/content/Next_Star_Industries_13277/NSI_BDAc_Mission_Editor_Patch/NSI_BDAc_Mission_Editor_Patch-1598555748.6613932.png"
+    },
+    "tags": [
+        "config",
+        "combat"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "BDArmory"
+        },
+        {
+            "name": "MakingHistory-DLC"
+        }
+    ],
+    "install": [
+        {
+            "find": "MissionEditorPatch.cfg",
+            "install_to": "GameData/NSIBDAcMissionEditorPatch",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/2515/NSI%20BDAc%20Mission%20Editor%20Patch/download/v_0.9_Beta",
+    "download_size": 1062,
+    "download_hash": {
+        "sha1": "6E61199D2F83B4FF46544B3B6DDE0AF8C246C8DF",
+        "sha256": "61258CD075A52D65D7553199989EC0C70426B2BDD0C7968DDB2CDEFE51F863FF"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-08-27T19:13:44.615849+00:00",
+    "x_generated_by": "netkan"
+}
