@@ -1,0 +1,81 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "BDArmoryForRunwayProject",
+    "name": "BDArmory for Runway Project",
+    "abstract": "A version of the BDArmory mod for use with Scott Manley's Runway Project.",
+    "author": [
+        "BahamutoD",
+        "Papa_Joe",
+        "jrodrigv",
+        "ouloul",
+        "Scott Manley",
+        "JR",
+        "DocNappers",
+        "Cl0by",
+        "josue",
+        "aubranium",
+        "benbenwilde",
+        "TheKurgan"
+    ],
+    "version": "1.3.4",
+    "ksp_version_min": "1.9.0",
+    "ksp_version_max": "1.10.1",
+    "license": "CC-BY-SA-2.0",
+    "resources": {
+        "homepage": "https://docs.google.com/document/d/1taFjsHjuBoWwbpLLyg5V7c72eQUGGuPHdLIf0LueX_o/edit#heading=h.a2r2a9n8z66o",
+        "spacedock": "https://spacedock.info/mod/2487/BDArmory%20for%20Runway%20Project",
+        "repository": "https://github.com/BrettRyland/BDArmory"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "sound",
+        "combat"
+    ],
+    "localizations": [
+        "en-us",
+        "es-es",
+        "ja",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "BDArmory"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "PhysicsRangeExtender"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "BDArmory"
+        }
+    ],
+    "install": [
+        {
+            "find": "BDArmory",
+            "install_to": "GameData",
+            "filter": [
+                "craft"
+            ]
+        },
+        {
+            "find": "craft",
+            "install_to": "Ships",
+            "as": "SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2487/BDArmory%20for%20Runway%20Project/download/1.3.4",
+    "download_size": 54586873,
+    "download_hash": {
+        "sha1": "5B1DBEE3C5A1792D5D52CC0E0ABD85C226479575",
+        "sha256": "E6D280E4B6BD21453A6E455C068A291B2CB289C596ADCA1BCE442B35C8A85DB2"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-09-11T22:39:22.057144+00:00",
+    "x_generated_by": "netkan"
+}
