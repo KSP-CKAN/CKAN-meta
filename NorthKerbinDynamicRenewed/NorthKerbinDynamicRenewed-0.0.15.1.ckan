@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NorthKerbinDynamicRenewed",
+    "name": "North Kerbin Dynamic Renewed",
+    "abstract": "When BDArmory ant explosion dissapoint you",
+    "author": [
+        "harpwner",
+        "cukkoo"
+    ],
+    "version": "0.0.15.1",
+    "ksp_version": "1.9.1",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://sites.google.com/view/north-kerbin-dynamic/home",
+        "spacedock": "https://spacedock.info/mod/2483/North%20Kerbin%20Dynamic%20Renewed",
+        "repository": "https://github.com/dogevspenguin/NKDRes",
+        "x_screenshot": "https://spacedock.info/content/cukkoo_42291/North_Kerbin_Dynamic_Renewed/North_Kerbin_Dynamic_Renewed-1595673853.8544378.jpg"
+    },
+    "tags": [
+        "parts",
+        "combat"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "BDArmoryContinued"
+        },
+        {
+            "name": "PhysicsRangeExtender"
+        }
+    ],
+    "install": [
+        {
+            "find": "NKDR",
+            "install_to": "GameData",
+            "filter": [
+                ".DS_Store",
+                "Craft"
+            ]
+        },
+        {
+            "find": "Craft/SPH",
+            "install_to": "Ships"
+        },
+        {
+            "find": "Craft/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2483/North%20Kerbin%20Dynamic%20Renewed/download/0.0.15.1",
+    "download_size": 75462659,
+    "download_hash": {
+        "sha1": "0D9099FF435BE16A800A3ACD99B0AE02BFBF8202",
+        "sha256": "2AF0826FDB8578FCCAA5B69C8CA722DD75E8AF3424A7155A890B1CE207A2CC34"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-09-20T05:53:27.711602+00:00",
+    "x_generated_by": "netkan"
+}
