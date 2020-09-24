@@ -1,0 +1,68 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "BeyondHome",
+    "name": "Beyond Home",
+    "abstract": "A planet mod that takes place after the Kerbol system has died. Kerbals have escaped to another star system. Beyond Home adds a unique suite of over 28 planets each with their own high quality visuals.",
+    "author": "Gameslinx",
+    "version": "1.5.0",
+    "ksp_version": "1.8",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182708-*",
+        "repository": "https://github.com/Gameslinx/BeyondHomePlanetMod",
+        "bugtracker": "https://github.com/Gameslinx/BeyondHomePlanetMod/issues"
+    },
+    "tags": [
+        "config",
+        "planet-pack",
+        "graphics"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "Scatterer-sunflare-default"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "SigmaReplacements-SkyBox"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "GPP"
+        },
+        {
+            "name": "StockVisualEnhancements"
+        }
+    ],
+    "install": [
+        {
+            "find": "BeyondHome",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Gameslinx/BeyondHomePlanetMod/releases/download/1.5.0/Beyond.Home.1.5.0.zip",
+    "download_size": 1726341489,
+    "download_hash": {
+        "sha1": "26EC1AA67EB09597CE8C30AEDD213762A6C4D8BC",
+        "sha256": "A15020727C50014674B6E4F14B8CF3F0EFCAC93BCB3268F50A1B0FC3937A013B"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-09-23T18:20:01Z",
+    "x_generated_by": "netkan"
+}
