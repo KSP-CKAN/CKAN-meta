@@ -1,0 +1,76 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ContractConfigurator-HistoryofSpaceflight-RSS",
+    "name": "History of Spaceflight RSS",
+    "abstract": "A contract pack recreating almost all real-life missions that were actually flown, currently up until 1967. This version is for users of RSS and fits well with RP-0/RP-1.",
+    "author": [
+        "Morphisor",
+        "Frylovespi"
+    ],
+    "version": "0.9.2",
+    "ksp_version_min": "1.2.2",
+    "ksp_version_max": "1.99.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/192880-12-19x-contract-pack-history-of-spaceflight/",
+        "spacedock": "https://spacedock.info/mod/2385/History%20of%20Spaceflight%20RSS",
+        "repository": "https://github.com/Frylovespi/History-of-Spaceflight/"
+    },
+    "tags": [
+        "config",
+        "career"
+    ],
+    "provides": [
+        "ContractConfigurator-HistoryofSpaceflight"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ContractConfigurator"
+        },
+        {
+            "name": "RealSolarSystem"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "BluedogDB"
+        },
+        {
+            "name": "NewTantares"
+        },
+        {
+            "name": "ProbesPlus"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ContractConfigurator-HistoryofSpaceflight"
+        }
+    ],
+    "install": [
+        {
+            "find": "ContractPacks",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GenericEngines",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GenericPlumes",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2385/History%20of%20Spaceflight%20RSS/download/0.9.2",
+    "download_size": 15144891,
+    "download_hash": {
+        "sha1": "B57B886545ABEB8709F0FD866FE4851198CFA2C3",
+        "sha256": "0812598860CC4EAC74FA1CF1A15CD3CF8BC611D866C607535A458DCC4A046DB7"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-09-27T19:52:47.118616+00:00",
+    "x_generated_by": "netkan"
+}
