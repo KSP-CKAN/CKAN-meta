@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "PWBFuelBalancerRestored",
+    "name": "PWB Fuel Balancer Restored",
+    "abstract": "Mod to automatically move fuel between tanks to return the Center of Mass to a preset position for that your vessel is perfectly balanced for RCS operations, or any other reason",
+    "author": [
+        "codepoetpbowden",
+        "linuxgurugamer"
+    ],
+    "version": "0.2.1.5",
+    "ksp_version_min": "1.9.1",
+    "license": "CC-BY-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/180409-*",
+        "repository": "https://github.com/linuxgurugamer/PWBFuelBalancerRestored",
+        "bugtracker": "https://github.com/linuxgurugamer/PWBFuelBalancerRestored/issues"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "PWBFuelBalancerRestored",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/PWBFuelBalancerRestored/releases/download/0.2.1.5/PWBFuelBalancerRestored-1.8.0-0.2.1.5.zip",
+    "download_size": 183290,
+    "download_hash": {
+        "sha1": "DBB05C77AC347F2C08BB4877700C98BA620AEA24",
+        "sha256": "E53E977D5D93544BFDB94C768C307900D335BA0784D8AC612F98714DB2C97D98"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-09-28T20:59:36Z",
+    "x_generated_by": "netkan"
+}
