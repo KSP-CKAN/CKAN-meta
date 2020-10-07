@@ -1,0 +1,68 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Kerbalism-Config-RO",
+    "name": "Kerbalism - RealismOverhaul Config",
+    "abstract": "Kerbalism configuration for Realism Overhaul and RP-1",
+    "author": "Standecco",
+    "version": "v1.0",
+    "ksp_version_min": "1.5.0",
+    "ksp_version_max": "1.10.9",
+    "license": "Unlicense",
+    "resources": {
+        "repository": "https://github.com/Standecco/ROKerbalism",
+        "bugtracker": "https://github.com/Standecco/ROKerbalism/issues"
+    },
+    "tags": [
+        "config",
+        "career",
+        "science",
+        "crewed"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "pt-br",
+        "ru"
+    ],
+    "provides": [
+        "Kerbalism-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealismOverhaul"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RP-0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-Config"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismConfig",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Standecco/ROKerbalism/releases/download/v1.0/GameData.zip",
+    "download_size": 3694187,
+    "download_hash": {
+        "sha1": "9F07F49D4E4F3928BE33E50418E35A4FFE227904",
+        "sha256": "2E9137CF764A6A7817C32416B23A17FD8B9D63EF28D27B569D5DD2B4049BF618"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-10-07T18:13:07Z",
+    "x_generated_by": "netkan"
+}
