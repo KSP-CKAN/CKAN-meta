@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "StockDefaultSettings",
+    "name": "StockDefaultSettings",
+    "abstract": "Simple window to edit some global values",
+    "author": "linuxgurugamer",
+    "version": "0.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.10.1",
+    "license": "LGPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197500-18x-19x-110x-stock-default-settings/",
+        "spacedock": "https://spacedock.info/mod/2549/StockDefaultSettings",
+        "repository": "https://github.com/linuxgurugamer/StockDefaultSettings/",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/StockDefaultSettings/StockDefaultSettings-1602776867.2303903.png"
+    },
+    "tags": [
+        "config",
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "StockDefaultSettings",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2549/StockDefaultSettings/download/0.0.1",
+    "download_size": 18338,
+    "download_hash": {
+        "sha1": "3CE28494D7A5E7056C0BD4B14C88C7472DA94766",
+        "sha256": "ABED8F5558FD51A561F7FF21746B94A72F27CBB25AAE782CE87F0CA0CF1CB309"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-10-15T15:45:20.326648+00:00",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
