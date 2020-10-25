@@ -1,0 +1,100 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "MOLE",
+    "name": "MOLE",
+    "abstract": "Mark One Laboratory Extensions- early space stations for KSP",
+    "author": "Angel-125",
+    "version": "v1.25.0",
+    "ksp_version_min": "1.8.0",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/154893-*",
+        "repository": "https://github.com/Angel-125/MOLE",
+        "bugtracker": "https://github.com/Angel-125/MOLE/issues"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "WildBlueTools"
+        },
+        {
+            "name": "KerbalActuators"
+        },
+        {
+            "name": "ClassicStockResources"
+        },
+        {
+            "name": "BarisBridge"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "ExtraPlanetaryLaunchpads"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Pathfinder"
+        },
+        {
+            "name": "RealChute"
+        },
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "kOS"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        },
+        {
+            "name": "CactEyeCommunity"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries/MOLE",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter_regexp": [
+                ".*\\.pdb$",
+                "SampleCraft"
+            ]
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/Angel-125/MOLE/releases/download/v1.25.0/MOLE.zip",
+    "download_size": 53606882,
+    "download_hash": {
+        "sha1": "5B42F1194B7CD49D7EE3E76ECF3E2868A6A0F3E4",
+        "sha256": "8F17007B710033203127837993E9F91C6DFE4B0F8C7AFFA3F24A306F891A8006"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-10-25T19:44:27Z",
+    "x_generated_by": "netkan"
+}
