@@ -1,0 +1,90 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Pathfinder",
+    "name": "Pathfinder",
+    "abstract": "Space Camping @ Geoscience",
+    "author": "Angel125",
+    "version": "v1.36.1",
+    "ksp_version_min": "1.8.0",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121397-*",
+        "repository": "https://github.com/Angel-125/Pathfinder",
+        "bugtracker": "https://github.com/Angel-125/Pathfinder/issues"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "agency",
+        "resources",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KerbalActuators"
+        },
+        {
+            "name": "ClassicStockResources"
+        },
+        {
+            "name": "BarisBridge"
+        },
+        {
+            "name": "WildBlueTools"
+        },
+        {
+            "name": "Buffalo"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "KIS"
+        }
+    ],
+    "supports": [
+        {
+            "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "USI-LS"
+        },
+        {
+            "name": "Snacks"
+        }
+    ],
+    "install": [
+        {
+            "find": "Pathfinder",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter_regexp": [
+                ".*\\.pdb$"
+            ]
+        },
+        {
+            "find": "SPH",
+            "install_to": "Ships"
+        },
+        {
+            "file": "GameData/WBIPlayMode.cfg",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Angel-125/Pathfinder/releases/download/v1.36.1/Pathfinder.zip",
+    "download_size": 63074007,
+    "download_hash": {
+        "sha1": "B56E1D017FB2817FC2FEA9D1A41A6C618E39B557",
+        "sha256": "53FC1DFAAAB2F84AAB0DD7A685CFE09759CF85C18950F2D8072EE6236E57746F"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-10-28T23:10:39Z",
+    "x_generated_by": "netkan"
+}
