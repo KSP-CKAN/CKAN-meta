@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "4kSPExpanded",
+    "name": "4kSP_Expanded",
+    "abstract": "4kSP scales the map elements corresponding to the stock UI scale setting",
+    "author": "linuxgurugamer",
+    "version": "0.2.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.10.1",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197794-18x-19x-110x-4ksp-expanded/",
+        "spacedock": "https://spacedock.info/mod/2554/4kSP_Expanded",
+        "repository": "https://github.com/linuxgurugamer/4ksp_Expanded",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/4kSP_Expanded/4kSP_Expanded-1603995829.391196.jpg"
+    },
+    "tags": [
+        "plugin",
+        "convenience",
+        "information",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "4kSP"
+        }
+    ],
+    "install": [
+        {
+            "find": "4ksp",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2554/4kSP_Expanded/download/0.2.0",
+    "download_size": 26718,
+    "download_hash": {
+        "sha1": "C035B4F95F8C48D8A09C82042A3D6C3C149AB421",
+        "sha256": "533038864058214E0F316AA27EDCECEDBF22AE4A9B8B7A497C5C8479B14CB1DC"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-10-29T18:17:19.419504+00:00",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
