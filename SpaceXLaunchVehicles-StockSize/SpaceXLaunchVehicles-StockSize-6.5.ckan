@@ -1,0 +1,70 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "SpaceXLaunchVehicles-StockSize",
+    "name": "SpaceX Launch Vehicles - Stock Size",
+    "abstract": "Crew Dragon, Starlink, Falcon 9, Falcon Heavy, Drone Ships to land your boosters on, Raptor engines and much more!",
+    "author": "Kartoffelkuchen",
+    "version": "6.5",
+    "ksp_version": "1.10.1",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193933-19x-kks-spacex-pack-17-05-2020/",
+        "spacedock": "https://spacedock.info/mod/269/SpaceX%20Launch%20Vehicles",
+        "x_screenshot": "https://spacedock.info/content/Kartoffelkuchen_1350/SpaceX_Launch_Vehicles/SpaceX_Launch_Vehicles-1589667274.7884016.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "provides": [
+        "SpaceXLaunchVehicles"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "TexturesUnlimited"
+        },
+        {
+            "name": "AnimatedDecouplers"
+        },
+        {
+            "name": "RetractableLiftingSurface"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SpaceXLaunchVehicles"
+        }
+    ],
+    "install": [
+        {
+            "find": "Kartoffelkuchen",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Launchers Pack",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Rescaled/GameData",
+            "install_to": "GameData",
+            "as": "Kartoffelkuchen"
+        },
+        {
+            "file": "Rescaled/Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/269/SpaceX%20Launch%20Vehicles/download/6.5",
+    "download_size": 130338802,
+    "download_hash": {
+        "sha1": "34DE59BDBA027DB457CF9B5FECE0BBB5E6EC62B7",
+        "sha256": "21DB139B0A1FEBA90858EEA49F7C0A39FB78663C41621AC0D2173BEAB3E3F9BA"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-11-01T13:45:23.550262+00:00",
+    "x_generated_by": "netkan"
+}
