@@ -1,0 +1,66 @@
+{
+    "spec_version": 1,
+    "comment": "Indexed by author. Please report any problems at the repository bugtracker.",
+    "identifier": "SmartTank",
+    "name": "Smart Tank",
+    "abstract": "Automatically scale tanks from Procedural Parts to fit a specified TWR",
+    "description": "Uses the stock vessel simulator to determine the TWR of each stage, then adjusts the sizes of tanks from Procedural Parts to fit a user-specified TWR. Also sets top and bottom diameters to match attached parts, matches the fuel tank type to the attached engine, and allows the user to change the default texture. All such features can be toggled at the part level with tweakables or at the system level via a button in the stock toolbar.",
+    "author": "HebaruSan",
+    "version": "v0.5.0",
+    "ksp_version_min": "1.9",
+    "ksp_version_max": "1.10",
+    "license": "GPL-3.0",
+    "release_status": "development",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/162743-*",
+        "repository": "https://github.com/HebaruSan/SmartTank",
+        "bugtracker": "https://github.com/HebaruSan/SmartTank/issues"
+    },
+    "tags": [
+        "plugin",
+        "editor",
+        "convenience"
+    ],
+    "localizations": [
+        "es-es",
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ProceduralParts"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "LoadingTipsPlus"
+        },
+        {
+            "name": "ProceduralParts-Textures-BattleTechAerospace"
+        },
+        {
+            "name": "ProceduralParts-Textures-SCCKSCS"
+        },
+        {
+            "name": "ProceduralParts-Textures-SaturnNova"
+        },
+        {
+            "name": "VensStylePPTextures"
+        },
+        {
+            "name": "MainSailorTextures-Complete"
+        }
+    ],
+    "download": "https://github.com/HebaruSan/SmartTank/releases/download/v0.5.0/SmartTank.zip",
+    "download_size": 40856,
+    "download_hash": {
+        "sha1": "35461F60F93B93D4B966B9013A2551911BD3716B",
+        "sha256": "6DDE6B5DBFC115252A795860017BD3A04990A4AFAA0231EF4315AD5A24F9F395"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-11-04T01:05:26Z",
+    "kind": "package",
+    "x_generated_by": "netkan"
+}
