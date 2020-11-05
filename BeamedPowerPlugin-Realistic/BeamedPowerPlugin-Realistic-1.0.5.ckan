@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "BeamedPowerPlugin-Realistic",
+    "name": "Beamed Power Standalone - Realistic Wavelengths",
+    "abstract": "A standalone version.",
+    "author": "Aniruddh",
+    "version": "1.0.5",
+    "ksp_version": "1.10.1",
+    "license": "public-domain",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/196087-18-110x-beamed-power-standalone-and-propulsion-v105/",
+        "spacedock": "https://spacedock.info/mod/2492/Beamed%20Power%20Plugin",
+        "repository": "https://github.com/AniruddhKSP/KSP-Beamed-Power-Standalone-mod",
+        "x_screenshot": "https://spacedock.info/content/Aniruddh_43378/Beamed_Power_Plugin/Beamed_Power_Plugin-1604435269.8285365.png"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "physics"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "provides": [
+        "BeamedPowerPlugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "BeamedPowerPlugin"
+        }
+    ],
+    "install": [
+        {
+            "find": "BeamedPowerStandalone",
+            "install_to": "GameData",
+            "filter": [
+                "Plugins"
+            ]
+        },
+        {
+            "find": "Extra/GameData/BeamedPowerStandalone/Plugins",
+            "install_to": "GameData/BeamedPowerStandalone"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2492/Beamed%20Power%20Plugin/download/1.0.5",
+    "download_size": 569627,
+    "download_hash": {
+        "sha1": "6DB6BC1E2BEF053BAFEFF5C7ECA9769E870E49A1",
+        "sha256": "4512497D5F01ED9DD8D01425BA8920E2FBCB3EB29999DAE0C2568C31E175B62C"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-11-03T20:03:00.698467+00:00",
+    "x_generated_by": "netkan"
+}
