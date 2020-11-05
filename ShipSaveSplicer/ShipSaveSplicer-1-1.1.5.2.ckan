@@ -18,6 +18,20 @@
     "tags": [
         "plugin"
     ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/ShipSaveSplicer",
+            "install_to": "GameData"
+        }
+    ],
     "download": "https://spacedock.info/mod/644/Ship%20Save%20Splicer/download/1.1.5.2",
     "download_size": 46773,
     "download_hash": {
