@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "FuelWings",
+    "name": "FuelWings",
+    "abstract": "Customizable fuel resources added to Stock, B9, and Procedural Wings by Tortoise. The intention of this is to improve weight & balance, reduce craft size, and increase aesthetics. Supports all stock fuel types, ability to modify in VAB/SPH.",
+    "author": "BeautiCode",
+    "version": "1:v4",
+    "ksp_version": "1.10.1",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/87605-122fuelwings-v32-fuel-customization-in-stock-b9-proceduralwings-03092017/&",
+        "spacedock": "https://spacedock.info/mod/1290/FuelWings",
+        "x_screenshot": "https://spacedock.info/content/BeautiCode_11821/FuelWings/FuelWings-1490978780.7555523.png"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ModularFuelTanks"
+        }
+    ],
+    "supports": [
+        {
+            "name": "B9"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/FuelWings",
+            "install_to": "GameData",
+            "filter": [
+                "ModularFuelTanks"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/1290/FuelWings/download/v4",
+    "download_size": 109681,
+    "download_hash": {
+        "sha1": "A1595059128A416607EE291A11AF7624523E9F1A",
+        "sha256": "9826F3A9821889D8E5AF0D195F4221AC4F9DE80355350A2C84BD035549C87BDD"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-11-09T04:27:53.722995+00:00",
+    "x_generated_by": "netkan"
+}
