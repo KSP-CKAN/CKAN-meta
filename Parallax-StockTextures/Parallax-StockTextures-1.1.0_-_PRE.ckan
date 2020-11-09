@@ -1,10 +1,10 @@
 {
     "spec_version": "v1.4",
-    "identifier": "Parallax",
-    "name": "Parallax",
+    "identifier": "Parallax-StockTextures",
+    "name": "Parallax - Stock Planet Textures",
     "abstract": "A PBR terrain shader for planet surfaces",
     "author": "Gameslinx",
-    "version": "1.0.1",
+    "version": "1.1.0_-_PRE",
     "ksp_version": "1.10.1",
     "license": "CC-BY-NC-ND-4.0",
     "resources": {
@@ -14,36 +14,38 @@
         "x_screenshot": "https://spacedock.info/content/Gameslinx_10298/Parallax/Parallax-1600947558.1891763.png"
     },
     "tags": [
-        "plugin",
-        "library",
+        "config",
         "graphics"
+    ],
+    "provides": [
+        "Parallax-Textures"
     ],
     "depends": [
         {
-            "name": "Kopernicus"
+            "name": "ModuleManager"
         },
+        {
+            "name": "Parallax"
+        }
+    ],
+    "conflicts": [
         {
             "name": "Parallax-Textures"
         }
     ],
-    "recommends": [
-        {
-            "name": "Scatterer"
-        }
-    ],
     "install": [
         {
-            "find": "Parallax",
+            "find": "Parallax_StockTextures",
             "install_to": "GameData"
         }
     ],
-    "download": "https://spacedock.info/mod/2539/Parallax/download/1.0.1",
-    "download_size": 445977,
+    "download": "https://spacedock.info/mod/2539/Parallax/download/1.1.0_-_PRE",
+    "download_size": 1746528899,
     "download_hash": {
-        "sha1": "E324C1C1B456501ED1FAC9F28218D3DFDC685825",
-        "sha256": "44B16FE51D635BF634D6EBE5EDC9DE594F124D017ABC6F67B6D76676DE15F898"
+        "sha1": "9CA9BEB87823184BDCE3FCE733732DC0EA055926",
+        "sha256": "042DAB46ACA7606F8A51170425D73B9C87275E3E3A942B3E89D50771AAD17E03"
     },
     "download_content_type": "application/zip",
-    "release_date": "2020-09-25T07:04:24.764866+00:00",
+    "release_date": "2020-11-07T18:38:30.875918+00:00",
     "x_generated_by": "netkan"
 }
