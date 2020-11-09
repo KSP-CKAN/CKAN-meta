@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Parallax-StockTextures",
+    "name": "Parallax - Stock Planet Textures",
+    "abstract": "A PBR terrain shader for planet surfaces",
+    "author": "Gameslinx",
+    "version": "1.1.1b",
+    "ksp_version": "1.10.1",
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197024-110x-parallax-a-pbr-terrain-shader-100/",
+        "spacedock": "https://spacedock.info/mod/2539/Parallax",
+        "repository": "https://github.com/Gameslinx/Tessellation",
+        "x_screenshot": "https://spacedock.info/content/Gameslinx_10298/Parallax/Parallax-1600947558.1891763.png"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "provides": [
+        "Parallax-Textures"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Parallax"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Parallax-Textures"
+        }
+    ],
+    "install": [
+        {
+            "find": "Parallax_StockTextures",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2539/Parallax/download/1.1.1b",
+    "download_size": 1739382786,
+    "download_hash": {
+        "sha1": "AF7FD91B40C1D38B9E1B88F0E46A73CA0D2B95CA",
+        "sha256": "838F2D90ED0D3FFD99FEBEAECB52ABBAEBA263140B6467D3938C084007FA1EE6"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-11-08T14:34:10.26282+00:00",
+    "x_generated_by": "netkan"
+}
