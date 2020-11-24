@@ -1,0 +1,68 @@
+{
+    "spec_version": 1,
+    "identifier": "FerramAerospaceResearchContinued",
+    "name": "Ferram Aerospace Research Continued",
+    "abstract": "FAR replaces KSP's stock part-centered aerodynamics model with one based on real-life physics.",
+    "author": [
+        "ferram4",
+        "dkavolis"
+    ],
+    "version": "3:0.16.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.10.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179445-*",
+        "repository": "https://github.com/dkavolis/Ferram-Aerospace-Research",
+        "bugtracker": "https://github.com/dkavolis/Ferram-Aerospace-Research/issues"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "localizations": [
+        "en-us",
+        "de-de",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "AerodynamicModel",
+        "FAR"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ModularFlightIntegrator"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AerodynamicModel"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/FerramAerospaceResearch",
+            "install_to": "GameData",
+            "filter": "config.xml"
+        },
+        {
+            "file": "Ships",
+            "install_to": "Ships",
+            "optional": true,
+            "description": "FAR example craft"
+        }
+    ],
+    "download": "https://github.com/dkavolis/Ferram-Aerospace-Research/releases/download/v0.16.0.1_Mader/FAR_0_16_0_1_Mader.zip",
+    "download_size": 885858,
+    "download_hash": {
+        "sha1": "3A5F66E9FA65D7DAE6809D8752B85DF6217E95F5",
+        "sha256": "E4CBA119516F96DB16DB321BC26840525CDDD289A57C1C605B5C3253ADC07F48"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-11-24T18:52:21Z",
+    "x_generated_by": "netkan"
+}
