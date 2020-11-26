@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "FuelTanksPlus",
     "name": "Fuel Tanks Plus",
     "abstract": "Longer fuel tanks in a variety of styles, with assocaited fueled nose cones. Stand-alone, or companion to Color Coded Canisters.",
@@ -67,7 +67,14 @@
     "install": [
         {
             "file": "FuelTanksPlus",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": [
+                "Ships"
+            ]
+        },
+        {
+            "find": "Ships/VAB",
+            "install_to": "Ships"
         }
     ],
     "download": "https://spacedock.info/mod/92/Fuel%20Tanks%20Plus/download/2.0.2",
