@@ -73,7 +73,14 @@
     "install": [
         {
             "find": "Buffalo",
-            "install_to": "GameData/WildBlueIndustries"
+            "install_to": "GameData/WildBlueIndustries",
+            "filter": [
+                "Ships"
+            ]
+        },
+        {
+            "find": "Ships/SPH",
+            "install_to": "Ships"
         }
     ],
     "download": "https://github.com/Angel-125/Buffalo/releases/download/v2.9.0/Buffalo.zip",
