@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.18",
     "identifier": "BDArmoryContinued",
     "name": "BD Armory Continued",
     "abstract": "The original Weapons mod by BahamutoD, continued!",
@@ -56,7 +56,15 @@
     "install": [
         {
             "find": "BDArmory",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": [
+                "craft"
+            ]
+        },
+        {
+            "find": "craft",
+            "install_to": "Ships",
+            "as": "SPH"
         }
     ],
     "download": "https://github.com/PapaJoesSoup/BDArmory/releases/download/v1.3.4/BDArmory.1.3.4.0_04092020.zip",
