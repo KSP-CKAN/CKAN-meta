@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.12",
     "identifier": "ModularRocketSystem",
     "name": "Modular Rocket Systems",
     "abstract": "A stock-alike parts pack that fills in a variety of gaps in the stock lineup of rocketry parts.",
@@ -70,7 +70,14 @@
     "install": [
         {
             "file": "ModRocketSys",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter_regexp": [
+                "\\.craft$"
+            ]
+        },
+        {
+            "find_regexp": "\\.craft$",
+            "install_to": "Ships/SPH"
         }
     ],
     "download": "https://spacedock.info/mod/86/Modular%20Rocket%20Systems/download/1.13.2",
