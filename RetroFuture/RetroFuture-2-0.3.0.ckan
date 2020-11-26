@@ -57,7 +57,14 @@
     "install": [
         {
             "find": "RetroFuture",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": [
+                "Ships"
+            ]
+        },
+        {
+            "find": "Ships/SPH",
+            "install_to": "Ships"
         }
     ],
     "download": "https://spacedock.info/mod/2153/Retrofuture%20Space%20Plane%20Parts%20Modernized/download/0.3.0",
