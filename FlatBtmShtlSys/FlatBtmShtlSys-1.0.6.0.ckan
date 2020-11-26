@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.12",
     "identifier": "FlatBtmShtlSys",
     "name": "Flat-Bottom Shuttle Systems",
     "abstract": "A parts pack of 2.5m flat-bottom space plane parts, plus a few extras.",
@@ -28,7 +28,14 @@
     "install": [
         {
             "find": "TriCrossSection",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter_regexp": [
+                "\\.craft$"
+            ]
+        },
+        {
+            "find_regexp": "\\.craft$",
+            "install_to": "Ships/SPH"
         }
     ],
     "download": "https://spacedock.info/mod/2059/Flat-Bottom%20Shuttle%20Systems/download/1.0.6.0",
