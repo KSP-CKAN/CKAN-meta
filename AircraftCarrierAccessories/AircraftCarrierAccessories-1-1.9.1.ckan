@@ -42,7 +42,14 @@
     "install": [
         {
             "find": "KFC",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": [
+                "Ships"
+            ]
+        },
+        {
+            "find": "Ships/SPH",
+            "install_to": "Ships"
         }
     ],
     "download": "https://spacedock.info/mod/1068/Aircraft%20Carrier%20Accessories/download/1.9.1",
