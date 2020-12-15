@@ -31,4 +31,5 @@ jobs:
                   GITHUB_EVENT_BEFORE: ${{ github.event.before }}
               with:
                   source: commits
+                  log level: debug
                   pull request body: ${{ github.event.pull_request.body }}
