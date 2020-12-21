@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DeployableEngines",
+    "name": "Deployable Engines Plugin",
+    "abstract": "A plugin to manage extending/retracting engine nozzles",
+    "author": "post-kerbin-automation",
+    "version": "1.2.3",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.11.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/post-kerbin-mining-corporation/DeployableEngines/wiki",
+        "repository": "https://github.com/post-kerbin-mining-corporation/DeployableEngines",
+        "bugtracker": "https://github.com/post-kerbin-mining-corporation/DeployableEngines/issues",
+        "metanetkan": "https://github.com/post-kerbin-mining-corporation/DeployableEngines/raw/master/CKAN/DeployableEngines.netkan"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "supports": [
+        {
+            "name": "KerbalAtomics"
+        },
+        {
+            "name": "CryoEngines"
+        }
+    ],
+    "install": [
+        {
+            "find": "DeployableEngines",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/post-kerbin-mining-corporation/DeployableEngines/releases/download/1.2.3/DeployableEngines_1_2_3.zip",
+    "download_size": 7825,
+    "download_hash": {
+        "sha1": "4FC9D07E06814C67BA67C59BFA74E7B0BD2BEE6F",
+        "sha256": "1295982641CDE3D2CC6916446250253E86D2A034B397FE0CE11AD55097746206"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-12-21T15:41:01Z",
+    "x_generated_by": "netkan"
+}
