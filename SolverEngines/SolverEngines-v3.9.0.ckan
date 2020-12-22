@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SolverEngines",
+    "name": "Solver Engines plugin",
+    "abstract": "SolverEngines is at its heart a replacement paradigm for how KSP deals with engines",
+    "author": [
+        "NathanKell",
+        "SirKeplan",
+        "StollD",
+        "cherrydev",
+        "pjf",
+        "rsparkyc",
+        "stratochief66",
+        "zorg2044",
+        "blowfishpro"
+    ],
+    "version": "v3.9.0",
+    "ksp_version_min": "1.10.0",
+    "ksp_version_max": "1.10.99",
+    "license": "LGPL-2.1",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/110746-*",
+        "repository": "https://github.com/KSP-RO/SolverEngines",
+        "bugtracker": "https://github.com/KSP-RO/SolverEngines/issues"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "install": [
+        {
+            "find": "SolverEngines",
+            "install_to": "GameData",
+            "filter": [
+                "ModuleAnimateEmissive.dll",
+                "PluginData"
+            ]
+        }
+    ],
+    "download": "https://github.com/KSP-RO/SolverEngines/releases/download/v3.9.0/SolverEngines_v3.9.0.zip",
+    "download_size": 39694,
+    "download_hash": {
+        "sha1": "42FFE137B6C95BF8A2371D0321EA50B3D3C281B7",
+        "sha256": "327FD8AD8CB9BB40F4505469BE50DB3A08F0B292ABF19C26E8AC808324C20281"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-12-22T04:05:12Z",
+    "x_generated_by": "netkan"
+}
