@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CryoTanks-Core",
+    "name": "Cryo Tanks Core",
+    "abstract": "This is the CryoTanks plugin stand-alone, for adding functionality to other mods. It contains no parts and does nothing by itself.",
+    "author": "post-kerbin-automation",
+    "version": "1.5.5",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.11.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/post-kerbin-mining-corporation/CryoTanks/wiki",
+        "repository": "https://github.com/post-kerbin-mining-corporation/CryoTanks",
+        "bugtracker": "https://github.com/post-kerbin-mining-corporation/CryoTanks/issues",
+        "metanetkan": "https://github.com/post-kerbin-mining-corporation/CryoTanks/raw/master/CKAN/CryoTanks-Core.netkan"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "supports": [
+        {
+            "name": "CryoTanks"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/CryoTanks/Plugins/SimpleBoiloff.dll",
+            "install_to": "GameData/CryoTanks/Plugins"
+        }
+    ],
+    "download": "https://github.com/post-kerbin-mining-corporation/CryoTanks/releases/download/1.5.5/CryoTanks_1_5_5.zip",
+    "download_size": 60300562,
+    "download_hash": {
+        "sha1": "603DC78ADAE8581454D4AAF721BDBAA48F47A4F7",
+        "sha256": "CF4EE0409322D006E4221B8BCC6034F2E84230D140F54A07BE2D8B8D7764BFC2"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-12-23T05:21:44Z",
+    "x_generated_by": "netkan"
+}
