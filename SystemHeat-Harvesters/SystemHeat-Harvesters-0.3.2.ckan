@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SystemHeat-Harvesters",
+    "name": "System Heat - Resource Harvester Configuration",
+    "abstract": "This System Heat config package changes stock and mod Resource Harvesters to use the SystemHeat backend. WARNING: potentially vessel-breaking.",
+    "author": "Nertea (Chris Adderley)",
+    "version": "0.3.2",
+    "ksp_version_min": "1.11.0",
+    "ksp_version_max": "1.11.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193909-1",
+        "repository": "https://github.com/post-kerbin-mining-corporation/SystemHeat",
+        "bugtracker": "https://github.com/post-kerbin-mining-corporation/SystemHeat/issues",
+        "metanetkan": "https://github.com/post-kerbin-mining-corporation/SystemHeat/raw/master/CKAN/SystemHeat-Harvesters.netkan"
+    },
+    "tags": [
+        "parts",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "SystemHeat"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SystemHeatConverters"
+        },
+        {
+            "name": "SystemHeatFissionReactors"
+        },
+        {
+            "name": "SystemHeatFissionEngines"
+        }
+    ],
+    "install": [
+        {
+            "find": "SystemHeatHarvesters",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/post-kerbin-mining-corporation/SystemHeat/releases/download/0.3.2/SystemHeat_0_3_2.zip",
+    "download_size": 2150683,
+    "download_hash": {
+        "sha1": "231D2F8D044E676A0767E1AC5DA7CF182D4184ED",
+        "sha256": "1D38E02B65D6A143A5F44EF443E37B7D6E31319B3A89AF80B67D8DB437A54537"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-12-24T21:07:45Z",
+    "x_generated_by": "netkan"
+}
