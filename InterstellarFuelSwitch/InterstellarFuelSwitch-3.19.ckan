@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "InterstellarFuelSwitch",
+    "name": "Interstellar Fuel Switch",
+    "abstract": "Library that enables switching the contents, meshes, and textures of tanks.",
+    "author": "FreeThinker",
+    "version": "3.19",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.11.0",
+    "license": "GPL-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/106243-105interstellar-fuel-switch-118-updated-10-11-2015/",
+        "spacedock": "https://spacedock.info/mod/175/Interstellar%20Fuel%20Switch",
+        "repository": "https://github.com/sswelm/KSP-Interstellar-Extended/tree/master/FuelSwitch",
+        "bugtracker": "https://github.com/sswelm/KSP-Interstellar-Extended/issues",
+        "x_screenshot": "https://spacedock.info/content/FreeThinker_517/Interstellar_Fuel_Switch/Interstellar_Fuel_Switch-1481278354.0821617.jpg"
+    },
+    "tags": [
+        "crewed",
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "InterstellarFuelSwitch-Core",
+            "min_version": "1.28"
+        },
+        {
+            "name": "CommunityTechTree"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KSPInterstellarExtended"
+        },
+        {
+            "name": "PatchManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "InterstellarFuelSwitch",
+            "install_to": "GameData",
+            "filter": [
+                "Plugins",
+                "Resources",
+                "Localization"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/175/Interstellar%20Fuel%20Switch/download/3.19",
+    "download_size": 19800998,
+    "download_hash": {
+        "sha1": "5BD1D4827936C271CDBE4AB49CE2B47F4BC01BE4",
+        "sha256": "66A49AAFB2F5CB63784DD0528B1E42CEBBEB34B098D99295102398E439062786"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-12-29T18:12:08.128906+00:00",
+    "x_generated_by": "netkan"
+}
