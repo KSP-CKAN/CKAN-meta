@@ -17,6 +17,7 @@ jobs:
               with:
                   fetch-depth: 0
             - name: Cache downloads
+              if: ${{ github.event_name == 'pull_request' }}
               uses: actions/cache@v2
               with:
                   path: .cache
