@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalWeatherProject-Lite",
+    "name": "Kerbal Weather Project - Lite",
+    "abstract": "Kerbal Weather Project - Lite is pared down version of the original weather and climate mod for KSP. In KWP-Lite, weather and climate data from the Model for Prediction Across Scales (MPAS) were incorporated into KSP gameplay. KWP-Lite includes a reduced resolution global Hourly climatology from MPAS allowing players to experience diurnal and spatial variations in atmospheric conditions. In addition, one year of point weather data from MPAS is provided at Kerbin launch sites, allowing players to experience dynamic weather conditions that change daily. KWP-Lite features a text-based GUI showing remote sensing weather data (in space) and in situ weather data (in the atmosphere).",
+    "author": "cmet24",
+    "version": "v1.0.01",
+    "ksp_version": "1.11.0",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://www.kerbalwxproject.space",
+        "spacedock": "https://spacedock.info/mod/2611/Kerbal%20Weather%20Project%20-%20Lite",
+        "repository": "https://github.com/cmac994/KerbalWeatherProject/tree/lite"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "provides": [
+        "KerbalWeatherProject"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ModularFlightIntegrator"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerBalloons"
+        },
+        {
+            "name": "AtmosphereAutopilot"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbalWeatherProject"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalWeatherProject_Lite",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2611/Kerbal%20Weather%20Project%20-%20Lite/download/v1.0.01",
+    "download_size": 13815346,
+    "download_hash": {
+        "sha1": "6191FD133B28FD9432B43C8FEFED11062827D7B3",
+        "sha256": "7CB07E3AB6DA9E51937B10DF296C6C470521937D96A10E834DF8DC7E43DC624F"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-01-06T03:13:45.725319+00:00",
+    "x_generated_by": "netkan"
+}
