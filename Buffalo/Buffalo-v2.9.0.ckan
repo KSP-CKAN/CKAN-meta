@@ -3,7 +3,7 @@
     "identifier": "Buffalo",
     "name": "Buffalo",
     "abstract": "NASA Inspired MSEV - Explore In Style",
-    "author": "Angel125",
+    "author": "Angel-125",
     "version": "v2.9.0",
     "ksp_version_min": "1.8.0",
     "license": "GPL-3.0",
@@ -19,6 +19,9 @@
     ],
     "depends": [
         {
+            "name": "Buffalo-PlayMode"
+        },
+        {
             "name": "ModuleManager"
         },
         {
@@ -29,17 +32,11 @@
         },
         {
             "name": "KerbalActuators"
-        },
-        {
-            "name": "ClassicStockResources"
         }
     ],
     "recommends": [
         {
             "name": "Snacks"
-        },
-        {
-            "name": "ClassicStockResources"
         },
         {
             "name": "ExtraPlanetaryLaunchpads"
@@ -76,8 +73,13 @@
             "find": "Buffalo",
             "install_to": "GameData/WildBlueIndustries",
             "filter": [
-                "Ships"
+                "Ships",
+                "Templates"
             ]
+        },
+        {
+            "find": "Buffalo/Templates/Common",
+            "install_to": "GameData/WildBlueIndustries/Buffalo/Templates"
         },
         {
             "find": "Ships/SPH",
