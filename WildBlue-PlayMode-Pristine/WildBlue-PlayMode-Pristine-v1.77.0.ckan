@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "WildBlue-PlayMode-Pristine",
+    "name": "WildBlueIndustries Pristine Play Mode",
+    "abstract": "Pristine Mode removes all templates and converters. You'll have a number of nice looking parts for decorative base building.",
+    "author": "Angel-125",
+    "version": "v1.77.0",
+    "ksp_version_min": "1.8.0",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/Angel-125/WildBlueTools",
+        "bugtracker": "https://github.com/Angel-125/WildBlueTools/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/WildBlueTools/master/GameData/WildBlueIndustries/000WildBlueTools/WildBlueTools.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "WildBlue-PlayMode",
+        "Buffalo-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "WildBlueTools"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "WildBlue-PlayMode"
+        }
+    ],
+    "install": [
+        {
+            "find": "000WildBlueTools/Templates/Pristine/MM_Pristine.txt",
+            "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates/Pristine",
+            "as": "MM_Pristine.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "000WildBlueTools/Templates/Pristine.cfg",
+            "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/WildBlueTools/releases/download/v1.77.0/WildBlueTools_1_77.zip",
+    "download_size": 21711668,
+    "download_hash": {
+        "sha1": "EA1456713F58370B9CCCB1AA4013FA1645EAA5B5",
+        "sha256": "26F3B8552ED67490D627B097FA72D9B9EAC4B4E32C734076B3135631C5E83EAC"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-06-09T03:19:34Z",
+    "x_generated_by": "netkan"
+}

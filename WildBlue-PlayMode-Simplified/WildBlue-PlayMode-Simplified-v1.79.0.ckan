@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "WildBlue-PlayMode-Simplified",
+    "name": "WildBlueIndustries Simplified Play Mode",
+    "abstract": "Lite Blue reduces the number available templates and resources used. This is great for players new to Pathfinder and other WildBlue mods or for those that don't want a lot of complexity.",
+    "author": "Angel-125",
+    "version": "v1.79.0",
+    "ksp_version_min": "1.8.0",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/Angel-125/WildBlueTools",
+        "bugtracker": "https://github.com/Angel-125/WildBlueTools/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/WildBlueTools/master/GameData/WildBlueIndustries/000WildBlueTools/WildBlueTools.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "WildBlue-PlayMode",
+        "Buffalo-PlayMode",
+        "DSEV-PlayMode",
+        "MOLE-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "WildBlueTools"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "WildBlue-PlayMode"
+        }
+    ],
+    "install": [
+        {
+            "find": "000WildBlueTools/Templates/Simplified/Storage/OmniStorage.txt",
+            "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates/Simplified/Storage",
+            "as": "OmniStorage.cfg",
+            "find_matches_file": true
+        },
+        {
+            "find": "000WildBlueTools/Templates/Simplified.cfg",
+            "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/WildBlueTools/releases/download/v1.79.0/WildBlueTools_1_79.zip",
+    "download_size": 21712598,
+    "download_hash": {
+        "sha1": "A7746A4099E0C47CFFF9BA48BE4579AE30490F46",
+        "sha256": "429EC995675591E5800E43A6982EE8D08E693860F023B896EAC4314A8BEAF548"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-06-30T02:32:40Z",
+    "x_generated_by": "netkan"
+}

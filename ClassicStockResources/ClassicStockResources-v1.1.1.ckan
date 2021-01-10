@@ -3,14 +3,15 @@
     "identifier": "ClassicStockResources",
     "name": "Classic Stock Resources",
     "abstract": "An alternative resource set for Kerbal Space Program",
-    "author": "Angel125",
+    "author": "Angel-125",
     "version": "v1.1.1",
     "ksp_version_min": "1.8.0",
     "license": "GPL-3.0",
     "resources": {
         "homepage": "https://github.com/Angel-125/ClassicStockResources",
         "repository": "https://github.com/Angel-125/ClassicStockResources",
-        "bugtracker": "https://github.com/Angel-125/ClassicStockResources/issues"
+        "bugtracker": "https://github.com/Angel-125/ClassicStockResources/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/MOLE/master/GameData/WildBlueIndustries/ClassicStockResources/ClassicStockResources.version"
     },
     "tags": [
         "library",
@@ -19,6 +20,9 @@
     "depends": [
         {
             "name": "ModuleManager"
+        },
+        {
+            "name": "WildBlue-PlayMode-ClassicStock"
         }
     ],
     "install": [

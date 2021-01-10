@@ -10,7 +10,8 @@
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/150702-*",
         "repository": "https://github.com/Angel-125/Airships",
-        "bugtracker": "https://github.com/Angel-125/Airships/issues"
+        "bugtracker": "https://github.com/Angel-125/Airships/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/Airships/master/GameData/WildBlueIndustries/Heisenberg/Airships/Airships.version"
     },
     "tags": [
         "parts",
@@ -18,6 +19,9 @@
         "crewed"
     ],
     "depends": [
+        {
+            "name": "Heisenberg-PlayMode"
+        },
         {
             "name": "ModuleManager"
         },
@@ -29,9 +33,6 @@
         },
         {
             "name": "KerbalActuators"
-        },
-        {
-            "name": "ClassicStockResources"
         },
         {
             "name": "BarisBridge"
@@ -74,8 +75,13 @@
             "install_to": "GameData/WildBlueIndustries",
             "filter_regexp": [
                 ".*\\.pdb$",
-                "SampleCraft"
+                "SampleCraft",
+                "Templates"
             ]
+        },
+        {
+            "find": "WildBlueIndustries/Heisenberg/Templates/Common",
+            "install_to": "GameData/WildBlueIndustries/Templates"
         },
         {
             "find": "VAB",

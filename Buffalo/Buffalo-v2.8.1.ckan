@@ -3,20 +3,24 @@
     "identifier": "Buffalo",
     "name": "Buffalo",
     "abstract": "NASA Inspired MSEV - Explore In Style",
-    "author": "Angel125",
+    "author": "Angel-125",
     "version": "v2.8.1",
     "ksp_version_min": "1.8.0",
     "license": "GPL-3.0",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/122617-*",
         "repository": "https://github.com/Angel-125/Buffalo",
-        "bugtracker": "https://github.com/Angel-125/Buffalo/issues"
+        "bugtracker": "https://github.com/Angel-125/Buffalo/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/Buffalo/master/GameData/WildBlueIndustries/Buffalo/Buffalo.version"
     },
     "tags": [
         "parts",
         "crewed"
     ],
     "depends": [
+        {
+            "name": "Buffalo-PlayMode"
+        },
         {
             "name": "ModuleManager"
         },
@@ -28,17 +32,11 @@
         },
         {
             "name": "KerbalActuators"
-        },
-        {
-            "name": "ClassicStockResources"
         }
     ],
     "recommends": [
         {
             "name": "Snacks"
-        },
-        {
-            "name": "ClassicStockResources"
         },
         {
             "name": "ExtraPlanetaryLaunchpads"
@@ -73,7 +71,19 @@
     "install": [
         {
             "find": "Buffalo",
-            "install_to": "GameData/WildBlueIndustries"
+            "install_to": "GameData/WildBlueIndustries",
+            "filter": [
+                "Ships",
+                "Templates"
+            ]
+        },
+        {
+            "find": "Buffalo/Templates/Common",
+            "install_to": "GameData/WildBlueIndustries/Buffalo/Templates"
+        },
+        {
+            "find": "Ships/SPH",
+            "install_to": "Ships"
         }
     ],
     "download": "https://github.com/Angel-125/Buffalo/releases/download/v2.8.1/Buffalo_2_8_1.zip",

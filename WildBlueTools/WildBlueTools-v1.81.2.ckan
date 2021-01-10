@@ -3,13 +3,14 @@
     "identifier": "WildBlueTools",
     "name": "Wild Blue Tools",
     "abstract": "Parts and PartModules for KSP",
-    "author": "Angel125",
+    "author": "Angel-125",
     "version": "v1.81.2",
     "ksp_version_min": "1.8.0",
     "license": "GPL-3.0",
     "resources": {
         "repository": "https://github.com/Angel-125/WildBlueTools",
-        "bugtracker": "https://github.com/Angel-125/WildBlueTools/issues"
+        "bugtracker": "https://github.com/Angel-125/WildBlueTools/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/WildBlueTools/master/GameData/WildBlueIndustries/000WildBlueTools/WildBlueTools.version"
     },
     "tags": [
         "plugin",
@@ -23,16 +24,23 @@
             "name": "KerbalActuators"
         },
         {
-            "name": "ClassicStockResources"
+            "name": "BarisBridge"
         },
         {
-            "name": "BarisBridge"
+            "name": "WildBlue-PlayMode"
         }
     ],
     "install": [
         {
             "find": "000WildBlueTools",
-            "install_to": "GameData/WildBlueIndustries"
+            "install_to": "GameData/WildBlueIndustries",
+            "filter": [
+                "Templates"
+            ]
+        },
+        {
+            "find": "000WildBlueTools/Templates/Common",
+            "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates"
         }
     ],
     "download": "https://github.com/Angel-125/WildBlueTools/releases/download/v1.81.2/WildBlueTools_1_81_2.zip",
