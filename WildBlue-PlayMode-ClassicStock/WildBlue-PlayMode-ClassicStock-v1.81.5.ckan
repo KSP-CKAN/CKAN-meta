@@ -1,8 +1,8 @@
 {
     "spec_version": "v1.4",
-    "identifier": "WildBlueTools",
-    "name": "Wild Blue Tools",
-    "abstract": "Parts and PartModules for KSP",
+    "identifier": "WildBlue-PlayMode-ClassicStock",
+    "name": "WildBlueIndustries Classic Stock Play Mode",
+    "abstract": "Back in KSP 0.19, developers NovaSilisko and HarvesteR proposed a resource system that included Propellium, Oxium, Nitronite, Water, Blutonium, Hexagen, and Zeonium that ultimately converted into the resources we know today as LiquidFuel, Oxidizer, MonoPropellant, and XenonGas. You can see their concept image here: i.imgur.com/08hdJyj.png This play mode is inspired by their vision and adds some additional resources and converters to round out your templates.",
     "author": "Angel-125",
     "version": "v1.81.5",
     "ksp_version_min": "1.8.0",
@@ -13,34 +13,38 @@
         "remote-avc": "https://raw.githubusercontent.com/Angel-125/WildBlueTools/master/GameData/WildBlueIndustries/000WildBlueTools/WildBlueTools.version"
     },
     "tags": [
-        "plugin",
-        "library"
+        "config"
+    ],
+    "provides": [
+        "WildBlue-PlayMode"
     ],
     "depends": [
         {
             "name": "ModuleManager"
         },
         {
-            "name": "KerbalActuators"
-        },
+            "name": "WildBlueTools"
+        }
+    ],
+    "suggests": [
         {
-            "name": "BarisBridge"
-        },
+            "name": "ClassicStockResources"
+        }
+    ],
+    "conflicts": [
         {
             "name": "WildBlue-PlayMode"
         }
     ],
     "install": [
         {
-            "find": "000WildBlueTools",
-            "install_to": "GameData/WildBlueIndustries",
-            "filter": [
-                "Templates"
-            ]
+            "find": "000WildBlueTools/Templates/ClassicStock",
+            "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates"
         },
         {
-            "find": "000WildBlueTools/Templates/Common",
-            "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates"
+            "find": "000WildBlueTools/Templates/ClassicStock.cfg",
+            "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates",
+            "find_matches_file": true
         }
     ],
     "download": "https://github.com/Angel-125/WildBlueTools/releases/download/v1.81.5/WildBlueTools.zip",

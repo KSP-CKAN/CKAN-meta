@@ -1,0 +1,85 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "DSEV-PlayMode-CRP",
+    "name": "DSEV CRP Play Mode",
+    "abstract": "Deep Space Exploration Vessels for KSP",
+    "author": "Angel-125",
+    "version": "v3.6.0",
+    "ksp_version_min": "1.8.0",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/122162-*",
+        "repository": "https://github.com/Angel-125/DSEV",
+        "bugtracker": "https://github.com/Angel-125/DSEV/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/DSEV/master/GameData/WildBlueIndustries/DSEV/DSEV.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "DSEV-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "WildBlue-PlayMode-CRP"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "DSEV"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries/DSEV/Templates/CRP.cfg",
+            "install_to": "GameData/WildBlueIndustries/DSEV/Templates",
+            "find_matches_files": true
+        },
+        {
+            "find": "DSEV/Templates/CRP/D2Templates.txt",
+            "install_to": "GameData/WildBlueIndustries/DSEV/Templates/CRP",
+            "as": "D2Templates.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "DSEV/Templates/CRP/MM_CompactISRU.txt",
+            "install_to": "GameData/WildBlueIndustries/DSEV/Templates/CRP",
+            "as": "MM_CompactISRU.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "DSEV/Templates/CRP/MM_Snacks.txt",
+            "install_to": "GameData/WildBlueIndustries/DSEV/Templates/CRP",
+            "as": "MM_Snacks.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "DSEV/Templates/CRP/MM_Trinity.txt",
+            "install_to": "GameData/WildBlueIndustries/DSEV/Templates/CRP",
+            "as": "MM_Trinity.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "DSEV/Templates/CRP/PathfinderTemplates.txt",
+            "install_to": "GameData/WildBlueIndustries/DSEV/Templates/CRP",
+            "as": "PathfinderTemplates.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "DSEV/Templates/CRP/Scanners.txt",
+            "install_to": "GameData/WildBlueIndustries/DSEV/Templates/CRP",
+            "as": "Scanners.cfg",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/DSEV/releases/download/v3.6.0/DSEV.zip",
+    "download_size": 85570916,
+    "download_hash": {
+        "sha1": "EDF71A29B4126BE8511E626EC597541A005DDC7C",
+        "sha256": "178E9259FFDB1EFB9764E7C88985B58E269FA959153F3E658F0B80C9A31FE0CA"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-10-15T23:43:46Z",
+    "x_generated_by": "netkan"
+}

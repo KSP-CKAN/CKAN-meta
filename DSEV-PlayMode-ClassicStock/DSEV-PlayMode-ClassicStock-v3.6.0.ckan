@@ -1,7 +1,7 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "DSEV",
-    "name": "DSEV",
+    "spec_version": "v1.16",
+    "identifier": "DSEV-PlayMode-ClassicStock",
+    "name": "DSEV Classic Stock Play Mode",
     "abstract": "Deep Space Exploration Vessels for KSP",
     "author": "Angel-125",
     "version": "v3.6.0",
@@ -14,67 +14,31 @@
         "remote-avc": "https://raw.githubusercontent.com/Angel-125/DSEV/master/GameData/WildBlueIndustries/DSEV/DSEV.version"
     },
     "tags": [
-        "parts",
-        "plugin",
-        "crewed"
+        "config"
+    ],
+    "provides": [
+        "DSEV-PlayMode"
     ],
     "depends": [
         {
-            "name": "DSEV-PlayMode"
+            "name": "WildBlue-PlayMode-ClassicStock"
         },
         {
             "name": "ModuleManager"
         },
         {
-            "name": "WildBlueTools"
-        },
-        {
-            "name": "NearFutureProps"
-        },
-        {
-            "name": "KerbalActuators"
-        },
-        {
-            "name": "BarisBridge"
-        }
-    ],
-    "recommends": [
-        {
-            "name": "RasterPropMonitor-Core"
-        },
-        {
-            "name": "ASETProps"
-        },
-        {
-            "name": "InfernalRobotics"
-        }
-    ],
-    "suggests": [
-        {
-            "name": "ASET"
+            "name": "DSEV"
         }
     ],
     "install": [
         {
-            "find": "WildBlueIndustries/DSEV",
-            "install_to": "GameData/WildBlueIndustries",
-            "filter_regexp": [
-                ".*\\.pdb$",
-                "ReferenceDesigns",
-                "Templates"
-            ]
-        },
-        {
-            "find": "DSEV/Templates/Common",
+            "find": "WildBlueIndustries/DSEV/Templates/ClassicStock",
             "install_to": "GameData/WildBlueIndustries/DSEV/Templates"
         },
         {
-            "find": "VAB",
-            "install_to": "Ships"
-        },
-        {
-            "find": "SPH",
-            "install_to": "Ships"
+            "find": "WildBlueIndustries/DSEV/Templates/ClassicStock.cfg",
+            "install_to": "GameData/WildBlueIndustries/DSEV/Templates",
+            "find_matches_files": true
         }
     ],
     "download": "https://github.com/Angel-125/DSEV/releases/download/v3.6.0/DSEV.zip",

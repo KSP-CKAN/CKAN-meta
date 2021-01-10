@@ -1,0 +1,139 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Pathfinder-PlayMode-CRP",
+    "name": "Pathfinder CRP Play Mode",
+    "abstract": "Space Camping @ Geoscience",
+    "author": "Angel-125",
+    "version": "v1.36.1",
+    "ksp_version_min": "1.8.0",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121397-*",
+        "repository": "https://github.com/Angel-125/Pathfinder",
+        "bugtracker": "https://github.com/Angel-125/Pathfinder/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/Pathfinder/master/GameData/WildBlueIndustries/Pathfinder/Pathfinder.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "Pathfinder-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "WildBlue-PlayMode-CRP"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Pathfinder"
+        }
+    ],
+    "install": [
+        {
+            "find": "Pathfinder/Templates/CRP.cfg",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/CRP/Blacksmith.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/CRP",
+            "as": "Blacksmith.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/CRP/BrewWorks.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/CRP",
+            "as": "BrewWorks.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/CRP/Claimjumper.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/CRP",
+            "as": "Claimjumper.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/CRP/Clockworks.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/CRP",
+            "as": "Clockworks.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/CRP/GeologyLab.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/CRP",
+            "as": "GeologyLab.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/CRP/GoldStrike.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/CRP",
+            "as": "GoldStrike.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/CRP/HotSprings.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/CRP",
+            "as": "HotSprings.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/CRP/Ironworks.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/CRP",
+            "as": "Ironworks.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/CRP/Lasso.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/CRP",
+            "as": "Lasso.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/CRP/MM_Snacks.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/CRP",
+            "as": "MM_Snacks.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/CRP/Nukeworks.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/CRP",
+            "as": "Nukeworks.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/CRP/OPAL.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/CRP",
+            "as": "OPAL.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/CRP/SolarFlare.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/CRP",
+            "as": "SolarFlare.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/CRP/SunburnLab.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/CRP",
+            "as": "SunburnLab.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/CRP/WatneyChemLab.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/CRP",
+            "as": "WatneyChemLab.cfg",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/Pathfinder/releases/download/v1.36.1/Pathfinder.zip",
+    "download_size": 63074007,
+    "download_hash": {
+        "sha1": "B56E1D017FB2817FC2FEA9D1A41A6C618E39B557",
+        "sha256": "53FC1DFAAAB2F84AAB0DD7A685CFE09759CF85C18950F2D8072EE6236E57746F"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-10-28T23:10:39Z",
+    "x_generated_by": "netkan"
+}

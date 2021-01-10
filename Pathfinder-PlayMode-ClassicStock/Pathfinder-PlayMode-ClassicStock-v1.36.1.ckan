@@ -1,7 +1,7 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "Pathfinder",
-    "name": "Pathfinder",
+    "spec_version": "v1.16",
+    "identifier": "Pathfinder-PlayMode-ClassicStock",
+    "name": "Pathfinder Classic Stock Play Mode",
     "abstract": "Space Camping @ Geoscience",
     "author": "Angel-125",
     "version": "v1.36.1",
@@ -14,70 +14,31 @@
         "remote-avc": "https://raw.githubusercontent.com/Angel-125/Pathfinder/master/GameData/WildBlueIndustries/Pathfinder/Pathfinder.version"
     },
     "tags": [
-        "parts",
-        "plugin",
-        "agency",
-        "resources",
-        "crewed"
+        "config"
+    ],
+    "provides": [
+        "Pathfinder-PlayMode"
     ],
     "depends": [
         {
-            "name": "Pathfinder-PlayMode"
+            "name": "WildBlue-PlayMode-ClassicStock"
         },
         {
             "name": "ModuleManager"
         },
         {
-            "name": "KerbalActuators"
-        },
-        {
-            "name": "BarisBridge"
-        },
-        {
-            "name": "WildBlueTools"
-        },
-        {
-            "name": "Buffalo"
-        }
-    ],
-    "recommends": [
-        {
-            "name": "KAS"
-        },
-        {
-            "name": "KIS"
-        }
-    ],
-    "supports": [
-        {
-            "name": "ConnectedLivingSpace"
-        },
-        {
-            "name": "TACLS"
-        },
-        {
-            "name": "USI-LS"
-        },
-        {
-            "name": "Snacks"
+            "name": "Pathfinder"
         }
     ],
     "install": [
         {
-            "find": "Pathfinder",
-            "install_to": "GameData/WildBlueIndustries",
-            "filter_regexp": [
-                ".*\\.pdb$",
-                "Templates"
-            ]
-        },
-        {
-            "find": "Pathfinder/Templates/Common",
+            "find": "Pathfinder/Templates/ClassicStock",
             "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates"
         },
         {
-            "file": "GameData/WBIPlayMode.cfg",
-            "install_to": "GameData"
+            "find": "Pathfinder/Templates/ClassicStock.cfg",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates",
+            "find_matches_files": true
         }
     ],
     "download": "https://github.com/Angel-125/Pathfinder/releases/download/v1.36.1/Pathfinder.zip",

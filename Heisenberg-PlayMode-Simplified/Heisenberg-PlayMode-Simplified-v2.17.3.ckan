@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Heisenberg-PlayMode-Simplified",
+    "name": "Heisenberg Simplified Play Mode",
+    "abstract": "Giant floating aircraft",
+    "author": "Angel-125",
+    "version": "v2.17.3",
+    "ksp_version_min": "1.8.0",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/150702-*",
+        "repository": "https://github.com/Angel-125/Airships",
+        "bugtracker": "https://github.com/Angel-125/Airships/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/Airships/master/GameData/WildBlueIndustries/Heisenberg/Airships/Airships.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "Heisenberg-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "Heisenberg"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "WildBlue-PlayMode-Simplified"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Heisenberg-PlayMode"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries/Heisenberg/Templates/Simplified.cfg",
+            "install_to": "GameData/WildBlueIndustries/Heisenberg/Templates",
+            "find_matches_files": true
+        },
+        {
+            "find": "Heisenberg/Templates/Simplified/MM_NuclearGyro.txt",
+            "install_to": "GameData/WildBlueIndustries/Heisenberg/Templates/Simplified",
+            "as": "MM_NuclearGyro.cfg",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/Airships/releases/download/v2.17.3/Heisenberg_2_17_3.zip",
+    "download_size": 48570893,
+    "download_hash": {
+        "sha1": "BCBC4C0D6ABDCFFF5808A917E731966D4EF0174C",
+        "sha256": "A9CE2746F9BEA5D5442D72100D3F7D69F5312CF55A6F383614A7A67FDCDF88D6"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-08-24T19:24:11Z",
+    "x_generated_by": "netkan"
+}
