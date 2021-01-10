@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "MOLE-PlayMode-Pristine",
+    "name": "MOLE Pristine Play Mode",
+    "abstract": "Mark One Laboratory Extensions- early space stations for KSP",
+    "author": "Angel-125",
+    "version": "v1.25.0",
+    "ksp_version_min": "1.8.0",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/154893-*",
+        "repository": "https://github.com/Angel-125/MOLE",
+        "bugtracker": "https://github.com/Angel-125/MOLE/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/MOLE/master/GameData/WildBlueIndustries/MOLE/MOLE.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "MOLE-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "WildBlue-PlayMode-Pristine"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "MOLE"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries/MOLE/Templates/Pristine.cfg",
+            "install_to": "GameData/WildBlueIndustries/MOLE/Templates",
+            "find_matches_files": true
+        },
+        {
+            "find": "MOLE/Templates/Pristine/MM_Pristine.txt",
+            "install_to": "GameData/WildBlueIndustries/MOLE/Templates/Pristine",
+            "as": "MM_Pristine.cfg",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/MOLE/releases/download/v1.25.0/MOLE.zip",
+    "download_size": 53606882,
+    "download_hash": {
+        "sha1": "5B42F1194B7CD49D7EE3E76ECF3E2868A6A0F3E4",
+        "sha256": "8F17007B710033203127837993E9F91C6DFE4B0F8C7AFFA3F24A306F891A8006"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-10-25T19:44:27Z",
+    "x_generated_by": "netkan"
+}
