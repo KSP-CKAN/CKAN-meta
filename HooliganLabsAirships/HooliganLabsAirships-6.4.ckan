@@ -5,7 +5,8 @@
     "abstract": "Add airships and floating air stations to your game",
     "author": "jewelshisen",
     "version": "6.4",
-    "ksp_version": "1.9.1",
+    "ksp_version_min": "1.9",
+    "ksp_version_max": "1.11",
     "license": "restricted",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/49443-airships-in-102-hooliganlabs-mods",
@@ -26,7 +27,9 @@
         {
             "find": "HLAirships",
             "install_to": "GameData",
-            "filter": "thumbs.db"
+            "filter": [
+                "thumbs.db"
+            ]
         }
     ],
     "download": "https://spacedock.info/mod/638/Hooligan%20Labs%20Airships/download/6.4",
