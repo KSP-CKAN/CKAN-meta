@@ -20,6 +20,9 @@
     ],
     "depends": [
         {
+            "name": "Heisenberg-PlayMode"
+        },
+        {
             "name": "ModuleManager"
         },
         {
@@ -30,9 +33,6 @@
         },
         {
             "name": "KerbalActuators"
-        },
-        {
-            "name": "ClassicStockResources"
         },
         {
             "name": "BarisBridge"
@@ -75,8 +75,13 @@
             "install_to": "GameData/WildBlueIndustries",
             "filter_regexp": [
                 ".*\\.pdb$",
-                "SampleCraft"
+                "SampleCraft",
+                "Templates"
             ]
+        },
+        {
+            "find": "WildBlueIndustries/Heisenberg/Templates/Common",
+            "install_to": "GameData/WildBlueIndustries/Templates"
         },
         {
             "find": "VAB",
