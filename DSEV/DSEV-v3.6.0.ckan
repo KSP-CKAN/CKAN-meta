@@ -20,6 +20,9 @@
     ],
     "depends": [
         {
+            "name": "DSEV-PlayMode"
+        },
+        {
             "name": "ModuleManager"
         },
         {
@@ -30,9 +33,6 @@
         },
         {
             "name": "KerbalActuators"
-        },
-        {
-            "name": "ClassicStockResources"
         },
         {
             "name": "BarisBridge"
@@ -60,8 +60,13 @@
             "install_to": "GameData/WildBlueIndustries",
             "filter_regexp": [
                 ".*\\.pdb$",
-                "ReferenceDesigns"
+                "ReferenceDesigns",
+                "Templates"
             ]
+        },
+        {
+            "find": "DSEV/Templates/Common",
+            "install_to": "GameData/WildBlueIndustries/DSEV/Templates"
         },
         {
             "find": "VAB",
