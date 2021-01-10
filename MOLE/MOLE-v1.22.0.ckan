@@ -1,0 +1,106 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "MOLE",
+    "name": "MOLE",
+    "abstract": "Mark One Laboratory Extensions- early space stations for KSP",
+    "author": "Angel-125",
+    "version": "v1.22.0",
+    "ksp_version_min": "1.8.0",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/154893-*",
+        "repository": "https://github.com/Angel-125/MOLE",
+        "bugtracker": "https://github.com/Angel-125/MOLE/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/MOLE/master/GameData/WildBlueIndustries/MOLE/MOLE.version"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "MOLE-PlayMode"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "WildBlueTools"
+        },
+        {
+            "name": "KerbalActuators"
+        },
+        {
+            "name": "BarisBridge"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "ExtraPlanetaryLaunchpads"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Pathfinder"
+        },
+        {
+            "name": "RealChute"
+        },
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "kOS"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        },
+        {
+            "name": "CactEyeCommunity"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries/MOLE",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter_regexp": [
+                ".*\\.pdb$",
+                "SampleCraft",
+                "Templates"
+            ]
+        },
+        {
+            "find": "MOLE/Templates/Common",
+            "install_to": "GameData/WildBlueIndustries/MOLE/Templates"
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/Angel-125/MOLE/releases/download/v1.22.0/MOLE_1_22_0.zip",
+    "download_size": 53070892,
+    "download_hash": {
+        "sha1": "F4191771DA0F3235990ACFABA25AD70B0B276ABA",
+        "sha256": "C05C6152B75DB8FE77678BDB2024B50331F588E8E2F39FCBD29520943AA0070A"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-04-29T17:27:55Z",
+    "x_generated_by": "netkan"
+}

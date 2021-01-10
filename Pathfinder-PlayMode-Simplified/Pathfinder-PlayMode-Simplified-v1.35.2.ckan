@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Pathfinder-PlayMode-Simplified",
+    "name": "Pathfinder Simplified Play Mode",
+    "abstract": "Space Camping @ Geoscience",
+    "author": "Angel-125",
+    "version": "v1.35.2",
+    "ksp_version_min": "1.8.0",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121397-*",
+        "repository": "https://github.com/Angel-125/Pathfinder",
+        "bugtracker": "https://github.com/Angel-125/Pathfinder/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/Pathfinder/master/GameData/WildBlueIndustries/Pathfinder/Pathfinder.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "Pathfinder-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "WildBlue-PlayMode-Simplified"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Pathfinder"
+        }
+    ],
+    "install": [
+        {
+            "find": "Pathfinder/Templates/Simplified.cfg",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/Simplified/Simplified Mode.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/Simplified",
+            "as": "Simplified Mode.cfg",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/Pathfinder/releases/download/v1.35.2/Pathfinder_1_35_2.zip",
+    "download_size": 62202355,
+    "download_hash": {
+        "sha1": "F2656905D2C6DA8AD82DB60E148C7E4317CBED6C",
+        "sha256": "65F6C7C00BD4B9B7A10B21100A5F71E8467141197BC9ED9A7975552CCBB48221"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-08-31T20:35:24Z",
+    "x_generated_by": "netkan"
+}

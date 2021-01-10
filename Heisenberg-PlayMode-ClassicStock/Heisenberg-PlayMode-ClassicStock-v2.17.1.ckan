@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "Heisenberg-PlayMode-ClassicStock",
+    "name": "Heisenberg Classic Stock Play Mode",
+    "abstract": "Giant floating aircraft",
+    "author": "Angel-125",
+    "version": "v2.17.1",
+    "ksp_version_min": "1.8.0",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/150702-*",
+        "repository": "https://github.com/Angel-125/Airships",
+        "bugtracker": "https://github.com/Angel-125/Airships/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/Airships/master/GameData/WildBlueIndustries/Heisenberg/Airships/Airships.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "Heisenberg-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "Heisenberg"
+        },
+        {
+            "name": "WildBlue-PlayMode-ClassicStock"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Heisenberg-PlayMode"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries/Heisenberg/Templates/ClassicStock",
+            "install_to": "GameData/WildBlueIndustries/Heisenberg/Templates"
+        },
+        {
+            "find": "WildBlueIndustries/Heisenberg/Templates/ClassicStock.cfg",
+            "install_to": "GameData/WildBlueIndustries/Heisenberg/Templates",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/Airships/releases/download/v2.17.1/Heisenberg_2_17_1.zip",
+    "download_size": 48617067,
+    "download_hash": {
+        "sha1": "8EF407287A6DFBB3298E8D1869E5323C2510E65E",
+        "sha256": "4748A79EFB866A78AD725809AEF23E393054469E5891A4A9902CC0C564F9C1B1"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-02-11T03:11:44Z",
+    "x_generated_by": "netkan"
+}

@@ -3,14 +3,15 @@
     "identifier": "Pathfinder",
     "name": "Pathfinder",
     "abstract": "Space Camping @ Geoscience",
-    "author": "Angel125",
+    "author": "Angel-125",
     "version": "v1.36.0",
     "ksp_version_min": "1.8.0",
     "license": "GPL-3.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121397-*",
         "repository": "https://github.com/Angel-125/Pathfinder",
-        "bugtracker": "https://github.com/Angel-125/Pathfinder/issues"
+        "bugtracker": "https://github.com/Angel-125/Pathfinder/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/Pathfinder/master/GameData/WildBlueIndustries/Pathfinder/Pathfinder.version"
     },
     "tags": [
         "parts",
@@ -21,13 +22,13 @@
     ],
     "depends": [
         {
+            "name": "Pathfinder-PlayMode"
+        },
+        {
             "name": "ModuleManager"
         },
         {
             "name": "KerbalActuators"
-        },
-        {
-            "name": "ClassicStockResources"
         },
         {
             "name": "BarisBridge"
@@ -66,8 +67,13 @@
             "find": "Pathfinder",
             "install_to": "GameData/WildBlueIndustries",
             "filter_regexp": [
-                ".*\\.pdb$"
+                ".*\\.pdb$",
+                "Templates"
             ]
+        },
+        {
+            "find": "Pathfinder/Templates/Common",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates"
         },
         {
             "file": "GameData/WBIPlayMode.cfg",
