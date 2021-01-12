@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "ContractConfigurator-PlanesWithPurposes",
+    "name": "Planes With Purposes",
+    "abstract": "The purpose of this mod is to encourage people to use planes more, as they are quite useless when not built as SSTOs.",
+    "author": "Tudor",
+    "version": "1.3",
+    "ksp_version": "1.11.0",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/199185-111x-planes-with-purposes-pwp/",
+        "spacedock": "https://spacedock.info/mod/2601/Planes%20With%20Purposes",
+        "repository": "https://github.com/TudorAerospace/PWP",
+        "x_screenshot": "https://spacedock.info/content/Tudor_51927/Planes_With_Purposes/Planes_With_Purposes-1609314388.2805192.png"
+    },
+    "tags": [
+        "config",
+        "career"
+    ],
+    "depends": [
+        {
+            "name": "ContractConfigurator"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "AirplanePlus"
+        },
+        {
+            "name": "KerbalAircraftExpansion"
+        }
+    ],
+    "install": [
+        {
+            "find": "ContractPacks",
+            "install_to": "GameData/ContractPacks",
+            "as": "PlanesWithPurposes",
+            "filter": [
+                ".gitignore",
+                "MiniAVC.dll"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/2601/Planes%20With%20Purposes/download/1.3",
+    "download_size": 198445,
+    "download_hash": {
+        "sha1": "08B9EE04502599012C2BD888DCA6CE25BAF36B0F",
+        "sha256": "D4B61ECD15E465032926964729D4103A8BEDDAA73B0B150EE71DE5EE02E13761"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-01-12T14:31:35.826614+00:00",
+    "x_generated_by": "netkan"
+}
