@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "kOS",
+    "name": "kOS: Scriptable Autopilot System",
+    "abstract": "kOS is a scriptable autopilot Mod for Kerbal Space Program. It allows you write small programs that automate specific tasks.",
+    "author": "many KSP-KOS contributers, currently dunbaratu and hvacengi",
+    "version": "2:1.2.1.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.9.1",
+    "license": "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://ksp-kos.github.io/KOS_DOC/",
+        "repository": "https://github.com/KSP-KOS/KOS",
+        "bugtracker": "https://github.com/KSP-KOS/KOS/issues",
+        "manual": "http://ksp-kos.github.io/KOS_DOC/",
+        "metanetkan": "https://raw.githubusercontent.com/KSP-KOS/KOS/master/kOS.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/KSP-KOS/KOS/master/Resources/GameData/kOS/kOS.version"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "recommends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.5.6",
+            "comment": "Earlier versions of MM have forward compatibility problems, according to the MM release notes."
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RemoteTech",
+            "min_version": "1.5.1",
+            "comment": "RT gives incentive to having local control of craft, even unmanned ones"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "kOS-Classic"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/kOS",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-KOS/KOS/releases/download/v1.2.1.0/kOS-v1.2.1.0.zip",
+    "download_size": 3072815,
+    "download_hash": {
+        "sha1": "A6AD6084C034F4F7C1D6F074B506E331C2F3B4CF",
+        "sha256": "42BBF25BD96E76B66BB25736119BF2CCD19233686C409610E0C74C033EC93C78"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-05-24T20:12:39Z",
+    "x_generated_by": "netkan"
+}
