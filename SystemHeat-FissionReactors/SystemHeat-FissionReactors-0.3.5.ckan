@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SystemHeat-FissionReactors",
+    "name": "System Heat - Nuclear Reactor Configuration",
+    "abstract": "This System Heat configuration pack modifies nuclear reactors to use the SystemHeat backend. This principally applies to Near Future Electrical reactors. WARNING: potentially vessel-breaking.",
+    "author": "Nertea (Chris Adderley)",
+    "version": "0.3.5",
+    "ksp_version_min": "1.11.0",
+    "ksp_version_max": "1.11.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193909-1",
+        "repository": "https://github.com/post-kerbin-mining-corporation/SystemHeat",
+        "bugtracker": "https://github.com/post-kerbin-mining-corporation/SystemHeat/issues",
+        "metanetkan": "https://github.com/post-kerbin-mining-corporation/SystemHeat/raw/master/CKAN/SystemHeat-FissionReactors.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/post-kerbin-mining-corporation/SystemHeat/master/GameData/SystemHeat/Versioning/SystemHeat.version"
+    },
+    "tags": [
+        "parts",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "SystemHeat"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "NearFutureElectrical"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SystemHeatConverters"
+        },
+        {
+            "name": "SystemHeatFissionEngines"
+        },
+        {
+            "name": "SystemHeatHarvesters"
+        }
+    ],
+    "install": [
+        {
+            "find": "SystemHeatFissionReactors",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/post-kerbin-mining-corporation/SystemHeat/releases/download/0.3.5/SystemHeat_0_3_5.zip",
+    "download_size": 2140514,
+    "download_hash": {
+        "sha1": "91581E2587E60BB1F8CAF1068513AA7AC3F2DDA2",
+        "sha256": "962C9D760DF84BF72395A8741C72FF0330C7BA7805FF727A6796BAD7C15CBCAF"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-01-20T05:29:49Z",
+    "x_generated_by": "netkan"
+}
