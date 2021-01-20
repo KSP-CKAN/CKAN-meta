@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "CommunityAgenciesRevivalProject",
+    "name": "Community Agencies Revival Project (CARP)",
+    "abstract": "CARP is a community driven project that anyone can contribute to. It aims to revive agencies-based gameplay mechanics that are hinted at in configuration files.",
+    "author": "maj_MAL_funqt10n",
+    "version": "0.2",
+    "ksp_version": "1.11.0",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/maj-mal-funqt10n/CARP",
+        "spacedock": "https://spacedock.info/mod/2624/Community%20Agencies%20Revival%20Project%20(CARP)",
+        "repository": "https://github.com/maj-mal-funqt10n/CARP",
+        "x_screenshot": "https://spacedock.info/content/maj_MAL_funqt10n_53147/Community_Agencies_Revival_Project_CARP/Community_Agencies_Revival_Project_CARP-1611059437.5317476.png"
+    },
+    "tags": [
+        "config",
+        "agency",
+        "tech-tree",
+        "career"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ContractConfigurator"
+        }
+    ],
+    "install": [
+        {
+            "find": "CARP",
+            "install_to": "GameData",
+            "filter": [
+                "CraftFiles"
+            ]
+        },
+        {
+            "find": "CraftFiles",
+            "install_to": "Ships",
+            "as": "SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2624/Community%20Agencies%20Revival%20Project%20%28CARP%29/download/0.2",
+    "download_size": 496241,
+    "download_hash": {
+        "sha1": "80987220CD223D2B4F1D61D105F7C230DF3C69C2",
+        "sha256": "640200D00DEA3F163538AD6FAF584A90AD54A9F838384AA96127A36F545106C3"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-01-19T15:17:01.404596+00:00",
+    "x_generated_by": "netkan"
+}
