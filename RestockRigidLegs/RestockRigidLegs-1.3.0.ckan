@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RestockRigidLegs",
+    "name": "ReStock Extra - Rigid Legs",
+    "abstract": "A copy of the redone Restock legs with no suspension included",
+    "author": "ReStock Team",
+    "version": "1.3.0",
+    "ksp_version_min": "1.10.1",
+    "ksp_version_max": "1.11.99",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182679-161-restock-revamping-ksps-art/",
+        "repository": "https://github.com/PorktoberRevolution/ReStocked",
+        "bugtracker": "https://github.com/PorktoberRevolution/ReStocked/issues",
+        "metanetkan": "https://github.com/PorktoberRevolution/ReStocked/raw/master/CKAN/ReStockRigidLegs.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/PorktoberRevolution/ReStocked/prod/Distribution/Restock/GameData/ReStock/Versioning/ReStock.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "fr-fr",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ReStock"
+        }
+    ],
+    "install": [
+        {
+            "find": "RestockRigidLegs",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/PorktoberRevolution/ReStocked/releases/download/1.3.0/ReStock_1_3_0.zip",
+    "download_size": 235734766,
+    "download_hash": {
+        "sha1": "FE1F944580357F3F5DD6DE5747FE53A3E1C83232",
+        "sha256": "F225E47EE40F8F9EEA8CB00974FE03AB1A7168508BF03447AA5E574170213A47"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-01-21T18:50:50Z",
+    "x_generated_by": "netkan"
+}
