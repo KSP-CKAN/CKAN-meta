@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SystemHeat-Harvesters",
+    "name": "System Heat - Resource Harvester Configuration",
+    "abstract": "This System Heat config package changes stock and mod Resource Harvesters to use the SystemHeat backend. WARNING: potentially vessel-breaking.",
+    "author": "Nertea (Chris Adderley)",
+    "version": "0.3.6",
+    "ksp_version_min": "1.11.0",
+    "ksp_version_max": "1.11.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193909-1",
+        "repository": "https://github.com/post-kerbin-mining-corporation/SystemHeat",
+        "bugtracker": "https://github.com/post-kerbin-mining-corporation/SystemHeat/issues",
+        "metanetkan": "https://github.com/post-kerbin-mining-corporation/SystemHeat/raw/master/CKAN/SystemHeat-Harvesters.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/post-kerbin-mining-corporation/SystemHeat/master/GameData/SystemHeat/Versioning/SystemHeat.version"
+    },
+    "tags": [
+        "parts",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "SystemHeat"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SystemHeatConverters"
+        },
+        {
+            "name": "SystemHeatFissionReactors"
+        },
+        {
+            "name": "SystemHeatFissionEngines"
+        }
+    ],
+    "install": [
+        {
+            "find": "SystemHeatHarvesters",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/post-kerbin-mining-corporation/SystemHeat/releases/download/0.3.6/SystemHeat_0_3_6.zip",
+    "download_size": 2140776,
+    "download_hash": {
+        "sha1": "6694F923D48D8C09CD48E1C76AAB0C9A983135BF",
+        "sha256": "48F7426275CE7E750B9CED69B1766314BB2268BD283020DEA0923CDFF55B9BC9"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-01-22T07:48:47Z",
+    "x_generated_by": "netkan"
+}
