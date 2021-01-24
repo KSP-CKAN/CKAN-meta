@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CustomAsteroids-Pops-OPM-Outer",
+    "name": "Custom Asteroids (Kuiper belt analog for OPM)",
+    "abstract": "Adds Kentaurs and trans-Neidonian objects",
+    "author": "Starstrider42",
+    "version": "v1.2.0",
+    "ksp_version_min": "1.10.0",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/72785-*",
+        "repository": "https://github.com/Starstrider42/Custom-Asteroids-Extras",
+        "bugtracker": "https://github.com/Starstrider42/Custom-Asteroids-Extras/issues"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "provides": [
+        "CustomAsteroids-Pops"
+    ],
+    "depends": [
+        {
+            "name": "OuterPlanetsMod"
+        },
+        {
+            "name": "CustomAsteroids",
+            "min_version": "v1.9.0",
+            "max_version": "v1.99.99",
+            "comment": "Requires comet support."
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CustomAsteroids-Pops-Stock-Stockalike",
+            "min_version": "v1.9.0",
+            "max_version": "v1.99.99",
+            "comment": "Depends on Stockalike for standard comets."
+        }
+    ],
+    "install": [
+        {
+            "find": "config",
+            "install_to": "GameData/CustomAsteroids",
+            "filter_regexp": "(?<!Trans-Neidon\\.cfg)$"
+        }
+    ],
+    "download": "https://api.github.com/repos/Starstrider42/Custom-Asteroids-Extras/zipball/v1.2.0",
+    "download_size": 9128,
+    "download_hash": {
+        "sha1": "56A2F860F9BD130ED98E3C6B0E95B2A2444957CA",
+        "sha256": "A4080A213D0F4AD5FB3A125E42A63F4FB52C38A722D63F303155EE9000C90260"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-01-24T23:01:34Z",
+    "x_maintained_by": "Starstrider42",
+    "x_generated_by": "netkan"
+}
