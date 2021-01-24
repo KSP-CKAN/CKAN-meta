@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CustomAsteroids-Pops-OPM-Reconfig",
+    "name": "Custom Asteroids (alternative OPM config)",
+    "abstract": "Replaces default OPM asteroid config with one that uses Custom Asteroids",
+    "author": "Starstrider42",
+    "version": "v1.2.0",
+    "ksp_version_min": "1.4.0",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/72785-*",
+        "repository": "https://github.com/Starstrider42/Custom-Asteroids-Extras",
+        "bugtracker": "https://github.com/Starstrider42/Custom-Asteroids-Extras/issues"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "provides": [
+        "CustomAsteroids-Pops"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "OuterPlanetsMod",
+            "min_version": "2:2.2.2",
+            "max_version": "2:2.99.99",
+            "comment": "Version where OPM switched to Kopernicus asteroids."
+        },
+        {
+            "name": "CustomAsteroids",
+            "min_version": "v1.6.0",
+            "max_version": "v1.99.99",
+            "comment": "Requires localization support."
+        }
+    ],
+    "install": [
+        {
+            "find": "config",
+            "install_to": "GameData/CustomAsteroids",
+            "filter_regexp": "(?<!OPM-Reconfig\\.cfg)$"
+        }
+    ],
+    "download": "https://api.github.com/repos/Starstrider42/Custom-Asteroids-Extras/zipball/v1.2.0",
+    "download_size": 9128,
+    "download_hash": {
+        "sha1": "56A2F860F9BD130ED98E3C6B0E95B2A2444957CA",
+        "sha256": "A4080A213D0F4AD5FB3A125E42A63F4FB52C38A722D63F303155EE9000C90260"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-01-24T23:01:34Z",
+    "x_maintained_by": "HSJasperism",
+    "x_generated_by": "netkan"
+}
