@@ -5,7 +5,8 @@
     "abstract": "Handy parts to complement Making History.",
     "author": "Snark",
     "version": "1.9",
-    "ksp_version": "1.11.0",
+    "ksp_version_min": "1.10.1",
+    "ksp_version_max": "1.11.0",
     "license": "CC-BY-NC-SA",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172232-141-missinghistory-v10-handy-parts-to-complement-making-history/",
@@ -22,6 +23,13 @@
     "depends": [
         {
             "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "MissingHistory",
+            "install_to": "GameData",
+            "filter": [ "Size4Cone.cfg", "Size4Tank_04.cfg" ]
         }
     ],
     "download": "https://spacedock.info/mod/1743/MissingHistory/download/1.9",
