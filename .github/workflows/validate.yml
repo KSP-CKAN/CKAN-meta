@@ -33,3 +33,5 @@ jobs:
               with:
                   source: commits
                   pull request body: ${{ github.event.pull_request.body }}
+            - name: Chmod cached files so actions/cache can read them
+              run: sudo chmod -R a+r .cache
