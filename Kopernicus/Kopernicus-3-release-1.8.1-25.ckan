@@ -1,0 +1,68 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Kopernicus",
+    "name": "Kopernicus Planetary System Modifier",
+    "abstract": "Allows users to replace the planetary system used by the game.",
+    "author": [
+        "BryceSchroeder",
+        "Teknoman117",
+        "Thomas P.",
+        "NathanKell",
+        "KillAshley",
+        "Gravitasi",
+        "KCreator",
+        "Sigma88",
+        "R-T-B",
+        "prestja"
+    ],
+    "version": "3:release-1.8.1-25",
+    "ksp_version": "1.8.1",
+    "license": "LGPL-3.0",
+    "release_status": "development",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/194936-*",
+        "repository": "https://github.com/Kopernicus/Kopernicus",
+        "bugtracker": "https://github.com/Kopernicus/Kopernicus/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Kopernicus/Kopernicus/master/build/KSP181/GameData/Kopernicus/Plugins/Kopernicus.version"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "localizations": [
+        "en-us",
+        "it-it",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "ModularFlightIntegrator",
+            "min_version": "1.2.4.0"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KittopiaTech"
+        }
+    ],
+    "install": [
+        {
+            "find": "Kopernicus",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Kopernicus/Kopernicus/releases/download/USB-25/Kopernicus-1.8.1-25.zip",
+    "download_size": 384768,
+    "download_hash": {
+        "sha1": "5B2A0A30C98A88B9666C16EC9152F4421DEFBC53",
+        "sha256": "2AFBAADC97EB882C2136CD468556C530F6333358E9112A747A5B0F5A3772CB98"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-01-30T22:52:44Z",
+    "x_generated_by": "netkan"
+}
