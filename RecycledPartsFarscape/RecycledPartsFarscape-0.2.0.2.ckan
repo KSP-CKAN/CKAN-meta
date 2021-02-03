@@ -1,0 +1,68 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RecycledPartsFarscape",
+    "name": "Recycled Parts Farscape",
+    "abstract": "Old mods recycled",
+    "author": "linuxgurugamer",
+    "version": "0.2.0.2",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.11.1",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164829-13-spacetux-industries-recycled-parts/",
+        "spacedock": "https://spacedock.info/mod/1507/Recycled%20Parts",
+        "repository": "https://github.com/linuxgurugamer/RecycledParts",
+        "remote-avc": "http://ksp.spacetux.net/avc/RecycledParts"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KSPWheel"
+        },
+        {
+            "name": "PatchManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CommunityTechTree"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "JanitorsCloset"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RecycledPartsFarscape"
+        }
+    ],
+    "install": [
+        {
+            "find": "Mike_NZ_Crafts",
+            "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
+        },
+        {
+            "find": "SPH",
+            "install_to": "Ships",
+            "filter": [
+                "A Nuke Cruiser-Skalou-03.craft"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/1507/Recycled%20Parts/download/0.2.0.2",
+    "download_size": 33481264,
+    "download_hash": {
+        "sha1": "1F977B474D35BDFBEEE4F100482B9893EBD18A33",
+        "sha256": "8736472DC781F5C8AC94906D748402010BC1CA39273FF401E421E8502FDC06C3"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-02-03T21:14:30.456575+00:00",
+    "x_generated_by": "netkan"
+}
