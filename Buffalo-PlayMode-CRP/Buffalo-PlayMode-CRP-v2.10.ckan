@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Buffalo-PlayMode-CRP",
+    "name": "Buffalo CRP Play Mode",
+    "abstract": "NASA Inspired MSEV - Explore In Style",
+    "author": "Angel-125",
+    "version": "v2.10",
+    "ksp_version_min": "1.11.0",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/122617-*",
+        "repository": "https://github.com/Angel-125/Buffalo",
+        "bugtracker": "https://github.com/Angel-125/Buffalo/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/Buffalo/master/GameData/WildBlueIndustries/Buffalo/Buffalo.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "Buffalo-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "WildBlue-PlayMode-CRP"
+        },
+        {
+            "name": "Buffalo"
+        }
+    ],
+    "install": [
+        {
+            "find": "Buffalo/Templates/CRP.cfg",
+            "install_to": "GameData/WildBlueIndustries/Buffalo/Templates",
+            "find_matches_files": true
+        },
+        {
+            "find": "Buffalo/Templates/CRP/BuffaloISRU.txt",
+            "install_to": "GameData/WildBlueIndustries/Buffalo/Templates/CRP",
+            "as": "BuffaloISRU.cfg",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/Buffalo/releases/download/v2.10/Buffalo.zip",
+    "download_size": 36684851,
+    "download_hash": {
+        "sha1": "7F36BAB96A2554D07E991AFD2B1E60C76100D3D6",
+        "sha256": "D155232B27E14400BA022F819099818C47AE21F2494EDADF43A4536D5748C231"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-02-08T20:45:13Z",
+    "x_generated_by": "netkan"
+}
