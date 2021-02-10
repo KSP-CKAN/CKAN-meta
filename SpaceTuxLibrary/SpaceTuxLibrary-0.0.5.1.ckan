@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SpaceTuxLibrary",
+    "name": "SpaceTux Library",
+    "abstract": "A library of small functions for use by mods",
+    "author": "linuxgurugamer",
+    "version": "0.0.5.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.11.1",
+    "license": "GPL-3.0",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/2210/SpaceTux%20Library",
+        "repository": "https://github.com/linuxgurugamer/SpaceTuxLibrary",
+        "remote-avc": "http://ksp.spacetux.net/avc/SpaceTuxLibrary"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "provides": [
+        "ButtonManager",
+        "KSPColorPicker",
+        "KSPLog",
+        "KSPPartHighlighter",
+        "SpaceTuxUtility",
+        "VesselModuleSave"
+    ],
+    "install": [
+        {
+            "find": "SpaceTuxLibrary",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2210/SpaceTux%20Library/download/0.0.5.1",
+    "download_size": 495180,
+    "download_hash": {
+        "sha1": "A167B15D414908FA00B61A84187310B01CE2E403",
+        "sha256": "D4DDFFDB9046A8AA940ACD4647A930433C9118E691F43367BFB49DF9BB9E9B6C"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-02-10T03:39:02.081883+00:00",
+    "x_generated_by": "netkan"
+}
