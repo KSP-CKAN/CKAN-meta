@@ -1,0 +1,89 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DSEV",
+    "name": "DSEV",
+    "abstract": "Deep Space Exploration Vessels for KSP",
+    "author": "Angel-125",
+    "version": "v3.7.0",
+    "ksp_version_min": "1.11.0",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/122162-*",
+        "repository": "https://github.com/Angel-125/DSEV",
+        "bugtracker": "https://github.com/Angel-125/DSEV/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/DSEV/master/GameData/WildBlueIndustries/DSEV/DSEV.version"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "DSEV-PlayMode"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "WildBlueTools"
+        },
+        {
+            "name": "NearFutureProps"
+        },
+        {
+            "name": "KerbalActuators"
+        },
+        {
+            "name": "BarisBridge"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RasterPropMonitor-Core"
+        },
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "InfernalRobotics"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ASET"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries/DSEV",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter_regexp": [
+                ".*\\.pdb$",
+                "ReferenceDesigns",
+                "Templates"
+            ]
+        },
+        {
+            "find": "DSEV/Templates/Common",
+            "install_to": "GameData/WildBlueIndustries/DSEV/Templates"
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find": "SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/Angel-125/DSEV/releases/download/v3.7.0/DSEV.zip",
+    "download_size": 85929421,
+    "download_hash": {
+        "sha1": "88694C7CF439DEF83F25A007B02A8600E74567EB",
+        "sha256": "D151AEC1379B6CBF24968459A7F91E78FAB9564EA16BF8D37F41301039ADAB53"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-02-10T20:23:40Z",
+    "x_generated_by": "netkan"
+}
