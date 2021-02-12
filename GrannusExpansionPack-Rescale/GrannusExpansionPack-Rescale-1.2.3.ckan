@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GrannusExpansionPack-Rescale",
+    "name": "Grannus Expansion Pack Rescale",
+    "abstract": "Grannus Expansion Pack rescaled 2.5x",
+    "author": "OhioBob",
+    "version": "1.2.3",
+    "ksp_version_min": "1.8.1",
+    "license": "CC-BY-NC-ND",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169664-*",
+        "repository": "https://github.com/OhioBob/Grannus-Expansion-Pack",
+        "bugtracker": "https://github.com/OhioBob/Grannus-Expansion-Pack/issues",
+        "remote-avc": "https://raw.githubusercontent.com/OhioBob/Grannus-Expansion-Pack/master/GameData/GEP/Version/GrannusExpansionPack.version"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "GrannusExpansionPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "GEP_Rescale/Game Data/GEP_Rescale",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/OhioBob/Grannus-Expansion-Pack/releases/download/1.2.3/GrannusExpansionPack_1.2.3.zip",
+    "download_size": 320340048,
+    "download_hash": {
+        "sha1": "9438CE029951F0578B2CD99BC8C1E056F22B7101",
+        "sha256": "ECE99AB78D8E3080FFE118286B558889949533ABFEAC6A305E1B003A5B9ECB6B"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-02-12T18:55:01Z",
+    "x_generated_by": "netkan"
+}
