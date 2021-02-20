@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Parallax-StockTextures",
+    "name": "Parallax - Stock Planet Textures",
+    "abstract": "Parallax textures for the stock planets",
+    "author": "Linx",
+    "version": "1.2.1",
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197024-*",
+        "repository": "https://github.com/Gameslinx/Tessellation",
+        "bugtracker": "https://github.com/Gameslinx/Tessellation/issues"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "provides": [
+        "Parallax-Textures"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Parallax"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Parallax-Textures"
+        }
+    ],
+    "install": [
+        {
+            "find": "Parallax_StockTextures",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Gameslinx/Tessellation/releases/download/1.2.1/Parallax_StockTextures-1.2.1.zip",
+    "download_size": 1938013477,
+    "download_hash": {
+        "sha1": "62EE51C70A25112058F8AA387B82809F2A9DFCAF",
+        "sha256": "4968CA572D88DF780AB7741119D335C4BF4BCFF214E839E6ECF69B925D88AF4A"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-02-20T16:49:11Z",
+    "x_generated_by": "netkan"
+}
