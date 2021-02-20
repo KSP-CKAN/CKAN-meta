@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Parallax",
+    "name": "Parallax",
+    "abstract": "A PBR tessellation shader for planetary textures",
+    "author": "Linx",
+    "version": "1.2.1",
+    "ksp_version": "1.11",
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197024-*",
+        "repository": "https://github.com/Gameslinx/Tessellation",
+        "bugtracker": "https://github.com/Gameslinx/Tessellation/issues"
+    },
+    "tags": [
+        "plugin",
+        "library",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "Parallax-Textures"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "install": [
+        {
+            "find": "Parallax",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Gameslinx/Tessellation/releases/download/1.2.1/Parallax-1.2.1.zip",
+    "download_size": 16263371,
+    "download_hash": {
+        "sha1": "1B2F3729903BD206380D773E2D3E687102E515CA",
+        "sha256": "5C5B516B247242B4E65F91C7B8CAD5B0E4299B3C06875F3C6916725F2684948B"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-02-20T16:48:46Z",
+    "x_generated_by": "netkan"
+}
