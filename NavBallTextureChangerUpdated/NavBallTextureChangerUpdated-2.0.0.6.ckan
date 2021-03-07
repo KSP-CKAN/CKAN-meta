@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NavBallTextureChangerUpdated",
+    "name": "Nav Ball Texture Changer",
+    "abstract": "This mod will let you change the textures of the navbal",
+    "author": "linuxgurugamer",
+    "version": "2.0.0.6",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/200741-1",
+        "repository": "https://github.com/linuxgurugamer/NavBallTextureChanger",
+        "remote-avc": "http://ksp.spacetux.net/avc/NavBallTextureChanger"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "NavBallTextureChanger",
+            "install_to": "GameData",
+            "filter_regexp": [
+                ".*\\.pdb$"
+            ]
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/NavBallTextureChanger/releases/download/2.0.0.6/NavBallTextureChanger-1.10.1-2.0.0.6.zip",
+    "download_size": 2038575,
+    "download_hash": {
+        "sha1": "0FA3CD7F647609F40529441E5100A828E76C8331",
+        "sha256": "9B192AA1060B734AF1C0127CA157904B6434D2F32AED04DD71051542D4403871"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-03-07T02:45:34Z",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
