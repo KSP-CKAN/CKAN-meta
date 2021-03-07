@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NavBallTextureChangerUpdated",
+    "name": "NavBall Texture Changer Updated",
+    "abstract": "Change the textures in the Navball",
+    "author": "linuxgurugamer",
+    "version": "2.0.0.7",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.11.1",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/200741-1",
+        "spacedock": "https://spacedock.info/mod/2654/NavBall%20Texture%20Changer%20Updated",
+        "repository": "https://github.com/linuxgurugamer/NavBallTextureChanger",
+        "remote-avc": "http://ksp.spacetux.net/avc/NavBallTextureChanger"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "NavBallTextureExport"
+        }
+    ],
+    "install": [
+        {
+            "find": "NavBallTextureChanger",
+            "install_to": "GameData",
+            "filter_regexp": [
+                ".*\\.pdb$"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/2654/NavBall%20Texture%20Changer%20Updated/download/2.0.0.7",
+    "download_size": 2139338,
+    "download_hash": {
+        "sha1": "85832545A9A6EACDF9CF6654BF9C03D2E0CDC5EE",
+        "sha256": "6BF72D0649E735E1F745B5574455BC459EACABED1D1B9619E4353920C9FAE0AA"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-03-07T13:32:20.220623+00:00",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
