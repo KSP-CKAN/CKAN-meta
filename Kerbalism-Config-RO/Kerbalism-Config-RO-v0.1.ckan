@@ -8,6 +8,12 @@
     "resources": {
         "repository": "https://github.com/Standecco/ROKerbalism"
     },
+    "tags": [
+        "config",
+        "career",
+        "science",
+        "crewed"
+    ],
     "version": "v0.1",
     "ksp_version_min": "1.4.0",
     "ksp_version_max": "1.7.99",
@@ -15,6 +21,9 @@
         "Kerbalism-Config"
     ],
     "depends": [
+        {
+            "name": "ModuleManager"
+        },
         {
             "name": "Kerbalism"
         }
@@ -32,6 +41,15 @@
     "conflicts": [
         {
             "name": "Kerbalism-Config"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "USI-LS"
         }
     ],
     "install": [
