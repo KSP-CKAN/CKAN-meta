@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "WaterfallRestock",
+    "name": "Waterfall - Restock",
+    "abstract": "Waterfall configuration for the Restock and Restock+ mods. Adds Waterfall-driven effects to most engines and lights.",
+    "author": "Chris Adderley (Nertea)",
+    "version": "0.2.1",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.11.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/196309-wip-waterfall-a-framework-for-continuous-mesh-driven-engine-effects-dec-19/",
+        "repository": "https://github.com/post-kerbin-mining-corporation/WaterfallRestock",
+        "bugtracker": "https://github.com/post-kerbin-mining-corporation/WaterfallRestock/issues",
+        "metanetkan": "https://github.com/post-kerbin-mining-corporation/WaterfallRestock/raw/master/CKAN/WaterfallRestock.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/post-kerbin-mining-corporation/WaterfallRestock/master/GameData/WaterfallRestock/Versioning/WaterfallRestock.version"
+    },
+    "tags": [
+        "graphics",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "ReStock"
+        }
+    ],
+    "install": [
+        {
+            "find": "WaterfallRestock",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/post-kerbin-mining-corporation/WaterfallRestock/releases/download/0.2.1/WaterfallRestock_0_2_1.zip",
+    "download_size": 21674996,
+    "download_hash": {
+        "sha1": "61657AB2D6A06A38A1B95D4F4322248C12A941C2",
+        "sha256": "59777DB7340D7FD7B45FD59F05BE160B431EF3D05EF2C38E4A782587F165D26D"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-03-09T19:59:04Z",
+    "x_generated_by": "netkan"
+}
