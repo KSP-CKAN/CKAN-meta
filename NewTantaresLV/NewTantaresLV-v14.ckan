@@ -1,14 +1,16 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.18",
     "identifier": "NewTantaresLV",
-    "name": "New TantaresLV",
-    "abstract": "Stockalike N1, Soyuz and more!",
+    "name": "Tantares LV",
+    "abstract": "Stockalike Soviet and European Launch Vehicles",
     "author": "Beale",
     "version": "v14",
-    "ksp_version": "1.11",
+    "ksp_version_min": "1.10.1",
+    "ksp_version_max": "1.11",
     "license": "CC-BY-NC-SA-4.0",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/73686-Tantares",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/73686-Tantares",
+        "spacedock": "https://spacedock.info/mod/176/TantaresLV",
         "repository": "https://github.com/Tantares/TantaresLV",
         "bugtracker": "https://github.com/Tantares/TantaresLV/issues"
     },
@@ -17,6 +19,9 @@
     ],
     "localizations": [
         "en-us"
+    ],
+    "provides": [
+        "TantaresLV"
     ],
     "depends": [
         {
@@ -37,6 +42,11 @@
         {
             "find": "TantaresLV",
             "install_to": "GameData"
+        },
+        {
+            "find": "Crafts",
+            "install_to": "Ships",
+            "as": "VAB"
         }
     ],
     "download": "https://github.com/Tantares/TantaresLV/releases/download/v14/TantaresLV.zip",
