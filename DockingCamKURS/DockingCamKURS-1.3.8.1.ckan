@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DockingCamKURS",
+    "name": "Docking Cam",
+    "abstract": "KURS style docking camera",
+    "author": [
+        "DennyTX",
+        "linuxgurugamer"
+    ],
+    "version": "1.3.8.1",
+    "ksp_version_min": "1.9.1",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184038-*",
+        "repository": "https://github.com/linuxgurugamer/DockingCam",
+        "bugtracker": "https://github.com/linuxgurugamer/DockingCam/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/DockingCamera"
+    },
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "DockingcameraKURSstyle"
+        }
+    ],
+    "install": [
+        {
+            "find": "DockingCamKURS",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/DockingCam/releases/download/1.3.8.1/DockingCamera-1.10.1-1.3.8.1.zip",
+    "download_size": 3459335,
+    "download_hash": {
+        "sha1": "8BA4737691DCE54F536F8CBF740D80F20E204403",
+        "sha256": "E621C76F4531D06A6BDC0DC999200CF209B13D422D6CE7E4389B02B0C5F7C5AB"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-03-11T16:51:12Z",
+    "x_generated_by": "netkan"
+}
