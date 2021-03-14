@@ -1,0 +1,66 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SystemHeat",
+    "name": "System Heat",
+    "abstract": "System Heat revamps the Core Heat system used in stock KSP to drive drills and harvesters with a new, more powerful system. This core package does not make changes to the base game - install other SystemHeat packs to change drills, converters and the like to use Systemheat",
+    "author": "Nertea (Chris Adderley)",
+    "version": "0.3.10",
+    "ksp_version_min": "1.11.0",
+    "ksp_version_max": "1.11.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193909-1",
+        "repository": "https://github.com/post-kerbin-mining-corporation/SystemHeat",
+        "bugtracker": "https://github.com/post-kerbin-mining-corporation/SystemHeat/issues",
+        "metanetkan": "https://github.com/post-kerbin-mining-corporation/SystemHeat/raw/master/CKAN/SystemHeat.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/post-kerbin-mining-corporation/SystemHeat/master/GameData/SystemHeat/Versioning/SystemHeat.version"
+    },
+    "tags": [
+        "parts",
+        "plugin"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn",
+        "ru"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "HeatControl"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SystemHeatConverters"
+        },
+        {
+            "name": "SystemHeatFissionReactors"
+        },
+        {
+            "name": "SystemHeatFissionEngines"
+        },
+        {
+            "name": "SystemHeatHarvesters"
+        }
+    ],
+    "install": [
+        {
+            "find": "SystemHeat",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/post-kerbin-mining-corporation/SystemHeat/releases/download/0.3.10/SystemHeat_0_3_10.zip",
+    "download_size": 2142595,
+    "download_hash": {
+        "sha1": "00173457B0570B0EB00F06DEEF85B89DE89D0130",
+        "sha256": "2F2A8B28BCA4B5C3E727BAFD027237EF3FC0C69D76414218CA36577985CC1DD8"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-03-14T06:23:38Z",
+    "x_generated_by": "netkan"
+}
