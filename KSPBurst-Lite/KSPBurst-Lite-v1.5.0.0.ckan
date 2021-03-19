@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KSPBurst-Lite",
+    "name": "KSPBurst Lite",
+    "abstract": "A stand-in for KSPBurst that satisfies all dependendent mods but doesn't install and run the compiler",
+    "author": "dkavolis",
+    "version": "v1.5.0.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.11.99",
+    "license": "unknown",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201112-*",
+        "repository": "https://github.com/KSPModdingLibs/KSPBurst",
+        "bugtracker": "https://github.com/KSPModdingLibs/KSPBurst/issues",
+        "remote-avc": "https://raw.githubusercontent.com/KSPModdingLibs/KSPBurst/master/GameData/000_KSPBurst/KSPBurst.version"
+    },
+    "tags": [
+        "library"
+    ],
+    "provides": [
+        "KSPBurst"
+    ],
+    "conflicts": [
+        {
+            "name": "KSPBurst"
+        }
+    ],
+    "install": [
+        {
+            "find": "000_KSPBurst",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSPModdingLibs/KSPBurst/releases/download/v1.5.0.0/KSPBurst_1.5.0.0_plugins_only.zip",
+    "download_size": 426677,
+    "download_hash": {
+        "sha1": "42AA53FCACFF6EB60F6D4E8ACFF0150E4248F922",
+        "sha256": "629F6C5ABFFBC5019D525CE4593CC2934CF72E0F4139FA1010FE1D23C5F39317"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-03-19T16:47:16Z",
+    "x_generated_by": "netkan"
+}
