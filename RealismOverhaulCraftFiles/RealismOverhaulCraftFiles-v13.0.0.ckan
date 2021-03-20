@@ -1,0 +1,96 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "RealismOverhaulCraftFiles",
+    "name": "Realism Overhaul Craft Files",
+    "abstract": "Craft files for the various mods suggested by Realism Overhaul.",
+    "author": [
+        "NathanKell",
+        "SirKeplan",
+        "StollD",
+        "blowfishpro",
+        "cherrydev",
+        "pjf",
+        "rsparkyc",
+        "stratochief66",
+        "zorg2044",
+        "DRVeyl"
+    ],
+    "version": "v13.0.0",
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155700-*",
+        "repository": "https://github.com/KSP-RO/RealismOverhaul",
+        "bugtracker": "https://github.com/KSP-RO/RealismOverhaul/issues",
+        "metanetkan": "https://raw.githubusercontent.com/KSP-RO/RealismOverhaul/master/RealismOverhaulCraftFiles.netkan"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "RealismOverhaul"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "FASA"
+        },
+        {
+            "name": "AntaresCygnus"
+        },
+        {
+            "name": "RN-SovietRockets"
+        },
+        {
+            "name": "RN-SalyutStations"
+        },
+        {
+            "name": "RN-SovietSpacecraft"
+        },
+        {
+            "name": "RN-Skylab"
+        },
+        {
+            "name": "RN-SovietProbes"
+        },
+        {
+            "name": "RN-USProbesPack"
+        },
+        {
+            "name": "RN-USRockets"
+        },
+        {
+            "name": "NewTantares"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ROEngines"
+        },
+        {
+            "name": "ROCapsules"
+        }
+    ],
+    "install": [
+        {
+            "file": "Ships/VAB",
+            "install_to": "Ships",
+            "comment": "VAB craft files"
+        },
+        {
+            "file": "Ships/SPH",
+            "install_to": "Ships",
+            "comment": "SPH craft files"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealismOverhaul/releases/download/v13.0.0/RealismOverhaul-v13.0.0.zip",
+    "download_size": 12401150,
+    "download_hash": {
+        "sha1": "1AC5568660C3E4E8161F04EAE1B479395AA1F3EF",
+        "sha256": "D8F185EB6926CD98951BEFF982FC9E52D167766C33C10F3F85B441B82756BBA7"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-03-19T21:00:15Z",
+    "x_generated_by": "netkan"
+}
