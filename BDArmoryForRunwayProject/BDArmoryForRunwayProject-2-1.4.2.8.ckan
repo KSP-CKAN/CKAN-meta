@@ -1,0 +1,82 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "BDArmoryForRunwayProject",
+    "name": "BDArmory for Runway Project",
+    "abstract": "A version of the BDArmory mod for use with Scott Manley's Runway Project.",
+    "author": [
+        "BahamutoD",
+        "Papa_Joe",
+        "jrodrigv",
+        "ouloul",
+        "Scott Manley",
+        "JR",
+        "DocNappers",
+        "Cl0by",
+        "josue",
+        "aubranium",
+        "benbenwilde",
+        "TheKurgan"
+    ],
+    "version": "2:1.4.2.8",
+    "ksp_version_min": "1.9.0",
+    "ksp_version_max": "1.11.999",
+    "license": "CC-BY-SA-2.0",
+    "resources": {
+        "homepage": "https://docs.google.com/document/d/1taFjsHjuBoWwbpLLyg5V7c72eQUGGuPHdLIf0LueX_o/edit#heading=h.a2r2a9n8z66o",
+        "spacedock": "https://spacedock.info/mod/2487/BDArmory%20for%20Runway%20Project",
+        "repository": "https://github.com/BrettRyland/BDArmory",
+        "remote-avc": "https://github.com/PapaJoesSoup/BDArmory/raw/master/BDArmory/Distribution/GameData/BDArmory/BDArmory.version"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "sound",
+        "combat"
+    ],
+    "localizations": [
+        "en-us",
+        "es-es",
+        "ja",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "BDArmory"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "PhysicsRangeExtender"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "BDArmory"
+        }
+    ],
+    "install": [
+        {
+            "find": "BDArmory",
+            "install_to": "GameData",
+            "filter": [
+                "craft"
+            ]
+        },
+        {
+            "find": "craft",
+            "install_to": "Ships",
+            "as": "SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2487/BDArmory%20for%20Runway%20Project/download/1.4.2.8",
+    "download_size": 56195942,
+    "download_hash": {
+        "sha1": "E2B65E8AFCDA61F4F8D9C5E440D978C283D4007B",
+        "sha256": "4F239576A04B9FCE5880F9AFDDDA1C720EB23F874AC17A1122CEC6002BC13973"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-03-27T10:06:36.31073+00:00",
+    "x_generated_by": "netkan"
+}
