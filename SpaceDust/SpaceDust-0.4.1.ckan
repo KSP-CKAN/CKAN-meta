@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SpaceDust",
+    "name": "Space Dust",
+    "abstract": "A mod supplying a new experience for atmospheric and exospheric resource harvesting. Includes a new harvesting system, displays, resource distributions and parts.",
+    "author": "Nertea (Chris Adderley)",
+    "version": "0.4.1",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.11.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197723-1",
+        "repository": "https://github.com/post-kerbin-mining-corporation/SpaceDust",
+        "bugtracker": "https://github.com/post-kerbin-mining-corporation/SpaceDust/issues",
+        "metanetkan": "https://github.com/post-kerbin-mining-corporation/SpaceDust/raw/master/CKAN/SpaceDust.netkan",
+        "remote-avc": "https://raw.githubusercontent.com:443/post-kerbin-mining-corporation/SpaceDust/master/GameData/SpaceDust/Versioning/SpaceDust.version"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "resources",
+        "science"
+    ],
+    "localizations": [
+        "ru",
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        }
+    ],
+    "install": [
+        {
+            "find": "SpaceDust",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/post-kerbin-mining-corporation/SpaceDust/releases/download/0.4.1/SpaceDust_0_4_1.zip",
+    "download_size": 10656027,
+    "download_hash": {
+        "sha1": "16C1D0F4080BD56BCDCCB76FB252482079912EEB",
+        "sha256": "D1B2E883DF76DA7FC76AB2DC851F2100F4070D3201E8544FDCD683BDC1BF2286"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-03-28T17:40:46Z",
+    "x_generated_by": "netkan"
+}
