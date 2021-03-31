@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KSP-PartVolume",
+    "name": "KSP_PartVolume",
+    "abstract": "Create configs for parts which don't have ModuleCargoPart",
+    "author": "linuxgurugamer",
+    "version": "0.0.1",
+    "ksp_version_min": "1.11.0",
+    "ksp_version_max": "1.11.2",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201354-111x-ksp-part-volumes",
+        "spacedock": "https://spacedock.info/mod/2672/KSP_PartVolume",
+        "repository": "https://github.com/linuxgurugamer/KSP_PartVolume",
+        "remote-avc": "http://ksp.spacetux.net/avc/KSP_PartVolume",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/KSP_PartVolume/KSP_PartVolume-1617151715.35562.png"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "depends": [
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "KSP_PartVolume",
+            "install_to": "GameData",
+            "filter_regexp": [
+                ".*~$",
+                ".*\\.pdb$"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/2672/KSP_PartVolume/download/0.0.1",
+    "download_size": 29885,
+    "download_hash": {
+        "sha1": "1E7DD4D8B802D1CA8055FDD4A5652DA3EDE7C57A",
+        "sha256": "2E9BF397EBEBE6F62171085808B8237C14C19607F10A5E812C0EA4E743577246"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-03-31T00:46:54.215735+00:00",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
