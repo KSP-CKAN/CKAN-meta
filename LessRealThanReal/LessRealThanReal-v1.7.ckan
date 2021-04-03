@@ -1,0 +1,98 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "LessRealThanReal",
+    "name": "Less Real Than Real(ism)",
+    "abstract": "Real Progression One without RealismOverhaul",
+    "author": "pehvbot",
+    "version": "v1.7",
+    "ksp_version_min": "1.8",
+    "ksp_version_max": "1.11",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189978-*",
+        "repository": "https://github.com/pehvbot/LRTR",
+        "bugtracker": "https://github.com/pehvbot/LRTR/issues"
+    },
+    "tags": [
+        "plugin",
+        "config",
+        "parts",
+        "tech-tree",
+        "career",
+        "science"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "CustomBarnKit"
+        },
+        {
+            "name": "RSSDateTimeFormatter"
+        },
+        {
+            "name": "ContractConfigurator"
+        },
+        {
+            "name": "DMagicScienceAnimate"
+        },
+        {
+            "name": "KerbalConstructionTime"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ReStockPlus"
+        },
+        {
+            "name": "KSCSwitcher"
+        },
+        {
+            "name": "KerbalConstructionTime"
+        },
+        {
+            "name": "LessRealKerbalism"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KerbalAlarmClock"
+        },
+        {
+            "name": "KRASH"
+        },
+        {
+            "name": "ScrapYard"
+        },
+        {
+            "name": "OhScrap"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RealismOverhaul"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/LRTR",
+            "install_to": "GameData",
+            "filter": [
+                ".DS_Store"
+            ]
+        }
+    ],
+    "download": "https://github.com/pehvbot/LRTR/releases/download/v1.7/LRTR-v1.7.zip",
+    "download_size": 20736135,
+    "download_hash": {
+        "sha1": "41AE2E4B2AF5CDB6AAFC1BBAEDF723CB972DBA63",
+        "sha256": "675653D1F03FAA0072E1B2054DE2A093C4B84FC35EEEE8C19DC2F086E8E20981"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-04-03T04:41:43Z",
+    "x_generated_by": "netkan"
+}
