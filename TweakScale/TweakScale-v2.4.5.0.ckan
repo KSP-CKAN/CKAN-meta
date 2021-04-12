@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "TweakScale",
+    "name": "TweakScale - Rescale Everything!",
+    "abstract": "TweakScale lets you change the size of a part. Not just that, but it will figure out how much fuel is in the resized part. And if it's an engine, it will become more powerful by scaling it bigger, or weaker by scaling it smaller.",
+    "author": [
+        "Biotronic",
+        "pellinor",
+        "LisiasT"
+    ],
+    "version": "v2.4.5.0",
+    "ksp_version_min": "1.4.4",
+    "ksp_version_max": "1.11.2",
+    "license": [
+        "GPL-2.0",
+        "restricted"
+    ],
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*",
+        "spacedock": "https://spacedock.info/mod/127/TweakScale",
+        "repository": "https://github.com/net-lisias-ksp/TweakScale",
+        "remote-avc": "https://raw.githubusercontent.com/net-lisias-ksp/TweakScale/master/TweakScale.version",
+        "x_screenshot": "https://spacedock.info/content/Pellinor_227/TweakScale/TweakScale-1540681746.7632673.png"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.7.1"
+        },
+        {
+            "name": "KSP-Recall"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/999_Scale_Redist.dll",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/TweakScale",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/127/TweakScale/download/2.4.5.0",
+    "download_size": 284552,
+    "download_hash": {
+        "sha1": "4BD76476BEEE0ACC0C7F1383C764865D23B392C6",
+        "sha256": "EF8C3F75ED65F99B4B37215D0DC3200D65137BA0557DA880AE0EC21B77914D14"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-04-12T22:00:39.780795+00:00",
+    "x_generated_by": "netkan"
+}
