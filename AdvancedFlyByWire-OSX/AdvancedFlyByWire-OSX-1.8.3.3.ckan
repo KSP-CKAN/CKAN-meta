@@ -1,0 +1,62 @@
+{
+    "spec_version": 1,
+    "identifier": "AdvancedFlyByWire-OSX",
+    "name": "Advanced Fly-By-Wire (OSX)",
+    "abstract": "AFBW is an input overhaul mod. It dramatically enhances the stock input system with a bunch of fixes and many new features.",
+    "author": "linuxgurugamer",
+    "version": "1.8.3.3",
+    "ksp_version_min": "1.8.0",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-*",
+        "spacedock": "https://spacedock.info/mod/1878/ABFW%20Revived%20(OSX%20version)",
+        "repository": "https://github.com/linuxgurugamer/ksp-advanced-flybywire",
+        "bugtracker": "https://github.com/linuxgurugamer/ksp-advanced-flybywire/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/ksp-advanced-flybywire",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/ABFW_Revived_OSX_version/ABFW_Revived_OSX_version-1527782505.4308672.png"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "provides": [
+        "AdvancedFlyByWireRevived"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AdvancedFlyByWireRevived"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ksp-advanced-flybywire",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/ksp-advanced-flybywire/releases/download/1.8.3.3/ksp-advanced-flybywire-1.8.0-1.8.3.3-osx.zip",
+    "download_size": 95325,
+    "download_hash": {
+        "sha1": "BA9DA68475F9E42AE4BAA97EB937C21C27FCBB03",
+        "sha256": "FEE80CA2D88327F37B79F41BAF6CC9F04ACAF34F538EFF8502FDF67F916409F9"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-11-26T17:12:23Z",
+    "x_generated_by": "netkan"
+}
