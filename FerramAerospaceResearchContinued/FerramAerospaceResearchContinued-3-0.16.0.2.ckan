@@ -1,0 +1,69 @@
+{
+    "spec_version": 1,
+    "identifier": "FerramAerospaceResearchContinued",
+    "name": "Ferram Aerospace Research Continued",
+    "abstract": "FAR replaces KSP's stock part-centered aerodynamics model with one based on real-life physics.",
+    "author": [
+        "ferram4",
+        "dkavolis"
+    ],
+    "version": "3:0.16.0.2",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.11.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179445-*",
+        "repository": "https://github.com/dkavolis/Ferram-Aerospace-Research",
+        "bugtracker": "https://github.com/dkavolis/Ferram-Aerospace-Research/issues",
+        "remote-avc": "https://raw.githubusercontent.com/dkavolis/Ferram-Aerospace-Research/master/GameData/FerramAerospaceResearch/FAR.version"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "localizations": [
+        "en-us",
+        "de-de",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "AerodynamicModel",
+        "FAR"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ModularFlightIntegrator"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AerodynamicModel"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/FerramAerospaceResearch",
+            "install_to": "GameData",
+            "filter": "config.xml"
+        },
+        {
+            "file": "Ships",
+            "install_to": "Ships",
+            "optional": true,
+            "description": "FAR example craft"
+        }
+    ],
+    "download": "https://github.com/dkavolis/Ferram-Aerospace-Research/releases/download/v0.16.0.2_Mader/FAR_0_16_0_2_Mader.zip",
+    "download_size": 888321,
+    "download_hash": {
+        "sha1": "77192C5F00183B822C59FC82AE19CEB88A06E265",
+        "sha256": "EBA267FC7FF8E690CCF60D39B5EAD0BDD6D2801E87974EA8D0117ABAE0A0ABF6"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-05-09T05:16:23Z",
+    "x_generated_by": "netkan"
+}
