@@ -30,6 +30,11 @@
             "name": "CommunityTechTree"
         }
     ],
+    "recommends": [
+        {
+            "name": "BetterEarlyTree"
+        }
+    ],
     "supports": [
         {
             "name": "ReStockPlus"
@@ -47,10 +52,11 @@
     "install": [
         {
             "find": "ImprovedTreeEnginePlacement",
-            "install_to": "GameData",
-            "filter": [
-                ".git"
-            ]
+            "install_to": "GameData"
+        },
+        {
+            "find": "ImprovedTreeEnginePlacement/Extras",
+            "install_to": "GameData/ImprovedTreeEnginePlacement"
         }
     ],
     "download": "https://spacedock.info/mod/2646/Improved%20Tree%20Engine%20Placement/download/v1.4.0",
