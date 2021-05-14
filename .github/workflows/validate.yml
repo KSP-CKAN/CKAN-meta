@@ -15,6 +15,7 @@ jobs:
             - name: Get CKAN-meta repo
               uses: actions/checkout@v2
               with:
+                  ref: ${{ github.event.pull_request.head.sha }}
                   fetch-depth: 0
             - name: Cache downloads
               if: ${{ github.event_name == 'pull_request' }}
