@@ -1,0 +1,82 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "IXSWarpshipOS",
+    "name": "IXS-Warpship-OS",
+    "abstract": "Kerbal remake of Dr. White's concept design of a warp capable space vessel using Dr. Alcubierre's theory on bending space-time, effectively circumventing Einstein's law of relativity. This mod continues the work RoverDude, Stevie_D and Sophia. This mod requires RoverDude's Alcubierre Drive (standalone) and Community Resource Pack. Suggested additional mod: Spacedocks (by Fenrir)",
+    "author": [
+        "Denko666",
+        "linuxgurugamer"
+    ],
+    "version": "0.5.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.11.2",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191422-18x-ixs-warpship-spacedock-redocked-betas/",
+        "spacedock": "https://spacedock.info/mod/589/IXS-Warpship-OS",
+        "repository": "https://github.com/linuxgurugamer/warpship",
+        "bugtracker": "https://github.com/linuxgurugamer/warpship/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/IXSWarpShipOS",
+        "x_screenshot": "https://spacedock.info/content/Denko666_1695/IXS-Warpship-OS/IXS-Warpship-OS-1478106155.1607766.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "WarpDrive"
+        },
+        {
+            "name": "AlcubierreStandalone"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SpacedocksRedeployed"
+        },
+        {
+            "name": "CommunityTechTree"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "WarpShip"
+        },
+        {
+            "name": "KSPInterstellarExtended"
+        }
+    ],
+    "install": [
+        {
+            "find": "IXSWarpShipOS",
+            "install_to": "GameData",
+            "filter": [
+                ".DS_Store",
+                "Example Craft",
+                "old Spacedocks.zip"
+            ]
+        },
+        {
+            "find": "IXS01 Warpship Prototype.craft",
+            "install_to": "Ships/VAB",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/589/IXS-Warpship-OS/download/0.5.1",
+    "download_size": 13317142,
+    "download_hash": {
+        "sha1": "053CEA4C2B04C03C326F1F9A1379F4913005EACB",
+        "sha256": "27446440F460CB57F657E4A2470DEF5D22E15D09349F72DFE29E791A1FC903DB"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-05-28T21:01:41.793315+00:00",
+    "x_generated_by": "netkan"
+}
