@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "CommunityAgenciesRevivalProject",
+    "name": "Community Agencies Revival Project (CARP)",
+    "abstract": "CARP is a community driven project that anyone can contribute to. It aims to revive agencies-based gameplay mechanics that are hinted at in configuration files.",
+    "author": "maj_MAL_funqt10n",
+    "version": "0.5",
+    "ksp_version": "1.11.2",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/maj-mal-funqt10n/CARP",
+        "spacedock": "https://spacedock.info/mod/2624/Community%20Agencies%20Revival%20Project%20(CARP)",
+        "repository": "https://github.com/maj-mal-funqt10n/CARP",
+        "bugtracker": "https://github.com/maj-mal-funqt10n/CARP/issues",
+        "x_screenshot": "https://spacedock.info/content/maj_MAL_funqt10n_53147/Community_Agencies_Revival_Project_CARP/Community_Agencies_Revival_Project_CARP-1623838688.2748225.png"
+    },
+    "tags": [
+        "config",
+        "agency",
+        "tech-tree",
+        "career"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ContractConfigurator"
+        }
+    ],
+    "install": [
+        {
+            "find": "CARP",
+            "install_to": "GameData",
+            "filter": [
+                "CraftFiles"
+            ]
+        },
+        {
+            "find": "CraftFiles",
+            "install_to": "Ships",
+            "as": "SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2624/Community%20Agencies%20Revival%20Project%20%28CARP%29/download/0.5",
+    "download_size": 497348,
+    "download_hash": {
+        "sha1": "8A8002EDE825900FC6EEAE2C6D6AEE112D3D82B1",
+        "sha256": "404725FEF3B9287B4FBFAC8A0EBAE7020B8FE5AD5969843352472740565ACEC1"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-06-16T10:13:59.835846+00:00",
+    "x_generated_by": "netkan"
+}
