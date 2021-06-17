@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GravityTurnContinued",
+    "name": "GravityTurn Continued",
+    "abstract": "Automated highly efficient launches",
+    "author": [
+        "johnfink8",
+        "AndyMt",
+        "linuxgurugamer"
+    ],
+    "version": "3:1.8.1.8",
+    "ksp_version_min": "1.8.0",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/192590-*",
+        "repository": "https://github.com/linuxgurugamer/GravityTurn",
+        "bugtracker": "https://github.com/linuxgurugamer/GravityTurn/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/GravityTurn"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "provides": [
+        "GravityTurn"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "GravityTurn"
+        }
+    ],
+    "install": [
+        {
+            "find": "GravityTurn",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/GravityTurn/releases/download/1.8.1.8/GravityTurn-1.11.2-1.8.1.8.zip",
+    "download_size": 117055,
+    "download_hash": {
+        "sha1": "E89FCB9E7A4966BEA8D654F1381E0E04B027684F",
+        "sha256": "0B8655857F0DB328AAC438E32B22FADB78C2B880E789917F8FB25A64FB254639"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-06-17T14:34:42Z",
+    "x_generated_by": "netkan"
+}
