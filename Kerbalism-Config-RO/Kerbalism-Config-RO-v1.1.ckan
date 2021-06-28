@@ -1,0 +1,87 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Kerbalism-Config-RO",
+    "name": "Kerbalism - RealismOverhaul Config",
+    "abstract": "Kerbalism configuration for Realism Overhaul and RP-1",
+    "author": [
+        "NathanKell",
+        "SirKeplan",
+        "StollD",
+        "al2me6",
+        "blowfishpro",
+        "cherrydev",
+        "pjf",
+        "rsparkyc",
+        "stratochief66",
+        "zorg2044",
+        "Standecco"
+    ],
+    "version": "v1.1",
+    "license": "Unlicense",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/ROKerbalism",
+        "bugtracker": "https://github.com/KSP-RO/ROKerbalism/issues"
+    },
+    "tags": [
+        "config",
+        "career",
+        "science",
+        "crewed"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "pt-br",
+        "ru"
+    ],
+    "provides": [
+        "Kerbalism-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealismOverhaul"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RP-0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-Config"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "USI-LS"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismConfig",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/ROKerbalism/releases/download/v1.1/GameData.zip",
+    "download_size": 2253708,
+    "download_hash": {
+        "sha1": "7B1468F98A72E8EDDB2CE08F12276D6FB6554D16",
+        "sha256": "E99A7E7AC16673F8ED3C23E9A4DA6CA3D0099EA4E9ABE2E10A47D3A15A8444D7"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-06-28T07:08:52Z",
+    "x_generated_by": "netkan"
+}
