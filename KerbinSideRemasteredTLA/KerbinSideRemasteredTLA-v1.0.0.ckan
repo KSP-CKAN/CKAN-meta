@@ -1,0 +1,75 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "KerbinSideRemasteredTLA",
+    "name": "Kerbin Side Remastered - The Life Aquatic",
+    "abstract": "The Life Aquatic - Contracts Pack for underwater and ocean surface missions",
+    "author": "Caerfinon",
+    "version": "v1.0.0",
+    "ksp_version": "1.12.1",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/203096-v100-kerbin-side-remastered-the-life-aquatic/",
+        "spacedock": "https://spacedock.info/mod/2808/Kerbin%20Side%20Remastered%20-%20The%20Life%20Aquatic",
+        "repository": "https://github.com/caerfinon/KerbinSideRemasteredTLA",
+        "bugtracker": "https://github.com/caerfinon/KerbinSideRemasteredTLA/issues",
+        "x_screenshot": "https://spacedock.info/content/Caerfinon_49341/Kerbin_Side_Remastered_-_The_Life_Aquatic/Kerbin_Side_Remastered_-_The_Life_Aquatic-1625931471.7371085.png"
+    },
+    "tags": [
+        "config",
+        "buildings"
+    ],
+    "depends": [
+        {
+            "name": "ContractConfigurator"
+        },
+        {
+            "name": "KerbalKonstructs"
+        },
+        {
+            "name": "KerbinSideRemastered"
+        },
+        {
+            "name": "KerbinSideRemasteredGapExtras"
+        },
+        {
+            "name": "KSCHarbor"
+        },
+        {
+            "name": "WaterLaunchSites"
+        },
+        {
+            "name": "CountryDoggosRandomKKBits"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "WorkingUnderwaterLite"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KerbinSideRemasteredGAP"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbinSideRemasteredTLA",
+            "install_to": "GameData",
+            "filter": "Ships"
+        },
+        {
+            "find": "Assets/Ships",
+            "install_to": "Ships",
+            "as": "SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2808/Kerbin%20Side%20Remastered%20-%20The%20Life%20Aquatic/download/v1.0.0",
+    "download_size": 534937,
+    "download_hash": {
+        "sha1": "9AE60F7BCBEA2F2D8418F4BD4B46732C47D19D8C",
+        "sha256": "E0001C734BBB8B477A6FA03089176ECBDE758F87419CB2BC00EC09942518DA27"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-07-10T15:32:17.372206+00:00",
+    "x_generated_by": "netkan"
+}
