@@ -2,16 +2,17 @@
     "spec_version": "v1.4",
     "identifier": "KSPInterstellarExtended",
     "name": "KSP Interstellar Extended",
-    "abstract": "KSP Interstellar Extended (KSPI-E) is a plugin for Kerbal Space Program, designed to encourage bootstrapping toward ever more advanced levels of technology as well as utilizing In-Situ resources to expand the reach of Kerbal civilization. KSP Interstellar Extended aims to continue in Fractals original KSPI vision in providing a realistic road to the stars.",
+    "abstract": "KSPI-E is a plugin designed to encourage bootstrapping toward ever more advanced levels of technology as well as utilizing In-Situ resources to expand the reach of Kerbal civilization",
     "author": "FreeThinker",
-    "version": "1.26.22",
+    "version": "1.28.13",
     "ksp_version_min": "1.8.1",
-    "ksp_version_max": "1.11.1",
-    "license": "GPL-3.0",
+    "ksp_version_max": "1.11.2",
+    "license": "unknown",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172026-*",
         "spacedock": "https://spacedock.info/mod/172/KSP%20Interstellar%20Extended",
         "repository": "https://github.com/sswelm/KSP-Interstellar-Extended",
+        "bugtracker": "https://github.com/sswelm/KSP-Interstellar-Extended/issues",
         "remote-avc": "http://ksp-avc.cybutek.net/version.php?id=152",
         "x_screenshot": "https://spacedock.info/content/FreeThinker_517/KSP_Interstellar_Extended/KSP_Interstellar_Extended-1470128568.7429862.png"
     },
@@ -32,6 +33,9 @@
         "de-de"
     ],
     "depends": [
+        {
+            "name": "InterstellarRedistributable"
+        },
         {
             "name": "InterstellarFuelSwitch-Core"
         },
@@ -65,15 +69,21 @@
             "name": "PhotonSailor"
         },
         {
-            "name": "BetterBurnTime"
+            "name": "HideEmptyTechNodes"
         },
         {
-            "name": "HideEmptyTechNodes"
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "ImprovedTreeEnginePlacement"
         }
     ],
     "suggests": [
         {
             "name": "HeatControl"
+        },
+        {
+            "name": "BetterBurnTime"
         },
         {
             "name": "TexturesUnlimited"
@@ -91,13 +101,13 @@
             "install_to": "GameData"
         }
     ],
-    "download": "https://spacedock.info/mod/172/KSP%20Interstellar%20Extended/download/1.26.22",
-    "download_size": 234988955,
+    "download": "https://spacedock.info/mod/172/KSP%20Interstellar%20Extended/download/1.28.13",
+    "download_size": 261219225,
     "download_hash": {
-        "sha1": "FD2DB6E0FD374367A63C0342EE9504DEAAF452EB",
-        "sha256": "8AAA5E42CFE3FB3040166529116B059F3EC9CFCF4E0B38DF8E60F99B609B6AEF"
+        "sha1": "DDE1DEEDA99D7E86227A2285BFDA103C6C39B5B6",
+        "sha256": "9DE6AF7CB03B8CF83A028BB96A59FA0F3F87617014949F6F68E3F091AEDBA3BC"
     },
     "download_content_type": "application/zip",
-    "release_date": "2021-02-27T10:38:26.127957+00:00",
+    "release_date": "2021-06-30T07:30:04.555369+00:00",
     "x_generated_by": "netkan"
 }
