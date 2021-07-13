@@ -5,7 +5,7 @@
     "abstract": "Galileo's Planet Pack is an all new solar system. With high quality planets to explore, and more challeging gameplay than the stock game, GPP will give even the most accomplished KSPer hours of fun. GPP removes the stock planetary system and will corrupt stock system game saves.",
     "author": "Galileo88",
     "version": "1:1.6.4.1",
-    "ksp_version": "1.4.5",
+    "ksp_version_min": "1.8.1",
     "license": "CC-BY-NC-ND",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152136-ksp-13-galileos-planet-pack-v151-8-sept-2017/",
@@ -66,6 +66,9 @@
         },
         {
             "name": "SigmaReplacements-MenuScenes"
+        },
+        {
+            "name": "Grannus-RibbonPack"
         }
     ],
     "suggests": [
@@ -117,6 +120,9 @@
         {
             "find": "Optional Mods/GPP_FinalFrontier/GameData/Nereid",
             "install_to": "GameData",
+            "filter": [
+                "Grannus"
+            ],
             "comment": "This correctly installs Final Frontier for GPP"
         }
     ],
