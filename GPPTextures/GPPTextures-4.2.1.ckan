@@ -5,15 +5,20 @@
     "abstract": "Textures for Galileo's Planet Pack.",
     "author": "Galileo88",
     "version": "4.2.1",
-    "ksp_version": "1.4.5",
     "license": "CC-BY-NC-ND",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152136-ksp-13-galileos-planet-pack-v151-8-sept-2017/",
-        "metanetkan": "https://raw.githubusercontent.com/Galileo88/Galileos-Planet-Pack/master/CKAN/GPPTextures.netkan"
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152136-galileos-planet-pack/",
+        "repository": "https://github.com/Galileo88/Galileos-Planet-Pack",
+        "bugtracker": "https://github.com/Galileo88/Galileos-Planet-Pack/issues"
     },
     "tags": [
         "config",
         "graphics"
+    ],
+    "depends": [
+        {
+            "name": "GPP"
+        }
     ],
     "install": [
         {
@@ -29,5 +34,6 @@
         "sha256": "34AB69A82A31B28ACC1B31F20B48F0645BED99B69C82540FB72014B8562FE1BA"
     },
     "download_content_type": "application/zip",
+    "release_date": "2018-08-03T15:47:21Z",
     "x_generated_by": "netkan"
 }
