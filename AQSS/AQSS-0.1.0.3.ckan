@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "AQSS",
+    "name": "AQSS - Auto-Quick-Save-System",
+    "abstract": "automate your quicksaves to reduce chance of losing data",
+    "author": "linuxgurugamer",
+    "version": "0.1.0.3",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.1",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/195238-aq",
+        "spacedock": "https://spacedock.info/mod/2475/AQSS%20-%20Auto-Quick-Save-System",
+        "repository": "https://github.com/linuxgurugamer/AutoQuickSaveSystem",
+        "bugtracker": "https://github.com/linuxgurugamer/AutoQuickSaveSystem/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/AutoQuickSaveSystem",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/AQSS_-_Auto-Quick-Save-System/AQSS_-_Auto-Quick-Save-System-1594744273.7830505.png"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "AutoQuickSaveSystem",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2475/AQSS%20-%20Auto-Quick-Save-System/download/0.1.0.3",
+    "download_size": 443855,
+    "download_hash": {
+        "sha1": "B2623AE9F5568E5EDB99372FE0899936CF5463AF",
+        "sha256": "25A7C4BAE50B194E5EADD73505374271F6B6802A7C0F0949B72E6FE89004AFE1"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-07-17T20:42:52.707722+00:00",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
