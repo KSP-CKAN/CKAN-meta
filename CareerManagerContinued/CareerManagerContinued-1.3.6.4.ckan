@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CareerManagerContinued",
+    "name": "CareerManagerContinued",
+    "abstract": "Career Lite",
+    "author": "linuxgurugamer",
+    "version": "1.3.6.4",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.1",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/156510-12-career-manager-continued-for-all-your-career-mode-needs/",
+        "spacedock": "https://spacedock.info/mod/1221/CareerManagerContinued",
+        "repository": "https://github.com/linuxgurugamer/CareerManagerContinued",
+        "bugtracker": "https://github.com/linuxgurugamer/CareerManagerContinued/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/CareerManagerContinued"
+    },
+    "tags": [
+        "plugin",
+        "career"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "CareerManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "CareerManager",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1221/CareerManagerContinued/download/1.3.6.4",
+    "download_size": 60322,
+    "download_hash": {
+        "sha1": "045FAF197BBF621BF5572C5BCB0CBE187846C4EF",
+        "sha256": "79623C2E60FE001A9D13EBAED95BB469D05A7350740490267E1A01F924A49D03"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-07-20T23:21:09.539561+00:00",
+    "x_generated_by": "netkan"
+}
