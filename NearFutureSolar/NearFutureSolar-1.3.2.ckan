@@ -1,0 +1,76 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NearFutureSolar",
+    "name": "Near Future Solar",
+    "abstract": "New solar panels in a variety of sizes and types",
+    "author": "Nertea (Chris Adderley)",
+    "version": "1.3.2",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155465-16x-near-future-technologies-16x-fixes-jan-21/",
+        "spacedock": "https://spacedock.info/mod/559/Near%20Future%20Solar",
+        "repository": "https://github.com/post-kerbin-mining-corporation/NearFutureSolar",
+        "bugtracker": "https://github.com/post-kerbin-mining-corporation/NearFutureSolar/issues",
+        "metanetkan": "https://github.com/post-kerbin-mining-corporation/NearFutureSolar/raw/master/CKAN/NearFutureSolar.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/post-kerbin-mining-corporation/NearFutureSolar/master/GameData/NearFutureSolar/Versioning/NearFutureSolar.version",
+        "x_screenshot": "https://spacedock.info/content/Nertea_200/Near_Future_Solar/Near_Future_Solar-1461341963.6733372.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn",
+        "pt-br",
+        "it-it",
+        "es-es",
+        "ru",
+        "de-de"
+    ],
+    "depends": [
+        {
+            "name": "NearFutureSolar-Core"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CommunityTechTree"
+        },
+        {
+            "name": "NearFutureConstruction"
+        },
+        {
+            "name": "NearFutureElectrical"
+        },
+        {
+            "name": "NearFuturePropulsion"
+        },
+        {
+            "name": "NearFutureSpacecraft"
+        }
+    ],
+    "install": [
+        {
+            "find": "NearFutureSolar",
+            "install_to": "GameData",
+            "filter": "NearFutureSolar.dll"
+        }
+    ],
+    "download": "https://spacedock.info/mod/559/Near%20Future%20Solar/download/1.3.2",
+    "download_size": 25611361,
+    "download_hash": {
+        "sha1": "DBE33ED7210BF43F98749EB0A24FCDB0EB395F30",
+        "sha256": "7525EB10E8014D0337EC302A4C8735A7065646B75AEFA47EE09C6C7C245A8DEE"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-07-21T19:20:19.2813+00:00",
+    "x_generated_by": "netkan"
+}
