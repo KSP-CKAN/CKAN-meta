@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CryoEngines-LFO",
+    "name": "Cryogenic Engines - Liquid Fuel/Oxidizer",
+    "abstract": "Optional patch to make the engines burn KSP's normal liquid fuel and oxidizer mixture instead of the custom liquid hydrogen and oxidizer mixture that they use by default, at the cost of efficiency",
+    "author": "Nertea (Chris Adderley)",
+    "version": "1:2.0.2",
+    "ksp_version_min": "1.10.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/106089-16x-cryogenic-engines-high-isp-chemical-rockets-january-21/",
+        "spacedock": "https://spacedock.info/mod/709/Cryogenic%20Engines",
+        "repository": "https://github.com/post-kerbin-mining-corporation/CryoEngines",
+        "bugtracker": "https://github.com/post-kerbin-mining-corporation/CryoEngines/issues",
+        "metanetkan": "https://raw.githubusercontent.com/post-kerbin-mining-corporation/CryoEngines/master/CKAN/CryoEngines-LFO.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/post-kerbin-mining-corporation/CryoEngines/master/GameData/CryoEngines/Versioning/CryoEngines.version",
+        "x_screenshot": "https://spacedock.info/content/Nertea_200/Cryogenic_Engines/Cryogenic_Engines-1463537159.2542982.png"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "CryoEngines"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "CryoEngines-NFAero"
+        }
+    ],
+    "install": [
+        {
+            "find": "CryoEnginesLFO",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/709/Cryogenic%20Engines/download/2.0.2",
+    "download_size": 94843911,
+    "download_hash": {
+        "sha1": "933A7BDFBDBC20A7790F09E60C1181FDD2B91583",
+        "sha256": "387083F2D516FBC25D550F56CBBF5B118DA01989F580CF9D5829BF56AC042C73"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-07-23T21:13:20.790335+00:00",
+    "x_generated_by": "netkan"
+}
