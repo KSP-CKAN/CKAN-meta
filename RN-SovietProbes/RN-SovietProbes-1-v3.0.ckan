@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Ships installed again",
+    "identifier": "RN-SovietProbes",
+    "name": "Soviet Probes",
+    "abstract": "This pack includes early Soviet probes such as Sputnik, Luna, Molniya and Polyot. Probes are meant to be used with my Soviet Rockets pack.",
+    "author": "Raidernick",
+    "version": "1:v3.0",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-ND-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/79433-*",
+        "repository": "https://github.com/KSP-RO/SovietProbes",
+        "bugtracker": "https://github.com/KSP-RO/SovietProbes/issues",
+        "remote-avc": "http://raw.githubusercontent.com/KSP-RO/SovietProbes/master/GameData/RN_Soviet_Probes/SovietProbes.version"
+    },
+    "tags": [
+        "parts",
+        "uncrewed"
+    ],
+    "depends": [
+        {
+            "name": "BDAnimationModules"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TexturesUnlimited"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RN-SovietRockets"
+        }
+    ],
+    "install": [
+        {
+            "find": "RN_Soviet_Probes",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/SovietProbes/releases/download/v3.0/RN_Soviet_Probes_v3.0.zip",
+    "download_size": 30106899,
+    "download_hash": {
+        "sha1": "9CE6D538040AAB7E671C350FBDE3BC020F950F25",
+        "sha256": "07B6278E4FFD5D837C321DC16E09A70F6AE768D8ADD088CBA1362F55D1CBEA1E"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-07-24T08:04:46Z",
+    "x_generated_by": "netkan"
+}
