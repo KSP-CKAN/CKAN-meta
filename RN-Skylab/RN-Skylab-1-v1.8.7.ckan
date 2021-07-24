@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Ships installed again, updated",
+    "identifier": "RN-Skylab",
+    "name": "Skylab",
+    "abstract": "This mod comes with everything you need to create your own Skylab, broken solar panels and all!",
+    "author": "Raidernick",
+    "version": "1:v1.8.7",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-ND-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/77855-*",
+        "repository": "https://github.com/KSP-RO/Skylab",
+        "bugtracker": "https://github.com/KSP-RO/Skylab/issues",
+        "remote-avc": "http://raw.githubusercontent.com/KSP-RO/Skylab/master/GameData/RN_Skylab/Skylab.version"
+    },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "BDAnimationModules"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "RN_Skylab",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/Skylab/releases/download/v1.8.7/RN_Skylab_v1.8.7.zip",
+    "download_size": 7573072,
+    "download_hash": {
+        "sha1": "540C63C94A39BC9853D5D62C467B3E03EEA4F2A6",
+        "sha256": "EE853477752093610F0B1D699FECF024DB78E463C2FBF2756B89313F6912010F"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-07-24T08:15:34Z",
+    "x_generated_by": "netkan"
+}
