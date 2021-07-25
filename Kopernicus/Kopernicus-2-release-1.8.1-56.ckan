@@ -1,0 +1,69 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Kopernicus",
+    "name": "Kopernicus Planetary System Modifier",
+    "abstract": "Allows users to replace the planetary system used by the game.",
+    "author": [
+        "BryceSchroeder",
+        "Teknoman117",
+        "Thomas P.",
+        "NathanKell",
+        "KillAshley",
+        "Gravitasi",
+        "KCreator",
+        "Sigma88",
+        "R-T-B",
+        "prestja"
+    ],
+    "version": "2:release-1.8.1-56",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.1",
+    "license": "LGPL-3.0",
+    "release_status": "development",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/200143-*",
+        "repository": "https://github.com/Kopernicus/Kopernicus",
+        "bugtracker": "https://github.com/Kopernicus/Kopernicus/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Kopernicus/Kopernicus/master/build/KSP18/GameData/Kopernicus/Plugins/Kopernicus.version"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "localizations": [
+        "en-us",
+        "it-it",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "ModularFlightIntegrator",
+            "min_version": "1.2.4.0"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KittopiaTech"
+        }
+    ],
+    "install": [
+        {
+            "find": "Kopernicus",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Kopernicus/Kopernicus/releases/download/release-56/Kopernicus-1.8.1-56.zip",
+    "download_size": 394337,
+    "download_hash": {
+        "sha1": "B54C2FDEB6EA1718795298B0CDBED2D3C001D2F3",
+        "sha256": "550116E47CDA5F15DD40E1E639BD6616757131C74506AB5A3A2F7B699BE613AC"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-07-25T05:03:59Z",
+    "x_generated_by": "netkan"
+}
