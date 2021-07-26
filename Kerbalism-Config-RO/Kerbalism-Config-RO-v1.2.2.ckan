@@ -1,0 +1,86 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Kerbalism-Config-RO",
+    "name": "Kerbalism - RealismOverhaul Config",
+    "abstract": "Kerbalism configuration for Realism Overhaul and RP-1",
+    "author": [
+        "NathanKell",
+        "SirKeplan",
+        "StollD",
+        "blowfishpro",
+        "cherrydev",
+        "pjf",
+        "rsparkyc",
+        "stratochief66",
+        "zorg2044",
+        "Standecco"
+    ],
+    "version": "v1.2.2",
+    "license": "Unlicense",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/ROKerbalism",
+        "bugtracker": "https://github.com/KSP-RO/ROKerbalism/issues"
+    },
+    "tags": [
+        "config",
+        "career",
+        "science",
+        "crewed"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "pt-br",
+        "ru"
+    ],
+    "provides": [
+        "Kerbalism-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealismOverhaul"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RP-0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-Config"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "USI-LS"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismConfig",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/ROKerbalism/releases/download/v1.2.2/GameData.zip",
+    "download_size": 2256644,
+    "download_hash": {
+        "sha1": "644F605200C4852CFD2617F792B08D8125CCEFEB",
+        "sha256": "9A27249881394458977B1088D4E96766FE49E1B205525793C585A00BDF157707"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-07-26T12:35:26Z",
+    "x_generated_by": "netkan"
+}
