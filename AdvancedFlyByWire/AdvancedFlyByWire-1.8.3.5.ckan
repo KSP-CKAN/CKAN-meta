@@ -1,0 +1,76 @@
+{
+    "spec_version": 1,
+    "identifier": "AdvancedFlyByWire",
+    "name": "Advanced Fly-By-Wire (Windows)",
+    "abstract": "AFBW is an input overhaul mod. It dramatically enhances the stock input system with a bunch of fixes and many new features",
+    "author": "linuxgurugamer",
+    "version": "1.8.3.5",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.1",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-*",
+        "spacedock": "https://spacedock.info/mod/1869/ABFW%20Revived%20(Windows%20version)",
+        "repository": "https://github.com/linuxgurugamer/ksp-advanced-flybywire",
+        "bugtracker": "https://github.com/linuxgurugamer/ksp-advanced-flybywire/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/ksp-advanced-flybywire",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/ABFW_Revived_Windows_version/ABFW_Revived_Windows_version-1527383965.049963.png"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "provides": [
+        "AdvancedFlyByWireRevived"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KSP-AVC"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AdvancedFlyByWireRevived"
+        }
+    ],
+    "install": [
+        {
+            "file": "SDL2.dll",
+            "install_to": "GameRoot"
+        },
+        {
+            "file": "SDL_LICENSE",
+            "install_to": "GameRoot"
+        },
+        {
+            "file": "XINPUTDOTNET_LICENSE",
+            "install_to": "GameRoot"
+        },
+        {
+            "file": "XInputInterface.dll",
+            "install_to": "GameRoot"
+        },
+        {
+            "file": "GameData/ksp-advanced-flybywire",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1869/ABFW%20Revived%20%28Windows%20version%29/download/1.8.3.5",
+    "download_size": 821468,
+    "download_hash": {
+        "sha1": "2A971D7410F0B625C4E80B006A20A7DAEAF9606D",
+        "sha256": "78332D7EA9A9CB0F4C9F79ADE6C79CB05458CC0C52DC5FAF228769DAE0AD50F6"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-07-29T15:58:52.2183+00:00",
+    "x_generated_by": "netkan"
+}
