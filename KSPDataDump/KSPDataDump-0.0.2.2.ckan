@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KSPDataDump",
+    "name": "KSP DataDump",
+    "abstract": "Dumps part data into a CSV file",
+    "author": "linuxgurugamer",
+    "version": "0.0.2.2",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.1",
+    "license": "unknown",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/198039-18x-19x-110x-ksp_datadump/",
+        "spacedock": "https://spacedock.info/mod/2566/KSP%20DataDump",
+        "repository": "https://github.com/linuxgurugamer/KSP_DataDump",
+        "bugtracker": "https://github.com/linuxgurugamer/KSP_DataDump/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/KSP_DataDump"
+    },
+    "tags": [
+        "app",
+        "information"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "KSP_DataDump",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2566/KSP%20DataDump/download/0.0.2.2",
+    "download_size": 28272,
+    "download_hash": {
+        "sha1": "B01A0D6EBA58E33DDE2488ADEA28CA009E95A604",
+        "sha256": "08D0F792EE84603E32A332CCFBBE367B99C2CAECA160986D9A489834F88E36F6"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-07-30T19:42:20.061383+00:00",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
