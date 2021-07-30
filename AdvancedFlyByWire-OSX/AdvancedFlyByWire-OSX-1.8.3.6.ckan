@@ -1,0 +1,62 @@
+{
+    "spec_version": 1,
+    "identifier": "AdvancedFlyByWire-OSX",
+    "name": "Advanced Fly-By-Wire (OSX)",
+    "abstract": "AFBW is an input overhaul mod. It dramatically enhances the stock input system with a bunch of fixes and many new features.",
+    "author": "linuxgurugamer",
+    "version": "1.8.3.6",
+    "ksp_version_min": "1.12.0",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-*",
+        "spacedock": "https://spacedock.info/mod/1878/ABFW%20Revived%20(OSX%20version)",
+        "repository": "https://github.com/linuxgurugamer/ksp-advanced-flybywire",
+        "bugtracker": "https://github.com/linuxgurugamer/ksp-advanced-flybywire/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/ksp-advanced-flybywire",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/ABFW_Revived_OSX_version/ABFW_Revived_OSX_version-1527782505.4308672.png"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "provides": [
+        "AdvancedFlyByWireRevived"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AdvancedFlyByWireRevived"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ksp-advanced-flybywire",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/ksp-advanced-flybywire/releases/download/1.8.3.6/ksp-advanced-flybywire-1.12.0-1.8.3.6-osx.zip",
+    "download_size": 103084,
+    "download_hash": {
+        "sha1": "64F46C8307348962B947C87EC45F3AE46F8FD038",
+        "sha256": "CD3B6DFEB3C86A584B05AD3F0AB63D4BACE740343FF02CAA90283E937683F241"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-07-29T23:50:12Z",
+    "x_generated_by": "netkan"
+}
