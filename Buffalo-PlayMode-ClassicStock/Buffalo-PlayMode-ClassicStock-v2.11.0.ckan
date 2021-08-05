@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "Buffalo-PlayMode-ClassicStock",
+    "name": "Buffalo Classic Stock Play Mode",
+    "abstract": "NASA Inspired MSEV - Explore In Style",
+    "author": "Angel-125",
+    "version": "v2.11.0",
+    "ksp_version_min": "1.12.2",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/122617-*",
+        "repository": "https://github.com/Angel-125/Buffalo",
+        "bugtracker": "https://github.com/Angel-125/Buffalo/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/Buffalo/master/GameData/WildBlueIndustries/Buffalo/Buffalo.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "Buffalo-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "WildBlue-PlayMode-ClassicStock"
+        },
+        {
+            "name": "Buffalo"
+        }
+    ],
+    "install": [
+        {
+            "find": "Buffalo/Templates/ClassicStock",
+            "install_to": "GameData/WildBlueIndustries/Buffalo/Templates"
+        },
+        {
+            "find": "Buffalo/Templates/ClassicStock.cfg",
+            "install_to": "GameData/WildBlueIndustries/Buffalo/Templates",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/Buffalo/releases/download/v2.11.0/Buffalo.zip",
+    "download_size": 37615594,
+    "download_hash": {
+        "sha1": "CD8DDCF2065C859417045B5B1AC80BBF9570C875",
+        "sha256": "7FFCC521A235E25C6FBE2C0DE755DE10C4A614387048244405134836323DB881"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-08-04T22:38:06Z",
+    "x_generated_by": "netkan"
+}
