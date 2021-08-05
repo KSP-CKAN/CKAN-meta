@@ -1,0 +1,92 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Pathfinder",
+    "name": "Pathfinder",
+    "abstract": "Space Camping @ Geoscience",
+    "author": "Angel-125",
+    "version": "v1.37.1",
+    "ksp_version_min": "1.12.2",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121397-*",
+        "repository": "https://github.com/Angel-125/Pathfinder",
+        "bugtracker": "https://github.com/Angel-125/Pathfinder/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/Pathfinder/master/GameData/WildBlueIndustries/Pathfinder/Pathfinder.version"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "agency",
+        "resources",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "Pathfinder-PlayMode"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KerbalActuators"
+        },
+        {
+            "name": "BarisBridge"
+        },
+        {
+            "name": "WildBlueTools"
+        },
+        {
+            "name": "Buffalo"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "KIS"
+        }
+    ],
+    "supports": [
+        {
+            "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "USI-LS"
+        },
+        {
+            "name": "Snacks"
+        }
+    ],
+    "install": [
+        {
+            "find": "Pathfinder",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter_regexp": [
+                ".*\\.pdb$",
+                "Templates"
+            ]
+        },
+        {
+            "find": "Pathfinder/Templates/Common",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates"
+        },
+        {
+            "file": "GameData/WBIPlayMode.cfg",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Angel-125/Pathfinder/releases/download/v1.37.1/Pathfinder.zip",
+    "download_size": 65067255,
+    "download_hash": {
+        "sha1": "C99E7167B6839A9FAE0A133F1CA1B60C7F0956F9",
+        "sha256": "0FE9660609814AAE3D3FC5A76EE3EA40F6FEDCD0ED2FC4455115FF823274EAD2"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-08-04T23:07:05Z",
+    "x_generated_by": "netkan"
+}
