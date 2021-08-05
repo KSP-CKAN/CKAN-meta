@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "WildBlue-PlayMode-ClassicStock",
+    "name": "WildBlueIndustries Classic Stock Play Mode",
+    "abstract": "Back in KSP 0.19, developers NovaSilisko and HarvesteR proposed a resource system that included Propellium, Oxium, Nitronite, Water, Blutonium, Hexagen, and Zeonium that ultimately converted into the resources we know today as LiquidFuel, Oxidizer, MonoPropellant, and XenonGas. You can see their concept image here: i.imgur.com/08hdJyj.png This play mode is inspired by their vision and adds some additional resources and converters to round out your templates.",
+    "author": "Angel-125",
+    "version": "v1.83.0",
+    "ksp_version_min": "1.11.0",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/Angel-125/WildBlueTools",
+        "bugtracker": "https://github.com/Angel-125/WildBlueTools/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/WildBlueTools/master/GameData/WildBlueIndustries/000WildBlueTools/WildBlueTools.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "WildBlue-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "WildBlueTools"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ClassicStockResources"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "WildBlue-PlayMode"
+        }
+    ],
+    "install": [
+        {
+            "find": "000WildBlueTools/Templates/ClassicStock",
+            "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates"
+        },
+        {
+            "find": "000WildBlueTools/Templates/ClassicStock.cfg",
+            "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates",
+            "find_matches_file": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/WildBlueTools/releases/download/v1.83.0/WildBlueTools.zip",
+    "download_size": 21976305,
+    "download_hash": {
+        "sha1": "4E75B74635E50F83546645BB290305F1A4985B0D",
+        "sha256": "C526ED933A558DF5E9DADB5E3401E8444F61E60B7A718A41211E8B6C3B63D6B4"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-08-04T22:18:12Z",
+    "x_generated_by": "netkan"
+}
