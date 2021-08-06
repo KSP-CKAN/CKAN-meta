@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KSPLogger",
+    "name": "KSP Logger",
+    "abstract": "Write specified data items to files for use by external programs (ie: OBS)",
+    "author": "linuxgurugamer",
+    "version": "0.6.1",
+    "ksp_version_min": "1.12.0",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/146171-*",
+        "repository": "https://github.com/linuxgurugamer/KSPLogger",
+        "bugtracker": "https://github.com/linuxgurugamer/KSPLogger/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/KSPLogger"
+    },
+    "tags": [
+        "plugin",
+        "app"
+    ],
+    "recommends": [
+        {
+            "name": "JanitorsCloset"
+        }
+    ],
+    "install": [
+        {
+            "find": "KSPLogger",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/KSPLogger/releases/download/0.6.1/KSPLogger-1.12.0-0.6.1.zip",
+    "download_size": 29593,
+    "download_hash": {
+        "sha1": "08988D4ED85A4F82037E65B6D8B78EE849660749",
+        "sha256": "E626813075CCBF335796510FC4958C44368B8846F16C5FD243692F05BC9D3DC2"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-08-06T15:19:34Z",
+    "x_generated_by": "netkan"
+}
