@@ -19,10 +19,13 @@
     ],
     "depends": [
         {
-            "name": "ModuleManager"
+            "name": "B9PartSwitch"
         },
         {
             "name": "CommunityResourcePack"
+        },
+        {
+            "name": "ModuleManager"
         },
         {
             "name": "Waterfall"
@@ -37,9 +40,12 @@
             ]
         },
         {
-            "find": "Craft",
-            "install_to": "Ships",
-            "as": "VAB"
+            "find": "Craft/VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find": "Craft/SPH",
+            "install_to": "Ships"
         }
     ],
     "download": "https://spacedock.info/mod/2626/TrekDrive%20by%20ShadowWorks%20%5BWIP%5D/download/0.99w",
