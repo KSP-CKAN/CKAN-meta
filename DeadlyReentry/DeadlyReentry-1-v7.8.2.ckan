@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DeadlyReentry",
+    "name": "Deadly Reentry Continued",
+    "abstract": "Makes re-entry much more dangerous",
+    "author": "Starwaster",
+    "version": "1:v7.8.2",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.99.99",
+    "license": "CC-BY-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/50296-*",
+        "repository": "https://github.com/Starwaster/DeadlyReentry",
+        "bugtracker": "https://github.com/Starwaster/DeadlyReentry/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Starwaster/DeadlyReentry/master/DeadlyReentry/DeadlyReentry.version"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "physics",
+        "sound"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "DeadlyReentry",
+            "install_to": "GameData",
+            "filter": ".git"
+        }
+    ],
+    "download": "https://github.com/Starwaster/DeadlyReentry/releases/download/v7.8.2/DeadlyReentry_v7.8.2.zip",
+    "download_size": 1023906,
+    "download_hash": {
+        "sha1": "5A4AD8DD84D48035775069BF9856FBC59731F585",
+        "sha256": "1979621ECAC296A96ABFB24DB0319081F090ABE75687A7B97A09847AD6E52399"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-08-05T23:51:39Z",
+    "x_generated_by": "netkan"
+}
