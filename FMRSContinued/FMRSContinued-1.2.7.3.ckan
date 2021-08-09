@@ -14,6 +14,9 @@
     "version": "1.2.7.3",
     "ksp_version_min": "1.5.1",
     "ksp_version_max": "1.5.99",
+    "provides": [
+        "FMRS"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
@@ -26,6 +29,11 @@
         },
         {
             "name": "ClickThroughBlocker"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "FMRS"
         }
     ],
     "install": [

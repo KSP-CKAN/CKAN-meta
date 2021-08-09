@@ -13,12 +13,20 @@
     },
     "version": "1.2.5",
     "ksp_version": "1.3.0",
+    "provides": [
+        "FMRS"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
         },
         {
             "name": "RecoveryController"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "FMRS"
         }
     ],
     "install": [
