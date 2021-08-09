@@ -14,12 +14,20 @@
     "version": "1.2.3.8",
     "ksp_version_min": "1.2.2",
     "ksp_version_max": "1.2.98",
+    "provides": [
+        "FMRS"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
         },
         {
             "name": "RecoveryController"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "FMRS"
         }
     ],
     "install": [
