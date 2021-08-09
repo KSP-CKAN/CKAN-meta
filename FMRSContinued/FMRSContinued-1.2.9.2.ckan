@@ -19,6 +19,9 @@
     "tags": [
         "plugin"
     ],
+    "provides": [
+        "FMRS"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
@@ -31,6 +34,11 @@
         },
         {
             "name": "ClickThroughBlocker"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "FMRS"
         }
     ],
     "install": [
