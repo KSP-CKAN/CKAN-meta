@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "GemstoneLV",
+    "name": "Gemstone LV",
+    "abstract": "KSP Mod for Stockalike JAXA and NASDA rockets.",
+    "author": "Beale",
+    "version": "v1.0",
+    "ksp_version_min": "1.12.1",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/204309-*",
+        "repository": "https://github.com/Tantares/GemstoneLV",
+        "bugtracker": "https://github.com/Tantares/GemstoneLV/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Tantares/GemstoneLV/main/gemstonelv.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "SimpleAdjustableFairings"
+        }
+    ],
+    "install": [
+        {
+            "find": "GemstoneLV",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Crafts",
+            "install_to": "Ships",
+            "as": "VAB"
+        }
+    ],
+    "download": "https://github.com/Tantares/GemstoneLV/releases/download/v1.0/GemstoneLV.zip",
+    "download_size": 12030847,
+    "download_hash": {
+        "sha1": "16DD791E81763CFE5B6E045B8363156DDC5197E5",
+        "sha256": "E3B6DE9D3562F11FE9B5632DAE5906404586154D91DAE99FA7FC57E20897E6A1"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-08-10T20:44:24Z",
+    "x_generated_by": "netkan"
+}
