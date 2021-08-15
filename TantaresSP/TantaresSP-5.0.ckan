@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "TantaresSP",
+    "name": "Tantares SP - Soviet Space Probes",
+    "abstract": "Soviet Space Probes and Interplanetary Spacecraft",
+    "author": "Beale",
+    "version": "5.0",
+    "ksp_version_min": "1.10.1",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/73686-Tantares",
+        "spacedock": "https://spacedock.info/mod/2498/TantaresSP",
+        "repository": "https://github.com/Tantares/TantaresSP",
+        "bugtracker": "https://github.com/Tantares/TantaresSP/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Tantares/TantaresSP/master/tantaressp.version"
+    },
+    "tags": [
+        "parts",
+        "uncrewed"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "NeptuneCamera"
+        }
+    ],
+    "install": [
+        {
+            "find": "TantaresSP",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Crafts",
+            "install_to": "Ships",
+            "as": "VAB"
+        }
+    ],
+    "download": "https://github.com/Tantares/TantaresSP/releases/download/v5.0/TantaresSP.zip",
+    "download_size": 10361061,
+    "download_hash": {
+        "sha1": "5A3F7666E97C500BE2CC44857E723453F8CAA346",
+        "sha256": "1EB1F57A03755AFE4D6403E6813BDBA0E46FA7D5FAB4702587AAABBA1228E836"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-08-15T16:03:42Z",
+    "x_generated_by": "netkan"
+}
