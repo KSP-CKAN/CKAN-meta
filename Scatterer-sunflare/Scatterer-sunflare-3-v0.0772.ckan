@@ -1,5 +1,6 @@
 {
     "spec_version": "v1.4",
+    "comment": "Does not depend on Scatterer to avoid planet packs forcing installation of Scatterer",
     "identifier": "Scatterer-sunflare",
     "name": "Scatterer Sunflare",
     "abstract": "The sunflare component of scatterer",
@@ -22,11 +23,6 @@
     ],
     "provides": [
         "Scatterer-sunflare-default"
-    ],
-    "depends": [
-        {
-            "name": "Scatterer"
-        }
     ],
     "conflicts": [
         {
