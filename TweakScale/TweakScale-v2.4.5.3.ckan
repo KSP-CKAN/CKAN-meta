@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "TweakScale",
+    "name": "TweakScale - Rescale Everything!",
+    "abstract": "TweakScale lets you change the size of a part. Not just that, but it will figure out how much fuel is in the resized part. And if it's an engine, it will become more powerful by scaling it bigger, or weaker by scaling it smaller.",
+    "author": [
+        "Biotronic",
+        "pellinor",
+        "LisiasT"
+    ],
+    "version": "v2.4.5.3",
+    "ksp_version_min": "1.4.4",
+    "ksp_version_max": "1.12.2",
+    "license": [
+        "GPL-2.0",
+        "restricted"
+    ],
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*",
+        "spacedock": "https://spacedock.info/mod/127/TweakScale",
+        "repository": "https://github.com/net-lisias-ksp/TweakScale",
+        "bugtracker": "https://github.com/net-lisias-ksp/TweakScale/issues",
+        "remote-avc": "https://raw.githubusercontent.com/net-lisias-ksp/TweakScale/master/TweakScale.version",
+        "x_screenshot": "https://spacedock.info/content/Pellinor_227/TweakScale/TweakScale-1540681746.7632673.png"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.7.1"
+        },
+        {
+            "name": "KSP-Recall"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/999_Scale_Redist.dll",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/TweakScale",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/127/TweakScale/download/2.4.5.3",
+    "download_size": 296816,
+    "download_hash": {
+        "sha1": "852930086C21A39C8C9BB4F7C91D9B149AB9CD1E",
+        "sha256": "9C2B1F2DAD902C8272403AC3C0C65514B59217F68D053468EB9DB51204A23EB2"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-08-22T14:20:25.787301+00:00",
+    "x_generated_by": "netkan"
+}
