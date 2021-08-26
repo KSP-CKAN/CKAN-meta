@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "WalkAbout",
+    "name": "WalkAbout",
+    "abstract": "Walk/run/swim without holding down W-A-S-D. Place a kerbal outside any door anywhere around the KSC.",
+    "author": [
+        "Antipodes",
+        "linuxgurugamer"
+    ],
+    "version": "1:v0.1.8.7",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.2",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193732-18x-19x-walkabout-beta/",
+        "spacedock": "https://spacedock.info/mod/228/WalkAbout",
+        "repository": "https://github.com/linuxgurugamer/WalkAbout",
+        "bugtracker": "https://github.com/linuxgurugamer/WalkAbout/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/WalkAbout",
+        "x_screenshot": "https://spacedock.info/content/Antipodes_555/WalkAbout/WalkAbout-1456147829.247913.jpg"
+    },
+    "tags": [
+        "plugin",
+        "crewed",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "SpaceTuxLibrary"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "WalkAbout",
+            "install_to": "GameData",
+            "filter": [
+                "source"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/228/WalkAbout/download/0.1.8.7",
+    "download_size": 96252,
+    "download_hash": {
+        "sha1": "8F5FD1AAA429560AA8D9F41EF9C105036B88D28F",
+        "sha256": "AF00A67554C0F2EC8B777C48A52432DA6B50DD3F21179747CA2B7171C55630D9"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-08-26T16:03:45.606184+00:00",
+    "x_generated_by": "netkan"
+}
