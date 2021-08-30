@@ -26,8 +26,7 @@
         "it-it"
     ],
     "provides": [
-        "EnvironmentalVisualEnhancements-Config",
-        "Kronometer"
+        "EnvironmentalVisualEnhancements-Config"
     ],
     "depends": [
         {
@@ -38,6 +37,9 @@
         },
         {
             "name": "Scatterer-sunflare-default"
+        },
+        {
+            "name": "Kronometer"
         }
     ],
     "suggests": [
@@ -156,7 +158,10 @@
         {
             "find": "GameData/JNSQ",
             "install_to": "GameData",
-            "comment": "This correctly installs JNSQ"
+            "comment": "This correctly installs JNSQ",
+            "filter": [
+                "Kronometer"
+            ]
         }
     ],
     "download": "https://github.com/Galileo88/JNSQ/releases/download/0.9.0/JNSQ.0.9.0.zip",
