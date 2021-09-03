@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CCTV",
+    "name": "CCTV",
+    "abstract": " Dynamic CCTV system compatible with KAS",
+    "author": "linuxgurugamer",
+    "version": "1.1.6.6",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.2",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/161966-13-kerbal-cctv-with-wifi-camera/",
+        "spacedock": "https://spacedock.info/mod/1414/CCTV",
+        "repository": "https://github.com/linuxgurugamer/CCTV",
+        "bugtracker": "https://github.com/linuxgurugamer/CCTV/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/CCTV"
+    },
+    "tags": [
+        "plugin",
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "JSIPartUtilities"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "HullcamVDSContinued"
+        }
+    ],
+    "install": [
+        {
+            "find": "CCTV",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1414/CCTV/download/1.1.6.6",
+    "download_size": 930976,
+    "download_hash": {
+        "sha1": "7810944F4967CD28956B386877DB1A0EE1ACF860",
+        "sha256": "2A4843E32D09A2A83127E21596558824EE2B76070A7FB27913B9CCF62B6E46FC"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-09-03T19:02:00.711503+00:00",
+    "x_generated_by": "netkan"
+}
