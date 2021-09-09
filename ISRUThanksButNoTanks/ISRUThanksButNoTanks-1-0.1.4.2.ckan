@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "ISRUThanksButNoTanks",
+    "name": "ISRU Thanks But No Tanks",
+    "abstract": "KSP Module Manager config script to allow mining and converting Ore without storage tanks.",
+    "author": [
+        "QuickBASIC",
+        "zer0Kerbal"
+    ],
+    "version": "1:0.1.4.2",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/204750-*",
+        "repository": "https://github.com/zer0Kerbal/ISRUThanksButNoTanks",
+        "bugtracker": "https://github.com/zer0Kerbal/ISRUThanksButNoTanks/issues",
+        "remote-avc": "https://raw.githubusercontent.com/zer0Kerbal/ISRUThanksButNoTanks/master/ISRUThanksButNoTanks.version"
+    },
+    "tags": [
+        "config",
+        "resources"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalChangelog"
+        },
+        {
+            "name": "StockalikeMiningExtension"
+        }
+    ],
+    "install": [
+        {
+            "find": "ISRUThanksButNoTanks",
+            "install_to": "GameData/QuickBASIC"
+        }
+    ],
+    "download": "https://github.com/zer0Kerbal/ISRUThanksButNoTanks/releases/download/0.1.4.2/ISRUThanksButNoTanks-0.1.4.2.zip",
+    "download_size": 19078,
+    "download_hash": {
+        "sha1": "BC38E35541ED047A5A5659C9263FBF15335C7876",
+        "sha256": "D24507608B328E242EBF4AD3FDEE3412FABBC3C4D120E4E0E4A3B949F52E3644"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-09-09T13:38:46Z",
+    "x_generated_by": "netkan"
+}
