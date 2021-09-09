@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "UniversalStorageStockResourceFuelCell",
+    "name": "Universal Storage - Stock Resource Fuel Cell",
+    "abstract": "KSP Module Manager config script to add a Universal Storage Fuel Cell that can use Liquid Fuel and Oxidizer instead of other resources.",
+    "author": [
+        "QuickBASIC",
+        "zer0Kerbal"
+    ],
+    "version": "1:0.1.4.2",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/204751-*",
+        "repository": "https://github.com/zer0Kerbal/UniversalStorageStockResourceFuelCell",
+        "bugtracker": "https://github.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/issues",
+        "remote-avc": "https://raw.githubusercontent.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/master/UniversalStorageStockResourceFuelCell.version"
+    },
+    "tags": [
+        "config",
+        "resources"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "UniversalStorage"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalChangelog"
+        }
+    ],
+    "install": [
+        {
+            "find": "UniversalStorageStockResourceFuelCell",
+            "install_to": "GameData/QuickBASIC"
+        }
+    ],
+    "download": "https://github.com/zer0Kerbal/UniversalStorageStockResourceFuelCell/releases/download/0.1.4.2/UniversalStorageStockResourceFuelCell-0.1.4.2.zip",
+    "download_size": 19469,
+    "download_hash": {
+        "sha1": "CDEA0C064BC5AAFA790A86AB4AC75EC92B2E3544",
+        "sha256": "A21C6EBE4EF6610D3042B3F738EE0378B7D39FA4B9DE3E5AD5C7D1FE198A9436"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-09-09T13:39:04Z",
+    "x_generated_by": "netkan"
+}
