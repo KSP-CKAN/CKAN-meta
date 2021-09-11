@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "BARIS",
+    "name": "BARIS",
+    "abstract": "Building A Rocket Isn't Simple",
+    "author": "Angel125",
+    "version": "v1.11.1",
+    "ksp_version_min": "1.12.2",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164448-*",
+        "repository": "https://github.com/Angel-125/BARIS",
+        "bugtracker": "https://github.com/Angel-125/BARIS/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/BARIS/master/GameData/WildBlueIndustries/000BARIS/BARIS.version"
+    },
+    "tags": [
+        "plugin",
+        "career",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "BarisBridge"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalAlarmClock"
+        },
+        {
+            "name": "KerbalConstructionTime"
+        }
+    ],
+    "install": [
+        {
+            "find": "000BARIS",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter_regexp": [
+                ".*\\.pdb$"
+            ]
+        }
+    ],
+    "download": "https://github.com/Angel-125/BARIS/releases/download/v1.11.1/BARIS.zip",
+    "download_size": 19530184,
+    "download_hash": {
+        "sha1": "00E510B85137A6AE1B8E29C21E964D0A6A106E9C",
+        "sha256": "7FC1A39D68CB3A8850859B257DD698456F55B37EDABFCB97FD28D1E85CCE869C"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-09-11T19:04:30Z",
+    "x_generated_by": "netkan"
+}
