@@ -1,0 +1,75 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "JSIAdvancedTransparentPods",
+    "name": "JSI Advanced Transparent Pods",
+    "abstract": "This mod adds Transparency capabilities allowing IVAs to be visible from external view both in the Editors and in Flight. Yes - Stock KSP 1.1 has a similar capability but this mod has more.",
+    "author": "JPLRepo",
+    "version": "V0.1.24.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/138433-*",
+        "repository": "https://github.com/JPLRepo/JSIAdvTransparentPods",
+        "bugtracker": "https://github.com/JPLRepo/JSIAdvTransparentPods/issues",
+        "remote-avc": "http://ksp-avc.cybutek.net/version.php?id=287"
+    },
+    "tags": [
+        "plugin",
+        "crewed"
+    ],
+    "localizations": [
+        "en-us",
+        "es-es",
+        "es-mx",
+        "ja",
+        "ru",
+        "zh-cn",
+        "de-de",
+        "pt-br",
+        "it-it",
+        "fr-fr"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalPlanetaryBaseSystems"
+        },
+        {
+            "name": "DeepFreeze"
+        },
+        {
+            "name": "OrbitalTug"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "VesselView"
+        },
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "SCANsat"
+        }
+    ],
+    "install": [
+        {
+            "find": "JSIAdvTransparentPods",
+            "install_to": "GameData/JSI"
+        }
+    ],
+    "download": "https://github.com/JPLRepo/JSIAdvTransparentPods/releases/download/V0.1.24.0/JSIAdvTransparentPods_V0.1.24.0.zip",
+    "download_size": 21703,
+    "download_hash": {
+        "sha1": "3824DC1BE5D92CB3B3C85BCA8FF61FC49F1C5653",
+        "sha256": "2BD1BF6D7D83111D5E3EFF5E39299C479E13127BACA03617E486209F0EB4F58F"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-09-11T23:01:21Z",
+    "x_generated_by": "netkan"
+}
