@@ -5,7 +5,8 @@
     "abstract": "Dwarf fortress meets RP-1 (KSP/RSS/RO). Focusing on reputation and crew members. In development and changes often.",
     "author": "bongotastic",
     "version": "2:v0.4.7.2",
-    "ksp_version": "1.10.1",
+    "ksp_version_min": "1.8",
+    "ksp_version_max": "1.10.1",
     "license": "CC-BY-NC-4.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/204561-*",
@@ -22,11 +23,13 @@
     "depends": [
         {
             "name": "RP-0"
-        }
-    ],
-    "recommends": [
+        },
         {
-            "name": "KerbalRenamer"
+            "name": "KerbalRenamer",
+            "min_version": "v1.5.0"
+        },
+        {
+            "name": "KerbalAlarmClock"
         }
     ],
     "download": "https://github.com/bongotastic/Headlines/releases/download/v0.4.7.2/Headlines-v0.4.7.2-beta.zip",
