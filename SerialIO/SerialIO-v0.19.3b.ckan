@@ -1,0 +1,43 @@
+{
+    "spec_version": 1,
+    "identifier": "SerialIO",
+    "name": "KSP Serial IO",
+    "abstract": "This plugin sends/receives data packets over the serial port, which should make it much easier for people wanting to build hardware for KSP",
+    "author": "zitron",
+    "version": "v0.19.3b",
+    "ksp_version": "1.12.2",
+    "license": "CC-BY",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/60281-hardware-plugin-arduino-based-physical-display-serial-port-io-tutorial-12-oct/",
+        "spacedock": "https://spacedock.info/mod/567/KSP%20Serial%20IO",
+        "repository": "https://github.com/zitron-git/KSPSerialIO",
+        "bugtracker": "https://github.com/zitron-git/KSPSerialIO/issues",
+        "x_screenshot": "https://spacedock.info/content/zitron_3831/KSP_Serial_IO/KSP_Serial_IO-1461368239.7648733.jpg"
+    },
+    "tags": [
+        "plugin",
+        "app",
+        "information",
+        "control"
+    ],
+    "conflicts": [
+        {
+            "name": "SerialIO-MacLinuxWin"
+        }
+    ],
+    "install": [
+        {
+            "file": "KSPSerialIO",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/567/KSP%20Serial%20IO/download/0.19.3b",
+    "download_size": 37371,
+    "download_hash": {
+        "sha1": "5F982BB2F514B4A00FCDB5421D282BE35B6E098D",
+        "sha256": "CEAB056A45E8E9C8CB62DC8AE52B2CF55D6F54C4DED33B79EEF8D1FC852B1CBD"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-09-26T19:41:16.017348+00:00",
+    "x_generated_by": "netkan"
+}
