@@ -1,0 +1,51 @@
+{
+    "spec_version": 1,
+    "identifier": "GPWS",
+    "name": "Ground Proximity Warning System",
+    "abstract": "Add warning sounds for planes.",
+    "author": "linuxgurugamer",
+    "version": "1:0.4.0.2",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.2",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201117-18",
+        "spacedock": "https://spacedock.info/mod/2659/GPWS%20-%20Warning%20System%20for%20Planes%20Updated",
+        "repository": "https://github.com/linuxgurugamer/KSP_GPWS",
+        "remote-avc": "http://ksp.spacetux.net/avc/GPWS"
+    },
+    "tags": [
+        "plugin",
+        "information",
+        "sound"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/GPWS",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2659/GPWS%20-%20Warning%20System%20for%20Planes%20Updated/download/0.4.0.2",
+    "download_size": 333230,
+    "download_hash": {
+        "sha1": "746550EEA1F8DEBA53DC7A2BC6590CEFFDD33840",
+        "sha256": "8459679E3EB83DD0A8CB5767C51929BFA760ED8A1E6FFCB4BCC8D3A52F3F2EA2"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-09-26T11:43:48.036796+00:00",
+    "x_generated_by": "netkan"
+}
