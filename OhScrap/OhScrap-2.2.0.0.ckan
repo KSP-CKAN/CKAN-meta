@@ -1,7 +1,7 @@
 {
     "spec_version": "v1.4",
     "identifier": "OhScrap",
-    "name": "OhScrap!",
+    "name": "OhScrap (OHS)",
     "abstract": "Part Failures: Parachutes, Engines, Gimbals, Resources, Batteries, Reaction Wheels, Control Surfaces and more! Using ScrapYard for Kerbal Space Program.",
     "author": "zer0Kerbal",
     "version": "2.2.0.0",
@@ -17,20 +17,22 @@
         "x_screenshot": "https://spacedock.info/content/zer0Kerbal_21147/OhScrap/OhScrap-1584074468.5942998.jpg"
     },
     "tags": [
-        "plugin"
+        "plugin",
+        "editor",
+        "config",
+        "career",
+        "uncrewed",
+        "crewed"
     ],
     "localizations": [
         "en-us"
     ],
     "depends": [
         {
-            "name": "ScrapYard"
-        },
-        {
             "name": "ModuleManager"
         },
         {
-            "name": "KerbalChangelog"
+            "name": "ScrapYard"
         }
     ],
     "recommends": [
@@ -39,6 +41,46 @@
         },
         {
             "name": "StageRecovery"
+        },
+        {
+            "name": "KerbalKrashSystem"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Kaboom"
+        },
+        {
+            "name": "Komplexity"
+        },
+        {
+            "name": "KerbalChangelog"
+        },
+        {
+            "name": "ContractConfigurator"
+        },
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "KSP-Recall"
+        }
+    ],
+    "supports": [
+        {
+            "name": "KerbalChangelog"
+        },
+        {
+            "name": "KerbalConstructionTime"
+        },
+        {
+            "name": "FerramAerospaceResearchContinued"
+        },
+        {
+            "name": "RemoteTech"
+        },
+        {
+            "name": "UKS"
         }
     ],
     "download": "https://spacedock.info/mod/2364/OhScrap%21/download/2.2.0.0",
