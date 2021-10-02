@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "MS-SRBs",
+    "name": "Modular Segmented SRBs",
+    "abstract": "SRBs as they really work",
+    "author": "linuxgurugamer",
+    "version": "0.0.2.2",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.2",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/188482-*",
+        "spacedock": "https://spacedock.info/mod/2297/Modular%20Segmented%20SRBs",
+        "repository": "https://github.com/linuxgurugamer/ModularSegmentedSRBs",
+        "bugtracker": "https://github.com/linuxgurugamer/ModularSegmentedSRBs/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/ModularSegmentedSRBs"
+    },
+    "tags": [
+        "parts",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "ModularSegmentedSRBs",
+            "install_to": "GameData",
+            "filter": [
+                "Ships"
+            ]
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2297/Modular%20Segmented%20SRBs/download/0.0.2.2",
+    "download_size": 4580739,
+    "download_hash": {
+        "sha1": "80F5BF232DCA49AA9DDE5CA3E275504B526BC6AD",
+        "sha256": "9A0EEDB0553E49EF79A0FA9D8AC4789B9CE6EAA631394E1A27074FF37141A78B"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-10-01T23:46:11.843063+00:00",
+    "x_generated_by": "netkan"
+}
