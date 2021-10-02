@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalWeatherProject-Lite",
+    "name": "Kerbal Weather Project - Lite",
+    "abstract": "Kerbal Weather Project - Lite is pared down version of the original weather and climate mod for KSP. In KWP-Lite, weather and climate data from the Model for Prediction Across Scales (MPAS) were incorporated into KSP gameplay. KWP-Lite includes a reduced resolution global Hourly climatology from MPAS allowing players to experience diurnal and spatial variations in atmospheric conditions. In addition, one year of point weather data from MPAS is provided at Kerbin launch sites, allowing players to experience dynamic weather conditions that change daily. KWP-Lite features a text-based GUI showing remote sensing weather data (in space) and in situ weather data (in the atmosphere).",
+    "author": "cmet24",
+    "version": "1:1.0.6",
+    "ksp_version": "1.12.2",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://www.kerbalwxproject.space",
+        "spacedock": "https://spacedock.info/mod/2611/Kerbal%20Weather%20Project%20-%20Lite",
+        "repository": "https://github.com/cmac994/KerbalWeatherProject",
+        "bugtracker": "https://github.com/cmac994/KerbalWeatherProject/issues",
+        "x_screenshot": "https://spacedock.info/content/cmet24_52116/Kerbal_Weather_Project_-_Lite/Kerbal_Weather_Project_-_Lite-1609969889.1664388.png"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "provides": [
+        "KerbalWeatherProject"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ModularFlightIntegrator"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerBalloons"
+        },
+        {
+            "name": "AtmosphereAutopilot"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbalWeatherProject"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalWeatherProject_Lite",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2611/Kerbal%20Weather%20Project%20-%20Lite/download/1.0.6",
+    "download_size": 13819698,
+    "download_hash": {
+        "sha1": "F72F1057FA78FE669E68D2F25A8FB3178627FF89",
+        "sha256": "E2C634FAB9E861036D8C4BEED0E9E8818F44469A7AFC325AF0C8F487D61EE51C"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-10-02T20:39:22.504212+00:00",
+    "x_generated_by": "netkan"
+}
