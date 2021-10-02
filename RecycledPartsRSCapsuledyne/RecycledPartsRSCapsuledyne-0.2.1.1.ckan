@@ -1,0 +1,66 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RecycledPartsRSCapsuledyne",
+    "name": "Recycled Parts RSCapsuledyne",
+    "abstract": "Old mods recycled",
+    "author": "linuxgurugamer",
+    "version": "0.2.1.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.2",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164829-13-spacetux-industries-recycled-parts/",
+        "spacedock": "https://spacedock.info/mod/1507/Recycled%20Parts",
+        "repository": "https://github.com/linuxgurugamer/RecycledParts",
+        "bugtracker": "https://github.com/linuxgurugamer/RecycledParts/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/RecycledParts"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "BDAnimationModules"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CommunityTechTree"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "JanitorsCloset"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RandSCapsuledyne"
+        },
+        {
+            "name": "RecycledPartsRSCapsuledyne"
+        }
+    ],
+    "install": [
+        {
+            "find": "RSCapsuledyne",
+            "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1507/Recycled%20Parts/download/0.2.1.1",
+    "download_size": 40707526,
+    "download_hash": {
+        "sha1": "5F78283634E96567E01EF562B9E9D8EE3F201444",
+        "sha256": "197F3A6449344E806AACA57A73BA71E30B58DABBD109DD5AB4101152F3928AE4"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-10-02T06:44:05.793885+00:00",
+    "x_generated_by": "netkan"
+}
