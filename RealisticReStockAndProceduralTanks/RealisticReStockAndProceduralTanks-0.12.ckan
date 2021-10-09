@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.26",
+    "identifier": "RealisticReStockAndProceduralTanks",
+    "name": "Realistic ReStock and Procedural Tanks",
+    "abstract": "MM configs to restock/procedural tanks for real-ish rockets",
+    "author": "dgxt007",
+    "version": "0.12",
+    "ksp_version": "1.12.2",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/205135-wip-rrpt-restockpp-configs/",
+        "spacedock": "https://spacedock.info/mod/2874/RRPT",
+        "repository": "https://github.com/dgxt002/RRPT",
+        "bugtracker": "https://github.com/dgxt002/RRPT/issues"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ReStock"
+        },
+        {
+            "any_of": [
+                {
+                    "name": "ReStockPlus"
+                },
+                {
+                    "name": "MakingHistory-DLC"
+                }
+            ]
+        },
+        {
+            "name": "ProceduralParts"
+        }
+    ],
+    "install": [
+        {
+            "find": "RRPT",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2874/RRPT/download/0.12",
+    "download_size": 1636,
+    "download_hash": {
+        "sha1": "870194544B7DD679E3E93B442EB53E43A773A177",
+        "sha256": "424F4A9C1D749EFA59D2787833CC65EC22019B1084ECE689F199B0B2F0288332"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-10-09T01:54:16.288452+00:00",
+    "x_generated_by": "netkan"
+}
