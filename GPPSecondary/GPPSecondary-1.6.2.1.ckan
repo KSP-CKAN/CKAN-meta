@@ -2,7 +2,7 @@
     "spec_version": "v1.4",
     "identifier": "GPPSecondary",
     "name": "GPP Secondary",
-    "abstract": "GPP secondary puts Galileo's Planet Pack around the stock solar system.",
+    "abstract": "Puts Galileo's Planet Pack around the stock solar system.",
     "author": "Galileo88",
     "license": "CC-BY-NC-ND",
     "resources": {
@@ -11,7 +11,52 @@
     },
     "version": "1.6.2.1",
     "ksp_version": "1.3.1",
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "GPPTextures"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "FinalFrontier"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "JNSQ"
+        },
+        {
+            "name": "GrannusExpansionPack-Primary"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "GPP"
+        },
+        {
+            "name": "StockVisualEnhancements"
+        }
+    ],
     "install": [
+        {
+            "find": "GPP",
+            "install_to": "GameData",
+            "comment": "This is the main install for GPP"
+        },
+        {
+            "find": "Optional Mods/GPP_FinalFrontier/GameData/Nereid",
+            "install_to": "GameData",
+            "filter": [
+                "Grannus"
+            ],
+            "comment": "This correctly installs Final Frontier for GPP"
+        },
         {
             "find": "Optional Mods/GPP_Secondary/GameData/GPP_Secondary",
             "install_to": "GameData",
