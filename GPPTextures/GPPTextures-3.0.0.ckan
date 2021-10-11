@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.26",
     "identifier": "GPPTextures",
     "name": "GPP Textures",
     "abstract": "Textures for Galileo's Planet Pack.",
@@ -12,7 +12,14 @@
     "ksp_version": "1.3.1",
     "depends": [
         {
-            "name": "GPP"
+            "any_of": [
+                {
+                    "name": "GPP"
+                },
+                {
+                    "name": "GPPSecondary"
+                }
+            ]
         }
     ],
     "install": [
