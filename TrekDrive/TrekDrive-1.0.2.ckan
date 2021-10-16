@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "TrekDrive",
+    "name": "TrekDrive by ShadowWorks [WIP]",
+    "abstract": "A standalone warp drive mod inspired by Star Trek and RoverDude's Standalone Alcubierre Warp Drive.  The drive requires at least two parts to operate.  The current WIP release contains two modified stock parts as test articles, a test craft, the Phoenix warpship, the Enterprise-era Shuttlepod, and the NX-class starship and it's Refit version, the plugin itself, and the source code.",
+    "author": "TheShadow1138",
+    "version": "1.0.2",
+    "ksp_version": "1.12.2",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/204759-19-112-trekdrive-a-star-trek-like-warp-drive-by-shadowworks-v10-to-boldly-go-09-09-2021/",
+        "spacedock": "https://spacedock.info/mod/2626/TrekDrive%20by%20ShadowWorks%20[WIP]",
+        "x_screenshot": "https://spacedock.info/content/TheShadow1138_1098/TrekDrive_by_ShadowWorks_WIP/TrekDrive_by_ShadowWorks_WIP-1628205781.455232.png"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Waterfall"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/TrekDrive",
+            "install_to": "GameData",
+            "filter": [
+                ".DS_Store"
+            ]
+        },
+        {
+            "find": "Craft/VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find": "Craft/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2626/TrekDrive%20by%20ShadowWorks%20%5BWIP%5D/download/1.0.2",
+    "download_size": 176428459,
+    "download_hash": {
+        "sha1": "8D566E8D9AF38BD993843FEE4CB43A3A172A570B",
+        "sha256": "35E667D2EBBF2E9F09AC6976CE74CFE7098F6AFDDDB0D49167B0462D2DCB5C3B"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-10-16T19:52:34.231793+00:00",
+    "x_generated_by": "netkan"
+}
