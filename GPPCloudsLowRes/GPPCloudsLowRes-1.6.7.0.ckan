@@ -1,0 +1,66 @@
+{
+    "spec_version": "v1.26",
+    "identifier": "GPPCloudsLowRes",
+    "name": "GPP LowRes clouds",
+    "abstract": "Low resolution clouds for GPP",
+    "author": [
+        "Galileo88",
+        "OhioBob"
+    ],
+    "version": "1.6.7.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-ND",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152136-*",
+        "repository": "https://github.com/Galileo88/Galileos-Planet-Pack",
+        "bugtracker": "https://github.com/Galileo88/Galileos-Planet-Pack/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Galileo88/Galileos-Planet-Pack/master/GameData/GPP/Version/GalileosPlanetPack.version"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "any_of": [
+                {
+                    "name": "GPP"
+                },
+                {
+                    "name": "GPPSecondary"
+                }
+            ]
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "GPPCloudsHighRes"
+        }
+    ],
+    "install": [
+        {
+            "find": "Optional Mods/GPP_Clouds/Low-res Clouds_GameData inside/GameData/GPP",
+            "install_to": "GameData",
+            "comment": "This installs the low resolution clouds configs for GPP"
+        }
+    ],
+    "download": "https://github.com/Galileo88/Galileos-Planet-Pack/releases/download/1.6.7.0/Galileos-Planet-Pack-1.6.7.0.zip",
+    "download_size": 349842206,
+    "download_hash": {
+        "sha1": "9EEB58CC68E8463064A517935A01148D44080E89",
+        "sha256": "D3F8BCA8E591211800F1343FEE4DB54A1C000B76D81414BF86EB7FAA4F9FC1EE"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-10-21T16:28:54Z",
+    "x_generated_by": "netkan"
+}
