@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.26",
     "identifier": "FuelWings",
     "name": "FuelWings",
     "abstract": "Customizable fuel resources added to Stock, B9, and Procedural Wings by Tortoise. The intention of this is to improve weight & balance, reduce craft size, and increase aesthetics. Supports all stock fuel types, ability to modify in VAB/SPH.",
@@ -22,7 +22,20 @@
             "name": "ModuleManager"
         },
         {
-            "name": "ModularFuelTanks"
+            "any_of": [
+                {
+                    "name": "ConfigurableContainers"
+                },
+                {
+                    "name": "InterstellarFuelSwitch"
+                },
+                {
+                    "name": "ModularFuelTanks"
+                },
+                {
+                    "name": "FirespitterCore"
+                }
+            ]
         }
     ],
     "supports": [
