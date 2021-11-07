@@ -1,0 +1,83 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "BDArmoryForRunwayProject",
+    "name": "BDArmory for Runway Project",
+    "abstract": "A version of the BDArmory mod for use with Scott Manley's Runway Project.",
+    "author": [
+        "BahamutoD",
+        "Papa_Joe",
+        "jrodrigv",
+        "ouloul",
+        "Scott Manley",
+        "JR",
+        "DocNappers",
+        "Cl0by",
+        "josue",
+        "aubranium",
+        "benbenwilde",
+        "TheKurgan"
+    ],
+    "version": "2:v1.4.12.3",
+    "ksp_version_min": "1.9.0",
+    "ksp_version_max": "1.12.999",
+    "license": "CC-BY-SA-2.0",
+    "resources": {
+        "homepage": "https://docs.google.com/document/d/1taFjsHjuBoWwbpLLyg5V7c72eQUGGuPHdLIf0LueX_o/edit#heading=h.a2r2a9n8z66o",
+        "spacedock": "https://spacedock.info/mod/2487/BDArmory%20for%20Runway%20Project",
+        "repository": "https://github.com/BrettRyland/BDArmory",
+        "bugtracker": "https://github.com/BrettRyland/BDArmory/issues",
+        "remote-avc": "https://github.com/PapaJoesSoup/BDArmory/raw/master/BDArmory/Distribution/GameData/BDArmory/BDArmory.version"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "sound",
+        "combat"
+    ],
+    "localizations": [
+        "en-us",
+        "es-es",
+        "ja",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "BDArmory"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "PhysicsRangeExtender"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "BDArmory"
+        }
+    ],
+    "install": [
+        {
+            "find": "BDArmory",
+            "install_to": "GameData",
+            "filter": [
+                "craft"
+            ]
+        },
+        {
+            "find": "craft",
+            "install_to": "Ships",
+            "as": "SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2487/BDArmory%20for%20Runway%20Project/download/1.4.12.3",
+    "download_size": 61410178,
+    "download_hash": {
+        "sha1": "CE8ADC37C253FB73061C39EDF0123EAE6BC94D56",
+        "sha256": "9D7721CBEDA09806910AA36B54B3E25A268D6EA18578B4E8299339BA033BCC2F"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-11-07T15:01:37.896563+00:00",
+    "x_generated_by": "netkan"
+}
