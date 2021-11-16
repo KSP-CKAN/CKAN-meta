@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "AtomicTechIncJunkyards",
+    "name": "AtomicTech Inc. Junkyards",
+    "abstract": "Various Tweaks to Stock Parts!",
+    "author": "AtomicTech",
+    "version": "0.7.0_Alpha",
+    "ksp_version_min": "1.11.0",
+    "ksp_version_max": "1.12.2",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/205566-atomictech-inc-junkyards-v043-ksp-version-112x/",
+        "spacedock": "https://spacedock.info/mod/2891/AtomicTech%20Inc.%20Junkyards",
+        "repository": "https://github.com/JamesErvin-5/AtomicTech-Inc.-Junkyards",
+        "bugtracker": "https://github.com/JamesErvin-5/AtomicTech-Inc.-Junkyards/issues",
+        "remote-avc": "https://github.com/JamesErvin-5/AtomicTech-Inc.-Junkyards/raw/main/RadioactiveJunkyards.version",
+        "x_screenshot": "https://spacedock.info/content/AtomicTech_61568/AtomicTech_Inc._Junkyards/AtomicTech_Inc._Junkyards-1636730353.jpg"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find_regexp": "AtomicTech-Inc\\.*",
+            "install_to": "GameData",
+            "filter": ".gitignore"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2891/AtomicTech%20Inc.%20Junkyards/download/0.7.0_Alpha",
+    "download_size": 2799402,
+    "download_hash": {
+        "sha1": "901DA592E9989ABBA42A7CB85F7AB19022C8F42F",
+        "sha256": "1AA3BDD649DCB4FD6D9C895D77EFAC4AF4CB60D09BF239772C9180D4254E7EFE"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-11-16T00:56:53.033615+00:00",
+    "x_generated_by": "netkan"
+}
