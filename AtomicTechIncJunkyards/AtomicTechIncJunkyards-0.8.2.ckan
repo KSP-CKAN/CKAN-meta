@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "AtomicTechIncJunkyards",
+    "name": "AtomicTech Inc. Junkyards",
+    "abstract": "Now with working Snacks! Generator!",
+    "author": "AtomicTech",
+    "version": "0.8.2",
+    "ksp_version_min": "1.11.0",
+    "ksp_version_max": "1.12.2",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/205566-atomictech-inc-junkyards-v043-ksp-version-112x/",
+        "spacedock": "https://spacedock.info/mod/2891/AtomicTech%20Inc.%20Junkyards",
+        "repository": "https://github.com/JamesErvin-5/AtomicTech-Inc.-Junkyards",
+        "bugtracker": "https://github.com/JamesErvin-5/AtomicTech-Inc.-Junkyards/issues",
+        "remote-avc": "https://github.com/JamesErvin-5/AtomicTech-Inc.-Junkyards/raw/main/RadioactiveJunkyards.version",
+        "x_screenshot": "https://spacedock.info/content/AtomicTech_61568/AtomicTech_Inc._Junkyards/AtomicTech_Inc._Junkyards-1636730353.jpg"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find_regexp": "AtomicTech-Inc\\.*",
+            "install_to": "GameData",
+            "filter": ".gitignore"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2891/AtomicTech%20Inc.%20Junkyards/download/0.8.2",
+    "download_size": 2800484,
+    "download_hash": {
+        "sha1": "A0E3F3FDB9C928E3DE5BF31C20F1E9F9F98D78BC",
+        "sha256": "A185BE7A90636C6B47188C052570F10656D4283D669551B42C1BEE2E10EADB03"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-11-17T03:05:43.914946+00:00",
+    "x_generated_by": "netkan"
+}
