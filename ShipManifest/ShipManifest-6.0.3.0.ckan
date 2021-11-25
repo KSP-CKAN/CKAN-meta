@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.18",
     "identifier": "ShipManifest",
     "name": "Ship Manifest",
     "abstract": "Manages Crew, Science, & Resources on a given vessel",
@@ -47,6 +47,21 @@
         },
         {
             "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "ShipManifest",
+            "install_to": "GameData",
+            "filter": [
+                "CLSInterfaces.dll"
+            ]
+        },
+        {
+            "find": "CLSInterfaces.dll",
+            "find_matches_files": true,
+            "install_to": "GameData/ShipManifest/Plugins",
+            "as": "SM_CLSInterface.dll"
         }
     ],
     "download": "https://github.com/PapaJoesSoup/ShipManifest/releases/download/6.0.3.0/ShipManifest-6.0.3.0_20211121195357.zip",
