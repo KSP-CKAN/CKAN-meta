@@ -1,0 +1,93 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GPPSecondary",
+    "name": "GPP Secondary",
+    "abstract": "Puts Galileo's Planet Pack around the stock solar system",
+    "author": [
+        "Galileo88",
+        "OhioBob"
+    ],
+    "version": "1.6.8.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-ND",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/152136-*",
+        "repository": "https://github.com/Galileo88/Galileos-Planet-Pack",
+        "bugtracker": "https://github.com/Galileo88/Galileos-Planet-Pack/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Galileo88/Galileos-Planet-Pack/master/GameData/GPP/Version/GalileosPlanetPack.version"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "localizations": [
+        "en-us",
+        "es-es",
+        "es-mx",
+        "ja",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "GPPTextures"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "FinalFrontier"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "JNSQ"
+        },
+        {
+            "name": "GrannusExpansionPack-Primary"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "GPP"
+        },
+        {
+            "name": "StockVisualEnhancements"
+        }
+    ],
+    "install": [
+        {
+            "find": "GPP",
+            "install_to": "GameData",
+            "comment": "This is the main install for GPP"
+        },
+        {
+            "find": "Optional Mods/GPP_FinalFrontier/GameData/Nereid",
+            "install_to": "GameData",
+            "filter": [
+                "Grannus"
+            ],
+            "comment": "This correctly installs Final Frontier for GPP"
+        },
+        {
+            "find": "Optional Mods/GPP_Secondary/GameData/GPP_Secondary",
+            "install_to": "GameData",
+            "comment": "This installs the GPP_Secondary configs for GPP"
+        }
+    ],
+    "download": "https://github.com/Galileo88/Galileos-Planet-Pack/releases/download/1.6.8.0/Galileos-Planet-Pack-1.6.8.0.zip",
+    "download_size": 349842953,
+    "download_hash": {
+        "sha1": "F113BD19E5C340117D7E0958CA4505F25CF6681B",
+        "sha256": "7607F5DB8C0F25BFF18B82A724954B0BB31EAEF7A6386593589D3E109B1382E2"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-11-25T17:17:12Z",
+    "x_generated_by": "netkan"
+}
