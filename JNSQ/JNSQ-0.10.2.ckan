@@ -1,0 +1,177 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "JNSQ",
+    "name": "JNSQ",
+    "abstract": "Stock planets, reimagined, at 1/4 real scale",
+    "author": "Team Galileo",
+    "version": "0.10.2",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-ND-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184880-*",
+        "repository": "https://github.com/Galileo88/JNSQ",
+        "bugtracker": "https://github.com/Galileo88/JNSQ/issues",
+        "metanetkan": "https://raw.githubusercontent.com/Galileo88/JNSQ/master/CKAN/JNSQ.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/Galileo88/JNSQ/master/GameData/JNSQ/Version/JNSQ.version"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "it-it"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "Scatterer-sunflare-default"
+        },
+        {
+            "name": "Kronometer"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "PlanetShine"
+        },
+        {
+            "name": "RationalResources"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "Strategia"
+        },
+        {
+            "name": "JNSQ-RibbonPack"
+        },
+        {
+            "name": "TextureReplacer"
+        },
+        {
+            "name": "JX2Antenna"
+        },
+        {
+            "name": "CommNetAntennasInfo"
+        },
+        {
+            "name": "AntennaHelper"
+        },
+        {
+            "name": "KerbalAlarmClock"
+        },
+        {
+            "name": "KopernicusExpansionContinued-EVAFootprints"
+        },
+        {
+            "name": "Kerbalism"
+        },
+        {
+            "name": "ResearchBodies"
+        },
+        {
+            "name": "WaypointManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        },
+        {
+            "name": "StockVisualEnhancements"
+        },
+        {
+            "name": "SVE-Terrain"
+        },
+        {
+            "name": "Spectra"
+        },
+        {
+            "name": "AstronomersVisualPack"
+        },
+        {
+            "name": "SciFiVisualEnhancements"
+        },
+        {
+            "name": "GPP"
+        },
+        {
+            "name": "OuterPlanetsMod"
+        },
+        {
+            "name": "DistantObject-RealSolarSystem"
+        },
+        {
+            "name": "CustomBarnKit-RO"
+        },
+        {
+            "name": "BetterLookingOceans-HighRes"
+        },
+        {
+            "name": "BetterLookingOceans-MedRes"
+        },
+        {
+            "name": "BetterLookingOceans-LowRes"
+        },
+        {
+            "name": "Rescale-10625"
+        },
+        {
+            "name": "Rescale-10"
+        },
+        {
+            "name": "Rescale-64"
+        },
+        {
+            "name": "Rescale-32"
+        },
+        {
+            "name": "Rescale-25"
+        },
+        {
+            "name": "Kerbalism-Config-RO"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/JNSQ",
+            "install_to": "GameData",
+            "comment": "This correctly installs JNSQ",
+            "filter": [
+                "Kronometer"
+            ]
+        }
+    ],
+    "download": "https://github.com/Galileo88/JNSQ/releases/download/0.10.2/JNSQ.0.10.2.zip",
+    "download_size": 2046110130,
+    "download_hash": {
+        "sha1": "174A112588399590A22E1AA4EC2FED04E2691871",
+        "sha256": "7384D08FAB73F4952E37085090039340A31E3481BBB9EFC5E0AE5C737B5E5BE2"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-11-25T17:42:45Z",
+    "x_generated_by": "netkan"
+}
