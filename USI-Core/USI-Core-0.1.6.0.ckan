@@ -8,7 +8,7 @@
     "release_status": "stable",
     "resources": {
         "homepage": "http://bobpalmer.github.io/UmbraSpaceIndustries/",
-        "repository": "https://github.com/BobPalmer/USI_Core"
+        "repository": "https://github.com/UmbraSpaceIndustries/USI_Core"
     },
     "version": "0.1.6.0",
     "ksp_version_min": "1.0.0",
@@ -30,10 +30,14 @@
     "install": [
         {
             "file": "GameData/UmbraSpaceIndustries",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": [
+                "FX",
+                "Konstruction"
+            ]
         }
     ],
-    "download": "https://github.com/BobPalmer/USI_Core/releases/download/0.1.6.0/USICore_0.1.6.0.zip",
+    "download": "https://github.com/UmbraSpaceIndustries/USI_Core/releases/download/0.1.6.0/USICore_0.1.6.0.zip",
     "download_size": 6963969,
     "download_hash": {
         "sha1": "18B869C574791703ADA19313DB37FA79F1B9EAB8",
