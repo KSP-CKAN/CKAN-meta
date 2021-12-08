@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalMiniShuttle",
+    "name": "KerbalMiniShuttle",
+    "abstract": "Adds analog aircraft for flight tests",
+    "author": "DimonD",
+    "version": "v1.4",
+    "ksp_version": "1.12.2",
+    "license": "GPL-2.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/200983-kerbal-mini-shuttle-thread-of-development/#comments",
+        "spacedock": "https://spacedock.info/mod/2678/KerbalMiniShuttle",
+        "x_screenshot": "https://spacedock.info/content/DimonD_58611/KerbalMiniShuttle/KerbalMiniShuttle-1629220311.241723.png"
+    },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/MKShuttle",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2678/KerbalMiniShuttle/download/v1.4",
+    "download_size": 65770243,
+    "download_hash": {
+        "sha1": "657670F2E152BFE0C876FE19E24B7CDD02D08E3C",
+        "sha256": "8B118723A05DA5E3BA925FD8CA29B152194692F1DF7AF4B3C1BB189FD3DD8EC6"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-12-08T13:41:21.881292+00:00",
+    "x_generated_by": "netkan"
+}
