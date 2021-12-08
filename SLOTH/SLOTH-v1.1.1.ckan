@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SLOTH",
+    "name": "SLOTH",
+    "abstract": "NASA Tri-ATHLETE inspired robotics rover for KSP: Breaking Ground expansion",
+    "author": "Angel-125",
+    "version": "v1.1.1",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/186546-*",
+        "repository": "https://github.com/Angel-125/SLOTH",
+        "bugtracker": "https://github.com/Angel-125/SLOTH/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/SLOTH/master/SLOTH/GameData/WildBlueIndustries/SLOTH/MoreServos.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "BreakingGround-DLC"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ServoController"
+        }
+    ],
+    "install": [
+        {
+            "find": "SLOTH",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter": "ships"
+        },
+        {
+            "find": "ships/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/Angel-125/SLOTH/releases/download/v1.1.1/SLOTH_1_1_1.zip",
+    "download_size": 1882283,
+    "download_hash": {
+        "sha1": "012372CDB1D06F2F3D13D0BF688A76E71D4FCB20",
+        "sha256": "18B2702E8161CE4B5529A1DFD3B7073CAAB928D2FC24F378B0A4CE862899D944"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-01-23T23:08:02Z",
+    "x_generated_by": "netkan"
+}
