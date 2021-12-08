@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "MoreServos",
+    "name": "More Servos",
+    "abstract": "More servos for KSP: Breaking Ground",
+    "author": "Angel-125",
+    "version": "v1.2.0",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/186546-*",
+        "repository": "https://github.com/Angel-125/MoreServos",
+        "bugtracker": "https://github.com/Angel-125/MoreServos/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/MoreServos/master/MoreServos/GameData/WildBlueIndustries/MoreServos/MoreServos.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "BreakingGround-DLC"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ServoController"
+        }
+    ],
+    "install": [
+        {
+            "find": "MoreServos",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter": "ships"
+        },
+        {
+            "find": "ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/Angel-125/MoreServos/releases/download/v1.2.0/MoreServos_1_2_0.zip",
+    "download_size": 1836761,
+    "download_hash": {
+        "sha1": "1C945DC64BFF39B872BB87B096634B14ACE4E87F",
+        "sha256": "67A105FD7C33EC6B06538E894903C6864BB012961EDFB1F830DDF7771AA2C4CE"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-09-12T21:08:25Z",
+    "x_generated_by": "netkan"
+}
