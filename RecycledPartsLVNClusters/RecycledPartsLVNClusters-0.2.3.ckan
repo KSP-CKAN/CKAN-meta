@@ -1,0 +1,66 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RecycledPartsLVNClusters",
+    "name": "Recycled Parts LVN Clusters",
+    "abstract": "Old mods recycled",
+    "author": "linuxgurugamer",
+    "version": "0.2.3",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.2",
+    "license": "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164829-13-spacetux-industries-recycled-parts/",
+        "spacedock": "https://spacedock.info/mod/1507/Recycled%20Parts",
+        "repository": "https://github.com/linuxgurugamer/RecycledParts",
+        "bugtracker": "https://github.com/linuxgurugamer/RecycledParts/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/RecycledParts"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "BDAnimationModules"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CommunityTechTree"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "JanitorsCloset"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RecycledPartsLVNClusters"
+        },
+        {
+            "name": "LVNNuclearEngineClusters"
+        }
+    ],
+    "install": [
+        {
+            "find": "LVN_Clusters",
+            "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1507/Recycled%20Parts/download/0.2.3",
+    "download_size": 36316339,
+    "download_hash": {
+        "sha1": "68B5A8D5853DBB2837032C44E62B6CD77E0CCB25",
+        "sha256": "2D11D31425669BBF3B7C90013124547532586B4ED59664211A4831F19171CC52"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-12-15T17:41:40.116591+00:00",
+    "x_generated_by": "netkan"
+}
