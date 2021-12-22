@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CommNetAntennasConsumptor",
+    "name": "CommNet Antennas Consumptor",
+    "abstract": "Extended antennas consume EC for supporting CommNet. New disable/enable action for the static antennas - enabled antennas consume EC.",
+    "author": "flart",
+    "version": "3.5.3",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.9",
+    "license": "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/177292-*",
+        "repository": "https://github.com/yalov/CommNetAntennasConsumptor",
+        "bugtracker": "https://github.com/yalov/CommNetAntennasConsumptor/issues",
+        "remote-avc": "https://raw.githubusercontent.com/yalov/CommNetAntennasConsumptor/master/CommNetAntennasConsumptor.version"
+    },
+    "tags": [
+        "plugin",
+        "comms"
+    ],
+    "localizations": [
+        "en-us",
+        "ru"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CommNetAntennasExtension"
+        },
+        {
+            "name": "CommNetAntennasInfo"
+        }
+    ],
+    "supports": [
+        {
+            "name": "DMagicOrbitalScience"
+        },
+        {
+            "name": "NearFutureExploration"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RemoteTech"
+        }
+    ],
+    "download": "https://github.com/yalov/CommNetAntennasConsumptor/releases/download/3.5.3/CommNetAntennasConsumptor-v3.5.3.zip",
+    "download_size": 84395,
+    "download_hash": {
+        "sha1": "73B7CD29E02B9F94F13EFF647AD7977FF51BE85D",
+        "sha256": "0F5BE22697339EEE56F37DFA8E8725BD14E9F4A59AD9EB18B2FC8B4EFCA28EF7"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-12-22T18:16:56Z",
+    "x_generated_by": "netkan"
+}
