@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "DSEV-PlayMode-ClassicStock",
+    "name": "DSEV Classic Stock Play Mode",
+    "abstract": "Deep Space Exploration Vessels for KSP",
+    "author": "Angel-125",
+    "version": "v3.10.0",
+    "ksp_version_min": "1.12.2",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/122162-*",
+        "repository": "https://github.com/Angel-125/DSEV",
+        "bugtracker": "https://github.com/Angel-125/DSEV/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/DSEV/master/GameData/WildBlueIndustries/DSEV/DSEV.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "DSEV-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "WildBlue-PlayMode-ClassicStock"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "DSEV"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries/DSEV/Templates/ClassicStock",
+            "install_to": "GameData/WildBlueIndustries/DSEV/Templates"
+        },
+        {
+            "find": "WildBlueIndustries/DSEV/Templates/ClassicStock.cfg",
+            "install_to": "GameData/WildBlueIndustries/DSEV/Templates",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/DSEV/releases/download/v3.10.0/DSEV.zip",
+    "download_size": 106525710,
+    "download_hash": {
+        "sha1": "0CD45BD608031BA5987840ABEC6F5E781C461B02",
+        "sha256": "34143D44D43CE589A76C8650C58D59549956E36C4A298C2A6EE8B3659B25E41A"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-12-30T19:53:10Z",
+    "x_generated_by": "netkan"
+}
