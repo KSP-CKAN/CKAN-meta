@@ -1,0 +1,45 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TutorialFixes",
+    "name": "TutorialFixes",
+    "abstract": "This is a little mod to fix the broken tutorials in 1.12.",
+    "author": "linuxgurugamer",
+    "version": "0.0.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.3",
+    "license": "CC-BY-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/206198-112x-tutorial-fixes/",
+        "spacedock": "https://spacedock.info/mod/2940/TutorialFixes",
+        "repository": "https://github.com/linuxgurugamer/TutorialFixes",
+        "bugtracker": "https://github.com/linuxgurugamer/TutorialFixes/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/TutorialFixes"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "TutorialFixes",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2940/TutorialFixes/download/0.0.1",
+    "download_size": 66588,
+    "download_hash": {
+        "sha1": "A4F1AC20E5766DFC049F3F9497191F6E03F6744C",
+        "sha256": "3742F7A3CC1D599B9F00A8FF08A51C2ED999CD1EE2649EB7DC4C2F4540A16039"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-01-01T06:48:55.612066+00:00",
+    "x_generated_by": "netkan"
+}
