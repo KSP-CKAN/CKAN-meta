@@ -1,0 +1,63 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "KerbalKomets-PlayMode-CRP",
+    "name": "KerbalKomets CRP Play Mode",
+    "abstract": "Add komets to your game!",
+    "author": "Angel125",
+    "version": "0.7.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.9.0",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/157387-122-kerbalkomets-v020-add-komets-to-your-game/",
+        "spacedock": "https://spacedock.info/mod/1249/Kerbal%20Komets",
+        "repository": "https://github.com/Angel-125/KerbalKomets",
+        "bugtracker": "https://github.com/Angel-125/KerbalKomets/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/MOLE/master/GameData/WildBlueIndustries/KerbalKomets/KerbalKomets.version",
+        "x_screenshot": "https://spacedock.info/content/Angel125_1093/Kerbal_Komets/Kerbal_Komets-1488831145.115356.png"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "KerbalKomets-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "KerbalKomets"
+        },
+        {
+            "name": "WildBlue-PlayMode-CRP"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbalKomets-PlayMode"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries/KerbalKomets/Templates/CRP/MM_PotatoRoid.txt",
+            "install_to": "GameData/WildBlueIndustries/KerbalKomets/Templates",
+            "as": "MM_PotatoRoid.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "WildBlueIndustries/KerbalKomets/Templates/CRP.cfg",
+            "install_to": "GameData/WildBlueIndustries/KerbalKomets/Templates",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/1249/Kerbal%20Komets/download/0.7.1",
+    "download_size": 143914,
+    "download_hash": {
+        "sha1": "639A80B05D143B7D88B185702D02AB9C953A0CF5",
+        "sha256": "2127AB6C524FC7C060248CC1456CD85BAE1EB95D543ECA358F31D0E71DE7D30C"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-02-11T18:22:55.604749+00:00",
+    "x_generated_by": "netkan"
+}
