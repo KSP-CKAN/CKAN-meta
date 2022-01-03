@@ -23,6 +23,9 @@
     "depends": [
         {
             "name": "ModuleManager"
+        },
+        {
+            "name": "KerbalKomets-PlayMode"
         }
     ],
     "install": [
@@ -30,7 +33,8 @@
             "find": "WildBlueIndustries",
             "install_to": "GameData",
             "filter_regexp": [
-                ".*\\.pdb$"
+                ".*\\.pdb$",
+                "Templates"
             ]
         }
     ],
