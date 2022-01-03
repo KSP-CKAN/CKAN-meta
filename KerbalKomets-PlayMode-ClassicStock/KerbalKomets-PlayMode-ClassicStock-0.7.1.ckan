@@ -1,7 +1,7 @@
 {
-    "spec_version": "v1.10",
-    "identifier": "KerbalKomets",
-    "name": "Kerbal Komets",
+    "spec_version": "v1.16",
+    "identifier": "KerbalKomets-PlayMode-ClassicStock",
+    "name": "KerbalKomets Classic Stock Play Mode",
     "abstract": "Add komets to your game!",
     "author": "Angel125",
     "version": "0.7.1",
@@ -17,22 +17,36 @@
         "x_screenshot": "https://spacedock.info/content/Angel125_1093/Kerbal_Komets/Kerbal_Komets-1488831145.115356.png"
     },
     "tags": [
-        "plugin",
-        "planet-pack"
+        "config"
+    ],
+    "provides": [
+        "KerbalKomets-PlayMode"
     ],
     "depends": [
+        {
+            "name": "KerbalKomets"
+        },
+        {
+            "name": "WildBlue-PlayMode-ClassicStock"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
         {
             "name": "KerbalKomets-PlayMode"
         }
     ],
     "install": [
         {
-            "find": "WildBlueIndustries",
-            "install_to": "GameData",
-            "filter_regexp": [
-                ".*\\.pdb$",
-                "Templates"
-            ]
+            "find": "WildBlueIndustries/KerbalKomets/Templates/ClassicStock",
+            "install_to": "GameData/WildBlueIndustries/KerbalKomets/Templates"
+        },
+        {
+            "find": "WildBlueIndustries/KerbalKomets/Templates/ClassicStock.cfg",
+            "install_to": "GameData/WildBlueIndustries/KerbalKomets/Templates",
+            "find_matches_files": true
         }
     ],
     "download": "https://spacedock.info/mod/1249/Kerbal%20Komets/download/0.7.1",
