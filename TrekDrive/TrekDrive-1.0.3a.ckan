@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "TrekDrive",
+    "name": "TrekDrive by ShadowWorks",
+    "abstract": "A standalone warp drive mod inspired by Star Trek and RoverDude's Standalone Alcubierre Warp Drive.  The drive requires at least two parts to operate.  The current WIP release contains two modified stock parts as test articles, a test craft, the Phoenix warpship, the Enterprise-era Shuttlepod, and the NX-class starship and it's Refit version, the plugin itself, and the source code.",
+    "author": "TheShadow1138",
+    "version": "1.0.3a",
+    "ksp_version": "1.12.3",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/204759-19-112-trekdrive-a-star-trek-like-warp-drive-by-shadowworks-v10-to-boldly-go-09-09-2021/",
+        "spacedock": "https://spacedock.info/mod/2626/TrekDrive%20by%20ShadowWorks",
+        "x_screenshot": "https://spacedock.info/content/TheShadow1138_1098/TrekDrive_by_ShadowWorks_WIP/TrekDrive_by_ShadowWorks_WIP-1628205781.455232.png"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Waterfall"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/TrekDrive",
+            "install_to": "GameData",
+            "filter": [
+                ".DS_Store"
+            ]
+        },
+        {
+            "find": "Craft/VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find": "Craft/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2626/TrekDrive%20by%20ShadowWorks/download/1.0.3a",
+    "download_size": 190390153,
+    "download_hash": {
+        "sha1": "259784DC202AB0818D887704DACCB739490CDE73",
+        "sha256": "2E20225E9702A9C38CD39A178B24748DD06A7FEE7EA3412FB58E91F48099EE0E"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-01-06T04:48:34.823657+00:00",
+    "x_generated_by": "netkan"
+}
