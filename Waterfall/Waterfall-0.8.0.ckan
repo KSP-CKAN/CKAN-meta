@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Waterfall",
+    "name": "Waterfall Core",
+    "abstract": "Core Waterfall plugin to drive engine effects, plus default effect templates. Does nothing on its own, other mods supply compatibility.",
+    "author": "Chris Adderley (Nertea)",
+    "version": "0.8.0",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/196309-wip-waterfall-a-framework-for-continuous-mesh-driven-engine-effects-dec-19/",
+        "repository": "https://github.com/post-kerbin-mining-corporation/Waterfall",
+        "bugtracker": "https://github.com/post-kerbin-mining-corporation/Waterfall/issues",
+        "metanetkan": "https://github.com/post-kerbin-mining-corporation/Waterfall/raw/master/CKAN/Waterfall.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/post-kerbin-mining-corporation/Waterfall/master/GameData/Waterfall/Versioning/Waterfall.version"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "Waterfall",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/post-kerbin-mining-corporation/Waterfall/releases/download/0.8.0/Waterfall_0_8_0.zip",
+    "download_size": 22104575,
+    "download_hash": {
+        "sha1": "A5A5F646F722B9C66677A8406EE3A6603A7383B8",
+        "sha256": "FC76E30E6A3AF5E631B7BA1F270B3350392C27CC648CCD3EB278F42C79F5A438"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-01-17T16:52:44Z",
+    "x_generated_by": "netkan"
+}
