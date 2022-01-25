@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "PersistentRotationUpgraded",
+    "name": "PersistentRotation Upgraded",
+    "abstract": "Momentum and Rotation in KSP are quite unrealistic.  This mod will maintain rotation through timewarping and changing vessels, etc.",
+    "author": "linuxgurugamer",
+    "version": "1.9.1.7",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.3",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201121-19x",
+        "spacedock": "https://spacedock.info/mod/2660/PersistentRotation%20Upgraded",
+        "repository": "https://github.com/linuxgurugamer/PersistentRotation",
+        "remote-avc": "http://ksp.spacetux.net/avc/PersistentRotationUpgraded",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/PersistentRotation_Upgraded/PersistentRotation_Upgraded-1616212727.442817.jpg"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "zh-cn"
+    ],
+    "provides": [
+        "PersistentRotation"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "PersistentRotation"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/PersistentRotation",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2660/PersistentRotation%20Upgraded/download/1.9.1.7",
+    "download_size": 32670,
+    "download_hash": {
+        "sha1": "D6F28B18171E19CFE9E15E4380AE1D636C965599",
+        "sha256": "D6D6B4064B112C7A7899CCB418D2535C6314BE2232BB6255ECF5E18AA9F292D6"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-01-25T19:20:33.140138+00:00",
+    "x_generated_by": "netkan"
+}
