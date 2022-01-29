@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "StockDepthMaskConfig",
+    "name": "Stock DepthMask Config",
+    "abstract": "This mod adds ModuleDepthMask to some of the stock parts.",
+    "author": "KingNoob",
+    "version": "1.0",
+    "ksp_version": "1.12.3",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/2963/Stock%20DepthMask%20Config"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "DepthMask"
+        }
+    ],
+    "install": [
+        {
+            "find_regexp": "Stock_DepthMask_Config-[0-9.]+",
+            "install_to": "GameData",
+            "filter": [
+                ".gitattributes"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/2963/Stock%20DepthMask%20Config/download/1.0",
+    "download_size": 16202,
+    "download_hash": {
+        "sha1": "109F9F49E3C6F00540ED8829A0FCF138EE0423EA",
+        "sha256": "F74E8DB9D1D25DA078EB06933BC6784ED38E285C38C265A2611A2F617BC3F890"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-01-29T14:06:41.819852+00:00",
+    "x_generated_by": "netkan"
+}
