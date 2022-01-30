@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalWeatherProject-Lite",
+    "name": "Kerbal Weather Project - Lite",
+    "abstract": "Kerbal Weather Project - Lite is pared down version of the original weather and climate mod for KSP. In KWP-Lite, weather and climate data from the Model for Prediction Across Scales (MPAS) were incorporated into KSP gameplay. KWP-Lite includes a reduced resolution global Hourly climatology from MPAS allowing players to experience diurnal and spatial variations in atmospheric conditions. In addition, one year of point weather data from MPAS is provided at Kerbin launch sites, allowing players to experience dynamic weather conditions that change daily. KWP-Lite features a text-based GUI showing remote sensing weather data (in space) and in situ weather data (in the atmosphere).",
+    "author": "cmet24",
+    "version": "1:1.0.7",
+    "ksp_version": "1.12.3",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://www.kerbalwxproject.space",
+        "spacedock": "https://spacedock.info/mod/2611/Kerbal%20Weather%20Project%20-%20Lite",
+        "repository": "https://github.com/cmac994/KerbalWeatherProject",
+        "bugtracker": "https://github.com/cmac994/KerbalWeatherProject/issues"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "provides": [
+        "KerbalWeatherProject"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ModularFlightIntegrator"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerBalloons"
+        },
+        {
+            "name": "AtmosphereAutopilot"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbalWeatherProject"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalWeatherProject_Lite",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2611/Kerbal%20Weather%20Project%20-%20Lite/download/1.0.7",
+    "download_size": 13739838,
+    "download_hash": {
+        "sha1": "B240625A0B77AB3D14B615D47817E0BAC5417277",
+        "sha256": "B08985833033666ABF8A5786B4628199BD5ED788B4A2516D6996EC3BEA186B21"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-01-30T17:21:29.126814+00:00",
+    "x_generated_by": "netkan"
+}
