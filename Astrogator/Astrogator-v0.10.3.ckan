@@ -1,0 +1,75 @@
+{
+    "spec_version": "v1.2",
+    "comment": "Indexed by author. Please report any problems at the repository bugtracker.",
+    "identifier": "Astrogator",
+    "name": "Astrogator",
+    "abstract": "A space-navigational aide for Kerbal Space Program",
+    "description": "Displays a table of all of the bodies reachable from the current location, along with the time till burn and delta V needed to reach them. These values can be used to time warp or generate maneuver nodes. Supports prograde and retrograde orbits, nested ejection trajectories, transfers to satellites of the current parent body, and transfers to other vessels.",
+    "author": "HebaruSan",
+    "version": "v0.10.3",
+    "ksp_version": "1.12",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155998-*",
+        "repository": "https://github.com/HebaruSan/Astrogator",
+        "bugtracker": "https://github.com/HebaruSan/Astrogator/issues",
+        "remote-avc": "https://raw.githubusercontent.com/HebaruSan/Astrogator/master/GameData/Astrogator/Astrogator.version"
+    },
+    "tags": [
+        "plugin",
+        "information",
+        "control"
+    ],
+    "localizations": [
+        "en-us",
+        "es-es",
+        "fr-fr",
+        "ru",
+        "zh-cn"
+    ],
+    "recommends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "LoadingTipsPlus"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "GravityTurn"
+        },
+        {
+            "name": "Trajectories"
+        },
+        {
+            "name": "BetterBurnTime"
+        },
+        {
+            "name": "PreciseNode"
+        },
+        {
+            "name": "NavballDockingIndicator"
+        },
+        {
+            "name": "WarpEverywhere"
+        },
+        {
+            "name": "ManeuverQueue"
+        }
+    ],
+    "supports": [
+        {
+            "name": "RasterPropMonitor"
+        }
+    ],
+    "download": "https://github.com/HebaruSan/Astrogator/releases/download/v0.10.3/Astrogator.zip",
+    "download_size": 79836,
+    "download_hash": {
+        "sha1": "CAAD81EED7921415AF1606AB92D7BBBCF81E5BA1",
+        "sha256": "BCCAB8429629D4329223C6EB323B4B967554B4987B2E163AF2BEA2CF1DF1FB7C"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-01-31T01:10:20Z",
+    "x_generated_by": "netkan"
+}
