@@ -1,0 +1,72 @@
+{
+    "spec_version": 1,
+    "identifier": "AstronomersVisualPack",
+    "name": "Astronomer's Visual Pack",
+    "abstract": "The total visual overhaul for Kerbal Space Program, originally by Astronomer.",
+    "author": "themaster402",
+    "version": "3:v4.12",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.9",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160878-*",
+        "repository": "https://github.com/themaster402/AstronomersVisualPack",
+        "bugtracker": "https://github.com/themaster402/AstronomersVisualPack/issues",
+        "remote-avc": "https://raw.githubusercontent.com/themaster402/AstronomersVisualPack/master/GameData/AstronomersVisualPack/AstronomersVisualPack.version"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "EnvironmentalVisualEnhancements-Config-stock"
+    ],
+    "depends": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "AVP-Textures"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KS3P"
+        },
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "PlanetShine"
+        },
+        {
+            "name": "Chatterer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        }
+    ],
+    "download": "https://github.com/themaster402/AstronomersVisualPack/releases/download/v4.12/AVP.v.4.12.zip",
+    "download_size": 24524144,
+    "download_hash": {
+        "sha1": "36749CADB1A8BA946E38E18A2EC3378C5B2770DD",
+        "sha256": "6DC5659D753BA27C2484724D22C3AD5582275E49E7F3A2613ABDD4DCA4848B4A"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-02-19T18:49:13Z",
+    "x_generated_by": "netkan"
+}
