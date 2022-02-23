@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "PlanetShine-Config-Default",
+    "name": "PlanetShine - Default configuration",
+    "abstract": "Planets and moons reflects their light to your vessel + other ambient light improvements",
+    "author": [
+        "valerian",
+        "PapaJoesSoup"
+    ],
+    "version": "0.2.6.6",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.999",
+    "license": "Apache-2.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/173138-*",
+        "repository": "https://github.com/prestja/ksp-planetshine",
+        "bugtracker": "https://github.com/PapaJoesSoup/ksp-planetshine/issues",
+        "remote-avc": "https://github.com/papajoessoup/ksp-planetshine/raw/master/PlanetShine/Distribution/GameData/PlanetShine/Plugins/PlanetShine.version"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "provides": [
+        "PlanetShine-Config"
+    ],
+    "depends": [
+        {
+            "name": "PlanetShine"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "PlanetShine-Config"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/PlanetShine/Config",
+            "install_to": "GameData/PlanetShine"
+        }
+    ],
+    "download": "https://github.com/PapaJoesSoup/ksp-planetshine/releases/download/0.2.6.6/PlanetShine.0.2.6.6_02222022.zip",
+    "download_size": 25923,
+    "download_hash": {
+        "sha1": "F39371AAB511BA2E918E32A1FDD713217B2D8B3A",
+        "sha256": "7A4DB70261100B5509372BF5EFA66343BA113D82918273D50BE8747D0335E42B"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-02-23T01:43:51Z",
+    "x_generated_by": "netkan"
+}
