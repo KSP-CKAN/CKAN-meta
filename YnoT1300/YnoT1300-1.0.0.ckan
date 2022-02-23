@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.12",
+    "identifier": "YnoT1300",
+    "name": "YnoT1300",
+    "abstract": "Build a YT1300 freighter to your own design using a variation of parts.",
+    "author": "ColdJ",
+    "version": "1.0.0",
+    "ksp_version": "1.12.3",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/206944-ynot1300/",
+        "spacedock": "https://spacedock.info/mod/2978/YnoT1300",
+        "x_screenshot": "https://spacedock.info/content/ColdJ_60612/YnoT1300/YnoT1300-1645066584.png"
+    },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleAnimateGenericEffects"
+        }
+    ],
+    "install": [
+        {
+            "find": "YnoT1300",
+            "install_to": "GameData",
+            "filter_regexp": "\\.craft$"
+        },
+        {
+            "file": "GameData/YnoT1300/MFalcon.craft",
+            "install_to": "Ships/SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2978/YnoT1300/download/1.0.0",
+    "download_size": 73398374,
+    "download_hash": {
+        "sha1": "E41A9ACB24E1ADE430E37A6DE2D5F8165CC718D0",
+        "sha256": "7CD71D3A4641BED528F61CBD62E54A893F32B9CF47062F18E29ADEFAF604186C"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-02-17T02:52:20.545248+00:00",
+    "x_generated_by": "netkan"
+}
