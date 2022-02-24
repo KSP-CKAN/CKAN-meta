@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "WildBlue-PlayMode-Pristine",
+    "name": "WildBlueIndustries Pristine Play Mode",
+    "abstract": "Pristine Mode removes all templates and converters. You'll have a number of nice looking parts for decorative base building.",
+    "author": "Angel-125",
+    "version": "v1.86.0",
+    "ksp_version_min": "1.12.2",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/Angel-125/WildBlueTools",
+        "bugtracker": "https://github.com/Angel-125/WildBlueTools/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/WildBlueTools/master/GameData/WildBlueIndustries/000WildBlueTools/WildBlueTools.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "WildBlue-PlayMode",
+        "Buffalo-PlayMode",
+        "KerbalKomets-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "WildBlueTools"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "WildBlue-PlayMode"
+        }
+    ],
+    "install": [
+        {
+            "find": "000WildBlueTools/Templates/Pristine/MM_Pristine.txt",
+            "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates/Pristine",
+            "as": "MM_Pristine.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "000WildBlueTools/Templates/Pristine.cfg",
+            "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/WildBlueTools/releases/download/v1.86.0/WildBlueTools.zip",
+    "download_size": 22128054,
+    "download_hash": {
+        "sha1": "67106F29E28D1D6407C6A566802E0C246EAA70FF",
+        "sha256": "0B2AE74201DBB91261EFDB9447655B203B53089759CF2BB1233C6E4D0DAE5EDC"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-02-24T19:20:40Z",
+    "x_generated_by": "netkan"
+}
