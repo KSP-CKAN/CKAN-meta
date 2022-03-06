@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "ServoController",
+    "name": "Servo Controller",
+    "abstract": "A plugin for the Breaking Ground KSP DLC",
+    "author": "Angel-125",
+    "version": "1:v1.2.0",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/186546-*",
+        "repository": "https://github.com/Angel-125/ServoController",
+        "bugtracker": "https://github.com/Angel-125/ServoController/issues",
+        "remote-avc": "https://github.com/Angel-125/ServoController/raw/master/GameData/WildBlueIndustries/ServoController/ServoController.version"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "BreakingGround-DLC"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "ServoController",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter_regexp": [
+                "\\.mdb$",
+                "\\.pdb$"
+            ]
+        }
+    ],
+    "download": "https://github.com/Angel-125/ServoController/releases/download/v1.2.0/ServoController_1_2_0.zip",
+    "download_size": 323719,
+    "download_hash": {
+        "sha1": "9E0D1810596B6C0169EA171311B9A2949BA5EFE1",
+        "sha256": "F2BE6A61A5C4F134F389E3D41BC6BBDB22AB684D51C1F31CA75B6072DC89FC54"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-09-12T20:55:50Z",
+    "x_generated_by": "netkan"
+}
