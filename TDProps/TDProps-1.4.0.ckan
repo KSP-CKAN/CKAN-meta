@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.18",
+    "spec_version": "v1.4",
     "identifier": "TDProps",
     "name": "TDProps",
     "abstract": "Props for IVAs for reuse",
@@ -8,28 +8,19 @@
         "linuxgurugamer"
     ],
     "version": "1.4.0",
-    "ksp_version": "1.12.3",
+    "ksp_version_min": "1.6.0",
+    "ksp_version_max": "1.12.3",
     "license": "MIT",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/207179-112x-tiktaalik-dreaming-props/",
         "spacedock": "https://spacedock.info/mod/1546/TDProps",
         "repository": "https://github.com/linuxgurugamer/TDProps",
+        "remote-avc": "http://ksp.spacetux.net/avc/TDProps",
         "x_screenshot": "https://spacedock.info/content/TiktaalikDreaming_235/TDProps/TDProps-1508616638.7812712.png"
     },
     "tags": [
         "library",
         "crewed"
-    ],
-    "install": [
-        {
-            "find_regexp": "TDProps",
-            "install_to": "GameData",
-            "as": "TDProps",
-            "filter": [
-                ".git",
-                ".gitattributes"
-            ]
-        }
     ],
     "download": "https://spacedock.info/mod/1546/TDProps/download/1.4.0",
     "download_size": 4368314,
