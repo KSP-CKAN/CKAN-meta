@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "TAKDIS",
+    "name": "T.A.K.D.I.S",
+    "abstract": "Time and Kerbal Dimensions in Space.",
+    "author": "ColdJ",
+    "version": "1.0.0",
+    "ksp_version": "1.12.3",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/207165-takdis/",
+        "spacedock": "https://spacedock.info/mod/2991/T.A.K.D.I.S",
+        "x_screenshot": "https://spacedock.info/content/ColdJ_60612/T.A.K.D.I.S/T.A.K.D.I.S-1646634682.png"
+    },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "RocketSoundEnhancement"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/TAKDIS",
+            "install_to": "GameData",
+            "filter_regexp": "\\.craft$"
+        },
+        {
+            "file": "GameData/TAKDIS/The Tardis.craft",
+            "install_to": "Ships/SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2991/T.A.K.D.I.S/download/1.0.0",
+    "download_size": 25902750,
+    "download_hash": {
+        "sha1": "00032A509363F15B7B5DF925BF349FBDED4CA1FB",
+        "sha256": "3F83A9AF5F4971B970F848E9882B7FEDC742D97FCE635BB3B3523096430B0297"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-03-11T12:53:02.668256+00:00",
+    "x_generated_by": "netkan"
+}
