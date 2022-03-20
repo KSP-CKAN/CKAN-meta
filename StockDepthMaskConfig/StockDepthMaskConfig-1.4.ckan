@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.10",
+    "spec_version": "v1.4",
     "identifier": "StockDepthMaskConfig",
     "name": "Stock DepthMask Config",
     "abstract": "This mod adds ModuleDepthMask to some of the stock parts.",
@@ -24,9 +24,14 @@
             "name": "DepthMask"
         }
     ],
+    "conflicts": [
+        {
+            "name": "ReStock"
+        }
+    ],
     "install": [
         {
-            "find_regexp": "StockDepthMaskConfig",
+            "find": "StockDepthMaskConfig",
             "install_to": "GameData",
             "filter": [
                 ".git",
