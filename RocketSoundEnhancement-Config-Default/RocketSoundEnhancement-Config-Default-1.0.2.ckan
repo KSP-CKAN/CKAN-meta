@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RocketSoundEnhancement-Config-Default",
+    "name": "Rocket Sound Enhancement - Default",
+    "abstract": "RSE sounds for stock engines, wheels, decouplers, and more",
+    "author": "ensou04",
+    "version": "1.0.2",
+    "ksp_version_min": "1.10.1",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "repository": "https://github.com/ensou04/RocketSoundEnhancementDefault",
+        "bugtracker": "https://github.com/ensou04/RocketSoundEnhancementDefault/issues",
+        "remote-avc": "https://raw.githubusercontent.com/ensou04/RocketSoundEnhancementDefault/master/GameData/RocketSoundEnhancementDefault/RocketSoundEnhancementDefault.version"
+    },
+    "tags": [
+        "config",
+        "sound"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RocketSoundEnhancement"
+        }
+    ],
+    "install": [
+        {
+            "find": "RocketSoundEnhancementDefault",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/ensou04/RocketSoundEnhancementDefault/releases/download/1.0.2/RocketSoundEnhancement-Default-v1.0.2.zip",
+    "download_size": 97158018,
+    "download_hash": {
+        "sha1": "26C33462668EFE60974AE21EAFEF69EAC6B42DB4",
+        "sha256": "7F275FDC54F222EB018D0FE7959F4523A61D1015B4668978808EB88373B7A14C"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-03-23T18:35:36Z",
+    "x_generated_by": "netkan"
+}
