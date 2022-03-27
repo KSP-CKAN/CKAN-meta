@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TransferWindowPlannerFork",
+    "name": "Transfer Window Planner - Fork",
+    "abstract": "An ingame implementation of Alexmun's Launch Window Planner",
+    "author": [
+        "TriggerAu",
+        "Nazfib"
+    ],
+    "version": "v1.9.0.1",
+    "ksp_version_min": "1.10.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://discordapp.com/invite/ZGbR6nv",
+        "repository": "https://github.com/Nazfib/TransferWindowPlanner",
+        "bugtracker": "https://github.com/Nazfib/TransferWindowPlanner/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Nazfib/TransferWindowPlanner/master/TransferWindowPlanner/TransferWindowPlanner.version"
+    },
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "recommends": [
+        {
+            "name": "TriggerAu-Flags"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TransferWindowPlanner"
+        }
+    ],
+    "install": [
+        {
+            "find": "TransferWindowPlanner",
+            "install_to": "GameData/TriggerTech"
+        }
+    ],
+    "download": "https://github.com/Nazfib/TransferWindowPlanner/releases/download/v1.9.0.1/TransferWindowPlanner_v1.9.0.1.zip",
+    "download_size": 97979,
+    "download_hash": {
+        "sha1": "8AA0124606CE22F978AE92ABCB971F9823F71465",
+        "sha256": "535588AB812FABCD6CAE7BF7769A954D7CDC48D79F98AB2B26234C6A351B718F"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-03-25T13:57:57Z",
+    "x_generated_by": "netkan"
+}
