@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "MOLE-PlayMode-ClassicStock",
+    "name": "MOLE Classic Stock Play Mode",
+    "abstract": "Mark One Laboratory Extensions- early space stations for KSP",
+    "author": "Angel-125",
+    "version": "1:v1.26.1",
+    "ksp_version_min": "1.12.2",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/154893-*",
+        "repository": "https://github.com/Angel-125/MOLE",
+        "bugtracker": "https://github.com/Angel-125/MOLE/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/MOLE/master/GameData/WildBlueIndustries/MOLE/MOLE.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "MOLE-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "WildBlue-PlayMode-ClassicStock"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "MOLE"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries/MOLE/Templates/ClassicStock",
+            "install_to": "GameData/WildBlueIndustries/MOLE/Templates"
+        },
+        {
+            "find": "WildBlueIndustries/MOLE/Templates/ClassicStock.cfg",
+            "install_to": "GameData/WildBlueIndustries/MOLE/Templates",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/MOLE/releases/download/v1.26.1/MOLE.zip",
+    "download_size": 49175610,
+    "download_hash": {
+        "sha1": "F3A7253EF6102DE0CB6032F4B5FFAA3EAF2AB391",
+        "sha256": "9CF823F368FBC5A10383F63DD1CBAEEF96C6D2782705DFC8DDE0AD330B3CE741"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-08-04T23:02:59Z",
+    "x_generated_by": "netkan"
+}
