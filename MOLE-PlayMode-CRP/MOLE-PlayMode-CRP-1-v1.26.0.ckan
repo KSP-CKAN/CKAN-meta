@@ -1,0 +1,85 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "MOLE-PlayMode-CRP",
+    "name": "MOLE CRP Play Mode",
+    "abstract": "Mark One Laboratory Extensions- early space stations for KSP",
+    "author": "Angel-125",
+    "version": "1:v1.26.0",
+    "ksp_version_min": "1.11.0",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/154893-*",
+        "repository": "https://github.com/Angel-125/MOLE",
+        "bugtracker": "https://github.com/Angel-125/MOLE/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/MOLE/master/GameData/WildBlueIndustries/MOLE/MOLE.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "MOLE-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "WildBlue-PlayMode-CRP"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "MOLE"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries/MOLE/Templates/CRP.cfg",
+            "install_to": "GameData/WildBlueIndustries/MOLE/Templates",
+            "find_matches_files": true
+        },
+        {
+            "find": "MOLE/Templates/CRP/BOW.txt",
+            "install_to": "GameData/WildBlueIndustries/MOLE/Templates/CRP",
+            "as": "BOW.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "MOLE/Templates/CRP/Experiments.txt",
+            "install_to": "GameData/WildBlueIndustries/MOLE/Templates/CRP",
+            "as": "Experiments.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "MOLE/Templates/CRP/MM_Snacks.txt",
+            "install_to": "GameData/WildBlueIndustries/MOLE/Templates/CRP",
+            "as": "MM_Snacks.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "MOLE/Templates/CRP/MOBL18.txt",
+            "install_to": "GameData/WildBlueIndustries/MOLE/Templates/CRP",
+            "as": "MOBL18.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "MOLE/Templates/CRP/MOH18.txt",
+            "install_to": "GameData/WildBlueIndustries/MOLE/Templates/CRP",
+            "as": "MOH18.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "MOLE/Templates/CRP/MOLE18.txt",
+            "install_to": "GameData/WildBlueIndustries/MOLE/Templates/CRP",
+            "as": "MOLE18.cfg",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/MOLE/releases/download/v1.26.0/MOLE.zip",
+    "download_size": 48477904,
+    "download_hash": {
+        "sha1": "93B6584F5A6166F1F4356BFE0FF5DAC2C63995E1",
+        "sha256": "5F5A99E9AF311D0DF54A85D689FC224EB843032BE145768F80890324EFFC3D9C"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-02-08T21:57:07Z",
+    "x_generated_by": "netkan"
+}
