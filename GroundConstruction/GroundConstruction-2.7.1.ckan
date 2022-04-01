@@ -1,0 +1,76 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "GroundConstruction",
+    "name": "Global Construction",
+    "abstract": "Build vessels directly on other planets and in orbit using light-weight kits of high-tech components, with energy and raw materials produced on-site from Ore.",
+    "author": [
+        "allista"
+    ],
+    "version": "2.7.1",
+    "ksp_version": "1.12.3",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/154167-122-ground-construction",
+        "spacedock": "https://spacedock.info/mod/1123/Ground%20Construction",
+        "repository": "https://github.com/allista/GroundConstruction",
+        "bugtracker": "https://github.com/allista/GroundConstruction/issues",
+        "metanetkan": "https://raw.githubusercontent.com/allista/GroundConstruction/master/GroundConstruction.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/allista/GroundConstruction/master/GameData/GroundConstruction/GroundConstruction.version",
+        "x_screenshot": "https://spacedock.info/content/allista_931/Ground_Construction/Ground_Construction-1536838498.3931928.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "GroundConstruction-Core"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ConfigurableContainers"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ThrottleControlledAvionics"
+        },
+        {
+            "name": "Hangar"
+        },
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "KSP-AVC"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/GroundConstruction/Patches",
+            "install_to": "GameData/GroundConstruction"
+        },
+        {
+            "file": "GameData/GroundConstruction/Parts",
+            "install_to": "GameData/GroundConstruction",
+            "filter": [
+                "DIYKit"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/1123/Ground%20Construction/download/2.7.1",
+    "download_size": 16623762,
+    "download_hash": {
+        "sha1": "11737AAF721B671C5AD17FD791BE0548D78DDA33",
+        "sha256": "EF913F4DEB50DA933E343298114025054102AF9E3DF21CE500D9682D9C3DDFDE"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-04-01T16:37:55.163491+00:00",
+    "x_generated_by": "netkan"
+}
