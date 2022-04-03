@@ -1,0 +1,68 @@
+{
+    "spec_version": 1,
+    "identifier": "FerramAerospaceResearchContinued",
+    "name": "Ferram Aerospace Research Continued",
+    "abstract": "FAR replaces KSP's stock part-centered aerodynamics model with one based on real-life physics.",
+    "author": [
+        "ferram4",
+        "dkavolis"
+    ],
+    "version": "3:0.16.0.5",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179445-*",
+        "repository": "https://github.com/dkavolis/Ferram-Aerospace-Research",
+        "bugtracker": "https://github.com/dkavolis/Ferram-Aerospace-Research/issues",
+        "remote-avc": "https://raw.githubusercontent.com/dkavolis/Ferram-Aerospace-Research/master/GameData/FerramAerospaceResearch/FAR.version"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "AerodynamicModel",
+        "FAR"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ModularFlightIntegrator"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AerodynamicModel"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/FerramAerospaceResearch",
+            "install_to": "GameData",
+            "filter": "config.xml"
+        },
+        {
+            "file": "Ships",
+            "install_to": "Ships",
+            "comment": "FAR example craft"
+        }
+    ],
+    "download": "https://github.com/dkavolis/Ferram-Aerospace-Research/releases/download/v0.16.0.5_Mader/FAR_0_16_0_5_Mader.zip",
+    "download_size": 891580,
+    "download_hash": {
+        "sha1": "1E073C5F7268BF3581CA122AB7B92378426E1F40",
+        "sha256": "419FC5C079930DFF3AE54E0E763E5EC5DF3AC2F1AA0B450CE845A7FA590B4C08"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-04-03T11:00:17Z",
+    "x_generated_by": "netkan"
+}
