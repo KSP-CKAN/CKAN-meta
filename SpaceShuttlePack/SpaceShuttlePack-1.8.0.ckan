@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "SpaceShuttlePack",
+    "name": "Space Shuttle Pack",
+    "abstract": "Space Shuttle Pack,orginally by Mike-NZ.",
+    "author": [
+        "MrMikeNZ",
+        "Alex1234567890"
+    ],
+    "version": "1.8.0",
+    "ksp_version": "1.0.4",
+    "license": "CC-BY-SA",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/3008/Space%20Shuttle%20Pack",
+        "remote-avc": "https://raw.githubusercontent.com:443/MrMikeNZ/Space-Shuttle/master/Space_Shuttle.version"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "BDAnimationModules"
+        },
+        {
+            "name": "ModuleRCSFX"
+        },
+        {
+            "name": "KlockheedMartian-Gimbal"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        },
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "Firespitter"
+        }
+    ],
+    "install": [
+        {
+            "find": "Space_Shuttle",
+            "install_to": "GameData",
+            "filter": "Thumbs.db"
+        },
+        {
+            "file": "Space Shuttle.craft",
+            "install_to": "Ships/VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3008/Space%20Shuttle%20Pack/download/1.8.0",
+    "download_size": 61889972,
+    "download_hash": {
+        "sha1": "2255E2C1A6B8E0457254CE20795BD0ED13DCA32E",
+        "sha256": "CA92FE697A67BE258DC66E02B38B5521FE8E0407E34A447B2BC4F561CAD2B069"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-04-04T09:47:09.306236+00:00",
+    "x_generated_by": "netkan"
+}
