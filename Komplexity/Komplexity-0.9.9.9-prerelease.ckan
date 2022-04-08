@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Komplexity",
+    "name": "Komplexity",
+    "abstract": "A Custom Barn Kit config addon that increases Kerbal Space Center building levels to ten levels instead of the stock game's four. For Kerbal Space Program. Doesn't add more building models.",
+    "author": "zer0Kerbal",
+    "version": "0.9.9.9-prerelease",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.12.9999",
+    "license": "GPL-2.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/202749-*",
+        "spacedock": "https://spacedock.info/mod/2805/Komplexity",
+        "repository": "https://github.com/zer0Kerbal/Komplexity",
+        "bugtracker": "https://github.com/zer0Kerbal/Komplexity/issues",
+        "remote-avc": "https://raw.githubusercontent.com/zer0Kerbal/Komplexity/master/Komplexity.version",
+        "x_screenshot": "https://spacedock.info/content/zer0Kerbal_21147/Komplexity/Komplexity-1649405456.png"
+    },
+    "tags": [
+        "config",
+        "career"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "CustomBarnKit"
+        }
+    ],
+    "supports": [
+        {
+            "name": "Strategia"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Bureaucracy"
+        },
+        {
+            "name": "CustomBarnKit-RO"
+        }
+    ],
+    "install": [
+        {
+            "find": "KGEx",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2805/Komplexity/download/0.9.9.9-prerelease",
+    "download_size": 26658,
+    "download_hash": {
+        "sha1": "C3514F28738FDF74E650523580FDAE85446FABC6",
+        "sha256": "2B60047CB7D13A58D6A520905EE0BEB568238D6433E8240862C24838C2BF0BC3"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-04-08T08:13:44.0012+00:00",
+    "x_generated_by": "netkan"
+}
