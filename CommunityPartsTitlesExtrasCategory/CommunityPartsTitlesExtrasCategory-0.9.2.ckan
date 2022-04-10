@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CommunityPartsTitlesExtrasCategory",
+    "name": "Community Parts Titles Extras: Categories",
+    "abstract": "Highly recommended Extras for the Community Parts Titles. Create new categories or place parts to a more appropriate category. Though these techniques aren't overused",
+    "author": "flart",
+    "version": "0.9.2",
+    "ksp_version_min": "1.3.0",
+    "ksp_version_max": "1.12.9",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/174189-*",
+        "repository": "https://github.com/yalov/CommunityPartsTitles",
+        "bugtracker": "https://github.com/yalov/CommunityPartsTitles/issues",
+        "remote-avc": "https://raw.githubusercontent.com/yalov/CommunityPartsTitles/master/CommunityPartsTitles.version"
+    },
+    "tags": [
+        "config",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CommunityPartsTitles"
+        },
+        {
+            "name": "CommunityPartsTitlesExtrasNoCCKDup"
+        },
+        {
+            "name": "CommunityCategoryKit"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/002_CommunityPartsTitles/Extras",
+            "install_to": "GameData/002_CommunityPartsTitles",
+            "filter": "CPTE_category_hide_cck_parts.cfg",
+            "comment": "Extras folder without the category_hide_cck_parts.cfg. There is CommunityPartsTitlesExtrasNoDup for it"
+        }
+    ],
+    "download": "https://github.com/yalov/CommunityPartsTitles/releases/download/0.9.2/CommunityPartsTitles-v0.9.2.zip",
+    "download_size": 179227,
+    "download_hash": {
+        "sha1": "00B99A155E7EF7BEEF38B9B10DF9CE629CAAC29D",
+        "sha256": "68CE14B7C032E9D6588191E6A326281FDD7472B4106A8439C82C056641172AB1"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-04-10T00:41:27Z",
+    "x_generated_by": "netkan"
+}
