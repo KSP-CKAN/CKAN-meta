@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Pathfinder-PlayMode-Pristine",
+    "name": "Pathfinder Pristine Play Mode",
+    "abstract": "Space Camping @ Geoscience",
+    "author": "Angel-125",
+    "version": "v1.38.0",
+    "ksp_version_min": "1.12.2",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121397-*",
+        "repository": "https://github.com/Angel-125/Pathfinder",
+        "bugtracker": "https://github.com/Angel-125/Pathfinder/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/Pathfinder/master/GameData/WildBlueIndustries/Pathfinder/Pathfinder.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "Pathfinder-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "WildBlue-PlayMode-Pristine"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Pathfinder"
+        }
+    ],
+    "install": [
+        {
+            "find": "Pathfinder/Templates/Pristine.cfg",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/Pristine/Pristine Mode.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/Pristine",
+            "as": "Pristine Mode.cfg",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/Pathfinder/releases/download/v1.38.0/Pathfinder.zip",
+    "download_size": 65852687,
+    "download_hash": {
+        "sha1": "AD6A16DE666B3DE309D47D2DF9EDC49828469E4F",
+        "sha256": "9F679D3FE47E3F71E9C81D683D887B26FA10E942607529657A5491BE10AEFB70"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-04-14T17:31:03Z",
+    "x_generated_by": "netkan"
+}
