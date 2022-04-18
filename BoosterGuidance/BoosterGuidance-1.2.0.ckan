@@ -36,6 +36,17 @@
             "name": "ClickThroughBlocker"
         }
     ],
+    "install": [
+        {
+            "find": "BoosterGuidance",
+            "install_to": "GameData",
+            "filter": "Ships"
+        },
+        {
+            "find": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
     "download": "https://spacedock.info/mod/3018/Booster%20Guidance%20Boosted/download/1.2.0",
     "download_size": 94051,
     "download_hash": {
