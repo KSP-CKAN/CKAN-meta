@@ -1,0 +1,78 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "TheLonesomeRobotsCollection",
+    "name": "The LonesomeRobots Collection",
+    "abstract": "The definitive collection of all of SilentVelcro's mods.",
+    "author": [
+        "AtomicTech",
+        "LonesomeRobots"
+    ],
+    "version": "0.2.0",
+    "ksp_version": "1.12.3",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/3019/The%20LonesomeRobots%20Collection",
+        "repository": "https://github.com/AtomikkuSan/The-LonesomeRobots-Collection",
+        "bugtracker": "https://github.com/AtomikkuSan/The-LonesomeRobots-Collection/issues",
+        "x_screenshot": "https://spacedock.info/content/AtomicTech_61568/The_LonesomeRobots_Collection/The_LonesomeRobots_Collection-1650566570.jpg"
+    },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "AnimatedDecouplers"
+        },
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        },
+        {
+            "name": "TexturesUnlimited"
+        },
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "ASETAvionics"
+        },
+        {
+            "name": "TDProps"
+        }
+    ],
+    "install": [
+        {
+            "find": "LonesomeRobots",
+            "install_to": "GameData",
+            "filter": ".gitignore"
+        },
+        {
+            "find": "README.md",
+            "install_to": "GameData/LonesomeRobots",
+            "find_matches_files": true
+        },
+        {
+            "find": "LICENSE.md",
+            "install_to": "GameData/LonesomeRobots",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/3019/The%20LonesomeRobots%20Collection/download/0.2.0",
+    "download_size": 108919793,
+    "download_hash": {
+        "sha1": "ECAF0827E57781C3EDD9DC905DBDB8A407043823",
+        "sha256": "6C946635E43B78AB84C09434A663A904902594AB4938C571FDA1620448169C03"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-04-21T18:38:07.2707+00:00",
+    "x_generated_by": "netkan"
+}
