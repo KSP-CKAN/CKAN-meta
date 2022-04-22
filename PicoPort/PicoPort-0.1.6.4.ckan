@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "PicoPort",
+    "name": "PicoPort",
+    "abstract": "PicoPort, the Micro Docking Ports for smaller craft",
+    "author": [
+        "steedcrugeon",
+        "linuxgurugamer"
+    ],
+    "version": "0.1.6.4",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.3",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190319-18x-picoport-the-micro-docking-ports/",
+        "spacedock": "https://spacedock.info/mod/1165/PicoPort",
+        "repository": "https://github.com/linuxgurugamer/PicoPort",
+        "bugtracker": "https://github.com/linuxgurugamer/PicoPort/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/PicoPort",
+        "x_screenshot": "https://spacedock.info/content/steedcrugeon_8650/PicoPort/PicoPort-1484439960.4712257.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "ja"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "IndicatorLights"
+        }
+    ],
+    "install": [
+        {
+            "find": "SHED",
+            "install_to": "GameData",
+            "filter": [
+                "Agencies",
+                "License"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/1165/PicoPort/download/0.1.6.4",
+    "download_size": 177080,
+    "download_hash": {
+        "sha1": "22D143C5A291B0EB238F1D4E183D26ECBE97408E",
+        "sha256": "E3F44C6C39229A16EF6A5D0A064CC45134B036DAD3C1CD68502735E5939233D9"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-04-22T22:40:27.856064+00:00",
+    "x_generated_by": "netkan"
+}
