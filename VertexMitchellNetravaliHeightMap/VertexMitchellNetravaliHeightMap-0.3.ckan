@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "VertexMitchellNetravaliHeightMap",
+    "name": "Vertex Mitchell-Netravali Filtered Heightmap",
+    "abstract": "KSP PQS Heightmap mod that uses Mitchell-Netravali Interpolation",
+    "author": "pkmniako",
+    "version": "0.3",
+    "ksp_version": "1.12",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/207768-*/",
+        "repository": "https://github.com/pkmniako/Kopernicus_VertexMitchellNetravaliHeightMap",
+        "bugtracker": "https://github.com/pkmniako/Kopernicus_VertexMitchellNetravaliHeightMap/issues"
+    },
+    "tags": [
+        "plugin",
+        "library",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "install": [
+        {
+            "find": "MitchellNetravali",
+            "install_to": "GameData/000_NiakoUtils"
+        }
+    ],
+    "download": "https://github.com/pkmniako/Kopernicus_VertexMitchellNetravaliHeightMap/releases/download/0.3/VertexMitchellNetravaliMap.zip",
+    "download_size": 4725,
+    "download_hash": {
+        "sha1": "900D70ABF8E0A900C3F1DEBA0E9A32F9918462D3",
+        "sha256": "60D28B08AB632DB500D0397A2418749257BA56159106EA4D548B954A6DE42490"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-04-15T17:52:23Z",
+    "x_generated_by": "netkan"
+}
