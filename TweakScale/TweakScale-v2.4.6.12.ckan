@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.8",
+    "identifier": "TweakScale",
+    "name": "TweakScale - Rescale Everything!",
+    "abstract": "TweakScale lets you change the size of a part. Not just that, but it will figure out how much fuel is in the resized part. And if it's an engine, it will become more powerful by scaling it bigger, or weaker by scaling it smaller.",
+    "author": [
+        "Biotronic",
+        "pellinor",
+        "LisiasT"
+    ],
+    "version": "v2.4.6.12",
+    "ksp_version_min": "1.3.0",
+    "ksp_version_max": "1.12.3",
+    "license": [
+        "GPL-2.0",
+        "restricted"
+    ],
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179030-141-tweakscale-under-new-management/&",
+        "spacedock": "https://spacedock.info/mod/127/TweakScale",
+        "repository": "https://github.com/net-lisias-ksp/TweakScale",
+        "bugtracker": "https://github.com/net-lisias-ksp/TweakScale/issues",
+        "remote-avc": "https://raw.githubusercontent.com/net-lisias-ksp/TweakScale/master/TweakScale.version",
+        "x_screenshot": "https://spacedock.info/content/Pellinor_227/TweakScale/TweakScale-1540681746.7632673.png"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.7.1"
+        },
+        {
+            "name": "KSP-Recall"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/999_Scale_Redist.dll",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/TweakScale",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/127/TweakScale/download/2.4.6.12",
+    "download_size": 369917,
+    "download_hash": {
+        "sha1": "84696293BD172DF047117CD660222634D28C202B",
+        "sha256": "5EDF21688A743B93609414CBCFF1E807E91D6FE95BF4B2717B0D19CB8C9DCB09"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-04-29T22:45:34.024111+00:00",
+    "x_generated_by": "netkan"
+}
