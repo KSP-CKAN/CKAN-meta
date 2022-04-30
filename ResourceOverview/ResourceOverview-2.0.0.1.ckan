@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ResourceOverview",
+    "name": "Resource Overview",
+    "abstract": "Lightweight mod showing vessel resources & basic vessel info",
+    "author": "linuxgurugamer",
+    "version": "2.0.0.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.3",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/207937-112x-resource-overview-for-vabsph-and-flight/",
+        "spacedock": "https://spacedock.info/mod/3021/Resource%20Overview",
+        "repository": "https://github.com/linuxgurugamer/ResourceOverview",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/ResourceOverview/master/GameData/ResourceOverview/ResourceOverview.version"
+    },
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "install": [
+        {
+            "find": "ResourceOverview",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3021/Resource%20Overview/download/2.0.0.1",
+    "download_size": 25291,
+    "download_hash": {
+        "sha1": "900C7358D3C4A7A2CE33461608E32BB99334646A",
+        "sha256": "D71C3DEDF9F6483F3C3BF24B856C3FDA102F1B589A21A138007E99F65E566149"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-04-30T19:29:41.879265+00:00",
+    "x_generated_by": "netkan"
+}
