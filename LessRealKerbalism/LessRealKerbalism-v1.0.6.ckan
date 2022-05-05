@@ -1,0 +1,65 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "LessRealKerbalism",
+    "name": "Kerbalism - LRTR Config",
+    "abstract": "LRTR KerbalismConfig",
+    "author": "pehvbot",
+    "version": "v1.0.6",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189978-*",
+        "repository": "https://github.com/pehvbot/LRKerbalism",
+        "bugtracker": "https://github.com/pehvbot/LRKerbalism/issues"
+    },
+    "tags": [
+        "config",
+        "crewed",
+        "science",
+        "parts"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "ko-kr",
+        "pt-br",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "Kerbalism-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "LessRealThanReal"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-Config"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismConfig",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/pehvbot/LRKerbalism/releases/download/v1.0.6/LRKerbalism-v1.0.6.zip",
+    "download_size": 14892152,
+    "download_hash": {
+        "sha1": "2E4B92D0D7202FC3457A741C54A829FB940F73F1",
+        "sha256": "F5A28DA25D727AE3E053C173F23F2A0D94267F8D201C8B075B88D4922371A6A2"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-05-05T18:09:38Z",
+    "x_generated_by": "netkan"
+}
