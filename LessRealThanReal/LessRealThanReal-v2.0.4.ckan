@@ -1,0 +1,83 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "LessRealThanReal",
+    "name": "Less Real Than Real(ism)",
+    "abstract": "Real Progression One without RealismOverhaul",
+    "author": "pehvbot",
+    "version": "v2.0.4",
+    "ksp_version_min": "1.12",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189978-*",
+        "repository": "https://github.com/pehvbot/LRTR",
+        "bugtracker": "https://github.com/pehvbot/LRTR/issues"
+    },
+    "tags": [
+        "plugin",
+        "config",
+        "parts",
+        "tech-tree",
+        "career",
+        "science"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "CustomBarnKit"
+        },
+        {
+            "name": "ContractConfigurator"
+        },
+        {
+            "name": "DMagicScienceAnimate"
+        },
+        {
+            "name": "MagiCore"
+        },
+        {
+            "name": "ModularFlightIntegrator"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ReStockPlus"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "LessRealKerbalism"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbalConstructionTime"
+        },
+        {
+            "name": "RealismOverhaul"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/LRTR",
+            "install_to": "GameData",
+            "filter": [
+                ".DS_Store"
+            ]
+        }
+    ],
+    "download": "https://github.com/pehvbot/LRTR/releases/download/v2.0.4/LRTR-v2.0.4.zip",
+    "download_size": 21439673,
+    "download_hash": {
+        "sha1": "9A09AD815FA2769DE256881AEE6FDFEB571FEBB2",
+        "sha256": "24FC311F26D3F3C0BA0CFFB970DE3AED0B3EA7F8C1FE2BC315AF9EC17A6F79D0"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-05-05T18:09:13Z",
+    "x_generated_by": "netkan"
+}
