@@ -28,6 +28,9 @@
     "depends": [
         {
             "name": "ModuleManager"
+        },
+        {
+            "name": "TweakScale-Redist"
         }
     ],
     "recommends": [
@@ -46,7 +49,8 @@
     "install": [
         {
             "file": "GameData/MagicSmokeIndustries",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": "Scale_Redist.dll"
         }
     ],
     "download": "https://github.com/meirumeiru/InfernalRobotics/releases/download/v3.0.7/InfernalRobotics_v3.0.7.zip",
