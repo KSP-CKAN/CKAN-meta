@@ -37,6 +37,9 @@
         },
         {
             "name": "ModularFlightIntegrator"
+        },
+        {
+            "name": "TweakScale-Redist"
         }
     ],
     "conflicts": [
@@ -48,7 +51,10 @@
         {
             "file": "GameData/FerramAerospaceResearch",
             "install_to": "GameData",
-            "filter": "config.xml"
+            "filter": [
+                "config.xml",
+                "Scale_Redist.dll"
+            ]
         },
         {
             "file": "Ships",
