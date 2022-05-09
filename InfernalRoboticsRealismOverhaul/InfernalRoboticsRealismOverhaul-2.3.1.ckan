@@ -31,6 +31,9 @@
     "depends": [
         {
             "name": "ModuleManager"
+        },
+        {
+            "name": "TweakScale-Redist"
         }
     ],
     "conflicts": [
@@ -44,7 +47,8 @@
     "install": [
         {
             "find": "MagicSmokeIndustries",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": "Scale_Redist.dll"
         }
     ],
     "download": "https://spacedock.info/mod/2329/Infernal%20RO-Robotics/download/2.3.1",
