@@ -30,6 +30,9 @@
     ],
     "depends": [
         {
+            "name": "TweakScale-Redist"
+        },
+        {
             "name": "ModuleManager",
             "min_version": "2.7.1"
         },
@@ -38,10 +41,6 @@
         }
     ],
     "install": [
-        {
-            "file": "GameData/999_Scale_Redist.dll",
-            "install_to": "GameData"
-        },
         {
             "file": "GameData/TweakScale",
             "install_to": "GameData"
