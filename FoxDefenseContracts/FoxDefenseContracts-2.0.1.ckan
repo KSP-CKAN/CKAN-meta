@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "FoxDefenseContracts",
+    "name": "Fox Defense Contracts - Tank turrets",
+    "abstract": "Adding Turrets from early Wars to modern era. BDAc Expansion",
+    "author": "Marhfg",
+    "version": "2.0.1",
+    "ksp_version": "1.12.3",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/163346-wip12x13x-fox-defense-contracts-bdac-addon-tank-turrets-ver-011/",
+        "spacedock": "https://spacedock.info/mod/1455/Fox%20Defense%20Contracts%20-%20Tank%20turrets",
+        "repository": "https://github.com/lancefoxcia/FoxDefenseContracts",
+        "bugtracker": "https://github.com/lancefoxcia/FoxDefenseContracts/issues",
+        "x_screenshot": "https://spacedock.info/content/Marhfg_14451/Fox_Defense_Contracts_-_Tank_turrets/Fox_Defense_Contracts_-_Tank_turrets-1552267222.039334.png"
+    },
+    "tags": [
+        "parts",
+        "combat"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "BDArmoryContinued"
+        }
+    ],
+    "install": [
+        {
+            "find": "FoxDefenseContracts",
+            "install_to": "GameData"
+        },
+        {
+            "find": "FDC_Armor",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/Changelog.txt",
+            "install_to": "GameData/FoxDefenseContracts"
+        },
+        {
+            "file": "GameData/README.md",
+            "install_to": "GameData/FoxDefenseContracts"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1455/Fox%20Defense%20Contracts%20-%20Tank%20turrets/download/2.0.1",
+    "download_size": 512807329,
+    "download_hash": {
+        "sha1": "1BE29CF8E1630FEF6802988E5647B9BD27EAB6BC",
+        "sha256": "AE1C829982DDB4A507B04EC6FADD15374A8064D38E65672BB53F8BF90CE5CAC9"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-05-13T14:56:36.186796+00:00",
+    "x_generated_by": "netkan"
+}
