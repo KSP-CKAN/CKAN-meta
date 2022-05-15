@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "EngineLightRelit",
+    "name": "Engine Lighting Relit",
+    "abstract": "A simple mod that adds lighting effects to all engines and decouplers",
+    "author": "linuxgurugamer",
+    "version": "1.6.3.4",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.3",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182906-engine-lighting-relit/",
+        "spacedock": "https://spacedock.info/mod/2111/Engine%20Lighting%20Relit",
+        "repository": "https://github.com/linuxgurugamer/EngineLightRelit",
+        "bugtracker": "https://github.com/linuxgurugamer/EngineLightRelit/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/EngineLightRelit",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Engine_Lighting_Relit/Engine_Lighting_Relit-1552764686.3158028.png"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.3"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "HotRockets"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EngineLighting"
+        }
+    ],
+    "install": [
+        {
+            "find": "EngineLightRelit",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2111/Engine%20Lighting%20Relit/download/1.6.3.4",
+    "download_size": 21103,
+    "download_hash": {
+        "sha1": "A3D0A425F1A8D45830F4C22E0B536D1ABBC2CBAD",
+        "sha256": "1F35DE7AFE0CC6FAB176B20B40838E0C01F5FFB1540381A27094381BE5A60991"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-05-15T22:09:10.597009+00:00",
+    "x_generated_by": "netkan"
+}
