@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.26",
+    "identifier": "Harmony2",
+    "name": "Harmony 2",
+    "abstract": "A library for patching, replacing and decorating .NET and Mono methods during runtime",
+    "author": [
+        "Andreas Pardeike",
+        "gotmachine"
+    ],
+    "version": "2.2.1.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "repository": "https://github.com/KSPModdingLibs/HarmonyKSP",
+        "bugtracker": "https://github.com/KSPModdingLibs/HarmonyKSP/issues",
+        "remote-avc": "https://raw.githubusercontent.com/KSPModdingLibs/HarmonyKSP/main/GameData/000_Harmony/Harmony.version"
+    },
+    "tags": [
+        "library"
+    ],
+    "conflicts": [
+        {
+            "name": "Harmony1"
+        }
+    ],
+    "install": [
+        {
+            "find": "000_Harmony",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSPModdingLibs/HarmonyKSP/releases/download/2.2.1.0/HarmonyKSP_2.2.1.0_for_KSP1.8%2B.zip",
+    "download_size": 359801,
+    "download_hash": {
+        "sha1": "D3A2287E1CD2AAE956589EFC16F2605452028612",
+        "sha256": "51D63F6739EAF22F12CE9456ADACE54385520C67CC13735D5300D5AA15C79476"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-05-15T15:42:53Z",
+    "x_generated_by": "netkan"
+}
