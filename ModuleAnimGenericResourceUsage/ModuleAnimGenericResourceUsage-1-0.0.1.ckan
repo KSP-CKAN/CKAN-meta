@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ModuleAnimGenericResourceUsage",
+    "name": "ModuleAnimGenericResourceUsage",
+    "abstract": "Library used to make animations use power",
+    "author": "linuxgurugamer",
+    "version": "1:0.0.1",
+    "ksp_version_min": "1.8.0",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/linuxgurugamer/ModuleAnimGenericResourceUsage",
+        "bugtracker": "https://github.com/linuxgurugamer/ModuleAnimGenericResourceUsage/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/ModuleAnimGenericResourceUsage"
+    },
+    "tags": [
+        "library",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "ModuleAnimGenericResourceUsage",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/ModuleAnimGenericResourceUsage/releases/download/0.0.1/ModuleAnimGenericResourceUsage-1.8.0-0.0.1.zip",
+    "download_size": 21728,
+    "download_hash": {
+        "sha1": "FBF29691EC343E711B1900DCAAA3975C83B5FBBA",
+        "sha256": "B8486C5FCC066822C6D1117F1F73F16F23073A445541F19AF1C7125F80FF9293"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-11-10T23:53:55Z",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
