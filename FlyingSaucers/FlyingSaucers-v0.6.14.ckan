@@ -63,7 +63,12 @@
     "install": [
         {
             "find": "GameData/WildBlueIndustries/FlyingSaucers",
-            "install_to": "GameData/WildBlueIndustries"
+            "install_to": "GameData/WildBlueIndustries",
+            "filter": "Ships"
+        },
+        {
+            "find": "Ships/SPH",
+            "install_to": "Ships"
         }
     ],
     "download": "https://github.com/Angel-125/FlyingSaucers/releases/download/v0.6.14/KFS.zip",
