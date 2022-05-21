@@ -1,0 +1,81 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RSSVE-HR",
+    "name": "RSS Visual Enhancements - High Resolution",
+    "abstract": "A visual enhancement pack for the Kerbal Space Program RealSolarSystem mod.",
+    "author": [
+        "NathanKell",
+        "SirKeplan",
+        "StollD",
+        "al2me6",
+        "blowfishpro",
+        "cherrydev",
+        "pjf",
+        "rsparkyc",
+        "stratochief66",
+        "zorg2044",
+        "Theysen"
+    ],
+    "version": "1:2.1.4",
+    "ksp_version_min": "1.10",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/153511-rssve",
+        "repository": "https://github.com/KSP-RO/RSSVE",
+        "bugtracker": "https://github.com/KSP-RO/RSSVE/issues",
+        "remote-avc": "https://raw.githubusercontent.com/KSP-RO/RSSVE/master/RSSVE/RSSVE.version"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "RSSVE-Textures"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "PlanetShine"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        },
+        {
+            "name": "RSSVE-Textures"
+        }
+    ],
+    "install": [
+        {
+            "find": "RSSVE",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RSSVE/releases/download/2.1.4/RSSVE_HR.zip",
+    "download_size": 190229007,
+    "download_hash": {
+        "sha1": "561CF348912DD9CC0B9C0153E66832063D1AE842",
+        "sha256": "BEF3D960C4D8239CAC34F2F987BABD2691A53B5082F219C603B30D78B5E78E2B"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-06-29T07:07:17Z",
+    "x_generated_by": "netkan"
+}
