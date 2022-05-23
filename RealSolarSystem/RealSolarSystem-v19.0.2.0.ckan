@@ -1,0 +1,80 @@
+{
+    "spec_version": "v1.12",
+    "identifier": "RealSolarSystem",
+    "name": "Real Solar System",
+    "abstract": "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
+    "author": [
+        "KSP-RO Team"
+    ],
+    "version": "v19.0.2.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/177216-*",
+        "repository": "https://github.com/KSP-RO/RealSolarSystem",
+        "bugtracker": "https://github.com/KSP-RO/RealSolarSystem/issues",
+        "metanetkan": "https://github.com/KSP-RO/RealSolarSystem/raw/master/RealSolarSystem.netkan",
+        "remote-avc": "https://github.com/KSP-RO/RealSolarSystem/raw/master/GameData/RealSolarSystem/RealSolarSystem.version"
+    },
+    "tags": [
+        "planet-pack",
+        "config",
+        "plugin",
+        "resources"
+    ],
+    "localizations": [
+        "en-us",
+        "fr-fr",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "CustomAsteroids-Pops"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus",
+            "min_version": "2:release-1.11.1-39"
+        },
+        {
+            "name": "RSSTextures"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "KSCSwitcher"
+        },
+        {
+            "name": "RSSDateTimeFormatter"
+        },
+        {
+            "name": "RSSVE-Textures"
+        },
+        {
+            "name": "Parallax"
+        }
+    ],
+    "install": [
+        {
+            "find": "RealSolarSystem",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealSolarSystem/releases/download/v19.0.2.0/RealSolarSystem_v19.0.2.0.zip",
+    "download_size": 77236190,
+    "download_hash": {
+        "sha1": "828DE036C98ACF2EE2B324B3504AAF1DAF5E2ACA",
+        "sha256": "823F704720B858789BB36F0367A6DA2D8903E046B5F7E1621BB3EC4AB19DAA0A"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-05-23T05:21:29Z",
+    "x_generated_by": "netkan"
+}
