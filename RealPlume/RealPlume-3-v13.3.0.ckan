@@ -1,0 +1,63 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RealPlume",
+    "name": "Real Plume",
+    "abstract": "A set of expanding plume effects and basic configs that can be attached to any engine as appropriate.  Requires SmokeScreen and secondary configs to function correctly.",
+    "author": [
+        "Zorg",
+        "Blowfish",
+        "Felger"
+    ],
+    "version": "3:v13.3.0",
+    "ksp_version_min": "1.8",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://github.com/KSP-RO/RealPlume/wiki",
+        "repository": "https://github.com/KSP-RO/RealPlume",
+        "bugtracker": "https://github.com/KSP-RO/RealPlume/issues",
+        "metanetkan": "https://raw.githubusercontent.com/KSP-RO/RealPlume/master/RealPlume.netkan"
+    },
+    "tags": [
+        "config",
+        "graphics",
+        "sound"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "SmokeScreen"
+        },
+        {
+            "name": "RealPlumeConfigs"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "EngineLighting"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "HotRockets"
+        }
+    ],
+    "install": [
+        {
+            "find": "RealPlume",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealPlume/releases/download/v13.3.0/RealPlume_v13.3.0.zip",
+    "download_size": 20224884,
+    "download_hash": {
+        "sha1": "BA08AD881B375B94EF61DE968853D0BD7D5F701D",
+        "sha256": "7BB19BF7E7225DC27481710B7C6EA4BC7C93559542CB21B2372E41F2B46FC852"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-05-01T07:52:47Z",
+    "x_generated_by": "netkan"
+}
