@@ -1,0 +1,72 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "Konstruction",
+    "name": "Konstruction",
+    "abstract": "Weldable docking ports, cranes, magnets, and other construction equipment!",
+    "author": "RoverDude",
+    "version": "v112.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "repository": "https://github.com/UmbraSpaceIndustries/Konstruction",
+        "bugtracker": "https://github.com/UmbraSpaceIndustries/Konstruction/issues",
+        "metanetkan": "https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/Konstruction.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/UmbraSpaceIndustries/Konstruction/main/FOR_RELEASE/GameData/UmbraSpaceIndustries/Konstruction/Konstruction.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "v7.6.0"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.9.0.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.7.0.0"
+        },
+        {
+            "name": "CommunityCategoryKit",
+            "min_version": "2.0.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/UmbraSpaceIndustries/Akita",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        },
+        {
+            "file": "GameData/UmbraSpaceIndustries/Konstruction",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/UmbraSpaceIndustries/Konstruction/releases/download/v112.0.1/Konstruction_112.0.1.zip",
+    "download_size": 61256117,
+    "download_hash": {
+        "sha1": "458A88D2649FA8BB8FDBB7490F6D9D85C005E93E",
+        "sha256": "2B18042BB826FDB5412E73DF78C6C7C9B2C7DF2D0168C86DE05B388326EE0133"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-05-29T21:30:58Z",
+    "x_last_revision_by": "DoktorKrogg",
+    "x_generated_by": "netkan"
+}
