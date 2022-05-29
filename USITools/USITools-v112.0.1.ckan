@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "USITools",
+    "name": "USI Tools",
+    "abstract": "Common libraries for Umbra Space Industries mods",
+    "author": "RoverDude",
+    "version": "v112.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "repository": "https://github.com/UmbraSpaceIndustries/USITools",
+        "bugtracker": "https://github.com/UmbraSpaceIndustries/USITools/issues",
+        "metanetkan": "https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/USITools.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/UmbraSpaceIndustries/USITools/main/FOR_RELEASE/GameData/000_USITools/USITools.version"
+    },
+    "tags": [
+        "plugin",
+        "library",
+        "crewed",
+        "graphics"
+    ],
+    "localizations": [
+        "en-us",
+        "ru"
+    ],
+    "provides": [
+        "USI-Tools"
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/000_USITools",
+            "install_to": "GameData"
+        },
+        {
+            "find": "UmbraSpaceIndustries/FX",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/UmbraSpaceIndustries/USITools/releases/download/v112.0.1/USITools_112.0.1.zip",
+    "download_size": 2636780,
+    "download_hash": {
+        "sha1": "3BD24B90D4626C963C37D6925463625915F27875",
+        "sha256": "5C2C44FE7A840677982D12A3207C1F63D61501FDB03D3EFD73EE31A1A7C87C24"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-05-29T20:18:59Z",
+    "x_last_revision_by": "DoktorKrogg",
+    "x_generated_by": "netkan"
+}
