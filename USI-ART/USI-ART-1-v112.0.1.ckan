@@ -1,0 +1,66 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "USI-ART",
+    "name": "USI Asteroid Recycling Technologies",
+    "abstract": "Allows you to remove asteroid mass and attach multiple reconfigurable storage tanks to the asteroid's surface.",
+    "author": "RoverDude",
+    "version": "1:v112.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "repository": "https://github.com/UmbraSpaceIndustries/ART",
+        "bugtracker": "https://github.com/UmbraSpaceIndustries/ART/issues",
+        "metanetkan": "https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/USI-ART.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/UmbraSpaceIndustries/ART/main/FOR_RELEASE/GameData/UmbraSpaceIndustries/ART/ART.version"
+    },
+    "tags": [
+        "parts",
+        "resources"
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "v7.6.0"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.9.0.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.7.0.0"
+        },
+        {
+            "name": "USI-Core",
+            "min_version": "0.4.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/ART",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/UmbraSpaceIndustries/ART/releases/download/v112.0.1/ART_112.0.1.zip",
+    "download_size": 53745493,
+    "download_hash": {
+        "sha1": "60F6E3197A1D99D9642371B7C6973B07A6B558D0",
+        "sha256": "B1AFE43F1CE36FCBF55819E64797238CAFBA903E31EECC0FDCA037B373DE42C8"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-05-29T20:55:18Z",
+    "x_last_revision_by": "DoktorKrogg",
+    "x_generated_by": "netkan"
+}
