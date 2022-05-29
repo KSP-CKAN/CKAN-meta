@@ -1,0 +1,71 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "MalemuteRover",
+    "name": "Malemute Rover",
+    "abstract": "A 1.25m rover platform for exploration and science collecting!",
+    "author": "RoverDude",
+    "version": "v112.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "repository": "https://github.com/UmbraSpaceIndustries/Malemute",
+        "bugtracker": "https://github.com/UmbraSpaceIndustries/Malemute/issues",
+        "metanetkan": "https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/MalemuteRover.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/BobPalmer/Malemute/main/FOR_RELEASE/GameData/UmbraSpaceIndustries/Malemute/Malemute.version"
+    },
+    "tags": [
+        "parts",
+        "crewed",
+        "science"
+    ],
+    "localizations": [
+        "en-us",
+        "ru"
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "v7.6.0"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.9.0.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.7.0.0"
+        },
+        {
+            "name": "CommunityCategoryKit",
+            "min_version": "2.0.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/Malemute",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/UmbraSpaceIndustries/Malemute/releases/download/v112.0.1/Malemute_112.0.1.zip",
+    "download_size": 37475061,
+    "download_hash": {
+        "sha1": "86359201620BB1415830C36BFD19841E04460E9B",
+        "sha256": "18B2D02881C9B11F49E05B0420E83D86FC371CF2CDAA7806B6FD22AA1D649F66"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-05-29T21:38:52Z",
+    "x_last_revision_by": "DoktorKrogg",
+    "x_generated_by": "netkan"
+}
