@@ -1,0 +1,66 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "USI-LS",
+    "name": "USI Life Support",
+    "abstract": "UmbraSpaceIndustries take on life support",
+    "author": "RoverDude",
+    "version": "v112.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "repository": "https://github.com/UmbraSpaceIndustries/USI-LS",
+        "bugtracker": "https://github.com/UmbraSpaceIndustries/USI-LS/issues",
+        "metanetkan": "https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/USI-LS.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/UmbraSpaceIndustries/USI-LS/main/FOR_RELEASE/GameData/UmbraSpaceIndustries/LifeSupport/USI-LS.version"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.9.0.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.7.0.0"
+        },
+        {
+            "name": "CommunityCategoryKit",
+            "min_version": "2.0.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        },
+        {
+            "name": "TACLS"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/LifeSupport",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/UmbraSpaceIndustries/USI-LS/releases/download/v112.0.1/USI-LS_112.0.1.zip",
+    "download_size": 6807341,
+    "download_hash": {
+        "sha1": "80E029CD41C9D431290BFAC177BDF007B1208D51",
+        "sha256": "2070BD2ECADE35F11E45104D16DA9AF18175D8C3BD2CD04C099A5D6DFF54DF2B"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-05-29T22:07:06Z",
+    "x_last_revision_by": "DoktorKrogg",
+    "x_generated_by": "netkan"
+}
