@@ -1,0 +1,68 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "USI-Core",
+    "name": "USI Core",
+    "abstract": "Kontainers, Reactors and shared tools for USI mods",
+    "author": "RoverDude",
+    "version": "v112.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "repository": "https://github.com/UmbraSpaceIndustries/USI_Core",
+        "bugtracker": "https://github.com/UmbraSpaceIndustries/USI_Core/issues",
+        "metanetkan": "https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/USI-Core.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/UmbraSpaceIndustries/USI_Core/main/FOR_RELEASE/GameData/UmbraSpaceIndustries/USICore/USICore.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "v7.6.0"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.9.0.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.7.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/UmbraSpaceIndustries",
+            "install_to": "GameData",
+            "filter": [
+                "FX",
+                "Konstruction"
+            ]
+        }
+    ],
+    "download": "https://github.com/UmbraSpaceIndustries/USI_Core/releases/download/v112.0.1/USICore_112.0.1.zip",
+    "download_size": 48091136,
+    "download_hash": {
+        "sha1": "E5348C9CDB192ADA3C003410850D1BE514281B43",
+        "sha256": "94C6DDBA3959BC1849A020A636F5867A96DFCF4153DCF34BE5068DF389B01CDE"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-05-29T20:41:28Z",
+    "x_last_revision_by": "DoktorKrogg",
+    "x_generated_by": "netkan"
+}
