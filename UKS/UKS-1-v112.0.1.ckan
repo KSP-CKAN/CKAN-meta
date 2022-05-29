@@ -1,0 +1,96 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "UKS",
+    "name": "USI Kolonization Systems (MKS/OKS)",
+    "abstract": "A series of interlocking modules for building long-term, self sustaining colonies in orbit and on other planets and moons.",
+    "description": "MKS introduces a series of parts specifically designed to provide self-sustaining life support for your Kerbals. While the parts will function without a life support mod, the design is centered around providing an appropriate challenge where players will weigh the costs, risks, and rewards of supplying missions exclusively with carried life support supplies, or in making the investment in a permanent colony. That being said, this is not just a single greenhouse part (although food production is part of the mod). Rather, it brings an entire colonization end-game to KSP in a fun and challenging way.",
+    "author": "RoverDude",
+    "version": "1:v112.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/154587-122-modular-kolonization-system-mks/",
+        "repository": "https://github.com/UmbraSpaceIndustries/MKS",
+        "bugtracker": "https://github.com/UmbraSpaceIndustries/MKS/issues",
+        "metanetkan": "https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/UKS.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/UmbraSpaceIndustries/MKS/main/FOR_RELEASE/GameData/UmbraSpaceIndustries/MKS/MKS.version"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "crewed"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "provides": [
+        "MKS"
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "v7.6.0"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.9.0.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.7.0.0"
+        },
+        {
+            "name": "CommunityCategoryKit",
+            "min_version": "2.0.0.0"
+        },
+        {
+            "name": "USI-Core",
+            "min_version": "0.4.0.0"
+        },
+        {
+            "name": "Konstruction",
+            "min_version": "0.2.0.0"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "USI-LS",
+            "min_version": "0.6.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/MKS",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        },
+        {
+            "find": "UmbraSpaceIndustries/Karibou",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        },
+        {
+            "find": "UmbraSpaceIndustries/WOLF",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/UmbraSpaceIndustries/MKS/releases/download/v112.0.1/MKS_112.0.1.zip",
+    "download_size": 98991935,
+    "download_hash": {
+        "sha1": "8EB6EA3901FE80D9A5E72558A3E318981F32B639",
+        "sha256": "AE27A4E88873CC9E8C3B31EB1BED9A4317B669841ACFDFD3F3DB214BACBD00DD"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-05-29T22:22:33Z",
+    "x_last_revision_by": "DoktorKrogg",
+    "x_generated_by": "netkan"
+}
