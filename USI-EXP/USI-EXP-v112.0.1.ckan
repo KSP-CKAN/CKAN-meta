@@ -1,0 +1,72 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "USI-EXP",
+    "name": "USI Exploration Pack",
+    "abstract": "PackRat Rover and parts geared towards planetary exploration",
+    "author": "RoverDude",
+    "version": "v112.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "repository": "https://github.com/UmbraSpaceIndustries/ExplorationPack",
+        "bugtracker": "https://github.com/UmbraSpaceIndustries/ExplorationPack/issues",
+        "metanetkan": "https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/USI-EXP.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/UmbraSpaceIndustries/ExplorationPack/main/FOR_RELEASE/GameData/UmbraSpaceIndustries/ExpPack/ExpPack.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "v7.6.0"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.9.0.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.7.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/ExpPack",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        },
+        {
+            "find": "UmbraSpaceIndustries/SrvPack",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        },
+        {
+            "find": "UmbraSpaceIndustries/SubPack/Otter",
+            "install_to": "GameData/UmbraSpaceIndustries/SubPack"
+        }
+    ],
+    "download": "https://github.com/UmbraSpaceIndustries/ExplorationPack/releases/download/v112.0.1/ExpPack_112.0.1.zip",
+    "download_size": 49764591,
+    "download_hash": {
+        "sha1": "89913C152DA8AC3096B16F59A129A5830723C57B",
+        "sha256": "438BB531167116A14C74E394F231CAE7F8064D0BA26C96C7B62012D91D0E551C"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-05-29T21:03:06Z",
+    "x_last_revision_by": "DoktorKrogg",
+    "x_generated_by": "netkan"
+}
