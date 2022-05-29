@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "USI-FTT",
+    "name": "USI Freight Transport Technologies",
+    "abstract": "A series of modular parts for all of your hauling, mining, and exploration needs!",
+    "author": "RoverDude",
+    "version": "v112.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "repository": "https://github.com/UmbraSpaceIndustries/FTT",
+        "bugtracker": "https://github.com/UmbraSpaceIndustries/FTT/issues",
+        "metanetkan": "https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/USI-FTT.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/UmbraSpaceIndustries/FTT/main/FOR_RELEASE/GameData/UmbraSpaceIndustries/FTT/FTT.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "v7.6.0"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.9.0.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.7.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/FTT",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/UmbraSpaceIndustries/FTT/releases/download/v112.0.1/FTT_112.0.1.zip",
+    "download_size": 63173029,
+    "download_hash": {
+        "sha1": "93919A963E49290971AF52194A526B6056F1BBA4",
+        "sha256": "A8A202606CF662C580BA1172FAE6A1A766498B8B5B1EE180EF34017C887E70D7"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-05-29T21:10:39Z",
+    "x_last_revision_by": "DoktorKrogg",
+    "x_generated_by": "netkan"
+}
