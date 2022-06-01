@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.10",
     "identifier": "RocketEmporium",
     "name": "Rocket Emporium",
     "abstract": "Betty & Roger's Flaming Hot-pants & Ferocious Rockets Emporium",
@@ -14,6 +14,18 @@
     "depends": [
         {
             "name": "AnimatedAttachment"
+        }
+    ],
+    "install": [
+        {
+            "find": "RocketEmporium",
+            "install_to": "GameData",
+            "filter": [
+                "TDx.TDxInput.dll"
+            ],
+            "filter_regexp": [
+                "\\.pdb$"
+            ]
         }
     ],
     "download": "https://github.com/KSPKatten/RocketEmporium/releases/download/v1.8.3/RocketEmporium_v1.8.3.zip",
