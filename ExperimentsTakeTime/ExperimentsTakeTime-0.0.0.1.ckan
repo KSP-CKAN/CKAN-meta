@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "ExperimentsTakeTime",
+    "name": "ExperimentsTakeTime",
+    "abstract": "Make stock experiments take time to complete",
+    "author": "linuxgurugamer",
+    "version": "0.0.0.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.3",
+    "license": "GPL-3.0",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/3033/ExperimentsTakeTime",
+        "repository": "https://github.com/linuxgurugamer/ExperimentsTakeTime",
+        "bugtracker": "https://github.com/linuxgurugamer/ExperimentsTakeTime/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/ExperimentsTakeTime"
+    },
+    "tags": [
+        "plugin",
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "ExperimentsTakeTime",
+            "install_to": "GameData",
+            "filter_regexp": "\\.mdb$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3033/ExperimentsTakeTime/download/0.0.0.1",
+    "download_size": 12840,
+    "download_hash": {
+        "sha1": "8052A940AAD37D913B11D9A516932C6154F948BF",
+        "sha256": "ABB42C805EB5E88E00E26BE06A707B9EBE2629FCC1A2C48B446184B1CD1E9D74"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-06-01T01:17:59.112932+00:00",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
