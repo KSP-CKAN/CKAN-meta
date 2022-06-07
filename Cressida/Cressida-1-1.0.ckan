@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Cressida",
+    "name": "Cressida",
+    "abstract": "extremely lightweight planet pack",
+    "author": "kyleander",
+    "version": "1:1.0",
+    "ksp_version_min": "1.4.1",
+    "ksp_version_max": "1.11.0",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/199392-*",
+        "repository": "https://github.com/kyleander/cressida",
+        "bugtracker": "https://github.com/kyleander/cressida/issues",
+        "remote-avc": "https://raw.githubusercontent.com/kyleander/cressida/main/Cressida.version"
+    },
+    "tags": [
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "HyperEdit"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "PlanetShine"
+        },
+        {
+            "name": "ReStock"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/Cressida",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/Kerbaltek",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/kyleander/cressida/releases/download/1.0/Cressida.zip",
+    "download_size": 5854,
+    "download_hash": {
+        "sha1": "A349F313F56ADF78F06B0B4619C75DA3D1D6604F",
+        "sha256": "B60E174F3FED81349F2E26CEB9CB2A98A01FE894D437401B975C7801695B35D8"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-01-07T10:25:29Z",
+    "x_generated_by": "netkan"
+}
