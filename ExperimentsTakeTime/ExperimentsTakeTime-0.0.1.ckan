@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "ExperimentsTakeTime",
+    "name": "ExperimentsTakeTime",
+    "abstract": "Make stock experiments take time to complete",
+    "author": "linuxgurugamer",
+    "version": "0.0.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.3",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/208414-112x-experiments-take-time/#comment-4139854",
+        "spacedock": "https://spacedock.info/mod/3033/ExperimentsTakeTime",
+        "repository": "https://github.com/linuxgurugamer/ExperimentsTakeTime",
+        "bugtracker": "https://github.com/linuxgurugamer/ExperimentsTakeTime/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/ExperimentsTakeTime"
+    },
+    "tags": [
+        "plugin",
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "ExperimentsTakeTime",
+            "install_to": "GameData",
+            "filter_regexp": "\\.mdb$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3033/ExperimentsTakeTime/download/0.0.1",
+    "download_size": 29185,
+    "download_hash": {
+        "sha1": "8BE9E44171B9A8385AF4976C7A817AE20ED33F30",
+        "sha256": "81B024B783759F01E3A815CBB12107600C8E24695D053245F0BAA7B5A7791258"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-06-08T01:15:15.125328+00:00",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
