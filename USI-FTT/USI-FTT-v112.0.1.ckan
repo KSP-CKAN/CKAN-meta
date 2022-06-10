@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.16",
+    "spec_version": "v1.4",
     "identifier": "USI-FTT",
     "name": "USI Freight Transport Technologies",
     "abstract": "A series of modular parts for all of your hauling, mining, and exploration needs!",
@@ -10,10 +10,10 @@
     "license": "restricted",
     "release_status": "stable",
     "resources": {
-        "homepage": "http://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/82730-*",
         "repository": "https://github.com/UmbraSpaceIndustries/FTT",
         "bugtracker": "https://github.com/UmbraSpaceIndustries/FTT/issues",
-        "metanetkan": "https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/USI-FTT.netkan",
+        "manual": "https://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
         "remote-avc": "https://raw.githubusercontent.com/UmbraSpaceIndustries/FTT/main/FOR_RELEASE/GameData/UmbraSpaceIndustries/FTT/FTT.version"
     },
     "tags": [
@@ -35,6 +35,10 @@
         {
             "name": "CommunityResourcePack",
             "min_version": "0.7.0.0"
+        },
+        {
+            "name": "USI-Core",
+            "min_version": "0.4.0.0"
         }
     ],
     "conflicts": [
@@ -56,6 +60,5 @@
     },
     "download_content_type": "application/zip",
     "release_date": "2022-05-29T21:10:39Z",
-    "x_last_revision_by": "DoktorKrogg",
     "x_generated_by": "netkan"
 }
