@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "USI-NuclearRockets",
+    "name": "'Project Orion' Nuclear Pulse Engine",
+    "abstract": "Nuclear Pulse Drives for KSP!",
+    "author": "RoverDude",
+    "version": "v112.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "release_status": "development",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121597-*",
+        "repository": "https://github.com/UmbraSpaceIndustries/NuclearRockets",
+        "bugtracker": "https://github.com/UmbraSpaceIndustries/NuclearRockets/issues",
+        "manual": "https://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "remote-avc": "https://raw.githubusercontent.com/UmbraSpaceIndustries/NuclearRockets/main/FOR_RELEASE/GameData/UmbraSpaceIndustries/Orion/Orion.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.9.0.0"
+        },
+        {
+            "name": "USI-Core",
+            "min_version": "0.4.0.0"
+        },
+        {
+            "name": "FirespitterCore",
+            "min_version": "v7.6.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/NuclearRockets",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/UmbraSpaceIndustries/NuclearRockets/releases/download/v112.0.1/NuclearRockets_112.0.1.zip",
+    "download_size": 54643417,
+    "download_hash": {
+        "sha1": "84A517A6B61D2EB2646126A3DA71D9A9369CEC71",
+        "sha256": "56FCF81AA8A64F9553A60560B395745FB7C832495FBD99D812C51D9212F74090"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-05-29T21:58:31Z",
+    "x_generated_by": "netkan"
+}
