@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.16",
+    "spec_version": "v1.2",
     "identifier": "SoundingRockets",
     "name": "Sounding Rockets!",
     "abstract": "Adds a series of low tech sounding rockets to the 'start' node.",
@@ -10,16 +10,19 @@
     "license": "restricted",
     "release_status": "stable",
     "resources": {
-        "homepage": "http://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/92434-*",
         "repository": "https://github.com/UmbraSpaceIndustries/SoundingRockets",
         "bugtracker": "https://github.com/UmbraSpaceIndustries/SoundingRockets/issues",
-        "metanetkan": "https://raw.githubusercontent.com/UmbraSpaceIndustries/CKAN/master/SoundingRockets.netkan",
+        "manual": "https://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
         "remote-avc": "https://raw.githubusercontent.com/UmbraSpaceIndustries/SoundingRockets/main/FOR_RELEASE/GameData/UmbraSpaceIndustries/SoundingRockets/SoundingRockets.version"
     },
     "tags": [
         "parts"
     ],
     "depends": [
+        {
+            "name": "ModuleManager"
+        },
         {
             "name": "USITools",
             "min_version": "0.9.0.0"
@@ -44,6 +47,5 @@
     },
     "download_content_type": "application/zip",
     "release_date": "2022-05-29T22:02:51Z",
-    "x_last_revision_by": "DoktorKrogg",
     "x_generated_by": "netkan"
 }
