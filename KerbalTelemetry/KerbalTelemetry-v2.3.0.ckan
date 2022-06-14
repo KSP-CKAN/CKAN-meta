@@ -1,0 +1,47 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalTelemetry",
+    "name": "Kerbal Telemetry",
+    "abstract": "Telemetry addon for Kerbal Space Program.",
+    "author": "yagiziskirik",
+    "version": "v2.3.0",
+    "ksp_version": "1.12.3",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://yagiziskirik.github.io/Kerbal-Telemetry/",
+        "spacedock": "https://spacedock.info/mod/2643/Kerbal%20Telemetry",
+        "repository": "https://github.com/yagiziskirik/Kerbal-Telemetry",
+        "bugtracker": "https://github.com/yagiziskirik/Kerbal-Telemetry/issues",
+        "x_screenshot": "https://spacedock.info/content/yagiziskirik_56187/Kerbal_Telemetry/Kerbal_Telemetry-1613904743.7807353.png"
+    },
+    "tags": [
+        "plugin",
+        "app",
+        "information"
+    ],
+    "install": [
+        {
+            "find": "Textures",
+            "install_to": "GameData",
+            "filter": ".DS_Store"
+        },
+        {
+            "find": "WebServer",
+            "install_to": "GameData",
+            "filter": ".DS_Store"
+        },
+        {
+            "find": "Kerbal Telemetry.dll",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2643/Kerbal%20Telemetry/download/v2.3.0",
+    "download_size": 9699782,
+    "download_hash": {
+        "sha1": "6A4B5DDFA0732E5656F7CB21505FDE6E9A047A7F",
+        "sha256": "583A2C4FBE680B276D05D9C17B60ADEDD524E0645DDA431A47777E3EE94DD010"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-06-12T17:02:39.665032+00:00",
+    "x_generated_by": "netkan"
+}
