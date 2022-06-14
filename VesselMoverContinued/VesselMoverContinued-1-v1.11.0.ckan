@@ -1,0 +1,53 @@
+{
+    "spec_version": 1,
+    "identifier": "VesselMoverContinued",
+    "name": "VesselMover Continued",
+    "abstract": "A continuation of BahamutoD's Vessel Mover.",
+    "author": [
+        "BahamutoD",
+        "PapaJoesSoup",
+        "jrodrigv"
+    ],
+    "version": "1:v1.11.0",
+    "ksp_version_min": "1.11.0",
+    "ksp_version_max": "1.11.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/183963-*",
+        "repository": "https://github.com/jrodrigv/VesselMover",
+        "bugtracker": "https://github.com/jrodrigv/VesselMover/issues",
+        "remote-avc": "https://raw.githubusercontent.com:443/jrodrigv/VesselMover/master/Distribution/GameData/VesselMover/VesselMover.version"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "provides": [
+        "VesselMover"
+    ],
+    "suggests": [
+        {
+            "name": "KSP-AVC"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "VesselMover"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/VesselMover",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/jrodrigv/VesselMover/releases/download/v1.11.0/VesselMover.1.11.0_01042021.zip",
+    "download_size": 94639,
+    "download_hash": {
+        "sha1": "FA08704BA0E501B14C17C6C0FE9A020DB6D655BD",
+        "sha256": "625EF056678F3E2EE3573642BF9878C5DFFF0C494061FCA409E966D37D794F6D"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-01-04T12:41:06Z",
+    "x_generated_by": "netkan"
+}
