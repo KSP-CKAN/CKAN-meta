@@ -1,0 +1,74 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "NTChineseRocketsPack",
+    "name": "NCAP(NT Chinese Aerospace Pack)",
+    "abstract": "NT Chinese Aerospace Pack or NCAP is a mod created for Kerbal Space Program to add Chinese rockets and spacecraft to the game. So far, this mod including: longmarch 2F, longmarch6, longmarch6A, longmarch7 and Chinese Tianhe Space station.",
+    "author": [
+        "Old_Copper",
+        "Armo",
+        "Launcelot"
+    ],
+    "version": "1.2.0",
+    "ksp_version": "1.12.3",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://space.bilibili.com/438917085?spm_id_from=333.788.b_765f7570696e666f.1",
+        "spacedock": "https://spacedock.info/mod/3016/NCAP(NT%20Chinese%20Aerospace%20Pack)",
+        "x_screenshot": "https://spacedock.info/content/Old_Copper_79837/NTCPNT_Chineserockets_Pack/NTCPNT_Chineserockets_Pack-1650141817.png"
+    },
+    "tags": [
+        "parts",
+        "crewed",
+        "graphics"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "Waterfall"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "install": [
+        {
+            "find": "NCAP",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Readme.txt",
+            "find_matches_files": true,
+            "install_to": "GameData/NTCP"
+        },
+        {
+            "find": "Changelog.txt",
+            "find_matches_files": true,
+            "install_to": "GameData/NTCP"
+        },
+        {
+            "find_regexp": "CRAFT FILES/Craft files",
+            "install_to": "Ships",
+            "as": "VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3016/NCAP%28NT%20Chinese%20Aerospace%20Pack%29/download/1.2.0",
+    "download_size": 31323060,
+    "download_hash": {
+        "sha1": "59ED2B0317094412237835B776EE4B02C2D1CC62",
+        "sha256": "E74743B7437E13C33607B5EDC93BCD9DE52E5EDA526946053627808B692C503C"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-06-14T23:25:59.878909+00:00",
+    "x_generated_by": "netkan"
+}
