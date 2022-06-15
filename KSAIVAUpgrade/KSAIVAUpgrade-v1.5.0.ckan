@@ -1,0 +1,75 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "KSAIVAUpgrade",
+    "name": "KSA IVA Upgrade",
+    "abstract": "Detailed IVAs for the stock mk1 pods and cockpits.",
+    "author": [
+        "RangeMachine",
+        "JonnyOThan"
+    ],
+    "version": "v1.5.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-SA-2.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/208598-ksa-iva-upgrade-adopted-mk1-stock-parts/",
+        "repository": "https://github.com/JonnyOThan/KSA-IVA-Upgrade",
+        "bugtracker": "https://github.com/JonnyOThan/KSA-IVA-Upgrade/issues",
+        "license": "https://github.com/JonnyOThan/KSA-IVA-Upgrade/blob/main/LICENSE",
+        "remote-avc": "https://raw.githubusercontent.com/JonnyOThan/KSA-IVA-Upgrade/main/GameData/KSA/IVAUpgrade/KSA_IVAUpgrade.version",
+        "x_screenshot": "https://i.imgur.com/MkfyOsO.png"
+    },
+    "tags": [
+        "config",
+        "crewed",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "ASETAvionics"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Reviva"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "DockingPortAlignmentIndicator"
+        },
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "Astrogator"
+        },
+        {
+            "name": "HullcamVDSContinued"
+        }
+    ],
+    "install": [
+        {
+            "find": "KSA",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/JonnyOThan/KSA-IVA-Upgrade/releases/download/v1.5.0/KSA-IVA-Upgrade-v1.5.0.zip",
+    "download_size": 26315,
+    "download_hash": {
+        "sha1": "D0C17AB3F638445B3D0BB718C4FF33348BD4321D",
+        "sha256": "E903EB537C2A2B2DA20368E8945E7B7532DCB1D9791B5454DB7814E7E2E7D660"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-06-15T05:15:29Z",
+    "x_generated_by": "netkan"
+}
