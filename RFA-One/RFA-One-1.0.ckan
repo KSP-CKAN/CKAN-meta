@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.25",
+    "identifier": "RFA-One",
+    "name": "RFA One",
+    "abstract": "A parts pack containing the parts needed to create Rocket Factory Augsburg's RFA One rocket.",
+    "author": "Rocket Factory Augsburg",
+    "version": "1.0",
+    "ksp_version": "1.12.3",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/3044/RFA%20One",
+        "repository": "https://github.com/RFA-One/RFA-One",
+        "bugtracker": "https://github.com/RFA-One/RFA-One/issues",
+        "x_screenshot": "https://spacedock.info/content/RFA_83350/RFA_One/RFA_One-1655303323.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "Kerbal Space Program/GameData/RFA",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Kerbal Space Program/Ships/VAB",
+            "install_to": "Ships"
+        },
+        {
+            "file": "Kerbal Space Program/Ships/@thumbs",
+            "install_to": "Ships"
+        },
+        {
+            "find_regexp": "saves/scenarios/.*\\.sfs$",
+            "find_matches_files": true,
+            "install_to": "Scenarios"
+        },
+        {
+            "find_regexp": "Missions/.*\\.zip$",
+            "find_matches_files": true,
+            "install_to": "Missions"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3044/RFA%20One/download/1.0",
+    "download_size": 12256887,
+    "download_hash": {
+        "sha1": "D7E5AE8F52F80BCCCAB46EDA79738F350CB57899",
+        "sha256": "99B617B11C80EF750D93B0A9DF0C1B5C03DD1D47C80B9A4273E3C4A3B290915A"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-06-15T14:28:19.952164+00:00",
+    "x_generated_by": "netkan"
+}
