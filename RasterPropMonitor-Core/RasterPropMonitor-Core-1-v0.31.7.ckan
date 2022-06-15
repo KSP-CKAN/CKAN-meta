@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.4",
+    "comment": "This package contains the plugin, and the standard parts library.",
+    "identifier": "RasterPropMonitor-Core",
+    "name": "RasterPropMonitor Core",
+    "abstract": "Plugin and props for use in IVAs",
+    "author": [
+        "Mihara",
+        "MOARdV",
+        "JonnyOThan"
+    ],
+    "version": "1:v0.31.7",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190737-*",
+        "repository": "https://github.com/JonnyOThan/RasterPropMonitor/releases",
+        "bugtracker": "https://github.com/JonnyOThan/RasterPropMonitor/issues",
+        "remote-avc": "https://raw.githubusercontent.com/JonnyOThan/RasterPropMonitor/master/GameData/JSI/RasterPropMonitor/RasterPropMonitor.version"
+    },
+    "tags": [
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "JSI/RasterPropMonitor",
+            "install_to": "GameData/JSI"
+        },
+        {
+            "find": "JSI/RPMPodPatches/BasicMFD",
+            "install_to": "GameData/JSI/RPMPodPatches",
+            "comment": "This folder contains the multi-function display props, which belong in this module along with the other props"
+        }
+    ],
+    "download": "https://github.com/JonnyOThan/RasterPropMonitor/releases/download/v0.31.7/RasterPropMonitor-v0.31.7.zip",
+    "download_size": 1533641,
+    "download_hash": {
+        "sha1": "EBB02B5C632BE546BA5DA924673F2B9795A92F5D",
+        "sha256": "192804F7C6DC7CAE65BB7A244D07E252E7C522595601276D57F31E631B102A53"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-06-15T03:48:59Z",
+    "x_generated_by": "netkan"
+}
