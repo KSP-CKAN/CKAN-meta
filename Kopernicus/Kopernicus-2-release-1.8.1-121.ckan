@@ -1,0 +1,69 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Kopernicus",
+    "name": "Kopernicus Planetary System Modifier",
+    "abstract": "Allows users to replace the planetary system used by the game.",
+    "author": [
+        "BryceSchroeder",
+        "Teknoman117",
+        "Thomas P.",
+        "NathanKell",
+        "KillAshley",
+        "Gravitasi",
+        "KCreator",
+        "Sigma88",
+        "R-T-B",
+        "prestja"
+    ],
+    "version": "2:release-1.8.1-121",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.8.1",
+    "license": "LGPL-3.0",
+    "release_status": "development",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/200143-*",
+        "repository": "https://github.com/Kopernicus/Kopernicus",
+        "bugtracker": "https://github.com/Kopernicus/Kopernicus/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Kopernicus/Kopernicus/master/build/KSP18/GameData/Kopernicus/Plugins/Kopernicus.version"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "localizations": [
+        "en-us",
+        "it-it",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "ModularFlightIntegrator",
+            "min_version": "1.2.4.0"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KittopiaTech"
+        }
+    ],
+    "install": [
+        {
+            "find": "Kopernicus",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Kopernicus/Kopernicus/releases/download/release-121/Kopernicus-1.8.1-121.zip",
+    "download_size": 668484,
+    "download_hash": {
+        "sha1": "72D84BA5ABC766C172BCF0444BFFAC3612B76E2E",
+        "sha256": "F5A35D7D6093ACF40E1322BB4532B8AE4C82D7E2B37567F58CEFAEB65C8B7FFF"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-06-17T02:19:31Z",
+    "x_generated_by": "netkan"
+}
