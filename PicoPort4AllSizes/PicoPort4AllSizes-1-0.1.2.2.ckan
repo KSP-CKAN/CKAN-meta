@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "PicoPort4AllSizes",
+    "name": "PicoPort for all sizes",
+    "abstract": "This is a patch which makes the PicoPort available in many sizes",
+    "author": "linuxgurugamer",
+    "version": "1:0.1.2.2",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.5.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/155020-*",
+        "repository": "https://github.com/linuxgurugamer/PicoPort4AllSizes",
+        "bugtracker": "https://github.com/linuxgurugamer/PicoPort4AllSizes/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/PicoPort4AllSizes"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "PicoPort"
+        }
+    ],
+    "install": [
+        {
+            "find": "SHED",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/PicoPort4AllSizes/releases/download/0.1.2.2/PicoPort4AllSizes-0.1.2.2.zip",
+    "download_size": 22884,
+    "download_hash": {
+        "sha1": "B2D2AC1C7F0297455FD63F6AA7A16F23557AB0BE",
+        "sha256": "B94D6D4AC0FADE69A1F418D0AC6FE8FFA30891E36BABB2FC65B14C6BEF5C3F3B"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2018-10-31T12:29:57Z",
+    "x_generated_by": "netkan"
+}
