@@ -1,0 +1,83 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "FlyingSaucers",
+    "name": "Flying Saucers",
+    "abstract": "Build Flying Saucers in KSP!",
+    "author": "Angel-125",
+    "version": "v0.7.0",
+    "ksp_version_min": "1.12.2",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/173857-*",
+        "repository": "https://github.com/Angel-125/FlyingSaucers",
+        "bugtracker": "https://github.com/Angel-125/FlyingSaucers/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/FlyingSaucers/master/GameData/WildBlueIndustries/FlyingSaucers/KFS.version"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "NearFutureProps"
+        },
+        {
+            "name": "BarisBridge"
+        },
+        {
+            "name": "WildBlueTools"
+        },
+        {
+            "name": "KerbalActuators"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ExtraPlanetaryLaunchpads"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "kOS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "TACLS"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/WildBlueIndustries/FlyingSaucers",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter": "Ships"
+        },
+        {
+            "find": "Ships/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/Angel-125/FlyingSaucers/releases/download/v0.7.0/KFS.zip",
+    "download_size": 122168750,
+    "download_hash": {
+        "sha1": "12136296D5D33F3B4C4E2A8C2887A8347083548A",
+        "sha256": "22CB1D2172C97EEE84B7E752A78D8CAB96659160C8FDCD4B918359E1C88411C6"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-06-20T19:53:40Z",
+    "x_generated_by": "netkan"
+}
