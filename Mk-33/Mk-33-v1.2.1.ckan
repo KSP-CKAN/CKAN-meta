@@ -1,0 +1,87 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "Mk-33",
+    "name": "Mk 33",
+    "abstract": "Specialized parts to build a VentureStar-inspired vehicle in KSP.",
+    "author": "Angel-125",
+    "version": "v1.2.1",
+    "ksp_version_min": "1.11.2",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/194713-*",
+        "repository": "https://github.com/Angel-125/Mk-33",
+        "bugtracker": "https://github.com/Angel-125/Mk-33/issues",
+        "remote-avc": "https://github.com/Angel-125/Mk-33/raw/master/ReleaseFolder/GameData/WildBlueIndustries/Mk-33/Mk33.version"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalKonstructs"
+        },
+        {
+            "name": "DockRotate"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "kOS"
+        },
+        {
+            "name": "CactEyeCommunity"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "WildBlueTools"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries/Mk-33",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter_regexp": [
+                ".*\\.pdb$",
+                "SampleCraft"
+            ]
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find": "SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/Angel-125/Mk-33/releases/download/v1.2.1/Mk33.zip",
+    "download_size": 104243693,
+    "download_hash": {
+        "sha1": "3A0529142CFA7B7D83791EB910AD912125F3D49E",
+        "sha256": "C67F1AA3E0FD12EB8693B0EB84CD00D41E6F041AAF4FCEBDB6FC38C554CF2394"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-06-21T18:45:37Z",
+    "x_generated_by": "netkan"
+}
