@@ -1,0 +1,95 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Buffalo",
+    "name": "Buffalo",
+    "abstract": "NASA Inspired MSEV - Explore In Style",
+    "author": "Angel-125",
+    "version": "v2.12.0",
+    "ksp_version_min": "1.12.2",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/122617-*",
+        "repository": "https://github.com/Angel-125/Buffalo",
+        "bugtracker": "https://github.com/Angel-125/Buffalo/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/Buffalo/master/GameData/WildBlueIndustries/Buffalo/Buffalo.version"
+    },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "Buffalo-PlayMode"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "WildBlueTools"
+        },
+        {
+            "name": "KerbalActuators"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "ExtraPlanetaryLaunchpads"
+        },
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "ASET"
+        },
+        {
+            "name": "ASETAvionics"
+        }
+    ],
+    "supports": [
+        {
+            "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "USI-LS"
+        },
+        {
+            "name": "Snacks"
+        }
+    ],
+    "install": [
+        {
+            "find": "Buffalo",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter": [
+                "Ships",
+                "Templates"
+            ]
+        },
+        {
+            "find": "Buffalo/Templates/Common",
+            "install_to": "GameData/WildBlueIndustries/Buffalo/Templates"
+        },
+        {
+            "find": "Ships/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/Angel-125/Buffalo/releases/download/v2.12.0/Buffalo.zip",
+    "download_size": 38452322,
+    "download_hash": {
+        "sha1": "7FEE8FC94D8042377C5CEDD521D24172F31AAA71",
+        "sha256": "75286BC857D0FF9D727AE3D7916E249F2B8725EDF7A3FCEEE307EBC9FE3B0453"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-06-20T20:00:39Z",
+    "x_generated_by": "netkan"
+}
