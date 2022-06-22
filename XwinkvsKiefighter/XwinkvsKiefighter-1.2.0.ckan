@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "XwinkvsKiefighter",
+    "name": "X-wink vs Kiefighter",
+    "abstract": "4 Star Wars inspired Star Fighters",
+    "author": "ColdJ",
+    "version": "1.2.0",
+    "ksp_version": "1.12.3",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/207484-x-wink-vs-kie-fighter/",
+        "spacedock": "https://spacedock.info/mod/3004/X-wink%20vs%20Kiefighter",
+        "x_screenshot": "https://spacedock.info/content/ColdJ_60612/X-wink_vs_Kiefighter/X-wink_vs_Kiefighter-1648754954.png"
+    },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleAnimateGenericEffects"
+        },
+        {
+            "name": "BreakingGround-DLC"
+        }
+    ],
+    "install": [
+        {
+            "find": "XwinKieFi",
+            "install_to": "GameData",
+            "filter_regexp": "\\.craft$"
+        },
+        {
+            "file": "XwinKieFi/XwingLift.craft",
+            "install_to": "Ships/SPH"
+        },
+        {
+            "file": "XwinKieFi/XwingRND.craft",
+            "install_to": "Ships/SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3004/X-wink%20vs%20Kiefighter/download/1.2.0",
+    "download_size": 46070625,
+    "download_hash": {
+        "sha1": "48631BE020851F9B1C6BAA3946F754863D3C2837",
+        "sha256": "6807742D31F8857F9B0DA325945F77784FB95AEAE61AEE7AF5A6EA9BCFB9D9F1"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-06-22T02:54:19.030371+00:00",
+    "x_generated_by": "netkan"
+}
