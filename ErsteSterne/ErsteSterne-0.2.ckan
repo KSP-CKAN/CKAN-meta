@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "ErsteSterne",
+    "name": "Erste Sterne",
+    "abstract": "Replaces the stock system with a dying system that takes place in the early universe",
+    "author": "ffx3",
+    "version": "0.2",
+    "ksp_version": "1.12.3",
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/208670-wip-erste-sterne",
+        "spacedock": "https://spacedock.info/mod/3049/Erste%20Sterne",
+        "x_screenshot": "https://spacedock.info/content/ffx3_67629/Erste_Sterne/Erste_Sterne-1655970074.png"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "Scatterer-config",
+        "Scatterer-sunflare"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "install": [
+        {
+            "find": "ES",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/License.txt",
+            "install_to": "GameData/ES"
+        },
+        {
+            "file": "GameData/README.txt",
+            "install_to": "GameData/ES"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3049/Erste%20Sterne/download/0.2",
+    "download_size": 187441668,
+    "download_hash": {
+        "sha1": "E374628F819CDFE2EB9186AD3F600652A0F3566D",
+        "sha256": "5D93B317B0D6BB17C863CB5CE3EA0D2489A5C4BB65BB5CEBB32B6F86C778DB23"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-06-23T07:41:01.407557+00:00",
+    "x_generated_by": "netkan"
+}
