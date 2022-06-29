@@ -1,0 +1,75 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ContractConfigurator-HistoryofSpaceflight-RSS",
+    "name": "History of Spaceflight RSS",
+    "abstract": "A contract pack recreating almost all real-life missions that were actually flown, currently up until 1967 and the most exciting missions going into the 70s. This version is for users of RSS and fits well with RP-0/RP-1.",
+    "author": "Morphisor",
+    "version": "1.0",
+    "ksp_version_min": "1.2.2",
+    "ksp_version_max": "1.99.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/192880-12-19x-contract-pack-history-of-spaceflight/",
+        "spacedock": "https://spacedock.info/mod/2385/History%20of%20Spaceflight%20RSS",
+        "repository": "https://github.com/Frylovespi/History-of-Spaceflight",
+        "bugtracker": "https://github.com/Frylovespi/History-of-Spaceflight/issues",
+        "remote-avc": "https://raw.githubusercontent.com:443/Frylovespi/History-of-Spaceflight/master/RSS/GameData/ContractPacks/HistoryofSpaceflight/HistoryofSpaceflight.version"
+    },
+    "tags": [
+        "config",
+        "career"
+    ],
+    "provides": [
+        "ContractConfigurator-HistoryofSpaceflight"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ContractConfigurator"
+        },
+        {
+            "name": "RealSolarSystem"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "BluedogDB"
+        },
+        {
+            "name": "NewTantares"
+        },
+        {
+            "name": "ProbesPlus"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ContractConfigurator-HistoryofSpaceflight"
+        }
+    ],
+    "install": [
+        {
+            "find": "ContractPacks",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GenericEngines",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GenericPlumes",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2385/History%20of%20Spaceflight%20RSS/download/1.0",
+    "download_size": 15240799,
+    "download_hash": {
+        "sha1": "14476F4629D39BA40BEE13E06BDFD4D49061EE5B",
+        "sha256": "8FC79822480D3D40E49A4E3D134B529C080134FF02D4B46ED407085F7D87E26D"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-06-29T19:24:36.801027+00:00",
+    "x_generated_by": "netkan"
+}
