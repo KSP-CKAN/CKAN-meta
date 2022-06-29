@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ContractConfigurator-HistoryofSpaceflight-Stock",
+    "name": "History of Spaceflight Stock",
+    "abstract": "A contract pack recreating almost all real-life missions that were actually flown, currently up until 1967 and the most exciting missions going into the 70s.. This version is for users of Stock and any other non-RSS planet pack.",
+    "author": "Morphisor",
+    "version": "1.0",
+    "ksp_version_min": "1.2.2",
+    "ksp_version_max": "1.99.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/192880-12-19x-contract-pack-history-of-spaceflight/",
+        "spacedock": "https://spacedock.info/mod/2386/History%20of%20Spaceflight%20Stock",
+        "repository": "https://github.com/Frylovespi/History-of-Spaceflight",
+        "bugtracker": "https://github.com/Frylovespi/History-of-Spaceflight/issues",
+        "remote-avc": "https://raw.githubusercontent.com:443/Frylovespi/History-of-Spaceflight/master/RSS/GameData/ContractPacks/HistoryofSpaceflight/HistoryofSpaceflight.version"
+    },
+    "tags": [
+        "config",
+        "career"
+    ],
+    "provides": [
+        "ContractConfigurator-HistoryofSpaceflight"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ContractConfigurator"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "BluedogDB"
+        },
+        {
+            "name": "NewTantares"
+        },
+        {
+            "name": "ProbesPlus"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ContractConfigurator-HistoryofSpaceflight"
+        }
+    ],
+    "install": [
+        {
+            "find": "ContractPacks",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2386/History%20of%20Spaceflight%20Stock/download/1.0",
+    "download_size": 5115319,
+    "download_hash": {
+        "sha1": "4D7AA4A4ED60CB1383B632F29C905AA207C62713",
+        "sha256": "9EC98C3D902EDE266538938098AD8C44E9B569B36C09F3BE29D9208A3E7D5E7E"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-06-29T19:22:48.323441+00:00",
+    "x_generated_by": "netkan"
+}
