@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "kOS",
+    "name": "kOS: Scriptable Autopilot System",
+    "abstract": "kOS is a scriptable autopilot Mod for Kerbal Space Program. It allows you write small programs that automate specific tasks.",
+    "author": "many KSP-KOS contributers, currently dunbaratu and hvacengi",
+    "version": "2:1.3.1.0",
+    "ksp_version_min": "1.10.0",
+    "ksp_version_max": "1.11.99",
+    "license": "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "http://ksp-kos.github.io/KOS_DOC/",
+        "repository": "https://github.com/KSP-KOS/KOS",
+        "bugtracker": "https://github.com/KSP-KOS/KOS/issues",
+        "manual": "http://ksp-kos.github.io/KOS_DOC/",
+        "metanetkan": "https://raw.githubusercontent.com/KSP-KOS/KOS/master/kOS.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/KSP-KOS/KOS/master/Resources/GameData/kOS/kOS.version"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "recommends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.5.6",
+            "comment": "Earlier versions of MM have forward compatibility problems, according to the MM release notes."
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RemoteTech",
+            "min_version": "1.5.1",
+            "comment": "RT gives incentive to having local control of craft, even unmanned ones"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "kOS-Classic"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/kOS",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-KOS/KOS/releases/download/v1.3.1.0/kOS-v1.3.1.0.zip",
+    "download_size": 3091446,
+    "download_hash": {
+        "sha1": "209A09C1BEF5E81B6FF3F436DD2E575037B663A7",
+        "sha256": "9C2A41452F0387BC5C98325A9EE24A08E4BD937A038F9A587C4F9DEA65E07A1C"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-01-18T23:48:42Z",
+    "x_generated_by": "netkan"
+}
