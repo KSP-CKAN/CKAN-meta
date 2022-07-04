@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "AECS-Motion-Suppressor",
+    "name": "AECS_Motion_Suppressor (air brake, engine, & control surface)",
+    "abstract": "This mod disables and re-enables your control surfaces on atmosphere exit/ entry to stop your SSTOs pointlessly flapping their wings in space. Also disables engine gimbaling when not running",
+    "author": "linuxgurugamer",
+    "version": "1.3.3.1",
+    "ksp_version_min": "1.8.0",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182622-*",
+        "spacedock": "https://spacedock.info/mod/2095/AECS_Motion_Suppressor%20(air%20brake,%20engine,%20&%20control%20surface)",
+        "repository": "https://github.com/linuxgurugamer/AECS_Motion_Suppressor",
+        "bugtracker": "https://github.com/linuxgurugamer/AECS_Motion_Suppressor/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/AECS_Motion_Suppressor"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ControlSurfaceToggle"
+        },
+        {
+            "name": "SmartActuation"
+        }
+    ],
+    "install": [
+        {
+            "find": "AECS_Motion_Suppressor",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/AECS_Motion_Suppressor/releases/download/1.3.3.1/AECS_Motion_Suppressor-1.12.0-1.3.3.1.zip",
+    "download_size": 15713,
+    "download_hash": {
+        "sha1": "C819A8DA42E2287D2D91D39E4199B556EF97CFB0",
+        "sha256": "DC0D306FE93B09F7CD5CC220BB614797611F73F01880DC2814F2359D12EEF453"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-07-04T13:21:56Z",
+    "x_generated_by": "netkan"
+}
