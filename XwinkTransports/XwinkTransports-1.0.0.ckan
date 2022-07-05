@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "XwinkTransports",
+    "name": "Xwink Transports",
+    "abstract": "Troop Transport for Star Wars.",
+    "author": "ColdJ",
+    "version": "1.0.0",
+    "ksp_version": "1.12.3",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/208824-xwink-transports/",
+        "spacedock": "https://spacedock.info/mod/3055/Xwink%20Transports",
+        "x_screenshot": "https://spacedock.info/content/ColdJ_60612/Xwink_Transport/Xwink_Transport-1656852991.png"
+    },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "install": [
+        {
+            "find": "XwinKTransport",
+            "install_to": "GameData",
+            "filter_regexp": "\\.craft$"
+        },
+        {
+            "file": "XwinKTransport/Lambda Shuttle.craft",
+            "install_to": "Ships/SPH"
+        },
+        {
+            "file": "XwinKTransport/Uwing.craft",
+            "install_to": "Ships/SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3055/Xwink%20Transports/download/1.0.0",
+    "download_size": 26813016,
+    "download_hash": {
+        "sha1": "DFF8C01604A065512302508F22E69403AE73A6CF",
+        "sha256": "0912546D8443057D592AC9280F90639DCEACEA66AE6C4C972CBF7171D282CF3E"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-07-03T12:56:11.500585+00:00",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
