@@ -1,9 +1,12 @@
 {
     "spec_version": "v1.10",
     "identifier": "ROCapsules",
-    "name": "RO Capsules",
+    "name": "ROCapsules",
     "abstract": "ROCapsules is a mod that takes the best versions of capsules available and uses them as the in-game models for Realism Overhaul parts.",
-    "author": "pap1723",
+    "author": [
+        "pap1723",
+        "KSP-RO"
+    ],
     "version": "v1.9.1.0",
     "ksp_version_min": "1.8.1",
     "ksp_version_max": "1.12.99",
@@ -13,6 +16,7 @@
         "homepage": "https://discordapp.com/invite/ZGbR6nv",
         "repository": "https://github.com/KSP-RO/ROCapsules",
         "bugtracker": "https://github.com/KSP-RO/ROCapsules/issues",
+        "metanetkan": "https://github.com/KSP-RO/ROCapsules/raw/master/ROCapsules.netkan",
         "remote-avc": "https://raw.githubusercontent.com/KSP-RO/ROCapsules/master/GameData/ROCapsules/ROCapsules.version"
     },
     "tags": [
@@ -23,13 +27,22 @@
     ],
     "depends": [
         {
-            "name": "ModuleManager"
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "TexturesUnlimited"
         },
         {
             "name": "ROLib"
         },
         {
-            "name": "TexturesUnlimited"
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "DepthMask"
+        },
+        {
+            "name": "KSPWheel"
         },
         {
             "name": "BDAnimationModules"
@@ -37,19 +50,11 @@
     ],
     "recommends": [
         {
-            "name": "RealismOverhaul"
-        },
-        {
-            "name": "ROSolar"
-        },
-        {
             "name": "ROEngines"
         },
         {
             "name": "ROTanks"
-        }
-    ],
-    "suggests": [
+        },
         {
             "name": "ProceduralFairings"
         },
@@ -63,12 +68,21 @@
             "name": "RealSolarSystem"
         },
         {
+            "name": "KSCSwitcher"
+        },
+        {
             "name": "RP-0"
         }
     ],
     "conflicts": [
         {
-            "name": "TweakableEverythingCont"
+            "name": "TweakableEverything"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ROCapsules",
+            "install_to": "GameData"
         }
     ],
     "download": "https://github.com/KSP-RO/ROCapsules/releases/download/v1.9.1.0/ROCapsules-v1.9.1.0.zip",
