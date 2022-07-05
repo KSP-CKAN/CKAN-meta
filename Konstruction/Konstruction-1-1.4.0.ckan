@@ -1,0 +1,63 @@
+{
+    "spec_version": "v1.2",
+    "identifier": "Konstruction",
+    "name": "Konstruction",
+    "abstract": "Weldable docking ports, cranes, magnets, and other construction equipment!",
+    "author": "RoverDude",
+    "version": "1:1.4.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.11.99",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/149233-*",
+        "repository": "https://github.com/UmbraSpaceIndustries/Konstruction",
+        "bugtracker": "https://github.com/UmbraSpaceIndustries/Konstruction/issues",
+        "manual": "https://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "remote-avc": "https://raw.githubusercontent.com/BobPalmer/Konstruction/master/FOR_RELEASE/GameData/UmbraSpaceIndustries/Konstruction/Konstruction.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.9.0.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.7.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/UmbraSpaceIndustries/Akita",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        },
+        {
+            "file": "GameData/UmbraSpaceIndustries/Konstruction",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/UmbraSpaceIndustries/Konstruction/releases/download/1.4.0/Konstruction_1.4.0.0.zip",
+    "download_size": 6199610,
+    "download_hash": {
+        "sha1": "13C406BD7CA319964A930185088E8381718BF980",
+        "sha256": "03F14E887AED41EDC49B3B3678CE28ACDFB3668145666913C8EB446090BAE2A3"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-12-21T21:30:29Z",
+    "x_generated_by": "netkan"
+}
