@@ -1,0 +1,66 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "MalemuteRover",
+    "name": "Malemute Rover",
+    "abstract": "A 1.25m rover platform for exploration and science collecting!",
+    "author": "RoverDude",
+    "version": "1:1.4.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.11.99",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/139668-*",
+        "repository": "https://github.com/UmbraSpaceIndustries/Malemute",
+        "bugtracker": "https://github.com/UmbraSpaceIndustries/Malemute/issues",
+        "manual": "https://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "remote-avc": "https://raw.githubusercontent.com/BobPalmer/Malemute/master/FOR_RELEASE/GameData/UmbraSpaceIndustries/Malemute/Malemute.version"
+    },
+    "tags": [
+        "parts",
+        "crewed",
+        "science"
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "v7.6.0"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.9.0.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.7.0.0"
+        },
+        {
+            "name": "CommunityCategoryKit",
+            "min_version": "2.0.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/Malemute",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/UmbraSpaceIndustries/Malemute/releases/download/1.4.0/Malemute_1.4.0.0.zip",
+    "download_size": 7314848,
+    "download_hash": {
+        "sha1": "C79B71EA90FE65996928DBF7B0251C32923E296B",
+        "sha256": "F59B485A106E6B6D2D0AC7395767C7EA2EF92F366CE3AF407663BCA729DB32AD"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-12-21T21:40:37Z",
+    "x_generated_by": "netkan"
+}
