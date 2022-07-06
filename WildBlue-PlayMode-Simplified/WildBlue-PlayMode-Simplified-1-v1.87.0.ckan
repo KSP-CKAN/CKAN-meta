@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "WildBlue-PlayMode-Simplified",
+    "name": "WildBlueIndustries Simplified Play Mode",
+    "abstract": "Lite Blue reduces the number available templates and resources used. This is great for players new to Pathfinder and other WildBlue mods or for those that don't want a lot of complexity.",
+    "author": "Angel-125",
+    "version": "1:v1.87.0",
+    "ksp_version_min": "1.12.2",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/Angel-125/WildBlueTools",
+        "bugtracker": "https://github.com/Angel-125/WildBlueTools/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/WildBlueTools/master/GameData/WildBlueIndustries/000WildBlueTools/WildBlueTools.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "WildBlue-PlayMode",
+        "Buffalo-PlayMode",
+        "DSEV-PlayMode",
+        "MOLE-PlayMode",
+        "KerbalKomets-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "WildBlueTools"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "WildBlue-PlayMode"
+        }
+    ],
+    "install": [
+        {
+            "find": "000WildBlueTools/Templates/Simplified/Storage/OmniStorage.txt",
+            "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates/Simplified/Storage",
+            "as": "OmniStorage.cfg",
+            "find_matches_file": true
+        },
+        {
+            "find": "000WildBlueTools/Templates/Simplified.cfg",
+            "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/WildBlueTools/releases/download/v1.87.0/WildBlueTools.zip",
+    "download_size": 22131302,
+    "download_hash": {
+        "sha1": "4FF6A3C83D2F14584AB1757E33C36ED0E9A11420",
+        "sha256": "3FDD3C7579EB571F519C3FF2DE561EF630BC15EA3BFA034165A0D6DE8EE1AD28"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-04-14T16:48:32Z",
+    "x_generated_by": "netkan"
+}
