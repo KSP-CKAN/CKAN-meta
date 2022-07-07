@@ -1,0 +1,65 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "USI-ART",
+    "name": "USI Asteroid Recycling Technologies",
+    "abstract": "Allows you to remove asteroid mass and attach multiple reconfigurable storage tanks to the asteroid's surface.",
+    "author": "RoverDude",
+    "version": "2:1.4.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.11.99",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/82809-*",
+        "repository": "https://github.com/UmbraSpaceIndustries/ART",
+        "bugtracker": "https://github.com/UmbraSpaceIndustries/ART/issues",
+        "manual": "https://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "remote-avc": "https://raw.githubusercontent.com/BobPalmer/ART/master/FOR_RELEASE/GameData/UmbraSpaceIndustries/ART/ART.version"
+    },
+    "tags": [
+        "parts",
+        "resources"
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "v7.6.0"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.9.0.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.7.0.0"
+        },
+        {
+            "name": "USI-Core",
+            "min_version": "0.4.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/ART",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/UmbraSpaceIndustries/ART/releases/download/1.4.0/ART_1.4.0.0.zip",
+    "download_size": 16118578,
+    "download_hash": {
+        "sha1": "922901132B1996D5D7AA1AC55F7BBDA8B5C829A4",
+        "sha256": "2C55D37A7840510C32160405825FFDFBA3B73CB5A7E613424D458F31530704A3"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-12-21T21:29:27Z",
+    "x_generated_by": "netkan"
+}
