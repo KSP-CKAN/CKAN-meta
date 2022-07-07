@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Kerbalism-Config-ScienceOnly",
+    "name": "Kerbalism - Science-Only Config",
+    "abstract": "Science-Only configuration for Kerbalism. Disables life support, radiation and all other features",
+    "author": "Kerbalism Contributors",
+    "version": "1:3.3.1",
+    "ksp_version_min": "1.5.0",
+    "ksp_version_max": "1.9.99",
+    "license": "Unlicense",
+    "resources": {
+        "repository": "https://github.com/Kerbalism/KerbalismScienceOnly",
+        "bugtracker": "https://github.com/Kerbalism/KerbalismScienceOnly/issues"
+    },
+    "tags": [
+        "config",
+        "science"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "pt-br",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "Kerbalism-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-Config"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismScienceOnly",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Kerbalism/KerbalismScienceOnly/releases/download/3.3.1/KerbalismScienceOnly.zip",
+    "download_size": 235208,
+    "download_hash": {
+        "sha1": "C6D5CD184B06EE216A5CF1D53F147D4644823E8A",
+        "sha256": "9DB291D130C6B57B56426BC6E0382792A559FEB6F868158D7F7A2AFCFFF7BDD1"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-03-02T13:35:39Z",
+    "x_generated_by": "netkan"
+}
