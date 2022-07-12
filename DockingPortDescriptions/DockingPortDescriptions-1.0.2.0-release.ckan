@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DockingPortDescriptions",
+    "name": "Docking Port Descriptions (DPD)",
+    "abstract": "Patch adds docking port size/gender(if gendered)/and shielded (if) to part descriptions in editor for all docking ports.",
+    "author": "zer0Kerbal",
+    "version": "1.0.2.0-release",
+    "ksp_version": "1.12.3",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/192184-*/",
+        "spacedock": "https://spacedock.info/mod/2246/Docking%20Port%20Descriptions%20(DPD)",
+        "repository": "https://github.com/zer0Kerbal/DockingPortDescriptions",
+        "bugtracker": "https://github.com/zer0Kerbal/DockingPortDescriptions/issues",
+        "remote-avc": "https://github.com/zer0Kerbal/DockingPortDescriptions/raw/master/DockingPortDescriptions.version",
+        "x_screenshot": "https://spacedock.info/content/zer0Kerbal_21147/Docking_Port_Descriptions_DPD/Docking_Port_Descriptions_DPD-1657509976.jpg"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ODFC-Refueled"
+        },
+        {
+            "name": "KerbalChangelog"
+        },
+        {
+            "name": "PicoPortShielded"
+        }
+    ],
+    "install": [
+        {
+            "find": "KGEx",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2246/Docking%20Port%20Descriptions%20%28DPD%29/download/1.0.2.0-release",
+    "download_size": 19915,
+    "download_hash": {
+        "sha1": "6B619E0074F90E102D936D13A8DB83D10C31307A",
+        "sha256": "2E1FC978ED3E033F24E9C1A5D943483C23C9600F3C8A4C043C593FECDF0FF556"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-07-12T04:56:08.887885+00:00",
+    "x_generated_by": "netkan"
+}
