@@ -1,0 +1,86 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Kerbalism-Config-RO",
+    "name": "Kerbalism - RealismOverhaul Config",
+    "abstract": "Kerbalism configuration for Realism Overhaul and RP-1",
+    "author": [
+        "SirKeplan",
+        "StollD",
+        "al2me6",
+        "blowfishpro",
+        "cherrydev",
+        "pjf",
+        "rsparkyc",
+        "stratochief66",
+        "zorg2044",
+        "NathanKell"
+    ],
+    "version": "v1.2.5",
+    "license": "Unlicense",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/ROKerbalism",
+        "bugtracker": "https://github.com/KSP-RO/ROKerbalism/issues"
+    },
+    "tags": [
+        "config",
+        "career",
+        "science",
+        "crewed"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "pt-br",
+        "ru"
+    ],
+    "provides": [
+        "Kerbalism-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealismOverhaul"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RP-0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-Config"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "USI-LS"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismConfig",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/ROKerbalism/releases/download/v1.2.5/ROKerbalism_v1.2.5.zip",
+    "download_size": 2299783,
+    "download_hash": {
+        "sha1": "6EF7D00577A3C9318B3AF4B2C4AEDED820CC0B53",
+        "sha256": "BD477FAAF18E79FD358F10E2AE5E5D6740FDC3B87FD41A49E5FBF7277A9CA595"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-07-12T02:57:31Z",
+    "x_generated_by": "netkan"
+}
