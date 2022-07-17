@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Textures only",
+    "identifier": "AVP-4kTextures",
+    "name": "Astronomer's Visual Pack-4k Textures",
+    "abstract": "Textures for Astronomer's Visual pack",
+    "author": "themaster402",
+    "version": "v1.13",
+    "ksp_version_min": "1.8",
+    "license": "LGPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/160878-*",
+        "repository": "https://github.com/themaster402/AstronomersVisualPack",
+        "bugtracker": "https://github.com/themaster402/AstronomersVisualPack/issues"
+    },
+    "tags": [
+        "library",
+        "graphics"
+    ],
+    "provides": [
+        "AVP-Textures"
+    ],
+    "depends": [
+        {
+            "name": "AstronomersVisualPack"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AVP-Textures"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/AstronomersVisualPack",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/themaster402/AstronomersVisualPack/releases/download/v1.13/AVP_4kTextures.zip",
+    "download_size": 99074840,
+    "download_hash": {
+        "sha1": "9A4157FB883B4358288BFD847370A9F4B8141CBA",
+        "sha256": "25570D1AEBE31432A4D12FC1CB686BB8CAAECBB854BEEBD5BDBD03224A9572F3"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-07-17T07:16:49Z",
+    "x_generated_by": "netkan"
+}
