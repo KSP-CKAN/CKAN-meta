@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "ROHeatshields",
+    "name": "ROHeatshields",
+    "abstract": "ROHeatshields adds resizable heatshields at varying tech levels for Realism Overhaul.",
+    "author": [
+        "KSP-RO"
+    ],
+    "version": "v1.0.0.0",
+    "ksp_version_min": "1.12.3",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://discordapp.com/invite/ZGbR6nv",
+        "repository": "https://github.com/KSP-RO/ROHeatshields",
+        "bugtracker": "https://github.com/KSP-RO/ROHeatshields/issues",
+        "metanetkan": "https://github.com/KSP-RO/ROHeatshields/raw/master/ROHeatshields.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/KSP-RO/ROHeatshields/master/GameData/ROHeatshields/ROHeatshields.version"
+    },
+    "tags": [
+        "parts",
+        "config",
+        "graphics",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "TexturesUnlimited"
+        },
+        {
+            "name": "ROLib"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TweakableEverything"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ROHeatshields",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/ROHeatshields/releases/download/v1.0.0.0/ROHeatshields-v1.0.0.zip",
+    "download_size": 4214815,
+    "download_hash": {
+        "sha1": "F5A1E203CEF2320F6766ADAA1889FDC53E0054E2",
+        "sha256": "AEB0AA6E1C5AC55F4E8E395C3C02B07CA62872EBD5174E8A258DA9E679D26441"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-07-23T05:41:11Z",
+    "x_generated_by": "netkan"
+}
