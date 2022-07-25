@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "USI-FTT",
+    "name": "USI Freight Transport Technologies",
+    "abstract": "A series of modular parts for all of your hauling, mining, and exploration needs!",
+    "author": "RoverDude",
+    "version": "1:1.4.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.11.99",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/82730-*",
+        "repository": "https://github.com/UmbraSpaceIndustries/FTT",
+        "bugtracker": "https://github.com/UmbraSpaceIndustries/FTT/issues",
+        "manual": "https://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "remote-avc": "https://raw.githubusercontent.com/BobPalmer/FTT/master/FOR_RELEASE/GameData/UmbraSpaceIndustries/FTT/FTT.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "v7.6.0"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.9.0.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.7.0.0"
+        },
+        {
+            "name": "USI-Core",
+            "min_version": "0.4.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/FTT",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/UmbraSpaceIndustries/FTT/releases/download/1.4.0/FTT_1.4.0.0.zip",
+    "download_size": 24782503,
+    "download_hash": {
+        "sha1": "FDBDA4FF48528E824676564F51EF83E85E2E658F",
+        "sha256": "97FF4DA5BD0E1F508A5A3F1ED502CFDC25C895D6FB35BA41DED06752A4CD7DCE"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-12-21T21:26:44Z",
+    "x_generated_by": "netkan"
+}
