@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ToolbarController",
+    "name": "Toolbar Controller",
+    "abstract": "Wrapper mod around the Blizzy and stock toolbars",
+    "author": "linuxgurugamer",
+    "version": "1:0.1.9.7",
+    "ksp_version_min": "1.9.0",
+    "ksp_version_max": "1.12.3",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/169509-141-toolbar-controller-for-modders/",
+        "spacedock": "https://spacedock.info/mod/1931/ToolbarController",
+        "repository": "https://github.com/linuxgurugamer/ToolbarControl",
+        "bugtracker": "https://github.com/linuxgurugamer/ToolbarControl/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/ToolbarControl"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "depends": [
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ZeroMiniAVC"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "install": [
+        {
+            "find": "001_ToolbarControl",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1931/ToolbarController/download/0.1.9.7",
+    "download_size": 88404,
+    "download_hash": {
+        "sha1": "92C38F53BBD61886D77EF0EF6AE03123E5CB8E49",
+        "sha256": "6C2E816863FD2944FF856DB9DB266E226B9F9D151A4B7FA5454AF816FBA7785E"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-07-29T17:20:21.51694+00:00",
+    "x_generated_by": "netkan"
+}
