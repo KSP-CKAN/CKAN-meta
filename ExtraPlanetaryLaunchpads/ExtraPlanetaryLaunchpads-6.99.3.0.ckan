@@ -1,0 +1,75 @@
+{
+    "spec_version": 1,
+    "identifier": "ExtraPlanetaryLaunchpads",
+    "name": "Extraplanetary Launchpads",
+    "abstract": "Adds the ability to build crafts in flight mode to your game.",
+    "author": "taniwha",
+    "version": "6.99.3.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/54284-*",
+        "repository": "https://github.com/taniwha-qf/Extraplanetary-Launchpads",
+        "remote-avc": "http://taniwha.org/~bill/ExtraplanetaryLaunchpads.version"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "crewed"
+    ],
+    "localizations": [
+        "en-us",
+        "pt-br",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "InfernalRobotics"
+        },
+        {
+            "name": "KerbalStats"
+        },
+        {
+            "name": "Kethane"
+        },
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "install": [
+        {
+            "file": "ExtraplanetaryLaunchpads",
+            "install_to": "GameData",
+            "filter": "Ships"
+        },
+        {
+            "file": "ExtraplanetaryLaunchpads/Ships/SPH",
+            "install_to": "Ships"
+        },
+        {
+            "file": "ExtraplanetaryLaunchpads/Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "http://taniwha.org/~bill/ExtraplanetaryLaunchpads_v6.99.3.zip",
+    "download_size": 16913553,
+    "download_hash": {
+        "sha1": "A1FEDDFC3448564F81A79F7EAB9F61E7EDDC2D87",
+        "sha256": "6901BDF90663AD1D953079B239AD7AAE3413668FDBBD6991873433847C388CBF"
+    },
+    "download_content_type": "application/zip",
+    "x_generated_by": "netkan"
+}
