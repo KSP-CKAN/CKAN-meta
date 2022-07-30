@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "ContractConfigurator",
+    "name": "Contract Configurator",
+    "abstract": "A config-file based solution for creating new contracts!",
+    "author": [
+        "nightingale",
+        "KSP-RO team"
+    ],
+    "version": "2.1.3",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.12.99",
+    "ksp_version_strict": true,
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190040--",
+        "repository": "https://github.com/KSP-RO/ContractConfigurator",
+        "bugtracker": "https://github.com/KSP-RO/ContractConfigurator/issues",
+        "license": "https://raw.githubusercontent.com/KSP-RO/ContractConfigurator/master/LICENSE.txt",
+        "manual": "https://github.com/jrossignol/ContractConfigurator/wiki",
+        "metanetkan": "https://raw.githubusercontent.com/KSP-RO/ContractConfigurator/master/ContractConfiguratorRO.netkan",
+        "remote-avc": "https://github.com/KSP-RO/ContractConfigurator/raw/master/GameData/ContractConfigurator/ContractConfigurator.version"
+    },
+    "tags": [
+        "plugin",
+        "library",
+        "career"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RP-1-ExpressInstall"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ContractConfigurator"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ContractConfigurator",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/ContractConfigurator/releases/download/2.1.3/ContractConfigurator_2.1.3.zip",
+    "download_size": 574513,
+    "download_hash": {
+        "sha1": "E2973DAF0F7ABA87974C1A9A4276116D4A6585B9",
+        "sha256": "5D901565EDE5EBCAE340B42BE2DFBC8C068B11EB0A39C0F713AE716C15E83DF8"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2022-07-30T04:27:44Z",
+    "x_generated_by": "netkan"
+}
