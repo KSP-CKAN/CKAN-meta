@@ -1,0 +1,65 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "USI-LS",
+    "name": "USI Life Support",
+    "abstract": "UmbraSpaceIndustries take on life support",
+    "author": "RoverDude",
+    "version": "1:1.4.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.11.99",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/105202-*",
+        "repository": "https://github.com/UmbraSpaceIndustries/USI-LS",
+        "bugtracker": "https://github.com/UmbraSpaceIndustries/USI-LS/issues",
+        "manual": "https://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "remote-avc": "https://raw.githubusercontent.com/BobPalmer/USI-LS/master/FOR_RELEASE/GameData/UmbraSpaceIndustries/LifeSupport/USI-LS.version"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.9.0.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.7.0.0"
+        },
+        {
+            "name": "CommunityCategoryKit",
+            "min_version": "2.0.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        },
+        {
+            "name": "TACLS"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/LifeSupport",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/UmbraSpaceIndustries/USI-LS/releases/download/1.4.0/USI-LS_1.4.0.0.zip",
+    "download_size": 4338061,
+    "download_hash": {
+        "sha1": "7CED109CDAFDA64DDFBA35AC7376D8950FE4BC1D",
+        "sha256": "76FF5D511E07299519D97E4D05CEA0DD5707E8486B5BD5897CE63DC7C9C86E7A"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-12-21T21:39:54Z",
+    "x_generated_by": "netkan"
+}
