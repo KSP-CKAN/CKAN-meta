@@ -14,9 +14,6 @@
     },
     "version": "v1.1.7",
     "ksp_version": "1.6.1",
-    "provides": [
-        "PlanetShine-Config"
-    ],
     "depends": [
         {
             "name": "KSPRC-Textures"
@@ -46,11 +43,9 @@
         },
         {
             "name": "WindowShineTR"
-        }
-    ],
-    "conflicts": [
+        },
         {
-            "name": "PlanetShine-Config"
+            "name": "PlanetShine"
         }
     ],
     "install": [
@@ -62,10 +57,6 @@
         {
             "file": "Step 2 - Spectra/GameData/Spectra",
             "install_to": "GameData"
-        },
-        {
-            "file": "Step 4 - Extras/PlanetShine/Config",
-            "install_to": "GameData/PlanetShine"
         },
         {
             "file": "Step 4 - Extras/PlanetShine/Icons",
