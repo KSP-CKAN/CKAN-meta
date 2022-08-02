@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "StockScatterColliderEnablerPatch",
+    "name": "Stock Scatter Collider Enabler Patch",
+    "abstract": "This mod aims to provide a small patch to enable the ground scatter collider meshes for the stock ground scatter instances on the stock bodies for Kerbal Space Program.",
+    "author": [
+        "Poodmund"
+    ],
+    "version": "1:v1.0.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.9.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/195127-*",
+        "repository": "https://github.com/Poodmund/Stock-Scatter-Collider-Enabler-Patch",
+        "bugtracker": "https://github.com/Poodmund/Stock-Scatter-Collider-Enabler-Patch/issues",
+        "metanetkan": "https://raw.githubusercontent.com/Poodmund/Stock-Scatter-Collider-Enabler-Patch/master/CKAN/SSCEP.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/Poodmund/Stock-Scatter-Collider-Enabler-Patch/master/GameData/SSCEP/SSCEP.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Spectra"
+        },
+        {
+            "name": "SVE-Terrain"
+        }
+    ],
+    "install": [
+        {
+            "find": "SSCEP",
+            "install_to": "GameData",
+            "comment": "This is the main install for SSCEP"
+        }
+    ],
+    "download": "https://github.com/Poodmund/Stock-Scatter-Collider-Enabler-Patch/releases/download/v1.0.0/Stock-Scatter-Collider-Enabler-Patch_v1.0.0.zip",
+    "download_size": 1278,
+    "download_hash": {
+        "sha1": "D47198ACD41A63B8BDA3A66ED62327B62F50461C",
+        "sha256": "2334653040039688A56AD3D0FCA8E1E7789AD8E9556177E3CCCC6F576E7E1FFF"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-06-28T19:10:06Z",
+    "x_generated_by": "netkan"
+}
