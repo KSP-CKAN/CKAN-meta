@@ -1,0 +1,78 @@
+{
+    "spec_version": "v1.4",
+    "comment": "This may be renamed to USI-Karbonite in the future",
+    "identifier": "Karbonite",
+    "name": "Karbonite",
+    "abstract": "A newly discovered mineral that has hydrocarbon-like properties and is perfect for processing into a fuel. It's easily mined from the surface, and can be found in liquid or gaseous forms on certain planets.",
+    "author": "RoverDude",
+    "version": "2:0.12.0.0",
+    "ksp_version_min": "1.4.0",
+    "ksp_version_max": "1.4.9",
+    "license": "restricted",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/83948-*",
+        "repository": "https://github.com/UmbraSpaceIndustries/Karbonite",
+        "bugtracker": "https://github.com/UmbraSpaceIndustries/Karbonite/issues",
+        "manual": "https://umbraspaceindustries.github.io/UmbraSpaceIndustries/",
+        "remote-avc": "https://raw.githubusercontent.com/BobPalmer/Karbonite/master/FOR_RELEASE/GameData/UmbraSpaceIndustries/Karbonite/Karbonite.version"
+    },
+    "tags": [
+        "parts",
+        "resources"
+    ],
+    "provides": [
+        "USI-Karbonite"
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore",
+            "min_version": "v7.6.0"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "2.8.0"
+        },
+        {
+            "name": "USITools",
+            "min_version": "0.9.0.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "min_version": "0.7.0.0"
+        },
+        {
+            "name": "USI-Core",
+            "min_version": "0.4.0.0"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "UmbraSpaceIndustries/Karbonite",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        },
+        {
+            "find": "UmbraSpaceIndustries/KarbonitePlus",
+            "install_to": "GameData/UmbraSpaceIndustries"
+        }
+    ],
+    "download": "https://github.com/UmbraSpaceIndustries/Karbonite/releases/download/0.12.0.0/Karbonite_0.12.0.0.zip",
+    "download_size": 43405539,
+    "download_hash": {
+        "sha1": "57FC11FD4776C6F68778DA8C93E9B4F9983FD14D",
+        "sha256": "13C7ABD5316EB629F4EBD5A4F8EC8556078643F6DBD9DC97A3C967BDF3A22038"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2018-03-20T02:22:53Z",
+    "x_generated_by": "netkan"
+}
