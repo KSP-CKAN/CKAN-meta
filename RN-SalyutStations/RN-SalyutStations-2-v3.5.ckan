@@ -1,0 +1,65 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Ships readded",
+    "identifier": "RN-SalyutStations",
+    "name": "Salyut Stations",
+    "abstract": "This is a salyut mod for the DOS & OPS style stations. It contains fully functional replicas of Salyut 1, 4, 6 and 7. It also now contains Almaz 2, 3 and 5.",
+    "author": "Raidernick",
+    "version": "2:v3.5",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-ND-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/79732-*",
+        "repository": "https://github.com/KSP-RO/SalyutStations",
+        "bugtracker": "https://github.com/KSP-RO/SalyutStations/issues",
+        "remote-avc": "http://raw.githubusercontent.com/KSP-RO/SalyutStations/master/GameData/RN_Salyut/SalyutStations.version"
+    },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "BDAnimationModules"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TexturesUnlimited"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RN-SovietSpacecraft"
+        },
+        {
+            "name": "RN-SovietRockets"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RN-SalyutStations-SoyuzFerries"
+        }
+    ],
+    "install": [
+        {
+            "find": "RN_Salyut",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/SalyutStations/releases/download/v3.5/RN_SalyutStations_v3.5.zip",
+    "download_size": 37265024,
+    "download_hash": {
+        "sha1": "597D6B8A473180010A83806D62C95B8F36B1A725",
+        "sha256": "E1250ECEAA673C81794BB39413547BC7D9919D6CFCCCF3665A59881088E75AC7"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2021-07-24T08:12:16Z",
+    "x_generated_by": "netkan"
+}
