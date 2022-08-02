@@ -1,0 +1,71 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "EnduranceSpaceExplorationSystem",
+    "name": "Endurance",
+    "abstract": "Kerbal Space Program Endurance Mod",
+    "author": "JPLRepo",
+    "version": "1:V1.12",
+    "ksp_version_min": "1.10.0",
+    "ksp_version_max": "1.10.99",
+    "license": "CC-BY-NC-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/133590-*",
+        "repository": "https://github.com/JPLRepo/Endurance",
+        "bugtracker": "https://github.com/JPLRepo/Endurance/issues",
+        "remote-avc": "http://ksp-avc.cybutek.net/version.php?id=258"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "crewed",
+        "science"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "JSIAdvancedTransparentPods"
+        },
+        {
+            "name": "ThrottleControlledAvionics"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "USI-LS"
+        }
+    ],
+    "install": [
+        {
+            "find": "Endurance",
+            "install_to": "GameData",
+            "filter": [
+                ".DS_Store"
+            ]
+        }
+    ],
+    "download": "https://github.com/JPLRepo/Endurance/releases/download/V1.12/Endurance_V1.12.0.0.zip",
+    "download_size": 14525089,
+    "download_hash": {
+        "sha1": "9A39232EA0F24C9AFC69BF79BBFC4748B6AEA733",
+        "sha256": "C86EB02E985582EA9672311FBCF611A54F362D0A3AF080DC341B600C2F8A2A76"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-09-07T05:45:59Z",
+    "x_generated_by": "netkan"
+}
