@@ -1,0 +1,86 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "BeyondHome",
+    "name": "Beyond Home",
+    "abstract": "A planet mod that takes place after the Kerbol system has died. Kerbals have escaped to another star system. Beyond Home adds a unique suite of over 28 planets each with their own high quality visuals.",
+    "author": "Gameslinx",
+    "version": "1:1.5.1",
+    "ksp_version_min": "1.9",
+    "ksp_version_max": "1.10",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182708-*",
+        "repository": "https://github.com/Gameslinx/BeyondHomePlanetMod",
+        "bugtracker": "https://github.com/Gameslinx/BeyondHomePlanetMod/issues"
+    },
+    "tags": [
+        "config",
+        "planet-pack",
+        "graphics"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "Parallax-Textures"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "Scatterer-sunflare-default"
+        },
+        {
+            "name": "Parallax",
+            "version": "1.0.1"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "SigmaReplacements-SkyBox"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "GPP"
+        },
+        {
+            "name": "JNSQ"
+        },
+        {
+            "name": "GPO"
+        },
+        {
+            "name": "StockVisualEnhancements"
+        },
+        {
+            "name": "SVE-Terrain"
+        },
+        {
+            "name": "AstronomersVisualPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "BeyondHome",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Gameslinx/BeyondHomePlanetMod/releases/download/1.5.1/Beyond.Home.1.5.1.zip",
+    "download_size": 1726341080,
+    "download_hash": {
+        "sha1": "9BB5E483CFD9EBAC4FA1948E6748634A0612B9D0",
+        "sha256": "989CCD228A01365C6EBABDB3AE148CD7A48FD467ADA5F37D17E356AFE1DA77A6"
+    },
+    "download_content_type": "application/zip",
+    "release_date": "2020-09-24T08:11:12Z",
+    "x_generated_by": "netkan"
+}
