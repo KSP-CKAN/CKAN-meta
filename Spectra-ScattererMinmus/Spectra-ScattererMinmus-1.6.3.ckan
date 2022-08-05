@@ -1,12 +1,12 @@
 {
     "spec_version": "v1.18",
-    "identifier": "Spectra-KerbinLaytheSnow",
-    "name": "Kerbin and Laythe snow for Spectra",
-    "abstract": "Kerbin Laythe snow",
+    "identifier": "Spectra-ScattererMinmus",
+    "name": "Minmus Scatterer for Spectra",
+    "abstract": "Scatterer for Minmus",
     "author": "Avera9eJoe",
-    "version": "1.6.2",
+    "version": "1.6.3",
     "ksp_version_min": "1.3.0",
-    "ksp_version_max": "1.12.99",
+    "ksp_version_max": "1.12.3",
     "license": "MIT",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/159443-171-spectra-v122-visual-compilation-21th-march-19/",
@@ -20,7 +20,10 @@
     ],
     "depends": [
         {
-            "name": "EnvironmentalVisualEnhancements"
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Scatterer"
         },
         {
             "name": "Spectra"
@@ -28,18 +31,18 @@
     ],
     "install": [
         {
-            "find": "Step 3- Extras/Kerbin Laythe snow",
+            "find": "Step 3- Extras/Minmus Scatterer",
             "install_to": "GameData",
             "as": "Spectra"
         }
     ],
-    "download": "https://spacedock.info/mod/1505/Spectra/download/1.6.2",
-    "download_size": 126824467,
+    "download": "https://spacedock.info/mod/1505/Spectra/download/1.6.3",
+    "download_size": 127745971,
     "download_hash": {
-        "sha1": "F9F625D2656F0658ED46608A4F5F5ED6EBC62205",
-        "sha256": "4C1295FA208291410F714DAFB79AB9DB084E26FE78DBD5200DE4AED625E49DCD"
+        "sha1": "0486F95D2869188B6A19185F5D1F60099EF3A7F4",
+        "sha256": "F0886FCB185D5EAC60EE1D186703B842CA74FA069114AE8F4B5EE665C32B0A26"
     },
     "download_content_type": "application/zip",
-    "release_date": "2022-07-27T07:19:18.161723+00:00",
+    "release_date": "2022-08-01T05:38:24.737471+00:00",
     "x_generated_by": "netkan"
 }
