@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "WaypointManager",
+    "name": "Waypoint Manager",
+    "abstract": "Display waypoints while in flight, create custom waypoints.",
+    "author": [
+        "jrossignol",
+        "linuxgurugamer"
+    ],
+    "version": "1:2.8.3.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.99.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/194876-18x-19x-waypoint-manager/",
+        "repository": "https://github.com/linuxgurugamer/WaypointManager",
+        "bugtracker": "https://github.com/linuxgurugamer/WaypointManager/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/WaypointManager"
+    },
+    "tags": [
+        "plugin",
+        "information",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "WaypointManager",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/WaypointManager/releases/download/2.8.3.1/WaypointManager-1.11.2-2.8.3.1.zip",
+    "download_size": 113241,
+    "download_hash": {
+        "sha1": "63AEC2AD71A464AC83F539016041A9C281F09A5E",
+        "sha256": "AA77A6773E2DA98670A64A903CFAC95FCA25CC81CDF7BB96E63F3BC0F605CDA8"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 191202,
+    "release_date": "2021-06-29T23:38:59Z",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
