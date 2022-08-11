@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "PatchManager",
+    "name": "Patch Manager",
+    "abstract": "In-game patch manager, makes adding/removing patches more friendly.",
+    "author": "linuxgurugamer",
+    "version": "0.0.17.5",
+    "ksp_version_min": "1.9.0",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/163072-*",
+        "repository": "https://github.com/linuxgurugamer/PatchManager",
+        "bugtracker": "https://github.com/linuxgurugamer/PatchManager/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/PatchManager"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "fr-fr",
+        "ja",
+        "pt-br",
+        "ru"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "install_to": "GameData",
+            "find": "PatchManager"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/PatchManager/releases/download/0.0.17.5/PatchManager-1.12.0-0.0.17.5.zip",
+    "download_size": 33816,
+    "download_hash": {
+        "sha1": "793D5281F9FFD38CCB1FAE11C2C25B01F016DFE8",
+        "sha256": "6FFBEC939E1DE5F356F222DD9BABDAE80E89FB4ED505DAC550344C80F821FBE7"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 68705,
+    "release_date": "2022-08-11T12:18:21Z",
+    "x_generated_by": "netkan"
+}
