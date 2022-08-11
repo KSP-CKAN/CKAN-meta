@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "TestFlightConfig-Stock-S42-Revived",
+    "name": "TestFlight-Stock (TestFlight-Configs-Revived)",
+    "abstract": "A small add-on adding TestFlight support for stock and modded parts. You're welcome.",
+    "author": [
+        "Starstrider42",
+        "Starcatcher2009"
+    ],
+    "version": "0.3.0",
+    "ksp_version": "1.12.3",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/209303-112x-testflight-stock-testflight-configs-revived-v030-beta-2-years-5-months-a-week-and-two-days/",
+        "spacedock": "https://spacedock.info/mod/3077/TestFlight-Stock%20(TestFlight-Configs-Revived)",
+        "repository": "https://github.com/Starcatcher2009/TestFlight-Stock",
+        "x_screenshot": "https://spacedock.info/content/Starcatcher_84755/TestFlight-Stock_TestFlight-Configs-Revived/TestFlight-Stock_TestFlight-Configs-Revived-1660195075.png"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "TestFlightConfig"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TestFlight",
+            "min_version": "2.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TestFlightConfig"
+        },
+        {
+            "name": "ScrapYard"
+        },
+        {
+            "name": "OhScrap"
+        }
+    ],
+    "install": [
+        {
+            "find": "Starcatcher's Mods",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3077/TestFlight-Stock%20%28TestFlight-Configs-Revived%29/download/0.3.0",
+    "download_size": 16936,
+    "download_hash": {
+        "sha1": "B2299DF4484EA26CA787525C9D85918EE77C58C4",
+        "sha256": "FED244136DA75D459B876791A366FF30BB257A9CB338C072E92E465BBC436107"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 82866,
+    "release_date": "2022-08-11T02:54:03.719857+00:00",
+    "x_generated_by": "netkan"
+}
