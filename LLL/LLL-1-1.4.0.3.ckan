@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "LLL",
+    "name": "Lack Luster Labs Continued",
+    "abstract": "Big, boxy parts",
+    "author": "linuxgurugamer",
+    "version": "1:1.4.0.3",
+    "ksp_version_min": "1.9.1",
+    "ksp_version_max": "1.12.3",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/22926-lll-lack-luster-labs-development-thread",
+        "spacedock": "https://spacedock.info/mod/856/Lack%20Luster%20Labs%20Continued",
+        "repository": "https://github.com/linuxgurugamer/LLL-Continued",
+        "remote-avc": "http://ksp.spacetux.net/avc/LLL"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "FirespitterCore"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "CrewManifest"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/LLL",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/LLL-Extra",
+            "install_to": "GameData/LLL",
+            "filter": "Parts"
+        }
+    ],
+    "download": "https://spacedock.info/mod/856/Lack%20Luster%20Labs%20Continued/download/1.4.0.3",
+    "download_size": 12982669,
+    "download_hash": {
+        "sha1": "8C9FDEF1A124F1093B03C822DF97052EFADA39A9",
+        "sha256": "76281328992AB0117B29F87878011935FDB993FD88694B004F50E5D27DB32203"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 88547499,
+    "release_date": "2022-08-12T21:44:02.016361+00:00",
+    "x_generated_by": "netkan"
+}
