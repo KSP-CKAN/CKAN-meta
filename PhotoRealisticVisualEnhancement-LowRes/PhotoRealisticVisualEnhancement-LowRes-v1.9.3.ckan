@@ -1,0 +1,75 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "PhotoRealisticVisualEnhancement-LowRes",
+    "name": "PRVE Low Resolution",
+    "abstract": "Visual Enhancements for Real Solar System",
+    "author": "SpaceODY",
+    "version": "v1.9.3",
+    "ksp_version": "1.12.3",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "repository": "https://github.com/SpaceODY/PRVE",
+        "bugtracker": "https://github.com/SpaceODY/PRVE/issues"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Scatterer-config",
+            "version": "3:v0.0835"
+        },
+        {
+            "name": "Scatterer",
+            "version": "3:v0.0835"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "RealSolarSystem"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KS3P"
+        },
+        {
+            "name": "TUFX"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        },
+        {
+            "name": "PhotoRealisticVisualEnhancement"
+        }
+    ],
+    "install": [
+        {
+            "find": "PRVE",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/SpaceODY/PRVE/releases/download/v1.9.3/PRVE-LRv1.9.3.zip",
+    "download_size": 124942401,
+    "download_hash": {
+        "sha1": "E988068AA0D6019CC53E7EE5EB8373D4E5E0D1A3",
+        "sha256": "B43E1879AFB4CAA943E6E6363E716EF209AB07E962262985AEB189E6D62C4059"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 605403681,
+    "release_date": "2022-08-14T21:55:35Z",
+    "x_generated_by": "netkan"
+}
