@@ -1,0 +1,87 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Kerbalism-Config-RO",
+    "name": "Kerbalism - RealismOverhaul Config",
+    "abstract": "Kerbalism configuration for Realism Overhaul and RP-1",
+    "author": [
+        "SirKeplan",
+        "StollD",
+        "al2me6",
+        "blowfishpro",
+        "cherrydev",
+        "pjf",
+        "rsparkyc",
+        "stratochief66",
+        "zorg2044",
+        "NathanKell"
+    ],
+    "version": "v1.2.7",
+    "license": "Unlicense",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/ROKerbalism",
+        "bugtracker": "https://github.com/KSP-RO/ROKerbalism/issues"
+    },
+    "tags": [
+        "config",
+        "career",
+        "science",
+        "crewed"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "pt-br",
+        "ru"
+    ],
+    "provides": [
+        "Kerbalism-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealismOverhaul"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RP-0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-Config"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "USI-LS"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismConfig",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/ROKerbalism/releases/download/v1.2.7/ROKerbalism_v1.2.7.zip",
+    "download_size": 2237158,
+    "download_hash": {
+        "sha1": "7B0478A6A5281EDE1F1BFB41EE65C51CA85366BA",
+        "sha256": "54ADC0D85B39389D97FE2C0DAD9D3084FBF15B65F27568D44AE73AB60E3EBC15"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 6296251,
+    "release_date": "2022-08-15T04:25:38Z",
+    "x_generated_by": "netkan"
+}
