@@ -1,0 +1,71 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "ThunderbirdsInterKerbinRescue",
+    "name": "Thunderbirds InterKerbin Rescue",
+    "abstract": "Craft from the classic Thunderbirds series",
+    "author": "ColdJ",
+    "version": "1.0.0",
+    "ksp_version": "1.12.3",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/209424-thunderbirds-interkerbin-rescue/",
+        "spacedock": "https://spacedock.info/mod/3088/Thunderbirds%20InterKerbin%20Rescue",
+        "x_screenshot": "https://spacedock.info/content/ColdJ_60612/Thunderbirds_InterKerbin_Rescue/Thunderbirds_InterKerbin_Rescue-1660923279.jpg"
+    },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleAnimateGenericEffects"
+        },
+        {
+            "name": "RocketSoundEnhancement"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "WasdEditorCameraContinued"
+        },
+        {
+            "name": "HangerExtenderExtended"
+        },
+        {
+            "name": "KAS"
+        }
+    ],
+    "supports": [
+        {
+            "name": "KAS"
+        }
+    ],
+    "install": [
+        {
+            "find": "Thunderbirds",
+            "install_to": "GameData",
+            "filter": [
+                "SPH",
+                "VAB"
+            ]
+        },
+        {
+            "find": "SPH",
+            "install_to": "Ships"
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3088/Thunderbirds%20InterKerbin%20Rescue/download/1.0.0",
+    "download_size": 60760874,
+    "download_hash": {
+        "sha1": "27F027E89665BDE546F40FC2331F632F7DBAECC5",
+        "sha256": "459742339493F3AA73BA6770E25C4F5E8344200278340F4C38A6F8D9FAB0E78B"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 305984503,
+    "release_date": "2022-08-19T15:28:43.388458+00:00",
+    "x_generated_by": "netkan"
+}
