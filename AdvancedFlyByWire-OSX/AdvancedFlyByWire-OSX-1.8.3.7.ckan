@@ -1,0 +1,63 @@
+{
+    "spec_version": 1,
+    "identifier": "AdvancedFlyByWire-OSX",
+    "name": "Advanced Fly-By-Wire (OSX)",
+    "abstract": "AFBW is an input overhaul mod. It dramatically enhances the stock input system with a bunch of fixes and many new features.",
+    "author": "linuxgurugamer",
+    "version": "1.8.3.7",
+    "ksp_version_min": "1.12.0",
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/175359-*",
+        "spacedock": "https://spacedock.info/mod/1878/ABFW%20Revived%20(OSX%20version)",
+        "repository": "https://github.com/linuxgurugamer/ksp-advanced-flybywire",
+        "bugtracker": "https://github.com/linuxgurugamer/ksp-advanced-flybywire/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/ksp-advanced-flybywire",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/ABFW_Revived_OSX_version/ABFW_Revived_OSX_version-1527782505.4308672.png"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "provides": [
+        "AdvancedFlyByWireRevived"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AdvancedFlyByWireRevived"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ksp-advanced-flybywire",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/ksp-advanced-flybywire/releases/download/1.8.3.7/ksp-advanced-flybywire-1.12.0-1.8.3.7-osx.zip",
+    "download_size": 103082,
+    "download_hash": {
+        "sha1": "2458B26D489EF05B0497C9419B47DFA3EF49BBCA",
+        "sha256": "20BFF74F0D22035763EC9091346E09A4E53EC9162EE18C2141E2017F2C7EF0A8"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 241047,
+    "release_date": "2022-08-22T22:31:17Z",
+    "x_generated_by": "netkan"
+}
