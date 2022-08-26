@@ -1,0 +1,75 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "NTChineseRocketsPack",
+    "name": "NCAP(NT Chinese Aerospace Pack)",
+    "abstract": "NT Chinese Aerospace Pack or NCAP is a mod created for Kerbal Space Program to add Chinese rockets and spacecraft to the game. So far, this mod including: longmarch 2F, longmarch6, longmarch6A, longmarch7, Chinese Tianhe Space station and Yuanzheng-3.",
+    "author": [
+        "Old_Copper",
+        "Armo",
+        "Launcelot"
+    ],
+    "version": "1.2.3",
+    "ksp_version": "1.12.3",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/208654-1123nt-chinese-aerospace-packv120/",
+        "spacedock": "https://spacedock.info/mod/3016/NCAP(NT%20Chinese%20Aerospace%20Pack)",
+        "x_screenshot": "https://spacedock.info/content/Old_Copper_79837/NCAPNT_Chinese_Aerospace_Pack/NCAPNT_Chinese_Aerospace_Pack-1661291654.jpg"
+    },
+    "tags": [
+        "parts",
+        "crewed",
+        "graphics"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "Waterfall"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "install": [
+        {
+            "find": "NCAP",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Readme.txt",
+            "find_matches_files": true,
+            "install_to": "GameData/NTCP"
+        },
+        {
+            "find": "Changelog.txt",
+            "find_matches_files": true,
+            "install_to": "GameData/NTCP"
+        },
+        {
+            "find_regexp": "CRAFT FILES/Craft files",
+            "install_to": "Ships",
+            "as": "VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3016/NCAP%28NT%20Chinese%20Aerospace%20Pack%29/download/1.2.3",
+    "download_size": 90909011,
+    "download_hash": {
+        "sha1": "FE915E4EA5FFE54BAA7C5AC171645CF7564DBEE7",
+        "sha256": "24B2CD7DF7FBC73247B940BD36F63615896178AC56FFF71A6DA6523495DA7F75"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 140809624,
+    "release_date": "2022-08-25T18:52:06.871918+00:00",
+    "x_generated_by": "netkan"
+}
