@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Benjee10-SharedAssets",
+    "name": "Benjee10 sharedAssets",
+    "abstract": "Shared assets for Benjee10 KSP mods.",
+    "author": "benjee10",
+    "version": "v0.2.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.11.99",
+    "license": "restricted",
+    "resources": {
+        "repository": "https://github.com/benjee10/Benjee10_sharedAssets",
+        "bugtracker": "https://github.com/benjee10/Benjee10_sharedAssets/issues",
+        "remote-avc": "https://raw.githubusercontent.com/benjee10/Benjee10_sharedAssets/master/GameData/Benjee10_sharedAssets/Version/Benjee10_sharedAssets.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/Benjee10_sharedAssets",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/benjee10/Benjee10_sharedAssets/releases/download/v0.2.1/Benjee10_sharedAssets_v0.2.1.zip",
+    "download_size": 3633312,
+    "download_hash": {
+        "sha1": "3D93BF7AEAF8D22BF2E9C8B04EBFA5DCF7081A2D",
+        "sha256": "787AF17D7D0E8F50062F1C155DC1550FD585C1BC53D511C9815F87D6A413FB29"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 8398456,
+    "release_date": "2022-08-28T20:12:46Z",
+    "x_generated_by": "netkan"
+}
