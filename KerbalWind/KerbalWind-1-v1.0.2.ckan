@@ -1,5 +1,5 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "comment": "FAR only supports one wind provider at once",
     "identifier": "KerbalWind",
     "name": "Kerbal Wind",
@@ -36,6 +36,13 @@
             "name": "FARWind"
         }
     ],
+    "install": [
+        {
+            "find": "KerbalWind",
+            "install_to": "GameData",
+            "filter": "settings.cfg"
+        }
+    ],
     "download": "https://github.com/RCrockford/KerbalWind/releases/download/v1.0.2/KerbalWind.zip",
     "download_size": 27728,
     "download_hash": {
@@ -43,7 +50,7 @@
         "sha256": "63E1DD13FDAE639773EFCAAF1BBC5F941EDFA5EE64A6831AFD0AD4D6D8B08471"
     },
     "download_content_type": "application/zip",
-    "install_size": 53143,
+    "install_size": 52961,
     "release_date": "2022-08-30T11:44:33Z",
     "x_generated_by": "netkan"
 }
