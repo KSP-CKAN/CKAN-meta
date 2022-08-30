@@ -1,0 +1,49 @@
+{
+    "spec_version": 1,
+    "comment": "FAR only supports one wind provider at once",
+    "identifier": "KerbalWind",
+    "name": "Kerbal Wind",
+    "abstract": "Mod for Kerbal Space Program: Simulation of wind and turbulence.",
+    "author": [
+        "DaMichel",
+        "silverfox8124",
+        "Flibble"
+    ],
+    "version": "1:v1.0.2",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.9",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/195587-*",
+        "repository": "https://github.com/RCrockford/KerbalWind",
+        "bugtracker": "https://github.com/RCrockford/KerbalWind/issues",
+        "remote-avc": "https://raw.githubusercontent.com/RCrockford/KerbalWind/master/GameData/KerbalWind/KerbalWind.version"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "provides": [
+        "FARWind"
+    ],
+    "depends": [
+        {
+            "name": "FAR"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "FARWind"
+        }
+    ],
+    "download": "https://github.com/RCrockford/KerbalWind/releases/download/v1.0.2/KerbalWind.zip",
+    "download_size": 27728,
+    "download_hash": {
+        "sha1": "D6296282297EEA47B38DA313200E5E06DDCE7F91",
+        "sha256": "63E1DD13FDAE639773EFCAAF1BBC5F941EDFA5EE64A6831AFD0AD4D6D8B08471"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 53143,
+    "release_date": "2022-08-30T11:44:33Z",
+    "x_generated_by": "netkan"
+}
