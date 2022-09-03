@@ -1,8 +1,8 @@
 {
-    "spec_version": 1,
-    "identifier": "EPL-ISRU",
-    "name": "EPL part hider for stock ISRU",
-    "abstract": "Replaces the EPL resource chain with one using the stock ISRU parts and resources.",
+    "spec_version": "v1.2",
+    "identifier": "EPL-MKS",
+    "name": "EPL part hider for MKS",
+    "abstract": "Hides the EPL resources and parts. For use with MKS when you don't want the MKS parts cluttering the VAB.",
     "author": "ToxicFrog",
     "license": "MIT",
     "release_status": "stable",
@@ -18,11 +18,14 @@
         },
         {
             "name": "ExtraPlanetaryLaunchpads"
+        },
+        {
+            "name": "UKS"
         }
     ],
     "install": [
         {
-            "file": "misc-d88c2d71d60cce9a8d286be12dc5a3b6b6df1cdd/EPL-ISRU.cfg",
+            "file": "misc-d88c2d71d60cce9a8d286be12dc5a3b6b6df1cdd/EPL-MKS.cfg",
             "install_to": "GameData/FLEET"
         }
     ],
