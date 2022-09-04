@@ -1,0 +1,75 @@
+{
+    "spec_version": 1,
+    "identifier": "FerramAerospaceResearchContinued",
+    "name": "Ferram Aerospace Research Continued",
+    "abstract": "FAR replaces KSP's stock part-centered aerodynamics model with one based on real-life physics.",
+    "author": [
+        "ferram4",
+        "dkavolis"
+    ],
+    "version": "3:0.16.1.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179445-*",
+        "repository": "https://github.com/dkavolis/Ferram-Aerospace-Research",
+        "bugtracker": "https://github.com/dkavolis/Ferram-Aerospace-Research/issues",
+        "remote-avc": "https://raw.githubusercontent.com/dkavolis/Ferram-Aerospace-Research/master/GameData/FerramAerospaceResearch/FAR.version"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "AerodynamicModel",
+        "FAR"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ModularFlightIntegrator"
+        },
+        {
+            "name": "TweakScale-Redist"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AerodynamicModel"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/FerramAerospaceResearch",
+            "install_to": "GameData",
+            "filter": [
+                "config.xml",
+                "Scale_Redist.dll"
+            ]
+        },
+        {
+            "file": "Ships",
+            "install_to": "Ships",
+            "comment": "FAR example craft"
+        }
+    ],
+    "download": "https://github.com/dkavolis/Ferram-Aerospace-Research/releases/download/v0.16.1.0_Marangoni/FAR_0_16_1_0_Marangoni.zip",
+    "download_size": 1356651,
+    "download_hash": {
+        "sha1": "687FBEC28A8D66EAB46B203D7C31D3D45B09FE93",
+        "sha256": "A88EDC1C648E9783639D318AA0EC560A54A187E844EF894CC2E121761E6B86AB"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2741851,
+    "release_date": "2022-09-04T14:08:52Z",
+    "x_generated_by": "netkan"
+}
