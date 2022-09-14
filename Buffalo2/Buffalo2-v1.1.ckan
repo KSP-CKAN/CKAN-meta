@@ -61,7 +61,12 @@
     "install": [
         {
             "find": "Buffalo2",
-            "install_to": "GameData/WildBlueIndustries"
+            "install_to": "GameData/WildBlueIndustries",
+            "filter": "Ships"
+        },
+        {
+            "find": "Buffalo2/Ships/SPH",
+            "install_to": "Ships"
         }
     ],
     "download": "https://github.com/Angel-125/Buffalo2/releases/download/v1.1/Buffalo2.zip",
