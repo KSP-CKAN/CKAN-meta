@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ShadoUFO",
+    "name": "SHADO UFO",
+    "abstract": "Just SkyDiver for now.",
+    "author": "ColdJ",
+    "version": "1.0.0",
+    "ksp_version": "1.12.3",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/209603-shado-ufo/#comment-4169991",
+        "spacedock": "https://spacedock.info/mod/3105/SHADO%20UFO",
+        "x_screenshot": "https://spacedock.info/content/ColdJ_60612/SHADO_UFO/SHADO_UFO-1662146099.png"
+    },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CaerfinonsSuits"
+        }
+    ],
+    "install": [
+        {
+            "find": "SHADOUFOCJ",
+            "install_to": "GameData",
+            "filter": "SPH"
+        },
+        {
+            "find": "SHADOUFOCJ/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3105/SHADO%20UFO/download/1.0.0",
+    "download_size": 19326589,
+    "download_hash": {
+        "sha1": "A211F92E98CAC4F7EDA87BBC7C8587B8C3396717",
+        "sha256": "C1508035FD934F918ABC46ABD70EB90E1CDDC823CCEA91FE8001A70A656A4C63"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 63088467,
+    "release_date": "2022-09-02T19:12:51.116618+00:00",
+    "x_generated_by": "netkan"
+}
