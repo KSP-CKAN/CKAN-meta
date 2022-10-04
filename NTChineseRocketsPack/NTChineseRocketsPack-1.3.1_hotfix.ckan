@@ -1,0 +1,76 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "NTChineseRocketsPack",
+    "name": "NCAP(NT Chinese Aerospace Pack)",
+    "abstract": "NT Chinese Aerospace Pack or NCAP is a mod created for Kerbal Space Program to add Chinese rockets and spacecraft to the game. So far, this mod including: longmarch 2F, longmarch6, longmarch6A, longmarch7, Chinese Tianhe Space station, Tianwe-1 and Yuanzheng-3.",
+    "author": [
+        "Old_Copper",
+        "Armo",
+        "Launcelot"
+    ],
+    "version": "1.3.1_hotfix",
+    "ksp_version": "1.12.3",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/208654-1123nt-chinese-aerospace-packv120/",
+        "spacedock": "https://spacedock.info/mod/3016/NCAP(NT%20Chinese%20Aerospace%20Pack)",
+        "repository": "https://afdian.net/a/OldCopper?tab=home",
+        "x_screenshot": "https://spacedock.info/content/Old_Copper_79837/NCAPNT_Chinese_Aerospace_Pack/NCAPNT_Chinese_Aerospace_Pack-1661291654.jpg"
+    },
+    "tags": [
+        "parts",
+        "crewed",
+        "graphics"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "Waterfall"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "install": [
+        {
+            "find": "NCAP",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Readme.txt",
+            "find_matches_files": true,
+            "install_to": "GameData/NTCP"
+        },
+        {
+            "find": "Changelog.txt",
+            "find_matches_files": true,
+            "install_to": "GameData/NTCP"
+        },
+        {
+            "find_regexp": "CRAFT FILES/Craft files",
+            "install_to": "Ships",
+            "as": "VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3016/NCAP(NT%20Chinese%20Aerospace%20Pack)/download/1.3.1_hotfix",
+    "download_size": 138241335,
+    "download_hash": {
+        "sha1": "A585D1B0C7E01BF8D1FB07C0638CC19CBEDA8D10",
+        "sha256": "EF43A9B2D6029BD7E4AEB71EF7C7921183BE666EA2405B7780AD0D65AD144BD1"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 194606979,
+    "release_date": "2022-10-04T16:25:22.979494+00:00",
+    "x_generated_by": "netkan"
+}
