@@ -1,0 +1,115 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RasterPropMonitor",
+    "name": "RasterPropMonitor",
+    "abstract": "Modifies stock and some modded IVAs with functional props",
+    "author": [
+        "Mihara",
+        "MOARdV",
+        "JonnyOThan"
+    ],
+    "version": "1:v0.31.8",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190737-*",
+        "repository": "https://github.com/JonnyOThan/RasterPropMonitor/releases",
+        "bugtracker": "https://github.com/JonnyOThan/RasterPropMonitor/issues",
+        "remote-avc": "https://raw.githubusercontent.com/JonnyOThan/RasterPropMonitor/master/GameData/JSI/RasterPropMonitor/RasterPropMonitor.version"
+    },
+    "tags": [
+        "config",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "JSIAdvancedTransparentPods"
+        },
+        {
+            "name": "Astrogator"
+        },
+        {
+            "name": "DockingPortAlignmentIndicator"
+        },
+        {
+            "name": "NavUtilitiesContinued"
+        },
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "VesselView"
+        },
+        {
+            "name": "ProbeControlRoomRecontrolled"
+        },
+        {
+            "name": "kOSPropMonitor"
+        },
+        {
+            "name": "Chatterer"
+        },
+        {
+            "name": "FerramAerospaceResearchContinued"
+        },
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "RealChute"
+        },
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "ASETAvionics"
+        },
+        {
+            "name": "Mk1LanderCanIVAReplbyASET"
+        },
+        {
+            "name": "MK12PodIVAReplacementbyASET"
+        },
+        {
+            "name": "ALCORIVAPatch"
+        },
+        {
+            "name": "ThroughTheEyesOfaKerbal"
+        },
+        {
+            "name": "QuickIVA"
+        }
+    ],
+    "install": [
+        {
+            "find": "JSI",
+            "filter": [
+                "RasterPropMonitor",
+                "BasicMFD",
+                "README.md",
+                "LICENSE.md",
+                "Agencies"
+            ],
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/JonnyOThan/RasterPropMonitor/releases/download/v0.31.8/RasterPropMonitor-v0.31.8.zip",
+    "download_size": 1313304,
+    "download_hash": {
+        "sha1": "148800961D11E86B458BD867695468AF72A6DFE8",
+        "sha256": "2997A5DA28389DCE8630C0EB19755D1892372E911D442C34670ABCD6072609BD"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 187334,
+    "release_date": "2022-10-08T15:40:57Z",
+    "x_generated_by": "netkan"
+}
