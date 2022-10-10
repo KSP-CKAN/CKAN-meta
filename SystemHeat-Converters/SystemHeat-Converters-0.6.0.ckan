@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SystemHeat-Converters",
+    "name": "System Heat - Resource Converter Configuration",
+    "abstract": "This System Heat config package changes stock and mod Resource Converters to use the System Heat backend. WARNING: potentially vessel-breaking.",
+    "author": "Nertea (Chris Adderley)",
+    "version": "0.6.0",
+    "ksp_version_min": "1.11.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193909-1",
+        "repository": "https://github.com/post-kerbin-mining-corporation/SystemHeat",
+        "bugtracker": "https://github.com/post-kerbin-mining-corporation/SystemHeat/issues",
+        "metanetkan": "https://github.com/post-kerbin-mining-corporation/SystemHeat/raw/master/CKAN/SystemHeat-Converters.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/post-kerbin-mining-corporation/SystemHeat/master/GameData/SystemHeat/Versioning/SystemHeat.version"
+    },
+    "tags": [
+        "parts",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "SystemHeat"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SystemHeatFissionReactors"
+        },
+        {
+            "name": "SystemHeatFissionEngines"
+        },
+        {
+            "name": "SystemHeatHarvesters"
+        }
+    ],
+    "install": [
+        {
+            "find": "SystemHeatConverters",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/post-kerbin-mining-corporation/SystemHeat/releases/download/0.6.0/SystemHeat_0_6_0.zip",
+    "download_size": 1291252,
+    "download_hash": {
+        "sha1": "18CED272FC6F6221869BD797090A3C00B601859D",
+        "sha256": "B7820746DDF7EBAF56D8542A53A57C54E456A768FB864A7CB7B735052C548470"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 30474,
+    "release_date": "2022-10-10T05:11:10Z",
+    "x_generated_by": "netkan"
+}
