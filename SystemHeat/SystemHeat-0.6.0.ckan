@@ -1,0 +1,67 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SystemHeat",
+    "name": "System Heat",
+    "abstract": "System Heat revamps the Core Heat system used in stock KSP to drive drills and harvesters with a new, more powerful system. This core package does not make changes to the base game - install other SystemHeat packs to change drills, converters and the like to use Systemheat",
+    "author": "Nertea (Chris Adderley)",
+    "version": "0.6.0",
+    "ksp_version_min": "1.11.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193909-1",
+        "repository": "https://github.com/post-kerbin-mining-corporation/SystemHeat",
+        "bugtracker": "https://github.com/post-kerbin-mining-corporation/SystemHeat/issues",
+        "metanetkan": "https://github.com/post-kerbin-mining-corporation/SystemHeat/raw/master/CKAN/SystemHeat.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/post-kerbin-mining-corporation/SystemHeat/master/GameData/SystemHeat/Versioning/SystemHeat.version"
+    },
+    "tags": [
+        "parts",
+        "plugin"
+    ],
+    "localizations": [
+        "en-us",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "HeatControl"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SystemHeatConverters"
+        },
+        {
+            "name": "SystemHeatFissionReactors"
+        },
+        {
+            "name": "SystemHeatFissionEngines"
+        },
+        {
+            "name": "SystemHeatHarvesters"
+        }
+    ],
+    "install": [
+        {
+            "find": "SystemHeat",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/post-kerbin-mining-corporation/SystemHeat/releases/download/0.6.0/SystemHeat_0_6_0.zip",
+    "download_size": 1291252,
+    "download_hash": {
+        "sha1": "18CED272FC6F6221869BD797090A3C00B601859D",
+        "sha256": "B7820746DDF7EBAF56D8542A53A57C54E456A768FB864A7CB7B735052C548470"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2963012,
+    "release_date": "2022-10-10T05:11:10Z",
+    "x_generated_by": "netkan"
+}
