@@ -1,0 +1,78 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "SkyhawkKerbalism",
+    "name": "Skyhawk Kerbalism",
+    "abstract": "Kerbalism support for Skyhawk Science System",
+    "author": "CessnaSkyhawk",
+    "version": "v1.0.2",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.9",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/206109-*",
+        "repository": "https://github.com/CessnaSkyhawk/SkyhawkKerbalism",
+        "bugtracker": "https://github.com/CessnaSkyhawk/SkyhawkKerbalism/issues",
+        "remote-avc": "https://github.com/CessnaSkyhawk/SkyhawkKerbalism"
+    },
+    "tags": [
+        "config",
+        "tech-tree"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "ko-kr",
+        "pt-br",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "Kerbalism-Config"
+    ],
+    "depends": [
+        {
+            "name": "SkyhawkScienceSystem"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "BluedogDB"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "Kerbalism"
+        },
+        {
+            "name": "Harmony2"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-Config"
+        }
+    ],
+    "install": [
+        {
+            "find": "SkyhawkKerbalism",
+            "install_to": "GameData",
+            "filter": ".git"
+        }
+    ],
+    "download": "https://github.com/CessnaSkyhawk/SkyhawkKerbalism/releases/download/v1.0.2/SkyhawkKerbalism-v1.0.2.zip",
+    "download_size": 32564608,
+    "download_hash": {
+        "sha1": "6D6AC09E30C8242DCB6C4CD1BA6B3D35150C58B8",
+        "sha256": "DD50275A6982A29A3CA8866074B18C20D84929760FA86CEEFF386C0BD3241C34"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 49473148,
+    "release_date": "2022-08-11T15:33:53Z",
+    "x_generated_by": "netkan"
+}
