@@ -5,13 +5,15 @@
     "abstract": "Portable Holes for your Parts!",
     "author": "drewcassidy",
     "version": "1.1.3",
-    "ksp_version": "1.12.4",
+    "ksp_version_min": "1.11",
+    "ksp_version_max": "1.12.4",
     "license": "CC-BY-SA",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/185353-17x-moduledepthmask-portable-holes-for-your-parts/",
         "spacedock": "https://spacedock.info/mod/2943/ModuleDepthMask",
         "repository": "https://github.com/drewcassidy/KSP-DepthMask",
         "bugtracker": "https://github.com/drewcassidy/KSP-DepthMask/issues",
+        "remote-avc": "https://github.com/drewcassidy/KSP-DepthMask/releases/latest/download/DepthMask.version",
         "x_screenshot": "https://spacedock.info/content/drewcassidy_10616/ModuleDepthMask/ModuleDepthMask-1641255076.png"
     },
     "tags": [
@@ -25,9 +27,8 @@
     ],
     "install": [
         {
-            "find": "DepthMask.dll",
-            "find_matches_files": true,
-            "install_to": "GameData/DepthMask"
+            "find": "GameData/DepthMask",
+            "install_to": "GameData"
         },
         {
             "find": "README.md",
@@ -42,7 +43,7 @@
         "sha256": "07947C3497218388753B67BFD5A2B245A47BA80CFE6F69F9C0E7B4A47FB51395"
     },
     "download_content_type": "application/zip",
-    "install_size": 9718,
+    "install_size": 10261,
     "release_date": "2022-11-04T02:26:27.046967+00:00",
     "x_generated_by": "netkan"
 }
