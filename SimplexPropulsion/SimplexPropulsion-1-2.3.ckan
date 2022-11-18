@@ -1,0 +1,39 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "SimplexPropulsion",
+    "name": "SIMPLEX Propulsion",
+    "abstract": "Adjusts engine atmospheric performance to give a more unique playthrough.",
+    "author": "theJesuit",
+    "version": "1:2.3",
+    "ksp_version": "1.12.4",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182930-161-simplex-propulsion-10/",
+        "spacedock": "https://spacedock.info/mod/2112/SIMPLEX%20Propulsion"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "AngleCanMods",
+            "install_to": "GameData",
+            "filter_regexp": "\\.xlsx$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2112/SIMPLEX%20Propulsion/download/2.3.20221118",
+    "download_size": 21248,
+    "download_hash": {
+        "sha1": "88BC8D227BA43BA84B479E7624388700610ABAFC",
+        "sha256": "1810345206990B389A173C9FCF522D555D4421025788946853236E734C1100A1"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 85733,
+    "release_date": "2022-11-17T15:29:51.585016+00:00",
+    "x_generated_by": "netkan"
+}
