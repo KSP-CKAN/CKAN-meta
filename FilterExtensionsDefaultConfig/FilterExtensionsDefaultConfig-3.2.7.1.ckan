@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "FilterExtensionsDefaultConfig",
+    "name": "Filter Extensions - Default Configuration",
+    "abstract": "Configuration files using Filter Extensions to create a large array of new part categories in the Editor",
+    "author": "linuxgurugamer",
+    "version": "3.2.7.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/168456-14-filter-extensions-no-localization/",
+        "spacedock": "https://spacedock.info/mod/1972/Filter%20Extensions",
+        "repository": "https://github.com/linuxgurugamer/FilterExtension",
+        "bugtracker": "https://github.com/linuxgurugamer/FilterExtension/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/FilterExtension",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Filter_Extensions/Filter_Extensions-1537624808.6939957.jpg"
+    },
+    "tags": [
+        "config",
+        "convenience",
+        "editor"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "FilterExtensions"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/000_FilterExtensions_Configs/Default",
+            "install_to": "GameData/000_FilterExtensions_Configs"
+        },
+        {
+            "file": "GameData/zFinal_FilterExtensions",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1972/Filter%20Extensions/download/3.2.7.1",
+    "download_size": 760179,
+    "download_hash": {
+        "sha1": "C2A3D456B6142DADA32CB4F638D43144A5350C05",
+        "sha256": "4172DCDCE3CE790F6704B3B704C8D653C2D5DF3CE8F2E0B06369EDB6A5820D6F"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 85286,
+    "release_date": "2022-11-28T20:20:42.833888+00:00",
+    "x_generated_by": "netkan"
+}
