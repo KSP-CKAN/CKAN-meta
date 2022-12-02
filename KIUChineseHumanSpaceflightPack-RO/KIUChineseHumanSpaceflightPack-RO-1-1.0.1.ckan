@@ -1,0 +1,84 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "KIUChineseHumanSpaceflightPack-RO",
+    "name": "KIU Chinese Human Spaceflight Pack (real scale)",
+    "abstract": "This mod will bring all of the Chinese Human Spaceflight vehicles to KSP.",
+    "author": [
+        "Old_Copper",
+        "Armo",
+        "Launcelot"
+    ],
+    "version": "1:1.0.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/208654-1123nt-chinese-aerospace-packv120/",
+        "spacedock": "https://spacedock.info/mod/3144/KCHS%20(KIU%20Chinese%20Human%20Spaceflight%20Pack)",
+        "repository": "https://github.com/Armo00/KIU-Pack",
+        "bugtracker": "https://github.com/Armo00/KIU-Pack/issues",
+        "x_screenshot": "https://spacedock.info/content/Old_Copper_79837/KIU_Chinese_Human_Spaceflight_Pack/KIU_Chinese_Human_Spaceflight_Pack-1667076630.jpg"
+    },
+    "tags": [
+        "parts",
+        "crewed",
+        "graphics"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "KIUChinese-Common"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KIUChineseHumanSpaceflightPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "KIU",
+            "install_to": "GameData",
+            "filter": [
+                "Common",
+                "CraftFiles"
+            ]
+        },
+        {
+            "find": "KCHS_RealScalePatch",
+            "install_to": "GameData/KIU"
+        },
+        {
+            "find": "CraftFiles/RO",
+            "install_to": "Ships",
+            "as": "VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3144/KCHS%20(KIU%20Chinese%20Human%20Spaceflight%20Pack)/download/1.0.1",
+    "download_size": 118308574,
+    "download_hash": {
+        "sha1": "E9C78C78AC476496690E67EC58BB48EEF17413EB",
+        "sha256": "46DAB969F3DF688AC2A6791A1ABE792FEFAEF5006B8DCFA4F1856524C5E6510F"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 201075446,
+    "release_date": "2022-12-02T04:11:41.492688+00:00",
+    "x_generated_by": "netkan"
+}
