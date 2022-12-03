@@ -1,0 +1,67 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "KerbolsHumbleNeighboringStars",
+    "name": "KHNS",
+    "abstract": "Kerbol's Humble Neighboring Stars ",
+    "author": "An Amongus Sussy Player",
+    "version": "1:Beta-1.4",
+    "ksp_version_min": "1.10",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/207835-*/",
+        "repository": "https://github.com/parkerman-com/KHNS",
+        "bugtracker": "https://github.com/parkerman-com/KHNS/issues"
+    },
+    "tags": [
+        "plugin",
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "Scatterer-config",
+        "Scatterer-sunflare"
+    ],
+    "depends": [
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "VertexMitchellNetravaliHeightMap"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Scatterer-config"
+        },
+        {
+            "name": "Scatterer-sunflare"
+        }
+    ],
+    "install": [
+        {
+            "find": "KHNS",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/parkerman-com/KHNS/releases/download/Beta-1.4/KHNS_Beta_1.4.zip",
+    "download_size": 521181494,
+    "download_hash": {
+        "sha1": "95B14A484703EAD3718E36F42A3D701A0858E6BB",
+        "sha256": "1E3F924D80BB77A6A3FDF8B04BC4CC71D35F8D8B47BFBEBC8E92D640ED9AC6F0"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 653182361,
+    "release_date": "2022-12-03T06:38:06Z",
+    "x_generated_by": "netkan"
+}
