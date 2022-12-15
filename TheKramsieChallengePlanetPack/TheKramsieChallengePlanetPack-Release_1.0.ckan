@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "TheKramsieChallengePlanetPack",
+    "name": "The Kramsie Challenge Planet Pack!",
+    "abstract": "A planet pack adding a whopping 14 worlds to the stock system (with scatterer!)",
+    "author": "Kramken",
+    "version": "Release_1.0",
+    "ksp_version": "1.12.4",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/3165/The%20Kramsie%20Challenge%20Planet%20Pack!",
+        "x_screenshot": "https://spacedock.info/content/Kramken_60297/The_Kramsie_Challenge_Planet_Pack/The_Kramsie_Challenge_Planet_Pack-1670983182.png"
+    },
+    "tags": [
+        "plugin",
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "Scatterer-config",
+        "Scatterer-sunflare"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "BetterKerbol"
+        }
+    ],
+    "install": [
+        {
+            "find": "KramChal",
+            "install_to": "GameData",
+            "filter": [
+                "icon",
+                "shaders",
+                "Scatterer.dll"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/3165/The%20Kramsie%20Challenge%20Planet%20Pack!/download/Release_1.0",
+    "download_size": 318943776,
+    "download_hash": {
+        "sha1": "CD065EE0E3879F828D4A25240957ABF5DABF7079",
+        "sha256": "35FDEBC3089BDE5B220967C80DC614EF4985503761956127D029F8CB38A92291"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 317212215,
+    "release_date": "2022-12-14T01:56:08.9138+00:00",
+    "x_generated_by": "netkan"
+}
