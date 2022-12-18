@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.16",
+    "comment": "Providing but not conflicting is deliberate, as both UIs can be installed at the same time.",
+    "identifier": "VesselView-UI-Toolbar",
+    "name": "VesselView-UI-Toolbar",
+    "abstract": "View your vessel in the IVA ",
+    "author": "linuxgurugamer",
+    "version": "1:0.8.8.6",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.4",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/146692-113-vessel-viewer-continued/",
+        "spacedock": "https://spacedock.info/mod/923/Vessel%20Viewer%20Continued",
+        "repository": "https://github.com/linuxgurugamer/VesselViewer",
+        "bugtracker": "https://github.com/linuxgurugamer/VesselViewer/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/VesselView",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Vessel_Viewer_Continued/Vessel_Viewer_Continued-1472389126.1938586.png"
+    },
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "provides": [
+        "VesselView-UI"
+    ],
+    "depends": [
+        {
+            "name": "VesselView"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "VesselViewPlugin.dll",
+            "install_to": "GameData/VesselView/Plugins",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/923/Vessel%20Viewer%20Continued/download/0.8.8.6",
+    "download_size": 869603,
+    "download_hash": {
+        "sha1": "C5CD5B81D910028BB069201B796BC7139F5D2F85",
+        "sha256": "10246C32416F9AE55B360BCB0CD24CE1AC47824CF80C0B3AFB2AE5F6F67CAEB3"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 17920,
+    "release_date": "2022-12-18T12:50:12.950374+00:00",
+    "x_generated_by": "netkan"
+}
