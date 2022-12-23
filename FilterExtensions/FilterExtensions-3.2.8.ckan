@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "FilterExtensions",
+    "name": "Filter Extensions - Plugin",
+    "abstract": "Plugin allowing for configurable filters for the VAB/SPH using .cfg files.",
+    "author": "linuxgurugamer",
+    "version": "3.2.8",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.4",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/168456-14-filter-extensions-no-localization/",
+        "spacedock": "https://spacedock.info/mod/1972/Filter%20Extensions",
+        "repository": "https://github.com/linuxgurugamer/FilterExtension",
+        "bugtracker": "https://github.com/linuxgurugamer/FilterExtension/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/FilterExtension",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Filter_Extensions/Filter_Extensions-1537624808.6939957.jpg"
+    },
+    "tags": [
+        "plugin",
+        "convenience",
+        "editor"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "FilterExtensionsDefaultConfig"
+        },
+        {
+            "name": "MoarFEConfigs"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/000_FilterExtensions",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/000_FilterExtensions_Configs",
+            "install_to": "GameData",
+            "filter": [
+                "Default",
+                "StockRework"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/1972/Filter%20Extensions/download/3.2.8",
+    "download_size": 760770,
+    "download_hash": {
+        "sha1": "98AD74EBD8C670BAFED3A6830CC0975CC9688904",
+        "sha256": "CD8BE1667C5AB8081D1479E58259784745D2B4258D303F6353F9C9605B4E1049"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2819088,
+    "release_date": "2022-12-23T02:18:10.851523+00:00",
+    "x_generated_by": "netkan"
+}
