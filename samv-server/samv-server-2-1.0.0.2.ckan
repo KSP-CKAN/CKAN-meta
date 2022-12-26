@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "samv-server",
+    "name": "Stand alone map view server",
+    "abstract": "A Kerbal Space Program mod that opens the map view in another window/monitor",
+    "author": [
+        "DanielKinsman",
+        "linuxgurugamer"
+    ],
+    "version": "2:1.0.0.2",
+    "ksp_version_min": "1.12.3",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/211182-*/",
+        "repository": "https://github.com/linuxgurugamer/stand-alone-map-view",
+        "bugtracker": "https://github.com/linuxgurugamer/stand-alone-map-view/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/StandAloneMapView"
+    },
+    "tags": [
+        "plugin",
+        "app"
+    ],
+    "conflicts": [
+        {
+            "name": "samv-client"
+        }
+    ],
+    "install": [
+        {
+            "find": "samv_server",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/stand-alone-map-view/releases/download/1.0.0.2/StandAloneMapView-1.12.0-1.0.0.2-server.zip",
+    "download_size": 127288,
+    "download_hash": {
+        "sha1": "26A3C998B4E6E4F0945DFD0439E2E5FA2F534F62",
+        "sha256": "E6157E24777D4075E9902E4E8E72B8956B3B205AC831EE7812B48F609BB14961"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 291729,
+    "release_date": "2022-12-26T20:42:21Z",
+    "x_generated_by": "netkan"
+}
