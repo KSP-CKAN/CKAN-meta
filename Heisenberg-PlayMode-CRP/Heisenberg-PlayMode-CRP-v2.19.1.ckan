@@ -1,0 +1,79 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Heisenberg-PlayMode-CRP",
+    "name": "Heisenberg CRP Play Mode",
+    "abstract": "Giant floating aircraft",
+    "author": "Angel-125",
+    "version": "v2.19.1",
+    "ksp_version_min": "1.12.2",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/150702-*",
+        "repository": "https://github.com/Angel-125/Airships",
+        "bugtracker": "https://github.com/Angel-125/Airships/issues",
+        "remote-avc": "https://github.com/Angel-125/Airships/raw/master/GameData/WildBlueIndustries/Heisenberg/Airships.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "Heisenberg-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "Heisenberg"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "WildBlue-PlayMode-CRP"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Heisenberg-PlayMode"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries/Heisenberg/Templates/CRP.cfg",
+            "install_to": "GameData/WildBlueIndustries/Heisenberg/Templates",
+            "find_matches_files": true
+        },
+        {
+            "find": "Heisenberg/Templates/CRP/BisonISRU.txt",
+            "install_to": "GameData/WildBlueIndustries/Heisenberg/Templates/CRP",
+            "as": "BisonISRU.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "Heisenberg/Templates/CRP/GondoLab.txt",
+            "install_to": "GameData/WildBlueIndustries/Heisenberg/Templates/CRP",
+            "as": "GondoLab.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "Heisenberg/Templates/CRP/MM_GyroRing.txt",
+            "install_to": "GameData/WildBlueIndustries/Heisenberg/Templates/CRP",
+            "as": "MM_GyroRing.cfg",
+            "find_matches_files": true
+        },
+        {
+            "find": "Heisenberg/Templates/CRP/MM_Snacks.txt",
+            "install_to": "GameData/WildBlueIndustries/Heisenberg/Templates/CRP",
+            "as": "MM_Snacks.cfg",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/Airships/releases/download/v2.19.1/Heisenberg.zip",
+    "download_size": 50734733,
+    "download_hash": {
+        "sha1": "A73E0F753132C65DBC332E534F366CF18FB7744A",
+        "sha256": "33E66334FF9E599E55D69E31D3125A8AA3228EC08520756C46334BE07FA05058"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 16991,
+    "release_date": "2023-01-04T18:28:39Z",
+    "x_generated_by": "netkan"
+}
