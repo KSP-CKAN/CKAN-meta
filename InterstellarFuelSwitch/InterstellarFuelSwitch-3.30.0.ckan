@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "InterstellarFuelSwitch",
+    "name": "Interstellar Fuel Switch",
+    "abstract": "Library that enables switching the contents, meshes, and textures of tanks",
+    "author": "FreeThinker",
+    "version": "3.30.0",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.12.5",
+    "license": "GPL-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/106243-interstellar-fuel-switch/",
+        "spacedock": "https://spacedock.info/mod/175/Interstellar%20Fuel%20Switch",
+        "repository": "https://github.com/sswelm/KSP-Interstellar-Extended/tree/master/FuelSwitch",
+        "bugtracker": "https://github.com/sswelm/KSP-Interstellar-Extended/issues",
+        "remote-avc": "https://raw.githubusercontent.com/sswelm/KSP-Interstellar-Extended/master/GameData/InterstellarFuelSwitch/Plugins/InterstellarFuelSwitch.version",
+        "x_screenshot": "https://spacedock.info/content/FreeThinker_517/Interstellar_Fuel_Switch/Interstellar_Fuel_Switch-1481278354.0821617.jpg"
+    },
+    "tags": [
+        "crewed",
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "InterstellarFuelSwitch-Core",
+            "min_version": "1.28"
+        },
+        {
+            "name": "CommunityTechTree"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KSPInterstellarExtended"
+        },
+        {
+            "name": "PatchManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "InterstellarFuelSwitch",
+            "install_to": "GameData",
+            "filter": [
+                "Plugins",
+                "Resources",
+                "Localization"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/175/Interstellar%20Fuel%20Switch/download/3.30.0",
+    "download_size": 22557518,
+    "download_hash": {
+        "sha1": "575CE726CE2A88F7FE1B8549875621D660752D2B",
+        "sha256": "BA748967AE434415FD3CBAFFD76A2768EE95BBC4E561A3EB3E8DB40584DEB356"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 61464167,
+    "release_date": "2023-01-22T18:54:07.873437+00:00",
+    "x_generated_by": "netkan"
+}
