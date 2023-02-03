@@ -1,0 +1,66 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "InfernalRoboticsNext",
+    "name": "Infernal Robotics - Next",
+    "abstract": "Robotic parts for your constructions",
+    "author": [
+        "Rudolf Meier",
+        "ZodiusInfuser",
+        "Ziw",
+        "sirkut"
+    ],
+    "version": "v3.1.8",
+    "ksp_version_min": "1.12.0",
+    "license": "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184787-*",
+        "repository": "https://github.com/meirumeiru/InfernalRobotics",
+        "remote-avc": "https://github.com/meirumeiru/InfernalRobotics/raw/develop/Resources/GameData/MagicSmokeIndustries/InfernalRobotics.version"
+    },
+    "tags": [
+        "parts",
+        "plugin"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TweakScale-Redist"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalJointReinforcementNext"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "InfernalRobotics"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/MagicSmokeIndustries",
+            "install_to": "GameData",
+            "filter": "Scale_Redist.dll"
+        }
+    ],
+    "download": "https://github.com/meirumeiru/InfernalRobotics/releases/download/v3.1.8/InfernalRobotics_v3.1.8.zip",
+    "download_size": 3094068,
+    "download_hash": {
+        "sha1": "224CCBF0FFAF15D97ECA57C36A4C73BB4ADB05D0",
+        "sha256": "1101C104EB6FC74D50FF8D0CFD4D3314CCD549F2987CE56FB100F9AFD2717A91"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 10892830,
+    "release_date": "2023-02-03T12:56:20Z",
+    "x_generated_by": "netkan"
+}
