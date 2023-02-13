@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "kOS",
+    "name": "kOS: Scriptable Autopilot System",
+    "abstract": "kOS is a scriptable autopilot mod that allows you write small programs to automate specific tasks.",
+    "author": "many KSP-KOS contributers, currently dunbaratu and hvacengi",
+    "version": "1:1.4.0.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://ksp-kos.github.io/KOS_DOC/",
+        "repository": "https://github.com/KSP-KOS/KOS",
+        "bugtracker": "https://github.com/KSP-KOS/KOS/issues",
+        "manual": "https://ksp-kos.github.io/KOS_DOC/",
+        "metanetkan": "https://raw.githubusercontent.com/KSP-KOS/KOS/master/kOS.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/KSP-KOS/KOS/master/Resources/GameData/kOS/kOS.version"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "recommends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.5.6",
+            "comment": "Earlier versions of MM have forward compatibility problems, according to the MM release notes."
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RemoteTech",
+            "min_version": "1.5.1",
+            "comment": "RT gives incentive to having local control of craft, even unmanned ones"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "kOS-Classic"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/kOS",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-KOS/KOS/releases/download/v1.4.0.0/kOS-v1.4.0.0.zip",
+    "download_size": 3755124,
+    "download_hash": {
+        "sha1": "4FFE1EDA74AD51E73C5F18A839E9804B900F03DE",
+        "sha256": "979260322070F179C1564F5C21E54ECC94D457030F73D127F09068B9DBA19953"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 10021516,
+    "release_date": "2023-02-13T05:51:09Z",
+    "x_generated_by": "netkan"
+}
