@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.16",
+    "spec_version": "v1.26",
     "identifier": "IXSWarpshipOS",
     "name": "IXS-Warpship-OS",
     "abstract": "Kerbal remake of Dr. White's concept design of a warp capable space vessel using Dr. Alcubierre's theory on bending space-time, effectively circumventing Einstein's law of relativity. This mod continues the work RoverDude, Stevie_D and Sophia. This mod requires RoverDude's Alcubierre Drive (standalone) and Community Resource Pack. Suggested additional mod: Spacedocks (by Fenrir)",
@@ -28,14 +28,16 @@
         },
         {
             "name": "ModuleManager"
-        }
-    ],
-    "recommends": [
-        {
-            "name": "WarpDrive"
         },
         {
-            "name": "AlcubierreStandalone"
+            "any_of": [
+                {
+                    "name": "AlcubierreStandalone"
+                },
+                {
+                    "name": "WarpDrive"
+                }
+            ]
         }
     ],
     "suggests": [
