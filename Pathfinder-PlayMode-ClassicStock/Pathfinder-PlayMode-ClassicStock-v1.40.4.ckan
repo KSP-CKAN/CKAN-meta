@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "Pathfinder-PlayMode-ClassicStock",
+    "name": "Pathfinder Classic Stock Play Mode",
+    "abstract": "Space Camping @ Geoscience",
+    "author": "Angel-125",
+    "version": "v1.40.4",
+    "ksp_version_min": "1.12.2",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121397-*",
+        "repository": "https://github.com/Angel-125/Pathfinder",
+        "bugtracker": "https://github.com/Angel-125/Pathfinder/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/Pathfinder/master/GameData/WildBlueIndustries/Pathfinder/Pathfinder.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "Pathfinder-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "WildBlue-PlayMode-ClassicStock"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Pathfinder"
+        }
+    ],
+    "install": [
+        {
+            "find": "Pathfinder/Templates/ClassicStock",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates"
+        },
+        {
+            "find": "Pathfinder/Templates/ClassicStock.cfg",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/Pathfinder/releases/download/v1.40.4/Pathfinder.zip",
+    "download_size": 51206682,
+    "download_hash": {
+        "sha1": "DA2629CB915F779F55B162A332FDE9A62363A650",
+        "sha256": "AD7C418ECDF67D28BFE1A45A61895E215E3B5C81B5BA5C787842C3AFD02DE995"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 75753,
+    "release_date": "2023-02-18T01:04:31Z",
+    "x_generated_by": "netkan"
+}
