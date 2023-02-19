@@ -1,8 +1,8 @@
 {
     "spec_version": "v1.4",
     "identifier": "SimpleConstruction",
-    "name": "SimpleConstruction!",
-    "abstract": "Simple craft building capability in flight mode",
+    "name": "SimpleConstruction! (SCON) by matterbeam",
+    "abstract": " This mod aims to provide simple craft building capability in flight mode to stock parts. ",
     "author": [
         "matterbeam",
         "zer0Kerbal",
@@ -11,7 +11,7 @@
     "version": "1:4.0.2.7",
     "ksp_version_min": "1.9.1",
     "ksp_version_max": "1.11.9999",
-    "license": "MIT",
+    "license": "GPL-3.0",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191424-*/",
         "spacedock": "https://spacedock.info/mod/59/SimpleConstruction!%20(SCON)%20by%20matterbeam",
@@ -22,8 +22,7 @@
     },
     "tags": [
         "plugin",
-        "resources",
-        "config"
+        "resources"
     ],
     "localizations": [
         "en-us",
@@ -35,9 +34,6 @@
     "depends": [
         {
             "name": "ModuleManager"
-        },
-        {
-            "name": "CommunityResourcePack"
         }
     ],
     "recommends": [
@@ -46,26 +42,29 @@
         },
         {
             "name": "Toolbar"
-        },
-        {
-            "name": "B9PartSwitch"
         }
     ],
     "suggests": [
         {
-            "name": "StockalikeMiningExtension"
+            "name": "KeridianDynamicsVesselAssembly"
+        },
+        {
+            "name": "GPOSpeedPump"
         },
         {
             "name": "NotSoSimpleConstruction"
         },
         {
-            "name": "KIS"
+            "name": "OnDemandFuelCells"
         },
         {
-            "name": "KAS"
+            "name": "SimpleLogistics"
         },
         {
-            "name": "KeridianDynamicsVesselAssembly"
+            "name": "StockalikeMiningExtension"
+        },
+        {
+            "name": "ISRUThanksButNoTanks"
         },
         {
             "name": "KerbalJointReinforcementNext"
@@ -73,13 +72,40 @@
     ],
     "supports": [
         {
-            "name": "KerbalChangelog"
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "CommunityCategoryKit"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "InterstellarFuelSwitch"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "Kerbalism"
+        },
+        {
+            "name": "KerbalPlanetaryBaseSystems"
         },
         {
             "name": "Kethane"
         },
         {
-            "name": "B9PartSwitch"
+            "name": "KIS"
+        },
+        {
+            "name": "StationPartsExpansionRedux"
+        },
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "USI-FTT"
         }
     ],
     "conflicts": [
