@@ -1,0 +1,77 @@
+{
+    "spec_version": "v1.24",
+    "identifier": "MK12PodIVAReplacementbyASET",
+    "name": "ASET Consolidated Stock Replacement IVAs",
+    "abstract": "A set of three advanced, functional IVAs",
+    "author": "StoneBlue",
+    "version": "1:2.0.0",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/211905-wip-1125-181-aset-consolidated-avionics-props-iva-packs",
+        "spacedock": "https://spacedock.info/mod/3241/ASET%20Consolidated%20Stock%20Replacement%20IVAs",
+        "repository": "https://github.com/StoneBlue/ASET-Consolidated-IVAs",
+        "bugtracker": "https://github.com/StoneBlue/ASET-Consolidated-IVAs/issues",
+        "remote-avc": "https://raw.githubusercontent.com:443/StoneBlue/ASET-Consolidated-Props/main/GameData/ASET/ASET_StockRpl_IVAs/ASET_StockRpl_IVAs.version",
+        "x_screenshot": "https://spacedock.info/content/StoneBlue_14786/ASET_Consolidated_Stock_Replacement_IVAs/ASET_Consolidated_Stock_Replacement_IVAs-1676233614.png"
+    },
+    "tags": [
+        "config",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ASETAgency"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RasterPropMonitor-Core",
+            "min_version": "0.28.0"
+        },
+        {
+            "name": "ASETProps",
+            "min_version": "1.4"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "VesselView"
+        },
+        {
+            "name": "DockingPortAlignmentIndicator"
+        },
+        {
+            "name": "Astrogator"
+        }
+    ],
+    "install": [
+        {
+            "find": "ASET_StockRpl_IVAs",
+            "install_to": "GameData",
+            "include_only": [
+                "Assets",
+                "ASET_StckRplc_Mk1-2_Pod.cfg",
+                "RPM_ASET_StckRplc_Mk1-2_Pod_Patch.cfg"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/3241/ASET%20Consolidated%20Stock%20Replacement%20IVAs/download/2.0.0",
+    "download_size": 1145601,
+    "download_hash": {
+        "sha1": "62025B1EC042BDCE3F6F951C2439CA4ECCF4376C",
+        "sha256": "F5522A278D7EA7CC6C1C29B2BD330EFA7FD6C200EB27D25FF0C7FB8F71D40363"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2110682,
+    "release_date": "2023-02-12T14:49:26.682419+00:00",
+    "x_generated_by": "netkan"
+}
