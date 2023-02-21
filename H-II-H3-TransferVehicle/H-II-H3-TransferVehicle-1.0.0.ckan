@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "H-II-H3-TransferVehicle",
+    "name": "H-II (H3) Transfer Vehicle",
+    "abstract": "Mod adds parts for HTV cargo spacecraft",
+    "author": "MATVEICH_YT",
+    "version": "1.0.0",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/210705-1124-h-ii-h3-transfer-vehicle-063-wip/",
+        "spacedock": "https://spacedock.info/mod/3156/H-II%20(H3)%20Transfer%20Vehicle",
+        "repository": "https://github.com/matvey00701/Matveich_HTV",
+        "bugtracker": "https://github.com/matvey00701/Matveich_HTV/issues",
+        "x_screenshot": "https://spacedock.info/content/MATVEICH_YT_84375/H-II_H3_Transfer_Vehicle/H-II_H3_Transfer_Vehicle-1676963684.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "Waterfall"
+        }
+    ],
+    "install": [
+        {
+            "find": "Matveich_HTV",
+            "install_to": "GameData",
+            "filter_regexp": "\\.craft$"
+        },
+        {
+            "find": "Crafts",
+            "install_to": "Ships",
+            "as": "VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3156/H-II%20(H3)%20Transfer%20Vehicle/download/1.0.0",
+    "download_size": 66687136,
+    "download_hash": {
+        "sha1": "9A00E21516FD67906B5EA08115AB1A587ADAA3C1",
+        "sha256": "A4253F3D559CA5F2A7FA4AA132E5D5CF855EF07D14DB8B5595EE3608792B2364"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 166441888,
+    "release_date": "2023-02-21T07:13:11.198328+00:00",
+    "x_generated_by": "netkan"
+}
