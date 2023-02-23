@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "HabTechRobotics",
+    "name": "ht Robotics",
+    "abstract": "Canadarm robotics parts for KSP",
+    "author": "benjee10",
+    "version": "v1.0.0",
+    "ksp_version_min": "1.11.0",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "resources": {
+        "repository": "https://github.com/benjee10/htRobotics",
+        "bugtracker": "https://github.com/benjee10/htRobotics/issues",
+        "remote-avc": "https://raw.githubusercontent.com/benjee10/htRobotics/master/GameData/htRobotics/Version/htRobotics.version"
+    },
+    "tags": [
+        "parts",
+        "library"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Habtech2"
+        },
+        {
+            "name": "ShuttleOrbiterConstructionKit"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/htRobotics",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/benjee10/htRobotics/releases/download/v1.0.0/habTechRobotics_v1.0.0.zip",
+    "download_size": 18499133,
+    "download_hash": {
+        "sha1": "500C0869E48FFEB10B5907A81D1FEAEF47FDBCCC",
+        "sha256": "CBC350EBD74979F4F1D42AE210FB9CED97B242D963ABBD9E3E4EF0AFF12C50C7"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 14996533,
+    "release_date": "2023-02-18T11:42:35Z",
+    "x_generated_by": "netkan"
+}
