@@ -1,0 +1,88 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RetroFuture",
+    "name": "Retrofuture Space Plane Parts Modernized",
+    "abstract": "A collection of aircraft and spacecraft parts with a retro style",
+    "author": [
+        "LinuxGuruGamer",
+        "NohArk",
+        "amankduffers"
+    ],
+    "version": "2:0.3.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.5",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184628-16117-retrofuture-modernized/",
+        "spacedock": "https://spacedock.info/mod/2153/Retrofuture%20Space%20Plane%20Parts%20Modernized",
+        "repository": "https://github.com/linuxgurugamer/RetroFuture",
+        "bugtracker": "https://github.com/linuxgurugamer/RetroFuture/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/RetroFuture",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Retrofuture_Space_Plane_Parts_Modernized/Retrofuture_Space_Plane_Parts_Modernized-1558395418.3084066.png"
+    },
+    "tags": [
+        "parts",
+        "combat"
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "KSPWheel"
+        },
+        {
+            "name": "B9-PWings-Fork"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "FerramAerospaceResearchContinued"
+        },
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "PatchManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SmokeScreen"
+        },
+        {
+            "name": "TweakScale"
+        }
+    ],
+    "supports": [
+        {
+            "name": "BDArmory"
+        }
+    ],
+    "install": [
+        {
+            "find": "RetroFuture",
+            "install_to": "GameData",
+            "filter": [
+                "Ships"
+            ]
+        },
+        {
+            "find": "Ships/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2153/Retrofuture%20Space%20Plane%20Parts%20Modernized/download/0.3.1",
+    "download_size": 45334376,
+    "download_hash": {
+        "sha1": "7A10BB3C391AF7022B02B3997A9DB94A218B5442",
+        "sha256": "AE0611BBDAAE3C5D027AF7CFA70AD4BB52A3CFBAE2EE0E9B24996136CD4C1E3D"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 62204761,
+    "release_date": "2023-02-24T12:51:32.925344+00:00",
+    "x_generated_by": "netkan"
+}
