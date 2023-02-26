@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "TestFlightConfig-Stock-S42-Revived",
+    "name": "TestFlight-Stock (TestFlight-Configs Revived): Even better than the official pack!",
+    "abstract": "A small add-on adding TestFlight support for stock and modded parts, providing them success/failure chances (including engine reliability and ignition chance) and different failure modes depending on the engine type.",
+    "author": [
+        "Starstrider42",
+        "Starcatcher2009"
+    ],
+    "version": "0.4.1",
+    "ksp_version": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/209303-112x-testflight-stock-testflight-configs-revived-v030-beta-2-years-5-months-a-week-and-two-days/",
+        "spacedock": "https://spacedock.info/mod/3077/TestFlight-Stock%20(TestFlight-Configs%20Revived):%20Even%20better%20than%20the%20official%20pack!",
+        "repository": "https://github.com/Starcatcher2009/TestFlight-Stock",
+        "x_screenshot": "https://spacedock.info/content/Starcatcher_84755/TestFlight-Stock_TestFlight-Configs-Revived/TestFlight-Stock_TestFlight-Configs-Revived-1660195075.png"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "TestFlightConfig"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TestFlight",
+            "min_version": "2.0.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TestFlightConfig"
+        },
+        {
+            "name": "ScrapYard"
+        },
+        {
+            "name": "OhScrap"
+        }
+    ],
+    "install": [
+        {
+            "find": "Starcatcher's Mods",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3077/TestFlight-Stock%20(TestFlight-Configs%20Revived):%20Even%20better%20than%20the%20official%20pack!/download/0.4.1",
+    "download_size": 25844,
+    "download_hash": {
+        "sha1": "CB6F93871C4E9A583C20A74EBD62900ABD305C03",
+        "sha256": "B6967ECB2A51DB709ADFC5CC83CC812E25CE8C834369FEB4F18482DC254A33E9"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 126303,
+    "release_date": "2023-02-26T02:58:29.727149+00:00",
+    "x_generated_by": "netkan"
+}
