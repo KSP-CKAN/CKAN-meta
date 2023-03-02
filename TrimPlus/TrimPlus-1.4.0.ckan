@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "TrimPlus",
+    "name": "TrimPlus",
+    "abstract": "Bind trim controls to keys",
+    "author": "linuxgurugamer",
+    "version": "1.4.0",
+    "ksp_version_min": "1.9.0",
+    "ksp_version_max": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/214223-112x-trimplus-bind-trim-to-joystick-buttons-and-keyboard-keys/",
+        "spacedock": "https://spacedock.info/mod/3295/TrimPlus",
+        "repository": "https://github.com/linuxgurugamer/KSP_TrimPlus",
+        "remote-avc": "http://ksp.spacetux.net/avc/KSP_TrimPlus"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "depends": [
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "TrimPlus",
+            "install_to": "GameData",
+            "filter_regexp": "\\.mdb$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3295/TrimPlus/download/1.4.0",
+    "download_size": 30987,
+    "download_hash": {
+        "sha1": "B024C42B78C8D9582F98410EB20691E8B7EF5B16",
+        "sha256": "F14BBF2E2FD87D063649C052E4EC4320D208ED0BF2271153FE4169FBB8565BD4"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 60966,
+    "release_date": "2023-03-02T18:08:43.453011+00:00",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
