@@ -1,0 +1,81 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ProbeControlRoomRecontrolled",
+    "name": "Probe Control Room Recontrolled",
+    "abstract": "This mod adds a Mission Control room to unmanned vessels",
+    "author": [
+        "linuxgurugamer",
+        "JonnyOThan"
+    ],
+    "version": "1.3.1.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.5",
+    "license": "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/211958-112x-probecontrolroom-recontrolled-adopted/",
+        "spacedock": "https://spacedock.info/mod/1558/Probe%20Control%20Room%20Recontrolled",
+        "repository": "https://github.com/JonnyOThan/KSP-ProbeControlRoom",
+        "bugtracker": "https://github.com/JonnyOThan/KSP-ProbeControlRoom/issues",
+        "remote-avc": "https://raw.githubusercontent.com/JonnyOThan/KSP-ProbeControlRoom/master/GameData/ProbeControlRoom/ProbeControlRoom.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Probe_Control_Room_Recontrolled/Probe_Control_Room_Recontrolled-1508688524.1949446.png"
+    },
+    "tags": [
+        "plugin",
+        "uncrewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SCANSat"
+        },
+        {
+            "name": "VesselViewer"
+        },
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "DockingPortAlignment"
+        },
+        {
+            "name": "kOS"
+        },
+        {
+            "name": "KPS-AVC"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ProbeControlRoom"
+        }
+    ],
+    "install": [
+        {
+            "find": "ProbeControlRoom",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1558/Probe%20Control%20Room%20Recontrolled/download/1.3.1.0",
+    "download_size": 620484,
+    "download_hash": {
+        "sha1": "740CB6BCF9F20CAEF9C52797E66A5FA3870F5A8B",
+        "sha256": "F41B24EC2007CEB842FC62670A96EEA19DF0120ED916E72DADBB4AEB8E22E99E"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 6140503,
+    "release_date": "2023-03-06T02:20:32.075619+00:00",
+    "x_generated_by": "netkan"
+}
