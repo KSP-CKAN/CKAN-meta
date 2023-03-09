@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "EveOptimizedEngines",
+    "name": "Eve Optimized Engines",
+    "abstract": "Eve Optimized Engines - a KSP mod. ",
+    "author": "OhioBob",
+    "version": "3.0.2",
+    "ksp_version_min": "1.12.2",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/136342-*",
+        "repository": "https://github.com/OhioBob/Eve-Optimized-Engines",
+        "bugtracker": "https://github.com/OhioBob/Eve-Optimized-Engines/issues",
+        "remote-avc": "https://raw.githubusercontent.com/OhioBob/Eve-Optimized-Engines/master/GameData/EveEngines/EveOptimizedEngines.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        }
+    ],
+    "install": [
+        {
+            "find": "EveEngines",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/OhioBob/Eve-Optimized-Engines/releases/download/3.0.2/EveOptimizedEngines_3.0.2.zip",
+    "download_size": 13137,
+    "download_hash": {
+        "sha1": "CC2C6B933A8E57A32FF1B9865105B673DD607615",
+        "sha256": "9FDFB857D1803D606B32CC8327B0AE5568D47627249B1FF52985C37385D19741"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 12917,
+    "release_date": "2023-01-26T17:51:35Z",
+    "x_generated_by": "netkan"
+}
