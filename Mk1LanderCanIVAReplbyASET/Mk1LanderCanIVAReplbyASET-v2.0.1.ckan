@@ -1,0 +1,63 @@
+{
+    "spec_version": "v1.24",
+    "identifier": "Mk1LanderCanIVAReplbyASET",
+    "name": "Mk1 Lander Can IVA Replacement by ASET",
+    "abstract": "A set of three advanced, functional IVAs",
+    "author": [
+        "alexustas",
+        "StoneBlue"
+    ],
+    "version": "v2.0.1",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/211905-wip-1125-181-aset-consolidated-avionics-props-iva-packs",
+        "spacedock": "https://spacedock.info/mod/3241/ASET%20Consolidated%20Stock%20Replacement%20IVAs",
+        "repository": "https://github.com/StoneBlue/ASET-Consolidated-IVAs",
+        "bugtracker": "https://github.com/StoneBlue/ASET-Consolidated-IVAs/issues",
+        "remote-avc": "https://raw.githubusercontent.com:443/StoneBlue/ASET-Consolidated-IVAs/main/GameData/ASET/ASET_StockRpl_IVAs/ASET_StockRpl_IVAs.version",
+        "x_screenshot": "https://spacedock.info/content/StoneBlue_14786/ASET_Consolidated_Stock_Replacement_IVAs/ASET_Consolidated_Stock_Replacement_IVAs-1676233614.png"
+    },
+    "tags": [
+        "config",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ASETAgency"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ASETProps",
+            "min_version": "1.4"
+        },
+        {
+            "name": "RasterPropMonitor-Core",
+            "min_version": "0.28.0"
+        }
+    ],
+    "install": [
+        {
+            "find": "ASET",
+            "install_to": "GameData",
+            "include_only": [
+                "RevIVA_ASET_SRI_Mk1_LCan.cfg",
+                "RPM_ASET_SRI_Mk1_LCan.cfg",
+                "ASET_SRI_Mk1_LCan.cfg"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/3241/ASET%20Consolidated%20Stock%20Replacement%20IVAs/download/v2.0.1",
+    "download_size": 1152672,
+    "download_hash": {
+        "sha1": "A08390B865FF22FDCDF5C3466996D8787B4BEFB7",
+        "sha256": "048F88DA7B128936F979395007B9D2092F3796FB9CFE62021587EDD4DFE8FAF9"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 45875,
+    "release_date": "2023-03-09T15:51:05.718751+00:00",
+    "x_generated_by": "netkan"
+}
