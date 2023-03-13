@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TransferWindowPlannerFork",
+    "name": "Transfer Window Planner - Fork",
+    "abstract": "A fork of TriggerAu's Transfer Window Planner mod. Instead of assuming an equatorial orbit with a plane change in the ejection burn, this version shows the required parking orbit plane such that the ejection burn is purely prograde. This can save a lot of ??v when the planes of the departure and destination body are not exactly the same as that of the departure body's equator.",
+    "author": [
+        "TriggerAu",
+        "Nazfib"
+    ],
+    "version": "v1.9.1.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://discordapp.com/invite/ZGbR6nv",
+        "repository": "https://github.com/Nazfib/TransferWindowPlanner",
+        "bugtracker": "https://github.com/Nazfib/TransferWindowPlanner/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Nazfib/TransferWindowPlanner/master/TransferWindowPlanner/TransferWindowPlanner.version"
+    },
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "recommends": [
+        {
+            "name": "TriggerAu-Flags"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TransferWindowPlanner"
+        }
+    ],
+    "install": [
+        {
+            "find": "TransferWindowPlanner",
+            "install_to": "GameData/TriggerTech"
+        }
+    ],
+    "download": "https://github.com/Nazfib/TransferWindowPlanner/releases/download/v1.9.1.0/TransferWindowPlanner_v1.9.1.0.zip",
+    "download_size": 98459,
+    "download_hash": {
+        "sha1": "6C7C8E9097E27B87E255F36BA8CA4EBBDBED8207",
+        "sha256": "0712B2E7705B0C57662C4A7BC03445753125E6560F88A931622F6FC851B7818C"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 172245,
+    "release_date": "2023-03-13T14:22:29Z",
+    "x_generated_by": "netkan"
+}
