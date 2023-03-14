@@ -1,0 +1,87 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "DSEV",
+    "name": "DSEV",
+    "abstract": "Deep Space Exploration Vessels for KSP",
+    "author": "Angel-125",
+    "version": "v3.14.0",
+    "ksp_version_min": "1.12.2",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/122162-*",
+        "repository": "https://github.com/Angel-125/DSEV",
+        "bugtracker": "https://github.com/Angel-125/DSEV/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/DSEV/master/GameData/WildBlueIndustries/DSEV/DSEV.version"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "DSEV-PlayMode"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "WildBlueTools"
+        },
+        {
+            "name": "NearFutureProps"
+        },
+        {
+            "name": "KerbalActuators"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RasterPropMonitor-Core"
+        },
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "InfernalRobotics"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ASET"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries/DSEV",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter_regexp": [
+                ".*\\.pdb$",
+                "ReferenceDesigns",
+                "Templates"
+            ]
+        },
+        {
+            "find": "DSEV/Templates/Common",
+            "install_to": "GameData/WildBlueIndustries/DSEV/Templates"
+        },
+        {
+            "find": "VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find": "SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/Angel-125/DSEV/releases/download/v3.14.0/DSEV.zip",
+    "download_size": 144147173,
+    "download_hash": {
+        "sha1": "2C7924B04B13BC1D3E6DCE3FFD20B324CCE8875F",
+        "sha256": "22D9004C69617FC233842162DE87EE3E32E07B350E4B12D4307BC7AE857D6A15"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 356867824,
+    "release_date": "2023-03-14T18:24:42Z",
+    "x_generated_by": "netkan"
+}
