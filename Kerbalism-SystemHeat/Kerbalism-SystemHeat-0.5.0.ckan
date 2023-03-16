@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Kerbalism-SystemHeat",
+    "name": "Kerbalism System Heat",
+    "abstract": "Kerbalism support for SystemHeat mod",
+    "author": "judicator",
+    "version": "0.5.0",
+    "ksp_version_min": "1.8",
+    "ksp_version_max": "1.12",
+    "license": "MIT",
+    "resources": {
+        "repository": "https://github.com/judicator/KerbalismSystemHeat",
+        "bugtracker": "https://github.com/judicator/KerbalismSystemHeat/issues"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "localizations": [
+        "en-us",
+        "ru"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kerbalism"
+        },
+        {
+            "name": "SystemHeat"
+        },
+        {
+            "name": "SystemHeat-FissionReactors"
+        },
+        {
+            "name": "SystemHeat-FissionEngines"
+        }
+    ],
+    "supports": [
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "install": [
+        {
+            "find": "zKerbalismSystemHeat",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/judicator/KerbalismSystemHeat/releases/download/0.5.0/KerbalismSystemHeat_0.5.0.zip",
+    "download_size": 32982,
+    "download_hash": {
+        "sha1": "6A1576E292863E4C2445A69DE4E94A1589BF0DA7",
+        "sha256": "673D5665EAF991592B04B302EB5FF8B3C47CA9FA761405043C48410E30E80B26"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 85716,
+    "release_date": "2022-06-06T18:13:46Z",
+    "x_generated_by": "netkan"
+}
