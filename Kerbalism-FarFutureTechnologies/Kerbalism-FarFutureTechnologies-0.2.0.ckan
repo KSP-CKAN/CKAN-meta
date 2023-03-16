@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Kerbalism-FarFutureTechnologies",
+    "name": "Kerbalism FFT",
+    "abstract": "Experimental Kerbalism support for Far Future Technologies mod",
+    "author": "judicator",
+    "version": "0.2.0",
+    "ksp_version_min": "1.8",
+    "ksp_version_max": "1.12",
+    "license": "MIT",
+    "resources": {
+        "repository": "https://github.com/judicator/KerbalismFFT",
+        "bugtracker": "https://github.com/judicator/KerbalismFFT/issues"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "localizations": [
+        "en-us",
+        "ru"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kerbalism"
+        },
+        {
+            "name": "Kerbalism-SystemHeat"
+        },
+        {
+            "name": "FarFutureTechnologies"
+        }
+    ],
+    "supports": [
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "install": [
+        {
+            "find": "zKerbalismFFT",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/judicator/KerbalismFFT/releases/download/0.2.0/KerbalismFFT_0.2.0.zip",
+    "download_size": 46045,
+    "download_hash": {
+        "sha1": "494DE02423C03B5CEE15C7295E010CCBB6227E78",
+        "sha256": "702E9DFD0475B2054147CD9F8FC03215796F98EE3C022AA1A0509B03B3907EC3"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 27945,
+    "release_date": "2022-06-06T18:10:37Z",
+    "x_generated_by": "netkan"
+}
