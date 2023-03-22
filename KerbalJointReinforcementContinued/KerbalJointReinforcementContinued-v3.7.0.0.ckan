@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalJointReinforcementContinued",
+    "name": "Kerbal Joint Reinforcement Continued",
+    "abstract": "KJR tightens up the joints between parts and adds some physics-adjusting parameters to make vehicles more stable when loading on the launchpad or coming out of timewarp.",
+    "author": [
+        "ferram4",
+        "Starwaster"
+    ],
+    "version": "v3.7.0.0",
+    "ksp_version_min": "1.12.0",
+    "license": "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184019-*",
+        "repository": "https://github.com/KSP-RO/Kerbal-Joint-Reinforcement-Continued",
+        "bugtracker": "https://github.com/KSP-RO/Kerbal-Joint-Reinforcement-Continued/issues",
+        "remote-avc": "https://raw.githubusercontent.com/KSP-RO/Kerbal-Joint-Reinforcement-Continued/master/GameData/KerbalJointReinforcement/KerbalJointReinforcement.version"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "provides": [
+        "KerbalJointReinforcement"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KSPCommunityFixes"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalJointReinforcement",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/Kerbal-Joint-Reinforcement-Continued/releases/download/v3.7.0.0/Kerbal-Joint-Reinforcement_v3.7.0.0.zip",
+    "download_size": 22365,
+    "download_hash": {
+        "sha1": "F27D78BDC4F4E161B4B83A204D892AA494F488DD",
+        "sha256": "045CAFF08C9A52B1D7E965FC21A93032B56D712730B255D1CCF63D33515B2644"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 48416,
+    "release_date": "2023-03-22T00:03:21Z",
+    "x_generated_by": "netkan"
+}
