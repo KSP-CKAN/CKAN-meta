@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "PersistentRotationUpgraded",
+    "name": "PersistentRotation Upgraded",
+    "abstract": "Momentum and Rotation in KSP are quite unrealistic.  This mod will maintain rotation through timewarping and changing vessels, etc.",
+    "author": "linuxgurugamer",
+    "version": "1.9.1.8",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201121-19x",
+        "spacedock": "https://spacedock.info/mod/2660/PersistentRotation%20Upgraded",
+        "repository": "https://github.com/linuxgurugamer/PersistentRotation",
+        "remote-avc": "http://ksp.spacetux.net/avc/PersistentRotationUpgraded",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/PersistentRotation_Upgraded/PersistentRotation_Upgraded-1616212727.442817.jpg"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "fr-fr",
+        "zh-cn"
+    ],
+    "provides": [
+        "PersistentRotation"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "PersistentRotation"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/PersistentRotation",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2660/PersistentRotation%20Upgraded/download/1.9.1.8",
+    "download_size": 33359,
+    "download_hash": {
+        "sha1": "004219B60A026D2BF8C4891D61B4732864265077",
+        "sha256": "6F7D3CE33E9341B9DB068BBF2833D4C20BEDDA297630F480836502127427F12A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 62320,
+    "release_date": "2023-03-24T13:43:43.668055+00:00",
+    "x_generated_by": "netkan"
+}
