@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.16",
+    "comment": "Providing but not conflicting is deliberate, as both UIs can be installed at the same time.",
+    "identifier": "VesselView-UI-RasterPropMonitor",
+    "name": "VesselView-UI-RasterPropMonitor",
+    "abstract": "View your vessel in the IVA ",
+    "author": "linuxgurugamer",
+    "version": "1:0.8.9",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/146692-113-vessel-viewer-continued/",
+        "spacedock": "https://spacedock.info/mod/923/Vessel%20Viewer%20Continued",
+        "repository": "https://github.com/linuxgurugamer/VesselViewer",
+        "bugtracker": "https://github.com/linuxgurugamer/VesselViewer/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/VesselView",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Vessel_Viewer_Continued/Vessel_Viewer_Continued-1472389126.1938586.png"
+    },
+    "tags": [
+        "plugin",
+        "information",
+        "crewed"
+    ],
+    "provides": [
+        "VesselView-UI"
+    ],
+    "depends": [
+        {
+            "name": "VesselView"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RasterPropMonitor"
+        }
+    ],
+    "install": [
+        {
+            "find": "VesselViewRPM.dll",
+            "find_matches_files": true,
+            "install_to": "GameData/VesselView/Plugins"
+        }
+    ],
+    "download": "https://spacedock.info/mod/923/Vessel%20Viewer%20Continued/download/0.8.9",
+    "download_size": 870380,
+    "download_hash": {
+        "sha1": "DDE1B9B6A67A2EAED16A48F95FDC52C8DC8CBA48",
+        "sha256": "DB9A83B02E040EF7EC82FA8C86245C40F0FC42459C1701C48FCD2191F3E8BC81"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 16384,
+    "release_date": "2023-03-24T14:08:47.29724+00:00",
+    "x_generated_by": "netkan"
+}
