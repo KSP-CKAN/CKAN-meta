@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Toolbar",
+    "name": "Toolbar",
+    "abstract": "API for third-party plugins to provide toolbar buttons",
+    "author": [
+        "blizzy78",
+        "linuxgurugamer"
+    ],
+    "version": "1:1.8.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.5",
+    "license": "BSD-2-clause",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/161857-15-toolbar-continued-common-api-for-draggableresizable-buttons-toolbar/",
+        "spacedock": "https://spacedock.info/mod/2090/Toolbar",
+        "repository": "https://github.com/linuxgurugamer/ksp_toolbar",
+        "bugtracker": "https://github.com/linuxgurugamer/ksp_toolbar/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/Toolbar"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "jp",
+        "pt-br",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/000_Toolbar",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2090/Toolbar/download/1.8.1",
+    "download_size": 95948,
+    "download_hash": {
+        "sha1": "EC48E5917AE4B264E2C58ACBB7A5F147A3F49254",
+        "sha256": "AD9C585A161FC791716612550CF3FB903606CFC21EB34C1E12EFD086C2C53BFD"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 184452,
+    "release_date": "2023-03-24T21:27:51.192948+00:00",
+    "x_generated_by": "netkan"
+}
