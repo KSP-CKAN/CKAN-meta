@@ -1,0 +1,71 @@
+{
+    "spec_version": "v1.18",
+    "comment": "Version file is badly out of date",
+    "identifier": "BDArmoryMultiplayer",
+    "name": "BDA Multiplayer",
+    "abstract": "This is a branch of BDArmory with multiplayer support based on LMP.",
+    "author": [
+        "BahamutoD",
+        "Papa_Joe",
+        "jrodrigv"
+    ],
+    "version": "0.5",
+    "ksp_version": "1.12",
+    "license": "CC-BY-SA-2.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184167-*",
+        "repository": "https://github.com/jrodrigv/BDAMultiplayer",
+        "bugtracker": "https://github.com/jrodrigv/BDAMultiplayer/issues"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "sound",
+        "combat"
+    ],
+    "localizations": [
+        "en-us",
+        "es-es",
+        "ja",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "BDArmory"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "LunaMultiplayer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "BDArmory"
+        }
+    ],
+    "install": [
+        {
+            "find": "BDArmory",
+            "install_to": "GameData",
+            "filter": "craft"
+        },
+        {
+            "find": "BDArmory/craft",
+            "install_to": "Ships",
+            "as": "SPH"
+        }
+    ],
+    "download": "https://github.com/jrodrigv/BDAMultiplayer/releases/download/0.5/BDAMultiplayer_finalRelease.zip",
+    "download_size": 53051704,
+    "download_hash": {
+        "sha1": "74C455F755BE95B9F73E0ED2E1770D83A254F4D2",
+        "sha256": "FE42C5B47961243261B697BDDC5E3F312D2FD75FB8E39F3094516B4CDD8FEA1D"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 61553850,
+    "release_date": "2023-03-26T19:48:05Z",
+    "x_generated_by": "netkan"
+}
