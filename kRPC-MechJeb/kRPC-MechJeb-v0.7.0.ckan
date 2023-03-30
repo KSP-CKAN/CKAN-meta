@@ -1,0 +1,45 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "kRPC-MechJeb",
+    "name": "KRPC MechJeb",
+    "abstract": "kRPC service for MechJeb2 (Kerbal Space Program)",
+    "author": "Genhis",
+    "version": "v0.7.0",
+    "ksp_version_min": "1.8",
+    "ksp_version_max": "1.11",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://genhis.github.io/KRPC.MechJeb/",
+        "repository": "https://github.com/Genhis/KRPC.MechJeb",
+        "bugtracker": "https://github.com/Genhis/KRPC.MechJeb/issues"
+    },
+    "tags": [
+        "plugin",
+        "app",
+        "control"
+    ],
+    "depends": [
+        {
+            "name": "kRPC"
+        },
+        {
+            "name": "MechJeb2"
+        }
+    ],
+    "install": [
+        {
+            "file": "KRPC.MechJeb.dll",
+            "install_to": "GameData/kRPC"
+        }
+    ],
+    "download": "https://github.com/Genhis/KRPC.MechJeb/releases/download/v0.7.0/krpc-mechjeb-0.7.0.zip",
+    "download_size": 141322,
+    "download_hash": {
+        "sha1": "DB13A93817FCA3540F78A5ECCE5AF9238DC02B4E",
+        "sha256": "CE1689E6023312D7FF50C6101D75FE13FD6DF1787F683DB1D5E6DD544448C043"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 74752,
+    "release_date": "2023-03-30T22:06:50Z",
+    "x_generated_by": "netkan"
+}
