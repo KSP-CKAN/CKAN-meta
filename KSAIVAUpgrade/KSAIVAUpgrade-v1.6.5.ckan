@@ -1,0 +1,76 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "KSAIVAUpgrade",
+    "name": "KSA IVA Upgrade",
+    "abstract": "Detailed IVAs for the stock mk1 pods and cockpits.",
+    "author": [
+        "RangeMachine",
+        "JonnyOThan"
+    ],
+    "version": "v1.6.5",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-SA-2.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/208598-ksa-iva-upgrade-adopted-mk1-stock-parts/",
+        "repository": "https://github.com/JonnyOThan/KSA-IVA-Upgrade",
+        "bugtracker": "https://github.com/JonnyOThan/KSA-IVA-Upgrade/issues",
+        "license": "https://github.com/JonnyOThan/KSA-IVA-Upgrade/blob/main/LICENSE",
+        "remote-avc": "https://raw.githubusercontent.com/JonnyOThan/KSA-IVA-Upgrade/main/GameData/KSA/IVAUpgrade/KSA_IVAUpgrade.version",
+        "x_screenshot": "https://i.imgur.com/MkfyOsO.png"
+    },
+    "tags": [
+        "config",
+        "crewed",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "RasterPropMonitor-Core"
+        },
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "ASETAvionics"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Reviva"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "DockingPortAlignmentIndicator"
+        },
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "Astrogator"
+        },
+        {
+            "name": "HullcamVDSContinued"
+        }
+    ],
+    "install": [
+        {
+            "find": "KSA",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/JonnyOThan/KSA-IVA-Upgrade/releases/download/v1.6.5/KSA-IVA-Upgrade-v1.6.5.zip",
+    "download_size": 68218,
+    "download_hash": {
+        "sha1": "937DC0B087CF422AE595CDFAE976E93C7D8891AF",
+        "sha256": "84B3840B234F8195C264A8CC0C46B95C585B5771E6A69D939B6697F34C27D0AE"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 330744,
+    "release_date": "2023-03-31T16:06:47Z",
+    "x_generated_by": "netkan"
+}
