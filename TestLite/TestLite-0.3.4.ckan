@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TestLite",
+    "name": "Test Lite",
+    "abstract": "Lightweight TestFlight replacement for KSP-RO",
+    "author": "ec429",
+    "version": "0.3.4",
+    "ksp_version_min": "1.12.2",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182244-*",
+        "repository": "https://github.com/ec429/TestLite",
+        "bugtracker": "https://github.com/ec429/TestLite/issues",
+        "remote-avc": "https://raw.githubusercontent.com/ec429/TestLite/master/GameData/TestLite/TestLite.version"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealFuels"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealismOverhaul"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TestFlight"
+        }
+    ],
+    "download": "https://api.github.com/repos/ec429/TestLite/zipball/0.3.4",
+    "download_size": 30002,
+    "download_hash": {
+        "sha1": "7DDBF466495A7FB992A609848EB33F3CD3A59469",
+        "sha256": "2FEE0A24271A23CB289356C1C5C8D1DC5BFB0529592BD2881B298A51F8E82D4C"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 32148,
+    "release_date": "2023-03-31T15:43:22Z",
+    "x_generated_by": "netkan"
+}
