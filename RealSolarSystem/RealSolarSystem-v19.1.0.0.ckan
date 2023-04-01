@@ -1,0 +1,84 @@
+{
+    "spec_version": "v1.12",
+    "identifier": "RealSolarSystem",
+    "name": "Real Solar System",
+    "abstract": "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
+    "author": [
+        "KSP-RO Team"
+    ],
+    "version": "v19.1.0.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/177216-*",
+        "repository": "https://github.com/KSP-RO/RealSolarSystem",
+        "bugtracker": "https://github.com/KSP-RO/RealSolarSystem/issues",
+        "metanetkan": "https://github.com/KSP-RO/RealSolarSystem/raw/master/RealSolarSystem.netkan",
+        "remote-avc": "https://github.com/KSP-RO/RealSolarSystem/raw/master/GameData/RealSolarSystem/RealSolarSystem.version"
+    },
+    "tags": [
+        "planet-pack",
+        "config",
+        "plugin",
+        "resources"
+    ],
+    "localizations": [
+        "en-us",
+        "fr-fr",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "CustomAsteroids-Pops"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus",
+            "min_version": "2:release-1.11.1-39"
+        },
+        {
+            "name": "RSSTextures"
+        },
+        {
+            "name": "KSPCommunityFixes"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "KSCSwitcher"
+        },
+        {
+            "name": "RSSDateTimeFormatter"
+        },
+        {
+            "name": "RSSVE-Textures"
+        },
+        {
+            "name": "Parallax"
+        }
+    ],
+    "install": [
+        {
+            "find": "RealSolarSystem",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealSolarSystem/releases/download/v19.1.0.0/RealSolarSystem_v19.1.0.0.zip",
+    "download_size": 77238761,
+    "download_hash": {
+        "sha1": "F6A2FAA386FF800FB442F36CE8B5483DCD560A2C",
+        "sha256": "AA898E7E6BC09FD9B20D62F35BFBD275B22A4441760B4BAFC93EE7D1F357F5BC"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 105868590,
+    "release_date": "2023-04-01T10:07:57Z",
+    "x_generated_by": "netkan"
+}
