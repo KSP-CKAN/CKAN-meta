@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "WeekWorldPlanetJam",
+    "name": "Week World Planet Jam",
+    "abstract": "30 worlds. 10 modders. Built in one week.",
+    "author": "GregroxMun",
+    "version": "0.8",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/209859-week-world-planet-jam-the-sauwel-system-30-worlds-10-modders-built-in-one-week/",
+        "spacedock": "https://spacedock.info/mod/3124/Week%20World%20Planet%20Jam",
+        "repository": "https://github.com/GregroxMun/WeekWorldPlanetJam",
+        "bugtracker": "https://github.com/GregroxMun/WeekWorldPlanetJam/issues",
+        "remote-avc": "https://raw.githubusercontent.com/ducakar/TextureReplacer/master/GameData/TextureReplacer/TextureReplacer.version",
+        "x_screenshot": "https://spacedock.info/content/GregroxMun_214/Week_World_Planet_Jam/Week_World_Planet_Jam-1663902139.png"
+    },
+    "tags": [
+        "plugin",
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "TextureReplacer"
+        },
+        {
+            "name": "KopernicusExpansionContinueder"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/WeekWorldPlanetJam",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/SciRev",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3124/Week%20World%20Planet%20Jam/download/0.8",
+    "download_size": 796390791,
+    "download_hash": {
+        "sha1": "275DE72F25E981DE56180D9D6260911CFA1E2A44",
+        "sha256": "292303041BFF3D93D29A13B7A78C4CADD6AABE83092395578B847F3A9B7E80A6"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1250060734,
+    "release_date": "2022-09-28T19:30:13.461994+00:00",
+    "x_generated_by": "netkan"
+}
