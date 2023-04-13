@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ASETAvionics",
+    "name": "ASET Consolidated Avionics Pack",
+    "abstract": "An Aircraft-style \"props\" pack for use in IVAs.",
+    "author": [
+        "alexustas",
+        "StoneBlue",
+        "JonnyOThan"
+    ],
+    "version": "v3.0.1",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/211905-wip-1125-181-aset-consolidated-avionics-props-iva-packs",
+        "spacedock": "https://spacedock.info/mod/3239/ASET%20Consolidated%20Avionics%20Pack",
+        "repository": "https://github.com/StoneBlue/ASET-Consolidated-Avionics",
+        "bugtracker": "https://github.com/StoneBlue/ASET-Consolidated-Avionics/issues",
+        "remote-avc": "https://raw.githubusercontent.com/StoneBlue/ASET-Consolidated-Avionics/main/GameData/ASET/ASET_Avionics/ASET_Avionics.version",
+        "x_screenshot": "https://spacedock.info/content/StoneBlue_14786/ASET_Consolidated_Avionics_Pack/ASET_Consolidated_Avionics_Pack-1676219079.png"
+    },
+    "tags": [
+        "config",
+        "library",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ASETAgency"
+        },
+        {
+            "name": "ASETProps",
+            "min_version": "2.0.0"
+        },
+        {
+            "name": "RasterPropMonitor-Core",
+            "min_version": "1:v0.30.2"
+        }
+    ],
+    "install": [
+        {
+            "find": "ASET",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3239/ASET%20Consolidated%20Avionics%20Pack/download/v3.0.1",
+    "download_size": 5706013,
+    "download_hash": {
+        "sha1": "2FBE732341C98712A318944D38108E2D1D9F06BA",
+        "sha256": "D7BB5DBD4B2D979B4B9D2A49C80BB2EB060B3E10EDD36855707DD0730520860F"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 12812970,
+    "release_date": "2023-04-13T20:47:23.909618+00:00",
+    "x_generated_by": "netkan"
+}
