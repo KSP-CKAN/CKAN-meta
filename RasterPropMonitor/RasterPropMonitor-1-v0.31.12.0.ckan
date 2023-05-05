@@ -13,10 +13,12 @@
     "ksp_version_max": "1.12.99",
     "license": "GPL-3.0",
     "resources": {
-        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190737-*",
-        "repository": "https://github.com/JonnyOThan/RasterPropMonitor/releases",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190737-18x-110x-rasterpropmonitor-adopted/",
+        "spacedock": "https://spacedock.info/mod/2534/RasterPropMonitor",
+        "repository": "https://github.com/JonnyOThan/RasterPropMonitor",
         "bugtracker": "https://github.com/JonnyOThan/RasterPropMonitor/issues",
-        "remote-avc": "https://raw.githubusercontent.com/JonnyOThan/RasterPropMonitor/master/GameData/JSI/RasterPropMonitor/RasterPropMonitor.version"
+        "remote-avc": "https://raw.githubusercontent.com/JonnyOThan/RasterPropMonitor/master/GameData/JSI/RasterPropMonitor/RasterPropMonitor.version",
+        "x_screenshot": "https://spacedock.info/content/JonnyOThan_33590/RasterPropMonitor/RasterPropMonitor-1683294207.png"
     },
     "tags": [
         "config",
@@ -30,10 +32,15 @@
             "name": "RasterPropMonitor-Core"
         }
     ],
-    "suggests": [
+    "recommends": [
         {
-            "name": "JSIAdvancedTransparentPods"
+            "name": "DE-IVAExtension"
         },
+        {
+            "name": "FreeIva"
+        }
+    ],
+    "suggests": [
         {
             "name": "Astrogator"
         },
@@ -59,13 +66,10 @@
             "name": "Chatterer"
         },
         {
-            "name": "FerramAerospaceResearchContinued"
+            "name": "Reviva"
         },
         {
             "name": "MechJeb2"
-        },
-        {
-            "name": "RealChute"
         },
         {
             "name": "ASETProps"
@@ -87,6 +91,9 @@
         },
         {
             "name": "QuickIVA"
+        },
+        {
+            "name": "KSAIVAUpgrade"
         }
     ],
     "install": [
@@ -102,7 +109,7 @@
             "install_to": "GameData"
         }
     ],
-    "download": "https://github.com/JonnyOThan/RasterPropMonitor/releases/download/v0.31.12.0/RasterPropMonitor-v0.31.12.0.zip",
+    "download": "https://spacedock.info/mod/2534/RasterPropMonitor/download/0.31.12.0",
     "download_size": 1289570,
     "download_hash": {
         "sha1": "1B784E2DC5BAD0F49C502D591C3E6B9E188F49FB",
@@ -110,6 +117,6 @@
     },
     "download_content_type": "application/zip",
     "install_size": 157986,
-    "release_date": "2023-05-05T12:55:47Z",
+    "release_date": "2023-05-05T12:57:06.854732+00:00",
     "x_generated_by": "netkan"
 }
