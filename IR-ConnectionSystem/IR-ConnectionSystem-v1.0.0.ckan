@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "IR-ConnectionSystem",
+    "name": "Infernal Robotics Next - ConnectionSystem",
+    "abstract": "ConnectionSystem for robotic arms",
+    "author": "Rudolf Meier",
+    "version": "v1.0.0",
+    "ksp_version_min": "1.12.0",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/meirumeiru/IR-ConnectionSystem",
+        "bugtracker": "https://github.com/meirumeiru/IR-ConnectionSystem/issues",
+        "remote-avc": "https://github.com/meirumeiru/IR-ConnectionSystem/raw/main/Resources/GameData/IRConnectionSystem/ConnectionSystem.version"
+    },
+    "tags": [
+        "plugin",
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "DockingFunctions"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/IRConnectionSystem",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/meirumeiru/IR-ConnectionSystem/releases/download/v1.0.0/IR-ConnectionSystem_v1.0.0.zip",
+    "download_size": 27452,
+    "download_hash": {
+        "sha1": "3DDE75036FCE81433AAC3770A1EF04ABA3CC4A19",
+        "sha256": "6171794A618E11FFB1E73F1C304C732EF5D4F0CDAD2F130D612F0050C9DCD4AA"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 73845,
+    "release_date": "2023-05-10T17:28:20Z",
+    "x_generated_by": "netkan"
+}
