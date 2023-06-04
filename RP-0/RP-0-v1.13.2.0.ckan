@@ -1,9 +1,9 @@
 {
     "spec_version": "v1.26",
     "identifier": "RP-0",
-    "name": "Realistic Progression One (RP-1)",
-    "abstract": "Realistic Progression One - Career for Realism Overhaul",
-    "author": "RP-0 Group",
+    "name": "RP-1 Legacy Version",
+    "abstract": "LEGACY Realistic Progression One - Career for Realism Overhaul. Use for finishing old saves.",
+    "author": "RP-1 Group",
     "version": "v1.13.2.0",
     "ksp_version_min": "1.12.0",
     "ksp_version_max": "1.12.99",
@@ -13,7 +13,7 @@
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190040-*",
         "repository": "https://github.com/KSP-RO/RP-1",
         "bugtracker": "https://github.com/KSP-RO/RP-1/issues",
-        "manual": "https://github.com/KSP-RO/RP-0/wiki",
+        "manual": "https://github.com/KSP-RO/RP-1/wiki",
         "metanetkan": "https://raw.githubusercontent.com/KSP-RO/RP-0/master/RP-0.netkan",
         "remote-avc": "https://raw.githubusercontent.com/KSP-RO/RP-0/master/GameData/RP-0/RP-1.version"
     },
@@ -81,16 +81,19 @@
             ]
         },
         {
-            "name": "ROEngines"
+            "name": "ROEngines",
+            "max_version": "v1.99.0.0"
         },
         {
             "name": "ROTanks"
         },
         {
-            "name": "ROCapsules"
+            "name": "ROCapsules",
+            "max_version": "v1.99.0.0"
         },
         {
-            "name": "ROSolar"
+            "name": "ROSolar",
+            "max_version": "v1.99.0.0"
         },
         {
             "name": "ROHeatshields"
@@ -224,6 +227,9 @@
     ],
     "conflicts": [
         {
+            "name": "RP-1"
+        },
+        {
             "name": "KerbalConstructionTime"
         },
         {
@@ -240,6 +246,18 @@
         },
         {
             "name": "KRASH"
+        },
+        {
+            "name": "ROCapsules",
+            "min_version": "v2.0.0.0"
+        },
+        {
+            "name": "ROEngines",
+            "min_version": "v2.0.0.0"
+        },
+        {
+            "name": "ROSolar",
+            "min_version": "v2.0.0.0"
         }
     ],
     "download": "https://github.com/KSP-RO/RP-1/releases/download/v1.13.2.0/RP-1-v1.13.2.0.zip",
