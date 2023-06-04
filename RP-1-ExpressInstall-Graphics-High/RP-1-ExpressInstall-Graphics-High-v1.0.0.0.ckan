@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.12",
+    "spec_version": "v1.31",
     "identifier": "RP-1-ExpressInstall-Graphics-High",
     "name": "RP-1 Graphics High Res Express Install",
     "abstract": "Express Installation for RP-1 Graphics - High Res version",
@@ -62,7 +62,15 @@
             "name": "ReStockPlus"
         },
         {
-            "name": "RP-0"
+            "any_of": [
+                {
+                    "name": "RP-1"
+                },
+                {
+                    "name": "RP-0"
+                }
+            ],
+            "choice_help_text": "Choose either the current version of RP-1 or the legacy version for continuing old saves"
         },
         {
             "name": "RSSDateTimeFormatter"
