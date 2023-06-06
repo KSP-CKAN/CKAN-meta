@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.31",
+    "identifier": "RP-1-ExpressInstall",
+    "name": "Realistic Progression One (RP-1) Express Install",
+    "abstract": "Express Installation for RP-1, Realism Overhaul, Real Solar System etc. Select only this mod and hit apply, CKAN will guide you through the rest.",
+    "author": "KSP-RO Group",
+    "version": "v2.0",
+    "ksp_version_min": "1.10.1",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190040-*",
+        "repository": "https://github.com/KSP-RO/RP-0",
+        "bugtracker": "https://github.com/KSP-RO/RP-0/issues",
+        "manual": "https://github.com/KSP-RO/RP-0/wiki",
+        "metanetkan": "https://github.com/KSP-RO/RP-1-ExpressInstall/raw/main/RP-1-ExpressInstall.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/KSP-RO/RP-1-ExpressInstall/main/GameData/RP-1-ExpressInstall/RP-1-ExpressInstall.version"
+    },
+    "tags": [
+        "plugin",
+        "config",
+        "parts",
+        "career",
+        "science",
+        "planet-pack",
+        "resources",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "RP-1-ExpressInstall-Graphics",
+            "choice_help_text": "Select your graphics level. Low graphics will function on 8GB of RAM and requires the least powerful computer. Medium graphics looks better, but needs 16GB of RAM and a GTX 970/R9 390 or better. High graphics is best with 24GB+ (but might function on 16GB) and needs more modern graphics hardware (GTX 1070+/RX 5600+)."
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "EditorExtensionsRedux"
+        },
+        {
+            "name": "KerbalAlarmClock"
+        },
+        {
+            "name": "TransferWindowPlannerFork"
+        },
+        {
+            "name": "LunarTransferPlanner"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RP-1-ExpressInstall/releases/download/v2.0/RP-1-ExpressInstall.zip",
+    "download_size": 1162,
+    "download_hash": {
+        "sha1": "18A83538E27627106C8E636D518BF7B9E2A2DE9C",
+        "sha256": "583DA05F9AFEB8822D3D735EB62FC84A278922DEFEB1413AB9594A49D43A9BD9"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 940,
+    "release_date": "2023-06-06T05:11:16Z",
+    "x_generated_by": "netkan"
+}
