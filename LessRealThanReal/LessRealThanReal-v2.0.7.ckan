@@ -1,0 +1,84 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "LessRealThanReal",
+    "name": "Less Real Than Real(ism)",
+    "abstract": "Real Progression One without RealismOverhaul",
+    "author": "pehvbot",
+    "version": "v2.0.7",
+    "ksp_version_min": "1.12",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189978-*",
+        "repository": "https://github.com/pehvbot/LRTR",
+        "bugtracker": "https://github.com/pehvbot/LRTR/issues"
+    },
+    "tags": [
+        "plugin",
+        "config",
+        "parts",
+        "tech-tree",
+        "career",
+        "science"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "CustomBarnKit"
+        },
+        {
+            "name": "ContractConfigurator"
+        },
+        {
+            "name": "DMagicScienceAnimate"
+        },
+        {
+            "name": "MagiCore"
+        },
+        {
+            "name": "ModularFlightIntegrator"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ReStockPlus"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "LessRealKerbalism"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbalConstructionTime"
+        },
+        {
+            "name": "RealismOverhaul"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/LRTR",
+            "install_to": "GameData",
+            "filter": [
+                ".DS_Store"
+            ]
+        }
+    ],
+    "download": "https://github.com/pehvbot/LRTR/releases/download/v2.0.7/LRTR-v2.0.7.zip",
+    "download_size": 21444858,
+    "download_hash": {
+        "sha1": "70F9FA30B4F0E015809BAFFA7BAE8118A15DC8A1",
+        "sha256": "D9DF409D16494E4E750834D4AC9E36D74717041FC7EB9ADBF73ED6C01A992738"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 54025321,
+    "release_date": "2023-06-21T20:25:44Z",
+    "x_generated_by": "netkan"
+}
