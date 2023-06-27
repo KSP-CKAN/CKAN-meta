@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GalaxiesUnbound-StockClouds",
+    "name": "Galaxies Unbound - Stock Clouds",
+    "abstract": "Clouds for Galaxies Unbound",
+    "author": [
+        "StarCrusher96",
+        "john-d-alexander"
+    ],
+    "version": "1.3.1",
+    "ksp_version_min": "1.11",
+    "ksp_version_max": "1.12",
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/198895-*",
+        "repository": "https://github.com/StarCrusher96/Galaxies-Unbound-A-Stellar-Odyssey",
+        "bugtracker": "https://github.com/StarCrusher96/Galaxies-Unbound-A-Stellar-Odyssey/issues"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "GalaxiesUnbound-Core"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        }
+    ],
+    "install": [
+        {
+            "find": "GU_StockClouds/GameData/GU",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/StarCrusher96/Galaxies-Unbound-A-Stellar-Odyssey/releases/download/1.3.1/GU_Core_1.3.1.zip",
+    "download_size": 854146766,
+    "download_hash": {
+        "sha1": "6C3B8F61425ACE6968A31A348CC4807C28FE1C05",
+        "sha256": "4EFD030C29CE659A84083AE3FCB34ECCE1F34D589C8CA2EF3A5F4DAAA5F16AA3"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 44763146,
+    "release_date": "2023-06-26T16:48:07Z",
+    "x_generated_by": "netkan"
+}
