@@ -1,0 +1,83 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "KIUChineseDeepspaceExplorationPack-RO",
+    "name": "KIU Chinese Deepspace Exploration Pack (real scale)",
+    "abstract": "This mod aims to bring as many Chinese deep space vehicles to KSP as possible. So far, this mod has Tianwen-1 and ChangE-2.",
+    "author": [
+        "Old_Copper",
+        "Launcelot",
+        "Armo"
+    ],
+    "version": "1.0.2",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/208654-1123nt-chinese-aerospace-packv120/",
+        "spacedock": "https://spacedock.info/mod/3142/KCDE%20(KIU%20Chinese%20Deepspace%20Exploration%20Pack)",
+        "repository": "https://github.com/Armo00/KIU-Pack",
+        "bugtracker": "https://github.com/Armo00/KIU-Pack/issues",
+        "x_screenshot": "https://spacedock.info/content/Old_Copper_79837/KIU_Chinese_Deepspace_Exploration_Pack/KIU_Chinese_Deepspace_Exploration_Pack-1667094949.jpg"
+    },
+    "tags": [
+        "parts",
+        "graphics"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "KIUChinese-Common"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KIUChineseDeepspaceExplorationPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "KIU",
+            "install_to": "GameData",
+            "filter": [
+                "Common",
+                "CraftFiles"
+            ]
+        },
+        {
+            "find": "KCDE_RealScalePatch.cfg",
+            "find_matches_files": true,
+            "install_to": "GameData/KIU"
+        },
+        {
+            "find": "CraftFiles/RO",
+            "install_to": "Ships",
+            "as": "VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3142/KCDE%20(KIU%20Chinese%20Deepspace%20Exploration%20Pack)/download/1.0.2",
+    "download_size": 41732852,
+    "download_hash": {
+        "sha1": "8DCD71F6BCD1198FE1608A47589D364BB8159AA2",
+        "sha256": "C8504834F7A9132DC64194E319DAC4CAC2A525C322C2068D63EFE5201A00F9DD"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 81408401,
+    "release_date": "2023-07-17T06:54:48.631691+00:00",
+    "x_generated_by": "netkan"
+}
