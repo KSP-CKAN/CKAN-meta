@@ -1,0 +1,47 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "NoIntakeOcclusion",
+    "name": "No Intake Occlusion",
+    "abstract": "Removes Intake Occlusion through Fairings",
+    "author": "kAerospace",
+    "version": "1.0.2",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/218643-112x-no-intake-occlusion/",
+        "spacedock": "https://spacedock.info/mod/3435/No%20Intake%20Occlusion",
+        "repository": "https://github.com/kaerospace/KerbalNoOcclusion",
+        "bugtracker": "https://github.com/kaerospace/KerbalNoOcclusion/issues",
+        "x_screenshot": "https://spacedock.info/content/kAerospace_65633/No_Intake_Occlusion/No_Intake_Occlusion-1690463052.png"
+    },
+    "tags": [
+        "plugin",
+        "config",
+        "physics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "file": "NoIntakeOcclusion.cfg",
+            "install_to": "GameData/NoIntakeOcclusion"
+        },
+        {
+            "file": "NoIntakeOcclusion.dll",
+            "install_to": "GameData/NoIntakeOcclusion"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3435/No%20Intake%20Occlusion/download/1.0.2",
+    "download_size": 2053,
+    "download_hash": {
+        "sha1": "03B2954C2CC62138BB48667B03164AA339CF61B4",
+        "sha256": "42F5D5B438C04EDEDF0BBFE75C3268DEFD80DB2661CD5632BBA6C3B24FA26A82"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 4756,
+    "release_date": "2023-07-28T09:27:38.885281+00:00",
+    "x_generated_by": "netkan"
+}
