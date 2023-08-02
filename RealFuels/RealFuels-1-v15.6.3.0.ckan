@@ -1,0 +1,83 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RealFuels",
+    "name": "Real Fuels",
+    "abstract": "Real fuels and tanks for KSP",
+    "author": [
+        "ialdabaoth",
+        "NathanKell",
+        "taniwha",
+        "Starwaster",
+        "blowfish"
+    ],
+    "version": "1:v15.6.3.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?showtopic=58236",
+        "repository": "https://github.com/KSP-RO/RealFuels",
+        "bugtracker": "https://github.com/KSP-RO/RealFuels/issues",
+        "metanetkan": "https://raw.githubusercontent.com/KSP-RO/RealFuels/master/NetKAN/RealFuels.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/KSP-RO/RealFuels/master/RealFuels/RealFuels.version"
+    },
+    "tags": [
+        "plugin",
+        "parts"
+    ],
+    "localizations": [
+        "en-us",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealFuels-Engine-Configs"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "SolverEngines",
+            "min_version": "v3.11.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ModularFuelSystem"
+        },
+        {
+            "name": "ModularFuelTanks"
+        },
+        {
+            "name": "Fuelswitchtoeverytank"
+        },
+        {
+            "name": "StockFuelSwitch"
+        },
+        {
+            "name": "EngineIgnitor"
+        }
+    ],
+    "install": [
+        {
+            "find": "RealFuels",
+            "install_to": "GameData",
+            "filter": ".DS_Store"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealFuels/releases/download/v15.6.3.0/RealFuels_v15.6.3.0.zip",
+    "download_size": 571271,
+    "download_hash": {
+        "sha1": "E3F2CF8F6B3C8625F0733BE41A0F2C861F275B47",
+        "sha256": "E3F9FC57E0A58896CDA110BD886B4903F1D907B352A08F2C537409C1393C866A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1568963,
+    "release_date": "2023-08-02T02:56:23Z",
+    "x_generated_by": "netkan"
+}
