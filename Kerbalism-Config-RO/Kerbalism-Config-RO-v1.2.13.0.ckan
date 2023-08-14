@@ -1,0 +1,88 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Kerbalism-Config-RO",
+    "name": "Kerbalism - RealismOverhaul Config",
+    "abstract": "Kerbalism configuration for Realism Overhaul and RP-1",
+    "author": [
+        "al2me6",
+        "blowfishpro",
+        "Capkirk123",
+        "pjf",
+        "rsparkyc",
+        "SirKeplan",
+        "StollD",
+        "StonesmileGit",
+        "stratochief66",
+        "zorg2044",
+        "NathanKell"
+    ],
+    "version": "v1.2.13.0",
+    "license": "Unlicense",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/ROKerbalism",
+        "bugtracker": "https://github.com/KSP-RO/ROKerbalism/issues"
+    },
+    "tags": [
+        "config",
+        "career",
+        "science",
+        "crewed"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "pt-br",
+        "ru"
+    ],
+    "provides": [
+        "Kerbalism-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealismOverhaul"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RP-0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-Config"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "USI-LS"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismConfig",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/ROKerbalism/releases/download/v1.2.13.0/ROKerbalism-v1.2.13.0.zip",
+    "download_size": 2261811,
+    "download_hash": {
+        "sha1": "FC10585A7C872A05A655C877F4F327663A2C267A",
+        "sha256": "B8C2E4944364EC229CFEF8726E871A8F9BFB8CBE6927932AB450F7031CC1A5CB"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 6281390,
+    "release_date": "2023-08-14T06:09:34Z",
+    "x_generated_by": "netkan"
+}
