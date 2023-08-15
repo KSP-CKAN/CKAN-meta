@@ -1,0 +1,47 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "KerbalFunds-RP1",
+    "name": "KerbalFunds for RP-2 Launch Complexes and Programs",
+    "abstract": "A mod to add Reputation and Confidence easily by any specified number.",
+    "author": "KerbMario",
+    "version": "0.3",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/215274-kerbalfunds-an-easy-way-to-add-an-amount-of-sciencefunds/",
+        "spacedock": "https://spacedock.info/mod/3438/KerbalFunds%20for%20RP-2%20Launch%20Complexes%20and%20Programs",
+        "repository": "https://github.com/jdopss/KerbalFunds",
+        "bugtracker": "https://github.com/jdopss/KerbalFunds/issues",
+        "x_screenshot": "https://spacedock.info/content/KerbMario_82788/KerbalFunds_for_RP-2_Launch_Complexes_and_Programs/KerbalFunds_for_RP-2_Launch_Complexes_and_Programs-1690870611.png"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "RP-1"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KerbalFunds"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalFunds_RP0LC",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3438/KerbalFunds%20for%20RP-2%20Launch%20Complexes%20and%20Programs/download/0.3",
+    "download_size": 21175,
+    "download_hash": {
+        "sha1": "5B2B88240AAF0537903A23A082C84088A4E4A260",
+        "sha256": "B4226BD01FEBCB55BD90C50518EA08E0C4EFE5A886E787DC4B817F317691C5D6"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 36264,
+    "release_date": "2023-08-01T06:15:08.04337+00:00",
+    "x_generated_by": "netkan"
+}
