@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ProceduralFairings",
+    "name": "Procedural Fairings",
+    "abstract": "Fairings that automatically reshape for any attached payload",
+    "author": [
+        "Felger",
+        "NathanKell",
+        "Pap1723",
+        "KSP-RO"
+    ],
+    "version": "1:v6.4.1.0",
+    "ksp_version_min": "1.10.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184187-*",
+        "repository": "https://github.com/KSP-RO/ProceduralFairings",
+        "bugtracker": "https://github.com/KSP-RO/ProceduralFairings/issues",
+        "metanetkan": "https://raw.githubusercontent.com/KSP-RO/ProceduralFairings/master/ProceduralFairings.netkan",
+        "remote-avc": "https://github.com/KSP-RO/ProceduralFairings/raw/master/GameData/ProceduralFairings/ProceduralFairings.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KSPCommunityFixes"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "PFTextures"
+        }
+    ],
+    "install": [
+        {
+            "find": "ProceduralFairings",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/ProceduralFairings/releases/download/v6.4.1.0/ProceduralFairings-v6.4.1.0.zip",
+    "download_size": 15744673,
+    "download_hash": {
+        "sha1": "99D91D791730F4D2E22C310D83C2CBCF4F4DE47C",
+        "sha256": "8B41B4B7991B30176A48C6EA134EBA76BFC55BE641ACD301AFDC627C304A0072"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 48860064,
+    "release_date": "2023-08-19T02:03:36Z",
+    "x_generated_by": "netkan"
+}
