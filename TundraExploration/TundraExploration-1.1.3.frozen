@@ -7,30 +7,17 @@
         "tygoo7",
         "damon"
     ],
-    "license": "CC-BY-NC-ND-4.0",
+    "license": "restricted",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/166915-131-tundra-exploration-v093-stockalike-falcon-9-and-dragon-v2/",
         "spacedock": "https://spacedock.info/mod/223/Tundra%20Exploration%20-%20Stockalike%20Dragon%20V2%20and%20Falcon%209",
         "x_screenshot": "https://spacedock.info/content/tygoo7_912/Tundra_Exploration_-_Stockalike_Dragon_V2_and_Falcon_9/Tundra_Exploration_-_Stockalike_Dragon_V2_and_Falcon_9-1521968910.5791428.png"
     },
-    "version": "1.1.4",
-    "ksp_version_min": "1.4.5",
-    "ksp_version_max": "1.4.99",
+    "version": "1.1.3",
+    "ksp_version": "1.4.3",
     "depends": [
         {
             "name": "NearFutureSolar-Core"
-        },
-        {
-            "name": "B9PartSwitch"
-        },
-        {
-            "name": "TundraTechnologies"
-        },
-        {
-            "name": "ModuleManager"
-        },
-        {
-            "name": "SpaceXLegs"
         }
     ],
     "recommends": [
@@ -45,20 +32,15 @@
         {
             "find": "TundraExploration",
             "install_to": "GameData",
-            "filter": "Thumbs.db"
-        },
-        {
-            "find": "Ships/VAB",
-            "install_to": "Ships",
-            "optional": true,
-            "description": "Tundra Exploration example craft"
+            "filter": "Thumbs.db",
+            "comment": "Ven-Patch not included since it requires overwriting of Rodan_Capsule.cfg"
         }
     ],
-    "download": "https://spacedock.info/mod/223/Tundra%20Exploration%20-%20Stockalike%20Dragon%20V2%20and%20Falcon%209/download/1.1.4",
-    "download_size": 46153947,
+    "download": "https://spacedock.info/mod/223/Tundra%20Exploration%20-%20Stockalike%20Dragon%20V2%20and%20Falcon%209/download/1.1.3",
+    "download_size": 30813790,
     "download_hash": {
-        "sha1": "1B3091CA73A3D11C3C6B269F9FAD14EB4771969B",
-        "sha256": "5DF9E415D2E6892734D03A6DA2362707F5712CC49379941CAB8E8B66D5A7480A"
+        "sha1": "904B836C4E0FFDE151B7C13FAD917A1E9354DE42",
+        "sha256": "246DC7727FEE95DBD2EFA5E647E7697A27A1F0ABAB8C79FFA3046EBA79AC83AD"
     },
     "download_content_type": "application/zip",
     "x_generated_by": "netkan"
