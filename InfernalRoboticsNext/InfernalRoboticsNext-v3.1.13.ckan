@@ -1,0 +1,65 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "InfernalRoboticsNext",
+    "name": "Infernal Robotics - Next",
+    "abstract": "Robotic parts for your constructions",
+    "author": [
+        "Rudolf Meier",
+        "ZodiusInfuser",
+        "Ziw",
+        "sirkut"
+    ],
+    "version": "v3.1.13",
+    "ksp_version_min": "1.12.0",
+    "license": "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184787-*",
+        "repository": "https://github.com/meirumeiru/InfernalRobotics",
+        "remote-avc": "https://github.com/meirumeiru/InfernalRobotics/raw/develop/Resources/GameData/MagicSmokeIndustries/InfernalRobotics.version"
+    },
+    "tags": [
+        "parts",
+        "plugin"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "IR-ConnectionSystem"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalJointReinforcementNext"
+        },
+        {
+            "name": "CameraControllerNext"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "InfernalRobotics"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/MagicSmokeIndustries",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/meirumeiru/InfernalRobotics/releases/download/v3.1.13/InfernalRobotics_v3.1.13.zip",
+    "download_size": 3088258,
+    "download_hash": {
+        "sha1": "E2A2CA18AB43A0E112D17A808845070721DD452B",
+        "sha256": "0A9D223C746F06FD64342C5FEFD488B5FF9F342B44183F7EF9346816E2604AF7"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 10867590,
+    "release_date": "2023-09-05T16:07:28Z",
+    "x_generated_by": "netkan"
+}
