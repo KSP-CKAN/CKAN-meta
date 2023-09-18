@@ -3,13 +3,11 @@
     "identifier": "RP-1",
     "name": "Realistic Progression One (RP-1)",
     "abstract": "Career for Realism Overhaul. Do not select/install this directly, instead select the RP-1 Express Install and let it install this automatically unless you know what you're doing and can fix it yourself.",
-    "author": [
-        "RP-1 Group"
-    ],
+    "author": "RP-1 Group",
     "version": "v2.12.0.0",
     "ksp_version_min": "1.12.0",
     "ksp_version_max": "1.12.99",
-    "license": "CC-BY-NC-SA-4.0",
+    "license": "CC-BY-4.0",
     "release_status": "stable",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190040-*",
@@ -38,44 +36,37 @@
             "min_version": "v16.0.0.0"
         },
         {
-            "name": "SXTContinued",
-            "suppress_recommendations": true
+            "name": "SXTContinued"
         },
         {
-            "name": "ContractConfigurator",
-            "suppress_recommendations": true
+            "name": "ContractConfigurator"
         },
         {
-            "name": "CustomBarnKit",
-            "suppress_recommendations": true
+            "name": "CustomBarnKit"
         },
         {
-            "name": "VenStockRevamp-NewParts",
-            "suppress_recommendations": true
+            "name": "VenStockRevamp-NewParts"
         },
         {
-            "name": "RealSolarSystem",
-            "suppress_recommendations": true
+            "name": "RealSolarSystem"
         },
         {
-            "name": "ClickThroughBlocker",
-            "suppress_recommendations": true
+            "name": "MagiCore"
         },
         {
-            "name": "ToolbarController",
-            "suppress_recommendations": true
+            "name": "ClickThroughBlocker"
         },
         {
-            "name": "Kerbalism-Config-RO",
-            "suppress_recommendations": true
+            "name": "ToolbarController"
         },
         {
-            "name": "KSPCommunityFixes",
-            "suppress_recommendations": true
+            "name": "Kerbalism-Config-RO"
         },
         {
-            "name": "KerbalChangelog",
-            "suppress_recommendations": true
+            "name": "KSPCommunityFixes"
+        },
+        {
+            "name": "KerbalChangelog"
         }
     ],
     "recommends": [
@@ -86,9 +77,6 @@
             "name": "RSSDateTimeFormatter"
         },
         {
-            "name": "KSPBurst-Full"
-        },
-        {
             "any_of": [
                 {
                     "name": "ReStock"
@@ -97,9 +85,6 @@
                     "name": "VenStockRevamp"
                 }
             ]
-        },
-        {
-            "name": "ReStockPlus"
         },
         {
             "name": "ROEngines",
@@ -126,10 +111,19 @@
             "name": "KSPWheel"
         },
         {
+            "name": "HangerExtenderExtended"
+        },
+        {
+            "name": "KerbalAlarmClock"
+        },
+        {
             "name": "KerbalRenamer"
         },
         {
             "name": "KSCSwitcher"
+        },
+        {
+            "name": "MechJeb2"
         },
         {
             "name": "AtmosphereAutopilot"
@@ -142,6 +136,9 @@
         },
         {
             "name": "RCSBuildAid"
+        },
+        {
+            "name": "RCSBuildAidCont"
         },
         {
             "name": "RealAntennas"
@@ -157,114 +154,78 @@
             ]
         },
         {
-            "name": "TextureReplacer"
-        },
-        {
-            "name": "MechJeb2"
-        },
-        {
-            "name": "Waterfall"
-        },
-        {
-            "name": "HangerExtenderExtended"
-        },
-        {
-            "name": "ModularLaunchPads"
-        },
-        {
-            "name": "ConformalDecals"
-        },
-        {
-            "name": "Shabby"
-        },
-        {
-            "name": "EditorExtensionsRedux"
-        },
-        {
-            "name": "KerbalAlarmClock"
+            "name": "RSSVE-Textures"
         },
         {
             "name": "TransferWindowPlannerFork"
         },
         {
-            "name": "LunarTransferPlanner"
+            "name": "Waterfall"
         },
         {
-            "name": "Principia"
-        },
-        {
-            "name": "kOS"
-        },
-        {
-            "name": "DockingPortSoundFX"
+            "name": "ModularLaunchPads"
         }
     ],
     "suggests": [
         {
-            "name": "CryoEngines"
+            "name": "BluedogDB"
         },
         {
-            "name": "KerbalAtomics"
+            "name": "FASA"
         },
         {
-            "name": "NearFutureLaunchVehicles"
+            "name": "TextureReplacer"
         },
         {
-            "name": "HullcamVDSContinued"
+            "name": "SemiSaturatableRW"
         },
         {
-            "name": "InternalRCS"
-        },
-        {
-            "name": "NearFutureConstruction"
-        },
-        {
-            "name": "NearFutureElectrical"
-        },
-        {
-            "name": "NearFutureExploration"
-        },
-        {
-            "name": "NearFutureSolar"
-        },
-        {
-            "name": "ShuttleOrbiterConstructionKit"
-        },
-        {
-            "name": "BuranEnergia"
-        },
-        {
-            "name": "RN-SovietSpacecraft"
-        },
-        {
-            "name": "RN-SalyutStations"
-        },
-        {
-            "name": "BetterTimeWarpCont"
-        },
-        {
-            "name": "DockingPortAlignmentIndicator"
-        },
-        {
-            "name": "Historian-expanded"
+            "name": "JanitorsCloset"
         },
         {
             "name": "HyperEdit"
         },
         {
-            "name": "KVVContinued"
+            "name": "EditorExtensionsRedux"
         },
         {
-            "name": "NavHudRenewed"
+            "name": "KerbalEngineerRedux"
         },
         {
-            "name": "WasdEditorCameraContinued"
+            "name": "kOS"
+        },
+        {
+            "name": "RealScaleBoosters"
+        },
+        {
+            "name": "NearFutureSolar"
+        },
+        {
+            "name": "NearFutureConstruction"
+        },
+        {
+            "name": "InternalRCS"
+        },
+        {
+            "name": "ProbesPlus"
+        },
+        {
+            "name": "ATKPropulsionPack"
         },
         {
             "name": "WaypointManager"
         },
         {
-            "name": "WernherCheckerContinued"
+            "name": "SCANsat"
+        },
+        {
+            "name": "NavHudRenewed"
+        },
+        {
+            "name": "ConformalDecals"
+        },
+        {
+            "name": "CanaveralPads"
         }
     ],
     "conflicts": [
@@ -311,6 +272,5 @@
     "download_content_type": "application/zip",
     "install_size": 107116993,
     "release_date": "2023-09-18T00:54:26Z",
-    "x_via": "Generated by Metadata Webtool",
     "x_generated_by": "netkan"
 }
