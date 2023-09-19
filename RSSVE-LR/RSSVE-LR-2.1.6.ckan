@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.26",
     "identifier": "RSSVE-LR",
     "name": "RSS Visual Enhancements - Low Resolution",
     "abstract": "A visual enhancement pack for the Kerbal Space Program RealSolarSystem mod.",
@@ -39,13 +39,15 @@
             "name": "ModuleManager"
         },
         {
-            "name": "EnvironmentalVisualEnhancements"
+            "name": "EnvironmentalVisualEnhancements",
+            "suppress_recommendations": true
         },
         {
             "name": "RealSolarSystem"
         },
         {
-            "name": "Scatterer"
+            "name": "Scatterer",
+            "suppress_recommendations": true
         }
     ],
     "recommends": [
