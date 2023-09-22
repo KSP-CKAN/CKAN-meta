@@ -1,0 +1,68 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "ContractConfigurator",
+    "name": "Contract Configurator",
+    "abstract": "A config-file based solution for creating new contracts!",
+    "author": [
+        "nightingale",
+        "KSP-RO team"
+    ],
+    "version": "v2.6.3.0",
+    "ksp_version_min": "1.12.3",
+    "ksp_version_max": "1.12.99",
+    "ksp_version_strict": true,
+    "license": "MIT",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190040--",
+        "repository": "https://github.com/KSP-RO/ContractConfigurator",
+        "bugtracker": "https://github.com/KSP-RO/ContractConfigurator/issues",
+        "license": "https://raw.githubusercontent.com/KSP-RO/ContractConfigurator/master/LICENSE.txt",
+        "manual": "https://github.com/jrossignol/ContractConfigurator/wiki",
+        "metanetkan": "https://raw.githubusercontent.com/KSP-RO/ContractConfigurator/master/ContractConfiguratorRO.netkan",
+        "remote-avc": "https://github.com/KSP-RO/ContractConfigurator/raw/master/GameData/ContractConfigurator/ContractConfigurator.version"
+    },
+    "tags": [
+        "plugin",
+        "library",
+        "career"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Harmony2"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "WaypointManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ContractsWindowPlus"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/ContractConfigurator",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/ContractConfigurator/releases/download/v2.6.3.0/ContractConfigurator_v2.6.3.0.zip",
+    "download_size": 3001796,
+    "download_hash": {
+        "sha1": "F6255B70CC05C4738F10E50058635C670435C0A7",
+        "sha256": "D4D9B09601EF86ACBDA994FC7C3905B251C7A2A8C726AD1B4368FDF76DB60692"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 8492848,
+    "release_date": "2023-09-22T21:30:20Z",
+    "x_generated_by": "netkan"
+}
