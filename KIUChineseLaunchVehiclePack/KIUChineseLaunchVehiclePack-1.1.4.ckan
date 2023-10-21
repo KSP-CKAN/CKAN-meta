@@ -1,0 +1,74 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "KIUChineseLaunchVehiclePack",
+    "name": "KIU Chinese Launch Vehicle Pack",
+    "abstract": "This mod aims to bring as many Chinese Launch vehicles to KSP as possible.",
+    "author": [
+        "Old_Copper",
+        "Armo",
+        "Launcelot"
+    ],
+    "version": "1.1.4",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/208654-1123nt-chinese-aerospace-packv120/",
+        "spacedock": "https://spacedock.info/mod/3143/KCLV%20(KIU%20Chinese%20Launch%20Vehicle%20Pack)",
+        "repository": "https://github.com/Armo00/KIU-Pack",
+        "bugtracker": "https://github.com/Armo00/KIU-Pack/issues",
+        "x_screenshot": "https://spacedock.info/content/Old_Copper_79837/KIU_Chinese_Launch_Vehicle_Pack/KIU_Chinese_Launch_Vehicle_Pack-1667076477.png"
+    },
+    "tags": [
+        "parts",
+        "graphics"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "KIUChinese-Common"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "install": [
+        {
+            "find": "KIU",
+            "install_to": "GameData",
+            "filter": [
+                "Common",
+                "CraftFiles"
+            ]
+        },
+        {
+            "find": "CraftFiles/Non-RO",
+            "install_to": "Ships",
+            "as": "VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3143/KCLV%20(KIU%20Chinese%20Launch%20Vehicle%20Pack)/download/1.1.4",
+    "download_size": 69033631,
+    "download_hash": {
+        "sha1": "2A69D1D4BC055FDBF0101210C2F17D12F02E6DB9",
+        "sha256": "3580B9443DDDC653CCD2B64E4E2896235B28CE9CB87A79944EC232A634454A88"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 269323182,
+    "release_date": "2023-10-21T07:42:58.472589+00:00",
+    "x_generated_by": "netkan"
+}
