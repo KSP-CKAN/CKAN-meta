@@ -1,0 +1,67 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Kerbalism",
+    "name": "Kerbalism",
+    "abstract": "Add life support, quality-of-life, radiation, malfunctions, signals and space weather mechanics.",
+    "author": "Kerbalism Contributors",
+    "version": "3.18",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.9",
+    "license": "Unlicense",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190382-*",
+        "repository": "https://github.com/Kerbalism/Kerbalism",
+        "bugtracker": "https://github.com/Kerbalism/Kerbalism/issues",
+        "manual": "https://kerbalism.github.io/Kerbalism",
+        "remote-avc": "https://raw.githubusercontent.com/Kerbalism/Kerbalism/master/GameData/Kerbalism/Kerbalism.version"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "crewed",
+        "science",
+        "resources"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "fr-fr",
+        "it-it",
+        "pt-br",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "Kerbalism-Config"
+        },
+        {
+            "name": "KSPCommunityFixes"
+        },
+        {
+            "name": "Harmony2"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalChangelog"
+        }
+    ],
+    "install": [
+        {
+            "find": "Kerbalism",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Kerbalism/Kerbalism/releases/download/3.18/Kerbalism-Core_v3.18_for_KSP1.8.0-1.12.9.zip",
+    "download_size": 1675952,
+    "download_hash": {
+        "sha1": "103E5AA4CB7B5DC69706A5EBFB7B6FFE6D56A9E3",
+        "sha256": "1784CCE2D4D2F8DEE4844C67D1C4861E85442FDBA0339993A64D47D7D34C0A23"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 4035381,
+    "release_date": "2023-10-22T19:43:22Z",
+    "x_generated_by": "netkan"
+}
