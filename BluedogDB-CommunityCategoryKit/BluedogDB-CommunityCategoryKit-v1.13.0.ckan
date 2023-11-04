@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "BluedogDB-CommunityCategoryKit",
+    "name": "Bluedog Design Bureau Extras - Community Category Kit",
+    "abstract": "Optional patch for BDB to add custom CCK categories",
+    "author": "Rodger",
+    "version": "v1.13.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/122020-wip-105-bluedog-design-bureau-v010-pre-release-available/#comment-2205042",
+        "spacedock": "https://spacedock.info/mod/442/Bluedog%20Design%20Bureau",
+        "repository": "https://github.com/CobaltWolf/Bluedog-Design-Bureau",
+        "bugtracker": "https://github.com/CobaltWolf/Bluedog-Design-Bureau/issues",
+        "remote-avc": "https://github.com/CobaltWolf/Bluedog-Design-Bureau/raw/master/Gamedata/Bluedog_DB/Versioning/Bluedog_DB.version",
+        "x_screenshot": "https://spacedock.info/content/CobaltWolf_2659/Bluedog_Design_Bureau/Bluedog_Design_Bureau-1650123075.png"
+    },
+    "tags": [
+        "config",
+        "convenience",
+        "editor"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "BluedogDB"
+        },
+        {
+            "name": "CommunityCategoryKit"
+        }
+    ],
+    "install": [
+        {
+            "find": "BDB_CCK",
+            "install_to": "GameData/Bluedog_DB_Extras"
+        }
+    ],
+    "download": "https://spacedock.info/mod/442/Bluedog%20Design%20Bureau/download/v1.13.0",
+    "download_size": 859456201,
+    "download_hash": {
+        "sha1": "1E40D1E81171DA6E47A1D19B892EBF84048BC0BA",
+        "sha256": "F013FB1CB7D042ACA0C9E615432B6599D6AE3D3CBB4F1EC108E3147D7B62310C"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 11343,
+    "release_date": "2023-11-04T13:43:51.847693+00:00",
+    "x_generated_by": "netkan"
+}
