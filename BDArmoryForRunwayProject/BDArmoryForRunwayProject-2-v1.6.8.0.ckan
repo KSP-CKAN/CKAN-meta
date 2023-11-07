@@ -1,0 +1,84 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "BDArmoryForRunwayProject",
+    "name": "BDArmory Plus",
+    "abstract": "Latest, continually updated version of BDArmory. Continuation of BDAc and BDArmory for Runway Project.",
+    "author": [
+        "BahamutoD",
+        "Papa_Joe",
+        "jrodrigv",
+        "ouloul",
+        "Scott Manley",
+        "JR",
+        "DocNappers",
+        "Cl0by",
+        "josue",
+        "aubranium",
+        "benbenwilde",
+        "TheKurgan"
+    ],
+    "version": "2:v1.6.8.0",
+    "ksp_version_min": "1.9.0",
+    "ksp_version_max": "1.12.999",
+    "license": "CC-BY-SA-2.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/209092-bdarmory-plus-bda/",
+        "spacedock": "https://spacedock.info/mod/2487/BDArmory%20Plus",
+        "repository": "https://github.com/BrettRyland/BDArmory",
+        "bugtracker": "https://github.com/BrettRyland/BDArmory/issues",
+        "remote-avc": "https://github.com/BrettRyland/BDArmory/raw/master/BDArmory/Distribution/GameData/BDArmory/BDArmory.version",
+        "x_screenshot": "https://spacedock.info/content/josue_43006/BDArmory_Plus/BDArmory_Plus-1658613767.png"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "sound",
+        "combat"
+    ],
+    "localizations": [
+        "de",
+        "de-de",
+        "en-us",
+        "es-es",
+        "ja",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "BDArmory"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "PhysicsRangeExtender"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "BDArmory"
+        }
+    ],
+    "install": [
+        {
+            "find": "BDArmory",
+            "install_to": "GameData"
+        },
+        {
+            "find": "craft",
+            "install_to": "Ships",
+            "as": "SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2487/BDArmory%20Plus/download/1.6.8.0",
+    "download_size": 42551606,
+    "download_hash": {
+        "sha1": "8AB13881A70DE2CDA5C4760F9D1CBAB22F73DEE8",
+        "sha256": "F6A4356856D93EDD8480EEC920ACA22465206287A5008AD8225C6C2275982C06"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 57628315,
+    "release_date": "2023-11-07T23:10:45.201226+00:00",
+    "x_generated_by": "netkan"
+}
