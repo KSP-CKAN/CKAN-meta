@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CAMk3BlockII",
+    "name": "CA - Mk3 Block II",
+    "abstract": "The Block II program further develops with Shuttle with a focus on crew safety and improved capability for both the orbiter and launch stack.",
+    "author": "Pak",
+    "version": "1:0.13",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/119951-cormorant-aeronology-dev-thread/&page=1",
+        "spacedock": "https://spacedock.info/mod/1513/CA%20-%20Mk3%20Block%20II",
+        "x_screenshot": "https://spacedock.info/content/Pak_2412/CA_-_Mk3_Block_II/CA_-_Mk3_Block_II-1521271507.9282486.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ShuttleLiftingBodyCormorantAeronology"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "PersistentRotationUpgraded"
+        },
+        {
+            "name": "AtmosphereAutopilot"
+        }
+    ],
+    "install": [
+        {
+            "find": "Cormorant Aeronology",
+            "install_to": "GameData",
+            "filter": [
+                "Localizations",
+                "Ships"
+            ]
+        },
+        {
+            "find": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1513/CA%20-%20Mk3%20Block%20II/download/0.13",
+    "download_size": 5228405,
+    "download_hash": {
+        "sha1": "49F9AE4DFE469905EDAE5BB38423C81A88741BD2",
+        "sha256": "1076972F8071EC6014248E0EB56F6D22773913762B2457131BC3BCA7B1CE863E"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 37457435,
+    "release_date": "2023-03-26T16:07:56.981131+00:00",
+    "x_generated_by": "netkan"
+}
