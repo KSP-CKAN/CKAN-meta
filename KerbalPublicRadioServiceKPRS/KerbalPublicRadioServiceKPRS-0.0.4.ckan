@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "KerbalPublicRadioServiceKPRS",
+    "name": "Kerbal Public Radio Service (KPRS)",
+    "abstract": "Presents a radio for your music listening pleasure",
+    "author": "linuxgurugamer",
+    "version": "0.0.4",
+    "ksp_version_min": "1.11.1",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/218624-112x-kerbal-public-radio-service-kprs-beta-004-released-now-on-spacedock-ckan/#:~:text=KPRS%2520is%2520a%2520set%2520of,static%2520files%2520if%2520you%2520like.",
+        "spacedock": "https://spacedock.info/mod/3504/Kerbal%20Public%20Radio%20Service%20(KPRS)",
+        "repository": "https://github.com/linuxgurugamer/K.P.R.S",
+        "bugtracker": "https://github.com/linuxgurugamer/K.P.R.S/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/K.P.R.S"
+    },
+    "tags": [
+        "parts",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "SpaceTuxLibrary"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "KPRS",
+            "install_to": "GameData",
+            "filter_regexp": "\\.mdb$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3504/Kerbal%20Public%20Radio%20Service%20(KPRS)/download/0.0.4",
+    "download_size": 15212534,
+    "download_hash": {
+        "sha1": "76DDCA099D9B40212CBD46756698B930280FD30D",
+        "sha256": "8404D03CAEBD15CDA2F10590769870DCD63C118F176E78E9C639026112145DAC"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 35474278,
+    "release_date": "2023-11-15T01:39:42.086386+00:00",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
