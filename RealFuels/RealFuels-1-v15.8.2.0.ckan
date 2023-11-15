@@ -1,0 +1,90 @@
+{
+    "spec_version": "v1.26",
+    "identifier": "RealFuels",
+    "name": "Real Fuels",
+    "abstract": "Real fuels and tanks for KSP",
+    "author": [
+        "ialdabaoth",
+        "NathanKell",
+        "taniwha",
+        "Starwaster",
+        "blowfish"
+    ],
+    "version": "1:v15.8.2.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?showtopic=58236",
+        "repository": "https://github.com/KSP-RO/RealFuels",
+        "bugtracker": "https://github.com/KSP-RO/RealFuels/issues",
+        "metanetkan": "https://raw.githubusercontent.com/KSP-RO/RealFuels/master/NetKAN/RealFuels.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/KSP-RO/RealFuels/master/RealFuels/RealFuels.version"
+    },
+    "tags": [
+        "plugin",
+        "parts"
+    ],
+    "localizations": [
+        "en-us",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealFuels-Engine-Configs",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "CommunityResourcePack",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "SolverEngines",
+            "min_version": "v3.11.0",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "ROUtils",
+            "suppress_recommendations": true
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ModularFuelSystem"
+        },
+        {
+            "name": "ModularFuelTanks"
+        },
+        {
+            "name": "Fuelswitchtoeverytank"
+        },
+        {
+            "name": "StockFuelSwitch"
+        },
+        {
+            "name": "EngineIgnitor"
+        }
+    ],
+    "install": [
+        {
+            "find": "RealFuels",
+            "install_to": "GameData",
+            "filter": ".DS_Store"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealFuels/releases/download/v15.8.2.0/RealFuels_v15.8.2.0.zip",
+    "download_size": 572291,
+    "download_hash": {
+        "sha1": "3D0111074495881E07DF8ABEED3C885174D8C21D",
+        "sha256": "66951C7BAE8AF574A56999BFFA1BF561D427EF34EACCC0F219655DE95D7E8144"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1572256,
+    "release_date": "2023-11-15T06:05:48Z",
+    "x_generated_by": "netkan"
+}
