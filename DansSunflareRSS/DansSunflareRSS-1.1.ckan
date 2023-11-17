@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "DansSunflareRSS",
+    "name": "Dan's Sunflares for RSS",
+    "abstract": "Dan's Sunflares RSS",
+    "author": "dandoesstuff",
+    "version": "1.1",
+    "ksp_version": "1.12.5",
+    "license": "restricted",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/3465/Dan's%20Sunflares%20for%20RSS",
+        "x_screenshot": "https://spacedock.info/content/dandoesstuff_122920/Dans_Sunflares_for_RSS/Dans_Sunflares_for_RSS-1694623092.png"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "provides": [
+        "Scatterer-sunflare"
+    ],
+    "depends": [
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "RealSolarSystem"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Scatterer-sunflare"
+        }
+    ],
+    "install": [
+        {
+            "find": "Sunflares",
+            "install_to": "GameData/Scatterer/config"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3465/Dan's%20Sunflares%20for%20RSS/download/1.1",
+    "download_size": 2386148,
+    "download_hash": {
+        "sha1": "E93A75A84739FD90273EE8875DE0EB95EA1CA472",
+        "sha256": "03540403F227D0458FFABE81D18CD1DB56B78DB343760C72BA97366CE7EDAF86"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2486653,
+    "release_date": "2023-09-14T17:03:18.188597+00:00",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
