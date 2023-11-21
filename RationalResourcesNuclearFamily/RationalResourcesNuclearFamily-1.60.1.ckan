@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.26",
     "identifier": "RationalResourcesNuclearFamily",
     "name": "Rational Resources Nuclear Family",
     "abstract": "Enables fuel switching and Kerbalism radioactivity in supported NTRs. Enables supported NTJs to have Kerbalism radioactivity and the features expected of a nuclear reactor",
@@ -23,12 +23,22 @@
     "depends": [
         {
             "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "any_of": [
+                {
+                    "name": "ClassicStockResources"
+                },
+                {
+                    "name": "CommunityResourcePack"
+                }
+            ]
         }
     ],
     "suggests": [
-        {
-            "name": "ClassicStockResources"
-        },
         {
             "name": "KerbalAtomics"
         },
