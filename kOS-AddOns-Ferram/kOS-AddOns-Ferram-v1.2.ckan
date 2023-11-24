@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "kOS-AddOns-Ferram",
+    "name": "kOS Ferram",
+    "abstract": "An addon for the kOS mod for Kerbal Space Program. Provides an interface with the Ferram Aerospace Research and makes most of the methods contained in the API available.",
+    "author": "giuliodondi",
+    "version": "v1.2",
+    "ksp_version": "1.12",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/giuliodondi/kOS-Ferram",
+        "bugtracker": "https://github.com/giuliodondi/kOS-Ferram/issues"
+    },
+    "tags": [
+        "plugin",
+        "control",
+        "information"
+    ],
+    "depends": [
+        {
+            "name": "kOS"
+        },
+        {
+            "name": "FAR"
+        }
+    ],
+    "install": [
+        {
+            "find": "kOS-Addons",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://api.github.com/repos/giuliodondi/kOS-Ferram/zipball/v1.2",
+    "download_size": 9289482,
+    "download_hash": {
+        "sha1": "DA486AE6FDC2E9FB3962F6E6CB492E184143F280",
+        "sha256": "EDA26394B1BA76E9941FD1C02B062C593F1BCE1A8238FA0C264D1F5F0A178F0A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 15872,
+    "release_date": "2023-11-23T17:09:32Z",
+    "x_generated_by": "netkan"
+}
