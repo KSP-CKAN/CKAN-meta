@@ -1,0 +1,327 @@
+{
+    "spec_version": "v1.26",
+    "identifier": "RP-1",
+    "name": "Realistic Progression One (RP-1)",
+    "abstract": "Career for Realism Overhaul. Do not select/install this directly, instead select the RP-1 Express Install and let it install this automatically unless you know what you're doing and can fix it yourself.",
+    "author": [
+        "RP-1 Group"
+    ],
+    "version": "v3.3.0.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190040-*",
+        "repository": "https://github.com/KSP-RO/RP-1",
+        "bugtracker": "https://github.com/KSP-RO/RP-1/issues",
+        "manual": "https://github.com/KSP-RO/RP-1/wiki",
+        "metanetkan": "https://raw.githubusercontent.com/KSP-RO/RP-1/master/RP-1.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/KSP-RO/RP-1/master/GameData/RP-1/RP-1.version"
+    },
+    "tags": [
+        "plugin",
+        "config",
+        "parts",
+        "career",
+        "science"
+    ],
+    "localizations": [
+        "RP"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealismOverhaul",
+            "min_version": "v16.0.0.0"
+        },
+        {
+            "name": "SXTContinued",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "ContractConfigurator",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "CustomBarnKit",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "VenStockRevamp-NewParts",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "RealSolarSystem",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "MagiCore",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "ClickThroughBlocker",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "ToolbarController",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "Kerbalism-Config-RO",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "KSPCommunityFixes",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "KerbalChangelog",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "ROUtils",
+            "suppress_recommendations": true
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ROLoadingImages"
+        },
+        {
+            "name": "RSSDateTimeFormatter"
+        },
+        {
+            "name": "KSPBurst-Full"
+        },
+        {
+            "any_of": [
+                {
+                    "name": "ReStock"
+                },
+                {
+                    "name": "VenStockRevamp"
+                }
+            ]
+        },
+        {
+            "name": "ReStockPlus"
+        },
+        {
+            "name": "ROEngines",
+            "min_version": "v2.0.0.0"
+        },
+        {
+            "name": "ROTanks"
+        },
+        {
+            "name": "ROCapsules",
+            "min_version": "v2.0.0.0"
+        },
+        {
+            "name": "ROSolar",
+            "min_version": "v2.0.0.0"
+        },
+        {
+            "name": "ROHeatshields"
+        },
+        {
+            "name": "B9-PWings-Fork"
+        },
+        {
+            "name": "KSPWheel"
+        },
+        {
+            "name": "KerbalRenamer"
+        },
+        {
+            "name": "KSCSwitcher"
+        },
+        {
+            "name": "AtmosphereAutopilot"
+        },
+        {
+            "name": "ProceduralFairings"
+        },
+        {
+            "name": "ProceduralParts"
+        },
+        {
+            "name": "RCSBuildAid"
+        },
+        {
+            "name": "RealAntennas"
+        },
+        {
+            "any_of": [
+                {
+                    "name": "TestFlight"
+                },
+                {
+                    "name": "TestLite"
+                }
+            ]
+        },
+        {
+            "name": "TextureReplacer"
+        },
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "HangerExtenderExtended"
+        },
+        {
+            "name": "ModularLaunchPads"
+        },
+        {
+            "name": "ConformalDecals"
+        },
+        {
+            "name": "Shabby"
+        },
+        {
+            "name": "EditorExtensionsRedux"
+        },
+        {
+            "name": "KerbalAlarmClock"
+        },
+        {
+            "name": "TransferWindowPlannerFork"
+        },
+        {
+            "name": "LunarTransferPlanner"
+        },
+        {
+            "name": "Principia"
+        },
+        {
+            "name": "kOS"
+        },
+        {
+            "name": "DockingPortSoundFX"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CryoEngines"
+        },
+        {
+            "name": "KerbalAtomics"
+        },
+        {
+            "name": "NearFutureLaunchVehicles"
+        },
+        {
+            "name": "HullcamVDSContinued"
+        },
+        {
+            "name": "InternalRCS"
+        },
+        {
+            "name": "NearFutureConstruction"
+        },
+        {
+            "name": "NearFutureElectrical"
+        },
+        {
+            "name": "NearFutureExploration"
+        },
+        {
+            "name": "NearFutureSolar"
+        },
+        {
+            "name": "ShuttleOrbiterConstructionKit"
+        },
+        {
+            "name": "BuranEnergia"
+        },
+        {
+            "name": "RN-SovietSpacecraft"
+        },
+        {
+            "name": "RN-SalyutStations"
+        },
+        {
+            "name": "BetterTimeWarpCont"
+        },
+        {
+            "name": "DockingPortAlignmentIndicator"
+        },
+        {
+            "name": "Historian-expanded"
+        },
+        {
+            "name": "HyperEdit"
+        },
+        {
+            "name": "KVVContinued"
+        },
+        {
+            "name": "NavHudRenewed"
+        },
+        {
+            "name": "WasdEditorCameraContinued"
+        },
+        {
+            "name": "WaypointManager"
+        },
+        {
+            "name": "WernherCheckerContinued"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RP-0"
+        },
+        {
+            "name": "RONoCareer"
+        },
+        {
+            "name": "KerbalConstructionTime"
+        },
+        {
+            "name": "CrowdSourcedScience"
+        },
+        {
+            "name": "HideEmptyTechNodes"
+        },
+        {
+            "name": "MechJebForAll"
+        },
+        {
+            "name": "NearFutureElectrical-DecayingRTGs"
+        },
+        {
+            "name": "KRASH"
+        },
+        {
+            "name": "ROCapsules",
+            "max_version": "v1.99.0.0"
+        },
+        {
+            "name": "ROEngines",
+            "max_version": "v1.99.0.0"
+        },
+        {
+            "name": "ROSolar",
+            "max_version": "v1.99.0.0"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RP-1/releases/download/v3.3.0.1/RP-1-v3.3.0.1.zip",
+    "download_size": 62149845,
+    "download_hash": {
+        "sha1": "011D659AC6E76011046E4D7D769E58B2EC4E8EE2",
+        "sha256": "79FD7A357F3356CFF854464DEF4A41D8C51FCD886987D9C9326F8AFEB0335227"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 138674065,
+    "release_date": "2023-12-10T22:35:06Z",
+    "x_via": "Generated by Metadata Webtool",
+    "x_generated_by": "netkan"
+}
