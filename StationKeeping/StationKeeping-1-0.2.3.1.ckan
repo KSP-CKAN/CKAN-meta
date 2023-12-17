@@ -1,0 +1,47 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "StationKeeping",
+    "name": "Station Keeping",
+    "abstract": "Adds a button in the Tracking Station to set a ship's orbit. If you are with 1% (configurable) of your target orbit, you can simply push the button to set the orbit's semi-major axis to exactly what you want, so it won't drift out of alignment as you time warp.",
+    "author": [
+        "swilbur",
+        "linuxgurugamer"
+    ],
+    "version": "1:0.2.3.1",
+    "ksp_version_min": "1.12.0",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/173518-*",
+        "repository": "https://github.com/linuxgurugamer/StationKeeping",
+        "bugtracker": "https://github.com/linuxgurugamer/StationKeeping/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/StationKeeping"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "StationKeeping",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/StationKeeping/releases/download/0.2.3.1/StationKeeping-1.12.0-0.2.3.1.zip",
+    "download_size": 37403,
+    "download_hash": {
+        "sha1": "1B46E2176F4CA876C6799C314D0F5D855AF6AD8D",
+        "sha256": "5669CA5533B7F2C87739FF337C44E0AAADE04DC88E3134C1BC839DFA48BD6D16"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 55604,
+    "release_date": "2023-12-17T19:34:23Z",
+    "x_generated_by": "netkan"
+}
