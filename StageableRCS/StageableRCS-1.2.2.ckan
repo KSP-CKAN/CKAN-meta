@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "StageableRCS",
+    "name": "SRCS - Stageable RCS",
+    "abstract": "Make RCS parts stageable",
+    "author": [
+        "KSP-RO",
+        "Kurgut"
+    ],
+    "version": "1.2.2",
+    "ksp_version_min": "1.3.1",
+    "ksp_version_max": "1.12.5",
+    "license": "CC-BY-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/176365-131-144-srcs-stageable-rcs/",
+        "spacedock": "https://spacedock.info/mod/1900/SRCS%20-%20Stageable%20RCS",
+        "repository": "https://github.com/kurgut/SRCS-Stageable-RCS",
+        "bugtracker": "https://github.com/kurgut/SRCS-Stageable-RCS/issues",
+        "remote-avc": "https://raw.githubusercontent.com/kurgut/SRCS-Stageable-RCS/main/GameData/SRCS/SRCS.version",
+        "x_screenshot": "https://spacedock.info/content/Kurgut_20777/SRCS_-_Stageable_RCS/SRCS_-_Stageable_RCS-1530621507.4310377.png"
+    },
+    "tags": [
+        "config",
+        "control",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RealismOverhaul"
+        }
+    ],
+    "install": [
+        {
+            "find": "SRCS",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1900/SRCS%20-%20Stageable%20RCS/download/1.2.2",
+    "download_size": 1876,
+    "download_hash": {
+        "sha1": "639253274C98A6993943416DA7D4C7228BB500D0",
+        "sha256": "3463BA4C3B77713AB48EA1F3FA6D07D32E639568934EAA802FBCD899778F3BA4"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1758,
+    "release_date": "2023-12-28T09:26:04.348328+00:00",
+    "x_generated_by": "netkan"
+}
