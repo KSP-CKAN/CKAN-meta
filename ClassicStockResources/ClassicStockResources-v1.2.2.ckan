@@ -22,13 +22,18 @@
             "name": "ModuleManager"
         },
         {
-            "name": "WildBlue-PlayMode-ClassicStock"
+            "name": "ClassicStockResources-PlayMode"
         }
     ],
     "install": [
         {
             "find": "ClassicStockResources",
-            "install_to": "GameData/WildBlueIndustries"
+            "install_to": "GameData/WildBlueIndustries",
+            "filter": "Templates"
+        },
+        {
+            "find": "ClassicStockResources/Templates/Common",
+            "install_to": "GameData/WildBlueIndustries/ClassicStockResources/Templates"
         }
     ],
     "download": "https://github.com/Angel-125/ClassicStockResources/releases/download/v1.2.2/ClassicStockResources.zip",
@@ -38,7 +43,7 @@
         "sha256": "D3E1C0F8372304CE799EB5EE91492776CCEDD8A82BEEC20AE8D185F26D837585"
     },
     "download_content_type": "application/zip",
-    "install_size": 104321,
+    "install_size": 36621,
     "release_date": "2021-05-13T20:00:23Z",
     "x_generated_by": "netkan"
 }
