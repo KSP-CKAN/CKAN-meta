@@ -1,7 +1,7 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "ClassicStockResources",
-    "name": "Classic Stock Resources",
+    "spec_version": "v1.24",
+    "identifier": "ClassicStockResources-PlayMode-ClassicStock",
+    "name": "Classic Stock Resources Classic Stock Play Mode",
     "abstract": "An alternative resource set for Kerbal Space Program",
     "author": "Angel-125",
     "version": "v1.2.0",
@@ -17,9 +17,23 @@
         "library",
         "resources"
     ],
+    "provides": [
+        "ClassicStockResources-PlayMode"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
+        },
+        {
+            "name": "ClassicStockResources"
+        },
+        {
+            "name": "WildBlue-PlayMode-ClassicStock"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "CommunityResourcePack"
         },
         {
             "name": "ClassicStockResources-PlayMode"
@@ -27,13 +41,13 @@
     ],
     "install": [
         {
-            "find": "ClassicStockResources",
-            "install_to": "GameData/WildBlueIndustries",
-            "filter": "Templates"
-        },
-        {
-            "find": "ClassicStockResources/Templates/Common",
-            "install_to": "GameData/WildBlueIndustries/ClassicStockResources/Templates"
+            "find": "ClassicStockResources/Templates",
+            "include_only": [
+                "Storage",
+                "Utility",
+                "Production"
+            ],
+            "install_to": "GameData/WildBlueIndustries/ClassicStockResources"
         }
     ],
     "download": "https://github.com/Angel-125/ClassicStockResources/releases/download/v1.2.0/ClassicStockResources.zip",
@@ -43,7 +57,7 @@
         "sha256": "CD248DC12E6DAD717CE8E006F594598DA14E7911EC6B5871B17AB4B49F27636A"
     },
     "download_content_type": "application/zip",
-    "install_size": 36497,
+    "install_size": 67683,
     "release_date": "2021-02-08T18:54:28Z",
     "x_generated_by": "netkan"
 }
