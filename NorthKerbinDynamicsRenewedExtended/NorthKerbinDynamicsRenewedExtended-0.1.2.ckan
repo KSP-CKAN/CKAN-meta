@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "NorthKerbinDynamicsRenewedExtended",
+    "name": "North Kerbin Dynamics Renewed-Extended (NKDR-E)",
+    "abstract": "Your favorite nukes are back for BDA+",
+    "author": [
+        "josue",
+        "Brett_Ryland"
+    ],
+    "version": "0.1.2",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-SA",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/3551/North%20Kerbin%20Dynamics%20Renewed-Extended%20(NKDR-E)",
+        "repository": "https://github.com/josuenos/NKDR",
+        "x_screenshot": "https://spacedock.info/content/josue_43006/North_Kerbin_Dynamics_Renewed-Extended_NKDR-E/North_Kerbin_Dynamics_Renewed-Extended_NKDR-E-1705543418.png"
+    },
+    "tags": [
+        "parts",
+        "flags",
+        "combat"
+    ],
+    "depends": [
+        {
+            "name": "BDArmoryForRunwayProject"
+        }
+    ],
+    "install": [
+        {
+            "find": "NKDR",
+            "install_to": "GameData",
+            "filter": [
+                ".DS_Store",
+                "Craft"
+            ]
+        },
+        {
+            "find": "Craft/VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find": "Craft/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3551/North%20Kerbin%20Dynamics%20Renewed-Extended%20(NKDR-E)/download/0.1.2",
+    "download_size": 71398684,
+    "download_hash": {
+        "sha1": "8A59D10A58F7B43DFA4BBB76A575479A1D605811",
+        "sha256": "03BFC928FFFF992C1CF2BA7365437DC57BE9616AF0556837F314269B31C50F11"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 275065200,
+    "release_date": "2024-02-03T23:16:14.685781+00:00",
+    "x_generated_by": "netkan"
+}
