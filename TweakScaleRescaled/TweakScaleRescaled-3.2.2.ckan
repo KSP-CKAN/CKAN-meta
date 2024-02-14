@@ -1,0 +1,75 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "TweakScaleRescaled",
+    "name": "TweakScale Rescaled",
+    "abstract": "Rescale parts in the vessel editor.  Faster, more features, fewer bugs.",
+    "author": [
+        "Biotronic",
+        "pellinor",
+        "JonnyOThan"
+    ],
+    "version": "3.2.2",
+    "ksp_version_min": "1.12.3",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/222953-1125-wip-tweakscale-rescaled/",
+        "spacedock": "https://spacedock.info/mod/3514/TweakScale%20Rescaled",
+        "repository": "https://github.com/JonnyOThan/TweakScale",
+        "bugtracker": "https://github.com/JonnyOThan/TweakScale/issues",
+        "remote-avc": "https://raw.githubusercontent.com/JonnyOThan/TweakScale/master/GameData/TweakScale/TweakScale.version",
+        "x_screenshot": "https://spacedock.info/content/JonnyOThan_33590/TweakScale_Rescaled/TweakScale_Rescaled-1707076072.png"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "provides": [
+        "TweakScale"
+    ],
+    "depends": [
+        {
+            "name": "Harmony2",
+            "min_version": "2.2"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TweakScaleRescaled-Redist"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "TweakScaleRescaled-SafetyNet"
+        },
+        {
+            "name": "KSPCommunityFixes"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "TweakScaleCompanion"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/TweakScale",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3514/TweakScale%20Rescaled/download/3.2.2",
+    "download_size": 154574,
+    "download_hash": {
+        "sha1": "10738CE6FA893F07931750077C3CEA23B4EA0DDA",
+        "sha256": "D0B746DC966AF11F38A8779CC0B0C05297A8E487972042EBAA3BB2FF28405CA9"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 412217,
+    "release_date": "2024-02-14T13:20:05.456358+00:00",
+    "x_generated_by": "netkan"
+}
