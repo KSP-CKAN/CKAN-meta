@@ -1,9 +1,12 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.26",
     "identifier": "Reviva",
     "name": "Reviva",
     "abstract": "Dynamic switching between multiple IVAs in editor and in-flight",
-    "author": "610yesnolovely (Harvey Thompson)",
+    "author": [
+        "610yesnolovely (Harvey Thompson)",
+        "JonnyOThan"
+    ],
     "version": "1.0.0",
     "ksp_version": "1.12",
     "license": "MIT",
@@ -26,19 +29,23 @@
             "name": "ModuleManager"
         },
         {
-            "name": "RasterPropMonitor"
+            "any_of": [
+                {
+                    "name": "RasterPropMonitor-Core"
+                },
+                {
+                    "name": "AvionicsSystems"
+                }
+            ]
         }
     ],
     "recommends": [
         {
-            "name": "DE-IVAExtension"
+            "name": "ASETProps"
         }
     ],
     "suggests": [
         {
-            "name": "AvionicsSystems"
-        },
-        {
             "name": "Mk1CockpitIVAReplbyASET"
         },
         {
@@ -46,11 +53,12 @@
         },
         {
             "name": "MK12PodIVAReplacementbyASET"
-        }
-    ],
-    "supports": [
+        },
         {
-            "name": "RasterPropMonitor"
+            "name": "AirplanePlus"
+        },
+        {
+            "name": "KSAIVAUpgrade"
         },
         {
             "name": "DE-IVAExtension"
@@ -59,6 +67,14 @@
             "name": "AvionicsSystems"
         },
         {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "StarilexMk1NeedleIVA"
+        }
+    ],
+    "supports": [
+        {
             "name": "Mk1CockpitIVAReplbyASET"
         },
         {
@@ -66,6 +82,27 @@
         },
         {
             "name": "MK12PodIVAReplacementbyASET"
+        },
+        {
+            "name": "AirplanePlus"
+        },
+        {
+            "name": "KSAIVAUpgrade"
+        },
+        {
+            "name": "DE-IVAExtension"
+        },
+        {
+            "name": "AvionicsSystems"
+        },
+        {
+            "name": "RasterPropMonitor"
+        },
+        {
+            "name": "StarilexMk1NeedleIVA"
+        },
+        {
+            "name": "BluedogDB"
         }
     ],
     "download": "https://github.com/harveyt/reviva/releases/download/1.0.0/Reviva-1.0.0.zip",
