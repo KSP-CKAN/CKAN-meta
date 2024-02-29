@@ -1,0 +1,73 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "KIUChineseDeepspaceExplorationPack",
+    "name": "KIU Chinese Deepspace Exploration Pack",
+    "abstract": "This mod aims to bring as many Chinese deep space vehicles to KSP as possible. So far, this mod has Tianwen-1 and ChangE-2.",
+    "author": [
+        "Old_Copper",
+        "Launcelot",
+        "Armo"
+    ],
+    "version": "1.0.4",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/208654-1123nt-chinese-aerospace-packv120/",
+        "spacedock": "https://spacedock.info/mod/3142/KCDE%20(KIU%20Chinese%20Deepspace%20Exploration%20Pack)",
+        "repository": "https://github.com/Armo00/KIU-Pack",
+        "bugtracker": "https://github.com/Armo00/KIU-Pack/issues",
+        "x_screenshot": "https://spacedock.info/content/Old_Copper_79837/KIU_Chinese_Deepspace_Exploration_Pack/KIU_Chinese_Deepspace_Exploration_Pack-1667094949.jpg"
+    },
+    "tags": [
+        "parts",
+        "graphics"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "KIUChinese-Common"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "install": [
+        {
+            "find": "KIU",
+            "install_to": "GameData",
+            "filter": [
+                "Common",
+                "CraftFiles"
+            ]
+        },
+        {
+            "find": "CraftFiles/Non-RO",
+            "install_to": "Ships",
+            "as": "VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3142/KCDE%20(KIU%20Chinese%20Deepspace%20Exploration%20Pack)/download/1.0.4",
+    "download_size": 41729496,
+    "download_hash": {
+        "sha1": "34FCE0084852CC752D00E055D80E227BBEF6C671",
+        "sha256": "CBD11870A0195BE8DD0ABB746B7BA8D7080A37357DC88DAB502887A3728B620D"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 81375256,
+    "release_date": "2024-02-29T02:50:07.030508+00:00",
+    "x_generated_by": "netkan"
+}
