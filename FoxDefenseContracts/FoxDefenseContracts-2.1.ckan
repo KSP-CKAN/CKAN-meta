@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "FoxDefenseContracts",
+    "name": "Fox Defense Contracts - Tank turrets",
+    "abstract": "Adding Turrets from early Wars to modern era. BDAc Expansion",
+    "author": "Marhfg",
+    "version": "2.1",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/163346-wip12x13x-fox-defense-contracts-bdac-addon-tank-turrets-ver-011/",
+        "spacedock": "https://spacedock.info/mod/1455/Fox%20Defense%20Contracts%20-%20Tank%20turrets",
+        "repository": "https://github.com/lancefoxcia/FoxDefenseContracts",
+        "bugtracker": "https://github.com/lancefoxcia/FoxDefenseContracts/issues",
+        "x_screenshot": "https://spacedock.info/content/Marhfg_14451/Fox_Defense_Contracts_-_Tank_turrets/Fox_Defense_Contracts_-_Tank_turrets-1552267222.039334.png"
+    },
+    "tags": [
+        "parts",
+        "combat"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "BDArmory"
+        }
+    ],
+    "install": [
+        {
+            "find": "FoxDefenseContracts",
+            "install_to": "GameData"
+        },
+        {
+            "find": "FDC_Armor",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/Changelog.txt",
+            "install_to": "GameData/FoxDefenseContracts"
+        },
+        {
+            "file": "GameData/README.md",
+            "install_to": "GameData/FoxDefenseContracts"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1455/Fox%20Defense%20Contracts%20-%20Tank%20turrets/download/2.1",
+    "download_size": 482880732,
+    "download_hash": {
+        "sha1": "86C5AFC52557E68C1D3C68CC320B86FF41D59498",
+        "sha256": "C9BE4381F4604E8EDDD273C6F7D34E717AD540E7167C6601C494E5C87CF5BD46"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1211818121,
+    "release_date": "2024-03-07T19:00:41.689767+00:00",
+    "x_generated_by": "netkan"
+}
