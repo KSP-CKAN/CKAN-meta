@@ -2,7 +2,7 @@
     "spec_version": "v1.4",
     "identifier": "CryoTanks-Core",
     "name": "Cryo Tanks Core",
-    "abstract": "This is the CryoTanks plugin stand-alone, for adding functionality to other mods. It contains no parts and does nothing by itself.",
+    "abstract": "Cryo Tanks plugin stand-alone, for adding functionality to other mods. Contains no parts and does nothing by itself.",
     "author": "Nertea (Chris Adderley)",
     "version": "1.6.5",
     "ksp_version_min": "1.8.0",
@@ -12,13 +12,12 @@
         "homepage": "https://github.com/post-kerbin-mining-corporation/CryoTanks/wiki",
         "repository": "https://github.com/post-kerbin-mining-corporation/CryoTanks",
         "bugtracker": "https://github.com/post-kerbin-mining-corporation/CryoTanks/issues",
-        "metanetkan": "https://github.com/post-kerbin-mining-corporation/CryoTanks/raw/master/CKAN/CryoTanks-Core.netkan",
         "remote-avc": "https://raw.githubusercontent.com/post-kerbin-mining-corporation/CryoTanks/master/GameData/CryoTanks/Versioning/CryoTanks.version"
     },
     "tags": [
         "plugin"
     ],
-    "supports": [
+    "depends": [
         {
             "name": "CryoTanks"
         }
