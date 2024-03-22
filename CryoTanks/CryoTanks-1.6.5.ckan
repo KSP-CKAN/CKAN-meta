@@ -2,7 +2,7 @@
     "spec_version": "v1.4",
     "identifier": "CryoTanks",
     "name": "Cryo Tanks",
-    "abstract": "A set of fuel tanks for containing Liquid Hydrogen. Also adds Liquid Hydrogen storage to most stock tanks",
+    "abstract": "Liquid Hydrogen fuel tanks and Liquid Hydrogen storage for most stock tanks",
     "author": "Nertea (Chris Adderley)",
     "version": "1.6.5",
     "ksp_version_min": "1.8.0",
@@ -12,7 +12,6 @@
         "homepage": "https://github.com/post-kerbin-mining-corporation/CryoTanks/wiki",
         "repository": "https://github.com/post-kerbin-mining-corporation/CryoTanks",
         "bugtracker": "https://github.com/post-kerbin-mining-corporation/CryoTanks/issues",
-        "metanetkan": "https://github.com/post-kerbin-mining-corporation/CryoTanks/raw/master/CKAN/CryoTanks.netkan",
         "remote-avc": "https://raw.githubusercontent.com/post-kerbin-mining-corporation/CryoTanks/master/GameData/CryoTanks/Versioning/CryoTanks.version"
     },
     "tags": [
@@ -28,10 +27,13 @@
     ],
     "depends": [
         {
+            "name": "ModuleManager"
+        },
+        {
             "name": "CryoTanks-Core"
         },
         {
-            "name": "ModuleManager"
+            "name": "B9PartSwitch"
         },
         {
             "name": "CommunityResourcePack"
