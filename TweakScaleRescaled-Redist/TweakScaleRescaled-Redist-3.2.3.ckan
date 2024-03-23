@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "TweakScaleRescaled-Redist",
+    "name": "TweakScale Rescaled Redistributable",
+    "abstract": "Provides a mechanism for other mods to interact with TweakScaleRescaled. This plugin has no overhead when TweakScaleRescaled is not installed.",
+    "author": [
+        "Biotronic",
+        "pellinor",
+        "JonnyOThan"
+    ],
+    "version": "3.2.3",
+    "ksp_version_min": "1.12.3",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/223692-1125-tweakscalerescaled-scale-your-parts-in-the-editor/",
+        "spacedock": "https://spacedock.info/mod/3514/TweakScale%20Rescaled",
+        "repository": "https://github.com/JonnyOThan/TweakScale",
+        "bugtracker": "https://github.com/JonnyOThan/TweakScale/issues",
+        "remote-avc": "https://raw.githubusercontent.com/JonnyOThan/TweakScale/master/GameData/999_Scale_Redist.version",
+        "x_screenshot": "https://spacedock.info/content/JonnyOThan_33590/TweakScale_Rescaled/TweakScale_Rescaled-1707076072.png"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "provides": [
+        "TweakScale-Redist"
+    ],
+    "recommends": [
+        {
+            "name": "TweakScaleRescaled"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TweakScale-Redist"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/999_Scale_Redist.dll",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/999_Scale_Redist.version",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3514/TweakScale%20Rescaled/download/3.2.3",
+    "download_size": 154708,
+    "download_hash": {
+        "sha1": "587A7E1B09032E7A0AE81010576494BACC9BF28D",
+        "sha256": "9FCDA12E6F475B9EFB80317D2D7F046CAA907872D1237022A21D888DBCE30C6C"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 6379,
+    "release_date": "2024-03-23T19:09:52.994919+00:00",
+    "x_generated_by": "netkan"
+}
