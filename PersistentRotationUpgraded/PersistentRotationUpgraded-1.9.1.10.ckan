@@ -1,0 +1,65 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "PersistentRotationUpgraded",
+    "name": "PersistentRotation Upgraded",
+    "abstract": "Momentum and Rotation in KSP are quite unrealistic.  This mod will maintain rotation through timewarping and changing vessels, etc.",
+    "author": "linuxgurugamer",
+    "version": "1.9.1.10",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201121-19x",
+        "spacedock": "https://spacedock.info/mod/2660/PersistentRotation%20Upgraded",
+        "repository": "https://github.com/linuxgurugamer/PersistentRotation",
+        "bugtracker": "https://github.com/linuxgurugamer/PersistentRotation/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/PersistentRotationUpgraded",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/PersistentRotation_Upgraded/PersistentRotation_Upgraded-1616212727.442817.jpg"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "fr-fr",
+        "zh-cn"
+    ],
+    "provides": [
+        "PersistentRotation"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "PersistentRotation"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/PersistentRotation",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2660/PersistentRotation%20Upgraded/download/1.9.1.10",
+    "download_size": 33469,
+    "download_hash": {
+        "sha1": "F462FE6519583D42AD56911C344BE424816FB5DC",
+        "sha256": "9AD87B85F3D2917F584F709357FC42008CA2D11F5D4C6EC18E5B285BEDC94820"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 62444,
+    "release_date": "2024-03-26T23:44:55.581165+00:00",
+    "x_generated_by": "netkan"
+}
