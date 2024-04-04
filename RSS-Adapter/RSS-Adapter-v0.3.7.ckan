@@ -1,0 +1,77 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RSS-Adapter",
+    "name": "RSS Adapter",
+    "abstract": "Adapts your stock KSP for the Real Solar System",
+    "author": "Globul-Art",
+    "version": "v0.3.7",
+    "license": "MIT",
+    "resources": {
+        "repository": "https://github.com/Globul-Art/RSS_Adapter",
+        "bugtracker": "https://github.com/Globul-Art/RSS_Adapter/issues"
+    },
+    "tags": [
+        "config",
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "CustomBarnKit"
+        },
+        {
+            "name": "CryoTanks"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealEngines"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "MandatoryRCS"
+        },
+        {
+            "name": "InternalRCS"
+        }
+    ],
+    "supports": [
+        {
+            "name": "NewTantares"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "RealFuels"
+        }
+    ],
+    "install": [
+        {
+            "find": "zzz_RSS_Adapter",
+            "filter": [
+                ".git",
+                ".gitattributes"
+            ],
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Globul-Art/RSS_Adapter/releases/download/v0.3.7/RSS_Adapter.0.3.7.zip",
+    "download_size": 197807,
+    "download_hash": {
+        "sha1": "8DD6FDD1C2C9D4314C1DA353B939115FCBA2A055",
+        "sha256": "B03E0EA09D3C9685F86A3DAA444B74F26AE90780F5B80E24541688AAAABCF330"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 126519,
+    "release_date": "2024-04-04T03:15:34Z",
+    "x_generated_by": "netkan"
+}
