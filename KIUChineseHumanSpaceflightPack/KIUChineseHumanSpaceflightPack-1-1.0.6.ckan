@@ -1,0 +1,75 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "KIUChineseHumanSpaceflightPack",
+    "name": "KIU Chinese Human Spaceflight Pack",
+    "abstract": "This mod will bring all of the Chinese Human Spaceflight vehicles to KSP.",
+    "author": [
+        "Old_Copper",
+        "Armo",
+        "Launcelot"
+    ],
+    "version": "1:1.0.6",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/208654-1123nt-chinese-aerospace-packv120/",
+        "spacedock": "https://spacedock.info/mod/3144/KCHS%20(KIU%20Chinese%20Human%20Spaceflight%20Pack)",
+        "repository": "https://github.com/Armo00/KIU-Pack",
+        "bugtracker": "https://github.com/Armo00/KIU-Pack/issues",
+        "x_screenshot": "https://spacedock.info/content/Old_Copper_79837/KIU_Chinese_Human_Spaceflight_Pack/KIU_Chinese_Human_Spaceflight_Pack-1667076630.jpg"
+    },
+    "tags": [
+        "parts",
+        "crewed",
+        "graphics"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "KIUChinese-Common"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "install": [
+        {
+            "find": "KIU",
+            "install_to": "GameData",
+            "filter": [
+                "Common",
+                "CraftFiles"
+            ]
+        },
+        {
+            "find": "CraftFiles/Non-RO",
+            "install_to": "Ships",
+            "as": "VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3144/KCHS%20(KIU%20Chinese%20Human%20Spaceflight%20Pack)/download/1.0.6",
+    "download_size": 121774692,
+    "download_hash": {
+        "sha1": "EC0A99AB8FB6EC27F94B87414C42275F93A8CB26",
+        "sha256": "096ADF2B6262AEAC74BB1BC02FD181CF9274BF7251F94E15FE9384E602F2C9B8"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 207103548,
+    "release_date": "2024-04-15T03:48:55.378994+00:00",
+    "x_generated_by": "netkan"
+}
