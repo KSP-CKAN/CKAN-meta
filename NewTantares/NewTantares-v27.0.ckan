@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "NewTantares",
+    "name": "Tantares - Soviet Spacecraft",
+    "abstract": "Stockalike Soviet Spacecraft",
+    "author": "Beale",
+    "version": "v27.0",
+    "ksp_version": "1.12",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/73686-Tantares",
+        "spacedock": "https://spacedock.info/mod/174/Tantares",
+        "repository": "https://github.com/Tantares/Tantares",
+        "bugtracker": "https://github.com/Tantares/Tantares/issues"
+    },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "provides": [
+        "Tantares"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "NewTantaresLV"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Tantares"
+        }
+    ],
+    "install": [
+        {
+            "find": "Tantares",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Crafts",
+            "install_to": "Ships",
+            "as": "VAB"
+        }
+    ],
+    "download": "https://github.com/Tantares/Tantares/releases/download/v27.0/Tantares.zip",
+    "download_size": 131456433,
+    "download_hash": {
+        "sha1": "56B44D42BDBC43AE370DE40B40C7E7426AADE222",
+        "sha256": "C8466E7DB8BFE3EC05C2B17450C80BC87FFC7557212EC24BD334660B759A7865"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 278137489,
+    "release_date": "2024-05-18T19:37:20Z",
+    "x_generated_by": "netkan"
+}
