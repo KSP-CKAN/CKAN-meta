@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ReStock",
+    "name": "ReStock",
+    "abstract": "A community-built replacement for KSP's part models and textures. No effects on gameplay",
+    "author": "ReStock Team",
+    "version": "1.4.4",
+    "ksp_version_min": "1.12.2",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182679-161-restock-revamping-ksps-art/",
+        "repository": "https://github.com/PorktoberRevolution/ReStocked",
+        "bugtracker": "https://github.com/PorktoberRevolution/ReStocked/issues",
+        "metanetkan": "https://github.com/PorktoberRevolution/ReStocked/raw/master/CKAN/ReStock.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/PorktoberRevolution/ReStocked/prod/Distribution/Restock/GameData/ReStock/Versioning/ReStock.version"
+    },
+    "tags": [
+        "parts",
+        "graphics"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "fr-fr",
+        "ja",
+        "pt-br",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ReStockPlus"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "VenStockRevamp"
+        }
+    ],
+    "install": [
+        {
+            "find": "ReStock",
+            "install_to": "GameData",
+            "comment": "Restock installation"
+        }
+    ],
+    "download": "https://github.com/PorktoberRevolution/ReStocked/releases/download/1.4.4/ReStock_1_4_4.zip",
+    "download_size": 236355299,
+    "download_hash": {
+        "sha1": "F36CEEB1A7E65FF8571522949E62E58B7B29047D",
+        "sha256": "60F1165B1B91E596812D06AE02CF13933D14F214D7776C31F239560DB4DA5674"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 679778625,
+    "release_date": "2024-05-18T21:45:04Z",
+    "x_generated_by": "netkan"
+}
