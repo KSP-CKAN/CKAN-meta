@@ -1,8 +1,8 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "RealChute",
     "name": "RealChute Parachute Systems",
-    "abstract": "RealChute is a complete rework of the stock parachute module to fix a few of it's inconveniences and get more realistic results out of parachutes!",
+    "abstract": "Complete rework of the stock parachute module to fix a few of its inconveniences and get more realistic results out of parachutes!",
     "author": [
         "stupid_chris",
         "sumghai"
@@ -33,7 +33,14 @@
     ],
     "recommends": [
         {
-            "name": "ModuleManager"
+            "name": "RealChuteForStock"
+        }
+    ],
+    "install": [
+        {
+            "find": "RealChute",
+            "install_to": "GameData",
+            "filter": "Patches"
         }
     ],
     "download": "https://github.com/ChrisViral/RealChute/releases/download/v1.4.9.2/RealChute_v1.4.9.2.zip",
@@ -43,7 +50,7 @@
         "sha256": "D6CB0B753210CF774A2B9E907226859746FEB4B32C08A08606C6B0936EFCBFD3"
     },
     "download_content_type": "application/zip",
-    "install_size": 5643235,
+    "install_size": 5627307,
     "release_date": "2024-05-29T06:23:27Z",
     "x_generated_by": "netkan"
 }
