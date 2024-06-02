@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RealChuteForStock",
+    "name": "RealChute for Stock",
+    "abstract": "Gives stock/ReStock parachutes RealChute capabilities",
+    "author": [
+        "stupid_chris",
+        "sumghai"
+    ],
+    "version": "v1.4.9.4",
+    "ksp_version_min": "1.12.3",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/52931-0",
+        "repository": "https://github.com/ChrisViral/RealChute",
+        "bugtracker": "https://github.com/ChrisViral/RealChute/issues",
+        "remote-avc": "https://raw.githubusercontent.com/ChrisViral/RealChute/master/Output/GameData/RealChute/RealChute.version"
+    },
+    "tags": [
+        "config",
+        "physics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealChute"
+        }
+    ],
+    "install": [
+        {
+            "find": "RealChute/Patches",
+            "install_to": "GameData/RealChute"
+        }
+    ],
+    "download": "https://github.com/ChrisViral/RealChute/releases/download/v1.4.9.4/RealChute_v1.4.9.4.zip",
+    "download_size": 2682030,
+    "download_hash": {
+        "sha1": "8A15BC96639D86F81E3711321A7BC901633D642A",
+        "sha256": "3A19388301B96C431FF1CAF9BB5A59F2DF2A737771966F5081E0831914F8B63C"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 15928,
+    "release_date": "2024-06-02T21:46:59Z",
+    "x_generated_by": "netkan"
+}
