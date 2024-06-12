@@ -1,0 +1,75 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "KIUChineseHumanSpaceflightPack",
+    "name": "KIU Chinese Human Spaceflight Pack",
+    "abstract": "This mod will bring all of the Chinese Human Spaceflight vehicles to KSP.",
+    "author": [
+        "Old_Copper",
+        "Armo",
+        "Launcelot"
+    ],
+    "version": "1:1.0.8 Public Beta",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/208654-1123nt-chinese-aerospace-packv120/",
+        "spacedock": "https://spacedock.info/mod/3144/KCHS%20(KIU%20Chinese%20Human%20Spaceflight%20Pack)",
+        "repository": "https://github.com/Armo00/KIU-Pack",
+        "bugtracker": "https://github.com/Armo00/KIU-Pack/issues",
+        "x_screenshot": "https://spacedock.info/content/Old_Copper_79837/KIU_Chinese_Human_Spaceflight_Pack/KIU_Chinese_Human_Spaceflight_Pack-1667076630.jpg"
+    },
+    "tags": [
+        "parts",
+        "crewed",
+        "graphics"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "KIUChinese-Common"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "KerbalJointReinforcement"
+        }
+    ],
+    "install": [
+        {
+            "find": "KIU",
+            "install_to": "GameData",
+            "filter": [
+                "Common",
+                "CraftFiles"
+            ]
+        },
+        {
+            "find": "CraftFiles/Non-RO",
+            "install_to": "Ships",
+            "as": "VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3144/KCHS%20(KIU%20Chinese%20Human%20Spaceflight%20Pack)/download/1.0.8%20Public%20Beta",
+    "download_size": 122533846,
+    "download_hash": {
+        "sha1": "BC93D6D340F0C8F6798DB2F82479C532EB03648B",
+        "sha256": "5C30E6E9D12332E0D88FE77C75CD36B0E99420C956917DE4F5A91E843314B2B8"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 210407835,
+    "release_date": "2024-06-12T13:07:04.521774+00:00",
+    "x_generated_by": "netkan"
+}
