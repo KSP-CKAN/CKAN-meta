@@ -1,0 +1,47 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "VertexColorMapEmissive",
+    "name": "VertexColorMapEmissive",
+    "abstract": "VertexColorMapEmissive is a custom PQS Mod intended for use by planet modders to give more control over planetary emissives than can be achieved with the current alternatives",
+    "author": "Lt_Duckweed",
+    "version": "1.0.0",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/3620/VertexColorMapEmissive",
+        "repository": "https://github.com/jamespglaze/VertexColorMapEmissive",
+        "bugtracker": "https://github.com/jamespglaze/VertexColorMapEmissive/issues",
+        "x_screenshot": "https://spacedock.info/content/Lt_Duckweed_88123/VertexColorMapEmissive/VertexColorMapEmissive-1718247334.png"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "install": [
+        {
+            "find": "001_DuckweedUtils",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/jamespglaze/VertexColorMapEmissive/releases/download/1.0.0/VertexColorMapEmissive.1.0.0.zip",
+        "https://spacedock.info/mod/3620/VertexColorMapEmissive/download/1.0.0"
+    ],
+    "download_size": 34517,
+    "download_hash": {
+        "sha1": "00020BC8D0E462673062C473B6DDD4D4015AC3B4",
+        "sha256": "FA476C71D9DE0B6697C1749FAE5F8C4795BEC3BCDACF375EFC42DBF049E223CC"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 44245,
+    "release_date": "2024-06-13T02:55:13.019744+00:00",
+    "x_generated_by": "netkan"
+}
