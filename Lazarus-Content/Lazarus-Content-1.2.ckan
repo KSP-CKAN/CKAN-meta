@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Lazarus-Content",
+    "name": "Lazarus Content",
+    "abstract": "Additional files for Lazarus beyond GitHub's 2 GiB release asset limit",
+    "author": "hmelioo",
+    "version": "1.2",
+    "ksp_version": "1.12",
+    "license": "CC-BY-NC-ND",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/210839-*",
+        "repository": "https://github.com/hmelioo/Lazarus",
+        "bugtracker": "https://github.com/hmelioo/Lazarus/issues"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "VertexMitchellNetravaliHeightMap"
+        },
+        {
+            "name": "Lazarus"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "install": [
+        {
+            "find": "KIPcore",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/hmelioo/Lazarus/releases/download/1.2/Lazarus-v1.2-Content.zip",
+    "download_size": 579320313,
+    "download_hash": {
+        "sha1": "080E88857E7BB111E163595F131B97860467D89D",
+        "sha256": "3DCE2D5755A257A946EDF5BC8556A69A2DC324E293B3505195FCDFCBA7D26461"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1165747017,
+    "release_date": "2024-06-17T19:30:09Z",
+    "x_generated_by": "netkan"
+}
