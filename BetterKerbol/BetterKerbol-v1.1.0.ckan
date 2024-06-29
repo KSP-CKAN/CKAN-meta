@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "BetterKerbol",
+    "name": "BetterKerbol",
+    "abstract": "Graphics overhaul for Kerbol, with new high resolution textures, light curves, and optional Scatterer support and size scaling",
+    "author": "Lt_Duckweed",
+    "version": "v1.1.0",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-NC-ND-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/207389-112x-kopernicus-betterkerbol-v100-a-kerbol-graphics-enhancement",
+        "spacedock": "https://spacedock.info/mod/3118/BetterKerbol",
+        "repository": "https://github.com/jamespglaze/BetterKerbol",
+        "bugtracker": "https://github.com/jamespglaze/BetterKerbol/issues",
+        "x_screenshot": "https://spacedock.info/content/Lt_Duckweed_88123/BetterKerbol/BetterKerbol-1663437402.png"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "BetterKerbolRescale"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Scatterer",
+            "max_version": "3:v0.0830"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3118/BetterKerbol/download/v1.1.0",
+    "download_size": 17733018,
+    "download_hash": {
+        "sha1": "6C321596ED72BBEC55BE66CA29C555C185944883",
+        "sha256": "DC5E8B982137C54DB687275D7D6B6E09F262BB62AD85FF04B6EB05EE98EB30A7"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 33565838,
+    "release_date": "2024-06-29T20:10:49.999733+00:00",
+    "x_generated_by": "netkan"
+}
