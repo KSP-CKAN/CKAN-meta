@@ -1,0 +1,63 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "ModularLaunchPads",
+    "name": "AlphaMensae's Modular Launch Pads",
+    "abstract": "Beyond launch clamps: Mix-and-match components to build all kinds of launch infrastructure",
+    "author": "AlphaMensae",
+    "version": "2.7.0",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/173008-12x13x14x-alphamensaes-modular-launch-pads-101-soyuz-and-saturn-style-pads-for-almost-any-rocket/",
+        "spacedock": "https://spacedock.info/mod/1767/AlphaMensae's%20Modular%20Launch%20Pads",
+        "repository": "https://github.com/AlphaMensae/Modular-Launch-Pads",
+        "bugtracker": "https://github.com/AlphaMensae/Modular-Launch-Pads/issues",
+        "x_screenshot": "https://spacedock.info/content/AlphaMensae_884/AlphaMensaes_Modular_Launch_Pads/AlphaMensaes_Modular_Launch_Pads-1564546048.6527388.jpg"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "StagedAnimation"
+        },
+        {
+            "name": "CommunityCategoryKit"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KSCExtended"
+        },
+        {
+            "name": "BluedogDB"
+        }
+    ],
+    "install": [
+        {
+            "find": "ModularLaunchPads",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Bare Assemblies",
+            "install_to": "Ships",
+            "as": "VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1767/AlphaMensae's%20Modular%20Launch%20Pads/download/2.7.0",
+    "download_size": 51017901,
+    "download_hash": {
+        "sha1": "F9BCB0A396E5AFD8E6BF64AAE8CD84445362FDD4",
+        "sha256": "DA5207EEFED4C331B3CB7E49CF4A9FA24655C19B73C8A6BEC2DFF19F33551638"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 304519194,
+    "release_date": "2024-07-05T01:10:35.949372+00:00",
+    "x_generated_by": "netkan"
+}
