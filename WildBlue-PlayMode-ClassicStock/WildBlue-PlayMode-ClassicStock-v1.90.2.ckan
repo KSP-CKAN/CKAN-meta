@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "WildBlue-PlayMode-ClassicStock",
+    "name": "WildBlueIndustries Classic Stock Play Mode",
+    "abstract": "Back in KSP 0.19, developers NovaSilisko and HarvesteR proposed a resource system that included Propellium, Oxium, Nitronite, Water, Blutonium, Hexagen, and Zeonium that ultimately converted into the resources we know today as LiquidFuel, Oxidizer, MonoPropellant, and XenonGas. You can see their concept image here: i.imgur.com/08hdJyj.png This play mode is inspired by their vision and adds some additional resources and converters to round out your templates.",
+    "author": "Angel-125",
+    "version": "v1.90.2",
+    "ksp_version_min": "1.12.2",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/Angel-125/WildBlueTools",
+        "bugtracker": "https://github.com/Angel-125/WildBlueTools/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/WildBlueTools/master/GameData/WildBlueIndustries/000WildBlueTools/WildBlueTools.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "WildBlue-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "WildBlueTools"
+        },
+        {
+            "name": "ClassicStockResources"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "WildBlue-PlayMode"
+        },
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+    "install": [
+        {
+            "find": "000WildBlueTools/Templates/ClassicStock",
+            "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates"
+        },
+        {
+            "find": "000WildBlueTools/Templates/ClassicStock.cfg",
+            "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates",
+            "find_matches_file": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/WildBlueTools/releases/download/v1.90.2/WildBlueTools.zip",
+    "download_size": 23042807,
+    "download_hash": {
+        "sha1": "772B49CAD829964F1148D4B139CD34A61D663928",
+        "sha256": "5883BA1DA1B3F8B6C4AEF3664DFB2E094885971E98768B040D2B95ADBABF39CC"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 57565,
+    "release_date": "2024-07-06T01:40:58Z",
+    "x_generated_by": "netkan"
+}
