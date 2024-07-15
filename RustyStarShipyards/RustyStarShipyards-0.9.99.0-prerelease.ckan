@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.2",
+    "spec_version": "v1.4",
     "identifier": "RustyStarShipyards",
     "name": "Rusty Star Shipyards (RSS)",
     "abstract": "Adds Rusty Star Shipyards's agent, flags, and common config files used in all Rusty Star Rockets add-ons for Kerbal Space Program.",
@@ -57,6 +57,12 @@
         },
         {
             "name": "RustyTexturesforProceduralParts"
+        }
+    ],
+    "install": [
+        {
+            "find": "RustyStar",
+            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/3090/Rusty%20Star%20Shipyards%20(RSS)/download/0.9.99.0-prerelease",
