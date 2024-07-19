@@ -1,0 +1,80 @@
+{
+    "spec_version": "v1.34",
+    "comment": "The version files are from bundled mods only",
+    "identifier": "SciFiShipyardsRedux",
+    "name": "SciFi Shipyards Redux",
+    "abstract": "Remake of discontinued Scifi Shipyards mod",
+    "author": [
+        "Shammyofwar",
+        "StarVision",
+        "Boogaman"
+    ],
+    "version": "0.6  Beta",
+    "ksp_version": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/224484-scifi-shipyards-redux-06-beta-wip",
+        "spacedock": "https://spacedock.info/mod/3593/SciFi%20Shipyards%20Redux%200.6%20Beta",
+        "x_screenshot": "https://spacedock.info/content/Shammyofwar_132816/SciFi_Shipyards_Redux_0.6_Beta/SciFi_Shipyards_Redux_0.6_Beta-1713331601.png"
+    },
+    "tags": [
+        "crewed",
+        "first-person",
+        "graphics",
+        "parts",
+        "flags"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "TrekDrive"
+        },
+        {
+            "name": "Science-Full-Transmit"
+        },
+        {
+            "name": "CommunityTechTree"
+        },
+        {
+            "name": "BDArmory"
+        },
+        {
+            "name": "HangarExtender"
+        }
+    ],
+    "install": [
+        {
+            "find": "ScifiShipyardsRedux",
+            "install_to": "GameData",
+            "filter": [
+                ".DS_Store",
+                "Ships",
+                "Plugins"
+            ]
+        },
+        {
+            "find": "Ships/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3593/SciFi%20Shipyards%20Redux%200.6%20Beta/download/0.6%20%20Beta",
+    "download_size": 40128320,
+    "download_hash": {
+        "sha1": "29B230F92D0D00B3C39B3AFA53B6399AC2F3A85A",
+        "sha256": "4A22BFC42C2AB6186330A721F45510F4E19D1C51CBA2655F3915389C42256169"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 37959010,
+    "release_date": "2024-04-17T05:16:33.401832+00:00",
+    "x_generated_by": "netkan"
+}
