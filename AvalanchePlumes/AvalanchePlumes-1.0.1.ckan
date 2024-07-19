@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "AvalanchePlumes",
+    "name": "Avalanche Plumes",
+    "abstract": "A \"Solid Waterfall\" Rocket Plume Mod ",
+    "author": "Kochi",
+    "version": "1.0.1",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/225334-avalanche-plumes-a-waterfall-mod-for-solid-rocket-boosters/",
+        "spacedock": "https://spacedock.info/mod/3650/Avalanche%20Plumes",
+        "repository": "https://github.com/KochieBR/Avalanche-Plumes",
+        "bugtracker": "https://github.com/KochieBR/Avalanche-Plumes/issues",
+        "x_screenshot": "https://spacedock.info/content/Kochi_71800/Avalanche_Plumes/Avalanche_Plumes-1720118040.png"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Waterfall"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SRBWaterfallEffects"
+        },
+        {
+            "name": "RealPlume"
+        }
+    ],
+    "install": [
+        {
+            "find": "Avalanche",
+            "install_to": "GameData",
+            "filter": ".git"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3650/Avalanche%20Plumes/download/1.0.1",
+    "download_size": 2650957,
+    "download_hash": {
+        "sha1": "1BB554B2F494C72BE04C2033E0249621FE7CB4A6",
+        "sha256": "FE9B6C631209ABD82B5A51DF1F221BBCB1BC5F86BFBD26F864E9B32B7474566E"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 4302278,
+    "release_date": "2024-07-05T13:38:47.862524+00:00",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
