@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "SSAUCE-Extras",
+    "name": "SSAUCE Extras",
+    "abstract": "Super Science Advanced Utilities Capsules and Exploration Services",
+    "author": "lil_bread_402",
+    "version": "1.0",
+    "ksp_version": "1.12.5",
+    "license": "restricted",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/3649/SSAUCE",
+        "repository": "https://github.com/LilBread402/SSAUCE",
+        "bugtracker": "https://github.com/LilBread402/SSAUCE/issues",
+        "x_screenshot": "https://spacedock.info/content/lil_bread_402_100323/SSAUCE/SSAUCE-1719981930.png"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "SSAUCE"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        }
+    ],
+    "install": [
+        {
+            "find": "ExtraTextures",
+            "install_to": "GameData/SSAUCE/Parts",
+            "as": "MRC"
+        },
+        {
+            "find": "Extras",
+            "install_to": "GameData/SSAUCE",
+            "filter": "ExtraTextures"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3649/SSAUCE/download/v.1.0",
+    "download_size": 28557854,
+    "download_hash": {
+        "sha1": "E3D48E0F6A12C9D0FEA5E62E68F00613AAB5A137",
+        "sha256": "8155C8EA63DFF554B10B51F57FBEAB4D2D6094775DB0D0A58BA5B8A0AA181677"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 33557557,
+    "release_date": "2024-07-03T04:36:29.673054+00:00",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
