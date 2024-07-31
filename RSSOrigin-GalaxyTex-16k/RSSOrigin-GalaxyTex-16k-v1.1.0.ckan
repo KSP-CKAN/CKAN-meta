@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.27",
+    "identifier": "RSSOrigin-GalaxyTex-16k",
+    "name": "RSS-Origin GalaxyTex8k",
+    "abstract": "A part of RSS-Origin, which replaces your skybox with a high-quality Milky Way background. This is the 16k res version",
+    "author": "CharonSSS",
+    "version": "v1.1.0",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "repository": "https://github.com/CharonSSS/RSS-Origin",
+        "bugtracker": "https://github.com/CharonSSS/RSS-Origin/issues"
+    },
+    "tags": [
+        "graphics"
+    ],
+    "provides": [
+        "RSSOrigin-GalaxyTex"
+    ],
+    "depends": [
+        {
+            "name": "TextureReplacer"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RSSOrigin"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RSSOrigin-GalaxyTex"
+        }
+    ],
+    "install": [
+        {
+            "find": "RSSOrigin",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/CharonSSS/RSS-Origin/releases/download/v1.1.0/RSS-Origin.GalaxyTex16k.zip",
+    "download_size": 39685621,
+    "download_hash": {
+        "sha1": "F44A41C73E21D81BCFB2ECF079B3194CAE608FA5",
+        "sha256": "5CBF05D95179BD8F3505917CA98D0AB33A1B3C69D0E3EEA6ECFD92110F0AAA11"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 67109863,
+    "release_date": "2024-07-27T16:24:51Z",
+    "x_generated_by": "netkan"
+}
