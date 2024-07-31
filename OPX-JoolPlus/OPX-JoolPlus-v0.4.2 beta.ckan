@@ -1,0 +1,63 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "OPX-JoolPlus",
+    "name": "OPX: JoolPlus",
+    "abstract": "Outer Planets Expansion's additions and modifications to the Jool System",
+    "author": "TheMinmusDerp",
+    "version": "v0.4.2 beta",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/225300-112x-planet-pack-outer-planets-expansion-opx/",
+        "spacedock": "https://spacedock.info/mod/3663/OPX:%20JoolPlus",
+        "repository": "https://github.com/TheMinmusDerp/OPX-JoolPlus",
+        "bugtracker": "https://github.com/TheMinmusDerp/OPX-JoolPlus/issues",
+        "x_screenshot": "https://spacedock.info/content/TheMinmusDerp_137781/OPX_JoolPlus/OPX_JoolPlus-1721929716.png"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "VertexMitchellNetravaliHeightMap"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "ResearchBodies"
+        },
+        {
+            "name": "JanetsPlanets"
+        }
+    ],
+    "install": [
+        {
+            "find": "OPX-JoolPlus",
+            "install_to": "GameData",
+            "filter": [
+                "__MACOSX",
+                ".DS_Store"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/3663/OPX:%20JoolPlus/download/v0.4.2%20beta",
+    "download_size": 97012583,
+    "download_hash": {
+        "sha1": "37DE9C79938BF7500DF8886E070D4C3282153401",
+        "sha256": "3373220E37DAA1D562594AA2588051B163590247CA8600B28D90AB4F7C8F239B"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 119533231,
+    "release_date": "2024-07-28T07:43:33.893648+00:00",
+    "x_generated_by": "netkan"
+}
