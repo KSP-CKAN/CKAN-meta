@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "DistantObject-default",
+    "name": "Distant Object Enhancement /L default config",
+    "abstract": "Default planets colors",
+    "author": [
+        "TheDarkBadger",
+        "Lisias"
+    ],
+    "version": "v2.2.0.0",
+    "ksp_version_min": "1.3.1",
+    "ksp_version_max": "1.12.5",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/205063-*",
+        "spacedock": "https://spacedock.info/mod/2274/Distant%20Object%20Enhancement%20/L",
+        "repository": "https://github.com/net-lisias-ksp/DistantObject",
+        "bugtracker": "https://github.com/net-lisias-ksp/DistantObject/issues",
+        "discussions": "https://github.com/net-lisias-ksp/DistantObject/discussions",
+        "remote-avc": "https://raw.githubusercontent.com/net-lisias-ksp/DistantObject/master/DistantObject.version",
+        "x_screenshot": "https://spacedock.info/content/TheDarkBadger_31275/Distant_Object_Enhancement_Continued/Distant_Object_Enhancement_Continued-1581673677.461667.png"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "provides": [
+        "DistantObject-config"
+    ],
+    "depends": [
+        {
+            "name": "DistantObject"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "DistantObject-config"
+        }
+    ],
+    "install": [
+        {
+            "find": "PlanetColors.cfg",
+            "install_to": "GameData/DistantObject",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/2274/Distant%20Object%20Enhancement%20/L/download/2.2.0.0",
+    "download_size": 131773,
+    "download_hash": {
+        "sha1": "366FEF5AA3CDF0493C42331FDEAD3E2C538D9B0E",
+        "sha256": "E80CDA3AB47436064BBF373B8F4FEB11AE2EB961784B0C9FECCFC2B0A91C4A08"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1259,
+    "release_date": "2024-08-03T02:48:12.245527+00:00",
+    "x_generated_by": "netkan"
+}
