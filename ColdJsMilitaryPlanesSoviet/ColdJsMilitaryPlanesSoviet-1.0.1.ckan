@@ -1,0 +1,63 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "ColdJsMilitaryPlanesSoviet",
+    "name": "ColdJ's Military Planes Soviet",
+    "abstract": "An SU-57 Felon and a Mig-31 Foxhound.",
+    "author": "ColdJ",
+    "version": "1.0.1",
+    "ksp_version": "1.12.5",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/223997-coldjs-military-planes/",
+        "spacedock": "https://spacedock.info/mod/3684/ColdJ's%20Military%20Planes%20Soviet",
+        "x_screenshot": "https://spacedock.info/content/ColdJ_60612/ColdJs_Military_Planes_Soviet/ColdJs_Military_Planes_Soviet-1722827366.jpg"
+    },
+    "tags": [
+        "crewed",
+        "first-person",
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ColdJsMilitaryPlanes"
+        }
+    ],
+    "install": [
+        {
+            "find": "CJMP",
+            "install_to": "GameData",
+            "filter": [
+                "CraftFolder",
+                "ReadMe.txt",
+                "License.txt"
+            ]
+        },
+        {
+            "find": "ReadMe.txt",
+            "find_matches_files": true,
+            "install_to": "GameData/CJMP",
+            "as": "ReadMe-Soviet.txt"
+        },
+        {
+            "find": "License.txt",
+            "find_matches_files": true,
+            "install_to": "GameData/CJMP",
+            "as": "License-Soviet.txt"
+        },
+        {
+            "find": "CraftFolder",
+            "install_to": "Ships",
+            "as": "SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3684/ColdJ's%20Military%20Planes%20Soviet/download/1.0.1",
+    "download_size": 21187288,
+    "download_hash": {
+        "sha1": "E59DE59B3D577DC35E5294FC95F159C00EDC4DE8",
+        "sha256": "AC1003E3B1E11F0E80C13931A5D743922B1A79775D1134F280DFE134BE1FBA93"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 47509342,
+    "release_date": "2024-08-05T03:51:38.652396+00:00",
+    "x_generated_by": "netkan"
+}
