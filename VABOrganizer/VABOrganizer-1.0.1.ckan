@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "VABOrganizer",
+    "name": "VAB Organizer",
+    "abstract": "Small UI plugin that shows visual size tags on parts in the VAB as well as dividing the parts drawer into defined subcategories",
+    "author": "Nertea (Chris Adderley)",
+    "version": "1.0.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "repository": "https://github.com/post-kerbin-mining-corporation/VABOrganizer",
+        "bugtracker": "https://github.com/post-kerbin-mining-corporation/VABOrganizer/issues",
+        "metanetkan": "https://github.com/post-kerbin-mining-corporation/VABOrganizer/raw/master/CKAN/VABOrganizer.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/post-kerbin-mining-corporation/VABOrganizer/master/GameData/VABOrganizer/Versioning/VABOrganizer.version"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Harmony2"
+        }
+    ],
+    "install": [
+        {
+            "find": "VABOrganizer",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/post-kerbin-mining-corporation/VABOrganizer/releases/download/1.0.1/VABOrganizer_1_0_1.zip",
+    "download_size": 466812,
+    "download_hash": {
+        "sha1": "E7AA42042F7E125269C21CDEE74A0FF4279D1D80",
+        "sha256": "29B53ACED5A7240B66110CF82F08FBA1ECB31982B50C04EE97D334A292954FDA"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 67676,
+    "release_date": "2024-08-19T05:49:54Z",
+    "x_generated_by": "netkan"
+}
