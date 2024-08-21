@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RecolorCollection-MissingHistory",
+    "name": "Recolor Collection - Missing History",
+    "abstract": "A collection of Textures Unlimited recolours for all of the parts from the Missing History mod",
+    "author": "ZZetho",
+    "version": "v1.4",
+    "ksp_version": "1.12",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/225485-*",
+        "repository": "https://github.com/ZZetho/TU_MissingHistory",
+        "bugtracker": "https://github.com/ZZetho/TU_MissingHistory/issues"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TexturesUnlimited"
+        },
+        {
+            "name": "MissingHistory"
+        }
+    ],
+    "supports": [
+        {
+            "name": "MissingHistory"
+        }
+    ],
+    "install": [
+        {
+            "find": "TU_MissingHistory",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://api.github.com/repos/ZZetho/TU_MissingHistory/zipball/v1.4",
+    "download_size": 54411,
+    "download_hash": {
+        "sha1": "72D21E6792994F8A538C55726B1BFA3714A0DC6E",
+        "sha256": "7C5B077F2C72A6EE89540EFE3D6DBA5D8347A2424B14B6757999C9EF698FBF3F"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 108340,
+    "release_date": "2024-08-03T08:19:01Z",
+    "x_generated_by": "netkan"
+}
