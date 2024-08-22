@@ -1,0 +1,65 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SystemHeat-FissionReactors",
+    "name": "System Heat - Nuclear Reactor Configuration",
+    "abstract": "This System Heat configuration pack modifies nuclear reactors to use the SystemHeat backend. This principally applies to Near Future Electrical reactors. WARNING: potentially vessel-breaking.",
+    "author": "Nertea (Chris Adderley)",
+    "version": "0.7.3",
+    "ksp_version_min": "1.11.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193909-1",
+        "repository": "https://github.com/post-kerbin-mining-corporation/SystemHeat",
+        "bugtracker": "https://github.com/post-kerbin-mining-corporation/SystemHeat/issues",
+        "metanetkan": "https://github.com/post-kerbin-mining-corporation/SystemHeat/raw/master/CKAN/SystemHeat-FissionReactors.netkan",
+        "remote-avc": "https://raw.githubusercontent.com/post-kerbin-mining-corporation/SystemHeat/master/GameData/SystemHeat/Versioning/SystemHeat.version"
+    },
+    "tags": [
+        "parts",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "SystemHeat"
+        },
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "NearFutureElectrical"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SystemHeatConverters"
+        },
+        {
+            "name": "SystemHeatFissionEngines"
+        },
+        {
+            "name": "SystemHeatHarvesters"
+        }
+    ],
+    "install": [
+        {
+            "find": "SystemHeatFissionReactors",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/post-kerbin-mining-corporation/SystemHeat/releases/download/0.7.3/SystemHeat_0_7_3.zip",
+    "download_size": 1324864,
+    "download_hash": {
+        "sha1": "5DFC1C652F9977BFEAB5A13ADCE24CDA975D7B3E",
+        "sha256": "BF6C18681F93BB33E0F1F9C7F28C656238162361C6DFCE48F9BDA46B7EAAD420"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 31846,
+    "release_date": "2024-08-22T22:19:03Z",
+    "x_generated_by": "netkan"
+}
