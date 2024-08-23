@@ -18,12 +18,19 @@
     "depends": [
         {
             "name": "ModuleManager"
+        },
+        {
+            "name": "DKSalvageAgencyAndFlag"
         }
     ],
     "install": [
         {
             "find": "DKSalvage",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": [
+                "Agencies",
+                "Flags"
+            ]
         },
         {
             "find": "DKSalvageRMCTuneUp",
@@ -37,7 +44,7 @@
         "sha256": "4288BE1649B1855409077D4DEF1BA01B53D309FC806B9405D69638BEAADD6E0A"
     },
     "download_content_type": "application/zip",
-    "install_size": 16239804,
+    "install_size": 16032760,
     "release_date": "2024-08-02T20:35:17.073893+00:00",
     "x_generated_by": "netkan"
 }
