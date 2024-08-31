@@ -1,0 +1,45 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "WildBlueCore",
+    "name": "WildBlueCore",
+    "abstract": "A lightweight plugin created for mods like Buffalo 2, Sandcastle, and SunkWorks",
+    "author": "Angel-125",
+    "version": "v1.2.7",
+    "ksp_version_min": "1.12.3",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/Angel-125/WildBlueCore",
+        "bugtracker": "https://github.com/Angel-125/WildBlueCore/issues",
+        "manual": "https://github.com/Angel-125/WildBlueCore/wiki",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/WildBlueCore/main/ReleaseFolder/GameData/WildBlueIndustries/00WildBlueCore/WildBlueCore.version"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "localizations": [
+        "en-us",
+        "it-it"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "00WildBlueCore",
+            "install_to": "GameData/WildBlueIndustries"
+        }
+    ],
+    "download": "https://github.com/Angel-125/WildBlueCore/releases/download/v1.2.7/WildBlueCore.zip",
+    "download_size": 988401,
+    "download_hash": {
+        "sha1": "5A91D665C0CC5151624553B562E965B28E2309AE",
+        "sha256": "92318927603227DCE7797D6E8C39B855F77705A5FDD523DDCC90609BFD52D032"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2496090,
+    "release_date": "2024-08-31T18:47:06Z",
+    "x_generated_by": "netkan"
+}
