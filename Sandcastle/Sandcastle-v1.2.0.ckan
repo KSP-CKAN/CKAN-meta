@@ -1,0 +1,66 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "Sandcastle",
+    "name": "Sandcastle",
+    "abstract": "Base building with KSP stock EVA Construction",
+    "author": "Angel-125",
+    "version": "v1.2.0",
+    "ksp_version_min": "1.12.2",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201137-*",
+        "repository": "https://github.com/Angel-125/Sandcastle",
+        "bugtracker": "https://github.com/Angel-125/Sandcastle/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/Sandcastle/main/ReleaseFolder/GameData/WildBlueIndustries/Sandcastle/Sandcastle.version"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "crewed"
+    ],
+    "localizations": [
+        "en-us",
+        "it-it"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "WildBlueCore"
+        },
+        {
+            "name": "NearFutureProps"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ExtraPlanetaryLaunchpads"
+        },
+        {
+            "name": "KSP-PartVolume"
+        }
+    ],
+    "supports": [
+        {
+            "name": "WildBlueTools"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/WildBlueIndustries/SandCastle",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": "https://github.com/Angel-125/Sandcastle/releases/download/v1.2.0/Sandcastle.zip",
+    "download_size": 67674489,
+    "download_hash": {
+        "sha1": "6667D432DE2A0BB6796FAEF318B46752765341F4",
+        "sha256": "8BD84478916494126ECF7DFE1C11CF3963ADAF38DDED17D46B0CAAFD3A13B9AA"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 157690335,
+    "release_date": "2024-08-31T18:54:36Z",
+    "x_generated_by": "netkan"
+}
