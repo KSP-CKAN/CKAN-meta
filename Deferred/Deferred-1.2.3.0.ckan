@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Deferred",
+    "name": "Deferred",
+    "abstract": "Add deferred rendering to KSP",
+    "author": "Blackrack",
+    "version": "1.2.3.0",
+    "ksp_version": "1.12",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://www.patreon.com/posts/deferred-106557481",
+        "repository": "https://github.com/LGhassen/Deferred",
+        "bugtracker": "https://github.com/LGhassen/Deferred/issues",
+        "manual": "https://github.com/LGhassen/Deferred/blob/master/Readme.md",
+        "x_screenshot": "https://i.imgur.com/kraUQIz.png"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "Shabby"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Parallax",
+            "max_version": "2.0.6"
+        },
+        {
+            "name": "TexturesUnlimited",
+            "max_version": "1.5.10.25"
+        },
+        {
+            "name": "KerbalKonstructs",
+            "max_version": "v1.8.6.1"
+        },
+        {
+            "name": "RasterPropMonitor",
+            "max_version": "1:v0.31.13.4"
+        },
+        {
+            "name": "B9-PWings-Fork",
+            "max_version": "3:0.45.1"
+        }
+    ],
+    "install": [
+        {
+            "find": "zzz_Deferred",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/LGhassen/Deferred/releases/download/1.2.3.0/Deferred_1.2.3.0.zip",
+    "download_size": 1310513,
+    "download_hash": {
+        "sha1": "D1B0455C7F95347AA10F29BA2576F7BF6433A1D7",
+        "sha256": "8B9927DE69FBC5FC5166743DF435BC2AF7B633DDABC3065CFC9475AC1B89CC18"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1310078,
+    "release_date": "2024-09-03T06:03:25Z",
+    "x_generated_by": "netkan"
+}
