@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.10",
+    "spec_version": "v1.34",
     "identifier": "WernherCheckerContinued",
     "name": "Wernher Checker Continued",
     "abstract": "Checklist",
@@ -34,14 +34,17 @@
     ],
     "install": [
         {
+            "find": "WernherChecker",
             "filter_regexp": [
                 ".*~$"
             ],
-            "find": "WernherChecker",
             "install_to": "GameData"
         }
     ],
-    "download": "https://spacedock.info/mod/1237/Wernher%20Checker%20Continued/download/0.5.13.1",
+    "download": [
+        "https://github.com/linuxgurugamer/WernherChecker/releases/download/0.5.13.1/WernherChecker-1.12.0-0.5.13.1.zip",
+        "https://spacedock.info/mod/1237/Wernher%20Checker%20Continued/download/0.5.13.1"
+    ],
     "download_size": 35569,
     "download_hash": {
         "sha1": "4BF83F028CFDA2830C73253DDF08AD46FF10F111",
