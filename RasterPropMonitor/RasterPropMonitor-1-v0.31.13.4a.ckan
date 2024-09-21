@@ -1,15 +1,14 @@
 {
     "spec_version": "v1.4",
-    "comment": "This package contains the plugin, and the standard parts library.",
-    "identifier": "RasterPropMonitor-Core",
-    "name": "RasterPropMonitor Core - UPDATE YOUR CKAN",
+    "identifier": "RasterPropMonitor",
+    "name": "RasterPropMonitor - UPDATE YOUR CKAN",
     "abstract": "Please update your CKAN to install newer versions of this mod",
     "author": [
         "Mihara",
         "MOARdV",
         "JonnyOThan"
     ],
-    "version": "1:v1.0.0",
+    "version": "1:v0.31.13.4a",
     "ksp_version_min": "1.12.0",
     "ksp_version_max": "1.12.99",
     "license": "GPL-3.0",
@@ -18,17 +17,20 @@
         "spacedock": "https://spacedock.info/mod/2534/RasterPropMonitor",
         "repository": "https://github.com/FirstPersonKSP/RasterPropMonitor",
         "bugtracker": "https://github.com/FirstPersonKSP/RasterPropMonitor/issues",
-        "remote-avc": "https://raw.githubusercontent.com/JonnyOThan/RasterPropMonitor/master/GameData/JSI/RasterPropMonitor/RasterPropMonitor.version",
+        "remote-avc": "https://raw.githubusercontent.com/FirstPersonKSP/RasterPropMonitor/master/GameData/JSI/RasterPropMonitor/RasterPropMonitor.version",
         "x_screenshot": "https://spacedock.info/content/JonnyOThan_33590/RasterPropMonitor/RasterPropMonitor-1683294207.png"
     },
     "tags": [
-        "plugin",
+        "config",
         "crewed",
         "first-person"
     ],
     "depends": [
         {
             "name": "ModuleManager"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
         }
     ],
     "recommends": [
@@ -71,9 +73,6 @@
             "name": "MechJeb2"
         },
         {
-            "name": "RealChute"
-        },
-        {
             "name": "ASETProps"
         },
         {
@@ -86,7 +85,7 @@
             "name": "MK12PodIVAReplacementbyASET"
         },
         {
-            "name": "ALCOR"
+            "name": "ALCORIVAPatch"
         },
         {
             "name": "ThroughTheEyesOfaKerbal"
@@ -100,13 +99,15 @@
     ],
     "install": [
         {
-            "find": "JSI/RasterPropMonitor",
-            "install_to": "GameData/JSI"
-        },
-        {
-            "find": "JSI/RPMPodPatches/BasicMFD",
-            "install_to": "GameData/JSI/RPMPodPatches",
-            "comment": "This folder contains the multi-function display props, which belong in this module along with the other props"
+            "find": "JSI",
+            "filter": [
+                "RasterPropMonitor",
+                "BasicMFD",
+                "README.md",
+                "LICENSE.md",
+                "Agencies"
+            ],
+            "install_to": "GameData"
         }
     ],
     "download": "https://github.com/FirstPersonKSP/RasterPropMonitor/releases/download/1.0.1/RasterPropMonitor-1.0.1.zip",
@@ -116,7 +117,7 @@
         "sha256": "1C728CD433F466768DD22DF14890261723E6F69F09513C0A8BCEBF365C7D93D6"
     },
     "download_content_type": "application/zip",
-    "install_size": 6429660,
+    "install_size": 151460,
     "release_date": "2024-09-16T01:01:11.872523+00:00",
     "x_generated_by": "netkan"
 }
