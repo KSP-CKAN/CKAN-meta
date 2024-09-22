@@ -1,0 +1,66 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SterlingSystemsAgency",
+    "name": "Sterling Systems Agency",
+    "abstract": "Core things including localization and resources.",
+    "author": "JadeOfMaar",
+    "version": "0.4.9",
+    "ksp_version": "1.12.5",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/219609-*/",
+        "repository": "https://github.com/JadeOfMaar/SterlingSystems",
+        "bugtracker": "https://github.com/JadeOfMaar/SterlingSystems/issues",
+        "remote-avc": "https://raw.githubusercontent.com/JadeOfMaar/SterlingSystems/master/GameData/SterlingSystems/Version/SterlingSystems.version"
+    },
+    "tags": [
+        "agency",
+        "config",
+        "resources"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "SystemHeat"
+        },
+        {
+            "name": "VABOrganizer"
+        },
+        {
+            "name": "VABOrganizer-Jade"
+        }
+    ],
+    "install": [
+        {
+            "find": "Agency",
+            "install_to": "GameData/SterlingSystems"
+        },
+        {
+            "find": "Version",
+            "install_to": "GameData/SterlingSystems"
+        }
+    ],
+    "download": "https://github.com/JadeOfMaar/SterlingSystems/releases/download/0.4.9/SterlingSystems_Core_0.4.9.zip",
+    "download_size": 542563,
+    "download_hash": {
+        "sha1": "04D601A41CD103D9267B80CFF74752BFF0B3B66D",
+        "sha256": "A5C19955B8588ADAAAA458AF96F03DEDC670A21BF834783CEECF0199092A7F1E"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 3056852,
+    "release_date": "2024-09-22T19:06:54Z",
+    "x_generated_by": "netkan"
+}
