@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.8",
+    "identifier": "TweakScale-Redist",
+    "name": "TweakScale Redistributable",
+    "abstract": "A library for other mods to integrate with TweakScale. Does not provide the actual TweakScale features.",
+    "author": [
+        "Biotronic",
+        "pellinor",
+        "LisiasT"
+    ],
+    "version": "v2.4.8.6",
+    "ksp_version_min": "1.3.0",
+    "ksp_version_max": "1.12.5",
+    "license": [
+        "WTFPL"
+    ],
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179030-141-tweakscale-under-new-management/&",
+        "spacedock": "https://spacedock.info/mod/127/TweakScale",
+        "repository": "https://github.com/TweakScale/TweakScale",
+        "bugtracker": "https://github.com/TweakScale/TweakScale/issues",
+        "discussions": "https://github.com/TweakScale/TweakScale/discussions",
+        "remote-avc": "https://raw.githubusercontent.com/net-lisias-ksp/TweakScale/master/TweakScale.version",
+        "x_screenshot": "https://spacedock.info/content/Pellinor_227/TweakScale/TweakScale-1540681746.7632673.png"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "conflicts": [
+        {
+            "name": "TweakScaleRescaled-Redist"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/999_Scale_Redist.dll",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/127/TweakScale/download/2.4.8.6",
+    "download_size": 460428,
+    "download_hash": {
+        "sha1": "C88E2EA988F2661B0C556E0CE2299D68B479BBAB",
+        "sha256": "662E29B35F821A5F6521D37E347B02F9A70CA75E62E68765922B6C4D0BC4A60B"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 6144,
+    "release_date": "2024-09-22T02:54:02.253896+00:00",
+    "x_generated_by": "netkan"
+}
