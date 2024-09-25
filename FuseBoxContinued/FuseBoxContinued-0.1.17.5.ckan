@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "FuseBoxContinued",
+    "name": "FuseBox Continued",
+    "abstract": "Keep track of your electrical usage in the Editor and in Flight",
+    "author": "linuxgurugamer",
+    "version": "0.1.17.5",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/157896-122-fusebox-continued-electric-charge-tracker-and-build-helper/",
+        "spacedock": "https://spacedock.info/mod/1263/FuseBox%20Continued",
+        "repository": "https://github.com/linuxgurugamer/FuseBoxContinued",
+        "bugtracker": "https://github.com/linuxgurugamer/FuseBoxContinued/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/FuseBoxContinued/refs/heads/master/FuseBoxContinued.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/FuseBox_Continued/FuseBox_Continued-1489890268.7722282.jpg"
+    },
+    "tags": [
+        "plugin",
+        "uncrewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AmpYearPowerManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "FuseboxContinued",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/FuseBoxContinued/releases/download/0.1.17.5/FuseBoxContinued-1.12.0-0.1.17.5.zip",
+        "https://spacedock.info/mod/1263/FuseBox%20Continued/download/0.1.17.5"
+    ],
+    "download_size": 90220,
+    "download_hash": {
+        "sha1": "73E9C53BD8D8953EF97C4F963F3B408C59B9E48C",
+        "sha256": "FE72732FEAF58B584F8CCCD73FB2359834CD011353A970093EA6262C59F5BC62"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 469741,
+    "release_date": "2024-09-25T13:29:39.386408+00:00",
+    "x_generated_by": "netkan"
+}
