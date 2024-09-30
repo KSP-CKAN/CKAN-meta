@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "BluedogDB-CommunityCategoryKit",
+    "name": "Bluedog Design Bureau Extras - Community Category Kit",
+    "abstract": "Optional patch for BDB to add custom CCK categories",
+    "author": "Rodger",
+    "version": "v1.14.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/122020-131mostly-functional-141-bluedog-design-bureau-stockalike-saturn-apollo-and-more-v142-%D0%B0%D1%82%D0%BB%D0%B0%D1%81-1feb2018/",
+        "repository": "https://github.com/CobaltWolf/Bluedog-Design-Bureau",
+        "bugtracker": "https://github.com/CobaltWolf/Bluedog-Design-Bureau/issues",
+        "remote-avc": "https://github.com/CobaltWolf/Bluedog-Design-Bureau/raw/master/Gamedata/Bluedog_DB/Versioning/Bluedog_DB.version"
+    },
+    "tags": [
+        "config",
+        "convenience",
+        "editor"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "BluedogDB"
+        },
+        {
+            "name": "CommunityCategoryKit"
+        }
+    ],
+    "install": [
+        {
+            "find": "BDB_CCK",
+            "install_to": "GameData/Bluedog_DB_Extras"
+        }
+    ],
+    "download": "https://github.com/CobaltWolf/Bluedog-Design-Bureau/releases/download/v1.14.0/Bluedog-Design-Bureau-1.14.0.zip",
+    "download_size": 1008711526,
+    "download_hash": {
+        "sha1": "C0BB8D06227333132ED2E28680FC34C61B4BABCA",
+        "sha256": "EF30A528E7CE1B04E226F9B94F72CCD4461FBF6CAC86D2D80294D20034613435"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 13322,
+    "release_date": "2024-09-30T19:31:59Z",
+    "x_generated_by": "netkan"
+}
