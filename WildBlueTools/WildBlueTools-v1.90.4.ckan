@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "WildBlueTools",
+    "name": "Wild Blue Tools",
+    "abstract": "Parts and PartModules for KSP",
+    "author": "Angel-125",
+    "version": "v1.90.4",
+    "ksp_version_min": "1.12.2",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/Angel-125/WildBlueTools",
+        "bugtracker": "https://github.com/Angel-125/WildBlueTools/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/WildBlueTools/master/GameData/WildBlueIndustries/000WildBlueTools/WildBlueTools.version"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KerbalActuators"
+        },
+        {
+            "name": "WildBlue-PlayMode"
+        }
+    ],
+    "install": [
+        {
+            "find": "000WildBlueTools",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter": [
+                "Templates"
+            ]
+        },
+        {
+            "find": "000WildBlueTools/Templates/Common",
+            "install_to": "GameData/WildBlueIndustries/000WildBlueTools/Templates"
+        }
+    ],
+    "download": "https://github.com/Angel-125/WildBlueTools/releases/download/v1.90.4/WildBlueTools.zip",
+    "download_size": 22914405,
+    "download_hash": {
+        "sha1": "DEDB114BAE7CFADD27667B84A239C97D1296D174",
+        "sha256": "5FB9B324CFF02D5D9F804E2E7B98CBA821F3F7915A5A67064DCE00F04E23885B"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 55820469,
+    "release_date": "2024-10-14T19:50:32Z",
+    "x_generated_by": "netkan"
+}
