@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "KSPTOTConnect",
+    "name": "KSP Trajectory Optimization Tool Connect",
+    "abstract": "MATLAB-based Astrodynamics, Mission Design, and Maneuver Design Software",
+    "author": "Arrowstar",
+    "version": "1.6.9",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-NC-ND",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/33568-winmaclinux-ksp-trajectory-optimization-tool-v169-new-matlab-version/",
+        "spacedock": "https://spacedock.info/mod/3737/KSP%20Trajectory%20Optimization%20Tool",
+        "repository": "https://github.com/Arrowstar/ksptot",
+        "bugtracker": "https://github.com/Arrowstar/ksptot/issues",
+        "x_screenshot": "https://spacedock.info/content/Arrowstar_42377/KSP_Trajectory_Optimization_Tool/KSP_Trajectory_Optimization_Tool-1729283770.png"
+    },
+    "tags": [
+        "app",
+        "control",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "kOS"
+        }
+    ],
+    "install": [
+        {
+            "find": "KSPTOTConnect",
+            "install_to": "GameData",
+            "filter": "IPAddressWhitelist.txt"
+        },
+        {
+            "find": "Ships/Script",
+            "install_to": "Ships"
+        }
+    ],
+    "download": [
+        "https://github.com/Arrowstar/ksptot/releases/download/v1.6.9/KSPTOT.zip",
+        "https://spacedock.info/mod/3737/KSP%20Trajectory%20Optimization%20Tool/download/1.6.9"
+    ],
+    "download_size": 292375729,
+    "download_hash": {
+        "sha1": "9D9C64507B80DA152C39C6C60C1AB19BB34595D3",
+        "sha256": "CECE04C1CCCEFEAB945951DD011DD0EC021B5ABC7F3868C616D3CE56407F49E1"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 99760,
+    "release_date": "2024-10-18T20:07:52.514717+00:00",
+    "x_generated_by": "netkan"
+}
