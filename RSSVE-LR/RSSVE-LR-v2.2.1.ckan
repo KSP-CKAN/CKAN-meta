@@ -1,0 +1,85 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RSSVE-LR",
+    "name": "RSS Visual Enhancements - Low Resolution",
+    "abstract": "A visual enhancement pack for the Kerbal Space Program RealSolarSystem mod.",
+    "author": [
+        "al2me6",
+        "blowfishpro",
+        "Capkirk123",
+        "NathanKell",
+        "pjf",
+        "rsparkyc",
+        "SirKeplan",
+        "StollD",
+        "StonesmileGit",
+        "stratochief66",
+        "zorg2044"
+    ],
+    "version": "v2.2.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/153511-rssve",
+        "repository": "https://github.com/KSP-RO/RSSVE",
+        "bugtracker": "https://github.com/KSP-RO/RSSVE/issues",
+        "remote-avc": "https://raw.githubusercontent.com/KSP-RO/RSSVE/master/RSSVE/RSSVE.version"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "RSSVE-Textures"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "Scatterer",
+            "suppress_recommendations": true
+        }
+    ],
+    "recommends": [
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "PlanetShine"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        },
+        {
+            "name": "RSSVE-Textures"
+        }
+    ],
+    "install": [
+        {
+            "find": "RSSVE",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RSSVE/releases/download/v2.2.1/RSSVE_LR.zip",
+    "download_size": 22167300,
+    "download_hash": {
+        "sha1": "145C2667C04BCCC35FE06962EA71853ABD365C6D",
+        "sha256": "6B89B6DDB060C23C68E61A0EE702AB798196F61B9E1707733CD86BE1FAA578D8"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 55372165,
+    "release_date": "2024-10-19T22:33:36Z",
+    "x_generated_by": "netkan"
+}
