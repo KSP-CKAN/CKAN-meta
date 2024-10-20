@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RealChute",
+    "name": "RealChute Parachute Systems",
+    "abstract": "Complete rework of the stock parachute module to fix a few of its inconveniences and get more realistic results out of parachutes!",
+    "author": [
+        "stupid_chris",
+        "sumghai"
+    ],
+    "version": "v1.4.9.5",
+    "ksp_version_min": "1.12.3",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/52931-0",
+        "repository": "https://github.com/ChrisViral/RealChute",
+        "bugtracker": "https://github.com/ChrisViral/RealChute/issues",
+        "remote-avc": "https://raw.githubusercontent.com/ChrisViral/RealChute/master/Output/GameData/RealChute/RealChute.version"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "physics",
+        "sound"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ToolbarController"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealChuteForStock"
+        }
+    ],
+    "install": [
+        {
+            "find": "RealChute",
+            "install_to": "GameData",
+            "filter": "Patches"
+        }
+    ],
+    "download": "https://github.com/ChrisViral/RealChute/releases/download/v1.4.9.5/RealChute_v1.4.9.5.zip",
+    "download_size": 2680043,
+    "download_hash": {
+        "sha1": "9D40112E20AD6C71FEC16C829D9A2653A83AB1E2",
+        "sha256": "3B135AE03D2214D4721A655E2D63E7C93C9A69558D8EAE2473FCED2BBF92BDF0"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 5629392,
+    "release_date": "2024-10-20T07:49:42Z",
+    "x_generated_by": "netkan"
+}
