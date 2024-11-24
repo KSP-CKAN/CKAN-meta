@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "CollisionFXReUpdated",
+    "name": "CollisionFX ReUpdated",
+    "abstract": "Add some drama to your rough landings! Collision FX-ReUpdated adds sparks and dust, with sound and lighting effects when you collide or scrape your craft. Landing gear also has a rubbery screech on contacting the ground!",
+    "author": [
+        "pizzaoverhead",
+        "SlimJimDodger",
+        "VoidCosmos"
+    ],
+    "version": "2.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.9.99",
+    "license": "GPL-2.0",
+    "release_status": "testing",
+    "resources": {
+        "repository": "https://github.com/VoidCosmo/CollisionFX-ReUpdated",
+        "bugtracker": "https://github.com/VoidCosmo/CollisionFX-ReUpdated/issues",
+        "remote-avc": "https://github.com/VoidCosmo/CollisionFX-ReUpdated/raw/master/GameData/CollisionFXReUpdated/Versioning/CollisionFX-ReUpdated.version"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find_regexp": "GameData/CollisionFX(ReUpdated)?",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/VoidCosmo/CollisionFX-ReUpdated/releases/download/2.0/CollisionFX.zip",
+    "download_size": 7628181,
+    "download_hash": {
+        "sha1": "8D8AD382A7D511043C29F60ACBB89F2AA5F35E27",
+        "sha256": "A01181C963001C328C402CC5C81C65349B6ADB50939A62F65D5846EB7D2F20ED"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 8916749,
+    "release_date": "2020-07-08T17:59:13Z",
+    "x_generated_by": "netkan"
+}
