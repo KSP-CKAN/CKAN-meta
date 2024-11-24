@@ -1,0 +1,82 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "BDArmoryContinued",
+    "name": "BD Armory Continued",
+    "abstract": "The original Weapons mod by BahamutoD, continued!",
+    "author": [
+        "BahamutoD",
+        "Papa_Joe",
+        "jrodrigv",
+        "ouloul"
+    ],
+    "version": "1:v1.3.5_beta",
+    "ksp_version_min": "1.9.0",
+    "ksp_version_max": "1.12.999",
+    "license": "CC-BY-SA-2.0",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184167-*",
+        "repository": "https://github.com/PapaJoesSoup/BDArmory",
+        "bugtracker": "https://github.com/PapaJoesSoup/BDArmory/issues",
+        "remote-avc": "https://github.com/PapaJoesSoup/BDArmory/raw/master/BDArmory/Distribution/GameData/BDArmory/BDArmory.version",
+        "x_screenshot": "https://spacedock.info/content/Papa_Joe_926/BDArmoryContinued/BDArmoryContinued-1470103192.4904277.png"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "sound",
+        "combat"
+    ],
+    "localizations": [
+        "en-us",
+        "es-es",
+        "ja",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "BDArmory"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "PhysicsRangeExtender"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "BDModularMissileParts"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "BDArmory"
+        }
+    ],
+    "install": [
+        {
+            "find": "BDArmory",
+            "install_to": "GameData",
+            "filter": [
+                "craft"
+            ]
+        },
+        {
+            "find": "craft",
+            "install_to": "Ships",
+            "as": "SPH"
+        }
+    ],
+    "download": "https://github.com/PapaJoesSoup/BDArmory/releases/download/1.3.5_beta/BDArmory_1.3.5PR_01292022_2235.zip",
+    "download_size": 53131785,
+    "download_hash": {
+        "sha1": "316C350A4EE417AB707FD326E554C5CCBFDDADED",
+        "sha256": "ACF2562FD48BAC2101D732E86A10441DD7211B618081F172EC5763B25B17F3C5"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 61506985,
+    "release_date": "2022-01-30T04:40:24Z",
+    "x_generated_by": "netkan"
+}
