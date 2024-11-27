@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "NewTantaresLV",
+    "name": "Tantares LV - Soviet Rockets",
+    "abstract": "Stockalike Soviet and European Launch Vehicles",
+    "author": "Beale",
+    "version": "v16.2",
+    "ksp_version_min": "1.10.1",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/73686-122-tantareslv-stockalike-n1-and-more-1018122016n1/&page=1",
+        "repository": "https://github.com/Tantares/TantaresLV",
+        "bugtracker": "https://github.com/Tantares/TantaresLV/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Tantares/TantaresSP/master/tantaressp.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "provides": [
+        "TantaresLV"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "NewTantares"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TantaresLV"
+        }
+    ],
+    "install": [
+        {
+            "find": "TantaresLV",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Crafts",
+            "install_to": "Ships",
+            "as": "VAB"
+        }
+    ],
+    "download": "https://github.com/Tantares/TantaresLV/releases/download/v16.2/tantareslv.zip",
+    "download_size": 80464383,
+    "download_hash": {
+        "sha1": "47F948AA130DD33A08FD56099B0BDBCD34CF59A1",
+        "sha256": "8190FA412A45D73A0051E5B4D2566212A8605A2E1B8E174866C462963809FD54"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 247195146,
+    "release_date": "2024-11-27T20:01:17Z",
+    "x_generated_by": "netkan"
+}
