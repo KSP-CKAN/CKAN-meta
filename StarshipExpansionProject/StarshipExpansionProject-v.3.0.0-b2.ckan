@@ -8,7 +8,8 @@
         "Sofie"
     ],
     "version": "v.3.0.0-b2",
-    "ksp_version_min": "1.12",
+    "ksp_version_min": "1.12.3",
+    "ksp_version_max": "1.12.99",
     "license": "restricted",
     "release_status": "testing",
     "resources": {
@@ -32,6 +33,9 @@
         },
         {
             "name": "Waterfall"
+        },
+        {
+            "name": "KSPCommunityPartModules"
         }
     ],
     "recommends": [
@@ -42,10 +46,10 @@
             "name": "StarshipLaunchExpansion"
         },
         {
-            "name": "TundraExploration"
+            "name": "TexturesUnlimited"
         },
         {
-            "name": "TexturesUnlimited"
+            "name": "Resurfaced"
         },
         {
             "name": "KerbalJointReinforcementNext"
@@ -66,6 +70,9 @@
         },
         {
             "name": "JNSQ"
+        },
+        {
+            "name": "TundraExploration"
         }
     ],
     "supports": [
@@ -80,7 +87,10 @@
         {
             "find": "StarshipExpansionProject",
             "install_to": "GameData",
-            "filter": "Spaces"
+            "filter": [
+                "Spaces",
+                "Props"
+            ]
         }
     ],
     "download": "https://github.com/Kari1407/Starship-Expansion-Project/releases/download/v3.0.0-b2/Starship-Expansion-Project-v3.0.0-b2.zip",
@@ -89,7 +99,7 @@
         "sha256": "35514FAC505E06F21D5F21F1A38BDE7447A3CCCD5D81DCE33C41AA8BCB048437"
     },
     "download_content_type": "application/zip",
-    "install_size": 1310809600,
+    "install_size": 1308103169,
     "release_date": "2024-12-11T01:28:46Z",
     "x_generated_by": "netkan"
 }
