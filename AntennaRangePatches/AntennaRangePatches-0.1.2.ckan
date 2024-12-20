@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": 1,
     "identifier": "AntennaRangePatches",
     "name": "AntennaRangePatches",
     "abstract": "Various patches for Antenna Range mod",
@@ -14,6 +14,10 @@
         "bugtracker": "https://github.com/linuxgurugamer/AntennaRangePatches/issues",
         "remote-avc": "http://ksp-avc.cybutek.net/version.php?id=229"
     },
+    "tags": [
+        "config",
+        "comms"
+    ],
     "depends": [
         {
             "name": "AntennaRange"
@@ -33,12 +37,6 @@
         },
         {
             "name": "RemoteTech"
-        }
-    ],
-    "install": [
-        {
-            "find": "AntennaRangePatches",
-            "install_to": "GameData"
         }
     ],
     "download": "https://spacedock.info/mod/876/AntennaRangePatches/download/0.1.2",
