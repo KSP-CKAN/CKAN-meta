@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": 1,
     "identifier": "PersistentDynamicPodNames",
     "name": "Persistent Dynamic Pod Names",
     "abstract": "Configurable names for pods and ships",
@@ -10,7 +10,8 @@
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/142900-*",
         "repository": "https://github.com/linuxgurugamer/PersistentDynamicPodNames",
-        "bugtracker": "https://github.com/linuxgurugamer/PersistentDynamicPodNames/issues"
+        "bugtracker": "https://github.com/linuxgurugamer/PersistentDynamicPodNames/issues",
+        "remote-avc": "http://ksp-avc.cybutek.net/version.php?id=308"
     },
     "tags": [
         "plugin",
@@ -26,13 +27,6 @@
             "name": "JanitorsCloset"
         }
     ],
-    "install": [
-        {
-            "find": "PersistentDynamicPodNames",
-            "install_to": "GameData",
-            "filter_regexp": "ModuleManager.+\\.dll"
-        }
-    ],
     "download": "https://github.com/linuxgurugamer/PersistentDynamicPodNames/releases/download/0.1.8/PersistentDynamicPodNames-0.1.8.zip",
     "download_size": 73532,
     "download_hash": {
@@ -40,6 +34,7 @@
         "sha256": "867FA5F2083B373DA5501D63FA547943CDEBC4959B7722E1C97A56DA3FCB7832"
     },
     "download_content_type": "application/zip",
+    "install_size": 169324,
     "release_date": "2017-05-28T22:05:04Z",
     "x_generated_by": "netkan"
 }
