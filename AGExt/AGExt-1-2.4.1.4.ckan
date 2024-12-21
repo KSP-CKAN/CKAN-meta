@@ -1,0 +1,62 @@
+{
+    "spec_version": 1,
+    "identifier": "AGExt",
+    "name": "Action Groups Extended",
+    "abstract": "Increases the number of action groups to 250 and allows in-flight editing.",
+    "author": [
+        "Diazo",
+        "linuxgurugamer"
+    ],
+    "version": "1:2.4.1.4",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "release_status": "stable",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/167269-1",
+        "spacedock": "https://spacedock.info/mod/1685/Action%20Groups%20Extended",
+        "repository": "https://github.com/linuxgurugamer/AGExt",
+        "bugtracker": "https://github.com/linuxgurugamer/AGExt/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/AGExt/refs/heads/master/AGExt.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Action_Groups_Extended/Action_Groups_Extended-1517453673.540609.jpg"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "jp",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Diazo",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/AGExt/releases/download/2.4.1.4/AGExt-1.12.0-2.4.1.4.zip",
+    "download_size": 136813,
+    "download_hash": {
+        "sha1": "805DB08B3F089C78C049DD6FE82FC902A25311F0",
+        "sha256": "FA5F56288165321775C96674A1B64E49C353CCFEC57FD4D7979AFB1C1005F7AA"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 305431,
+    "release_date": "2024-12-20T23:42:17Z",
+    "x_generated_by": "netkan"
+}
