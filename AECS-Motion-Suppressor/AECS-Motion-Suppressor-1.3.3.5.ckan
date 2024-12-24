@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "AECS-Motion-Suppressor",
+    "name": "AECS_Motion_Suppressor (air brake, engine, & control surface)",
+    "abstract": "This mod disables and re-enables your control surfaces on atmosphere exit/ entry to stop your SSTOs pointlessly flapping their wings in space. Also disables engine gimbaling when not running",
+    "author": "linuxgurugamer",
+    "version": "1.3.3.5",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182622-*",
+        "spacedock": "https://spacedock.info/mod/2095/AECS_Motion_Suppressor%20(air%20brake,%20engine,%20&%20control%20surface)",
+        "repository": "https://github.com/linuxgurugamer/AECS_Motion_Suppressor",
+        "bugtracker": "https://github.com/linuxgurugamer/AECS_Motion_Suppressor/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/AECS_Motion_Suppressor/refs/heads/master/AECS_Motion_Suppressor.version"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ControlSurfaceToggle"
+        },
+        {
+            "name": "SmartActuation"
+        }
+    ],
+    "install": [
+        {
+            "find": "AECS_Motion_Suppressor",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/AECS_Motion_Suppressor/releases/download/1.3.3.5/AECS_Motion_Suppressor-1.12.0-1.3.3.5.zip",
+    "download_size": 16961,
+    "download_hash": {
+        "sha1": "8B4EEF9305E6B7F51447004C0AD7A7CB552BE8E7",
+        "sha256": "E59A36D758CD90075D26DA37BF4450E9FB71CECF13DF0D421FC851297A6FB21F"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 33364,
+    "release_date": "2024-12-24T16:38:49Z",
+    "x_generated_by": "netkan"
+}
