@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "BobsPanicBox",
+    "name": "Bob's Panic Box",
+    "abstract": "Automatic control of the abort systems",
+    "author": "linuxgurugamer",
+    "version": "1:0.0.2.5",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/176073-*",
+        "spacedock": "https://spacedock.info/mod/1894/Bob's%20Panic%20Box",
+        "repository": "https://github.com/linuxgurugamer/BobsPanicBox",
+        "bugtracker": "https://github.com/linuxgurugamer/BobsPanicBox/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/BobsPanicBox/refs/heads/master/BobsPanicBox.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Bobs_Panic_Box/Bobs_Panic_Box-1529932018.4543815.png"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "BobsPanicBox",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/BobsPanicBox/releases/download/0.0.2.5/BobsPanicBox-1.12.0-0.0.2.5.zip",
+    "download_size": 41902,
+    "download_hash": {
+        "sha1": "C81D2C6A4A5C84B68E39D500D226394646B0AEA1",
+        "sha256": "0B3D025B825E429C106AAB19DA8A34E9D2FF05CB99E33BE95A38B5FACB417AE8"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 91909,
+    "release_date": "2024-12-27T20:06:37Z",
+    "x_generated_by": "netkan"
+}
