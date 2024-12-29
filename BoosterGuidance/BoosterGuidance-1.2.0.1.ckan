@@ -1,0 +1,63 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "BoosterGuidance",
+    "name": "Booster Guidance Boosted",
+    "abstract": "Aims to autonomously guide a Booster to land on a drone ship or the launch site using Boostback, Re-entry Burn, Aerodynamic Descent and Landing Burn SpaceX",
+    "author": "linuxgurugamer",
+    "version": "1.2.0.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/207792-112x-booster-guidance-under-construction/",
+        "spacedock": "https://spacedock.info/mod/3018/Booster%20Guidance%20Boosted",
+        "repository": "https://github.com/linuxgurugamer/BoosterGuidance",
+        "bugtracker": "https://github.com/linuxgurugamer/BoosterGuidance/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/BoosterGuidance/refs/heads/main/BoosterGuidance.version"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "BoosterGuidance",
+            "install_to": "GameData",
+            "filter": "Ships"
+        },
+        {
+            "find": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/BoosterGuidance/releases/download/1.2.0.1/BoosterGuidance-1.12.0-1.2.0.1.zip",
+        "https://spacedock.info/mod/3018/Booster%20Guidance%20Boosted/download/1.2.0.1"
+    ],
+    "download_size": 95824,
+    "download_hash": {
+        "sha1": "008C4E017DA59B9A9ECEE67FDF3490E123795F4C",
+        "sha256": "E91205B30B135389A64A82F0F281B281B18A09060F7F0589F2671E152335EC4E"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 252153,
+    "release_date": "2024-12-29T15:18:29.222984+00:00",
+    "x_generated_by": "netkan"
+}
