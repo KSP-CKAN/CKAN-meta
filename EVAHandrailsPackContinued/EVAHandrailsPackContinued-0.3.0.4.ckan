@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "EVAHandrailsPackContinued",
+    "name": "EVA Handrails Continued",
+    "abstract": "handrails",
+    "author": "linuxgurugamer",
+    "version": "0.3.0.4",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-SA-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/158708-12-nebula-eva-handrails-continued/",
+        "spacedock": "https://spacedock.info/mod/49/EVA%20Handrails%20Continued",
+        "repository": "https://github.com/linuxgurugamer/EVAHandrailsPack",
+        "bugtracker": "https://github.com/linuxgurugamer/EVAHandrailsPack/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/EVAHandrailsPack/refs/heads/master/EVAHandrailsPackContinued.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/EVA_Handrails_Continued/EVA_Handrails_Continued-1478004467.1139538.jpg"
+    },
+    "tags": [
+        "parts"
+    ],
+    "provides": [
+        "NebulaEVAHandrails"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.5"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "EvaHandrailsKISCompatibility"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "NebulaEVAHandrails"
+        }
+    ],
+    "install": [
+        {
+            "find": "NEBULA",
+            "install_to": "GameData",
+            "filter_regexp": "ModuleManager.+\\.dll"
+        }
+    ],
+    "download": "https://spacedock.info/mod/49/EVA%20Handrails%20Continued/download/0.3.0.4",
+    "download_size": 120856,
+    "download_hash": {
+        "sha1": "B295DCB304AB022715E89E3E46C420C97F460249",
+        "sha256": "C79DDD1FD4214076E4159C80385FC3A1A5554320B49B231B0CF18BF7E7A69DF7"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 419608,
+    "release_date": "2025-01-01T18:23:14.245539+00:00",
+    "x_generated_by": "netkan"
+}
