@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "CrewQueueTwo",
+    "name": "Crew R&R",
+    "abstract": "This mod is focused around the idea of encouraging the player to keep a deeper roster of crew, and to increase the value of individual experienced crew.",
+    "author": "linuxgurugamer",
+    "version": "1.1.11.5",
+    "ksp_version_min": "1.11.1",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/159299-12-crewqueue-crew-rotation-and-vacations/",
+        "spacedock": "https://spacedock.info/mod/1324/Crew%20R&R",
+        "repository": "https://github.com/linuxgurugamer/CrewRandR",
+        "bugtracker": "https://github.com/linuxgurugamer/CrewRandR/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/CrewRandR/refs/heads/master/CrewRandR.version"
+    },
+    "tags": [
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "BetterCrewAssignment"
+        },
+        {
+            "name": "CrewQueue"
+        }
+    ],
+    "install": [
+        {
+            "install_to": "GameData",
+            "find": "CrewRandR"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/CrewRandR/releases/download/1.1.11.5/CrewRandR-1.12.0-1.1.11.5.zip",
+        "https://spacedock.info/mod/1324/Crew%20R&R/download/1.1.11.5"
+    ],
+    "download_size": 51633,
+    "download_hash": {
+        "sha1": "CE64CF90ABDEFB3E1CE16C2E7BABB0194F63B19C",
+        "sha256": "8BB59F2488840B047DDAF2615ECD5960CC3ED09B3C5EBF80119934D19C285D38"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 98568,
+    "release_date": "2025-01-07T11:23:16.844741+00:00",
+    "x_generated_by": "netkan"
+}
