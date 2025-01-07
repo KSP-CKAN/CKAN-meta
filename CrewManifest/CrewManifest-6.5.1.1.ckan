@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "CrewManifest",
+    "name": "Crew Manifest",
+    "abstract": "This plugin will allow you to add or remove crew from parts while on the launch pad or transfer crew between parts in the same vessel. You can also edit/add custom crew members in your available crew roster provided that they are not part of an active flight (or dead).",
+    "author": [
+        "vXSovereignXv",
+        "Sarbian",
+        "linuxgurugamer"
+    ],
+    "version": "6.5.1.1",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/209418-112x-kerbal-crew-manifest/",
+        "spacedock": "https://spacedock.info/mod/3097/CrewManifest",
+        "repository": "https://github.com/linuxgurugamer/CrewManifest",
+        "bugtracker": "https://github.com/linuxgurugamer/CrewManifest/issues",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/CrewManifest/CrewManifest-1661612670.png"
+    },
+    "tags": [
+        "plugin",
+        "crewed",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "CrewManifest",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/CrewManifest/releases/download/6.5.1.1/CrewManifest-1.12.0-6.5.1.1.zip",
+        "https://spacedock.info/mod/3097/CrewManifest/download/6.5.1.1"
+    ],
+    "download_size": 26327,
+    "download_hash": {
+        "sha1": "2BC0B80BC7B166A2FD17927AD7DA3A26CA293C01",
+        "sha256": "27EFA6C5FF2982E26BBC3E575440EFC5430FEF2C03B593C43CA7A7A1A569E324"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 47206,
+    "release_date": "2025-01-07T11:07:44.669871+00:00",
+    "x_generated_by": "netkan"
+}
