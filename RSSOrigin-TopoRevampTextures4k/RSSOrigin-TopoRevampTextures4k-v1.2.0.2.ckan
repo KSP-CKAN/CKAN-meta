@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RSSOrigin-TopoRevampTextures4k",
+    "name": "RSS-Origin RSS Texture & Topo Revamp Textures 4k",
+    "abstract": "The texture pack of RSS-Origin RSSTexture&TopoRevamp. This is the 4k version.",
+    "author": "CharonSSS",
+    "version": "v1.2.0.2",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "repository": "https://github.com/CharonSSS/RSS-Origin",
+        "bugtracker": "https://github.com/CharonSSS/RSS-Origin/issues"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "provides": [
+        "RSSOrigin-TopoRevampTextures"
+    ],
+    "depends": [
+        {
+            "name": "RSSOrigin-TopoRevampConfigs"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RSSOrigin-TopoRevampTextures"
+        }
+    ],
+    "install": [
+        {
+            "find": "RSSOrigin",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/CharonSSS/RSS-Origin/releases/download/v1.2.0.2/RSS-Origin.RSSTexture.TopoRevamp.Textures4k.zip",
+    "download_size": 453360396,
+    "download_hash": {
+        "sha1": "C921453126C5BA268F39C12218A3C9E91427400D",
+        "sha256": "F8D34B4DC4348C1E6EFCE4E77FD243E3DBED32ABF9E4ABDDBA49EFACED4C602A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 685925040,
+    "release_date": "2025-02-04T16:11:07Z",
+    "x_generated_by": "netkan"
+}
