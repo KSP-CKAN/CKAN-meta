@@ -1,0 +1,70 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "CactEyeCommunityRefocused",
+    "name": "CactEye-2 Orbital Telescope Refocused",
+    "abstract": "CactEye is a plugin and set of parts that allow for modular orbital telescopes. CactEye telescopes feature a fully-functional science system, and are upgradeable/serviceable (primarily through Kerbal Inventory System). Orbital telescopes also now become fundamental to discovering asteroids.",
+    "author": "linuxgurugamer",
+    "version": "1.5.3.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/198257-112x-cacteye-2-refocused/",
+        "spacedock": "https://spacedock.info/mod/2930/CactEye-2%20Orbital%20Telescope%20Refocused",
+        "repository": "https://github.com/linuxgurugamer/CactEye-2",
+        "bugtracker": "https://github.com/linuxgurugamer/CactEye-2/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/CactEye-2/refs/heads/master/CactEyeCommunityRefocused.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "en-us",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        },
+        {
+            "name": "DistantObject"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "CactEye2"
+        },
+        {
+            "name": "CactEyeCommunity"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/CactEye",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/CactEye-2/releases/download/1.5.3.1/CactEyeCommunityRefocused-1.12.0-1.5.3.1.zip",
+        "https://spacedock.info/mod/2930/CactEye-2%20Orbital%20Telescope%20Refocused/download/1.5.3.1"
+    ],
+    "download_size": 7779863,
+    "download_hash": {
+        "sha1": "7ED9843086147E4435048835ED9C086ED891A67C",
+        "sha256": "E597A7AA86BD733C4F4B6F5BB8A9462C5D56AE2C71DC34E47FBA72C8F639B9F6"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 25606134,
+    "release_date": "2025-02-27T20:32:54.677131+00:00",
+    "x_generated_by": "netkan"
+}
