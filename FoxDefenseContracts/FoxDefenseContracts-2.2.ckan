@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "FoxDefenseContracts",
+    "name": "Fox Defense Contracts - Tank turrets",
+    "abstract": "Adding Turrets from early Wars to modern era. BDAc Expansion",
+    "author": "Marhfg",
+    "version": "2.2",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/163346-wip12x13x-fox-defense-contracts-bdac-addon-tank-turrets-ver-011/",
+        "spacedock": "https://spacedock.info/mod/1455/Fox%20Defense%20Contracts%20-%20Tank%20turrets",
+        "repository": "https://github.com/lancefoxcia/FoxDefenseContracts",
+        "bugtracker": "https://github.com/lancefoxcia/FoxDefenseContracts/issues",
+        "x_screenshot": "https://spacedock.info/content/Marhfg_14451/Fox_Defense_Contracts_-_Tank_turrets/Fox_Defense_Contracts_-_Tank_turrets-1552267222.039334.png"
+    },
+    "tags": [
+        "parts",
+        "combat"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "BDArmory"
+        }
+    ],
+    "install": [
+        {
+            "find": "FoxDefenseContracts",
+            "install_to": "GameData"
+        },
+        {
+            "find": "FDC_Armor",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/Changelog.txt",
+            "install_to": "GameData/FoxDefenseContracts"
+        },
+        {
+            "file": "GameData/README.md",
+            "install_to": "GameData/FoxDefenseContracts"
+        }
+    ],
+    "download": [
+        "https://github.com/lancefoxcia/FoxDefenseContracts/releases/download/2.2/FoxDefenseContracts.zip",
+        "https://spacedock.info/mod/1455/Fox%20Defense%20Contracts%20-%20Tank%20turrets/download/2.2"
+    ],
+    "download_size": 622492695,
+    "download_hash": {
+        "sha1": "0970BA2CC4314BCA33AC81573CE4168A77CEFEA4",
+        "sha256": "86C3B990868F6D241096EEDB97A0C8A94A4733F3B50DE525D7AC81924A26862A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1537579290,
+    "release_date": "2025-02-28T03:06:09.880446+00:00",
+    "x_generated_by": "netkan"
+}
