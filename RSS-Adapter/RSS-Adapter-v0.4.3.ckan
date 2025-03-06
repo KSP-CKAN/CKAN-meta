@@ -1,0 +1,96 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RSS-Adapter",
+    "name": "RSS Adapter",
+    "abstract": "Adapts your stock KSP for the Real Solar System",
+    "author": "Globul-Art",
+    "version": "v0.4.3",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/224480-181-1122-rss-adapter/",
+        "repository": "https://github.com/Globul-Art/RSS_Adapter",
+        "bugtracker": "https://github.com/Globul-Art/RSS_Adapter/issues"
+    },
+    "tags": [
+        "config",
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "CustomBarnKit"
+        },
+        {
+            "name": "CryoTanks"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealEngines"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ReStock"
+        },
+        {
+            "name": "ReStockPlus"
+        }
+    ],
+    "supports": [
+        {
+            "name": "Kerbalism"
+        },
+        {
+            "name": "BluedogDB"
+        },
+        {
+            "name": "NewTantares"
+        },
+        {
+            "name": "TantaresSP"
+        },
+        {
+            "name": "ProceduralParts"
+        },
+        {
+            "name": "MandatoryRCS"
+        },
+        {
+            "name": "InternalRCS"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "RealFuels"
+        }
+    ],
+    "install": [
+        {
+            "find": "zzz_RSS_Adapter",
+            "filter": [
+                ".git",
+                ".gitattributes"
+            ],
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Globul-Art/RSS_Adapter/releases/download/0.4.3/RSS_Adapter_0.4.3.zip",
+    "download_size": 8606305,
+    "download_hash": {
+        "sha1": "A21A859DE0C0606802D8AAD5EDC0698FA7EFCC1B",
+        "sha256": "DD3E6D04D9B198D68397F7B0E40F0D8AF1641A5F46B842120AA23EE8819512F2"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 204957,
+    "release_date": "2025-03-05T02:38:39Z",
+    "x_generated_by": "netkan"
+}
