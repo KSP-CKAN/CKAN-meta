@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TrekDrive",
+    "name": "TrekDrive by ShadowWorks",
+    "abstract": "A standalone warp drive mod inspired by Star Trek and RoverDude's Standalone Alcubierre Warp Drive.  The drive requires at least two parts to operate.  The current release contains two modified stock parts as test articles, a test craft, the Phoenix warpship, the Enterprise-era Shuttlepod, and the NX-class starship and it's Refit version, the Constitution-class starship with my own little spin, and the Constitution-Refit exactly as it appears in the films, the plugin itself, and the source code.",
+    "author": "TheShadow1138",
+    "version": "1.0.5",
+    "ksp_version": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/204759-19-112-trekdrive-a-star-trek-like-warp-drive-by-shadowworks-v10-to-boldly-go-09-09-2021/",
+        "spacedock": "https://spacedock.info/mod/2626/TrekDrive%20by%20ShadowWorks",
+        "x_screenshot": "https://spacedock.info/content/TheShadow1138_1098/TrekDrive_by_ShadowWorks/TrekDrive_by_ShadowWorks-1735241380.png"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Waterfall"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/TrekDrive",
+            "install_to": "GameData",
+            "filter": [
+                ".DS_Store"
+            ]
+        },
+        {
+            "find": "Craft/VAB",
+            "install_to": "Ships"
+        },
+        {
+            "find": "Craft/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2626/TrekDrive%20by%20ShadowWorks/download/1.0.5",
+    "download_size": 260353302,
+    "download_hash": {
+        "sha1": "6CC6CE7FD6FDF1A8195B98768C575A96A7A451E2",
+        "sha256": "7F1B7DDA59CA3DD811BB12E777B0293CE7E252649D709B739400CC74DAEFA0E6"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1189492675,
+    "release_date": "2025-03-15T01:18:45.137063+00:00",
+    "x_generated_by": "netkan"
+}
