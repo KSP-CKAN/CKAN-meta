@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "KSP-PartVolume",
+    "name": "KSP_PartVolume",
+    "abstract": "Create configs for parts which don't have ModuleCargoPart",
+    "author": "linuxgurugamer",
+    "version": "0.0.4",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201354-111x-ksp-part-volumes",
+        "spacedock": "https://spacedock.info/mod/2672/KSP_PartVolume",
+        "repository": "https://github.com/linuxgurugamer/KSP_PartVolume",
+        "bugtracker": "https://github.com/linuxgurugamer/KSP_PartVolume/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/KSP_PartVolume/refs/heads/master/KSP_PartVolume.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/KSP_PartVolume/KSP_PartVolume-1617151715.35562.png"
+    },
+    "tags": [
+        "plugin",
+        "physics",
+        "stock-inventory"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "KSP_PartVolume",
+            "install_to": "GameData",
+            "filter_regexp": [
+                ".*~$",
+                ".*\\.pdb$"
+            ]
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/KSP_PartVolume/releases/download/0.0.4/KSP_PartVolume-1.12.0-0.0.4.zip",
+        "https://spacedock.info/mod/2672/KSP_PartVolume/download/0.0.4"
+    ],
+    "download_size": 33341,
+    "download_hash": {
+        "sha1": "5830A9DBB576CFAC48CC39A76C2E6878C62C11DF",
+        "sha256": "62B3BEDB03C24BEC1DB88491A23BFAE8E664BAB7BD394EA604AAB3D5B69779DD"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 69981,
+    "release_date": "2025-03-16T11:25:15.79544+00:00",
+    "x_generated_by": "netkan"
+}
