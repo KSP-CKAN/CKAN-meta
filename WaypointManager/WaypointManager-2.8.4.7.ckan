@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "WaypointManager",
+    "name": "Waypoint Manager",
+    "abstract": "Display waypoints while in flight, create custom waypoints.",
+    "author": [
+        "jrossignol",
+        "linuxgurugamer"
+    ],
+    "version": "2.8.4.7",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "release_status": "testing",
+    "resources": {
+        "repository": "https://github.com/linuxgurugamer/WaypointManager",
+        "bugtracker": "https://github.com/linuxgurugamer/WaypointManager/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/WaypointManager/refs/heads/master/WaypointManager.version"
+    },
+    "tags": [
+        "plugin",
+        "information",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "WaypointManager",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/WaypointManager/releases/download/2.8.4.7/WaypointManager-1.12.0-2.8.4.7.zip",
+    "download_size": 115414,
+    "download_hash": {
+        "sha256": "A6FFFF60C250A5504694BF53CA83CB1F465DC0610BC2D1DFC90505377FDB312E"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 195556,
+    "release_date": "2025-03-19T00:03:08Z",
+    "x_generated_by": "netkan"
+}
