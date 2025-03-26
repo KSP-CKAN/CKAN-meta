@@ -1,0 +1,70 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "VuhrantiSystem",
+    "name": "VuhrantiSystem",
+    "abstract": "A real scale planet pack for Kerbal Space Program",
+    "author": "Space_Fox_Oprissmian",
+    "version": "0.1.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/226352-wip112x-vuhrantisystem-a-real-scale-planet-pack-for-ksp-v010-welcome-to-vuhanti/",
+        "spacedock": "https://spacedock.info/mod/3774/VuhrantiSystem",
+        "repository": "https://github.com/Oprissmian/VuhrantiSystem",
+        "bugtracker": "https://github.com/Oprissmian/VuhrantiSystem/issues"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "KSPCommunityFixes"
+        },
+        {
+            "name": "OrbitIconsPack"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "BetterTimeWarpCont"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/VuhrantiSystem",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/VuhrantiSystem-Terrain",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/VuhrantiSystem-Textures",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/Oprissmian/VuhrantiSystem/releases/download/0.1.0/VuhrantiSystem-0.1.0.zip",
+        "https://spacedock.info/mod/3774/VuhrantiSystem/download/0.1.0"
+    ],
+    "download_size": 119283424,
+    "download_hash": {
+        "sha1": "AB8AA42E28E11CBE4D674E1561CC91E4C70FA878",
+        "sha256": "C069736E5E4404D508F4783D0E9D35830DAFFA794D4BB1A3C98676040D34A66E"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 333421032,
+    "release_date": "2024-12-03T02:09:05.788932+00:00",
+    "x_generated_by": "netkan"
+}
