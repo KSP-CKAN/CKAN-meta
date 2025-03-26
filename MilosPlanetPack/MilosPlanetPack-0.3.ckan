@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "MilosPlanetPack",
+    "name": "Milos Planet Pack",
+    "abstract": "A planet expansion.",
+    "author": "Univvurs1",
+    "version": "0.3",
+    "ksp_version": "1.12.5",
+    "license": "unknown",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/3751/Milos%20Planet%20Pack",
+        "x_screenshot": "https://spacedock.info/content/Univvurs1_141361/Milos_Planet_Pack/Milos_Planet_Pack-1730649060.png"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "install": [
+        {
+            "find": "Milo",
+            "install_to": "GameData"
+        },
+        {
+            "file": "LICENSE.txt",
+            "install_to": "GameData/Milo"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3751/Milos%20Planet%20Pack/download/0.3",
+    "download_size": 62124107,
+    "download_hash": {
+        "sha1": "4873CF289544EC10E97EEF31A6683D5CA8B7C7C1",
+        "sha256": "DC50E98027DBE112B35122B17637BED60440ACBDF21548845438163AD7A0695A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 238092033,
+    "release_date": "2024-11-14T21:41:01.572431+00:00",
+    "x_generated_by": "netkan"
+}
