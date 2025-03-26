@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "OrbitIconsPack",
+    "name": "OrbitIconsPack",
+    "abstract": "A small mod for planet makers to add custom orbital icons to their celestial bodies",
+    "author": "Space_Fox_Oprissmian",
+    "version": "1.4.0",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/226024-112x-orbiticonspack-120-updated-november-13th-2024-cet/",
+        "spacedock": "https://spacedock.info/mod/3769/OrbitIconsPack",
+        "repository": "https://github.com/Oprissmian/OrbitIconsPack",
+        "bugtracker": "https://github.com/Oprissmian/OrbitIconsPack/issues"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "install": [
+        {
+            "find": "OrbitIconsPack",
+            "install_to": "GameData"
+        },
+        {
+            "find": "ConfigFolder",
+            "install_to": "GameData",
+            "as": "OrbitIconsPack"
+        }
+    ],
+    "download": [
+        "https://github.com/Oprissmian/OrbitIconsPack/releases/download/v1.4.0/OrbitIconsPack-1.4.0.zip",
+        "https://spacedock.info/mod/3769/OrbitIconsPack/download/1.4.0"
+    ],
+    "download_size": 2446963,
+    "download_hash": {
+        "sha1": "79B0E1CEA2431951D53218F41B11776608350533",
+        "sha256": "59E242343DC610564FFF30FBFCBC27B6FA0A96C40B42652F6EA0D17F2B39DA88"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2512941,
+    "release_date": "2025-03-16T18:24:19.616401+00:00",
+    "x_generated_by": "netkan"
+}
