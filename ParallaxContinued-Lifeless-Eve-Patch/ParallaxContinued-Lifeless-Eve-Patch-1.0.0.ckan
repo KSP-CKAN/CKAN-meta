@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ParallaxContinued-Lifeless-Eve-Patch",
+    "name": "Parallax Continued Lifeless Eve Patch",
+    "abstract": "Removes the complex life and bubbles from Eve",
+    "author": "Linx",
+    "version": "1.0.0",
+    "ksp_version": "1.12",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/209714-*",
+        "repository": "https://github.com/Gameslinx/Parallax-Continued",
+        "bugtracker": "https://github.com/Gameslinx/Parallax-Continued/issues"
+    },
+    "tags": [
+        "plugin",
+        "library",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ParallaxContinued"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Parallax"
+        },
+        {
+            "name": "Parallax-StockTextures"
+        },
+        {
+            "name": "Parallax-StockScatterTextures"
+        }
+    ],
+    "install": [
+        {
+            "find": "Parallax_LifelessEvePatch",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Gameslinx/Parallax-Continued/releases/download/1.0.0/ParallaxContinued_LifelessEvePatch-1.0.0.zip",
+    "download_size": 1592,
+    "download_hash": {
+        "sha1": "EC154E89EE275F393AE15BFEFD88094CB42CF6A0",
+        "sha256": "4B3B600DCEF8ECA639454B5E16A15F997DA59F0CB98A2995AF17E7A794BF360D"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 412,
+    "release_date": "2025-03-28T18:54:52Z",
+    "x_generated_by": "netkan"
+}
