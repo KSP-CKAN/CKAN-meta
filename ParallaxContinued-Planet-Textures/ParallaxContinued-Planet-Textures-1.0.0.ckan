@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ParallaxContinued-Planet-Textures",
+    "name": "Parallax Continued Planet Textures",
+    "abstract": "The overhauled planet textures for by Parallax Continued",
+    "author": "Linx",
+    "version": "1.0.0",
+    "ksp_version": "1.12",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/209714-*",
+        "repository": "https://github.com/Gameslinx/Parallax-Continued",
+        "bugtracker": "https://github.com/Gameslinx/Parallax-Continued/issues"
+    },
+    "tags": [
+        "plugin",
+        "library",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ParallaxContinued"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Parallax"
+        },
+        {
+            "name": "Parallax-StockTextures"
+        },
+        {
+            "name": "Parallax-StockScatterTextures"
+        }
+    ],
+    "install": [
+        {
+            "find": "Parallax_StockPlanetTextures",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Gameslinx/Parallax-Continued/releases/download/1.0.0/ParallaxContinued_StockPlanetTextures-1.0.0.zip",
+    "download_size": 241059231,
+    "download_hash": {
+        "sha1": "E7F872DB47CEB548C21653F05A9C6FE17C5CEBCF",
+        "sha256": "2F08A215E55D7814FEFCF4346DE223CE578FA6B2E1111477A031BF946CA5D362"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 436690113,
+    "release_date": "2025-03-28T18:40:47Z",
+    "x_generated_by": "netkan"
+}
