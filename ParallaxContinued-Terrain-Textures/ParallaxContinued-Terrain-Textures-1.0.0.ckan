@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ParallaxContinued-Terrain-Textures",
+    "name": "Parallax Continued Terrain Textures",
+    "abstract": "The overhauled terrain textures for Parallax Continued",
+    "author": "Linx",
+    "version": "1.0.0",
+    "ksp_version": "1.12",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/209714-*",
+        "repository": "https://github.com/Gameslinx/Parallax-Continued",
+        "bugtracker": "https://github.com/Gameslinx/Parallax-Continued/issues"
+    },
+    "tags": [
+        "plugin",
+        "library",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ParallaxContinued"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Parallax"
+        },
+        {
+            "name": "Parallax-StockTextures"
+        },
+        {
+            "name": "Parallax-StockScatterTextures"
+        }
+    ],
+    "install": [
+        {
+            "find": "Parallax_StockTerrainTextures",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Gameslinx/Parallax-Continued/releases/download/1.0.0/ParallaxContinued_StockTerrainTextures-1.0.0.zip",
+    "download_size": 1948118929,
+    "download_hash": {
+        "sha1": "17A4566193DF28B25213E02E9CF7897D076F3682",
+        "sha256": "FD6283707E8A303E7543E6B9C21965355ACFDBFE9D0F36BD7EC236B46916E9F6"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2522581460,
+    "release_date": "2025-03-28T18:54:45Z",
+    "x_generated_by": "netkan"
+}
