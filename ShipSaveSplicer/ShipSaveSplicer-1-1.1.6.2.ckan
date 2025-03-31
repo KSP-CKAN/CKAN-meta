@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "ShipSaveSplicer",
+    "name": "Ship Save Splicer",
+    "abstract": "Copy ships from one save into another",
+    "author": [
+        "magico13",
+        "linuxgurugamer"
+    ],
+    "version": "1:1.1.6.2",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/178484-14x-magi",
+        "spacedock": "https://spacedock.info/mod/644/Ship%20Save%20Splicer",
+        "repository": "https://github.com/linuxgurugamer/Magico13_Modlets",
+        "bugtracker": "https://github.com/linuxgurugamer/Magico13_Modlets/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/Magico13_Modlets/refs/heads/master/ShipSaveSplicer.version"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/ShipSaveSplicer",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/Magico13_Modlets/releases/download/1.5.4/ShipSaveSplicer-1.12.0-1.1.6.2.zip",
+        "https://spacedock.info/mod/644/Ship%20Save%20Splicer/download/1.1.6.2"
+    ],
+    "download_size": 27453,
+    "download_hash": {
+        "sha1": "1A6EE47F25554099439025ACB8E90AACC8254B31",
+        "sha256": "1F6EB050E5E5F921C915EE49E430AAF0B7047FD41EF2D9C7A53B2D5A557E346D"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 62313,
+    "release_date": "2025-03-31T17:14:34.855906+00:00",
+    "x_generated_by": "netkan"
+}
