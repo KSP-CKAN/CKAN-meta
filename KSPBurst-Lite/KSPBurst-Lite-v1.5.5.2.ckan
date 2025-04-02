@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KSPBurst-Lite",
+    "name": "KSPBurst Lite",
+    "abstract": "Run KSPBurst-dependent mods without the compiler, more slowly but with a smaller download",
+    "author": "dkavolis",
+    "version": "v1.5.5.2",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "unknown",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201112-*",
+        "repository": "https://github.com/KSPModdingLibs/KSPBurst",
+        "bugtracker": "https://github.com/KSPModdingLibs/KSPBurst/issues",
+        "remote-avc": "https://raw.githubusercontent.com/KSPModdingLibs/KSPBurst/master/GameData/000_KSPBurst/KSPBurst.version"
+    },
+    "tags": [
+        "library"
+    ],
+    "provides": [
+        "KSPBurst"
+    ],
+    "conflicts": [
+        {
+            "name": "KSPBurst"
+        }
+    ],
+    "install": [
+        {
+            "find": "000_KSPBurst",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSPModdingLibs/KSPBurst/releases/download/v1.5.5.2/KSPBurst_1.5.5.2_plugins_only.zip",
+    "download_size": 425367,
+    "download_hash": {
+        "sha1": "64AEFB55D2DE44B1DEBDF1EC86FBE41DC6C25C8C",
+        "sha256": "BB5D7DF5B437C48BAFC6AEA4992F82683DF4D9D35C211F221B820A6556F6B6A7"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1325160,
+    "release_date": "2025-04-02T14:02:31Z",
+    "x_generated_by": "netkan"
+}
