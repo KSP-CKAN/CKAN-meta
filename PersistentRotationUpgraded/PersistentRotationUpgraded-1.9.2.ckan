@@ -1,0 +1,71 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "PersistentRotationUpgraded",
+    "name": "PersistentRotation Upgraded",
+    "abstract": "Momentum and Rotation in KSP are quite unrealistic.  This mod will maintain rotation through timewarping and changing vessels, etc.",
+    "author": "linuxgurugamer",
+    "version": "1.9.2",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201121-19x",
+        "spacedock": "https://spacedock.info/mod/2660/PersistentRotation%20Upgraded",
+        "repository": "https://github.com/linuxgurugamer/PersistentRotation",
+        "bugtracker": "https://github.com/linuxgurugamer/PersistentRotation/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/PersistentRotation/refs/heads/master/PersistentRotationUpgraded.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/PersistentRotation_Upgraded/PersistentRotation_Upgraded-1616212727.442817.jpg"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "fr-fr",
+        "zh-cn"
+    ],
+    "provides": [
+        "PersistentRotation"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "PersistentRotation"
+        },
+        {
+            "name": "KSPCommunityFixes"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/PersistentRotation",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/PersistentRotation/releases/download/1.9.2/PersistentRotationUpgraded-1.12.0-1.9.2.zip",
+        "https://spacedock.info/mod/2660/PersistentRotation%20Upgraded/download/1.9.2"
+    ],
+    "download_size": 33571,
+    "download_hash": {
+        "sha1": "2250CFF148BF51FAF0C31D02D176F7B0C9591C06",
+        "sha256": "15C893C49FCDDF0202F5FBBDB4B2CF3630C7939B596D71748505D8E05B416EE5"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 63036,
+    "release_date": "2025-04-06T11:38:43.870531+00:00",
+    "x_generated_by": "netkan"
+}
