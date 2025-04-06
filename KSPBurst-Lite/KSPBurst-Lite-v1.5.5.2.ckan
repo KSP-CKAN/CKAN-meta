@@ -1,8 +1,8 @@
 {
     "spec_version": "v1.4",
     "identifier": "KSPBurst-Lite",
-    "name": "KSPBurst Lite",
-    "abstract": "Run KSPBurst-dependent mods without the compiler, more slowly but with a smaller download",
+    "name": "KSPBurst Plugins",
+    "abstract": "Mods that require KSPBurst can run with this alone, but this does not improve performance unless the burst compiler is also installed.",
     "author": "dkavolis",
     "version": "v1.5.5.2",
     "ksp_version_min": "1.8.0",
@@ -15,12 +15,10 @@
         "remote-avc": "https://raw.githubusercontent.com/KSPModdingLibs/KSPBurst/master/GameData/000_KSPBurst/KSPBurst.version"
     },
     "tags": [
-        "library"
+        "library",
+        "plugin"
     ],
-    "provides": [
-        "KSPBurst"
-    ],
-    "conflicts": [
+    "suggests": [
         {
             "name": "KSPBurst"
         }
@@ -31,7 +29,7 @@
             "install_to": "GameData"
         }
     ],
-    "download": "https://github.com/KSPModdingLibs/KSPBurst/releases/download/v1.5.5.2/KSPBurst_1.5.5.2_plugins_only.zip",
+    "download": "https://github.com/KSPModdingLibs/KSPBurst/releases/download/v1.5.5.2/KSPBurst_1.5.5.2.zip",
     "download_size": 425367,
     "download_hash": {
         "sha1": "64AEFB55D2DE44B1DEBDF1EC86FBE41DC6C25C8C",
