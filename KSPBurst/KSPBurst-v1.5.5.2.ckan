@@ -1,18 +1,15 @@
 {
     "spec_version": "v1.4",
     "identifier": "KSPBurst",
-    "name": "KSPBurst",
+    "name": "KSPBurst Compiler",
     "abstract": "Better multithreaded performance for mods that use it. Requires Mono on Linux and macOS (you have it if you're running CKAN).",
-    "author": "dkavolis",
+    "author": "Unity",
     "version": "v1.5.5.2",
-    "ksp_version_min": "1.8.0",
-    "ksp_version_max": "1.12.99",
     "license": "unknown",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201112-*",
         "repository": "https://github.com/KSPModdingLibs/KSPBurst",
-        "bugtracker": "https://github.com/KSPModdingLibs/KSPBurst/issues",
-        "remote-avc": "https://raw.githubusercontent.com/KSPModdingLibs/KSPBurst/master/GameData/000_KSPBurst/KSPBurst.version"
+        "bugtracker": "https://github.com/KSPModdingLibs/KSPBurst/issues"
     },
     "tags": [
         "library"
@@ -20,20 +17,26 @@
     "provides": [
         "KSPBurst-Full"
     ],
+    "depends": [
+        {
+            "name": "KSPBurst-Lite"
+        }
+    ],
     "install": [
         {
             "find": "000_KSPBurst",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "comment": "This package is the burst compiler, while KSPBurst-Lite is the plugins that mods interface with. the compiler is wrapped in a zip file that the plugins unpack at runtime. The compiler is rather large and doesn't change often, so it's split out. Further, an automated build system may choose to install just the plugins to save space (but Burst will not be functional).  A mod author may also choose to depend on KSPBurst-Lite to leave the choice up to the user."
         }
     ],
-    "download": "https://github.com/KSPModdingLibs/KSPBurst/releases/download/v1.5.5.2/KSPBurst_1.5.5.2.zip",
-    "download_size": 425367,
+    "download": "https://github.com/KSPModdingLibs/KSPBurst/releases/download/v1.5.5.2/KSPBurst_Compiler_1.5.5.2.zip",
+    "download_size": 315574068,
     "download_hash": {
-        "sha1": "64AEFB55D2DE44B1DEBDF1EC86FBE41DC6C25C8C",
-        "sha256": "BB5D7DF5B437C48BAFC6AEA4992F82683DF4D9D35C211F221B820A6556F6B6A7"
+        "sha1": "94EE549EDDB0F62F77D7EE2F3C8B52D6102F9356",
+        "sha256": "A98099C4661272945F46D8A8563E325FB6380DDDDD5BC20099BB4B1D5B7716AB"
     },
     "download_content_type": "application/zip",
-    "install_size": 1325160,
-    "release_date": "2025-04-02T14:02:31Z",
+    "install_size": 316770190,
+    "release_date": "2025-04-06T12:42:40Z",
     "x_generated_by": "netkan"
 }
