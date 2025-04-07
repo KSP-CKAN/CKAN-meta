@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "ASETAvionics",
+    "name": "ASET Avionics",
+    "abstract": "IVA props for aircraft",
+    "author": [
+        "alexustas",
+        "StoneBlue",
+        "JonnyOThan"
+    ],
+    "version": "v3.0.2",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-3.0",
+    "release_status": "testing",
+    "resources": {
+        "repository": "https://github.com/FirstPersonKSP/ASET_Avionics",
+        "bugtracker": "https://github.com/FirstPersonKSP/ASET_Avionics/issues",
+        "discussions": "https://github.com/FirstPersonKSP/ASET_Avionics/discussions",
+        "remote-avc": "https://raw.githubusercontent.com/FirstPersonKSP/ASET_Avionics/main/GameData/ASET/ASET_Avionics/ASET_Avionics.version"
+    },
+    "tags": [
+        "config",
+        "library",
+        "crewed",
+        "first-person"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ASETAgency"
+        },
+        {
+            "name": "ASETProps",
+            "min_version": "2.0.0"
+        },
+        {
+            "name": "RasterPropMonitor-Core",
+            "min_version": "1:v0.30.2"
+        }
+    ],
+    "install": [
+        {
+            "find": "ASET",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/FirstPersonKSP/ASET_Avionics/releases/download/v3.0.2/ASET_Avionics-v3.0.2.zip",
+    "download_size": 5713534,
+    "download_hash": {
+        "sha256": "FC04D74467AC686C451B942ECD5DA3423C12FE72B1A1580874A7AB39170FD8AB"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 12807400,
+    "release_date": "2025-04-07T00:38:07Z",
+    "x_generated_by": "netkan"
+}
