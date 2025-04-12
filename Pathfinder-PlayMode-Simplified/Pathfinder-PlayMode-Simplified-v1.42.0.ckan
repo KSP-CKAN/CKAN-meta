@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Pathfinder-PlayMode-Simplified",
+    "name": "Pathfinder Simplified Play Mode",
+    "abstract": "Space Camping @ Geoscience",
+    "author": "Angel-125",
+    "version": "v1.42.0",
+    "ksp_version_min": "1.12.2",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/121397-*",
+        "repository": "https://github.com/Angel-125/Pathfinder",
+        "bugtracker": "https://github.com/Angel-125/Pathfinder/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/Pathfinder/master/GameData/WildBlueIndustries/Pathfinder/Pathfinder.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "Pathfinder-PlayMode"
+    ],
+    "depends": [
+        {
+            "name": "WildBlue-PlayMode-Simplified"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Pathfinder"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Pathfinder-PlayMode"
+        }
+    ],
+    "install": [
+        {
+            "find": "Pathfinder/Templates/Simplified.cfg",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates",
+            "find_matches_files": true
+        },
+        {
+            "find": "Pathfinder/Templates/Simplified/Simplified Mode.txt",
+            "install_to": "GameData/WildBlueIndustries/Pathfinder/Templates/Simplified",
+            "as": "Simplified Mode.cfg",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://github.com/Angel-125/Pathfinder/releases/download/v1.42.0/Pathfinder.zip",
+    "download_size": 54038680,
+    "download_hash": {
+        "sha1": "D4F026254109F2F8A6E85D294CFE1ABF3DEA137A",
+        "sha256": "036CC5255AB8105ADB055B084D2C9BF36EB95516F830371C1A38CF54565D592E"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 10914,
+    "release_date": "2025-04-11T22:57:12Z",
+    "x_generated_by": "netkan"
+}
