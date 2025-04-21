@@ -1,0 +1,67 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "SterlingSystemsAgency",
+    "name": "Sterling Systems Agency",
+    "abstract": "Core things including localization and resources.",
+    "author": "JadeOfMaar",
+    "version": "0.4.11",
+    "ksp_version": "1.12.5",
+    "license": "restricted",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/219609-*/",
+        "repository": "https://github.com/JadeOfMaar/SterlingSystems",
+        "bugtracker": "https://github.com/JadeOfMaar/SterlingSystems/issues",
+        "discussions": "https://github.com/JadeOfMaar/SterlingSystems/discussions",
+        "remote-avc": "https://raw.githubusercontent.com/JadeOfMaar/SterlingSystems/main/GameData/SterlingSystems/Version/SterlingSystems.version"
+    },
+    "tags": [
+        "agency",
+        "config",
+        "resources"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "SystemHeat"
+        },
+        {
+            "name": "VABOrganizer"
+        },
+        {
+            "name": "VABOrganizer-Jade"
+        }
+    ],
+    "install": [
+        {
+            "find": "Agency",
+            "install_to": "GameData/SterlingSystems"
+        },
+        {
+            "find": "Version",
+            "install_to": "GameData/SterlingSystems"
+        }
+    ],
+    "download": "https://github.com/JadeOfMaar/SterlingSystems/releases/download/0.4.11/SterlingSystems_Core_0.4.11.zip",
+    "download_size": 630160,
+    "download_hash": {
+        "sha256": "D6BE18E7DA23D5FFF09DFFE370C1CB3CB64A2D2092EBF629C79BD1C0D8934596"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 3152991,
+    "release_date": "2025-04-21T21:12:54Z",
+    "x_generated_by": "netkan"
+}
