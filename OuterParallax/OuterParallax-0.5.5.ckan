@@ -1,0 +1,68 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "OuterParallax",
+    "name": "Outer Parallax Common Files",
+    "abstract": "Files common to OuterParallax-OPM and OuterParallax-MPE",
+    "author": "jthero3",
+    "version": "0.5.5",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/226905-1125-aetherium-021-16-feb-2025-random-assortment-of-parallax-continued-configs/",
+        "spacedock": "https://spacedock.info/mod/3833/OuterParallax-OPM",
+        "repository": "https://github.com/jthero3/OuterParallax-Continued",
+        "x_screenshot": "https://spacedock.info/content/jthero3_151376/OuterParallax-OPM/OuterParallax-OPM-1740978690.png"
+    },
+    "tags": [
+        "config",
+        "library"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "VertexMitchellNetravaliHeightMap"
+        },
+        {
+            "name": "ParallaxContinued"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "OuterParallax-OPM"
+        },
+        {
+            "name": "OuterParallax-MPE"
+        }
+    ],
+    "install": [
+        {
+            "find": "OuterParallax",
+            "install_to": "GameData",
+            "filter": [
+                "MPE",
+                "OPM"
+            ]
+        }
+    ],
+    "download": [
+        "https://github.com/jthero3/OuterParallax-Continued/releases/download/0.5.5/OuterParallax-OPM_0.5.5.zip",
+        "https://spacedock.info/mod/3833/OuterParallax-OPM/download/0.5.5"
+    ],
+    "download_size": 488481377,
+    "download_hash": {
+        "sha1": "C719D181A690F72653F63290776FEE4D7396767B",
+        "sha256": "AC2A651C7D8793C2BEEC815F378EACB28C60CA904D6E370A3266800FFC66341C"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 331977659,
+    "release_date": "2025-04-21T07:27:35.841231+00:00",
+    "x_generated_by": "netkan"
+}
