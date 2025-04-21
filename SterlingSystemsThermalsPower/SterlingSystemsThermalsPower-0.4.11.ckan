@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "SterlingSystemsThermalsPower",
+    "name": "Sterling Thermals - Power",
+    "abstract": "Main power sources that are firstly heat-focused, not electric. Raw nuclear thermal, solar thermal and beamed power are here",
+    "author": "JadeOfMaar",
+    "version": "0.4.11",
+    "ksp_version": "1.12.5",
+    "license": "restricted",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/219609-*/",
+        "repository": "https://github.com/JadeOfMaar/SterlingSystems",
+        "bugtracker": "https://github.com/JadeOfMaar/SterlingSystems/issues",
+        "discussions": "https://github.com/JadeOfMaar/SterlingSystems/discussions",
+        "remote-avc": "https://raw.githubusercontent.com/JadeOfMaar/SterlingSystems/main/GameData/SterlingSystems/Version/SterlingSystems.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "SterlingSystemsAgency"
+        },
+        {
+            "name": "SterlingSystemsThermals"
+        }
+    ],
+    "install": [
+        {
+            "find": "ThermalsPower",
+            "install_to": "GameData/SterlingSystems"
+        }
+    ],
+    "download": "https://github.com/JadeOfMaar/SterlingSystems/releases/download/0.4.11/SterlingSystems_Thermals_0.4.11.zip",
+    "download_size": 41635393,
+    "download_hash": {
+        "sha256": "92366C775F6E132002134D2A0CDE352B1027E2FBCBF8EBC5A97AA404F06510D2"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 61313578,
+    "release_date": "2025-04-21T21:12:46Z",
+    "x_generated_by": "netkan"
+}
