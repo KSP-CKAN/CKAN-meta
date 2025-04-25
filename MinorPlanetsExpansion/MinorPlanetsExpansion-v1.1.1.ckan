@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.18",
     "identifier": "MinorPlanetsExpansion",
     "name": "Minor Planets Expansion",
     "abstract": "Official GitHub of Exo's Minor Planets Expansion, where indev features and full builds can be found",
@@ -15,6 +15,9 @@
         "config",
         "planet-pack"
     ],
+    "localizations": [
+        "ru"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
@@ -23,12 +26,34 @@
             "name": "Kopernicus"
         },
         {
+            "name": "KSPCommunityFixes"
+        },
+        {
             "name": "OuterPlanetsMod"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "FinalFrontier"
+        }
+    ],
+    "supports": [
+        {
+            "name": "FinalFrontier"
         }
     ],
     "install": [
         {
             "find": "MPE",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Localizations",
+            "install_to": "GameData",
+            "as": "MPE"
+        },
+        {
+            "find": "Nereid",
             "install_to": "GameData"
         }
     ],
@@ -39,7 +64,7 @@
         "sha256": "BFE744FC4CDB97EBDFA029298E9FDD21B20184046E6BF4DA5E61584C9CA71207"
     },
     "download_content_type": "application/zip",
-    "install_size": 309310461,
+    "install_size": 310167200,
     "release_date": "2025-01-22T23:32:16Z",
     "x_generated_by": "netkan"
 }
