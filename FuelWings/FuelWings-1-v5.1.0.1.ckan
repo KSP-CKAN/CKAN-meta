@@ -1,0 +1,70 @@
+{
+    "spec_version": "v1.26",
+    "identifier": "FuelWings",
+    "name": "FuelWings",
+    "abstract": "Customizable fuel resources added to Stock, B9, and Procedural Wings by Tortoise. The intention of this is to improve weight & balance, reduce craft size, and increase aesthetics. Supports all stock fuel types, ability to modify in VAB/SPH.",
+    "author": [
+        "BeautiCode",
+        "linuxgurugamer"
+    ],
+    "version": "1:v5.1.0.1",
+    "ksp_version_min": "1.4.0",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/87605-122fuelwings-v32-fuel-customization-in-stock-b9-proceduralwings-03092017/&",
+        "spacedock": "https://spacedock.info/mod/1290/FuelWings",
+        "repository": "https://github.com/linuxgurugamer/FuelWings",
+        "bugtracker": "https://github.com/linuxgurugamer/FuelWings/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/FuelWings/refs/heads/main/FuelWings.version",
+        "x_screenshot": "https://spacedock.info/content/BeautiCode_11821/FuelWings/FuelWings-1490978780.7555523.png"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "any_of": [
+                {
+                    "name": "ConfigurableContainers"
+                },
+                {
+                    "name": "InterstellarFuelSwitch"
+                },
+                {
+                    "name": "ModularFuelTanks"
+                },
+                {
+                    "name": "FirespitterCore"
+                }
+            ]
+        }
+    ],
+    "supports": [
+        {
+            "name": "B9"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/FuelWings",
+            "install_to": "GameData",
+            "filter": [
+                "ModularFuelTanks"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/1290/FuelWings/download/5.1.0.1",
+    "download_size": 3659,
+    "download_hash": {
+        "sha1": "6C29D35B3596ABE97D0B0A79BA886C9C2285907C",
+        "sha256": "355C686DA0D8D6E04E35E78E66E47BD006CA8A6B7581949E4FDA18E7BA7DC1E0"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 23335,
+    "release_date": "2025-04-29T23:58:38.264136+00:00",
+    "x_generated_by": "netkan"
+}
