@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.10",
+    "spec_version": "v1.34",
     "identifier": "BOMPs",
     "name": "BOMPs",
     "abstract": "Bolt-On Mission Probe (BOMP)",
@@ -22,14 +22,15 @@
     ],
     "install": [
         {
-            "filter_regexp": [
-                ".*~$"
-            ],
             "find": "BOMPs",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter_regexp": ".*~$"
         }
     ],
-    "download": "https://github.com/linuxgurugamer/BOMPs/releases/download/1.0.2.2/BOMPs-1.12.0-1.0.2.2.zip",
+    "download": [
+        "https://github.com/linuxgurugamer/BOMPs/releases/download/1.0.2.2/BOMPs-1.12.0-1.0.2.2.zip",
+        "https://spacedock.info/mod/1354/BOMPs/download/1.0.2.2"
+    ],
     "download_size": 2439180,
     "download_hash": {
         "sha1": "2E83669F32138CBECC48E01473122A3E7603DC67",
@@ -37,6 +38,6 @@
     },
     "download_content_type": "application/zip",
     "install_size": 2747077,
-    "release_date": "2024-12-29T15:10:44Z",
+    "release_date": "2024-12-29T15:10:31.119843+00:00",
     "x_generated_by": "netkan"
 }
