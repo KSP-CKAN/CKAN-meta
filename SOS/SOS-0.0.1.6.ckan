@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "SOS",
+    "name": "SOS (Save Our Settings)",
+    "abstract": "Save staging, action group and axis group changes on the launch pad",
+    "author": "linuxgurugamer",
+    "version": "0.0.1.6",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/191312-18x-sos",
+        "spacedock": "https://spacedock.info/mod/2325/SOS%20(Save%20Our%20Settings)",
+        "repository": "https://github.com/linuxgurugamer/SOS",
+        "bugtracker": "https://github.com/linuxgurugamer/SOS/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/SOS/refs/heads/master/SOS.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/SOS_Save_Our_Settings/SOS_Save_Our_Settings-1581379847.4057326.png"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "fr-fr",
+        "it-it",
+        "ru-ru"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "SOS",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/SOS/releases/download/0.0.1.6/SOS-1.12.0-0.0.1.6.zip",
+        "https://spacedock.info/mod/2325/SOS%20(Save%20Our%20Settings)/download/0.0.1.6"
+    ],
+    "download_size": 65367,
+    "download_hash": {
+        "sha1": "3BB36F4EA7E958217E4A1727D8330CDD2A34AE0B",
+        "sha256": "C2A87BDF9F1C30F85A21145ABADACD9BB95D8EAA66155D4932440F24977AE6C0"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 108883,
+    "release_date": "2025-05-07T00:12:35.230383+00:00",
+    "x_generated_by": "netkan"
+}
