@@ -1,0 +1,74 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "QuackPack-ParallaxContinued",
+    "name": "QuackPack ParallaxContinued",
+    "abstract": "Parallax Continued Support for QuackPack",
+    "author": "jthero3",
+    "version": "0.3.4",
+    "license": "CC-BY-NC-SA",
+    "release_status": "testing",
+    "resources": {
+        "repository": "https://github.com/jthero3/QuackPack-ParallaxContinued",
+        "bugtracker": "https://github.com/jthero3/QuackPack-ParallaxContinued/issues"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "QuackPack"
+        },
+        {
+            "name": "ParallaxContinued"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Deferred"
+        },
+        {
+            "name": "FinalFrontier"
+        },
+        {
+            "name": "OrbitIconsPack"
+        },
+        {
+            "name": "Firefly"
+        }
+    ],
+    "supports": [
+        {
+            "name": "QuackPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "QuackPack-ParallaxContinued",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Nereid",
+            "install_to": "GameData"
+        },
+        {
+            "find": "FireQuack",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/jthero3/QuackPack-ParallaxContinued/releases/download/0.3.4/QuackPack-ParallaxContinued_0.3.4.zip",
+    "download_size": 788881238,
+    "download_hash": {
+        "sha256": "F872A45B9897A9C8F82EB429BF03AD881AD5973370A8A744C77F7AB5517D9677"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1191734194,
+    "release_date": "2025-05-08T04:49:39Z",
+    "x_generated_by": "netkan"
+}
