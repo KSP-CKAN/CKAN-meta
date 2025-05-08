@@ -1,0 +1,66 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "OffShoreLaunchSite",
+    "name": "OffShore Launch Site",
+    "abstract": "This is a collection of Kerbal Konstructs statics that forms a pretty nice looking off-shore platform to launch Rockets, Helicopters, and even small Planes from.",
+    "author": "munktron239",
+    "version": "1.075",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/227703-112x-offshore-launch-site-a-platform-out-at-sea-to-land-boosters-at-launch-rockets-from-and-ever-take-off-from-an-aircraft-carrier/",
+        "spacedock": "https://spacedock.info/mod/3863/OffShore%20Launch%20Site",
+        "repository": "https://github.com/munktron239/OffShore-LaunchSite",
+        "bugtracker": "https://github.com/munktron239/OffShore-LaunchSite/issues",
+        "remote-avc": "https://raw.githubusercontent.com/munktron239/OffShore-LaunchSite/refs/heads/main/Versioning/OffShoreLaunchSite.version",
+        "x_screenshot": "https://spacedock.info/content/munktron239_157380/OffShore_Launch_Site/OffShore_Launch_Site-1745015347.png"
+    },
+    "tags": [
+        "buildings",
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "MakingHistory-DLC"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KerbalKonstructs"
+        },
+        {
+            "name": "OffShoreLaunchPlatform"
+        },
+        {
+            "name": "KerbinSideCore"
+        },
+        {
+            "name": "KerbinSideRemastered"
+        },
+        {
+            "name": "TundraSpaceCenter"
+        },
+        {
+            "name": "AuroraSpaceCenter"
+        }
+    ],
+    "install": [
+        {
+            "find_regexp": "Offshore-?LaunchSite(-main)?",
+            "install_to": "GameData",
+            "as": "OffShoreLaunchSite"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3863/OffShore%20Launch%20Site/download/1.075%20three-quarters-update",
+    "download_size": 6222377,
+    "download_hash": {
+        "sha1": "76A73F02E63D02030A640139C0A13B674C4F1607",
+        "sha256": "F9C04F8E5CA46E3E90B515B33CC36CFF17ABBDA055FFF82D7347EBCCB351FDDC"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 18720024,
+    "release_date": "2025-05-08T19:50:38.378314+00:00",
+    "x_generated_by": "netkan"
+}
