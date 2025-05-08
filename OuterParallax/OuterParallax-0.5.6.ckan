@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "OuterParallax",
+    "name": "Outer Parallax Common Files",
+    "abstract": "Files common to OuterParallax-OPM and OuterParallax-MPE",
+    "author": [
+        "Lithobraker",
+        "jthero3"
+    ],
+    "version": "0.5.6",
+    "license": "MIT",
+    "release_status": "testing",
+    "resources": {
+        "repository": "https://github.com/jthero3/OuterParallax-Continued"
+    },
+    "tags": [
+        "config",
+        "library"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "VertexMitchellNetravaliHeightMap"
+        },
+        {
+            "name": "ParallaxContinued"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "OuterParallax-OPM"
+        },
+        {
+            "name": "OuterParallax-MPE"
+        }
+    ],
+    "install": [
+        {
+            "find": "OuterParallax",
+            "install_to": "GameData",
+            "filter": [
+                "MPE",
+                "OPM"
+            ]
+        }
+    ],
+    "download": "https://github.com/jthero3/OuterParallax-Continued/releases/download/0.5.6/OuterParallax-OPM_0.5.6.zip",
+    "download_size": 488478306,
+    "download_hash": {
+        "sha256": "06DBBACD8A19626FD3344E370DA4158372816B39860F57A60D5FEC48D7BE3C87"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 331977659,
+    "release_date": "2025-05-08T04:40:37Z",
+    "x_generated_by": "netkan"
+}
