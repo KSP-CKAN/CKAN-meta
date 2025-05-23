@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "YongeTechTreesPlugin-Revived",
+    "name": "YongeTech Tech Trees Plugin Revived",
+    "abstract": "Provides support to make creating and using custom tech trees easier. Allows part unlocks to be listed in the TechTree ConfigNode rather than having to edit every Part ConfigNode. Adds support for using custom textures to create icons for the tech tree. Adds a tree selection window to let the player select a tree for each new game.",
+    "author": [
+        "yongedevil",
+        "linuxgurugamer"
+    ],
+    "version": "1:0.7.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "release_status": "testing",
+    "resources": {
+        "repository": "https://github.com/linuxgurugamer/YTK_TechTrees",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/YTK_TechTrees/refs/heads/master/YongeTech_TechTreesPlugin.version"
+    },
+    "tags": [
+        "plugin",
+        "tech-tree"
+    ],
+    "provides": [
+        "YongeTechTreesPlugin"
+    ],
+    "suggests": [
+        {
+            "name": "ETT"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "YongeTechTreesPlugin"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/YongeTech_TechTreesPlugin",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/YTK_TechTrees/releases/download/0.7.1/YongeTech_TechTreesPlugin-1.12.0-0.7.1.zip",
+    "download_size": 35683,
+    "download_hash": {
+        "sha256": "583638475333717B1E25B8FEE237EECAAFF6E5702B9EBC6AF9A4BBA4309C9620"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 56907,
+    "release_date": "2025-05-23T13:56:19Z",
+    "x_generated_by": "netkan"
+}
