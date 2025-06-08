@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "VertexColorMapEmissive",
+    "name": "Vertex Color Map Emissive",
+    "abstract": "A custom PQS Mod intended for use by planet modders to give more control over planetary emissives than can be achieved with the current alternatives",
+    "author": "jamespglaze",
+    "version": "v1.1.0",
+    "ksp_version": "1.12",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/225111-1125-kopernicus-vertexcolormapemissive-100-easy-emissives/",
+        "repository": "https://github.com/jamespglaze/VertexColorMapEmissive",
+        "bugtracker": "https://github.com/jamespglaze/VertexColorMapEmissive/issues"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "install": [
+        {
+            "find": "001_DuckweedUtils",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/jamespglaze/VertexColorMapEmissive/releases/download/v1.1.0/VertexColorMapEmissive.1.1.0.zip",
+    "download_size": 50431,
+    "download_hash": {
+        "sha1": "5CEC747114AC44AA68B034CBE042ED958FD92BEB",
+        "sha256": "6688B12E3821557D9C011BBCEEE228897459F18AD6F04B586C4F7436655CF0DF"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 95294,
+    "release_date": "2025-06-08T20:18:26Z",
+    "x_generated_by": "netkan"
+}
