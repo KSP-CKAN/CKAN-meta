@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "Achievements",
+    "name": "KSP Achievements",
+    "abstract": "145 Achievements you can get playing Kerbal Space Program.",
+    "author": "linuxgurugamer",
+    "version": "1.10.2",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/193073-18x-19x-achievements-updated/",
+        "spacedock": "https://spacedock.info/mod/2422/Achievements",
+        "repository": "https://github.com/linuxgurugamer/Achievements",
+        "bugtracker": "https://github.com/linuxgurugamer/Achievements/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/Achievements/refs/heads/master/Achievements.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Achievements/Achievements-1588991985.1509068.png"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "Achievements",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/Achievements/releases/download/1.10.2/Achievements-1.12.0-1.10.2.zip",
+        "https://spacedock.info/mod/2422/Achievements/download/1.10.2"
+    ],
+    "download_size": 3226487,
+    "download_hash": {
+        "sha1": "CF07C37E87324266CDBE0C2B78924BB198033A91",
+        "sha256": "03704BEC592B86FCD1B70B694BD0046A8AFACE905596AE5C4B61FC5811E8C669"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 6585911,
+    "release_date": "2025-06-10T23:40:36.458877+00:00",
+    "x_generated_by": "netkan"
+}
