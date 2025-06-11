@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "LLL",
+    "name": "Lack Luster Labs Continued",
+    "abstract": "Big, boxy parts",
+    "author": "linuxgurugamer",
+    "version": "1:1.4.1",
+    "ksp_version_min": "1.9.1",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/209329-112x-lackluster-labs-flying-boxes-continued/",
+        "spacedock": "https://spacedock.info/mod/856/Lack%20Luster%20Labs%20Continued",
+        "repository": "https://github.com/linuxgurugamer/LLL-Continued",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/LLL-Continued/refs/heads/master/LLL.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Lack_Luster_Labs_Continued/Lack_Luster_Labs_Continued-1660947723.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "InterstellarFuelSwitch-Core"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "CrewManifest"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/LLL",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/LLL-Extra",
+            "install_to": "GameData/LLL",
+            "filter": "Parts"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/LLL-Continued/releases/download/1.4.1/LLL-1.12.0-1.4.1.zip",
+        "https://spacedock.info/mod/856/Lack%20Luster%20Labs%20Continued/download/1.4.1"
+    ],
+    "download_size": 12983740,
+    "download_hash": {
+        "sha1": "0569914A4419E7813C05C313604EE229A7025EDA",
+        "sha256": "FBA2500358664F694ACD84DBC0966706A2089511354F489E1D4762A179F9F213"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 88610785,
+    "release_date": "2025-06-11T00:04:29.075118+00:00",
+    "x_generated_by": "netkan"
+}
