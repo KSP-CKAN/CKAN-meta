@@ -1,0 +1,114 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "BoringCrewServices",
+    "name": "Boring Crew Services",
+    "abstract": "A stockalike CST-100 Starliner mod for Kerbal Space Program",
+    "author": [
+        "DylanSemrau",
+        "zorg2044"
+    ],
+    "version": "v1.1.0-b3",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "release_status": "testing",
+    "resources": {
+        "repository": "https://github.com/zorg2044/BoringCrewServices",
+        "bugtracker": "https://github.com/zorg2044/BoringCrewServices/issues",
+        "remote-avc": "https://raw.githubusercontent.com:443/zorg2044/BoringCrewServices/main/GameData/BoringCrewServices/Versioning/BoringCrewServices.version"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "SimpleAdjustableFairings"
+        },
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "KSPCommunityPartModules",
+            "min_version": "v0.3.0"
+        },
+        {
+            "name": "AnimatedDecouplers"
+        },
+        {
+            "name": "Resurfaced"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KSPCommunityFixes"
+        },
+        {
+            "name": "BluedogDB"
+        },
+        {
+            "name": "ConformalDecals"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "TundraExploration"
+        },
+        {
+            "name": "VABOrganizer"
+        },
+        {
+            "name": "HabTech2"
+        },
+        {
+            "name": "NewTantares"
+        }
+    ],
+    "supports": [
+        {
+            "name": "Benjee10-SharedAssets"
+        },
+        {
+            "name": "EngineIgniter"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "ConnectedLivingSpace"
+        }
+    ],
+    "install": [
+        {
+            "find": "BoringCrewServices",
+            "install_to": "GameData"
+        },
+        {
+            "find": "CraftFiles",
+            "install_to": "Ships",
+            "as": "VAB"
+        }
+    ],
+    "download": "https://github.com/zorg2044/BoringCrewServices/releases/download/v1.1.0-b3/BoringCrewServices-v1.1.0-b3.zip",
+    "download_size": 39345295,
+    "download_hash": {
+        "sha256": "193B9035F78B302FA909C6ADF3D79EDA16DF374C1F08798A59F179DE57E1EA5A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 107219963,
+    "release_date": "2025-06-13T18:12:45Z",
+    "x_generated_by": "netkan"
+}
