@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "DangItContinued",
+    "name": "Dang It! Continued",
+    "abstract": "A random failures mod for KSP",
+    "author": "linuxgurugamer",
+    "version": "1:0.7.21.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/178973-141-dang-it-continued/",
+        "spacedock": "https://spacedock.info/mod/1055/Dang%20It!%20Continued",
+        "repository": "https://github.com/linuxgurugamer/DangIt",
+        "bugtracker": "https://github.com/linuxgurugamer/DangIt/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/DangIt/refs/heads/master/DangIt.version"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalChangelog"
+        }
+    ],
+    "install": [
+        {
+            "find": "DangIt",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/DangIt/releases/download/0.7.21.1/DangIt-1.12.0-0.7.21.1.zip",
+        "https://spacedock.info/mod/1055/Dang%20It!%20Continued/download/0.7.21.1"
+    ],
+    "download_size": 1300953,
+    "download_hash": {
+        "sha1": "1EEA11F4E36028EA8EBD23A0B60CA06BD4D95F96",
+        "sha256": "238FDB41F0DD75A44AFF127158F3D67299A76DA75D2058C5AF01B29B600AFC63"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2003495,
+    "release_date": "2025-06-16T03:34:12.306836+00:00",
+    "x_generated_by": "netkan"
+}
