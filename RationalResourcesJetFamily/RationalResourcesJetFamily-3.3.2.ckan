@@ -1,0 +1,69 @@
+{
+    "spec_version": "v1.26",
+    "identifier": "RationalResourcesJetFamily",
+    "name": "Rational Resources Jet Family",
+    "abstract": "Enables fuel switching in air-breathing engines. A very welcome companion to cryo rocket systems.",
+    "author": "JadeOfMaar",
+    "version": "3.3.2",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/184875-*/",
+        "repository": "https://github.com/JadeOfMaar/RationalResources",
+        "bugtracker": "https://github.com/JadeOfMaar/RationalResources/issues",
+        "discussions": "https://github.com/JadeOfMaar/RationalResources/discussions",
+        "remote-avc": "https://raw.githubusercontent.com/JadeOfMaar/RationalResources/master/GameData/RationalResources/Version/RationalResources.version"
+    },
+    "tags": [
+        "config",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "any_of": [
+                {
+                    "name": "ClassicStockResources"
+                },
+                {
+                    "name": "CommunityResourcePack"
+                }
+            ]
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CryoEngines"
+        },
+        {
+            "name": "NearFutureAeronautics"
+        },
+        {
+            "name": "Mk2Expansion"
+        },
+        {
+            "name": "Mk3Expansion"
+        },
+        {
+            "name": "SXTContinued"
+        },
+        {
+            "name": "WaterDrinker"
+        }
+    ],
+    "download": "https://github.com/JadeOfMaar/RationalResources/releases/download/3.3.2/RationalResources-3.3.2.zip",
+    "download_size": 38997723,
+    "download_hash": {
+        "sha1": "81AF337C2AA74F9B3DC29EAF19D1A3DAC119A610",
+        "sha256": "127CD2955875ED1183674A8C8910BB7218D0A131C33B6D181169D12E918A4E29"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 38776,
+    "release_date": "2025-06-27T20:14:09Z",
+    "x_generated_by": "netkan"
+}
