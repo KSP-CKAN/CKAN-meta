@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "SXTContinued",
+    "name": "SXTContinued",
+    "abstract": "A memory light 'Stock-a-like' expansion pack that relies solely using the MODEL{} to reference Squad's textures and get a lot of 'bang for buck'",
+    "author": "linuxgurugamer",
+    "version": "2:0.3.31",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/151129-12-sxt-continued-beta/",
+        "spacedock": "https://spacedock.info/mod/1030/SXTContinued",
+        "repository": "https://github.com/linuxgurugamer/SXTContinued",
+        "bugtracker": "https://github.com/linuxgurugamer/SXTContinued/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/SXTContinued/refs/heads/master/SXTContinued.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/SXTContinued/SXTContinued-1477802930.9760618.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "FirespitterCore"
+        },
+        {
+            "name": "FirespitterResourcesConfig"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RetractableLiftingSurface"
+        }
+    ],
+    "install": [
+        {
+            "find": "SXT",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/SXTContinued/releases/download/0.3.31/SXTContinued-1.12.0-0.3.31.zip",
+        "https://spacedock.info/mod/1030/SXTContinued/download/0.3.31"
+    ],
+    "download_size": 46140552,
+    "download_hash": {
+        "sha1": "297BA54D2794CE94AD12B79E829A4274B78C242A",
+        "sha256": "A1CF824D5812FFAC614146A381171903EDB867300E93A2D29E535C93E0117F5A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 101618584,
+    "release_date": "2025-07-15T15:52:45.333977+00:00",
+    "x_generated_by": "netkan"
+}
