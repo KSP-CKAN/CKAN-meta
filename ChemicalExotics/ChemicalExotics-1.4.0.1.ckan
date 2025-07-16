@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "ChemicalExotics",
+    "name": "Chemical Propulsion",
+    "abstract": "An overhaul to the stock propellant system, replacing generic LiquidFuel, Oxidizer, MonoPropellant and SolidFuel with a handful of real chemicals.",
+    "author": "Charle_Roger",
+    "version": "1.4.0.1",
+    "ksp_version": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/227705-112x-chemical-technologies-a-chemically-based-resource-overhaul/",
+        "spacedock": "https://spacedock.info/mod/3866/Chemical%20Propulsion",
+        "repository": "https://github.com/CharleRoger/ChemicalPropulsion",
+        "bugtracker": "https://github.com/CharleRoger/ChemicalPropulsion/issues",
+        "remote-avc": "https://raw.githubusercontent.com/CharleRoger/ChemicalPropulsion/main/GameData/ChemicalPropulsion/Versioning/ChemicalPropulsion.version",
+        "x_screenshot": "https://spacedock.info/content/Charle_Roger_139212/Chemical_Propulsion/Chemical_Propulsion-1751976331.png"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "ChemicalCore"
+        },
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+    "supports": [
+        {
+            "name": "ChemicalPropulsion"
+        },
+        {
+            "name": "ChemicalCore"
+        }
+    ],
+    "install": [
+        {
+            "find": "ChemicalPropulsionExotics",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/CharleRoger/ChemicalPropulsion/releases/download/1.4.0.1/ChemicalPropulsion-1.4.0.1.zip",
+        "https://spacedock.info/mod/3866/Chemical%20Propulsion/download/1.4.0.1"
+    ],
+    "download_size": 78601,
+    "download_hash": {
+        "sha1": "3484495FD1789DA4AE894301E9603C4439E5D526",
+        "sha256": "5D0B537505207148A2F509D01E74B45D06985E3E081D21D0AE440A6C1239CEF7"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1941,
+    "release_date": "2025-07-16T00:19:31.194842+00:00",
+    "x_generated_by": "netkan"
+}
