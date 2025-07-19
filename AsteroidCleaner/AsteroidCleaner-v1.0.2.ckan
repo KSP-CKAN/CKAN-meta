@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "AsteroidCleaner",
+    "name": "Asteroid Cleaner",
+    "abstract": "AsteroidCometCleaner is a simple KSP mod that automatically removes excess untracked asteroids and comets from the game, keeping the number of each under control to reduce save bloat and improve performance. Tracked objects are never deleted.",
+    "author": "KevO",
+    "version": "v1.0.2",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "repository": "https://github.com/kevnokeeffe/AsteroidCleaner",
+        "bugtracker": "https://github.com/kevnokeeffe/AsteroidCleaner/issues"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "AsteroidSpawnLimiter"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/AsteroidCleaner",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/kevnokeeffe/AsteroidCleaner/releases/download/v1.0.2/AsteroidCleaner-v1.0.2.zip",
+    "download_size": 68200,
+    "download_hash": {
+        "sha1": "94B92B73DB5C07E754962C37C61AD6E26A0C0516",
+        "sha256": "5D0BB7F05FF72DB1442F8AB2ED3FDF135A2F11146FCE05229345ECBE1F254ED5"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 9216,
+    "release_date": "2025-07-19T14:17:35Z",
+    "x_generated_by": "netkan"
+}
