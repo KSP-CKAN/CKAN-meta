@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "Ignition",
+    "name": "Ignition!",
+    "abstract": "A plugin for Kerbal Space Program which provides a simple framework for simulating propellant mixtures across fuel tanks, engines and RCS thrusters.",
+    "author": "Charle_Roger",
+    "version": "1.1.4",
+    "ksp_version": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/227704-112x-ignition-100/",
+        "spacedock": "https://spacedock.info/mod/3868/Ignition!",
+        "repository": "https://github.com/CharleRoger/Ignition",
+        "bugtracker": "https://github.com/CharleRoger/Ignition/issues",
+        "remote-avc": "https://raw.githubusercontent.com/CharleRoger/Ignition/main/GameData/Ignition/Versioning/Ignition.version"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "Ignition",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": [
+        "https://github.com/CharleRoger/Ignition/releases/download/1.1.4/Ignition-1.1.4.zip",
+        "https://spacedock.info/mod/3868/Ignition!/download/1.1.4"
+    ],
+    "download_size": 39432,
+    "download_hash": {
+        "sha1": "8E1442117BB07333B906A7E4135E6E42EF8E0D1F",
+        "sha256": "F944419632CBFBDB14C292EF726BBC902F2AF69F068BAAC45D273A71FE0FC857"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 28234,
+    "release_date": "2025-07-21T01:27:50.924932+00:00",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
