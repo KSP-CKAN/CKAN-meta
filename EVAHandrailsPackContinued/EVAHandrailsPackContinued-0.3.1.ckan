@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "EVAHandrailsPackContinued",
+    "name": "EVA Handrails Continued",
+    "abstract": "handrails",
+    "author": "linuxgurugamer",
+    "version": "0.3.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-SA-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/158708-12-nebula-eva-handrails-continued/",
+        "spacedock": "https://spacedock.info/mod/49/EVA%20Handrails%20Continued",
+        "repository": "https://github.com/linuxgurugamer/EVAHandrailsPack",
+        "bugtracker": "https://github.com/linuxgurugamer/EVAHandrailsPack/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/EVAHandrailsPack/refs/heads/master/EVAHandrailsPackContinued.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/EVA_Handrails_Continued/EVA_Handrails_Continued-1478004467.1139538.jpg"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "provides": [
+        "NebulaEVAHandrails"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "2.6.5"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "EvaHandrailsKISCompatibility"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "NebulaEVAHandrails"
+        }
+    ],
+    "install": [
+        {
+            "find": "NEBULA",
+            "install_to": "GameData",
+            "filter_regexp": "ModuleManager.+\\.dll"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/EVAHandrailsPack/releases/download/0.3.1/EVAHandrailsPackContinued-1.12.0-0.3.1.zip",
+        "https://spacedock.info/mod/49/EVA%20Handrails%20Continued/download/0.3.1"
+    ],
+    "download_size": 122110,
+    "download_hash": {
+        "sha1": "DCD2C4638EE3467993BE8E1A520E376FC076E15E",
+        "sha256": "FFCA05DC23BA6F8AC0F294FF295D1D68AEC7446EEE057491B38289D5AA0C2CFC"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 421930,
+    "release_date": "2025-07-23T01:25:28.224069+00:00",
+    "x_generated_by": "netkan"
+}
