@@ -1,0 +1,68 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "NavUtilitiesUpdated",
+    "name": "NavUtilities Updated",
+    "abstract": "HSI and Instrument Landing System for both standalone and RPM",
+    "author": "linuxgurugamer",
+    "version": "0.8.1.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/204929-112x-navutilities-continued-ft-hsi-instrument-landing-system-beta-now-available/page/2/",
+        "spacedock": "https://spacedock.info/mod/2879/NavUtilities%20Updated",
+        "repository": "https://github.com/linuxgurugamer/NavInstruments",
+        "bugtracker": "https://github.com/linuxgurugamer/NavInstruments/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/NavInstruments/refs/heads/master/NavInstruments.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/NavUtilities_Updated/NavUtilities_Updated-1634491303.0875568.png"
+    },
+    "tags": [
+        "plugin",
+        "information",
+        "crewed"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "provides": [
+        "NavUtilities"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "NavUtilities"
+        }
+    ],
+    "install": [
+        {
+            "find": "NavInstruments",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/NavInstruments/releases/download/0.8.1.1/NavInstruments-1.12.0-0.8.1.1.zip",
+        "https://spacedock.info/mod/2879/NavUtilities%20Updated/download/0.8.1.1"
+    ],
+    "download_size": 1054666,
+    "download_hash": {
+        "sha1": "1142BC7EE80EED243B0F9F91659BD80F9BED2650",
+        "sha256": "E84E936F5637393802F0E6A2D9D2B7E3F81787B87EB54929A1C4F6C56C342839"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1918695,
+    "release_date": "2025-07-30T14:02:08.441844+00:00",
+    "x_generated_by": "netkan"
+}
