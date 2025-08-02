@@ -28,13 +28,18 @@
             "name": "ModuleManager"
         },
         {
+            "name": "KerbalPowersCore"
+        }
+    ],
+    "suggests": [
+        {
             "name": "Waterfall"
         }
     ],
     "install": [
         {
-            "find": "KerbalPowers",
-            "install_to": "GameData"
+            "find": "KerbalPowers/Interstellar",
+            "install_to": "GameData/KerbalPowers"
         },
         {
             "find": "TURD",
@@ -48,7 +53,7 @@
         "sha256": "76C0D3C012D6B03DB31678163CA652360BF216CD972EB3C1DC2AD54EB65F80AF"
     },
     "download_content_type": "application/zip",
-    "install_size": 78788743,
+    "install_size": 78753987,
     "release_date": "2025-02-12T04:26:57.691703+00:00",
     "x_generated_by": "netkan"
 }
