@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "DebugStifle",
+    "name": "DebugStifle",
+    "abstract": "A KSP addon to allow for stifling the text input field of the debug console.",
+    "author": "Clayel",
+    "version": "v2.0.0.0",
+    "ksp_version": "1.12.5",
+    "license": "Unlicense",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/228460-debug-stifle/",
+        "spacedock": "https://spacedock.info/mod/3942/DebugStifle",
+        "repository": "https://github.com/Clayell/DebugStifle",
+        "bugtracker": "https://github.com/Clayell/DebugStifle/issues",
+        "discussions": "https://github.com/Clayell/DebugStifle/discussions",
+        "x_screenshot": "https://spacedock.info/content/Clayel_166925/DebugStifle/DebugStifle-1754100613.png"
+    },
+    "tags": [
+        "config",
+        "plugin"
+    ],
+    "install": [
+        {
+            "find": "DebugStifle",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": [
+        "https://github.com/Clayell/DebugStifle/releases/download/v2.0.0.0/DebugStifle-v2.0.0.0.zip",
+        "https://spacedock.info/mod/3942/DebugStifle/download/v2.0.0.0"
+    ],
+    "download_size": 10295,
+    "download_hash": {
+        "sha1": "2DB28FD6819F175BB8849568B1BA59EE825A826A",
+        "sha256": "5FB4F4858D943D3AD2FE638673718D166D8A5A57C4D9F9FAD020BB0BC22AF3D8"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 10988,
+    "release_date": "2025-08-02T01:47:53.6415+00:00",
+    "x_generated_by": "netkan"
+}
