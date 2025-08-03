@@ -1,0 +1,69 @@
+{
+    "spec_version": "v1.29",
+    "identifier": "kOS-Computer",
+    "name": "kOS Computer",
+    "abstract": "Programmable flight management system designed to work with VR.",
+    "description": "Programmable flight management system (or guidance computer) designed to fully work with (or without) VR. 100% KerboScript and completely rewritable.",
+    "author": "sinucep",
+    "version": "v1.0.2",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/228209-kos-computer/",
+        "repository": "https://github.com/sinucep/kOS-Computer",
+        "bugtracker": "https://github.com/sinucep/kOS-Computer/issues"
+    },
+    "tags": [
+        "config",
+        "control",
+        "first-person"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "kOS"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        },
+        {
+            "name": "kOSPropMonitor"
+        },
+        {
+            "name": "DE-IVAExtension"
+        },
+        {
+            "name": "Reviva"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "kOSforAll"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/kOS-Computer",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Craft/Ships",
+            "install_to": "Ships"
+        },
+        {
+            "find": "Ships/Script",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/sinucep/kOS-Computer/releases/download/v1.0.2/kOS-Computer-v1.0.2.zip",
+    "download_size": 51093,
+    "download_hash": {
+        "sha1": "49AD2FEC01CCAD2E01A97E48A66B910B7EA51F79",
+        "sha256": "8703CA1EB7F418D052CD2A51C3545AB11B0F86E487D714B830564BC7D94468CE"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 266805,
+    "release_date": "2025-07-25T09:00:06Z",
+    "x_generated_by": "netkan"
+}
