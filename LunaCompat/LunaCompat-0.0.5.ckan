@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "LunaCompat",
+    "name": "Luna Compat",
+    "abstract": "Miscellaneous compatibility patches for KSP's Luna Multiplayer Mod.",
+    "description": "Complex mods are incompatible with Luna Multiplayer. LunaCompat adds compatibility patches for various mods via LMP part module configurations and Harmony patches. Patches are only applied to mods added to the modlist. Check the repository to see the full list of supported mods.",
+    "author": "TheXankriegor",
+    "version": "0.0.5",
+    "ksp_version": "1.12",
+    "license": "MIT",
+    "resources": {
+        "repository": "https://github.com/TheXankriegor/LunaCompat",
+        "bugtracker": "https://github.com/TheXankriegor/LunaCompat/issues",
+        "remote-avc": "https://github.com/TheXankriegor/LunaCompat/raw/main/lunacompat.version"
+    },
+    "tags": [
+        "plugin",
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Harmony2"
+        },
+        {
+            "name": "LunaMultiplayer"
+        }
+    ],
+    "supports": [
+        {
+            "name": "LunaMultiplayer"
+        }
+    ],
+    "install": [
+        {
+            "find": "LunaCompat",
+            "install_to": "GameData"
+        },
+        {
+            "find": "LunaMultiplayer",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/TheXankriegor/LunaCompat/releases/download/0.0.5/LunaCompat.zip",
+    "download_size": 160692,
+    "download_hash": {
+        "sha1": "B2268C817CDFF7A49A7B994741F3C6423F978430",
+        "sha256": "77B07C3D184497681A98280C99F47A4A1A23ED2C7B018FA2816011B5BB67085D"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 195322,
+    "release_date": "2025-07-28T12:34:53Z",
+    "x_generated_by": "netkan"
+}
