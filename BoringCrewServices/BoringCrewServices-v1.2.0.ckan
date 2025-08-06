@@ -1,0 +1,133 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "BoringCrewServices",
+    "name": "Boring Crew Services",
+    "abstract": "Stockalike CST-100 Starliner capsule",
+    "author": [
+        "Zorg",
+        "sofiebrink",
+        "DylanSemrau"
+    ],
+    "version": "v1.2.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/226293-boring-crew-services-stockalike-cst-100-starliner-v100-ksp-v112x/",
+        "spacedock": "https://spacedock.info/mod/3757/Boring%20Crew%20Services",
+        "repository": "https://github.com/zorg2044/BoringCrewServices",
+        "bugtracker": "https://github.com/zorg2044/BoringCrewServices/issues",
+        "remote-avc": "https://raw.githubusercontent.com:443/zorg2044/BoringCrewServices/main/GameData/BoringCrewServices/Versioning/BoringCrewServices.version",
+        "x_screenshot": "https://spacedock.info/content/Zorg_30454/Boring_Crew_Services/Boring_Crew_Services-1732199334.png"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "SimpleAdjustableFairings"
+        },
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "KSPCommunityPartModules",
+            "min_version": "v0.3.0"
+        },
+        {
+            "name": "AnimatedDecouplers"
+        },
+        {
+            "name": "Resurfaced"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KSPCommunityFixes"
+        },
+        {
+            "name": "BluedogDB"
+        },
+        {
+            "name": "ConformalDecals"
+        },
+        {
+            "name": "FreeIva"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "TundraExploration"
+        },
+        {
+            "name": "VABOrganizer"
+        },
+        {
+            "name": "HabTech2"
+        },
+        {
+            "name": "NewTantares"
+        },
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        }
+    ],
+    "supports": [
+        {
+            "name": "Benjee10-SharedAssets"
+        },
+        {
+            "name": "EngineIgniter"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "ConnectedLivingSpace"
+        },
+        {
+            "name": "Reviva"
+        }
+    ],
+    "install": [
+        {
+            "find": "BoringCrewServices",
+            "install_to": "GameData"
+        },
+        {
+            "find": "CraftFiles",
+            "install_to": "Ships",
+            "as": "VAB"
+        }
+    ],
+    "download": [
+        "https://github.com/zorg2044/BoringCrewServices/releases/download/v1.2.0/BoringCrewServices-v1.2.0.zip",
+        "https://spacedock.info/mod/3757/Boring%20Crew%20Services/download/v1.2.0"
+    ],
+    "download_size": 39911526,
+    "download_hash": {
+        "sha1": "E8F93A79FFCC170E3CEDC76F38E9514D099A63E6",
+        "sha256": "47ECE231B0B170F4673AFC3C0F75543933398F08B180DEED4BEB7D75D59317F6"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 109622992,
+    "release_date": "2025-08-06T13:13:27.245329+00:00",
+    "x_generated_by": "netkan"
+}
