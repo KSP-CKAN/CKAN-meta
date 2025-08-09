@@ -1,0 +1,72 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ParallaxContinued",
+    "name": "Parallax Continued",
+    "abstract": "A visual mod which overhauls the planet shaders and adds grass, forest, and other types of surface clutter",
+    "author": "Linx",
+    "version": "1.0.2",
+    "ksp_version": "1.12",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/227476-*",
+        "repository": "https://github.com/Gameslinx/Parallax-Continued",
+        "bugtracker": "https://github.com/Gameslinx/Parallax-Continued/issues"
+    },
+    "tags": [
+        "plugin",
+        "library",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "KSPBurst"
+        },
+        {
+            "name": "ParallaxContinued-Terrain-Textures"
+        },
+        {
+            "name": "ParallaxContinued-Scatter-Textures"
+        },
+        {
+            "name": "ParallaxContinued-Planet-Textures"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Deferred"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Parallax"
+        },
+        {
+            "name": "Parallax-StockTextures"
+        },
+        {
+            "name": "Parallax-StockScatterTextures"
+        }
+    ],
+    "install": [
+        {
+            "find": "ParallaxContinued",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Gameslinx/Parallax-Continued/releases/download/1.0.2/ParallaxContinued-1.0.2.zip",
+    "download_size": 24932791,
+    "download_hash": {
+        "sha1": "E0F52369F2F03979331D1BD4E6789274544E79B4",
+        "sha256": "AB9C1256771CF0024E35E463F98618CE89E10DCCCF690D49DB1D2F3F3206FC16"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 26361877,
+    "release_date": "2025-08-09T11:54:02Z",
+    "x_generated_by": "netkan"
+}
