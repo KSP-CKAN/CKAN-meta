@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "1ThousandSpecialPlanetPack-Textures",
+    "name": "Eternal - Textures",
+    "abstract": "All the Textures for 1 Thousand Special",
+    "author": "Kramken",
+    "version": "1.1",
+    "license": "restricted",
+    "resources": {
+        "repository": "https://github.com/Kramken/1TS-Textures",
+        "bugtracker": "https://github.com/Kramken/1TS-Textures/issues"
+    },
+    "tags": [
+        "planet-pack",
+        "graphics"
+    ],
+    "provides": [
+        "ParallaxContinued-Terrain-Textures",
+        "ParallaxContinued-Scatter-Textures",
+        "ParallaxContinued-Planet-Textures"
+    ],
+    "depends": [
+        {
+            "name": "1ThousandSpecialPlanetPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "Texture",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Kramken/1TS-Textures/releases/download/1.1/Eternal_Textures.zip",
+    "download_size": 907673674,
+    "download_hash": {
+        "sha1": "D339A68E7E8812769F2FFCDC33DB1DAD449949B1",
+        "sha256": "A7ED17002B5AE5D675FA559C37E2ABFFDD49B9A57C095B38B1A6D6754841104B"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1264914243,
+    "release_date": "2025-08-13T12:36:49Z",
+    "x_generated_by": "netkan"
+}
