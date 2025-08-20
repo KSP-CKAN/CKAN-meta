@@ -1,0 +1,67 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SterlingSystemsAgency",
+    "name": "Sterling Systems Agency",
+    "abstract": "Core things including localization and resources.",
+    "author": "JadeOfMaar",
+    "version": "0.5.1",
+    "ksp_version": "1.12.5",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/219609-*/",
+        "repository": "https://github.com/JadeOfMaar/SterlingSystems",
+        "bugtracker": "https://github.com/JadeOfMaar/SterlingSystems/issues",
+        "discussions": "https://github.com/JadeOfMaar/SterlingSystems/discussions",
+        "remote-avc": "https://raw.githubusercontent.com/JadeOfMaar/SterlingSystems/main/GameData/SterlingSystems/Version/SterlingSystems.version"
+    },
+    "tags": [
+        "agency",
+        "config",
+        "resources"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "SystemHeat"
+        },
+        {
+            "name": "VABOrganizer"
+        },
+        {
+            "name": "VABOrganizer-Jade"
+        }
+    ],
+    "install": [
+        {
+            "find": "Agency",
+            "install_to": "GameData/SterlingSystems"
+        },
+        {
+            "find": "Version",
+            "install_to": "GameData/SterlingSystems"
+        }
+    ],
+    "download": "https://github.com/JadeOfMaar/SterlingSystems/releases/download/0.5.1/SterlingSystems_Core_0.5.1.zip",
+    "download_size": 638423,
+    "download_hash": {
+        "sha1": "BDF654AF292FC807BA8A4A3236E8CD9FEC8EFA51",
+        "sha256": "1AB282EA67C6DDD37A9520ED5E6A601E8501D1784257837E17B7F901666008C4"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 3174501,
+    "release_date": "2025-08-20T20:54:35Z",
+    "x_generated_by": "netkan"
+}
