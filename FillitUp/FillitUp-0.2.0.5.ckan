@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "FillitUp",
+    "name": "Fill It Up",
+    "abstract": "Adjust fuel levels in the Editor",
+    "author": "linuxgurugamer",
+    "version": "0.2.0.5",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/181207-151-16-fill-it-up-adjust-fuel-levels-in-vabsph/",
+        "spacedock": "https://spacedock.info/mod/2051/Fill%20It%20Up",
+        "repository": "https://github.com/linuxgurugamer/FillItUp",
+        "bugtracker": "https://github.com/linuxgurugamer/FillItUp/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/FillItUp/refs/heads/master/FillItUp.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Fill_It_Up/Fill_It_Up-1546868286.1431.png"
+    },
+    "tags": [
+        "plugin",
+        "editor",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ButtonManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "FillItUp",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/FillItUp/releases/download/0.2.0.5/FillItUp-1.12.5-0.2.0.5.zip",
+        "https://spacedock.info/mod/2051/Fill%20It%20Up/download/0.2.0.5"
+    ],
+    "download_size": 29369,
+    "download_hash": {
+        "sha1": "922F75E783AF8B066FB37289CCB9065C26DAA2DA",
+        "sha256": "E9048ECEF6E45070242CB12C93129006C538D659CDD8B078B8C3334F00960D3A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 51789,
+    "release_date": "2025-08-22T17:43:04.538113+00:00",
+    "x_generated_by": "netkan"
+}
