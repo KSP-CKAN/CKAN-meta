@@ -1,0 +1,93 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "KerbalConstructionTime",
+    "name": "Kerbal Construction Time",
+    "abstract": "Unrapid Planned Assembly",
+    "author": [
+        "magico13",
+        "linuxgurugamer"
+    ],
+    "version": "1:1.4.13",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182877-151-161-kerbal-construction-time-unrapid-planned-assembly/",
+        "spacedock": "https://spacedock.info/mod/222/Kerbal%20Construction%20Time",
+        "repository": "https://github.com/linuxgurugamer/KCT",
+        "bugtracker": "https://github.com/linuxgurugamer/KCT/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/KCT/refs/heads/master/KerbalConstructionTime.version",
+        "x_screenshot": "https://spacedock.info/content/magico13_204/Kerbal_Construction_Time/Kerbal_Construction_Time-1456094774.2806504.png"
+    },
+    "tags": [
+        "plugin",
+        "career"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "MagiCore"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ScrapYard"
+        },
+        {
+            "name": "KRASH"
+        },
+        {
+            "name": "StageRecovery"
+        },
+        {
+            "name": "CrewQueueTwo"
+        },
+        {
+            "name": "OhScrap"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KerbalAlarmClock"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbalConstructionTime-173"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/KerbalConstructionTime",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/KCT/releases/download/1.4.13/KerbalConstructionTime-1.12.5-1.4.13.zip",
+        "https://spacedock.info/mod/222/Kerbal%20Construction%20Time/download/1.4.13"
+    ],
+    "download_size": 589614,
+    "download_hash": {
+        "sha1": "0E3A76B9811A693914E3027D8A795EC97B3454D7",
+        "sha256": "5EE36F4BF502EF89D2A17C77F9B8F95CC4CAD2EC98EFF1FF9A674DB21272BA89"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 946275,
+    "release_date": "2025-08-24T14:14:31.735583+00:00",
+    "x_generated_by": "netkan"
+}
