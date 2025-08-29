@@ -1,11 +1,9 @@
 {
     "spec_version": "v1.34",
     "identifier": "PromisedWorldsDebdeb",
-    "name": "Promised Worlds Debdeb",
+    "name": "Promised Worlds - Debdeb System",
     "abstract": "Faithful recreation of the Debdeb system from KSP 2 in KSP",
-    "author": [
-        "Promised Worlds Dev Team"
-    ],
+    "author": "PromisedWorldsDevTeam",
     "version": "v1.0.1",
     "ksp_version": "1.12.5",
     "license": "MIT",
@@ -20,6 +18,9 @@
         "planet-pack"
     ],
     "depends": [
+        {
+            "name": "ModuleManager"
+        },
         {
             "name": "PromisedWorldsCore"
         }
