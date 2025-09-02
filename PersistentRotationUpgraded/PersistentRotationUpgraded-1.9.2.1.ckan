@@ -1,0 +1,69 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "PersistentRotationUpgraded",
+    "name": "PersistentRotation Upgraded",
+    "abstract": "Momentum and Rotation in KSP are quite unrealistic.  This mod will maintain rotation through timewarping and changing vessels, etc.",
+    "author": "linuxgurugamer",
+    "version": "1.9.2.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.9",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201121-19x",
+        "spacedock": "https://spacedock.info/mod/2660/PersistentRotation%20Upgraded",
+        "repository": "https://github.com/linuxgurugamer/PersistentRotation",
+        "bugtracker": "https://github.com/linuxgurugamer/PersistentRotation/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/PersistentRotation/refs/heads/master/PersistentRotationUpgraded.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/PersistentRotation_Upgraded/PersistentRotation_Upgraded-1616212727.442817.jpg"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "fr-fr",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "PersistentRotation"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "PersistentRotation"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/PersistentRotation",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/PersistentRotation/releases/download/1.9.2.1/PersistentRotationUpgraded-1.12.5-1.9.2.1.zip",
+        "https://spacedock.info/mod/2660/PersistentRotation%20Upgraded/download/1.9.2.1"
+    ],
+    "download_size": 37629,
+    "download_hash": {
+        "sha1": "6A407820909CB98F35D382FC88CDB7ED74311AEC",
+        "sha256": "F455E527CC3618CFD36C9FE1D80D0697EDF8AF45A9ADF914F2C8E510E169121B"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 69340,
+    "release_date": "2025-09-02T19:21:38.442181+00:00",
+    "x_generated_by": "netkan"
+}
