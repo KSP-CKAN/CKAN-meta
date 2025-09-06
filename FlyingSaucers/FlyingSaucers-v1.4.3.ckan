@@ -1,0 +1,81 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "FlyingSaucers",
+    "name": "Flying Saucers",
+    "abstract": "Build Flying Saucers in KSP!",
+    "author": "Angel-125",
+    "version": "v1.4.3",
+    "ksp_version_min": "1.12.5",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/173857-*",
+        "repository": "https://github.com/Angel-125/FlyingSaucers",
+        "bugtracker": "https://github.com/Angel-125/FlyingSaucers/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/FlyingSaucers/master/GameData/WildBlueIndustries/FlyingSaucers/KFS.version"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "NearFutureProps"
+        },
+        {
+            "name": "WBIResources"
+        },
+        {
+            "name": "KerbalActuators"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ExtraPlanetaryLaunchpads"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "kOS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "TACLS"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/WildBlueIndustries/FlyingSaucers",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter": "Ships"
+        },
+        {
+            "find": "Ships/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/Angel-125/FlyingSaucers/releases/download/v1.4.3/KFS.zip",
+    "download_size": 116611704,
+    "download_hash": {
+        "sha1": "3470569821BEFD6D1467F00258E060A9F25A3EFE",
+        "sha256": "AD8D69DB05DF0EFE723ACFEF8C6ACEFE7C88D6C039C1397F94EA8DA22502F8B1"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 413865793,
+    "release_date": "2025-09-06T23:48:21Z",
+    "x_generated_by": "netkan"
+}
