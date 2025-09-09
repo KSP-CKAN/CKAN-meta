@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "StockalikeMiningExtension",
+    "name": "Stockalike Mining Extension",
+    "abstract": "Adds new Mining and ISRU parts in a variety of formfactors",
+    "author": [
+        "SuicidalInsanity",
+        "linuxgurugamer"
+    ],
+    "version": "2.0.0.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/130325-105-stockalike-mining-extension-092-release-21816-wip/&page=1",
+        "spacedock": "https://spacedock.info/mod/354/Stockalike%20Mining%20Extension",
+        "repository": "https://github.com/linuxgurugamer/Stockalike-Mining-Extension",
+        "bugtracker": "https://github.com/linuxgurugamer/Stockalike-Mining-Extension/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/Stockalike-Mining-Extension/refs/heads/master/StockalikeMiningExtension.version",
+        "x_screenshot": "https://spacedock.info/content/SuicidalInsanity_1925/Stockalike_Mining_Extension/Stockalike_Mining_Extension-1457222376.5120037.png"
+    },
+    "tags": [
+        "parts",
+        "resources"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "PatchManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "MiningExpansion",
+            "install_to": "GameData",
+            "filter": "Thumbs.db"
+        }
+    ],
+    "download": "https://spacedock.info/mod/354/Stockalike%20Mining%20Extension/download/2.0.0.1",
+    "download_size": 11860387,
+    "download_hash": {
+        "sha1": "2AEA2447B96BB0A92A6F628422EC60CA5569F575",
+        "sha256": "DA9FECB946AD2FCD36DEE1F4EC8AAF26445E86380D46991DE02517609BD7315D"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 27126430,
+    "release_date": "2025-09-09T23:32:23.3097+00:00",
+    "x_generated_by": "netkan"
+}
