@@ -1,0 +1,67 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "FMRSContinued",
+    "name": "Flight Manager for Reusable Stages (FMRS) Continued",
+    "abstract": "FMRS lets you jump back and forth in time.  It generates save points after separating controllable probes, ship, landers, ...",
+    "author": "linuxgurugamer",
+    "version": "1.2.9.6",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/157214-12-flight",
+        "spacedock": "https://spacedock.info/mod/1251/Flight%20Manager%20for%20Reusable%20Stages%20(FMRS)%20Continued",
+        "repository": "https://github.com/linuxgurugamer/FMRS",
+        "bugtracker": "https://github.com/linuxgurugamer/FMRS/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/FMRS/refs/heads/master/FMRS.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Flight_Manager_for_Reusable_Stages_FMRS_Continued/Flight_Manager_for_Reusable_Stages_FMRS_Continued-1488941119.4053094.png"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "provides": [
+        "FMRS"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RecoveryController"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "FMRS"
+        }
+    ],
+    "install": [
+        {
+            "find": "FMRS",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/FMRS/releases/download/1.2.9.6/FMRS-1.12.5-1.2.9.6.zip",
+        "https://spacedock.info/mod/1251/Flight%20Manager%20for%20Reusable%20Stages%20(FMRS)%20Continued/download/1.2.9.6"
+    ],
+    "download_size": 110669,
+    "download_hash": {
+        "sha1": "5EC7ECDCDBCA59AC780DCD3B6A0E1E3952A1A3AC",
+        "sha256": "2A32BDA0E2E0191FE80D8E98910AF3B0199999C89D263CFE9422427B27A53A0D"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 316633,
+    "release_date": "2025-09-10T19:12:08.796684+00:00",
+    "x_generated_by": "netkan"
+}
