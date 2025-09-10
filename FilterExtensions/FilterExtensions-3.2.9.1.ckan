@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "FilterExtensions",
+    "name": "Filter Extensions - Plugin",
+    "abstract": "Plugin allowing for configurable filters for the VAB/SPH using .cfg files.",
+    "author": "linuxgurugamer",
+    "version": "3.2.9.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/168456-14-filter-extensions-no-localization/",
+        "spacedock": "https://spacedock.info/mod/1972/Filter%20Extensions",
+        "repository": "https://github.com/linuxgurugamer/FilterExtension",
+        "bugtracker": "https://github.com/linuxgurugamer/FilterExtension/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/FilterExtension/refs/heads/master/FilterExtension.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Filter_Extensions/Filter_Extensions-1537624808.6939957.jpg"
+    },
+    "tags": [
+        "plugin",
+        "convenience",
+        "editor"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "FilterExtensionsDefaultConfig"
+        },
+        {
+            "name": "MoarFEConfigs"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/000_FilterExtensions",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/000_FilterExtensions_Configs",
+            "install_to": "GameData",
+            "filter": [
+                "Default",
+                "StockRework"
+            ]
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/FilterExtension/releases/download/3.2.9.1/FilterExtension-1.12.5-3.2.9.1.zip",
+        "https://spacedock.info/mod/1972/Filter%20Extensions/download/3.2.9.1"
+    ],
+    "download_size": 766402,
+    "download_hash": {
+        "sha1": "DB74DD792E41DADA94CD1AE9E5C5F08D4096BBA0",
+        "sha256": "6761A4412163893A3BE44B4D8CB691366D08AFB61EA869E615D188F51E1721F4"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2826204,
+    "release_date": "2025-09-10T17:58:35.408871+00:00",
+    "x_generated_by": "netkan"
+}
