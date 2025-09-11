@@ -1,0 +1,39 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KSPIRC",
+    "name": "ksp irc",
+    "abstract": "Internet Relay Chat (IRC) Plugin for KSP",
+    "author": [
+        "blizzy78",
+        "timmersuk",
+        "JonnyOThan"
+    ],
+    "version": "0.19.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/KSPModStewards/ksp_irc",
+        "remote-avc": "https://raw.githubusercontent.com/JonnyOThan/ksp_irc/master/KSPIRC/etc/KSPIRC.version"
+    },
+    "install": [
+        {
+            "find": "KSPIRC",
+            "install_to": "GameData"
+        },
+        {
+            "file": "mfd_irc.cfg",
+            "install_to": "GameData/KSPIRC"
+        }
+    ],
+    "download": "https://github.com/KSPModStewards/ksp_irc/releases/download/0.19.0/KSP_IRC-v0.19.0.zip",
+    "download_size": 64026,
+    "download_hash": {
+        "sha1": "ED4124FBD32D8E5F54F241C9CF4AFA7EB1E04F1F",
+        "sha256": "EAEDEFCE47F552BFF310E3FC40D1D2B4A5DADFCA375190E20181100BB4E678A8"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 236048,
+    "release_date": "2022-06-22T14:01:38Z",
+    "x_generated_by": "netkan"
+}
