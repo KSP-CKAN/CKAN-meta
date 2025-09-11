@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "FTLDriveContinued",
+    "name": "FTL Drive Continued",
+    "abstract": "Ever wished you were somewhere else instantly. With the Kerbin Science Foundry faster than light (FTL) drive you can! Just spin it up to create an instant reality dysfunction that might, just might transport you instantly to another point in space.",
+    "author": "linuxgurugamer",
+    "version": "0.2.5.4",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/150178-12-ftl-drive-continued/",
+        "spacedock": "https://spacedock.info/mod/835/FTL%20Drive%20Continued",
+        "repository": "https://github.com/linuxgurugamer/FTLDriveContinued",
+        "bugtracker": "https://github.com/linuxgurugamer/FTLDriveContinued/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/FTLDriveContinued/refs/heads/master/FTLDriveContinued.version"
+    },
+    "tags": [
+        "plugin",
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "JanitorsCloset"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "FTLDrive"
+        }
+    ],
+    "install": [
+        {
+            "find": "FTLDriveContinued",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/FTLDriveContinued/releases/download/0.2.5.4/FTLDriveContinued-1.12.5-0.2.5.4.zip",
+        "https://spacedock.info/mod/835/FTL%20Drive%20Continued/download/0.2.5.4"
+    ],
+    "download_size": 6809453,
+    "download_hash": {
+        "sha1": "6F1C64E047D45F405E21998884115A18983AF7E2",
+        "sha256": "B65A8EBCDC6DAFFE7FB5A285941E1E1A01534632560F5A5219CA6F764E129A37"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 28751565,
+    "release_date": "2025-09-11T19:34:35.861464+00:00",
+    "x_generated_by": "netkan"
+}
