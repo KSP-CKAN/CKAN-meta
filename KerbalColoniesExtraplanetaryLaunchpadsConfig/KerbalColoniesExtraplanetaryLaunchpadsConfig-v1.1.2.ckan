@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "KerbalColoniesExtraplanetaryLaunchpadsConfig",
+    "name": "KerbalColonies-EPLConfig",
+    "abstract": "Extraplanetary Launchpads config for Kerbal Colonies",
+    "author": "AMPW",
+    "version": "v1.1.2",
+    "ksp_version_min": "1.8",
+    "ksp_version_max": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/227961-kerbal-colonies-v100-112x/page/2/#comment-4463803",
+        "spacedock": "https://spacedock.info/mod/3899/KerbalColonies-EPLConfig",
+        "repository": "https://github.com/KerbalColonies/KCEPLConfig",
+        "bugtracker": "https://github.com/KerbalColonies/KCEPLConfig/issues",
+        "remote-avc": "https://raw.githubusercontent.com/KerbalColonies/KCEPLConfig/refs/heads/main/GameData/KC-EL-Default/KerbalColonies-EL-Default.version"
+    },
+    "tags": [
+        "buildings",
+        "config"
+    ],
+    "provides": [
+        "KerbalColoniesConfig"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KerbalColonies"
+        },
+        {
+            "name": "ExtraPlanetaryLaunchpads"
+        },
+        {
+            "name": "StockalikeStructures"
+        },
+        {
+            "name": "Paraterraforming"
+        }
+    ],
+    "install": [
+        {
+            "find": "KC-EL-Default",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/KerbalColonies/KCEPLConfig/releases/download/v1.1.2/KC-EL-Default.zip",
+        "https://spacedock.info/mod/3899/KerbalColonies-EPLConfig/download/v1.1.2"
+    ],
+    "download_size": 212438,
+    "download_hash": {
+        "sha1": "0F5D272245ABFF7242D3000F60A060B1F240AB10",
+        "sha256": "3E2BCC63AF46791CAD5C2DBF75C12CE683D7C1EA8DB3C40AA4ADE0EC33769850"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 240312,
+    "release_date": "2025-09-13T13:40:33.413846+00:00",
+    "x_generated_by": "netkan"
+}
