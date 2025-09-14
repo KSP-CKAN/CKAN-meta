@@ -10,7 +10,7 @@
     "version": "v1.0.3",
     "ksp_version_min": "1.12.0",
     "ksp_version_max": "1.12.99",
-    "license": "MIT",
+    "license": "CC-BY-NC-SA",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/topic/228751-112x-v103-promised-worlds-a-faithful-recreation-of-ksp-2s-solar-systems-in-ksp-1/",
         "spacedock": "https://spacedock.info/mod/3974/Promised%20Worlds%20-%20Core",
@@ -77,7 +77,8 @@
     "install": [
         {
             "find": "PromisedWorlds",
-            "install_to": "GameData"
+            "install_to": "GameData",
+            "filter": "ScaledDecorator"
         }
     ],
     "download": [
