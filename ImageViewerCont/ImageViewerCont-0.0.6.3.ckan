@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "ImageViewerCont",
+    "name": "Image Viewer Continued",
+    "abstract": "A plugin to view images ingame",
+    "author": "linuxgurugamer",
+    "version": "0.0.6.3",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/151470-121-image-viewer-continued/",
+        "spacedock": "https://spacedock.info/mod/1037/Image%20Viewer%20Continued",
+        "repository": "https://github.com/linuxgurugamer/ksp-img_viewer",
+        "bugtracker": "https://github.com/linuxgurugamer/ksp-img_viewer/issues",
+        "remote-avc": "http://ksp.spacetux.net/avc/ImageViewerCont",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Image_Viewer_Continued/Image_Viewer_Continued-1486669877.0698829.png"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ToolbarController"
+        }
+    ],
+    "install": [
+        {
+            "find": "ImageViewer",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/ksp-img_viewer/releases/download/0.0.6.3/ImageViewerCont-1.12.5-0.0.6.3.zip",
+        "https://spacedock.info/mod/1037/Image%20Viewer%20Continued/download/0.0.6.3"
+    ],
+    "download_size": 107530,
+    "download_hash": {
+        "sha1": "AF6CB10E8B8C312372D13110CB474AFA892C944D",
+        "sha256": "00C11F4BA1CCADAC61ED51FD8A8907C3D623258C85292B970919693400A61546"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 166039,
+    "release_date": "2025-09-14T13:05:25.890276+00:00",
+    "x_generated_by": "netkan"
+}
