@@ -1,0 +1,96 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "PromisedWorldsCore",
+    "name": "Promised Worlds Core",
+    "abstract": "A KSP 1 planet pack that aims to revive the unimplemented star systems from KSP 2.",
+    "author": "Promised Worlds Dev Team",
+    "version": "v1.1.2",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/228751-112x-v103-promised-worlds-a-faithful-recreation-of-ksp-2s-solar-systems-in-ksp-1/",
+        "repository": "https://github.com/PromisedWorlds/PromisedWorlds",
+        "bugtracker": "https://github.com/PromisedWorlds/PromisedWorlds/issues",
+        "remote-avc": "https://raw.githubusercontent.com/PromisedWorlds/PromisedWorlds/refs/heads/main/GameData/PromisedWorlds/Version/PromisedWorldsCore.version"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "Singularity"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "ScaledDecorator"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KopernicusExpansion"
+        },
+        {
+            "name": "VertexMitchellNetravaliHeightMap"
+        },
+        {
+            "name": "VertexColorMapEmissive"
+        },
+        {
+            "name": "VertexHeightOblateAdvanced"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ParallaxContinued"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "PromisedWorldsDebdeb"
+        },
+        {
+            "name": "Firefly"
+        },
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "PlanetShine"
+        }
+    ],
+    "install": [
+        {
+            "find": "PromisedWorlds",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Sigma",
+            "install_to": "GameData",
+            "filter": "ScaledDecorator"
+        }
+    ],
+    "download": "https://github.com/PromisedWorlds/PromisedWorlds/releases/download/v1.1.2/PromisedWorlds_V1.1.2_Core.zip",
+    "download_size": 16985196,
+    "download_hash": {
+        "sha1": "9A8D6F61DC49893EDB51C9CFB30CD1123903D36C",
+        "sha256": "CB9D97798FDCA0302B2A6A6982BF04D7E2C50B5B96E9280E7110AC6D48C43A31"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 29299458,
+    "release_date": "2025-09-17T01:27:29Z",
+    "x_generated_by": "netkan"
+}
