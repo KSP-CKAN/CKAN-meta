@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "KerbalPublicRadioServiceKPRS",
+    "name": "Kerbal Public Radio Service (KPRS)",
+    "abstract": "Presents a radio for your music listening pleasure",
+    "author": "linuxgurugamer",
+    "version": "0.0.4.1",
+    "ksp_version_min": "1.11.1",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/218624-112x-kerbal-public-radio-service-kprs-beta-004-released-now-on-spacedock-ckan/#:~:text=KPRS%20is%20a%20set%20of,static%20files%20if%20you%20like.",
+        "spacedock": "https://spacedock.info/mod/3504/Kerbal%20Public%20Radio%20Service%20(KPRS)",
+        "repository": "https://github.com/linuxgurugamer/K.P.R.S",
+        "bugtracker": "https://github.com/linuxgurugamer/K.P.R.S/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/K.P.R.S/refs/heads/main/K.P.R.S.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Kerbal_Public_Radio_Service_KPRS/Kerbal_Public_Radio_Service_KPRS-1700065636.png"
+    },
+    "tags": [
+        "parts",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "SpaceTuxLibrary"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "KPRS",
+            "install_to": "GameData",
+            "filter_regexp": "\\.mdb$"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/K.P.R.S/releases/download/0.0.4.1/K-1.12.5-0.0.4.1.zip",
+        "https://spacedock.info/mod/3504/Kerbal%20Public%20Radio%20Service%20(KPRS)/download/0.0.4.1"
+    ],
+    "download_size": 15216074,
+    "download_hash": {
+        "sha1": "E18B526F5B971EF77ED16190E81D72F1668F8966",
+        "sha256": "3CFDABCE48F82DB09E04D9F741342A990174A98A1293A9F01B0A9BC1DC25323B"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 35493711,
+    "release_date": "2025-09-19T14:54:02.158402+00:00",
+    "x_generated_by": "netkan"
+}
