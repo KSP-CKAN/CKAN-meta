@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "KerbalLaunchFailure",
+    "name": "Kerbal Launch Failure",
+    "abstract": "Random launch failures",
+    "author": "linuxgurugamer",
+    "version": "0.4.11.3",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-2.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/149999-12-kerbal-launch-failure-revived/",
+        "spacedock": "https://spacedock.info/mod/989/Kerbal%20Launch%20Failure",
+        "repository": "https://github.com/linuxgurugamer/ksp-KerbalLaunchFailure",
+        "bugtracker": "https://github.com/linuxgurugamer/ksp-KerbalLaunchFailure/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/ksp-KerbalLaunchFailure/refs/heads/master/KerbalLaunchFailure.version"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalLaunchFailure",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/ksp-KerbalLaunchFailure/releases/download/0.4.11.3/KerbalLaunchFailure-1.12.5-0.4.11.3.zip",
+        "https://spacedock.info/mod/989/Kerbal%20Launch%20Failure/download/0.4.11.3"
+    ],
+    "download_size": 8157145,
+    "download_hash": {
+        "sha1": "9933397CA508367EF18D849BC14B0E509F503A29",
+        "sha256": "A51C411E1771F19B3507E7DDDDE0D24B30375775997AF6628B9427B6DB768894"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 8801277,
+    "release_date": "2025-09-19T14:06:33.490274+00:00",
+    "x_generated_by": "netkan"
+}
