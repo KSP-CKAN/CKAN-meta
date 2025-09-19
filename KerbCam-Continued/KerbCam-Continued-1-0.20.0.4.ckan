@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "KerbCam-Continued",
+    "name": "KerbCam",
+    "abstract": "This is a tool for those video makers who want just a bit more camera movement and orientation control",
+    "author": "linuxgurugamer",
+    "version": "1:0.20.0.4",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "BSD-2-clause",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/181457-145-151-161-kerbcam-continuedcamera-pathing-tool-for-videos/",
+        "spacedock": "https://spacedock.info/mod/2135/KerbCam",
+        "repository": "https://github.com/linuxgurugamer/kerbcam",
+        "bugtracker": "https://github.com/linuxgurugamer/kerbcam/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/kerbcam/refs/heads/master/KerbCam.version"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbCam",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/kerbcam/releases/download/0.20.0.4/KerbCam-1.12.5-0.20.0.4.zip",
+        "https://spacedock.info/mod/2135/KerbCam/download/0.20.0.4"
+    ],
+    "download_size": 49668,
+    "download_hash": {
+        "sha1": "00253CF33E6BACFD1B260C7CE8FC9F88E075DF1B",
+        "sha256": "9B3EC5B10BD63504B2A9CCED39F6259368A878A2BC39706CF0A512DE3502BF6A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 99352,
+    "release_date": "2025-09-19T15:47:15.419372+00:00",
+    "x_generated_by": "netkan"
+}
