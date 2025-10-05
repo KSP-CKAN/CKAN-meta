@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.10",
+    "comment": "The version files are from bundled mods",
+    "identifier": "Nibrek",
+    "name": "Nibrek",
+    "abstract": "Beautiful gas giant for the Kerbol System",
+    "author": "Shipsun",
+    "version": "1.5.2",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/3840/Nibrek",
+        "x_screenshot": "https://spacedock.info/content/Shipsun_153687/Nibrek/Nibrek-1751988968.png"
+    },
+    "tags": [
+        "config",
+        "planet-pack",
+        "plugin"
+    ],
+    "provides": [
+        "Scatterer-config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "VertexMitchellNetravaliHeightMap"
+        },
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Scatterer-config"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/Nibrek",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        },
+        {
+            "find": "GameData/StockScattererConfigs",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3840/Nibrek/download/1.5.2",
+    "download_size": 36734869,
+    "download_hash": {
+        "sha1": "FEA0339706FA115D361B06F1FBAA2358668DC0A6",
+        "sha256": "FE545F9DF575DF69F9B49456B9DF188F5748C3D0C4EB2462EFAF4496E3016709"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 126852884,
+    "release_date": "2025-10-05T05:03:09.591766+00:00",
+    "x_generated_by": "netkan"
+}
