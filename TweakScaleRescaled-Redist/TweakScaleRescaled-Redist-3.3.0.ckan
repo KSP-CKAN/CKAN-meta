@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "TweakScaleRescaled-Redist",
+    "name": "TweakScale Rescaled Redistributable",
+    "abstract": "Faster, more features, fewer bugs. Provides a mechanism for other mods to interact with TweakScaleRescaled. This plugin has no overhead when TweakScaleRescaled is not installed.",
+    "author": [
+        "Biotronic",
+        "pellinor",
+        "JonnyOThan"
+    ],
+    "version": "3.3.0",
+    "ksp_version_min": "1.12.3",
+    "ksp_version_max": "1.12",
+    "license": "CC-BY-NC-SA",
+    "release_status": "testing",
+    "resources": {
+        "repository": "https://github.com/JonnyOThan/TweakScale",
+        "bugtracker": "https://github.com/JonnyOThan/TweakScale/issues",
+        "remote-avc": "https://github.com/JonnyOThan/TweakScale/releases/latest/download/999_Scale_Redist.version"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "provides": [
+        "TweakScale-Redist"
+    ],
+    "recommends": [
+        {
+            "name": "TweakScaleRescaled"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TweakScale-Redist"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/999_Scale_Redist.dll",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/999_Scale_Redist.version",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/JonnyOThan/TweakScale/releases/download/3.3.0/TweakScaleRescaled-3.3.0.zip",
+    "download_size": 167288,
+    "download_hash": {
+        "sha256": "06E180EB7C318F09DC776B72CB82483FFEAADA9036E44E3432BD434B3C1F553B"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 7596,
+    "release_date": "2025-10-12T13:09:40Z",
+    "x_generated_by": "netkan"
+}
