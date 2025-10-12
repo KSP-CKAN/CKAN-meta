@@ -1,0 +1,106 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "MOLE",
+    "name": "MOLE",
+    "abstract": "Mark One Laboratory Extensions- early space stations for KSP",
+    "author": "Angel-125",
+    "version": "v1.30.3",
+    "ksp_version_min": "1.12.2",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/154893-*",
+        "repository": "https://github.com/Angel-125/MOLE",
+        "bugtracker": "https://github.com/Angel-125/MOLE/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/MOLE/master/GameData/WildBlueIndustries/MOLE/MOLE.version"
+    },
+    "tags": [
+        "parts",
+        "plugin",
+        "crewed"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "WBIProps"
+        },
+        {
+            "name": "WBIResources"
+        },
+        {
+            "name": "WBIScience"
+        },
+        {
+            "name": "WBIWidgets"
+        },
+        {
+            "name": "KerbalActuators"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "ExtraPlanetaryLaunchpads"
+        },
+        {
+            "name": "ClassicStockResources"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Pathfinder"
+        },
+        {
+            "name": "RealChute"
+        },
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "kOS"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        },
+        {
+            "name": "CactEyeCommunity"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "install": [
+        {
+            "find": "WildBlueIndustries/MOLE",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter_regexp": [
+                ".*\\.pdb$"
+            ]
+        }
+    ],
+    "download": "https://github.com/Angel-125/MOLE/releases/download/v1.30.3/MOLE.zip",
+    "download_size": 43770143,
+    "download_hash": {
+        "sha1": "233EE4B436221F19955B99F48BFA1F19291A7C9F",
+        "sha256": "1C41E7A0AB6E867F847FE1097598A5C6636B9D4B8AA9AA09E58124698C6FD455"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 148256431,
+    "release_date": "2025-10-10T18:35:47Z",
+    "x_generated_by": "netkan"
+}
