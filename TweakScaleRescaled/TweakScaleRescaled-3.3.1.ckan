@@ -1,0 +1,77 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "TweakScaleRescaled",
+    "name": "TweakScale Rescaled",
+    "abstract": "Forked from Gaius Goodspeed's Goodspeed Aerospace Part & TweakScale plugin",
+    "author": [
+        "Biotronic",
+        "pellinor",
+        "JonnyOThan"
+    ],
+    "version": "3.3.1",
+    "ksp_version_min": "1.12.3",
+    "ksp_version_max": "1.12",
+    "license": "CC-BY-NC-SA",
+    "release_status": "testing",
+    "resources": {
+        "repository": "https://github.com/JonnyOThan/TweakScale",
+        "bugtracker": "https://github.com/JonnyOThan/TweakScale/issues",
+        "remote-avc": "https://github.com/JonnyOThan/TweakScale/releases/latest/download/TweakScale.version"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "provides": [
+        "TweakScale"
+    ],
+    "depends": [
+        {
+            "name": "Harmony2",
+            "min_version": "2.2"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TweakScaleRescaled-Redist"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "TweakScaleRescaled-SafetyNet"
+        },
+        {
+            "name": "KSPCommunityFixes"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TweakScale"
+        },
+        {
+            "name": "TweakScaleCompanion"
+        },
+        {
+            "name": "TweakScaleCompanion-ReStockPlus"
+        },
+        {
+            "name": "KSP-Recall"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/TweakScale",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/JonnyOThan/TweakScale/releases/download/3.3.1/TweakScale-3.3.1.zip",
+    "download_size": 167385,
+    "download_hash": {
+        "sha256": "B59884D8433FB1BBEEFAE52E8D65044B932EF3E61B900A3301533CFEBAA586AC"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 416977,
+    "release_date": "2025-10-14T01:23:20Z",
+    "x_generated_by": "netkan"
+}
