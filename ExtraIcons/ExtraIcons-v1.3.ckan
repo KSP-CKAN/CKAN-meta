@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "ExtraIcons",
+    "name": "Extra Icons",
+    "abstract": "Adds OrbitIconsPack support for various modpacks ",
+    "author": "Ether",
+    "version": "v1.3",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://spacedock.info/mod/3973/Extra%20Icons",
+        "spacedock": "https://spacedock.info/mod/3973/Extra%20Icons",
+        "repository": "https://github.com/Ether-x9/Extra-Icons",
+        "bugtracker": "https://github.com/Ether-x9/Extra-Icons/issues"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "OrbitIconsPack"
+        }
+    ],
+    "supports": [
+        {
+            "name": "OrbitIconsPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "z_ExtraIcons",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/Ether-x9/Extra-Icons/releases/download/v1.3/Extra-Icons_v1.3.zip",
+        "https://spacedock.info/mod/3973/Extra%20Icons/download/v1.3"
+    ],
+    "download_size": 6396,
+    "download_hash": {
+        "sha1": "6F35B8CC94F4D40B07D38D19F2EA6F542F511D88",
+        "sha256": "7AC33E519244051DB257F03A1C39859F7877AA8E60F094B70ADDA60CD6735F80"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 16263,
+    "release_date": "2025-10-16T20:55:09.489449+00:00",
+    "x_generated_by": "netkan"
+}
