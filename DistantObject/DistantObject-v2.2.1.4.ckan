@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.8",
+    "identifier": "DistantObject",
+    "name": "Distant Object Enhancement /L",
+    "abstract": "Visual enhancement mod that makes objects realistically visible over large distances",
+    "author": [
+        "Rubber Ducky",
+        "MOARdV",
+        "TheDarkBadger",
+        "LisiasT"
+    ],
+    "version": "v2.2.1.4",
+    "ksp_version_min": "1.3.1",
+    "ksp_version_max": "1.12.5",
+    "license": [
+        "GPL-2.0",
+        "restricted"
+    ],
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/205063-*",
+        "spacedock": "https://spacedock.info/mod/2274/Distant%20Object%20Enhancement%20/L",
+        "repository": "https://github.com/net-lisias-ksp/DistantObject",
+        "bugtracker": "https://github.com/net-lisias-ksp/DistantObject/issues",
+        "license": "https://raw.githubusercontent.com/net-lisias-ksp/DistantObject/master/LICENSE",
+        "discussions": "https://github.com/net-lisias-ksp/DistantObject/discussions",
+        "remote-avc": "https://raw.githubusercontent.com/net-lisias-ksp/DistantObject/master/DistantObject.version",
+        "x_screenshot": "https://spacedock.info/content/TheDarkBadger_31275/Distant_Object_Enhancement_Continued/Distant_Object_Enhancement_Continued-1581673677.461667.png"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "DistantObject-config"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "3.1.3"
+        }
+    ],
+    "install": [
+        {
+            "find": "DistantObject",
+            "install_to": "GameData",
+            "filter": "PlanetColors.cfg"
+        }
+    ],
+    "download": "https://spacedock.info/mod/2274/Distant%20Object%20Enhancement%20/L/download/2.2.1.4",
+    "download_size": 151614,
+    "download_hash": {
+        "sha1": "01E1D8F7BCA09DC89E6B2C19BE913EEC46C9C403",
+        "sha256": "63A3148DCBE9FCCFAAFEF99E5BC28989A712D4F16BAC5C6FF9745BB9B6CD4054"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 361775,
+    "release_date": "2025-10-16T13:29:39.258857+00:00",
+    "x_generated_by": "netkan"
+}
