@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "BackgroundThrust",
+    "name": "Background Thrust",
+    "abstract": "Use your engines in time warp or in the background!",
+    "author": "steamroller",
+    "version": "0.3.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/228989-1125-backgroundthrust-use-your-engines-in-time-warp-or-in-the-background/",
+        "spacedock": "https://spacedock.info/mod/4009/Background%20Thrust",
+        "repository": "https://github.com/Phantomical/BackgroundThrust",
+        "bugtracker": "https://github.com/Phantomical/BackgroundThrust/issues",
+        "remote-avc": "https://github.com/Phantomical/BackgroundThrust/releases/latest/download/BackgroundThrust.version"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager",
+            "min_version": "4.2.3"
+        },
+        {
+            "name": "Harmony2",
+            "min_version": "2.2.1"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "BackgroundResourceProcessing",
+            "min_version": "0.2.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "PersistentThrust"
+        }
+    ],
+    "download": [
+        "https://github.com/Phantomical/BackgroundThrust/releases/download/v0.3.0/BackgroundThrust.zip",
+        "https://spacedock.info/mod/4009/Background%20Thrust/download/0.3.0"
+    ],
+    "download_size": 105611,
+    "download_hash": {
+        "sha1": "7578D003CD122EC54F55B764E16144D565D40ECF",
+        "sha256": "EF0C4B219438B9DA61B75D60E2BBAF4BE2384EEC43FED74CD6BF040DBFCDA3FC"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 205488,
+    "release_date": "2025-10-20T09:42:27.256219+00:00",
+    "x_generated_by": "netkan"
+}
