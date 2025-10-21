@@ -1,0 +1,68 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "OuterParallax",
+    "name": "Outer Parallax Common Files",
+    "abstract": "Files common to OuterParallax-OPM and OuterParallax-MPE",
+    "author": "jthero3",
+    "version": "0.6.1",
+    "ksp_version": "1.12.5",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/226905-1125-aetherium-021-16-feb-2025-random-assortment-of-parallax-continued-configs/",
+        "spacedock": "https://spacedock.info/mod/3833/OuterParallax-OPM",
+        "repository": "https://github.com/jthero3/OuterParallax-Continued",
+        "x_screenshot": "https://spacedock.info/content/jthero3_151376/OuterParallax-OPM/OuterParallax-OPM-1740978690.png"
+    },
+    "tags": [
+        "config",
+        "library"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "VertexMitchellNetravaliHeightMap"
+        },
+        {
+            "name": "ParallaxContinued"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "OuterParallax-OPM"
+        },
+        {
+            "name": "OuterParallax-MPE"
+        }
+    ],
+    "install": [
+        {
+            "find": "OuterParallax",
+            "install_to": "GameData",
+            "filter": [
+                "MPE",
+                "OPM"
+            ]
+        }
+    ],
+    "download": [
+        "https://github.com/jthero3/OuterParallax-Continued/releases/download/0.6.1/OuterParallax-OPM_0.6.1.zip",
+        "https://spacedock.info/mod/3833/OuterParallax-OPM/download/0.6.1"
+    ],
+    "download_size": 492303196,
+    "download_hash": {
+        "sha1": "9BF82A470AF3C62C98F606A73E122E0F0964F1A0",
+        "sha256": "91A9384554DE79233B460CA0F789ECBD296A638493A5CF55DEAA5466A18FED79"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 331977056,
+    "release_date": "2025-10-21T05:42:40.756784+00:00",
+    "x_generated_by": "netkan"
+}
