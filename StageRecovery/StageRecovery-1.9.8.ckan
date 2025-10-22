@@ -1,0 +1,71 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "StageRecovery",
+    "name": "StageRecovery",
+    "abstract": "Recover Funds, Kerbals, and Science from Dropped Stages",
+    "author": [
+        "magico13",
+        "linuxgurugamer"
+    ],
+    "version": "1.9.8",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179306-151-stagerecovery-recover-funds-from-dropped-stages/&",
+        "spacedock": "https://spacedock.info/mod/219/StageRecovery",
+        "repository": "https://github.com/linuxgurugamer/StageRecovery",
+        "bugtracker": "https://github.com/linuxgurugamer/StageRecovery/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/StageRecovery/refs/heads/master/StageRecovery.version"
+    },
+    "tags": [
+        "plugin",
+        "career"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KerbalConstructionTime"
+        },
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "DebRefund"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/StageRecovery",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/StageRecovery/releases/download/1.9.8/StageRecovery-1.12.5-1.9.8.zip",
+        "https://spacedock.info/mod/219/StageRecovery/download/1.9.8"
+    ],
+    "download_size": 68303,
+    "download_hash": {
+        "sha1": "4360F533DC57AA08D87B426274B60DEAF25F7B1B",
+        "sha256": "2782A59DC7D0B6AF4F6D6376C06789436758EC848C118BB569289D96AEF05ADE"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 143761,
+    "release_date": "2025-10-22T16:01:36.300607+00:00",
+    "x_generated_by": "netkan"
+}
