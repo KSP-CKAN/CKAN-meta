@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "KSPBurst",
+    "name": "KSPBurst Compiler",
+    "abstract": "Better multithreaded performance for mods that use it. Requires Mono on Linux and macOS (you have it if you're running CKAN).",
+    "author": "Unity",
+    "version": "v1.7.4.0",
+    "license": "unknown",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201112-*",
+        "repository": "https://github.com/KSPModdingLibs/KSPBurst",
+        "bugtracker": "https://github.com/KSPModdingLibs/KSPBurst/issues"
+    },
+    "tags": [
+        "library"
+    ],
+    "provides": [
+        "KSPBurst-Full"
+    ],
+    "depends": [
+        {
+            "name": "KSPBurst-Lite"
+        }
+    ],
+    "install": [
+        {
+            "find": "000_KSPBurst",
+            "install_to": "GameData",
+            "comment": "This package is the burst compiler, while KSPBurst-Lite is the plugins that mods interface with. the compiler is wrapped in a zip file that the plugins unpack at runtime. The compiler is rather large and doesn't change often, so it's split out. Further, an automated build system may choose to install just the plugins to save space (but Burst will not be functional).  A mod author may also choose to depend on KSPBurst-Lite to leave the choice up to the user."
+        }
+    ],
+    "download": "https://github.com/KSPModdingLibs/KSPBurst/releases/download/v1.7.4.0/KSPBurst_Compiler_1.7.4.0.zip",
+    "download_size": 401766853,
+    "download_hash": {
+        "sha256": "FFDA79A5CCBD53C57DBF49DBE423FB297CF7DA031B5B6936EDADD84D1B39D59A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 403033621,
+    "release_date": "2025-10-25T18:46:17Z",
+    "x_generated_by": "netkan"
+}
