@@ -1,0 +1,66 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "PlanetaryResourceInfrastructureWater",
+    "name": "Planetary Resource Infrastructure_Water",
+    "abstract": "The patch utilizes the Waterresource from Community Resource Pack, adding a module to stock Fuel Cellsthat ​​reverses Nertea's cryogenic hydrogen-oxygen fuel cell logic​​ (originally added to Cryo Tanks). Instead of consuming hydrogen, it now ​​takes in Water and ElectricCharge to produce liquid hydrogen and oxidizer​​.",
+    "author": "krogress1",
+    "version": "v0.1.2",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/228493-pri-a-small-patch-for-obtaining-liquid-deuterium-through-electrolysis-of-water/",
+        "spacedock": "https://spacedock.info/mod/3948/Planetary%20Resource%20Infrastructure_Water",
+        "x_screenshot": "https://spacedock.info/content/krogress1_168309/Planetary_Resource_Infrastructure_Water/Planetary_Resource_Infrastructure_Water-1754464964.png"
+    },
+    "tags": [
+        "config"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "FarFutureTechnologies"
+        },
+        {
+            "name": "CryoEngines"
+        },
+        {
+            "name": "StationPartsExpansionRedux"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "StockalikeMiningExtension"
+        },
+        {
+            "name": "NearFutureLaunchVehicles"
+        }
+    ],
+    "install": [
+        {
+            "find": "PRI",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/3948/Planetary%20Resource%20Infrastructure_Water/download/v0.1.2",
+    "download_size": 11801,
+    "download_hash": {
+        "sha1": "39CCCCA8C9CE58E5F7869A13ACFCAFC12DDDCCBB",
+        "sha256": "49F481CDF2BB7BC5ABFD46EAF6400AD1949E8B260D35078DA628454ABC577BA0"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 37186,
+    "release_date": "2025-11-06T11:44:36.535028+00:00",
+    "x_generated_by": "netkan"
+}
