@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.26",
+    "identifier": "RationalResourcesRCSFamily",
+    "name": "Rational Resources RCS Family",
+    "abstract": "Enables fuel switching in supported MonoPropellant or LFO RCS",
+    "author": "JadeOfMaar",
+    "version": "3.4",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/184875-*/",
+        "repository": "https://github.com/JadeOfMaar/RationalResources",
+        "bugtracker": "https://github.com/JadeOfMaar/RationalResources/issues",
+        "discussions": "https://github.com/JadeOfMaar/RationalResources/discussions",
+        "remote-avc": "https://raw.githubusercontent.com/JadeOfMaar/RationalResources/master/GameData/RationalResources/Version/RationalResources.version"
+    },
+    "tags": [
+        "config",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "any_of": [
+                {
+                    "name": "ClassicStockResources"
+                },
+                {
+                    "name": "CommunityResourcePack"
+                }
+            ]
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KiwiTechTree"
+        }
+    ],
+    "download": "https://github.com/JadeOfMaar/RationalResources/releases/download/3.4/RationalResources-3.4.zip",
+    "download_size": 40488459,
+    "download_hash": {
+        "sha1": "D3CD860CD021AF70A33F16142EDC8630A67FCEAA",
+        "sha256": "FC7720C07CEFDCA967094F319A3A85391E49E723AFD139B8C1747FB4DE4B7668"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 29853,
+    "release_date": "2025-11-19T04:59:36Z",
+    "x_generated_by": "netkan"
+}
