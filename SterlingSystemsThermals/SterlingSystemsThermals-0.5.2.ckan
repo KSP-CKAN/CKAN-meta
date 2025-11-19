@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SterlingSystemsThermals",
+    "name": "Sterling Thermals",
+    "abstract": "Radiators and shields (mostly conformal) and inline heatsinks",
+    "author": "JadeOfMaar",
+    "version": "0.5.2",
+    "ksp_version": "1.12.5",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/219609-*/",
+        "repository": "https://github.com/JadeOfMaar/SterlingSystems",
+        "bugtracker": "https://github.com/JadeOfMaar/SterlingSystems/issues",
+        "discussions": "https://github.com/JadeOfMaar/SterlingSystems/discussions",
+        "remote-avc": "https://raw.githubusercontent.com/JadeOfMaar/SterlingSystems/main/GameData/SterlingSystems/Version/SterlingSystems.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "SterlingSystemsAgency"
+        }
+    ],
+    "supports": [
+        {
+            "name": "CryoTanks"
+        },
+        {
+            "name": "FarFutureTechnologies"
+        }
+    ],
+    "install": [
+        {
+            "find": "Thermals",
+            "install_to": "GameData/SterlingSystems"
+        }
+    ],
+    "download": "https://github.com/JadeOfMaar/SterlingSystems/releases/download/0.5.2/SterlingSystems_Thermals_0.5.3.zip",
+    "download_size": 57378209,
+    "download_hash": {
+        "sha1": "4BBA74959D839317B6308A9B47D759AC61095CCE",
+        "sha256": "B78DBC26B43666DBA424DF55FDB9A96C2961D990E6B04AD06F157B88132B2143"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 340312673,
+    "release_date": "2025-11-19T07:44:40Z",
+    "x_generated_by": "netkan"
+}
