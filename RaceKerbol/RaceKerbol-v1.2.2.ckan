@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.14",
+    "spec_version": "v1.16",
     "comment": "Contains both GPL and CC-BY-NC-SA sections",
     "identifier": "RaceKerbol",
     "name": "Race Kerbol",
@@ -26,7 +26,8 @@
     ],
     "install": [
         {
-            "file": "saves/scenarios",
+            "find_regexp": "saves/scenarios/.*\\.sfs$",
+            "find_matches_files": true,
             "install_to": "Scenarios"
         },
         {
@@ -41,6 +42,7 @@
         "sha256": "8DE7E154289A77B9D3BA74A4AADB11C12DEE19D082B546B126D2D64C606B6D94"
     },
     "download_content_type": "application/zip",
+    "install_size": 792169,
     "release_date": "2015-08-16T20:19:10Z",
     "x_generated_by": "netkan"
 }
