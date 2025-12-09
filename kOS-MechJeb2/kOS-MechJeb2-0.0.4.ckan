@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "kOS-MechJeb2",
+    "name": "kOS.MechJeb2.Addon",
+    "abstract": "This addon provides a direct integration layer between kOS and MechJeb2",
+    "author": "belpyro",
+    "version": "0.0.4",
+    "ksp_version_min": "1.8",
+    "ksp_version_max": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/229195-112x-kosmechjebaddon-integration-layer-between-kos-and-mechjeb2",
+        "spacedock": "https://spacedock.info/mod/4031/kOS.MechJeb2.Addon",
+        "repository": "https://github.com/belpyro/kOS.MechJeb2.Addon",
+        "bugtracker": "https://github.com/belpyro/kOS.MechJeb2.Addon/issues",
+        "remote-avc": "https://github.com/belpyro/kOS.MechJeb2.Addon/releases/latest/download/kOS.MechJeb2.Addon.version"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "kOS"
+        },
+        {
+            "name": "MechJeb2"
+        }
+    ],
+    "supports": [
+        {
+            "name": "kOS"
+        },
+        {
+            "name": "MechJeb2"
+        }
+    ],
+    "install": [
+        {
+            "find": "kOS.MechJeb2.Addon",
+            "install_to": "GameData",
+            "filter": [
+                "__MACOSX",
+                ".DS_Store"
+            ]
+        }
+    ],
+    "download": [
+        "https://github.com/belpyro/kOS.MechJeb2.Addon/releases/download/v0.0.4/kOS.MechJeb2.Addon-v0.0.4.zip",
+        "https://spacedock.info/mod/4031/kOS.MechJeb2.Addon/download/0.0.4"
+    ],
+    "download_size": 40011,
+    "download_hash": {
+        "sha1": "FCE7C40DD3DD474A149F4C833428CF97C2C0BA21",
+        "sha256": "CBB30C64F1732A08463813891978429311B4502201E157F821D69DB44A360EFE"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 120648,
+    "release_date": "2025-12-03T15:36:25.222999+00:00",
+    "x_generated_by": "netkan"
+}
