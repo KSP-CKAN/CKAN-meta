@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "GTOC13SystemUnofficial",
+    "name": "GTOC 13 System Unofficial",
+    "abstract": "Changes out the KSP Stock system with the system described by the Global Transfer Orbit Competition 13 Problem, as a visualization aid. Requires Kopernicus, but that's it.",
+    "author": "Spartacus348",
+    "version": "1.0.0",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4014/GTOC%2013%20System%20Unofficial",
+        "repository": "https://github.com/KerPop47/GTOC_XIII-Kerbal-Mod",
+        "bugtracker": "https://github.com/KerPop47/GTOC_XIII-Kerbal-Mod/issues"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "install": [
+        {
+            "find": "GTOC_XIII_Earth_Scale",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4014/GTOC%2013%20System%20Unofficial/download/1.0.0",
+    "download_size": 2160,
+    "download_hash": {
+        "sha1": "F610FFD871834DB352A03BA3C1DB2BEDF37D430B",
+        "sha256": "F82A50FE24B7B74CAD0A121777783E4E9773B6ADB3D681BA80995F115BF9A9C4"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 9008,
+    "release_date": "2025-10-23T20:11:19.798144+00:00",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
