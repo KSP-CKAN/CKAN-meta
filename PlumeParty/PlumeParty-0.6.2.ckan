@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "PlumeParty",
+    "name": "Plume Party",
+    "abstract": "Fancy KSP particle pack",
+    "author": "JadeOfMaar",
+    "version": "0.6.2",
+    "ksp_version_min": "1.9.1",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "repository": "https://github.com/JadeOfMaar/PlumeParty",
+        "bugtracker": "https://github.com/JadeOfMaar/PlumeParty/issues",
+        "remote-avc": "https://raw.githubusercontent.com:443/JadeOfMaar/PlumeParty/master/GameData/PlumeParty/Version/PlumeParty.version"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "PlumeParty-StockConfigs"
+        }
+    ],
+    "install": [
+        {
+            "find": "PlumeParty",
+            "install_to": "GameData",
+            "filter": "Configs"
+        }
+    ],
+    "download": "https://github.com/JadeOfMaar/PlumeParty/releases/download/0.6.2/PlumeParty-0.6.2.zip",
+    "download_size": 4374581,
+    "download_hash": {
+        "sha1": "EDB3B1561E36AAE82E14ECEF52BBE879CB845F83",
+        "sha256": "B40748DA5B69F7417A77D55FE3DBCF59FA17C846120512C9CC32C9DF2AB41691"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 8289659,
+    "release_date": "2025-12-09T15:56:18Z",
+    "x_generated_by": "netkan"
+}
