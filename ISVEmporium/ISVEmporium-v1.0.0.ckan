@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ISVEmporium",
+    "name": "ISVEmporium",
+    "abstract": "A collection of +part configs to add missing, or otherwise scaled parts to part mods that don't include them",
+    "author": "YagatePRCL",
+    "version": "v1.0.0",
+    "license": "MIT",
+    "resources": {
+        "repository": "https://github.com/YagatePRCL/ISVEmporium",
+        "bugtracker": "https://github.com/YagatePRCL/ISVEmporium/issues"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "HeatControl"
+        },
+        {
+            "name": "NearFutureConstruction"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "zISVEmporium",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/YagatePRCL/ISVEmporium/releases/download/v1.0.0/ISVEmporium100.zip",
+    "download_size": 39288176,
+    "download_hash": {
+        "sha1": "7066B06367ADC5E6ABD472CDC00ED59DEF521A6B",
+        "sha256": "46CD31D55DC6229293EF0678296226AA4426FFA0A608E549A9250D2BEA7032FA"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 72364327,
+    "release_date": "2025-12-13T00:03:24Z",
+    "x_generated_by": "netkan"
+}
