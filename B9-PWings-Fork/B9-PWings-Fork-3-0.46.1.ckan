@@ -1,0 +1,82 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "B9-PWings-Fork",
+    "name": "B9 Aerospace Procedural Wings - Fork",
+    "abstract": "Fork of Bac9's Procedural Wings mod for KSP",
+    "author": [
+        "Crzyrndm",
+        "jrodrigv",
+        "Rafterman82",
+        "CarnationRED",
+        "tetraflon",
+        "linuxgurugamer"
+    ],
+    "version": "3:0.46.1",
+    "ksp_version_min": "1.10.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/203629-*",
+        "repository": "https://github.com/B9-Procedural-Wings/B9-PWings-Modified",
+        "bugtracker": "https://github.com/B9-Procedural-Wings/B9-PWings-Modified/issues",
+        "remote-avc": "https://raw.githubusercontent.com/B9-Procedural-Wings/B9-PWings-Modified/refs/heads/master/B9_Aerospace_ProceduralWings.version"
+    },
+    "tags": [
+        "plugin",
+        "parts"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es",
+        "fr-fr",
+        "it-it",
+        "ja",
+        "pt-br",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "TexturesUnlimited"
+        },
+        {
+            "name": "ProceduralParts"
+        },
+        {
+            "name": "PatchManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "B9AerospaceProceduralParts"
+        }
+    ],
+    "install": [
+        {
+            "find": "B9_Aerospace_ProceduralWings",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Ships/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/B9-Procedural-Wings/B9-PWings-Modified/releases/download/0.46.1/B9_Aerospace_ProceduralWings-1.12.5-0.46.1.zip",
+    "download_size": 2404125,
+    "download_hash": {
+        "sha1": "00FE3E90732C1029EF5815FAC7221A04416812E2",
+        "sha256": "A6E5C36B2F4B4F097ED2186B607BA261C6DBC276809AD1478D8BC7C0F998E458"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 3851745,
+    "release_date": "2025-12-14T17:26:34Z",
+    "x_licence_assets": "CC-BY-NC-SA-4.0",
+    "x_licence_code": "MIT",
+    "x_generated_by": "netkan"
+}
