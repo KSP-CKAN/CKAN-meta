@@ -1,0 +1,77 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "StarshipExpansionProjectIVA",
+    "name": "Starship Expansion Project IVA",
+    "abstract": "IVA portion of Starship Expansion Project",
+    "author": [
+        "Kari",
+        "Sofie",
+        "Janus92"
+    ],
+    "version": "v.3.0.0-b7",
+    "ksp_version_min": "1.12.3",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/206555-1101-112x-starship-expansion-project-sep-v100-january-23rd-2022/",
+        "repository": "https://github.com/Kari1407/Starship-Expansion-Project",
+        "bugtracker": "https://github.com/Kari1407/Starship-Expansion-Project/issues"
+    },
+    "tags": [
+        "parts",
+        "crewed",
+        "first-person"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "StarshipExpansionProject",
+            "min_version": "v.3.0.0-b2"
+        },
+        {
+            "name": "NearFutureProps"
+        },
+        {
+            "name": "Reviva"
+        },
+        {
+            "name": "FreeIva"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "JSIAdvancedTransparentPods"
+        }
+    ],
+    "install": [
+        {
+            "find": "Spaces",
+            "install_to": "GameData/StarshipExpansionProject"
+        },
+        {
+            "find": "Props",
+            "install_to": "GameData/StarshipExpansionProject"
+        }
+    ],
+    "download": "https://github.com/Kari1407/Starship-Expansion-Project/releases/download/v3.0.0-b7/Starship-Expansion-Project-v3.0.0-b7.zip",
+    "download_size": 450076345,
+    "download_hash": {
+        "sha256": "2BB9B747593F125ECFC323EAE7D8CFC1A041C4CF234C9CC36DF9AFE6941C60EB"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 101489249,
+    "release_date": "2025-12-15T00:16:43Z",
+    "x_generated_by": "netkan"
+}
