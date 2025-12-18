@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "WheelTuner",
+    "name": "Wheel Tuner",
+    "abstract": "Wheel Tuner is a development/diagnostics utility for Kerbal Space Program 1.12.5 that lets you inspect and (optionally) tune wheel/landing-gear module values at runtime",
+    "author": "linuxgurugamer",
+    "version": "0.0.1.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/229394-1125-wheel-tuner/",
+        "spacedock": "https://spacedock.info/mod/4080/Wheel%20Tuner",
+        "repository": "https://github.com/linuxgurugamer/WheelTunerWindow",
+        "bugtracker": "https://github.com/linuxgurugamer/WheelTunerWindow/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/WheelTunerWindow/master/MissionPlanner.version"
+    },
+    "tags": [
+        "plugin",
+        "app"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "WheelTunerWindow",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/WheelTunerWindow/releases/download/0.0.1.1/WheelTunerWindow-1.12.5-0.0.1.1.zip",
+        "https://spacedock.info/mod/4080/Wheel%20Tuner/download/0.0.1.1"
+    ],
+    "download_size": 662872,
+    "download_hash": {
+        "sha1": "20CE6047B4BF5C3FF58A446ABA844DD0B44A9266",
+        "sha256": "332472820FA51F982A16BDE890CBDDE2F417F5918FD27AD612046728FB9843F3"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 716303,
+    "release_date": "2025-12-18T15:20:37.913817+00:00",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
