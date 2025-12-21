@@ -1,0 +1,117 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "StarshipExpansionProject",
+    "name": "Starship Expansion Project",
+    "abstract": "Starship vehicle by SpaceX",
+    "author": [
+        "Kari",
+        "Sofie"
+    ],
+    "version": "v.3.0.0-b8",
+    "ksp_version_min": "1.12.3",
+    "ksp_version_max": "1.12.99",
+    "license": "restricted",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/206555-1101-112x-starship-expansion-project-sep-v100-january-23rd-2022/",
+        "repository": "https://github.com/Kari1407/Starship-Expansion-Project",
+        "bugtracker": "https://github.com/Kari1407/Starship-Expansion-Project/issues"
+    },
+    "tags": [
+        "parts",
+        "plugin"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "KSPCommunityPartModules"
+        },
+        {
+            "name": "KSPCommunityFixes"
+        },
+        {
+            "name": "Harmony2"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "StarshipExpansionProjectIVA"
+        },
+        {
+            "name": "StarshipLaunchExpansion"
+        },
+        {
+            "name": "TexturesUnlimited"
+        },
+        {
+            "name": "Resurfaced"
+        },
+        {
+            "name": "KerbalJointReinforcementNext"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "ModularLaunchPads"
+        },
+        {
+            "name": "FMRS"
+        },
+        {
+            "name": "Trajectories"
+        },
+        {
+            "name": "JNSQ"
+        },
+        {
+            "name": "TundraExploration"
+        }
+    ],
+    "supports": [
+        {
+            "name": "HullcamVDSContinued"
+        },
+        {
+            "name": "NeptuneCamera"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "StarshipExpansionProjectIVA",
+            "max_version": "v.3.0.0-b1"
+        }
+    ],
+    "install": [
+        {
+            "find": "StarshipExpansionProject",
+            "install_to": "GameData",
+            "filter": [
+                "Spaces",
+                "Props"
+            ]
+        }
+    ],
+    "download": "https://github.com/Kari1407/Starship-Expansion-Project/releases/download/v3.0.0-b8/Starship-Expansion-Project-v3.0.0-b8.zip",
+    "download_size": 320222010,
+    "download_hash": {
+        "sha256": "82091DDB017C6E2A98D9F7BBD79771006497B5E9CCD4723DAA294F8F6F3301D5"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 812167654,
+    "release_date": "2025-12-21T06:10:37Z",
+    "x_generated_by": "netkan"
+}
