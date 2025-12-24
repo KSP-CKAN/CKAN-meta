@@ -1,0 +1,74 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "IXSWarpship-Blueshift",
+    "name": "IXSWarpship for Blueshift",
+    "abstract": "Patches to use \"IXS Warpship\" with Angel-125's \"Blueshift\" and \"FlyingSaucers\" mods in Kerbal Space Program",
+    "author": [
+        "Araym-KSP",
+        "linuxgurugamer"
+    ],
+    "version": "2:1.0.8",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/202697-111x-ixs-warpship-for-blueshift-warp-mod-v104/",
+        "repository": "https://github.com/linuxgurugamer/IXS-Warship-for-Blueshift",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/IXS-Warship-for-Blueshift/refs/heads/main/IXSWarshipsBlueshift.version"
+    },
+    "tags": [
+        "config",
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "IXSWarpshipOS"
+        },
+        {
+            "name": "Blueshift"
+        },
+        {
+            "name": "FlyingSaucers"
+        },
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SpaceDust"
+        },
+        {
+            "name": "CommunityTechTree"
+        },
+        {
+            "name": "FarFutureTechnologies"
+        },
+        {
+            "name": "OuterPlanetsMod"
+        }
+    ],
+    "install": [
+        {
+            "find": "IXSWarshipsBlueshift",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/IXS-Warship-for-Blueshift/releases/download/1.0.8/IXSWarshipsBlueshift-1.12.5-1.0.8.zip",
+    "download_size": 49028,
+    "download_hash": {
+        "sha1": "92C18D179DB11E3091EB35B5B43E0F4964123639",
+        "sha256": "8BF7A8A71B0300771BD85B3B022309918A68463A8F95007BFDFA111E06056EF3"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 195099,
+    "release_date": "2025-12-24T03:09:30Z",
+    "x_generated_by": "netkan"
+}
