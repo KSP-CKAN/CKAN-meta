@@ -1,0 +1,68 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "KerbalSoaring",
+    "name": "KerbalSoaring",
+    "abstract": "Adds thermal updrafts and unpowered gliding to Ferram Aerospace Research",
+    "author": "Snorpadorp",
+    "version": "8.3.0",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.99.69",
+    "license": "CC0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/229338-1125-kerbalsoaring-adds-thermal-updrafts-and-gliding-to-ksp-far/",
+        "spacedock": "https://spacedock.info/mod/4076/KerbalSoaring",
+        "repository": "https://github.com/Zondulus/KerbalSoaring",
+        "bugtracker": "https://github.com/Zondulus/KerbalSoaring/issues",
+        "remote-avc": "https://www.zombo.com",
+        "x_screenshot": "https://spacedock.info/content/Snorpadorp_179275/KerbalSoaring/KerbalSoaring-1765651315.png"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "depends": [
+        {
+            "name": "FAR"
+        },
+        {
+            "name": "WindAPI"
+        },
+        {
+            "name": "WaypointManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalWind"
+        },
+        {
+            "name": "KerbinSideRemastered"
+        },
+        {
+            "name": "FARGE"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/KerbalSoaring",
+            "install_to": "GameData"
+        },
+        {
+            "find": "GameData/WaypointManager",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/Zondulus/KerbalSoaring/releases/download/8.3.0/GameData.zip",
+        "https://spacedock.info/mod/4076/KerbalSoaring/download/8.3.0"
+    ],
+    "download_size": 17183,
+    "download_hash": {
+        "sha1": "08807D3ABE75FDE6460C342C30E92D60C864C828",
+        "sha256": "E074A0BE82480A82628CADAF1DA24ADCE0C952AED42D443DD6524A81AFBE3FF0"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 53055,
+    "release_date": "2025-12-21T07:19:26.192582+00:00",
+    "x_generated_by": "netkan"
+}
