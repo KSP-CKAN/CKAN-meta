@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "FARGE",
+    "name": "FARGE",
+    "abstract": "Adds ground effect to Ferram Aerospace Research",
+    "author": "Snorpadorp",
+    "version": "4.1.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/228252-1125-farge-v41-updated-ground-effect-plugin-for-ferram-aerospace-research-wip",
+        "spacedock": "https://spacedock.info/mod/4077/FARGE",
+        "repository": "https://github.com/Zondulus/FARGE",
+        "bugtracker": "https://github.com/Zondulus/FARGE/issues",
+        "remote-avc": "https://github.com/Zondulus/FARGE",
+        "x_screenshot": "https://spacedock.info/content/Snorpadorp_179275/FARGE/FARGE-1765651869.png"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "depends": [
+        {
+            "name": "FAR"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalWind"
+        },
+        {
+            "name": "KerbalSoaring"
+        }
+    ],
+    "install": [
+        {
+            "find": "GroundEffectFAR",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/Zondulus/FARGE/releases/download/4.1.0/GroundEffectFAR.zip",
+        "https://spacedock.info/mod/4077/FARGE/download/4.1.0"
+    ],
+    "download_size": 12194,
+    "download_hash": {
+        "sha1": "534392070D3E991FEB8152647839A5C25C8AFA6C",
+        "sha256": "8AB92DBA9D12A5AF60A577DEEDA538FCE1F36ECDB209AE1A9B7B4411AA24AF68"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 26096,
+    "release_date": "2025-12-13T18:48:45.667634+00:00",
+    "x_generated_by": "netkan"
+}
