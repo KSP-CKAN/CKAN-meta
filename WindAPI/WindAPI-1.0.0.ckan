@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "WindAPI",
+    "name": "WindAPI",
+    "abstract": "Wind modding utility for Ferram Aerospace Research",
+    "author": "Snorpadorp",
+    "version": "1.0.0",
+    "ksp_version_min": "0.1.0",
+    "ksp_version_max": "1.99.99",
+    "license": "CC0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/229406-1125-windapi-wind-modding-utility-for-ferram-aerospace-research/",
+        "spacedock": "https://spacedock.info/mod/4084/WindAPI",
+        "repository": "https://github.com/Zondulus/WindAPI",
+        "bugtracker": "https://github.com/Zondulus/WindAPI/issues",
+        "remote-avc": "https://www.zombo.com",
+        "x_screenshot": "https://spacedock.info/content/Snorpadorp_179275/WindAPI/WindAPI-1766621372.png"
+    },
+    "tags": [
+        "plugin",
+        "physics",
+        "library"
+    ],
+    "depends": [
+        {
+            "name": "FAR"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbalWeatherProject"
+        }
+    ],
+    "install": [
+        {
+            "find": "000_WindAPI",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/Zondulus/WindAPI/releases/download/1.0.0/000_WindAPI.zip",
+        "https://spacedock.info/mod/4084/WindAPI/download/1.0.0"
+    ],
+    "download_size": 8933,
+    "download_hash": {
+        "sha1": "17DE2B3E1034E8186FAB519F6B607D181E2D3D17",
+        "sha256": "996341C63CB800423788610CF1F57C2FCDBEB6408FBE09FCADB45ACC39130572"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 18444,
+    "release_date": "2025-12-21T18:57:16.00018+00:00",
+    "x_generated_by": "netkan"
+}
