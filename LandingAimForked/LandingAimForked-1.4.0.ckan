@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "LandingAimForked",
+    "name": "Landing Aim Forked",
+    "abstract": "This will display trajectory predictions. Nothing else.  This mod is designed to help with a more accurate landing. If activated in the flight scene, it will draw the trajectory and predict the point of contact.",
+    "author": "linuxgurugamer",
+    "version": "1.4.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/229480-112x-landing-aim-forked/",
+        "spacedock": "https://spacedock.info/mod/4096/Landing%20Aim%20Forked",
+        "repository": "https://github.com/linuxgurugamer/Landing-Aim",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/Landing-Aim/refs/heads/master/LandingAim.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Landing_Aim_Forked/Landing_Aim_Forked-1767304381.png"
+    },
+    "tags": [
+        "config",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "LandingAim",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/Landing-Aim/releases/download/1.4.0/LandingAim-1.12.5-1.4.0.zip",
+        "https://spacedock.info/mod/4096/Landing%20Aim%20Forked/download/1.4.0"
+    ],
+    "download_size": 23469,
+    "download_hash": {
+        "sha1": "38363F46EF1345D67B70D467F1B6C137C3B641B1",
+        "sha256": "8BB60AFC6C6770590BBDB372DE0C38633535178C835A60633B746BC5872E21B3"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 53135,
+    "release_date": "2026-01-01T21:44:43.089673+00:00",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
