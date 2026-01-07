@@ -1,0 +1,72 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KWRocketryRebalanced",
+    "name": "KW Rocketry Rebalanced",
+    "abstract": "This is the full KW Rocketry with the tanks rebalanced to better values",
+    "author": "linuxgurugamer",
+    "version": "3.2.8.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-SA-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164554-12-kw-rocketry-rebalanced/",
+        "spacedock": "https://spacedock.info/mod/1497/KW%20Rocketry%20Rebalanced",
+        "repository": "https://github.com/linuxgurugamer/KWRocketryRedux",
+        "bugtracker": "https://github.com/linuxgurugamer/KWRocketryRedux/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/KWRocketryRedux/refs/heads/master/KWRocketryRebalanced.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/KW_Rocketry_Rebalanced/KW_Rocketry_Rebalanced-1503056237.241356.png"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "SimpleAdjustableFairings-KWRocketry"
+        },
+        {
+            "name": "Patchmanager"
+        },
+        {
+            "name": "JanitorsCloset"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KWRocketry"
+        },
+        {
+            "name": "KWRocketryRedux"
+        },
+        {
+            "name": "KWRocketry-CommunityFixes"
+        },
+        {
+            "name": "KWRocketry-CommunityFixes-interstage"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/KWRocketry",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/1497/KW%20Rocketry%20Rebalanced/download/3.2.8.1",
+    "download_size": 50446621,
+    "download_hash": {
+        "sha1": "98996F020BB80D1F26898FA878FA4DDCA3A57AFC",
+        "sha256": "87D278BCAE9FF88A42F2E4D0AF286B6CEBEF9A55B3F27120EA0DD1886F411D39"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 130893809,
+    "release_date": "2026-01-07T16:30:04.241036+00:00",
+    "x_generated_by": "netkan"
+}
