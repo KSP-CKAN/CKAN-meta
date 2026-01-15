@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.10",
+    "spec_version": "v1.34",
     "identifier": "LandingAIM",
     "name": "Landing AIM",
     "abstract": "This - to display trajectory predictions. This mod is designed to help with a more accurate landing. If activated in the flight scene, it will draw the trajectory and predict the point of contact.",
@@ -8,13 +8,14 @@
         "linuxgurugamer"
     ],
     "version": "1.4.0",
-    "ksp_version": "1.12.5",
-    "license": "CC-BY-SA",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
     "resources": {
         "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/160494-122landing-aiming/",
         "spacedock": "https://spacedock.info/mod/1365/Landing%20AIM",
-        "repository": "https://github.com/DennyTX/Landing-Aim",
-        "bugtracker": "https://github.com/DennyTX/Landing-Aim/issues",
+        "repository": "https://github.com/linuxgurugamer/Landing-Aim",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/Landing-Aim/refs/heads/master/LandingAim.version",
         "x_screenshot": "https://spacedock.info/content/DennyTX_1511/Landing_AIM/Landing_AIM-1494497641.0420814.png"
     },
     "tags": [
@@ -28,14 +29,15 @@
     ],
     "install": [
         {
-            "filter_regexp": [
-                ".*\\.pdb$"
-            ],
+            "find": "LandingAim",
             "install_to": "GameData",
-            "find": "LandingAim"
+            "filter_regexp": ".*\\.pdb$"
         }
     ],
-    "download": "https://spacedock.info/mod/1365/Landing%20AIM/download/1.4.0",
+    "download": [
+        "https://github.com/linuxgurugamer/Landing-Aim/releases/download/1.4.0/LandingAim-1.12.5-1.4.0.zip",
+        "https://spacedock.info/mod/1365/Landing%20AIM/download/1.4.0"
+    ],
     "download_size": 23451,
     "download_hash": {
         "sha1": "1DD759A16794FD8DD39FF1046A362F813E40A4BA",
