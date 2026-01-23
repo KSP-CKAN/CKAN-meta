@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.34",
     "identifier": "FuelTanksPlus",
     "name": "Fuel Tanks Plus (FTP) by NecroBones (aka Orvidius",
     "abstract": "Longer fuel tanks in a variety of styles, with assocaited fueled nose cones. Stand-alone, or companion to Color Coded Canisters.",
@@ -77,16 +77,17 @@
         {
             "find": "GameData/FuelTanksPlus",
             "install_to": "GameData",
-            "filter": [
-                "Ships"
-            ]
+            "filter": "Ships"
         },
         {
             "find": "VAB",
             "install_to": "Ships"
         }
     ],
-    "download": "https://spacedock.info/mod/92/Fuel%20Tanks%20Plus%20(FTP)%20by%20NecroBones%20(aka%20Orvidius/download/2.2.0",
+    "download": [
+        "https://github.com/linuxgurugamer/FuelTanksPlus/releases/download/2.2.0/FuelTanksPlus-1.12.5-2.2.0.zip",
+        "https://spacedock.info/mod/92/Fuel%20Tanks%20Plus%20(FTP)%20by%20NecroBones%20(aka%20Orvidius/download/2.2.0"
+    ],
     "download_size": 9974591,
     "download_hash": {
         "sha1": "13B706AAD11E746846361B1300D1DBA70B875372",
