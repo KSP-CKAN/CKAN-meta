@@ -1,0 +1,64 @@
+{
+    "spec_version": 1,
+    "identifier": "ROLib",
+    "name": "RO Library",
+    "abstract": "ROLib contains the common code supporting multiple RO* modules",
+    "author": [
+        "pap1723",
+        "KSP-RO"
+    ],
+    "version": "v2.0.1.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "repository": "https://github.com/KSP-RO/ROLibrary",
+        "bugtracker": "https://github.com/KSP-RO/ROLibrary/issues",
+        "remote-avc": "https://raw.githubusercontent.com/KSP-RO/ROLibrary/master/GameData/ROLib/ROLib.version"
+    },
+    "tags": [
+        "library",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "TexturesUnlimited",
+            "suppress_recommendations": true
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ROEngines"
+        },
+        {
+            "name": "ROTanks"
+        },
+        {
+            "name": "ROSolar"
+        },
+        {
+            "name": "ROCapsules"
+        },
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "RP-1"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TweakableEverythingCont"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/ROLibrary/releases/download/v2.0.1.0/ROLib-v2.0.1.0.zip",
+    "download_size": 83279,
+    "download_hash": {
+        "sha1": "3FFC1681C5EDA30F50CAF5B48FA6FC587D0FE470",
+        "sha256": "A732ACC6117593D2C481D1B3EB71EAB89B70F65A680001B60080CBB7DFE19C08"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 179474,
+    "release_date": "2026-01-24T19:05:49Z",
+    "x_generated_by": "netkan"
+}
