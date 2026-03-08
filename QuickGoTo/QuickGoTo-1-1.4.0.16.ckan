@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "QuickGoTo",
+    "name": "Quick Mods",
+    "abstract": "A plugin collection for Kerbal Space Program",
+    "author": [
+        "malahx",
+        "linuxgurugamer"
+    ],
+    "version": "1:1.4.0.16",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/85834-1",
+        "repository": "https://github.com/linuxgurugamer/QuickMods",
+        "bugtracker": "https://github.com/linuxgurugamer/QuickMods/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/QuickMods/refs/heads/master/QuickGoTo/QuickGoTo.version"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "localizations": [
+        "en-us",
+        "fr-fr",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/QuickMods/QuickGoTo",
+            "install_to": "GameData/QuickMods"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/QuickMods/releases/download/1.4.0.19/QuickGoTo-1.4.0.16.zip",
+    "download_size": 80543,
+    "download_hash": {
+        "sha256": "6839878147602A3C2B7D32B0258C3B845DAA6AFCA4F6DD0B251AD3B807E1CF3D"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 171588,
+    "release_date": "2026-03-08T13:01:09Z",
+    "x_generated_by": "netkan"
+}
