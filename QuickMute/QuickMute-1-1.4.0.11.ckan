@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "QuickMute",
+    "name": "Quick Mods",
+    "abstract": "A plugin collection for Kerbal Space Program",
+    "author": [
+        "malahx",
+        "linuxgurugamer"
+    ],
+    "version": "1:1.4.0.11",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/85834-1",
+        "repository": "https://github.com/linuxgurugamer/QuickMods",
+        "bugtracker": "https://github.com/linuxgurugamer/QuickMods/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/QuickMods/refs/heads/master/QuickMute/QuickMute.version"
+    },
+    "tags": [
+        "plugin",
+        "convenience",
+        "sound"
+    ],
+    "localizations": [
+        "en-us",
+        "fr-fr",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/QuickMods/QuickMute",
+            "install_to": "GameData/QuickMods"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/QuickMods/releases/download/1.4.0.19/QuickMute-1.4.0.11.zip",
+    "download_size": 56741,
+    "download_hash": {
+        "sha256": "0FF1F61432B7DEA9530A5D48D5D34623081CF20FD1B1EED52D8FC695EE6EEFB7"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 141184,
+    "release_date": "2026-03-08T13:01:09Z",
+    "x_generated_by": "netkan"
+}
