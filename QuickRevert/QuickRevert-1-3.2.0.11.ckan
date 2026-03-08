@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "QuickRevert",
+    "name": "Quick Mods",
+    "abstract": "A plugin collection for Kerbal Space Program",
+    "author": [
+        "malahx",
+        "linuxgurugamer"
+    ],
+    "version": "1:3.2.0.11",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/85834-1",
+        "repository": "https://github.com/linuxgurugamer/QuickMods",
+        "bugtracker": "https://github.com/linuxgurugamer/QuickMods/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/QuickMods/refs/heads/master/QuickRevert/QuickRevert.version"
+    },
+    "tags": [
+        "plugin",
+        "convenience"
+    ],
+    "localizations": [
+        "en-us",
+        "fr-fr",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SRL"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/QuickMods/QuickRevert",
+            "install_to": "GameData/QuickMods"
+        }
+    ],
+    "download": "https://github.com/linuxgurugamer/QuickMods/releases/download/1.4.0.19/QuickRevert-3.2.0.11.zip",
+    "download_size": 37472,
+    "download_hash": {
+        "sha256": "C71D8F7ED31F8E58FC86B88FDE5A48FC63A4887FB113B28D37492C29778A1FF2"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 82492,
+    "release_date": "2026-03-08T13:01:09Z",
+    "x_generated_by": "netkan"
+}
