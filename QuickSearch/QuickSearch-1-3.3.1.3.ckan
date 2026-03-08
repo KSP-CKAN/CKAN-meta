@@ -1,19 +1,19 @@
 {
-    "spec_version": "v1.36",
+    "spec_version": "v1.34",
     "identifier": "QuickSearch",
-    "name": "Quick Mods",
-    "abstract": "A plugin collection for Kerbal Space Program",
+    "name": "QuickSearch",
+    "abstract": "QuickSearch is a small plugin which adds an extension to the part search function on the editor, it also adds a part search on the tech tree.",
     "author": [
-        "malahx",
+        "malah",
         "linuxgurugamer"
     ],
     "version": "1:3.3.1.3",
     "ksp_version_min": "1.12.0",
     "ksp_version_max": "1.12.99",
     "license": "GPL-3.0",
-    "release_status": "testing",
     "resources": {
-        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/85834-1",
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/174445-141-malahs-quick-mods/",
+        "spacedock": "https://spacedock.info/mod/101/QuickSearch",
         "repository": "https://github.com/linuxgurugamer/QuickMods",
         "bugtracker": "https://github.com/linuxgurugamer/QuickMods/issues",
         "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/QuickMods/refs/heads/master/QuickSearch/QuickSearch.version"
@@ -43,13 +43,17 @@
             "install_to": "GameData/QuickMods"
         }
     ],
-    "download": "https://github.com/linuxgurugamer/QuickMods/releases/download/1.4.0.19/QuickSearch-3.3.1.3.zip",
-    "download_size": 46501,
+    "download": [
+        "https://github.com/linuxgurugamer/QuickMods/releases/download/1.4.0.19/QuickSearch-3.3.1.3.zip",
+        "https://spacedock.info/mod/101/QuickSearch/download/3.3.1.3"
+    ],
+    "download_size": 46598,
     "download_hash": {
-        "sha256": "C224530A9F64875EF555C4A54B0959BB875FBA288C0811073D701A6EE1A61F4A"
+        "sha1": "CD16D9F0AF2B6A8B63BFACCB1065E941980EB6C1",
+        "sha256": "799DE8E80B27A58F2FF2CA8AEDB689F6420B7A58F9B12CBC1A843CB540242787"
     },
     "download_content_type": "application/zip",
-    "install_size": 103899,
-    "release_date": "2026-03-08T13:01:09Z",
+    "install_size": 104140,
+    "release_date": "2026-03-08T13:29:10.992372+00:00",
     "x_generated_by": "netkan"
 }
