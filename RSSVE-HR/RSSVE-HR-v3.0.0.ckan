@@ -1,0 +1,85 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "RSSVE-HR",
+    "name": "RSS Visual Enhancements - High Resolution",
+    "abstract": "A visual enhancement pack for the Kerbal Space Program RealSolarSystem mod.",
+    "author": [
+        "al2me6",
+        "blowfishpro",
+        "Capkirk123",
+        "NathanKell",
+        "pjf",
+        "rsparkyc",
+        "SirKeplan",
+        "StollD",
+        "StonesmileGit",
+        "stratochief66",
+        "zorg2044",
+        "PhineasFreak"
+    ],
+    "version": "v3.0.0",
+    "license": "CC-BY-SA-4.0",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/153511-rssve",
+        "repository": "https://github.com/KSP-RO/RSSVE",
+        "bugtracker": "https://github.com/KSP-RO/RSSVE/issues",
+        "manual": "https://github.com/KSP-RO/RSSVE/wiki",
+        "remote-avc": "https://raw.githubusercontent.com/KSP-RO/RSSVE/master/RSSVE/RSSVE.version"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "RSSVE-Textures"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "Scatterer",
+            "suppress_recommendations": true
+        }
+    ],
+    "recommends": [
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "PlanetShine"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        },
+        {
+            "name": "RSSVE-Textures"
+        }
+    ],
+    "install": [
+        {
+            "find": "RSSVE",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RSSVE/releases/download/v3.0.0/RSSVE_HR.zip",
+    "download_size": 129969821,
+    "download_hash": {
+        "sha256": "4A25A2039D7F933B7380535962D3160FF3FC6F6A73C20C6BFF21E9263238B835"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 325670062,
+    "release_date": "2026-03-15T19:53:32Z",
+    "x_generated_by": "netkan"
+}
