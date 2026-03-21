@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "BuoyancyAdjuster",
+    "name": "BuoyancyAdjuster",
+    "abstract": "A mod for Kerbal Space Program that allows the user to adjust the buoyancy of a vessel, allowing it to sink, rise, hover or float on the surface",
+    "author": "RedshiftOTF",
+    "version": "1.01",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/229933-1255-buoyancy-adjuster-make-submarines-without-ballast/",
+        "spacedock": "https://spacedock.info/mod/4171/BuoyancyAdjuster",
+        "repository": "https://github.com/RedshiftOTF/BuoyancyAdjuster",
+        "bugtracker": "https://github.com/RedshiftOTF/BuoyancyAdjuster/issues",
+        "x_screenshot": "https://spacedock.info/content/RedshiftOTF_9978/BuoyancyAdjuster/BuoyancyAdjuster-1772959077.jpg"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "install": [
+        {
+            "find": "GameData/BuoyancyAdjuster",
+            "install_to": "GameData",
+            "filter": "Sample Craft"
+        },
+        {
+            "find": "Sample Craft",
+            "install_to": "Ships",
+            "as": "SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4171/BuoyancyAdjuster/download/1.01",
+    "download_size": 37832,
+    "download_hash": {
+        "sha1": "B1E3B019F47FAEAC95657AC79D19104DB9B09809",
+        "sha256": "00FF072B91EC5225361B67330E1A5553DF13C9222213C986CDA7050031BAE880"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 454293,
+    "release_date": "2026-03-08T10:56:18.459626+00:00",
+    "x_generated_by": "netkan"
+}
