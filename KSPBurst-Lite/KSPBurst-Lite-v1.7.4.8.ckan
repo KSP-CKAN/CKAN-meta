@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.36",
     "identifier": "KSPBurst-Lite",
     "name": "KSPBurst Plugins",
     "abstract": "Mods that require KSPBurst can run with this alone, but this does not improve performance unless the burst compiler is also installed.",
@@ -8,6 +8,7 @@
     "ksp_version_min": "1.12.0",
     "ksp_version_max": "1.12.99",
     "license": "unknown",
+    "release_status": "testing",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201112-*",
         "repository": "https://github.com/KSPModdingLibs/KSPBurst",
@@ -17,6 +18,12 @@
     "tags": [
         "library",
         "plugin"
+    ],
+    "depends": [
+        {
+            "name": "Harmony2",
+            "min_version": "2.2.1.0"
+        }
     ],
     "suggests": [
         {
@@ -32,7 +39,6 @@
     "download": "https://github.com/KSPModdingLibs/KSPBurst/releases/download/v1.7.4.8/KSPBurst_1.7.4.8.zip",
     "download_size": 511570,
     "download_hash": {
-        "sha1": "F64766F9425B841F560728A1EE99407B35021B27",
         "sha256": "58A7DEA90A174ED15ECD0D0977A779CA51F6FC61508C607CBB446D4216634FF6"
     },
     "download_content_type": "application/zip",
