@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KSPBurst-Lite",
+    "name": "KSPBurst Plugins",
+    "abstract": "Mods that require KSPBurst can run with this alone, but this does not improve performance unless the burst compiler is also installed.",
+    "author": "dkavolis",
+    "version": "v1.7.4.9",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "unknown",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201112-*",
+        "repository": "https://github.com/KSPModdingLibs/KSPBurst",
+        "bugtracker": "https://github.com/KSPModdingLibs/KSPBurst/issues",
+        "remote-avc": "https://raw.githubusercontent.com/KSPModdingLibs/KSPBurst/master/GameData/000_KSPBurst/KSPBurst.version"
+    },
+    "tags": [
+        "library",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "Harmony2",
+            "min_version": "2.2.1.0"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KSPBurst"
+        }
+    ],
+    "install": [
+        {
+            "find": "000_KSPBurst",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSPModdingLibs/KSPBurst/releases/download/v1.7.4.9/KSPBurst_1.7.4.9.zip",
+    "download_size": 511616,
+    "download_hash": {
+        "sha1": "2C387377B71851392FE38A777273EDC8ED0DF0D8",
+        "sha256": "83AD604B2A0B3F646F69FE7A6679F4955CBD6CD16613DB89919ED460BD2A19DD"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1600863,
+    "release_date": "2026-03-21T19:02:14Z",
+    "x_generated_by": "netkan"
+}
