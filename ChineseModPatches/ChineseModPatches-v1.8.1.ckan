@@ -1,0 +1,120 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ChineseModPatches",
+    "name": "Chinese Mod Patches",
+    "abstract": "Module Manager patches for translating KSP mods (mostly parts) to Chinese (Simplified Chinese only)",
+    "author": "tinygrox",
+    "version": "v1.8.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "repository": "https://github.com/tinygrox/KSP_Chinese_Patches",
+        "bugtracker": "https://github.com/tinygrox/KSP_Chinese_Patches/issues",
+        "manual": "https://github.com/tinygrox/KSP_Chinese_Patches/wiki",
+        "discussions": "https://github.com/tinygrox/KSP_Chinese_Patches/discussions",
+        "remote-avc": "https://raw.githubusercontent.com:443/tinygrox/KSP_Chinese_Patches/main/GameData/0000Tinygrox_CNPatches/ModCNPatches.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Harmony2"
+        }
+    ],
+    "supports": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "Benjee10Suits"
+        },
+        {
+            "name": "Benjee10-SharedAssets"
+        },
+        {
+            "name": "HabTechRobotics"
+        },
+        {
+            "name": "PlanetsideExplorationTechnologies"
+        },
+        {
+            "name": "HabTech2"
+        },
+        {
+            "name": "MoldaviteMachines"
+        },
+        {
+            "name": "ExtraPlanetaryLaunchpads"
+        },
+        {
+            "name": "SpaceAge"
+        },
+        {
+            "name": "NearFutureAeronautics"
+        },
+        {
+            "name": "NearFutureSpacecraft"
+        },
+        {
+            "name": "CrusoeSpaceIndustriesTechTree"
+        },
+        {
+            "name": "BeamedPowerPlugin"
+        },
+        {
+            "name": "BeamedPowerPlugin-Realistic"
+        },
+        {
+            "name": "JamesWebbForKerbal"
+        },
+        {
+            "name": "KerbalWeatherProject"
+        },
+        {
+            "name": "KerbalActuators"
+        },
+        {
+            "name": "ReStockPlus"
+        },
+        {
+            "name": "UnKerballedStart"
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "RealExoplanets"
+        },
+        {
+            "name": "RealFuels"
+        },
+        {
+            "name": "AdvancedJetEngine"
+        }
+    ],
+    "install": [
+        {
+            "find": "0000Tinygrox_CNPatches",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/tinygrox/KSP_Chinese_Patches/releases/download/v1.8.1/KSP_Chinese_Patches_1.8.1.zip",
+    "download_size": 12914681,
+    "download_hash": {
+        "sha1": "3945FD1A895E427F0F7BC5D132CB33520C11C8EC",
+        "sha256": "877DB215E8AE6A3D6F30DEF1BDD4E46F61E8C226E1BB2F5AA48C4399C22C4A0C"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 19608953,
+    "release_date": "2026-03-28T01:55:04Z",
+    "x_generated_by": "netkan"
+}
