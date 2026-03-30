@@ -5,7 +5,7 @@
     "abstract": "A small config that resets the HomeWorldName to Kerbin if mods that change it are unistalled",
     "author": "Space_Fox_Oprissmian",
     "version": "1.0",
-    "ksp_version": "1.12.5",
+    "ksp_version": "1.12",
     "license": "MIT",
     "resources": {
         "homepage": "https://forum.kerbalspaceprogram.com/topic/228843-1125-homeworldfallback-a-config-that-setsresets-the-homeworldname-to-kerbin/",
@@ -17,6 +17,9 @@
         "config"
     ],
     "depends": [
+        {
+            "name": "Kopernicus"
+        },
         {
             "name": "ModuleManager"
         }
