@@ -15,8 +15,9 @@
         "remote-avc": "https://raw.githubusercontent.com/jrossignol/ContractConfigurator/master/GameData/ContractConfigurator/ContractConfigurator.version"
     },
     "tags": [
-        "config",
-        "plugin"
+        "plugin",
+        "library",
+        "career"
     ],
     "localizations": [
         "en-us",
@@ -25,6 +26,11 @@
     "depends": [
         {
             "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ContractConfigurator"
         }
     ],
     "install": [
@@ -42,6 +48,5 @@
     "download_content_type": "application/zip",
     "install_size": 1667859,
     "release_date": "2025-12-11T16:29:37.797102+00:00",
-    "x_via": "Automated SpaceDock CKAN submission",
     "x_generated_by": "netkan"
 }
