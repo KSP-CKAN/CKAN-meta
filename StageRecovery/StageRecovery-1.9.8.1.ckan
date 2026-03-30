@@ -1,0 +1,73 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "StageRecovery",
+    "name": "StageRecovery",
+    "abstract": "Recover Funds, Kerbals, and Science from Dropped Stages",
+    "author": [
+        "magico13",
+        "linuxgurugamer"
+    ],
+    "version": "1.9.8.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179306-151-stagerecovery-recover-funds-from-dropped-stages/&",
+        "spacedock": "https://spacedock.info/mod/219/StageRecovery",
+        "repository": "https://github.com/linuxgurugamer/StageRecovery",
+        "bugtracker": "https://github.com/linuxgurugamer/StageRecovery/issues",
+        "manual": "https://github.com/linuxgurugamer/StageRecovery/wiki",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/StageRecovery/refs/heads/master/StageRecovery.version"
+    },
+    "tags": [
+        "plugin",
+        "career"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KerbalConstructionTime"
+        },
+        {
+            "name": "Toolbar"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "DebRefund"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/StageRecovery",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/StageRecovery/releases/download/1.9.8.1/StageRecovery-1.12.5-1.9.8.1.zip",
+        "https://spacedock.info/mod/219/StageRecovery/download/1.9.8.1"
+    ],
+    "download_size": 70520,
+    "download_hash": {
+        "sha1": "6A460597A17BC4FA6BA73AD30DF5182491BB1629",
+        "sha256": "3A2E85B08F6722EAD7C29140DA483DE19303AA2D1D77D8EFFCF22E800A7872DD"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 152522,
+    "release_date": "2026-03-30T12:38:02.750863+00:00",
+    "x_generated_by": "netkan"
+}
