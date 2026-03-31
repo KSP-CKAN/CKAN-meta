@@ -1,0 +1,72 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "TelemachusReborn",
+    "name": "Telemachus Reborn",
+    "abstract": "Telemetry HTTP Api & Web Interface to KSP",
+    "author": [
+        "DanGSun",
+        "StoneBlue",
+        "sidrus"
+    ],
+    "version": "1.11.0",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179887-*",
+        "spacedock": "https://spacedock.info/mod/2012/Telemachus%20Reborn",
+        "repository": "https://github.com/TeleIO/Telemachus-1",
+        "bugtracker": "https://github.com/TeleIO/Telemachus-1/issues",
+        "manual": "https://github.com/TeleIO/Telemachus-1/wiki",
+        "remote-avc": "https://raw.githubusercontent.com/TeleIO/Telemachus-1/main/TelemachusReborn.version",
+        "x_screenshot": "https://spacedock.info/content/DanGSun_23424/Telemachus_Reborn/Telemachus_Reborn-1542661995.507417.png"
+    },
+    "tags": [
+        "plugin",
+        "information",
+        "app"
+    ],
+    "provides": [
+        "Telemachus"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RasterPropMonitor"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Telemachus"
+        },
+        {
+            "name": "TelemachusContinued"
+        },
+        {
+            "name": "Telemachus-2"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/Telemachus",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/TeleIO/Telemachus-1/releases/download/v1.11.0/GameData.zip",
+        "https://spacedock.info/mod/2012/Telemachus%20Reborn/download/1.11.0"
+    ],
+    "download_size": 11422928,
+    "download_hash": {
+        "sha1": "9DE83140918466E314490CF129F72AB267EEC3A8",
+        "sha256": "25F4E166D36837535A1335A6AB564F25CF0ADA062038A0B513C6D48E84E23D22"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 25874649,
+    "release_date": "2026-03-31T16:55:41.71914+00:00",
+    "x_generated_by": "netkan"
+}
