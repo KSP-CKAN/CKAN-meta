@@ -1,0 +1,50 @@
+{
+    "spec_version": 1,
+    "identifier": "IR-Canadarm",
+    "name": "Infernal Robotics Next - Canadarm",
+    "abstract": "Canadarm for Infernal Robotics Next",
+    "author": [
+        "Rudolf Meier",
+        "benjee10"
+    ],
+    "version": "v1.0.1",
+    "ksp_version_min": "1.12.3",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/230072-canadarm-infernal-robotics-next/",
+        "repository": "https://github.com/meirumeiru/IR-Canadarm",
+        "bugtracker": "https://github.com/meirumeiru/IR-Canadarm/issues",
+        "remote-avc": "https://github.com/meirumeiru/IR-Canadarm/raw/develop/Resources/GameData/IRCanadarm/IRCanadarm.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "InfernalRoboticsNext"
+        },
+        {
+            "name": "IR-ConnectionSystem"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/IRCanadarm",
+            "install_to": "GameData",
+            "filter": ".DS_Store"
+        }
+    ],
+    "download": "https://github.com/meirumeiru/IR-Canadarm/releases/download/v1.0.1/IR-Canadarm_v1.0.1.zip",
+    "download_size": 1480564,
+    "download_hash": {
+        "sha1": "1D6F37622E0BDD7AA24B27D21D42401FA9D451D3",
+        "sha256": "67060CAE1AC4FAEBADC8722DEA2D4853AA379D4C7FA9016CBD65D59B07BC73B9"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 3378648,
+    "release_date": "2026-03-31T20:58:17Z",
+    "x_generated_by": "netkan"
+}
