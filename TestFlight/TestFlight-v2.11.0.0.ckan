@@ -1,0 +1,48 @@
+{
+    "spec_version": 1,
+    "identifier": "TestFlight",
+    "name": "Test Flight",
+    "abstract": "Flight Testing of your space hardware in KSP! Fly your parts to gain flight data and make them more reliable and less likely to fail.  THIS IS THE PLUGIN ONLY.  You will need a TestFlight Config pack in order for any parts to actually be controlled by TestFlight.",
+    "author": [
+        "Agathorn",
+        "KSP-RO Group"
+    ],
+    "version": "v2.11.0.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/99043-*",
+        "repository": "https://github.com/KSP-RO/TestFlight",
+        "bugtracker": "https://github.com/KSP-RO/TestFlight/issues",
+        "manual": "https://github.com/KSP-RO/TestFlight/wiki",
+        "remote-avc": "http://ksp-avc.cybutek.net/version.php?id=118"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "TestFlightConfig"
+        },
+        {
+            "name": "ContractConfigurator"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/TestFlight",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/TestFlight/releases/download/v2.11.0.0/TestFlight-v2.11.0.0.zip",
+    "download_size": 130084,
+    "download_hash": {
+        "sha1": "E7CF809EEF7DB8D238DF0914FD8A1094C100A50E",
+        "sha256": "41227C9877144583605FC03783784AAD496C184643D88B58EE8AE802B819F41B"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 338179,
+    "release_date": "2026-04-04T16:42:38Z",
+    "x_generated_by": "netkan"
+}
