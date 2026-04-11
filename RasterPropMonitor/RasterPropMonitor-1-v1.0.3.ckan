@@ -70,9 +70,6 @@
             "name": "Reviva"
         },
         {
-            "name": "MechJeb2"
-        },
-        {
             "name": "ASETProps"
         },
         {
@@ -99,15 +96,11 @@
     ],
     "install": [
         {
-            "find": "JSI",
+            "find": "JSI/RPMPodPatches",
+            "install_to": "GameData/JSI",
             "filter": [
-                "RasterPropMonitor",
-                "BasicMFD",
-                "README.md",
-                "LICENSE.md",
-                "Agencies"
-            ],
-            "install_to": "GameData"
+                "BasicMFD"
+            ]
         }
     ],
     "download": "https://github.com/FirstPersonKSP/RasterPropMonitor/releases/download/1.0.3/RasterPropMonitor-1.0.3.zip",
