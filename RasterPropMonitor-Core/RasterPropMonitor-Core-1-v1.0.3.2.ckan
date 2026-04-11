@@ -1,0 +1,124 @@
+{
+    "spec_version": "v1.36",
+    "comment": "This package contains the plugin, and the standard parts library.",
+    "identifier": "RasterPropMonitor-Core",
+    "name": "RasterPropMonitor Core",
+    "abstract": "Plugin and props for use in IVAs",
+    "author": [
+        "Mihara",
+        "MOARdV",
+        "JonnyOThan"
+    ],
+    "version": "1:v1.0.3.2",
+    "ksp_version_min": "1.12.3",
+    "ksp_version_max": "1.12",
+    "license": "GPL-3.0",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190737-18x-rasterpropmonitor-adopted/&tab=comments#comment-3723047",
+        "repository": "https://github.com/FirstPersonKSP/RasterPropMonitor",
+        "bugtracker": "https://github.com/FirstPersonKSP/RasterPropMonitor/issues",
+        "manual": "https://github.com/FirstPersonKSP/RasterPropMonitor/wiki",
+        "remote-avc": "https://github.com/FirstPersonKSP/RasterPropMonitor/releases/latest/download/RasterPropMonitor.version"
+    },
+    "tags": [
+        "plugin",
+        "crewed",
+        "first-person"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "DE-IVAExtension"
+        },
+        {
+            "name": "FreeIva"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Astrogator"
+        },
+        {
+            "name": "DockingPortAlignmentIndicator"
+        },
+        {
+            "name": "NavUtilities"
+        },
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "VesselView"
+        },
+        {
+            "name": "ProbeControlRoomRecontrolled"
+        },
+        {
+            "name": "kOSPropMonitor"
+        },
+        {
+            "name": "Chatterer"
+        },
+        {
+            "name": "Reviva"
+        },
+        {
+            "name": "RealChute"
+        },
+        {
+            "name": "ASETProps"
+        },
+        {
+            "name": "ASETAvionics"
+        },
+        {
+            "name": "Mk1LanderCanIVAReplbyASET"
+        },
+        {
+            "name": "MK12PodIVAReplacementbyASET"
+        },
+        {
+            "name": "ALCOR"
+        },
+        {
+            "name": "ThroughTheEyesOfaKerbal"
+        },
+        {
+            "name": "QuickIVA"
+        },
+        {
+            "name": "KSAIVAUpgrade"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "MechJeb2",
+            "min_version": "2.15.0.0"
+        }
+    ],
+    "install": [
+        {
+            "find": "JSI/RasterPropMonitor",
+            "install_to": "GameData/JSI"
+        },
+        {
+            "find": "JSI/RPMPodPatches/BasicMFD",
+            "install_to": "GameData/JSI/RPMPodPatches",
+            "comment": "This folder contains the multi-function display props, which belong in this module along with the other props"
+        }
+    ],
+    "download": "https://github.com/FirstPersonKSP/RasterPropMonitor/releases/download/1.0.3.2/RasterPropMonitor-1.0.3.2.zip",
+    "download_size": 1298993,
+    "download_hash": {
+        "sha256": "67A8F75B29B16EB658FE47F3198230B70DD45781A052F3D0B9E9691F0148B342"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 6437023,
+    "release_date": "2026-04-11T18:30:21Z",
+    "x_generated_by": "netkan"
+}
