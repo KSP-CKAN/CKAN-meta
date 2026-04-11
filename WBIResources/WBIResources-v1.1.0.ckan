@@ -1,0 +1,41 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "WBIResources",
+    "name": "WBIResources",
+    "abstract": "Omni Converter, Omni Storage, and GoldStrike",
+    "author": "Angel-125",
+    "version": "v1.1.0",
+    "ksp_version_min": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/Angel-125/WBIResources",
+        "bugtracker": "https://github.com/Angel-125/WBIResources/issues",
+        "manual": "https://github.com/Angel-125/WBIResources/wiki",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/WBIProps/main/ReleaseFolder/GameData/WildBlueIndustries/0WBIResources/WBIResources.version"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "0WBIResources",
+            "install_to": "GameData/WildBlueIndustries"
+        }
+    ],
+    "download": "https://github.com/Angel-125/WBIResources/releases/download/v1.1.0/WBIResources.zip",
+    "download_size": 356197,
+    "download_hash": {
+        "sha1": "FEE91F0E89B813204439872C7CAD4D8353402B52",
+        "sha256": "50FE75AAB1825FB6D9092475B2A06054ACB5C09228E6EEF6E274E404F7A51F4E"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 931575,
+    "release_date": "2026-04-11T19:50:04Z",
+    "x_generated_by": "netkan"
+}
