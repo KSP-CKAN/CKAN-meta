@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalJointReinforcementContinued",
+    "name": "Kerbal Joint Reinforcement Continued",
+    "abstract": "KJR tightens up the joints between parts and adds some physics-adjusting parameters to make vehicles more stable when loading on the launchpad or coming out of timewarp.",
+    "author": [
+        "ferram4",
+        "Starwaster"
+    ],
+    "version": "v3.8.7.0",
+    "ksp_version_min": "1.12.0",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184019-*",
+        "repository": "https://github.com/KSP-RO/Kerbal-Joint-Reinforcement-Continued",
+        "bugtracker": "https://github.com/KSP-RO/Kerbal-Joint-Reinforcement-Continued/issues",
+        "remote-avc": "https://raw.githubusercontent.com/KSP-RO/Kerbal-Joint-Reinforcement-Continued/master/GameData/KerbalJointReinforcement/KerbalJointReinforcement.version"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "provides": [
+        "KerbalJointReinforcement"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KSPCommunityFixes"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbalJointReinforcement"
+        },
+        {
+            "name": "AnimatedAttachment"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalJointReinforcement",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/Kerbal-Joint-Reinforcement-Continued/releases/download/v3.8.7.0/Kerbal-Joint-Reinforcement_v3.8.7.0.zip",
+    "download_size": 23684,
+    "download_hash": {
+        "sha1": "FE2D4D415C4D739A8DD73DCF2AFFF2E0B1EFE7D3",
+        "sha256": "0F578D56AF5505EF6D33707F71F4A424482C2BDE195D5AC1B6F08E7ACF5BF6B1"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 51013,
+    "release_date": "2026-04-12T18:26:53Z",
+    "x_generated_by": "netkan"
+}
