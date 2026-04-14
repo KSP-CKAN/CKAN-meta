@@ -1,0 +1,71 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "AvalanchePlumes",
+    "name": "Avalanche Plumes",
+    "abstract": "Improving SRB Plume Visuals",
+    "author": [
+        "KochieBR",
+        "Adiri-KSP"
+    ],
+    "version": "v1.0.5",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/225334-avalanche-plumes-a-waterfall-mod-for-solid-rocket-boosters/",
+        "spacedock": "https://spacedock.info/mod/3650/Avalanche%20Plumes",
+        "repository": "https://github.com/Adiri-KSP/Avalanche-Plumes",
+        "x_screenshot": "https://spacedock.info/content/Kochi_71800/Avalanche_Plumes/Avalanche_Plumes-1773532890.png"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "SmokeScreen"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "StockWaterfallEffects"
+        },
+        {
+            "name": "RestockWaterfallExpansion"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SRBWaterfallEffects"
+        },
+        {
+            "name": "RealPlume"
+        }
+    ],
+    "install": [
+        {
+            "find": "Avalanche",
+            "install_to": "GameData",
+            "filter": ".git"
+        }
+    ],
+    "download": [
+        "https://spacedock.info/mod/3650/Avalanche%20Plumes/download/v1.0.5",
+        "https://github.com/Adiri-KSP/Avalanche-Plumes/releases/download/v1.0.5/AvalanchePlumes.zip"
+    ],
+    "download_size": 2670874,
+    "download_hash": {
+        "sha1": "CB672F809EEC64767706569A7E450E77F8DA3D1C",
+        "sha256": "61F473E621AB442204A074EB8FD9CB086E3BC4DBA164F04C7119086ABEC46619"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 4301063,
+    "release_date": "2026-04-14T11:07:09Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
