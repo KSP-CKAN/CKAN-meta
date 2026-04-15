@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "JustReadTheInstructions",
+    "name": "Just Read The Instructions",
+    "abstract": "Spiritual successor to OCISLY, allows you to stream your HullCam cameras on a local webpage!",
+    "author": "RELMYMathieu",
+    "version": "v1.0.0",
+    "ksp_version": "1.12",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/RELMYMathieu/JustReadTheInstructions",
+        "spacedock": "https://spacedock.info/mod/4212/Just%20Read%20The%20Instructions",
+        "repository": "https://github.com/RELMYMathieu/JustReadTheInstructions",
+        "bugtracker": "https://github.com/RELMYMathieu/JustReadTheInstructions/issues",
+        "x_screenshot": "https://spacedock.info/content/RELMYMathieu_182273/Just_Read_The_Instructions/Just_Read_The_Instructions-1776291228.png"
+    },
+    "tags": [
+        "config",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "HullcamVDSContinued"
+        }
+    ],
+    "install": [
+        {
+            "find": "JustReadTheInstructions",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": [
+        "https://github.com/RELMYMathieu/JustReadTheInstructions/releases/download/v1.0.0/JustReadTheInstructions-1.0.0.zip",
+        "https://spacedock.info/mod/4212/Just%20Read%20The%20Instructions/download/v1.0.0"
+    ],
+    "download_size": 325359,
+    "download_hash": {
+        "sha1": "BEE57A3EB620EE9CF44CC753812F9C552D9D1B15",
+        "sha256": "EA3E364C5D0999345636491F65DB4E52F3F297E0D54DFFCC593C513BE934793C"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 363890,
+    "release_date": "2026-04-14T23:46:57.274569+00:00",
+    "x_generated_by": "netkan"
+}
