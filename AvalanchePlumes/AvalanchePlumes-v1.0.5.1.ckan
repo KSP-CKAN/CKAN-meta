@@ -1,0 +1,71 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "AvalanchePlumes",
+    "name": "Avalanche Plumes",
+    "abstract": "Improving SRB Plume Visuals",
+    "author": [
+        "KochieBR",
+        "Adiri-KSP"
+    ],
+    "version": "v1.0.5.1",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/225334-avalanche-plumes-a-waterfall-mod-for-solid-rocket-boosters/",
+        "spacedock": "https://spacedock.info/mod/3650/Avalanche%20Plumes",
+        "repository": "https://github.com/Adiri-KSP/Avalanche-Plumes",
+        "x_screenshot": "https://spacedock.info/content/Kochi_71800/Avalanche_Plumes/Avalanche_Plumes-1773532890.png"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "SmokeScreen"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "StockWaterfallEffects"
+        },
+        {
+            "name": "RestockWaterfallExpansion"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SRBWaterfallEffects"
+        },
+        {
+            "name": "RealPlume"
+        }
+    ],
+    "install": [
+        {
+            "find": "Avalanche",
+            "install_to": "GameData",
+            "filter": ".git"
+        }
+    ],
+    "download": [
+        "https://spacedock.info/mod/3650/Avalanche%20Plumes/download/v1.0.5.1",
+        "https://github.com/Adiri-KSP/Avalanche-Plumes/releases/download/v1.0.5.1/AvalanchePlumes.zip"
+    ],
+    "download_size": 2675348,
+    "download_hash": {
+        "sha1": "D339EC5E08DFFD3CCD61B91A0E0281D07AE9B519",
+        "sha256": "5E8CD5F65271B7CA9B8BE1D9738D0EF23D315BF0329B5EDE8AF12137E67DAE23"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 4300708,
+    "release_date": "2026-04-15T04:54:58Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
