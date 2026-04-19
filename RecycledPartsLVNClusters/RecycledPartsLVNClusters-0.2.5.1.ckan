@@ -1,0 +1,76 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "RecycledPartsLVNClusters",
+    "name": "Recycled Parts LVN Clusters",
+    "abstract": "Old mods recycled",
+    "author": "linuxgurugamer",
+    "version": "0.2.5.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/164829-13-spacetux-industries-recycled-parts/",
+        "spacedock": "https://spacedock.info/mod/1507/Recycled%20Parts",
+        "repository": "https://github.com/linuxgurugamer/RecycledParts",
+        "bugtracker": "https://github.com/linuxgurugamer/RecycledParts/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/RecycledParts/refs/heads/master/RecycledParts.version"
+    },
+    "tags": [
+        "parts"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "BDAnimationModules"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CommunityTechTree"
+        },
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "StockWaterfallEffects"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "JanitorsCloset"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RecycledPartsLVNClusters"
+        },
+        {
+            "name": "LVNNuclearEngineClusters"
+        }
+    ],
+    "install": [
+        {
+            "find": "LVN_Clusters",
+            "install_to": "GameData/SpaceTuxIndustries/RecycledParts"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/RecycledParts/releases/download/0.2.5.1/RecycledParts-1.12.5-0.2.5.1.zip",
+        "https://spacedock.info/mod/1507/Recycled%20Parts/download/0.2.5.1"
+    ],
+    "download_size": 37800020,
+    "download_hash": {
+        "sha1": "496C196C00F4042189D0C0098F6B9F27D582EFEB",
+        "sha256": "2BB8631A3B0923C5E776B3749A01E96FB925C628367D7E910B71F62C8CB0B28C"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 5050491,
+    "release_date": "2026-04-19T12:12:13.681973+00:00",
+    "x_generated_by": "netkan"
+}
