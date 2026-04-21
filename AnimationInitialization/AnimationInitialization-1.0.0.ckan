@@ -1,0 +1,39 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "AnimationInitialization",
+    "name": "Animation Initialization",
+    "abstract": "This module solves incorrect startup states without fighting stock modules like ModuleAnimateGeneric or ModuleDeployableSolarPanel.",
+    "author": "linuxgurugamer",
+    "version": "1.0.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/230344-112x-animation-initialization/",
+        "spacedock": "https://spacedock.info/mod/4222/Animation%20Initialization",
+        "repository": "https://github.com/linuxgurugamer/AnimationInitialization",
+        "bugtracker": "https://github.com/linuxgurugamer/AnimationInitialization/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/AnimationInitialization/refs/heads/main/AnimationInitialization.version"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "install": [
+        {
+            "find": "AnimationInitialization",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4222/Animation%20Initialization/download/1.0.0",
+    "download_size": 13749,
+    "download_hash": {
+        "sha1": "D3F385232439B86A294D04BD8E0613915BF06857",
+        "sha256": "97462EC8FAECEB00C39C05F6C586630EED922A57729CAF3B457B39B1C792615E"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 18176,
+    "release_date": "2026-04-21T12:53:31.389557+00:00",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
