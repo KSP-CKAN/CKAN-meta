@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "KerbalFX-Core",
+    "name": "KerbalFX Core",
+    "abstract": "Shared KerbalFX runtime required by KerbalFX visual modules.",
+    "description": "KerbalFX Core provides the shared runtime, settings, and helper code required by KerbalFX visual modules. It does not add a visual effect by itself.",
+    "author": "bimo1d",
+    "version": "0.7.1",
+    "ksp_version_min": "1.12.5",
+    "ksp_version_max": "1.12.99",
+    "license": "Unlicense",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/230118-wip1125-kerbalfx-lightweight-modular-fx-framework-v062-15042026/",
+        "spacedock": "https://spacedock.info/mod/4190/KerbalFX",
+        "repository": "https://github.com/bimo1d/KerbalFX",
+        "bugtracker": "https://github.com/bimo1d/KerbalFX/issues",
+        "remote-avc": "https://raw.githubusercontent.com/bimo1d/KerbalFX/main/Core/KerbalFX-Core.version"
+    },
+    "tags": [
+        "plugin",
+        "graphics",
+        "library"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalFX-AeroFX"
+        },
+        {
+            "name": "KerbalFX-BlastFX"
+        },
+        {
+            "name": "KerbalFX-ImpactPuffs"
+        },
+        {
+            "name": "KerbalFX-RoverDust"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalFX",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/bimo1d/KerbalFX/releases/download/0.7.1/KerbalFX-Core-0.7.1.zip",
+    "download_size": 9934,
+    "download_hash": {
+        "sha1": "E8C401F315A89F4F9F9AA43F1BCEAB2F4B83B4D1",
+        "sha256": "CB8CF42080F52EC7A0E0720072AA066D2F6541D4D9A47CFA50EEB6B55659B947"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 19493,
+    "release_date": "2026-04-22T20:33:30Z",
+    "x_generated_by": "netkan"
+}
