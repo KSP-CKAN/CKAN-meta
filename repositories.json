@@ -7,6 +7,12 @@
             "x_comment": "Well-known default CKAN metadata repository for KSP1"
         },
         {
+            "name":      "KSP-backup",
+            "uri":       "https://gitlab.com/KSP-CKAN/CKAN-meta/-/archive/master/CKAN-meta-master.tar.gz",
+            "x_mirror":  true,
+            "x_comment": "Fall-back CKAN metadata repository for KSP1 in case the default repo is inaccessible"
+        },        
+        {
             "name":      "MechJeb2-dev",
             "uri":       "https://ksp.sarbian.com/ckan/MechJeb2-ci.tar.gz",
             "x_mirror":  false,
@@ -26,4 +32,3 @@
         }
     ]
 }
-
