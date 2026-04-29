@@ -1,5 +1,5 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": 1,
     "identifier": "Waterfall",
     "name": "Waterfall Core",
     "abstract": "Core Waterfall plugin to drive engine effects, plus default effect templates. Does nothing on its own, other mods supply compatibility.",
@@ -22,12 +22,6 @@
     "depends": [
         {
             "name": "ModuleManager"
-        }
-    ],
-    "install": [
-        {
-            "find": "Waterfall",
-            "install_to": "GameData"
         }
     ],
     "download": "https://github.com/KSPModStewards/Waterfall/releases/download/0.10.5/Waterfall_0_10_5.zip",
