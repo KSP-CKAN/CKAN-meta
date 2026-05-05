@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "IR-Kinematics",
+    "name": "Infernal Robotics Next - Kinematics",
+    "abstract": "Kinematics module for Infernal Robotics Next",
+    "author": "Rudolf Meier",
+    "version": "v1.0.301",
+    "ksp_version_min": "1.12.0",
+    "license": "GPL-3.0",
+    "release_status": "testing",
+    "resources": {
+        "repository": "https://github.com/meirumeiru/IR-Kinematics",
+        "bugtracker": "https://github.com/meirumeiru/IR-Kinematics/issues",
+        "remote-avc": "https://github.com/meirumeiru/IR-Kinematics/raw/main/Resources/GameData/IRKinematics/IRKinematics.version"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "InfernalRoboticsNext"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "IR-Canadarm"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/IRKinematics",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/meirumeiru/IR-Kinematics/releases/download/v1.0.301/IR-Kinematics_v1.0.301.zip",
+    "download_size": 15695,
+    "download_hash": {
+        "sha256": "08BAD8185562FBEDA74CC2C51CDBD08290442980F1EF00526C8DA95F5B585020"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 34901,
+    "release_date": "2026-05-05T00:27:01Z",
+    "x_generated_by": "netkan"
+}
