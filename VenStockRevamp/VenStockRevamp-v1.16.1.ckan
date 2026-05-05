@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "VenStockRevamp",
+    "name": "Ven's Stock Part Revamp",
+    "abstract": "With this part pack, your rockets/planes/racecars will look at least 20% cooler as they tumble into the ground!",
+    "author": [
+        "VenVen",
+        "Kerbas-ad-astra"
+    ],
+    "version": "v1.16.1",
+    "ksp_version_min": "1.10.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/189732-*",
+        "repository": "https://github.com/Kerbas-ad-astra/Stock-Revamp",
+        "bugtracker": "https://github.com/Kerbas-ad-astra/Stock-Revamp/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Kerbas-ad-astra/Stock-Revamp/master/GameData/VenStockRevamp/VenStockRevamp.version"
+    },
+    "tags": [
+        "parts",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "VenStockRevamp-Core"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "VenStockRevamp-NewParts"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ReStock"
+        }
+    ],
+    "install": [
+        {
+            "find": "VenStockRevamp/PathPatches",
+            "install_to": "GameData/VenStockRevamp"
+        },
+        {
+            "find": "VenStockRevamp/Squad",
+            "install_to": "GameData/VenStockRevamp"
+        }
+    ],
+    "download": "https://github.com/Kerbas-ad-astra/Stock-Revamp/releases/download/v1.16.1/VenStockRevamp-v1.16.1.zip",
+    "download_size": 145971992,
+    "download_hash": {
+        "sha1": "E86045C2C2C7C064086BB2F493B43AFD3D056ED0",
+        "sha256": "D6501EC31BA2E110415BF1E7648C0781D2EE8AFDCC8EB409E35D0DD58644DF03"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 203726507,
+    "release_date": "2025-04-29T21:38:54Z",
+    "x_generated_by": "netkan"
+}
