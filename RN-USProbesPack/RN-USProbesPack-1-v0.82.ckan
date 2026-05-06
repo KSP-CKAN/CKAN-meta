@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Ships installed again",
+    "identifier": "RN-USProbesPack",
+    "name": "US Probes Pack",
+    "abstract": "This pack will include pretty much all probes ever launched by NASA and the US military. It is a long term project and I will be adding to it slowly over time.",
+    "author": "Raidernick",
+    "version": "1:v0.82",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-ND-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/84250-*",
+        "repository": "https://github.com/KSP-RO/USProbesPack",
+        "bugtracker": "https://github.com/KSP-RO/USProbesPack/issues",
+        "manual": "https://github.com/KSP-RO/USProbesPack/wiki",
+        "remote-avc": "http://raw.githubusercontent.com/KSP-RO/USProbesPack/master/GameData/RN_US_Probes/USProbesPack.version"
+    },
+    "tags": [
+        "parts",
+        "uncrewed"
+    ],
+    "depends": [
+        {
+            "name": "BDAnimationModules"
+        },
+        {
+            "name": "TexturesUnlimited"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RN-USRockets"
+        }
+    ],
+    "install": [
+        {
+            "find": "RN_US_Probes",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships/VAB",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/USProbesPack/releases/download/v0.82/RN_US_Probes_v0.82.zip",
+    "download_size": 154891174,
+    "download_hash": {
+        "sha1": "624AA8DE8C4FA1F4F95F14DCFEC63DB6FBDC0BDF",
+        "sha256": "FBBD4012050EE7329314655962335A0059E999A3339F165175D6D4AF820B4510"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 406386331,
+    "release_date": "2026-05-06T16:11:58Z",
+    "x_generated_by": "netkan"
+}
