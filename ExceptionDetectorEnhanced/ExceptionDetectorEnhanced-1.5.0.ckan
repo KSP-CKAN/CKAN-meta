@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "ExceptionDetectorEnhanced",
+    "name": "Exception Detector Enhanced",
+    "abstract": "This add-on creates a log file by hooking into the logger callbacks in Unity and is able to extract more value from the available information. Assists in finding issues that you might not even be aware of and might be able to find any pesky add-on(s) that might be causing your issues. For Kerbal Space Program.",
+    "author": "linuxgurugamer",
+    "version": "1.5.0",
+    "ksp_version_min": "1.8.1",
+    "ksp_version_max": "1.12.99",
+    "license": "BSD-2-clause",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/230538-112x-exception-detector-enhanced",
+        "spacedock": "https://spacedock.info/mod/4251/Exception%20Detector%20Enhanced",
+        "repository": "https://github.com/linuxgurugamer/ExceptionDetectorEnhanced",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/ExceptionDetectorEnhanced/master/ExceptionDetectorEnhanced.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Exception_Detector_Enhanced/Exception_Detector_Enhanced-1778151618.png"
+    },
+    "tags": [
+        "config",
+        "plugin"
+    ],
+    "localizations": [
+        "en-us",
+        "ru"
+    ],
+    "recommends": [
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ToolbarController"
+        }
+    ],
+    "install": [
+        {
+            "find": "ExceptionDetectorEnhanced",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4251/Exception%20Detector%20Enhanced/download/1.5.0",
+    "download_size": 49767,
+    "download_hash": {
+        "sha1": "3A9EB6E2B59063553EBCB7264DE87B19A700B769",
+        "sha256": "297667D0D6D153C5B0145A6BCFE1F7BF1106EFCA2B34F190B7A2403C3679D3B3"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 82030,
+    "release_date": "2026-05-07T11:28:30.101113+00:00",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
