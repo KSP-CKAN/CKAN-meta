@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "KerbalFX-AeroFX",
+    "name": "KerbalFX - AeroFX",
+    "abstract": "KerbalFX module for atmospheric ribbon condensation trails.",
+    "description": "KerbalFX AeroFX adds atmospheric ribbon condensation trails for suitable wing-like aircraft parts, driven by speed, air density, dynamic pressure, and maneuver load. Requires KerbalFX Core.",
+    "author": "bimo1d",
+    "version": "0.8.1",
+    "ksp_version_min": "1.12.5",
+    "ksp_version_max": "1.12.99",
+    "license": "Unlicense",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/230118-wip1125-kerbalfx-lightweight-modular-fx-framework-v062-15042026/",
+        "spacedock": "https://spacedock.info/mod/4190/KerbalFX",
+        "repository": "https://github.com/bimo1d/KerbalFX",
+        "bugtracker": "https://github.com/bimo1d/KerbalFX/issues",
+        "remote-avc": "https://raw.githubusercontent.com/bimo1d/KerbalFX/main/AeroFX/KerbalFX-AeroFX.version"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "localizations": [
+        "en-us",
+        "ru"
+    ],
+    "depends": [
+        {
+            "name": "KerbalFX-Core"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalFX",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/bimo1d/KerbalFX/releases/download/0.8.1/KerbalFX-AeroFX-0.8.1.zip",
+    "download_size": 32250,
+    "download_hash": {
+        "sha1": "4C2BDD360DD5088063B39C7B535542C49BA19A5C",
+        "sha256": "3CB773082060B56F9218422FF214B753DBA160D18586EDE0182E2825FD21B3E7"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 73318,
+    "release_date": "2026-05-08T10:15:23Z",
+    "x_generated_by": "netkan"
+}
