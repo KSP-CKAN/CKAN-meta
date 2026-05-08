@@ -3,7 +3,7 @@
     "identifier": "KerbalFX-AeroFX",
     "name": "KerbalFX - AeroFX",
     "abstract": "KerbalFX module for atmospheric ribbon condensation trails.",
-    "description": "KerbalFX AeroFX adds atmospheric ribbon condensation trails for suitable wing-like aircraft parts, driven by speed, air density, dynamic pressure, and maneuver load. Requires KerbalFX Core.",
+    "description": "KerbalFX AeroFX adds atmospheric ribbon condensation trails for suitable wing-like aircraft parts, driven by speed, air density, dynamic pressure, and maneuver load.",
     "author": "bimo1d",
     "version": "0.8.1",
     "ksp_version_min": "1.12.5",
@@ -27,6 +27,9 @@
     "depends": [
         {
             "name": "KerbalFX-Core"
+        },
+        {
+            "name": "KSPBurst"
         }
     ],
     "install": [
