@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "ChrisGNCSuite",
+    "name": "Chris GNC Suite",
+    "abstract": "Advanced guidance and control research for Kerbal Space Program",
+    "author": "ChrisPan",
+    "version": "0.9.7",
+    "ksp_version": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/229673-1125chris-gnc-suite-advanced-guidance-and-control-research-for-kerbal-space-program/",
+        "spacedock": "https://spacedock.info/mod/4126/Chris%20GNC%20Suite",
+        "repository": "https://github.com/ChrisInBed/Chris_KSP_Lib",
+        "bugtracker": "https://github.com/ChrisInBed/Chris_KSP_Lib/issues",
+        "manual": "https://github.com/ChrisInBed/Chris_KSP_Lib/wiki"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "depends": [
+        {
+            "name": "KSPBurst"
+        },
+        {
+            "name": "kOS"
+        },
+        {
+            "name": "FerramAerospaceResearchContinued"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "WaypointManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "kOS-Addons",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Ships/Script",
+            "install_to": "Ships"
+        }
+    ],
+    "download": [
+        "https://github.com/ChrisInBed/Chris_KSP_Lib/releases/download/v0.9.7/Chris_GNC_Suite-v0.9.7.zip",
+        "https://spacedock.info/mod/4126/Chris%20GNC%20Suite/download/0.9.7"
+    ],
+    "download_size": 13455607,
+    "download_hash": {
+        "sha1": "F5FFE6FEACA7A972A0B755606572CB8D73FEA88E",
+        "sha256": "0CC94BB475FF85FAE2B8F05590173BF33F5B5FFFFA9BD8F9341916B2E63860B8"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 6011344,
+    "release_date": "2026-05-08T15:58:58.606828+00:00",
+    "x_generated_by": "netkan"
+}
