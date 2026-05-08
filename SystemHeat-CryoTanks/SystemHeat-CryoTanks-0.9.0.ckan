@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "SystemHeat-CryoTanks",
+    "name": "System Heat - Cryo Tanks Configuration",
+    "abstract": "This System Heat config package changes zero boiloff cryogenic tanks to need cooling instead of power. WARNING: potentially vessel-breaking.",
+    "author": "Nertea (Chris Adderley)",
+    "version": "0.9.0",
+    "ksp_version_min": "1.11.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/193909-112x-systemheat-a-replacement-for-the-coreheat-system-july-21/",
+        "repository": "https://github.com/KSPModStewards/SystemHeat",
+        "bugtracker": "https://github.com/KSPModStewards/SystemHeat/issues",
+        "manual": "https://github.com/KSPModStewards/SystemHeat/wiki",
+        "remote-avc": "https://github.com/KSPModStewards/SystemHeat/releases/latest/download/SystemHeat.version"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "SystemHeat"
+        },
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SystemHeat-Converters"
+        },
+        {
+            "name": "SystemHeat-FissionReactors"
+        },
+        {
+            "name": "SystemHeat-Harvesters"
+        },
+        {
+            "name": "NearFuturePropulsion"
+        }
+    ],
+    "install": [
+        {
+            "find": "SystemHeatBoiloff",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSPModStewards/SystemHeat/releases/download/0.9.0/SystemHeat-0.9.0.zip",
+    "download_size": 1227742,
+    "download_hash": {
+        "sha256": "C6F2588227EC26752B5A002EDF51E27FF2D7633BE357C6D5FFB402A7AE2347BA"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2410,
+    "release_date": "2026-05-08T11:06:12Z",
+    "x_generated_by": "netkan"
+}
