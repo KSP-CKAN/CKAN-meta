@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "G3MagnetBoots",
+    "name": "G3MagnetBoots",
+    "abstract": "Hull Walk on EVA",
+    "author": "misterblusky",
+    "version": "1:0.8.2",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-NC-ND",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/229339-1125-g3magnetboots-ksp2-style-eva-mag-boots-for-ksp1/",
+        "spacedock": "https://spacedock.info/mod/4069/G3MagnetBoots",
+        "repository": "https://github.com/misterblusky9/G3MagnetBoots",
+        "bugtracker": "https://github.com/misterblusky9/G3MagnetBoots/issues",
+        "x_screenshot": "https://spacedock.info/content/misterblusky_179192/G3MagnetBoots/G3MagnetBoots-1777340204.png"
+    },
+    "tags": [
+        "config",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Harmony2"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/G3MagnetBoots",
+            "install_to": "GameData",
+            "filter": [
+                "0Harmony.dll",
+                "System.Core.dll"
+            ]
+        }
+    ],
+    "download": [
+        "https://github.com/misterblusky9/G3MagnetBoots/releases/download/0.8.2/G3MagnetBoots-0.8.2.zip",
+        "https://spacedock.info/mod/4069/G3MagnetBoots/download/0.8.2"
+    ],
+    "download_size": 7016914,
+    "download_hash": {
+        "sha1": "9516E9A08F27FA761318BD5BB3AFBDFBFC77B57D",
+        "sha256": "0E69CEEDB135E60CC7C8D2025220EF5C938717E57FD3B0FB51E7CD95E8BBFEE6"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 7327181,
+    "release_date": "2026-05-09T18:45:07.136195+00:00",
+    "x_generated_by": "netkan"
+}
