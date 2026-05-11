@@ -1,9 +1,9 @@
 {
-    "spec_version": "v1.34",
+    "spec_version": "v1.10",
     "identifier": "KerbVisionIR",
-    "name": "KerbVision IR",
-    "abstract": "Night Vision mod for Kerbal Space Program with old-school CRT artifacts.",
-    "author": "Garyblu71",
+    "name": "KerbVisionIR",
+    "abstract": "Night vision mod for Kerbal Space Program — monochrome/green NV with brightness, vignette, grain and scanline controls",
+    "author": "garyblu71mods",
     "version": "v2.0.3",
     "ksp_version_min": "1.12.3",
     "ksp_version_max": "1.12.99",
@@ -20,6 +20,14 @@
         "config",
         "graphics"
     ],
+    "depends": [
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ToolbarController"
+        }
+    ],
     "install": [
         {
             "find": "KerbVisionIR",
@@ -27,10 +35,7 @@
             "filter_regexp": "\\.pdb$"
         }
     ],
-    "download": [
-        "https://github.com/garyblu71mods/SimpleNV/releases/download/v2.0.3/KerbVisionIR_v2_0_3.zip",
-        "https://spacedock.info/mod/4105/KerbVision%20IR/download/2.0.3"
-    ],
+    "download": "https://spacedock.info/mod/4105/KerbVision%20IR/download/2.0.3",
     "download_size": 851177,
     "download_hash": {
         "sha1": "ACBF2C7BD89A40D280EC9E7304BB6E7CFD5F930C",
