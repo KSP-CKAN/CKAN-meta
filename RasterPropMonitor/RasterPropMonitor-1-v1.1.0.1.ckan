@@ -1,0 +1,123 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "RasterPropMonitor",
+    "name": "RasterPropMonitor",
+    "abstract": "Modifies stock and some modded IVAs with functional props",
+    "author": [
+        "Mihara",
+        "MOARdV",
+        "JonnyOThan"
+    ],
+    "version": "1:v1.1.0.1",
+    "ksp_version_min": "1.12.3",
+    "ksp_version_max": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/190737-18x-110x-rasterpropmonitor-adopted/",
+        "spacedock": "https://spacedock.info/mod/2534/RasterPropMonitor",
+        "repository": "https://github.com/FirstPersonKSP/RasterPropMonitor",
+        "bugtracker": "https://github.com/FirstPersonKSP/RasterPropMonitor/issues",
+        "manual": "https://github.com/FirstPersonKSP/RasterPropMonitor/wiki",
+        "remote-avc": "https://github.com/FirstPersonKSP/RasterPropMonitor/releases/latest/download/RasterPropMonitor.version",
+        "x_screenshot": "https://spacedock.info/content/JonnyOThan_33590/RasterPropMonitor/RasterPropMonitor-1683294207.png"
+    },
+    "tags": [
+        "config",
+        "crewed",
+        "first-person"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RasterPropMonitor-Core"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "DE-IVAExtension"
+        },
+        {
+            "name": "FreeIva"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Astrogator"
+        },
+        {
+            "name": "DockingPortAlignmentIndicator"
+        },
+        {
+            "name": "NavUtilities"
+        },
+        {
+            "name": "SCANsat"
+        },
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "VesselView"
+        },
+        {
+            "name": "ProbeControlRoomRecontrolled"
+        },
+        {
+            "name": "kOSPropMonitor"
+        },
+        {
+            "name": "Chatterer"
+        },
+        {
+            "name": "Reviva"
+        },
+        {
+            "name": "Mk1LanderCanIVAReplbyASET"
+        },
+        {
+            "name": "MK12PodIVAReplacementbyASET"
+        },
+        {
+            "name": "ALCOR"
+        },
+        {
+            "name": "ThroughTheEyesOfaKerbal"
+        },
+        {
+            "name": "QuickIVA"
+        },
+        {
+            "name": "KSAIVAUpgrade"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "MechJeb2",
+            "max_version": "2.14"
+        }
+    ],
+    "install": [
+        {
+            "find": "JSI/RPMPodPatches",
+            "install_to": "GameData/JSI",
+            "filter": [
+                "BasicMFD"
+            ]
+        }
+    ],
+    "download": [
+        "https://github.com/FirstPersonKSP/RasterPropMonitor/releases/download/1.1.0.1/RasterPropMonitor-1.1.0.1.zip",
+        "https://spacedock.info/mod/2534/RasterPropMonitor/download/1.1.0.1"
+    ],
+    "download_size": 1326966,
+    "download_hash": {
+        "sha1": "AC64A942B06876C7209A0018813E77D40ABD1B2C",
+        "sha256": "A1F3B414E11AFA9FEF7F132C7DDAA45E2FE84F35FA5DB93DBCC65B2FADE8C897"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 151460,
+    "release_date": "2026-05-15T21:19:07.132348+00:00",
+    "x_generated_by": "netkan"
+}
