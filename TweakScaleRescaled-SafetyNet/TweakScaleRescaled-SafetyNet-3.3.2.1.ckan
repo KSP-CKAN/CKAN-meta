@@ -1,23 +1,21 @@
 {
-    "spec_version": "v1.36",
+    "spec_version": "v1.34",
     "identifier": "TweakScaleRescaled-SafetyNet",
     "name": "TweakScale Rescaled SafetyNet",
     "abstract": "Attempts to prevent data loss when TweakScale has been removed from an install.",
-    "author": [
-        "Biotronic",
-        "pellinor0",
-        "JonnyOThan"
-    ],
+    "author": "JonnyOThan",
     "version": "3.3.2.1",
     "ksp_version_min": "1.12.3",
-    "ksp_version_max": "1.12",
+    "ksp_version_max": "1.12.5",
     "license": "CC-BY-NC-SA",
-    "release_status": "testing",
     "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/223692-1125-tweakscalerescaled-scale-your-parts-in-the-editor/",
+        "spacedock": "https://spacedock.info/mod/3514/TweakScale%20Rescaled",
         "repository": "https://github.com/JonnyOThan/TweakScale",
         "bugtracker": "https://github.com/JonnyOThan/TweakScale/issues",
         "manual": "https://github.com/JonnyOThan/TweakScale/wiki",
-        "remote-avc": "https://github.com/JonnyOThan/TweakScale/releases/latest/download/TweakScaleSafetyNet.version"
+        "remote-avc": "https://github.com/JonnyOThan/TweakScale/releases/latest/download/TweakScaleSafetyNet.version",
+        "x_screenshot": "https://spacedock.info/content/JonnyOThan_33590/TweakScale_Rescaled/TweakScale_Rescaled-1707076072.png"
     },
     "tags": [
         "plugin"
@@ -28,13 +26,17 @@
             "install_to": "GameData"
         }
     ],
-    "download": "https://github.com/JonnyOThan/TweakScale/releases/download/3.3.2.1/TweakScale-3.3.2.1.zip",
+    "download": [
+        "https://github.com/JonnyOThan/TweakScale/releases/download/3.3.2.1/TweakScale-3.3.2.1.zip",
+        "https://spacedock.info/mod/3514/TweakScale%20Rescaled/download/3.3.2.1"
+    ],
     "download_size": 168563,
     "download_hash": {
+        "sha1": "C3DC1A740C6B0DF9CE031886806B97CEE4D137BE",
         "sha256": "669199D6EC88EAB5335EE96FC0066C6AC035EDC332E079C627C636078847D38D"
     },
     "download_content_type": "application/zip",
     "install_size": 23467,
-    "release_date": "2026-05-14T01:22:06Z",
+    "release_date": "2026-05-15T16:50:08.072731+00:00",
     "x_generated_by": "netkan"
 }
