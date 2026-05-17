@@ -1,0 +1,45 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "LunaMultiplayer",
+    "name": "Luna Multiplayer Client",
+    "abstract": "Multiplayer mod for Kerbal Space Program (KSP)",
+    "author": [
+        "gavazquez",
+        "DrewBanyai"
+    ],
+    "version": "0.29.2",
+    "ksp_version": "1.12",
+    "license": "MIT",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "http://www.lunamultiplayer.com",
+        "repository": "https://github.com/LunaMultiplayer/LunaMultiplayer",
+        "bugtracker": "https://github.com/LunaMultiplayer/LunaMultiplayer/issues",
+        "manual": "https://github.com/LunaMultiplayer/LunaMultiplayer/wiki",
+        "remote-avc": "https://github.com/LunaMultiplayer/LunaMultiplayer/raw/master/LunaMultiplayer.version"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "Harmony2"
+        }
+    ],
+    "install": [
+        {
+            "find": "LunaMultiplayer",
+            "install_to": "GameData",
+            "filter": "0Harmony.dll"
+        }
+    ],
+    "download": "https://github.com/LunaMultiplayer/LunaMultiplayer/releases/download/0.29.2/LunaMultiplayer-Client-Release.zip",
+    "download_size": 1181769,
+    "download_hash": {
+        "sha256": "628197438F3E233B6C83A1E1C3A5EC3C1AD0EC8D8A0791987F61AC46C06A927E"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1844221,
+    "release_date": "2026-05-16T23:28:33Z",
+    "x_generated_by": "netkan"
+}
