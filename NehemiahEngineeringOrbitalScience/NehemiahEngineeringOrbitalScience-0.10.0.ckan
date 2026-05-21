@@ -1,0 +1,115 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NehemiahEngineeringOrbitalScience",
+    "name": "Orbital Material Science",
+    "abstract": "KSP mod that adds new ways to get science from space stations.",
+    "author": [
+        "N3h3miah",
+        "Micha"
+    ],
+    "version": "0.10.0",
+    "ksp_version_min": "1.11.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/mwerle/OrbitalMaterialScience",
+        "bugtracker": "https://github.com/mwerle/OrbitalMaterialScience/issues",
+        "manual": "https://github.com/mwerle/OrbitalMaterialScience/wiki",
+        "remote-avc": "https://raw.githubusercontent.com/mwerle/OrbitalMaterialScience/master/GameData/NehemiahInc/NEOS.version"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "science",
+        "crewed"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "es-es"
+    ],
+    "provides": [
+        "NehemiahInc-Complete",
+        "NehemiahScienceCommon",
+        "NehemiahMultiPurposeParts",
+        "KeminiResearchProgram",
+        "KerbalEnvironmentalEffectsStudy",
+        "KerbalLifeScience",
+        "OrbitalMaterialScience"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "KIS"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Corvus125mTwoKerbalPod"
+        },
+        {
+            "name": "K2CommandPodCont"
+        },
+        {
+            "name": "KerbalAlarmClock"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "DockingPortAlignmentIndicator"
+        },
+        {
+            "name": "UniversalStorage2"
+        }
+    ],
+    "supports": [
+        {
+            "name": "ConnectedLivingSpace"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KeminiResearchProgram"
+        },
+        {
+            "name": "KerbalEnvironmentalEffectsStudy"
+        },
+        {
+            "name": "KerbalLifeScience"
+        },
+        {
+            "name": "NehemiahInc-Complete"
+        },
+        {
+            "name": "NehemiahMultiPurposeParts"
+        },
+        {
+            "name": "NehemiahScienceCommon"
+        },
+        {
+            "name": "OrbitalMaterialScience"
+        },
+        {
+            "name": "Kerbalism",
+            "max_version": "2.99"
+        }
+    ],
+    "install": [
+        {
+            "find": "NehemiahInc",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/mwerle/OrbitalMaterialScience/releases/download/0.10.0/NehemiahEngineeringOrbitalScience_0.10.0.0_20260521094716.zip",
+    "download_size": 17715920,
+    "download_hash": {
+        "sha1": "E851D6FB552830F0EDEFC524DA050E04762A9910",
+        "sha256": "0FAC420D7CCF3F1CF28AF136514516A9EEEED5A2C69571D04F077D71ABB5035D"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 131011067,
+    "release_date": "2026-05-21T00:50:31Z",
+    "x_generated_by": "netkan"
+}
