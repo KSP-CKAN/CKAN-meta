@@ -1,0 +1,63 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "KerbalGPSRevived",
+    "name": "Kerbal GPS",
+    "abstract": "Adds support for GPS satelites",
+    "author": "linuxgurugamer",
+    "version": "1.2.2",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/177511-1",
+        "spacedock": "https://spacedock.info/mod/1949/KerbalGPS%20Revived",
+        "repository": "https://github.com/linuxgurugamer/KerbalGPS",
+        "bugtracker": "https://github.com/linuxgurugamer/KerbalGPS/issues",
+        "manual": "https://github.com/linuxgurugamer/KerbalGPS/wiki",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/KerbalGPS/refs/heads/master/KerbalGPS.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/KerbalGPS_Revived/KerbalGPS_Revived-1596931697.0786252.png"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "uncrewed"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ContractConfigurator"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalGPS",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/KerbalGPS/releases/download/1.2.2/KerbalGPS-1.12.5-1.2.2.zip",
+        "https://spacedock.info/mod/1949/KerbalGPS%20Revived/download/1.2.2"
+    ],
+    "download_size": 424377,
+    "download_hash": {
+        "sha1": "9D87B91EC20964474BFCD9DDB17F52E420960BA0",
+        "sha256": "C4CFDDA5E191387DEFBBC0CD2B4196057972FD7BF53725BCDD400BF3EAB511ED"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 8285156,
+    "release_date": "2026-05-19T22:03:59.482573+00:00",
+    "x_generated_by": "netkan"
+}
