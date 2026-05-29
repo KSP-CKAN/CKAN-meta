@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CosmicSerenity-Core",
+    "name": "Cosmic Serenity - Core",
+    "abstract": "Shared assets for Cosmic Serenity",
+    "author": "ProximaCentauri-star",
+    "version": "3.0",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/228453-112x-cosmic-serenity-v10-wip/#comment-4473675",
+        "repository": "https://github.com/ProximaCentauri-star/Cosmic-Serenity",
+        "bugtracker": "https://github.com/ProximaCentauri-star/Cosmic-Serenity/issues"
+    },
+    "tags": [
+        "config",
+        "planet-pack",
+        "library"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "ScaledDecorator"
+        },
+        {
+            "name": "KSPCommunityFixes"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CosmicSerenity-Hades"
+        },
+        {
+            "name": "CosmicSerenity-Anubis"
+        }
+    ],
+    "install": [
+        {
+            "find": "CosmicSerenity",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/ProximaCentauri-star/Cosmic-Serenity/releases/download/3.0/_Core.zip",
+    "download_size": 349598846,
+    "download_hash": {
+        "sha1": "A342D84C52DB85C0734D9BDE62242C9043D05749",
+        "sha256": "6854DEA778813EBC551958C0C34ACDE03DBF435A9EAF6994673D2F19DEFBCCA5"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 672908758,
+    "release_date": "2026-05-27T21:45:04Z",
+    "x_generated_by": "netkan"
+}
