@@ -1,0 +1,40 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "JustReadTheInstructions",
+    "name": "Just Read The Instructions",
+    "abstract": "Spiritual successor to OCISLY ! Allows you to stream your HullCam cameras on a local webpage!",
+    "author": "RELMYMathieu",
+    "version": "v2.3.0.1",
+    "ksp_version": "1.12",
+    "license": "MIT",
+    "release_status": "testing",
+    "resources": {
+        "repository": "https://github.com/RELMYMathieu/JustReadTheInstructions",
+        "bugtracker": "https://github.com/RELMYMathieu/JustReadTheInstructions/issues"
+    },
+    "tags": [
+        "config",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "HullcamVDSContinued"
+        }
+    ],
+    "install": [
+        {
+            "find": "JustReadTheInstructions",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": "https://github.com/RELMYMathieu/JustReadTheInstructions/releases/download/v2.3.0.1/JustReadTheInstructions-v2.3.0.1.zip",
+    "download_size": 337206,
+    "download_hash": {
+        "sha256": "05EDE6F4DCA57572800F28AE6C598DE0D23731F16FDD136731C60278F99134B4"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 520362,
+    "release_date": "2026-05-31T01:31:25Z",
+    "x_generated_by": "netkan"
+}
