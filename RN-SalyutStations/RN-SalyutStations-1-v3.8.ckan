@@ -1,0 +1,63 @@
+{
+    "spec_version": "v1.4",
+    "comment": "Ships readded",
+    "identifier": "RN-SalyutStations",
+    "name": "Salyut Stations",
+    "abstract": "This is a salyut mod for the DOS & OPS style stations. It contains fully functional replicas of Salyut 1, 4, 6 and 7. It also now contains Almaz 2, 3 and 5.",
+    "author": "Raidernick",
+    "version": "1:v3.8",
+    "ksp_version_min": "1.2.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-ND-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/79732-*",
+        "repository": "https://github.com/KSP-RO/SalyutStations",
+        "bugtracker": "https://github.com/KSP-RO/SalyutStations/issues",
+        "manual": "https://github.com/KSP-RO/SalyutStations/wiki",
+        "remote-avc": "http://raw.githubusercontent.com/KSP-RO/SalyutStations/master/GameData/RN_Salyut/SalyutStations.version"
+    },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "depends": [
+        {
+            "name": "BDAnimationModules"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TexturesUnlimited"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RN-SovietSpacecraft"
+        },
+        {
+            "name": "RN-SovietRockets"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "RN-SalyutStations-SoyuzFerries"
+        }
+    ],
+    "install": [
+        {
+            "find": "RN_Salyut",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/SalyutStations/releases/download/v3.8/RN_SalyutStations_v3.8.zip",
+    "download_size": 37414140,
+    "download_hash": {
+        "sha1": "74CBCBACB0E5F4E67EA841D169A00FC57DCA4C61",
+        "sha256": "35086234951855D639979A61A6B7BEA3CED33EC5A563D1CBED791299F5032B50"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 94594656,
+    "release_date": "2026-06-02T15:29:15Z",
+    "x_generated_by": "netkan"
+}
