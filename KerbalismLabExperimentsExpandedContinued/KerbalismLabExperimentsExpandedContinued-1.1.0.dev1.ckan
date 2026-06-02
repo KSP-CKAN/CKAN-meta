@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "KerbalismLabExperimentsExpandedContinued",
+    "name": "Kerbalism Lab Experiments Expanded Continued",
+    "abstract": "Adding 60+ new Kerbalism lab experiments to KSP",
+    "author": "johnabsher",
+    "version": "1.1.0.dev1",
+    "license": "CC-BY-NC-SA",
+    "release_status": "testing",
+    "resources": {
+        "repository": "https://github.com/johnabsher/KerbalismLabExperimentsExpandedContinued",
+        "bugtracker": "https://github.com/johnabsher/KerbalismLabExperimentsExpandedContinued/issues"
+    },
+    "tags": [
+        "config",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "SCANsat"
+        }
+    ],
+    "supports": [
+        {
+            "name": "StationPartsExpansionRedux"
+        },
+        {
+            "name": "SpaceDust"
+        },
+        {
+            "name": "ReStock"
+        },
+        {
+            "name": "ReStockPlus"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismLabExperimentsExpandedContinued",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": "https://github.com/johnabsher/KerbalismLabExperimentsExpandedContinued/releases/download/v1.1.0.dev1/Kerbalism_Lab_Experiments_Expanded_Continued-1.1.0.dev1.zip",
+    "download_size": 1579363,
+    "download_hash": {
+        "sha256": "52AD3E66891727B1377FA6AC4AC39D18322EF15341261CEECB9054917D54D278"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 212050,
+    "release_date": "2026-06-01T14:02:19Z",
+    "x_generated_by": "netkan"
+}
