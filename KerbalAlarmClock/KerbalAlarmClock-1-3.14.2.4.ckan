@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "KerbalAlarmClock",
+    "name": "Kerbal Alarm Clock Updated",
+    "abstract": "A plugin that allows you to create reminder alarms at future periods to help you manage your flights and not warp past important times",
+    "author": "linuxgurugamer",
+    "version": "1:3.14.2.4",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/22809-14x-kerbal-alarm-clock-v3900-mar-17/",
+        "spacedock": "https://spacedock.info/mod/4287/Kerbal%20Alarm%20Clock%20Updated",
+        "repository": "https://github.com/linuxgurugamer/KerbalAlarmClock",
+        "bugtracker": "https://github.com/linuxgurugamer/KerbalAlarmClock/issues",
+        "manual": "https://linuxgurugamer.github.io/KerbalAlarmClock/",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/KerbalAlarmClock/master/KerbalAlarmClock.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Kerbal_Alarm_Clock_Updated/Kerbal_Alarm_Clock_Updated-1780080131.png"
+    },
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "TriggerAu-Flags"
+        },
+        {
+            "name": "StockAlarmClockDisabler"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalAlarmClock",
+            "install_to": "GameData/TriggerTech"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/KerbalAlarmClock/releases/download/3.14.2.4/KerbalAlarmClock-1.12.5-3.14.2.4.zip",
+        "https://spacedock.info/mod/4287/Kerbal%20Alarm%20Clock%20Updated/download/3.14.2.4"
+    ],
+    "download_size": 1484488,
+    "download_hash": {
+        "sha1": "5EF12397C4463D6860A491DD463030A486E77999",
+        "sha256": "04F0B057BC24588C2B9B91257A2BF889405817970D0879AF8704765A4959A539"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2292686,
+    "release_date": "2026-06-05T19:11:33.589481+00:00",
+    "x_generated_by": "netkan"
+}
