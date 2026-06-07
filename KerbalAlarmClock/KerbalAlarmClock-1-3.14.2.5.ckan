@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "KerbalAlarmClock",
+    "name": "Kerbal Alarm Clock Updated",
+    "abstract": "A plugin that allows you to create reminder alarms at future periods to help you manage your flights and not warp past important times",
+    "author": "linuxgurugamer",
+    "version": "1:3.14.2.5",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/230939-112x-kerbal-alarm-clock-updated/",
+        "spacedock": "https://spacedock.info/mod/4287/Kerbal%20Alarm%20Clock%20Updated",
+        "repository": "https://github.com/linuxgurugamer/KerbalAlarmClock",
+        "bugtracker": "https://github.com/linuxgurugamer/KerbalAlarmClock/issues",
+        "manual": "https://linuxgurugamer.github.io/KerbalAlarmClock/",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/KerbalAlarmClock/master/KerbalAlarmClock.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Kerbal_Alarm_Clock_Updated/Kerbal_Alarm_Clock_Updated-1780080131.png"
+    },
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "TriggerAu-Flags"
+        },
+        {
+            "name": "StockAlarmClockDisabler"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalAlarmClock",
+            "install_to": "GameData/TriggerTech"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/KerbalAlarmClock/releases/download/3.14.2.5/KerbalAlarmClock-1.12.5-3.14.2.5.zip",
+        "https://spacedock.info/mod/4287/Kerbal%20Alarm%20Clock%20Updated/download/3.14.2.5"
+    ],
+    "download_size": 1484469,
+    "download_hash": {
+        "sha1": "9648289ED484C079F543891A310873E9057089D5",
+        "sha256": "75D20E9AA32ECB9D7F634AC27D8D2AC99F0C2F208BFF03A061A59FEA7CD033FE"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2292682,
+    "release_date": "2026-06-07T01:55:07.478914+00:00",
+    "x_generated_by": "netkan"
+}
