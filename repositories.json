@@ -24,5 +24,11 @@
             "x_mirror":  false,
             "x_comment": "Sol installation ckans (select Sol-Configs and hit apply)"
         }
+    ],
+    "blacklist": [
+        {
+            "uri_regex":   "/adventure-gpt/",
+            "description": "This repository contains untested, broken AI slop that will break your CKAN."
+        }
     ]
 }
