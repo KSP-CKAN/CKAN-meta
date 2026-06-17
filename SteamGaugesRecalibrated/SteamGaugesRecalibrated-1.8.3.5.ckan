@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "SteamGaugesRecalibrated",
+    "name": "Steam Gauges Recalibrated",
+    "abstract": "Analog Gauges for KSP",
+    "author": "linuxgurugamer",
+    "version": "1.8.3.5",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "unknown",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197605-18x-19x-110x-steam-gauges-recalibrated/",
+        "spacedock": "https://spacedock.info/mod/2550/Steam%20Gauges%20Recalibrated",
+        "repository": "https://github.com/linuxgurugamer/SteamGaugesRecalibrated",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/SteamGaugesRecalibrated/master/SteamGaugesRecalibrated.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Steam_Gauges_Recalibrated/Steam_Gauges_Recalibrated-1603398001.1224365.png"
+    },
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "SteamGauges",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/SteamGaugesRecalibrated/releases/download/1.8.3.5/SteamGaugesRecalibrated-1.12.5-1.8.3.5.zip",
+        "https://spacedock.info/mod/2550/Steam%20Gauges%20Recalibrated/download/1.8.3.5"
+    ],
+    "download_size": 5077582,
+    "download_hash": {
+        "sha1": "51682EE5E48007766A399ADE618C42B14E20AC7E",
+        "sha256": "4398408B1A576D932B0E4368D6AF9930401B9AD7451783780348316BBFCA3E4A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 14261419,
+    "release_date": "2026-06-17T15:07:05.460735+00:00",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
