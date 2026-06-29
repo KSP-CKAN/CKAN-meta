@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "RemoteTechBlackoutFix",
+    "name": "RemoteTech BlackoutFix",
+    "abstract": "Plasma smoothly blocks the signal of RemoteTech antennas depending on the intensity.",
+    "author": "NovaSpem",
+    "version": "1.0.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4362/RemoteTech%20BlackoutFix",
+        "repository": "https://github.com/NovaSpem/RemoteTechBlackoutFix",
+        "bugtracker": "https://github.com/NovaSpem/RemoteTechBlackoutFix/issues",
+        "remote-avc": "https://github.com/NovaSpem/RemoteTechBlackoutFix/releases/latest"
+    },
+    "tags": [
+        "config",
+        "plugin",
+        "comms"
+    ],
+    "depends": [
+        {
+            "name": "RemoteTech"
+        },
+        {
+            "name": "Firefly"
+        }
+    ],
+    "install": [
+        {
+            "find": "RemoteTech BlackoutFix",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/NovaSpem/RemoteTechBlackoutFix/releases/download/1.0.1/RemoteTechBlackoutFix-1.0.1.zip",
+        "https://spacedock.info/mod/4362/RemoteTech%20BlackoutFix/download/1.0.1"
+    ],
+    "download_size": 7571,
+    "download_hash": {
+        "sha1": "065E9E9A4C0334473D29E29C7D2A6959D636788B",
+        "sha256": "4A71862A8DA032797BD723B302A26AB6777AE42D9663B6E144A0A8803B5CC036"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 13594,
+    "release_date": "2026-06-29T03:01:46.365585Z",
+    "x_generated_by": "netkan"
+}
