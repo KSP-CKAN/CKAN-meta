@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "Kerbal3DExporter",
+    "name": "Kerbal 3D Exporter",
+    "abstract": "An editor/flight plugin for exporting the currently loaded (or active) craft as a 3D model suitable for visualization and 3D printing.",
+    "author": "linuxgurugamer",
+    "version": "0.0.2",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/231352-112x-kerbal-3d-exporter-",
+        "spacedock": "https://spacedock.info/mod/4396/Kerbal%203D%20Exporter",
+        "repository": "https://github.com/linuxgurugamer/Kerbal-3D-Exporter",
+        "bugtracker": "https://github.com/linuxgurugamer/Kerbal-3D-Exporter/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/Kerbal-3D-Exporter/refs/heads/main/Kerbal-3D-Exporter.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Kerbal_3D_Exporter/Kerbal_3D_Exporter-1783899823.png"
+    },
+    "tags": [
+        "config",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "SpaceTuxLibrary"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "Kerbal-3D-Exporter",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/Kerbal-3D-Exporter/releases/download/0.0.2/Kerbal-3D-Exporter-1.12.5-0.0.2.zip",
+        "https://spacedock.info/mod/4396/Kerbal%203D%20Exporter/download/0.0.2"
+    ],
+    "download_size": 108921,
+    "download_hash": {
+        "sha1": "D67C79CE57908FF0F67B0E8B9DC5D33D44ECC8FE",
+        "sha256": "505367893CD09A1EA836367F5ECC1AE6A72AE846CE8C340C916E5603CBF5E0D7"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 196004,
+    "release_date": "2026-07-14T15:44:56.997118Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
