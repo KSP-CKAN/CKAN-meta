@@ -1,14 +1,18 @@
 {
-    "spec_version": "v1.4",
+    "spec_version": "v1.34",
     "identifier": "TURD-KerbalFoundries",
     "name": "TURD - Kerbal Foundries",
     "abstract": "Collection of Textures Unlimited recolours for Kerbal Foundries Continued",
     "author": "Spartwo",
     "version": "v0.2",
+    "ksp_version": "1.12.5",
     "license": "CC-BY-NC-SA-4.0",
     "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/174188-112x-textures-unlimited-recolour-depot/",
+        "spacedock": "https://spacedock.info/mod/4414/Kerbal%20Foundries%20Recolour",
         "repository": "https://github.com/KerbalPowers/TURD-KerbalFoundries",
-        "bugtracker": "https://github.com/KerbalPowers/TURD-KerbalFoundries/issues"
+        "bugtracker": "https://github.com/KerbalPowers/TURD-KerbalFoundries/issues",
+        "x_screenshot": "https://spacedock.info/content/Spartwo_95463/Kerbal_Foundries_Recolour/Kerbal_Foundries_Recolour-1784239900.png"
     },
     "tags": [
         "config",
@@ -27,11 +31,14 @@
     ],
     "install": [
         {
-            "find": "TURD",
-            "install_to": "GameData"
+            "find": "TURD/TU_KerbalFoundries_Recolour",
+            "install_to": "GameData/TURD"
         }
     ],
-    "download": "https://github.com/KerbalPowers/TURD-KerbalFoundries/releases/download/v0.2/TURD-KerbalFoundries.zip",
+    "download": [
+        "https://github.com/KerbalPowers/TURD-KerbalFoundries/releases/download/v0.2/TURD-KerbalFoundries.zip",
+        "https://spacedock.info/mod/4414/Kerbal%20Foundries%20Recolour/download/v0.2"
+    ],
     "download_size": 825111,
     "download_hash": {
         "sha1": "48673E45A9F600DC2B2DDA0D776E2F9CB3FCD03D",
@@ -39,6 +46,6 @@
     },
     "download_content_type": "application/zip",
     "install_size": 12068473,
-    "release_date": "2025-08-29T23:54:42Z",
+    "release_date": "2026-07-16T22:11:10.363281Z",
     "x_generated_by": "netkan"
 }
