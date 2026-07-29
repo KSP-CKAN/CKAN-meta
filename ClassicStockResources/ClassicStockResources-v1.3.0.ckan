@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ClassicStockResources",
+    "name": "Classic Stock Resources",
+    "abstract": "An alternative resource set for Kerbal Space Program",
+    "author": "Angel-125",
+    "version": "v1.3.0",
+    "ksp_version_min": "1.8.0",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://github.com/Angel-125/ClassicStockResources",
+        "repository": "https://github.com/Angel-125/ClassicStockResources",
+        "bugtracker": "https://github.com/Angel-125/ClassicStockResources/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/MOLE/master/GameData/WildBlueIndustries/ClassicStockResources/ClassicStockResources.version"
+    },
+    "tags": [
+        "library",
+        "resources"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ClassicStockResources-PlayMode"
+        }
+    ],
+    "install": [
+        {
+            "find": "ClassicStockResources",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter": "Templates"
+        },
+        {
+            "find": "ClassicStockResources/Templates/Common",
+            "install_to": "GameData/WildBlueIndustries/ClassicStockResources/Templates"
+        }
+    ],
+    "download": "https://github.com/Angel-125/ClassicStockResources/releases/download/v1.3.0/ClassicStockResources.zip",
+    "download_size": 61409,
+    "download_hash": {
+        "sha1": "CD4AA3A7DB3B4ACC3910BBA66B9117CE77B82692",
+        "sha256": "A96654A986C087D0109C5A500566289152EB7D81C82777FA0C94946F76D5F146"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 109037,
+    "release_date": "2026-07-29T00:45:32Z",
+    "x_generated_by": "netkan"
+}
