@@ -1,0 +1,68 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "Sandcastle",
+    "name": "Sandcastle",
+    "abstract": "Base building with KSP stock EVA Construction",
+    "author": "Angel-125",
+    "version": "v1.4.1",
+    "ksp_version_min": "1.12.5",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/201137-*",
+        "repository": "https://github.com/Angel-125/Sandcastle",
+        "bugtracker": "https://github.com/Angel-125/Sandcastle/issues",
+        "manual": "https://github.com/Angel-125/Sandcastle/wiki",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/Sandcastle/main/ReleaseFolder/GameData/WildBlueIndustries/Sandcastle/Sandcastle.version"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "crewed"
+    ],
+    "localizations": [
+        "en-us",
+        "it-it",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "WildBlueCore"
+        },
+        {
+            "name": "NearFutureProps"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ExtraPlanetaryLaunchpads"
+        },
+        {
+            "name": "KSP-PartVolume"
+        }
+    ],
+    "supports": [
+        {
+            "name": "WildBlueTools"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/WildBlueIndustries/SandCastle",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": "https://github.com/Angel-125/Sandcastle/releases/download/v1.4.1/Sandcastle.zip",
+    "download_size": 68798103,
+    "download_hash": {
+        "sha1": "4CD8A14D23A950883B8B815F24EA8740B629AD46",
+        "sha256": "D821BE7BA94E08F9CC92CA5CA2E443C3FF379EC11EDC6B1C0AA260D9218B4B78"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 155473616,
+    "release_date": "2026-08-01T19:27:15Z",
+    "x_generated_by": "netkan"
+}
