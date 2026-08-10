@@ -1,0 +1,75 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Kerbalism-SystemHeat",
+    "name": "Kerbalism - SystemHeat Core",
+    "abstract": "Optional Kerbalism SystemHeat bridge for converters, harvesters, radiators, drills, and chemical plants.",
+    "author": "Kerbalism Contributors",
+    "version": "3.41",
+    "license": "Unlicense",
+    "resources": {
+        "repository": "https://github.com/Kerbalism/Kerbalism",
+        "bugtracker": "https://github.com/Kerbalism/Kerbalism/issues",
+        "manual": "https://github.com/Kerbalism/Kerbalism/wiki"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kerbalism-Config"
+        },
+        {
+            "name": "SystemHeat"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KerbalismSystemHeatCompat"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-FarFutureTechnologies"
+        },
+        {
+            "name": "SterlingSystemsKerbalism"
+        },
+        {
+            "name": "SystemHeat-CryoTanks"
+        },
+        {
+            "name": "SystemHeat-Converters"
+        },
+        {
+            "name": "SystemHeat-FissionEngines"
+        },
+        {
+            "name": "SystemHeat-FissionReactors"
+        },
+        {
+            "name": "SystemHeat-Harvesters"
+        },
+        {
+            "name": "SystemHeat-IonEngines"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismSystemHeatCore",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Kerbalism/Kerbalism/releases/download/3.41/KerbalismSystemHeatExtras_v3.41_for_KSP1.12.x.zip",
+    "download_size": 47564,
+    "download_hash": {
+        "sha1": "2DBEDD1D86FAB5ECD177A43AD285D2C02CD63B84",
+        "sha256": "6E27BA5F0563429319262B06845131E2EC27345D98357EE5E362E50AB4E1FDE9"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 31806,
+    "release_date": "2026-08-08T01:59:11Z",
+    "x_generated_by": "netkan"
+}
