@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "4kSPExpanded",
+    "name": "4kSP_Expanded",
+    "abstract": "4kSP scales the map elements corresponding to the stock UI scale setting",
+    "author": "linuxgurugamer",
+    "version": "0.2.4",
+    "ksp_version_min": "1.12.3",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/197794-18x-19x-110x-4ksp-expanded/",
+        "spacedock": "https://spacedock.info/mod/2554/4kSP_Expanded",
+        "repository": "https://github.com/linuxgurugamer/4ksp_Expanded",
+        "bugtracker": "https://github.com/linuxgurugamer/4ksp_Expanded/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/4ksp_Expanded/master/4kSP.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/4kSP_Expanded/4kSP_Expanded-1603995829.391196.jpg"
+    },
+    "tags": [
+        "plugin",
+        "convenience",
+        "information",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "4kSP"
+        }
+    ],
+    "install": [
+        {
+            "find": "4ksp",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/4ksp_Expanded/releases/download/0.2.4/4kSP-1.12.5-0.2.4.zip",
+        "https://spacedock.info/mod/2554/4kSP_Expanded/download/0.2.4"
+    ],
+    "download_size": 51189,
+    "download_hash": {
+        "sha1": "B9E9D7BE3BEB7767EB676A431E8DE5510268CF32",
+        "sha256": "72EAB67FCB79A2717867D98E29BB719B021DC0AB91440C07800A5394F4A67A55"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 80662,
+    "release_date": "2026-08-11T10:59:51.867166Z",
+    "x_via": "Automated Linuxgurugamer CKAN script",
+    "x_generated_by": "netkan"
+}
