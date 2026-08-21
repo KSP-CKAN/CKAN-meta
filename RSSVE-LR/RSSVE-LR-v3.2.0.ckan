@@ -1,0 +1,87 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RSSVE-LR",
+    "name": "RSS Visual Enhancements - Low Resolution",
+    "abstract": "A visual enhancement pack for the Kerbal Space Program RealSolarSystem mod.",
+    "author": [
+        "al2me6",
+        "blowfishpro",
+        "Capkirk123",
+        "NathanKell",
+        "pjf",
+        "rsparkyc",
+        "SirKeplan",
+        "StollD",
+        "StonesmileGit",
+        "stratochief66",
+        "zorg2044",
+        "PhineasFreak"
+    ],
+    "version": "v3.2.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/153511-rssve",
+        "repository": "https://github.com/KSP-RO/RSSVE",
+        "bugtracker": "https://github.com/KSP-RO/RSSVE/issues",
+        "manual": "https://github.com/KSP-RO/RSSVE/wiki",
+        "remote-avc": "https://raw.githubusercontent.com/KSP-RO/RSSVE/master/RSSVE/RSSVE.version"
+    },
+    "tags": [
+        "plugin",
+        "graphics"
+    ],
+    "provides": [
+        "EnvironmentalVisualEnhancements-Config",
+        "RSSVE-Textures"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "RealSolarSystem"
+        },
+        {
+            "name": "Scatterer",
+            "suppress_recommendations": true
+        }
+    ],
+    "recommends": [
+        {
+            "name": "DistantObject"
+        },
+        {
+            "name": "PlanetShine"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "EnvironmentalVisualEnhancements-Config"
+        },
+        {
+            "name": "RSSVE-Textures"
+        }
+    ],
+    "install": [
+        {
+            "find": "RSSVE",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RSSVE/releases/download/v3.2.0/RSSVE_LR.zip",
+    "download_size": 21900139,
+    "download_hash": {
+        "sha1": "21274F536EF8FD01A8AACDCE494281508EF3A890",
+        "sha256": "7F5113263329E10645CE6FE20E9E60BD07FCC71E0CF4F661CBF85A0A224C7C6F"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 60630838,
+    "release_date": "2026-08-21T11:29:26Z",
+    "x_generated_by": "netkan"
+}
