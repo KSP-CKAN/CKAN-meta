@@ -1,0 +1,86 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Kerbalism-Config-Default",
+    "name": "Kerbalism - Default Config",
+    "abstract": "Default configuration for Kerbalism",
+    "author": "Kerbalism Contributors",
+    "version": "3.42",
+    "license": "Unlicense",
+    "resources": {
+        "repository": "https://github.com/Kerbalism/Kerbalism",
+        "bugtracker": "https://github.com/Kerbalism/Kerbalism/issues",
+        "manual": "https://github.com/Kerbalism/Kerbalism/wiki"
+    },
+    "tags": [
+        "config",
+        "physics",
+        "crewed",
+        "science"
+    ],
+    "localizations": [
+        "de",
+        "en-us",
+        "es-es",
+        "fr-fr",
+        "it-it",
+        "ko-kr",
+        "pt-br",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "Kerbalism-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalismEngineFailures"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-Config"
+        },
+        {
+            "name": "UKS"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "USI-LS"
+        },
+        {
+            "name": "BackgroundProcessing"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismConfig",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Kerbalism/Kerbalism/releases/download/3.42/Kerbalism-Config_v3.42_for_KSP1.12.x.zip",
+    "download_size": 15350289,
+    "download_hash": {
+        "sha1": "07E71219747C0EBFC87A5223028AF6697A383370",
+        "sha256": "5B5BEE470C527CAA08D9D45DB7BF58891B5B6FE97A9C19B9215FBCED51735C65"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 40899788,
+    "release_date": "2026-08-23T15:21:21Z",
+    "x_generated_by": "netkan"
+}
