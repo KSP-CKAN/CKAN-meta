@@ -1,0 +1,67 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalismSystemHeatCompat",
+    "name": "Kerbalism - SystemHeat Compat",
+    "abstract": "Optional Kerbalism SystemHeat support for stock and third-party parts. Requires Kerbalism-SystemHeat.",
+    "author": "Kerbalism Contributors",
+    "version": "3.42",
+    "license": "MIT",
+    "resources": {
+        "repository": "https://github.com/Kerbalism/Kerbalism",
+        "bugtracker": "https://github.com/Kerbalism/Kerbalism/issues",
+        "manual": "https://github.com/Kerbalism/Kerbalism/wiki"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kerbalism-SystemHeat"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-FarFutureTechnologies"
+        },
+        {
+            "name": "SterlingSystemsKerbalism"
+        },
+        {
+            "name": "SystemHeat-CryoTanks"
+        },
+        {
+            "name": "SystemHeat-Converters"
+        },
+        {
+            "name": "SystemHeat-FissionEngines"
+        },
+        {
+            "name": "SystemHeat-FissionReactors"
+        },
+        {
+            "name": "SystemHeat-Harvesters"
+        },
+        {
+            "name": "SystemHeat-IonEngines"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismSystemHeatCompat",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Kerbalism/Kerbalism/releases/download/3.42/KerbalismSystemHeatExtras_v3.42_for_KSP1.12.x.zip",
+    "download_size": 45930,
+    "download_hash": {
+        "sha1": "5B1724F22879592A431FCC38E5C186E732452E88",
+        "sha256": "EE42A9E878FB1F9846C9457B702699EF8C15A0A8CAC8FAFAE47D25886952C2B4"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 113759,
+    "release_date": "2026-08-23T15:21:30Z",
+    "x_generated_by": "netkan"
+}
