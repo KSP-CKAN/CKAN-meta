@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ContractConfiguratorExtended",
+    "name": "ContractConfiguratorExtended",
+    "abstract": "A config file based solution for creating new contracts for Kerbal Space Program. Extended with new functionalities for Sol-Contracts.",
+    "author": "defoma",
+    "version": "v0.1",
+    "ksp_version_min": "1.12.3",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/91625-1",
+        "spacedock": "https://spacedock.info/mod/4073/ContractConfiguratorExtended",
+        "repository": "https://github.com/defoma/ContractConfiguratorExtended",
+        "remote-avc": "https://github.com/KSP-RO/ContractConfigurator/raw/master/GameData/ContractConfigurator/ContractConfigurator.version"
+    },
+    "tags": [
+        "plugin",
+        "library",
+        "career"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "ContractConfigurator"
+        }
+    ],
+    "install": [
+        {
+            "find": "ContractConfigurator",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4073/ContractConfiguratorExtended/download/v0.1",
+    "download_size": 714132,
+    "download_hash": {
+        "sha1": "8EADBBA64BD45C6979E664C9326550318E3C3ED9",
+        "sha256": "CB92AADC3E81B943BD36A9C0A95A0A6D3C789A24B8095A92455EE3CFEB0DB360"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2160219,
+    "release_date": "2026-08-26T14:37:52.148864Z",
+    "x_generated_by": "netkan"
+}
