@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "CaliperPatches",
+    "name": "CaliperPatches",
+    "abstract": "A set of ModuleManager patches for KSP.",
+    "author": "caliperstorm",
+    "version": "1.1.0",
+    "ksp_version": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4529/CaliperPatches",
+        "repository": "https://github.com/Caliperstorm/KSP-patches",
+        "bugtracker": "https://github.com/Caliperstorm/KSP-patches/issues"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "PatchManager"
+        },
+        {
+            "name": "Waterfall"
+        }
+    ],
+    "install": [
+        {
+            "find": "CaliperPatches",
+            "install_to": "GameData/Caliper",
+            "filter": [
+                "__MACOSX",
+                ".DS_Store"
+            ]
+        }
+    ],
+    "download": [
+        "https://github.com/Caliperstorm/KSP-patches/releases/download/1.1.0/CaliperPatches1.1.0.zip",
+        "https://spacedock.info/mod/4529/CaliperPatches/download/1.1.0"
+    ],
+    "download_size": 20182,
+    "download_hash": {
+        "sha1": "632D22F8DB770CA00E0A678AFA6529303941C6E9",
+        "sha256": "5ED9540EAF541B7FA4A8788CD53792F7BD4ECC70D0C4FFA6A33392DD4CB04513"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 59232,
+    "release_date": "2026-09-01T19:57:04.290405Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
