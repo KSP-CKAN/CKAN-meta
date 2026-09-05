@@ -1,0 +1,48 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "KERRendezvousTools",
+    "name": "KER Rendezvous Tools",
+    "abstract": "A single Kerbal Engineer Redux companion plugin containing two rendezvous advisory instruments, one for atmospheric orbital plane matching during SSTO climbout, and one for determining the most optimal launch windows to for rendezvous.",
+    "author": "AngloSaxon1417",
+    "version": "1.0.2",
+    "ksp_version": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4453/KER%20Rendezvous%20Tools",
+        "repository": "https://github.com/MiG41Flatpack/KER-Rendezvous-Tools",
+        "bugtracker": "https://github.com/MiG41Flatpack/KER-Rendezvous-Tools/issues",
+        "discussions": "https://github.com/MiG41Flatpack/KER-Rendezvous-Tools/discussions",
+        "x_screenshot": "https://spacedock.info/content/AngloSaxon1417_189154/PlaneMatchKER/PlaneMatchKER-1785767936.png"
+    },
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "depends": [
+        {
+            "name": "KerbalEngineerRedux",
+            "min_version": "1.1.9.5"
+        }
+    ],
+    "install": [
+        {
+            "find": "KERRendezvousTools",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": [
+        "https://github.com/MiG41Flatpack/KER-Rendezvous-Tools/releases/download/1.0.2/KERRendezvousTools-v1.0.2.zip",
+        "https://spacedock.info/mod/4453/KER%20Rendezvous%20Tools/download/KER-RT%201.0.2"
+    ],
+    "download_size": 35934,
+    "download_hash": {
+        "sha1": "651648681734B0011240E72AE3D4E85FEEDF882B",
+        "sha256": "87EA21B9064AD4DAFD48A9327858A1343D03BAD613AA61F6A60B7C4913A8A727"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 51949,
+    "release_date": "2026-08-03T20:23:31.687874Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
