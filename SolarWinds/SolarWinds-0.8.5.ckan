@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "SolarWinds",
+    "name": "solarwinds",
+    "abstract": "i am working on a big update rn the mod will be so much better -titan",
+    "author": "titan_68810",
+    "version": "0.8.5",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4452/solarwinds",
+        "x_screenshot": "https://spacedock.info/content/titan_68810_189098/solarwinds/solarwinds-1785883973.png"
+    },
+    "tags": [
+        "config",
+        "planet-pack",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "VertexMitchellNetravaliHeightMap"
+        },
+        {
+            "name": "Singularity"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "ScaledDecorator"
+        }
+    ],
+    "install": [
+        {
+            "find": "SolarWinds",
+            "install_to": "GameData",
+            "filter_regexp": "\\.cs(\\.bak)?$|Compile-AetherisSupernova\\.ps1$|HOW_TO_COMPILE\\.txt$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4452/solarwinds/download/0.8.5",
+    "download_size": 179189490,
+    "download_hash": {
+        "sha1": "81A8EF72082FCB5B2982697EADAA43D84402EDD4",
+        "sha256": "FD18D3D8ECFD82F79947F1D49D7BE5DF874A70D069DE689212AD2279285845FF"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 551924299,
+    "release_date": "2026-08-04T17:24:54.593917Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
