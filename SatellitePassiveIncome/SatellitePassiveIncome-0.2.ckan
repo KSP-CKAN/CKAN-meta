@@ -1,0 +1,46 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "SatellitePassiveIncome",
+    "name": "Satellite Passive Income",
+    "abstract": "A mod that allows you to get passive funds income from unmanned probes.",
+    "author": "Tony_D",
+    "version": "0.2",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4438/Satellite%20Passive%20Income",
+        "repository": "https://github.com/9D-Tony/PassiveIncomeSat",
+        "bugtracker": "https://github.com/9D-Tony/PassiveIncomeSat/issues",
+        "x_screenshot": "https://spacedock.info/content/Tony_D_188797/Satellite_Passive_Income/Satellite_Passive_Income-1785198641.png"
+    },
+    "tags": [
+        "config",
+        "plugin",
+        "career",
+        "uncrewed"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "PassiveIncomeSat",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4438/Satellite%20Passive%20Income/download/0.2",
+    "download_size": 9575,
+    "download_hash": {
+        "sha1": "9B82A227681F6F9C4E9FB5C3EE12450C9D25B97C",
+        "sha256": "861BDEC63821A38E365B386DEA24A747FDE9A42DB79363974B7F43A4E22D1223"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 12304,
+    "release_date": "2026-07-28T23:04:42.756901Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
