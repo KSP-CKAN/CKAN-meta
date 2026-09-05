@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "ThickerTrajectoryLines",
+    "name": "Thicker Trajectory Lines",
+    "abstract": "Makes trajectory lines of objects (vessels, trash, etc.), bodies (planets, moons) and contract orbits easier to see by making them [THICKER]. Configurable!",
+    "author": "murolem",
+    "version": "1.0.0",
+    "ksp_version_min": "1.12",
+    "ksp_version_max": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/231683-112-thicker-trajectory-lines/",
+        "spacedock": "https://spacedock.info/mod/4525/Thicker%20Trajectory%20Lines",
+        "repository": "https://github.com/murolem/ksp-mod-thicker-trajectory-lines",
+        "bugtracker": "https://github.com/murolem/ksp-mod-thicker-trajectory-lines/issues",
+        "remote-avc": "https://github.com/murolem/ksp-mod-thicker-trajectory-lines/releases/latest/download/mod.version",
+        "x_screenshot": "https://spacedock.info/content/murolem_190699/Thicker_Trajectory_Lines/Thicker_Trajectory_Lines-1788144000.png"
+    },
+    "tags": [
+        "plugin",
+        "convenience",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "Harmony2"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ToolbarController"
+        }
+    ],
+    "install": [
+        {
+            "find": "ThickerTrajectoryLines",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": [
+        "https://github.com/murolem/ksp-mod-thicker-trajectory-lines/releases/download/1.0.0/ThickerTrajectoryLines-1.0.0.zip",
+        "https://spacedock.info/mod/4525/Thicker%20Trajectory%20Lines/download/1.0.0"
+    ],
+    "download_size": 29762,
+    "download_hash": {
+        "sha1": "40833581BACC155A6A409A411918347DDD657F74",
+        "sha256": "E881F314BF150CAAB8E9A661C04FD0CCEE5DC1C398822E0BBA9796BF271A0C63"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 38437,
+    "release_date": "2026-08-31T02:39:48.297994Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
