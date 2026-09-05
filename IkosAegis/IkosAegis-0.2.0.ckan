@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "IkosAegis",
+    "name": "IkosAegis",
+    "abstract": "Put a PIN keypad on your ships - lock a craft's controls behind a code.",
+    "description": "Adds a numeric keypad lock to every command part - probe cores and crewed pods alike. Set a code in the VAB, engage the lock, and the craft will not pitch, roll, yaw, throttle, stage or fire an action group until somebody types the code back in. Crew cannot EVA out, nobody can board in, and the vessel cannot be recovered or terminated without the PIN unless it is parked on a launch pad or runway. One craft has one lock and one PIN however many command parts it carries. The two Aegis buttons stay reachable in the part menu while locked, so a craft can always be opened again. Attached by ModuleManager, so it covers modded command parts as well as stock ones.",
+    "author": [
+        "drebsdorf"
+    ],
+    "version": "0.2.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/taz00/IkosAegis",
+        "repository": "https://github.com/TAz00/IkosAegis",
+        "bugtracker": "https://github.com/TAz00/IkosAegis/issues",
+        "remote-avc": "https://raw.githubusercontent.com/taz00/IkosAegis/main/GameData/IkosAegis/IkosAegis.version"
+    },
+    "tags": [
+        "plugin",
+        "control"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Harmony2"
+        }
+    ],
+    "install": [
+        {
+            "find": "IkosAegis",
+            "install_to": "GameData",
+            "filter": [
+                "Thumbs.db",
+                ".DS_Store"
+            ],
+            "filter_regexp": "\\.pdb"
+        }
+    ],
+    "download": "https://github.com/TAz00/IkosAegis/releases/download/0.2.0/IkosAegis-0.2.0.zip",
+    "download_size": 27157,
+    "download_hash": {
+        "sha1": "FAFB3B1FEC47071917A34E9FA22D3D8BA61D6422",
+        "sha256": "A3C9ACA10B79C64582E3077DE0ECFFDD6A0BDA02CA1DF4E6D03459DE80FE50B0"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 61619,
+    "release_date": "2026-08-20T20:57:16Z",
+    "x_generated_by": "netkan"
+}
