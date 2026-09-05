@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "BDBExtensionRL10E1",
+    "name": "BDB Extension: RL-10E-1",
+    "abstract": "An extension to Bluedog Design Bureau that adds a model for the RL-10E-1",
+    "author": "BobKermanIndustries",
+    "version": "1.0",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4484/BDB%20Extension:%20RL-10E-1",
+        "repository": "https://github.com/BobKermanIndustries/BDB-Extension-RL-10E-1",
+        "bugtracker": "https://github.com/BobKermanIndustries/BDB-Extension-RL-10E-1/issues",
+        "x_screenshot": "https://spacedock.info/content/BobKermanIndustries_84174/BDB_Extension_RL-10E-1/BDB_Extension_RL-10E-1-1786667609.png"
+    },
+    "tags": [
+        "graphics",
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "BluedogDB"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "Waterfall"
+        }
+    ],
+    "install": [
+        {
+            "find": "BDBRL10-E-1",
+            "install_to": "GameData",
+            "filter": ".git"
+        }
+    ],
+    "download": [
+        "https://github.com/BobKermanIndustries/BDB-Extension-RL-10E-1/releases/download/v1.0/BKI-BDBRL10E1.zip",
+        "https://spacedock.info/mod/4484/BDB%20Extension:%20RL-10E-1/download/v1.0"
+    ],
+    "download_size": 5092002,
+    "download_hash": {
+        "sha1": "E3D8541810F99FA5D532986AA365332B06F60F69",
+        "sha256": "5A8699A9E3B71881E8F7AF758A91704DFA554EBDCA5133C2F75EBCA0BE5AD60B"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 16937146,
+    "release_date": "2026-08-14T00:31:29.05908Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
