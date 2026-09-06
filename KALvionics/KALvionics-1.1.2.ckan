@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "KALvionics",
+    "name": "KALvionics",
+    "abstract": "Enables flight data such as speed and altitude to be used as inputs in the KAL-1000 controller. ",
+    "author": "Squiddy",
+    "version": "1.1.2",
+    "ksp_version_min": "1.8",
+    "ksp_version_max": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4358/KALvionics",
+        "x_screenshot": "https://spacedock.info/content/Squiddy_187524/KALvionics/KALvionics-1782520893.png"
+    },
+    "tags": [
+        "config",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "BreakingGround-DLC"
+        }
+    ],
+    "install": [
+        {
+            "find": "KALvionics",
+            "install_to": "GameData",
+            "filter_regexp": "(\\.pdb|\\.craft)$"
+        },
+        {
+            "find_regexp": ".*\\.craft$",
+            "install_to": "Ships/SPH",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/4358/KALvionics/download/1.1.2",
+    "download_size": 52342,
+    "download_hash": {
+        "sha1": "D228DDA315CDC893DC0C4005EE9FB47772F18847",
+        "sha256": "FE48BCB8CDA7DC73A0E1ACC4FDC85E3D5EAD9B9E89A45451F5FCD21EDCAF39B1"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 497128,
+    "release_date": "2026-07-07T14:58:59.153845Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
