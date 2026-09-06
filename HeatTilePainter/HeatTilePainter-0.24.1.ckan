@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "HeatTilePainter",
+    "name": "Heat Tile Painter",
+    "abstract": "Paint heat-tile patterns or flat colors onto craft with editable layers and optional heat protection.",
+    "author": "peachyG",
+    "version": "0.24.1",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/231652-1125-heat-tile-painter-0241-very-simple-way-to-add-heat-shielding-to-sstosspaceplanes/",
+        "repository": "https://github.com/peachyGT/HeatTilePainter",
+        "bugtracker": "https://github.com/peachyGT/HeatTilePainter/issues",
+        "remote-avc": "https://raw.githubusercontent.com/peachyGT/HeatTilePainter/main/GameData/HeatTileOverlayPrototype/HeatTilePainter.version"
+    },
+    "tags": [
+        "plugin",
+        "editor",
+        "graphics",
+        "physics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "HeatTileOverlayPrototype",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/peachyGT/HeatTilePainter/releases/download/v0.24.1/HeatTilePainter-0.24.1.zip",
+    "download_size": 2603565,
+    "download_hash": {
+        "sha1": "F7090FBA9F017FD07682B3EB2E00D7599C98C6D2",
+        "sha256": "85E396A592409EAFE1E8F20E76D1CC9459C44DA3AB3AB6994EC97014B038677F"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2780265,
+    "release_date": "2026-08-25T20:07:32Z",
+    "x_generated_by": "netkan"
+}
