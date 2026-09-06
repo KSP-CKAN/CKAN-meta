@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CustomScienceContracts-SOLConfig",
+    "name": "Custom Science Contracts - SOL Campaign",
+    "abstract": "The Custom Science Contracts campaign profile for the SOL real-solar-system planet pack.",
+    "description": "Installs the handcrafted SOL campaign catalog for Custom Science Contracts. Select this profile only for a game using the SOL planet pack; it references bodies such as Earth, Moon, Mars, Jupiter and Saturn.",
+    "author": "timduebi",
+    "version": "0.10.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/timduebi/ksp-custom-science-contracts",
+        "bugtracker": "https://github.com/timduebi/ksp-custom-science-contracts/issues"
+    },
+    "tags": [
+        "config",
+        "science"
+    ],
+    "provides": [
+        "CustomScienceContracts-Config"
+    ],
+    "conflicts": [
+        {
+            "name": "CustomScienceContracts-Config"
+        }
+    ],
+    "install": [
+        {
+            "find": "Contracts",
+            "install_to": "GameData/CustomScienceContracts"
+        }
+    ],
+    "download": "https://github.com/timduebi/ksp-custom-science-contracts/releases/download/v0.10.0/CustomScienceContracts-v0.10.0_SOL-Config.zip",
+    "download_size": 26868,
+    "download_hash": {
+        "sha1": "A338F116CC5AF7964ED25DAFA6F14313CB44BF0C",
+        "sha256": "C9F9E0C5E920675C2D419250190BFB721F8AFBC0F014955488ECAA9D5F22B6D7"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 294424,
+    "release_date": "2026-08-13T22:07:52Z",
+    "x_generated_by": "netkan"
+}
