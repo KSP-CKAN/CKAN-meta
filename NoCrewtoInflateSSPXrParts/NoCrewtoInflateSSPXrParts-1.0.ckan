@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "NoCrewtoInflateSSPXrParts",
+    "name": "No Crew to Inflate SSPXr Parts",
+    "abstract": "Removes SSPXr's requirement to have engineers on board to inflate habs and centrifuges",
+    "author": "NVB9",
+    "version": "1.0",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4278/No%20Crew%20to%20Inflate%20SSPXr%20Parts"
+    },
+    "tags": [
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "StationPartsExpansionRedux"
+        }
+    ],
+    "install": [
+        {
+            "find_regexp": ".*\\.cfg$",
+            "find_matches_files": true,
+            "install_to": "GameData/NoCrewtoInflateSSPXrParts"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4278/No%20Crew%20to%20Inflate%20SSPXr%20Parts/download/1.0",
+    "download_size": 348,
+    "download_hash": {
+        "sha1": "D65083C6DA61262390624EFC328F41DDEB49E20B",
+        "sha256": "77E349F88DA4FB3ACFA5215837C8D67ED843EF5739BA7C6120D17DA42E7CF90E"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 345,
+    "release_date": "2026-05-23T23:37:00.859536Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
