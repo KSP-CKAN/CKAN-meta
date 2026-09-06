@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "LittleLandsExpansion-DefaultConfig",
+    "name": "Little Lands Expansion (Default Config)",
+    "abstract": "This mod adds four dwarf planets, along with 2 moons beyond eeloo orbit",
+    "author": "Harrisoncook",
+    "version": "v1.1",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4431/Little%20Lands%20Expansion%20(Default%20Config)",
+        "x_screenshot": "https://spacedock.info/content/Harrisoncook_188497/Little_Lands_Expansion_Default_Config/Little_Lands_Expansion_Default_Config-1784846418.png"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "VertexHeightOblateAdvanced"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "LittleLandsExpansion-OPMConfig"
+        }
+    ],
+    "install": [
+        {
+            "find": "LittleLandsExpansion",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4431/Little%20Lands%20Expansion%20(Default%20Config)/download/v1.1",
+    "download_size": 110531174,
+    "download_hash": {
+        "sha1": "7AC5E46854B49EB30279B4AD4A6C898C7450402D",
+        "sha256": "9CE29452C702EFBC7E4603C6E6336F96D4ADCB555718DD1DB065B7A5A99A6F51"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 110520145,
+    "release_date": "2026-07-23T22:39:42.365497Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
