@@ -1,0 +1,50 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "SpeedOfLightReadout",
+    "name": "SpeedOfLightReadout",
+    "abstract": "Simple KSP mod that shows a window when you press Alt+C or the toolbar button that gives info on your vessel or target vessel in relation to light speed. ",
+    "author": "JebMothman",
+    "version": "1.0.0",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4390/SpeedOfLightReadout",
+        "repository": "https://github.com/safron1111/SpeedOfLightReadout",
+        "bugtracker": "https://github.com/safron1111/SpeedOfLightReadout/issues",
+        "x_screenshot": "https://spacedock.info/content/JebMothman_187129/SpeedOfLightReadout/SpeedOfLightReadout-1783738853.png"
+    },
+    "tags": [
+        "plugin",
+        "information"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "SpeedOfLightReadout",
+            "install_to": "GameData",
+            "filter": ".git",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": [
+        "https://github.com/safron1111/SpeedOfLightReadout/releases/download/v1.0.0/SpeedOfLightReadout_v1_0_0.zip",
+        "https://spacedock.info/mod/4390/SpeedOfLightReadout/download/1.0.0"
+    ],
+    "download_size": 854984,
+    "download_hash": {
+        "sha1": "7F946BC5E2F082353D7361C6B7D912CA8AA68C2F",
+        "sha256": "ED86682E6604CD4EDBAF14CC81325F4475F161C25A6657BD55C57C860ED0CA24"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1062399,
+    "release_date": "2026-07-11T03:00:33.536317Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
