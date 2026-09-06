@@ -1,0 +1,45 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "CustomScienceContracts-StockConfig",
+    "name": "Custom Science Contracts - Stock Campaign",
+    "abstract": "The recommended Custom Science Contracts campaign profile for the normal Stock Kerbol system.",
+    "description": "Installs the Stock Kerbol campaign catalog for Custom Science Contracts. This is the recommended default for games that do not use the SOL planet pack.",
+    "author": "timduebi",
+    "version": "0.10.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/timduebi/ksp-custom-science-contracts",
+        "bugtracker": "https://github.com/timduebi/ksp-custom-science-contracts/issues",
+        "remote-avc": "https://raw.githubusercontent.com/timduebi/ksp-custom-science-contracts/main/GameData/CustomScienceContracts/CustomScienceContracts.version"
+    },
+    "tags": [
+        "config",
+        "science"
+    ],
+    "provides": [
+        "CustomScienceContracts-Config"
+    ],
+    "conflicts": [
+        {
+            "name": "CustomScienceContracts-Config"
+        }
+    ],
+    "install": [
+        {
+            "find": "Contracts",
+            "install_to": "GameData/CustomScienceContracts"
+        }
+    ],
+    "download": "https://github.com/timduebi/ksp-custom-science-contracts/releases/download/v0.10.0/CustomScienceContracts-v0.10.0.zip",
+    "download_size": 446794,
+    "download_hash": {
+        "sha1": "3BF0778A79052BB5C12A89C434C8E825C524F7C2",
+        "sha256": "C9DDE71968611D04FAEE0561A60E8BE75CA2F7DDEA16E97A597F521D0C49DCBF"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 163239,
+    "release_date": "2026-08-13T22:07:52Z",
+    "x_generated_by": "netkan"
+}
