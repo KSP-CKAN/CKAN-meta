@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "RimalPlanetPack",
+    "name": "Rimal Planet Pack",
+    "abstract": "Adds Dune Inspired Hand-Made Star Systems, Also my first mod pack.",
+    "author": "SaadAlsharekh",
+    "version": "0.3.2",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-SA",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4395/Rimal%20Planet%20Pack",
+        "x_screenshot": "https://spacedock.info/content/SaadAlsharekh_188073/Rimal_Planet_Pack/Rimal_Planet_Pack-1785597513.png"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Scatterer"
+        }
+    ],
+    "install": [
+        {
+            "find": "RimalSystem",
+            "install_to": "GameData",
+            "filter_regexp": "~$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4395/Rimal%20Planet%20Pack/download/0.3.2",
+    "download_size": 151867538,
+    "download_hash": {
+        "sha1": "D08271D1D1CB486943E2CB4CAEA62A0FFD791C04",
+        "sha256": "6B9F8A1E602D480403E29714B2553EC0E71D42937B6ABC202B330056FB72C709"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 201632048,
+    "release_date": "2026-09-05T06:30:19.493886Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
