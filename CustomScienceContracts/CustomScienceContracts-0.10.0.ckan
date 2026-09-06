@@ -1,0 +1,66 @@
+{
+    "spec_version": "v1.31",
+    "identifier": "CustomScienceContracts",
+    "name": "Custom Science Contracts",
+    "abstract": "A structured science campaign for KSP's Science Mode, from first flight to deep-space exploration.",
+    "description": "Adds a structured campaign on top of Science Mode with an in-game mission menu, campaign atlas, stations, bases, supply routes and deep-space exploration. CKAN installs the plugin separately from its campaign profile and asks whether to use the recommended Stock Kerbol campaign or the optional SOL real-solar-system campaign.",
+    "author": "timduebi",
+    "version": "0.10.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": [
+        "GPL-3.0",
+        "MIT"
+    ],
+    "resources": {
+        "repository": "https://github.com/timduebi/ksp-custom-science-contracts",
+        "bugtracker": "https://github.com/timduebi/ksp-custom-science-contracts/issues",
+        "remote-avc": "https://raw.githubusercontent.com/timduebi/ksp-custom-science-contracts/main/GameData/CustomScienceContracts/CustomScienceContracts.version"
+    },
+    "tags": [
+        "plugin",
+        "science",
+        "career"
+    ],
+    "depends": [
+        {
+            "name": "Harmony2"
+        },
+        {
+            "any_of": [
+                {
+                    "name": "CustomScienceContracts-StockConfig"
+                },
+                {
+                    "name": "CustomScienceContracts-SOLConfig"
+                }
+            ],
+            "choice_help_text": "Choose Stock for the normal Kerbol system (recommended). Choose SOL only when the SOL planet pack is installed."
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Kerbalism"
+        },
+        {
+            "name": "ProbesBeforeCrew"
+        }
+    ],
+    "install": [
+        {
+            "find": "CustomScienceContracts",
+            "install_to": "GameData",
+            "filter": "Contracts"
+        }
+    ],
+    "download": "https://github.com/timduebi/ksp-custom-science-contracts/releases/download/v0.10.0/CustomScienceContracts-v0.10.0.zip",
+    "download_size": 446794,
+    "download_hash": {
+        "sha1": "3BF0778A79052BB5C12A89C434C8E825C524F7C2",
+        "sha256": "C9DDE71968611D04FAEE0561A60E8BE75CA2F7DDEA16E97A597F521D0C49DCBF"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 528462,
+    "release_date": "2026-08-13T22:07:52Z",
+    "x_generated_by": "netkan"
+}
