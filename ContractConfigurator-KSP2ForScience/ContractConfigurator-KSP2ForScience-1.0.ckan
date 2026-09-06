@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.12",
+    "identifier": "ContractConfigurator-KSP2ForScience",
+    "name": "Contract Pack: KSP 2 'For Science!' (KSP 2 Exploration Mode in KSP 1)",
+    "abstract": "This Contract Pack brings the narrative-driven \"For Science!\" exploration missions from KSP 2 into KSP 1. It utilizes Contract Configurator to port the fictitious manufacturers, verbatim and semi-verbatim mission briefings, and the complete and exact progression of the KSP 2 exploration mode into KSP 1.",
+    "author": "Necrosniper",
+    "version": "1.0",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/231364-1125-contract-pack-ksp-2-for-science-ksp-2-exploration-mode-in-ksp-1-v10/",
+        "spacedock": "https://spacedock.info/mod/4398/Contract%20Pack:%20KSP%202%20'For%20Science!'%20(KSP%202%20Exploration%20Mode%20in%20KSP%201)",
+        "x_screenshot": "https://spacedock.info/content/Necrosniper_187987/Contract_Pack_KSP_2_For_Science_KSP_2_Exploration_Mode_in_KSP_1/Contract_Pack_KSP_2_For_Science_KSP_2_Exploration_Mode_in_KSP_1-1783956577.png"
+    },
+    "tags": [
+        "agency",
+        "career",
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ContractConfigurator"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "WaypointManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "ContractPacks",
+            "install_to": "GameData",
+            "filter_regexp": "\\.craft$"
+        },
+        {
+            "file": "GameData/ContractPacks/KSP2Exploration/Vessels/croissant.craft",
+            "install_to": "Ships/VAB"
+        },
+        {
+            "file": "GameData/ContractPacks/KSP2Exploration/Vessels/stargazer.craft",
+            "install_to": "Ships/VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4398/Contract%20Pack:%20KSP%202%20'For%20Science!'%20(KSP%202%20Exploration%20Mode%20in%20KSP%201)/download/1.0",
+    "download_size": 224090,
+    "download_hash": {
+        "sha1": "24232930895D10A30042F2331D556FA9847AEDC1",
+        "sha256": "2951A4255A6724E03FF08C78EE9237A669FB9C0264A6B1DC8F31933BAEBA6D87"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 453684,
+    "release_date": "2026-07-13T14:59:40.264551Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
