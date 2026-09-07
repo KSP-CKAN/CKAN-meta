@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Shatter",
+    "name": "Shatter",
+    "abstract": "Adds a new shattered planet, with long and tall canyons and ridges.",
+    "author": "MagmaUrchin",
+    "version": "1.1.0",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4229/Shatter",
+        "x_screenshot": "https://spacedock.info/content/MagmaUrchin_183049/Shatter/Shatter-1777181467.png"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Firefly"
+        }
+    ],
+    "install": [
+        {
+            "find": "Shatter",
+            "install_to": "GameData",
+            "filter": [
+                "__MACOSX",
+                ".DS_Store",
+                ".vs"
+            ]
+        }
+    ],
+    "download": "https://spacedock.info/mod/4229/Shatter/download/1.1.0",
+    "download_size": 18948274,
+    "download_hash": {
+        "sha1": "8BE869CE17080BAFFA558E06AE6140EF5809CA73",
+        "sha256": "884BCE6466E660B483C227A7108BFB080DFE4F09BAA1628C085B23694882ED52"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 47959600,
+    "release_date": "2026-09-07T02:20:07.420114Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
