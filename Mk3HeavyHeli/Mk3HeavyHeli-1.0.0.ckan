@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "Mk3HeavyHeli",
+    "name": "Mk3HeavyHeli",
+    "abstract": "A Mk3 parts pack to make helicopters.",
+    "author": "ColdJ",
+    "version": "1.0.0",
+    "ksp_version": "1.12.5",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/229785-mk3-heavy-heli/",
+        "spacedock": "https://spacedock.info/mod/4149/Mk3HeavyHeli",
+        "x_screenshot": "https://spacedock.info/content/ColdJ_60612/Mk3HeavyHeli/Mk3HeavyHeli-1771105892.jpg"
+    },
+    "tags": [
+        "crewed",
+        "first-person",
+        "parts"
+    ],
+    "depends": [
+        {
+            "name": "BreakingGround-DLC"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RasterPropMonitor"
+        }
+    ],
+    "install": [
+        {
+            "find": "Mk3HeavyHeli",
+            "install_to": "GameData",
+            "filter_regexp": "\\.craft$"
+        },
+        {
+            "find_regexp": ".*\\.craft$",
+            "install_to": "Ships/SPH",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/4149/Mk3HeavyHeli/download/1.0.0",
+    "download_size": 13860156,
+    "download_hash": {
+        "sha1": "B89F213380F9C10BB4C49C791822CEB274AED249",
+        "sha256": "D89008C589A10C901C4F2EA21ABDB3571DB18CA1505CEF17A8E61A3B5CBAFB44"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 26858501,
+    "release_date": "2026-02-14T21:44:42.200775Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
