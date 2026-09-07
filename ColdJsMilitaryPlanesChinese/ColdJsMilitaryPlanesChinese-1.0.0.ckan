@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "ColdJsMilitaryPlanesChinese",
+    "name": "ColdJ's Military Planes Chinese",
+    "abstract": "A Kerbal knockoff of a Chinese J-20 and a J-10",
+    "author": "ColdJ",
+    "version": "1.0.0",
+    "ksp_version": "1.12.5",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/223997-coldjs-military-planes/",
+        "spacedock": "https://spacedock.info/mod/4176/ColdJ's%20Military%20Planes%20Chinese",
+        "x_screenshot": "https://spacedock.info/content/ColdJ_60612/ColdJs_Military_Planes_Chinese/ColdJs_Military_Planes_Chinese-1774525048.jpg"
+    },
+    "tags": [
+        "crewed",
+        "first-person",
+        "parts"
+    ],
+    "recommends": [
+        {
+            "name": "BreakingGround-DLC"
+        },
+        {
+            "name": "RasterPropMonitor"
+        }
+    ],
+    "install": [
+        {
+            "find": "CJMP",
+            "install_to": "GameData",
+            "filter_regexp": "\\.craft$"
+        },
+        {
+            "find": "Craft",
+            "install_to": "Ships",
+            "as": "SPH"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4176/ColdJ's%20Military%20Planes%20Chinese/download/1.0.0",
+    "download_size": 9975476,
+    "download_hash": {
+        "sha1": "E5E251674B0B2C15EEABB3A57BF73EE7D51A711D",
+        "sha256": "5DCF0B0BCD0067E323BF6DCEA2FE2E1417017300B46649C60047AA0F7F78883D"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 22654212,
+    "release_date": "2026-03-26T05:48:20.306576Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
