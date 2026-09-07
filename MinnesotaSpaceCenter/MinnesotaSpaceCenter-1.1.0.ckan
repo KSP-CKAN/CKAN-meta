@@ -1,0 +1,63 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "MinnesotaSpaceCenter",
+    "name": "Minnesota Space Center",
+    "abstract": "A Minnesota (Nice) Space Center",
+    "author": "PlutonianEmpire",
+    "version": "1.1.0",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4217/Minnesota%20Space%20Center",
+        "repository": "https://github.com/PlutonianEmpire/KSP-MNSC",
+        "bugtracker": "https://github.com/PlutonianEmpire/KSP-MNSC/issues"
+    },
+    "tags": [
+        "config",
+        "buildings"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "KSCSwitcher"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RemoteTech"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/CommNet/us_minnesota_space_center.cfg",
+            "install_to": "GameData/MinnesotaSpaceCenter/CommNet"
+        },
+        {
+            "file": "GameData/Launchsites/us_minnesota_space_center.cfg",
+            "install_to": "GameData/MinnesotaSpaceCenter/Launchsites"
+        },
+        {
+            "file": "GameData/RemoteTech/us_minnesota_space_center.cfg",
+            "install_to": "GameData/MinnesotaSpaceCenter/RemoteTech"
+        }
+    ],
+    "download": [
+        "https://github.com/PlutonianEmpire/KSP-MNSC/releases/download/KSP-MNSC-1.1.0/KSP-MNSC-1.1.0.zip",
+        "https://spacedock.info/mod/4217/Minnesota%20Space%20Center/download/1.1.0"
+    ],
+    "download_size": 2447,
+    "download_hash": {
+        "sha1": "DDA39067F4326A622AB6DAA3AC4618E0F507D14F",
+        "sha256": "03E6A7379D1C13E540CF18CCB304A30EACB2520993B98ACDCCFE4C84A6D1D059"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2538,
+    "release_date": "2026-08-04T04:27:33.834517Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
