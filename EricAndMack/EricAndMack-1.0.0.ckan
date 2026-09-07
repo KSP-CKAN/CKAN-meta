@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "EricAndMack",
+    "name": "EricAndMack",
+    "abstract": "A Sikorsky S-64 Sky Crane Helicopter and a Military style Mack Truck",
+    "author": "ColdJ",
+    "version": "1.0.0",
+    "ksp_version": "1.12.5",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/229711-ericandmack/",
+        "spacedock": "https://spacedock.info/mod/4129/EricAndMack",
+        "x_screenshot": "https://spacedock.info/content/ColdJ_60612/EricAndMack/EricAndMack-1770043837.png"
+    },
+    "tags": [
+        "crewed",
+        "first-person",
+        "parts",
+        "sound"
+    ],
+    "depends": [
+        {
+            "name": "BreakingGround-DLC"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "RasterPropMonitor"
+        }
+    ],
+    "install": [
+        {
+            "find_regexp": ".*\\.craft$",
+            "install_to": "Ships/SPH",
+            "find_matches_files": true
+        },
+        {
+            "find": "EricAndMack",
+            "install_to": "GameData",
+            "filter_regexp": "\\.craft$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4129/EricAndMack/download/1.0.0",
+    "download_size": 17011244,
+    "download_hash": {
+        "sha1": "4C0BFABB7FE6A64EA79B342654F6A39CFCA2280F",
+        "sha256": "D8C9005E58A77E91CA666E76F6916B8BB060F099E1DEF700D00E6DD642239E1E"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 38185169,
+    "release_date": "2026-02-02T14:36:02.189516Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
