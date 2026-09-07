@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.16",
+    "identifier": "VABOrganizer-Dres",
+    "name": "Dres's Configs - VAB Organizer configs for Mk3 Expansion",
+    "abstract": "Mod for adding VABO compatibility to Mk3X",
+    "author": "DresIsNotReal",
+    "version": "1.0.0",
+    "ksp_version": "1.12.5",
+    "license": "open-source",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4115/Dres's%20Configs%20-%20VAB%20Organizer%20configs%20for%20Mk3%20Expansion",
+        "repository": "https://github.com/DresIsNotReal/Dres-s-Configs-Mk2-3X",
+        "bugtracker": "https://github.com/DresIsNotReal/Dres-s-Configs-Mk2-3X/issues"
+    },
+    "tags": [
+        "config",
+        "convenience",
+        "editor"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "VABOrganizer"
+        },
+        {
+            "name": "Mk3Expansion"
+        }
+    ],
+    "install": [
+        {
+            "find_regexp": ".*\\.cfg$",
+            "install_to": "GameData/VABOrganizer-Dres",
+            "find_matches_files": true
+        }
+    ],
+    "download": "https://spacedock.info/mod/4115/Dres's%20Configs%20-%20VAB%20Organizer%20configs%20for%20Mk3%20Expansion/download/1.0.0",
+    "download_size": 1097,
+    "download_hash": {
+        "sha1": "CE061A41C006DA65E9CD65BB02B86A2AE9E5F36C",
+        "sha256": "FD726C288808EBCD9E28F440CF972319F9FA6B8A5C4BFEE3B1BA06CBA6BF65B8"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 4509,
+    "release_date": "2026-01-23T11:20:50.251946Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
