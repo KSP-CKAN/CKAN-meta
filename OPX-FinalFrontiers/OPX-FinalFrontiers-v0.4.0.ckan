@@ -1,0 +1,63 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "OPX-FinalFrontiers",
+    "name": "OPX: FinalFrontiers",
+    "abstract": "Outer Planets Expansion's additions and modifications to the trans-neidonian objects",
+    "author": "TheMinmusDerp",
+    "version": "v0.4.0",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/225300-112x-planet-pack-outer-planets-expansion-opx/",
+        "spacedock": "https://spacedock.info/mod/3925/OPX:%20FinalFrontiers",
+        "repository": "https://github.com/TheMinmusDerp/OPX-FinalFrontiers",
+        "bugtracker": "https://github.com/TheMinmusDerp/OPX-FinalFrontiers/issues",
+        "x_screenshot": "https://spacedock.info/content/TheMinmusDerp_137781/OPX_Final_Frontiers/OPX_Final_Frontiers-1752554989.png"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "localizations": [
+        "en-us",
+        "ru"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "VertexMitchellNetravaliHeightMap"
+        },
+        {
+            "name": "VertexHeightOblateAdvanced"
+        }
+    ],
+    "install": [
+        {
+            "find": "OPX-FinalFrontiers",
+            "install_to": "GameData",
+            "filter": [
+                "__MACOSX",
+                ".DS_Store"
+            ]
+        }
+    ],
+    "download": [
+        "https://github.com/TheMinmusDerp/OPX-FinalFrontiers/releases/download/v0.4.0/OPXFF-v0.4.0.zip",
+        "https://spacedock.info/mod/3925/OPX:%20FinalFrontiers/download/v0.4.0"
+    ],
+    "download_size": 145233103,
+    "download_hash": {
+        "sha1": "AB0FA87EAF9C4479929003C9C8DF2C910D44691C",
+        "sha256": "ECE197D33FD590C3B4D5E51E8CB6B1E466D08AC4FC139392E697CA001064C20D"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 264183325,
+    "release_date": "2026-06-10T20:19:45.346591Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
