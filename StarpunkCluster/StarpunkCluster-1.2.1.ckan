@@ -1,0 +1,67 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "StarpunkCluster",
+    "name": "Starpunk Cluster",
+    "abstract": "A path into uncharted space",
+    "author": "plantman-dev",
+    "version": "1.2.1",
+    "ksp_version": "1.12",
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/229135-112x-v121-starpunk-cluster-agaea-release/",
+        "repository": "https://github.com/plantman-dev/Starpunk-Cluster",
+        "bugtracker": "https://github.com/plantman-dev/Starpunk-Cluster/issues",
+        "manual": "https://github.com/plantman-dev/Starpunk-Cluster/wiki"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "VertexMitchellNetravaliHeightMap"
+        },
+        {
+            "name": "VertexHeightOblateAdvanced"
+        },
+        {
+            "name": "VertexColorMapEmissive"
+        },
+        {
+            "name": "ScaledDecorator"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        },
+        {
+            "name": "ParallaxContinued"
+        }
+    ],
+    "install": [
+        {
+            "find_regexp": "^GameData/SC-[^/]+(/|$)",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/plantman-dev/Starpunk-Cluster/releases/download/v1.2.1/Starpunk.Cluster.v1.2.1.zip",
+    "download_size": 1214391863,
+    "download_hash": {
+        "sha1": "9B93CF041DC28F36212F07FB07EC531FF1BC8845",
+        "sha256": "B3BB79CB03D93A7C10764ABAA4AD73B3EDF885573A5C0CA69CF75ADDAFBE2D1A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2565132798,
+    "release_date": "2026-07-25T14:53:40Z",
+    "x_generated_by": "netkan"
+}
