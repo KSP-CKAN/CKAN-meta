@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "Ignition",
+    "name": "Ignition!",
+    "abstract": "A plugin for Kerbal Space Program which provides a simple framework for simulating propellant mixtures across fuel tanks, engines and RCS thrusters.",
+    "author": "Charle_Roger",
+    "version": "1.2.3.2",
+    "ksp_version": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/227704-112x-ignition-100/",
+        "spacedock": "https://spacedock.info/mod/3868/Ignition!",
+        "repository": "https://github.com/CharleRoger/Ignition",
+        "bugtracker": "https://github.com/CharleRoger/Ignition/issues",
+        "remote-avc": "https://raw.githubusercontent.com/CharleRoger/Ignition/main/GameData/Ignition/Versioning/Ignition.version"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "supports": [
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "TweakScaleRescaled"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TweakScale-L"
+        },
+        {
+            "name": "TweakScaleCompanion"
+        },
+        {
+            "name": "TweakScaleCompanion-ReStockPlus"
+        }
+    ],
+    "install": [
+        {
+            "find": "Ignition",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": [
+        "https://github.com/CharleRoger/Ignition/releases/download/1.2.3.2/Ignition-1.2.3.2.zip",
+        "https://spacedock.info/mod/3868/Ignition!/download/1.2.3.2"
+    ],
+    "download_size": 44843,
+    "download_hash": {
+        "sha1": "7A9F0B9693FCDF21CE7AB81F28736A9BC7FD3FE6",
+        "sha256": "93CDD5EB74871E068BCBE4FE3B770F98EB37BAB70610AECB2595EB223F7FB55A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 34890,
+    "release_date": "2026-09-08T11:27:14.191566Z",
+    "x_generated_by": "netkan"
+}
