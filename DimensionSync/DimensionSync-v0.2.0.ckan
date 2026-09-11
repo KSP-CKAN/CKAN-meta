@@ -1,0 +1,61 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "DimensionSync",
+    "name": "Dimension Sync",
+    "abstract": "Keeps the dimensions of connected parts in step: resize one procedural part and the change travels along the stack, or from one wing segment's tip to the next segment's root.",
+    "author": "sparr",
+    "version": "v0.2.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "repository": "https://github.com/sparr/ksp-mod-DimensionSync",
+        "bugtracker": "https://github.com/sparr/ksp-mod-DimensionSync/issues",
+        "remote-avc": "https://raw.githubusercontent.com/sparr/ksp-mod-DimensionSync/main/GameData/DimensionSync/DimensionSync.version"
+    },
+    "tags": [
+        "plugin",
+        "editor",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "Harmony2"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ProceduralParts"
+        },
+        {
+            "name": "ProceduralFairings"
+        },
+        {
+            "name": "B9-PWings-Fork"
+        },
+        {
+            "name": "ROLib"
+        }
+    ],
+    "install": [
+        {
+            "find": "DimensionSync",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/sparr/ksp-mod-DimensionSync/releases/download/v0.2.0/DimensionSync-0.2.0.zip",
+    "download_size": 63212,
+    "download_hash": {
+        "sha1": "6DA9F3C9F9513D8F8BBF69B52332FAED5F87E6ED",
+        "sha256": "1BBC3AB144CF73C52F4E746EDECD51B3EA69C50BACF1B13490511E59DEA65614"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 143222,
+    "release_date": "2026-09-07T16:37:04Z",
+    "x_generated_by": "netkan"
+}
