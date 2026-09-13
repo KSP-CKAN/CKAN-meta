@@ -1,0 +1,82 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "Buffalo2",
+    "name": "Buffalo2",
+    "abstract": "A next-gen, Restock-alike replacement for the original Buffalo mod",
+    "author": "Angel-125",
+    "version": "v1.9.1",
+    "ksp_version_min": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/206638-*",
+        "repository": "https://github.com/Angel-125/Buffalo2",
+        "bugtracker": "https://github.com/Angel-125/Buffalo2/issues",
+        "license": "https://github.com/Angel-125/Buffalo2/blob/main/ReleaseFolder/GameData/WildBlueIndustries/Buffalo2/Readme.txt",
+        "manual": "https://github.com/Angel-125/Buffalo2/wiki",
+        "remote-avc": "https://raw.githubusercontent.com/Angel-125/Buffalo2/main/ReleaseFolder/GameData/WildBlueIndustries/Buffalo2/Buffalo2.version"
+    },
+    "tags": [
+        "parts",
+        "crewed"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "WildBlueCore"
+        },
+        {
+            "name": "KerbalActuators"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "ExtraPlanetaryLaunchpads"
+        },
+        {
+            "name": "KIS"
+        },
+        {
+            "name": "KAS"
+        },
+        {
+            "name": "ASET"
+        },
+        {
+            "name": "ASETAvionics"
+        }
+    ],
+    "supports": [
+        {
+            "name": "Snacks"
+        }
+    ],
+    "install": [
+        {
+            "find": "Buffalo2",
+            "install_to": "GameData/WildBlueIndustries",
+            "filter": "Ships"
+        },
+        {
+            "find": "Buffalo2/Ships/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": "https://github.com/Angel-125/Buffalo2/releases/download/v1.9.1/Buffalo2_1_9_1.zip",
+    "download_size": 141624631,
+    "download_hash": {
+        "sha1": "83BE74A869D8AA565DF821945E70C720D21CAA67",
+        "sha256": "4D7F88099B904C6D93EA1A4C163ED17BA10A1BDBAE117FA72BD84E4CE84E37CA"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 286022238,
+    "release_date": "2026-09-13T02:28:44Z",
+    "x_generated_by": "netkan"
+}
