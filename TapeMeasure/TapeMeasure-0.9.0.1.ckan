@@ -1,0 +1,47 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "TapeMeasure",
+    "name": "Tape Measure",
+    "abstract": "A measuring tool for KSP",
+    "author": "linuxgurugamer",
+    "version": "0.9.0.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/231791-112x-tape-measure/",
+        "spacedock": "https://spacedock.info/mod/4570/Tape%20Measure",
+        "repository": "https://github.com/linuxgurugamer/TapeMeasure",
+        "bugtracker": "https://github.com/linuxgurugamer/TapeMeasure/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/TapeMeasure/refs/heads/main/TapeMeasure.version"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "TapeMeasure",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4570/Tape%20Measure/download/0.9.0.1",
+    "download_size": 1175499,
+    "download_hash": {
+        "sha1": "0D78EC4C393A94930366B05070DF47B86B94C830",
+        "sha256": "F8015563086A57C64EB512361E6924CC8032327DA6F15E203AA612C5773ACDDE"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1225988,
+    "release_date": "2026-09-17T17:17:38.705761Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
