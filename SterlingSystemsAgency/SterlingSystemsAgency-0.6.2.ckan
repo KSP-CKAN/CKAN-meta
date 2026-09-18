@@ -1,0 +1,68 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SterlingSystemsAgency",
+    "name": "Sterling Systems Agency",
+    "abstract": "Core things including localization and resources.",
+    "author": "JadeOfMaar",
+    "version": "0.6.2",
+    "ksp_version": "1.12.5",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/219609-*/",
+        "repository": "https://github.com/JadeOfMaar/SterlingSystems",
+        "bugtracker": "https://github.com/JadeOfMaar/SterlingSystems/issues",
+        "manual": "https://github.com/JadeOfMaar/SterlingSystems/wiki",
+        "discussions": "https://github.com/JadeOfMaar/SterlingSystems/discussions",
+        "remote-avc": "https://raw.githubusercontent.com/JadeOfMaar/SterlingSystems/main/GameData/SterlingSystems/Version/SterlingSystems.version"
+    },
+    "tags": [
+        "agency",
+        "config",
+        "resources"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "SystemHeat"
+        },
+        {
+            "name": "VABOrganizer"
+        },
+        {
+            "name": "VABOrganizer-Jade"
+        }
+    ],
+    "install": [
+        {
+            "find": "Agency",
+            "install_to": "GameData/SterlingSystems"
+        },
+        {
+            "find": "Version",
+            "install_to": "GameData/SterlingSystems"
+        }
+    ],
+    "download": "https://github.com/JadeOfMaar/SterlingSystems/releases/download/0.6.2/SterlingSystems_Core_0.6.2.zip",
+    "download_size": 653281,
+    "download_hash": {
+        "sha1": "1DA206E4AF2618A9E4A2246457ECB2B52C9A5CFC",
+        "sha256": "372159AB56DC88B7D0F40AF5D9110CEFA67A5FD4A075AAAE59647AD695346821"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 3217525,
+    "release_date": "2026-09-18T16:59:16Z",
+    "x_generated_by": "netkan"
+}
