@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "EnhancedAstronautComplex",
+    "name": "Enhanced Astronaut Complex",
+    "abstract": "Career and crew management for the KSP Astronaut Complex.",
+    "author": "ItchyBrother",
+    "version": "v1.6.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.5",
+    "license": "CC-BY-NC-ND-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/229909-enhanced-astronaut-complex-eac",
+        "repository": "https://github.com/ItchyBrother/EAC",
+        "bugtracker": "https://github.com/ItchyBrother/EAC/issues",
+        "remote-avc": "https://raw.githubusercontent.com/ItchyBrother/EAC/main/EAC.version"
+    },
+    "tags": [
+        "plugin",
+        "crewed",
+        "career"
+    ],
+    "depends": [
+        {
+            "name": "Harmony2"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "EnhancedAstronautComplexContractConfig"
+        }
+    ],
+    "supports": [
+        {
+            "name": "CrewQueueTwo"
+        },
+        {
+            "name": "EarnYourStripes"
+        },
+        {
+            "name": "FlightTracker"
+        },
+        {
+            "name": "DeepFreeze"
+        }
+    ],
+    "install": [
+        {
+            "find": "EAC",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/ItchyBrother/EAC/releases/download/v1.6.1/EACv1.6.1.zip",
+    "download_size": 3271565,
+    "download_hash": {
+        "sha1": "DFAA96F51173E36BDAE6FC3AEFAAD190A7450B4D",
+        "sha256": "B43DDCA76AB52B745DD8BA8EC3429968E4640251FF4D9FE137C3CC943CB544F4"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 3799168,
+    "release_date": "2026-09-21T09:42:04Z",
+    "x_generated_by": "netkan"
+}
