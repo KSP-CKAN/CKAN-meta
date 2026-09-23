@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "VesselPlanner",
+    "name": "Vessel Planner",
+    "abstract": "A Vessel/Mission planning tool",
+    "author": "linuxgurugamer",
+    "version": "0.7.80",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/231802-112x-*",
+        "spacedock": "https://spacedock.info/mod/4599/Vessel%20Planner",
+        "repository": "https://github.com/linuxgurugamer/VesselPlanner",
+        "bugtracker": "https://github.com/linuxgurugamer/VesselPlanner/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/VesselPlanner/refs/heads/main/VesselPlanner.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Vessel_Planner/Vessel_Planner-1790123705.png"
+    },
+    "tags": [
+        "config",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "VesselPlanner",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/VesselPlanner/releases/download/0.7.80/VesselPlanner-1.12.5-0.7.80.zip",
+        "https://spacedock.info/mod/4599/Vessel%20Planner/download/0.7.80"
+    ],
+    "download_size": 4326163,
+    "download_hash": {
+        "sha1": "014DD62A20E4139DAD1A0472C56C2B3B78F90009",
+        "sha256": "14733974EC53F466FACD6D4769399380A7A52B2AC55DEE4AE90E905996B37919"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 4788000,
+    "release_date": "2026-09-23T00:18:48.063977Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
