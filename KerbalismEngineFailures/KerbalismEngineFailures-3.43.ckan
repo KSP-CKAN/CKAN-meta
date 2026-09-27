@@ -1,0 +1,62 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "KerbalismEngineFailures",
+    "name": "Kerbalism - Engine Failures",
+    "abstract": "Optional Kerbalism companion for engine ignition counts, rated burn time, and turn-on failures.",
+    "author": "Kerbalism Contributors",
+    "version": "3.43",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "Unlicense",
+    "resources": {
+        "repository": "https://github.com/Kerbalism/Kerbalism",
+        "bugtracker": "https://github.com/Kerbalism/Kerbalism/issues",
+        "manual": "https://github.com/Kerbalism/Kerbalism/wiki",
+        "remote-avc": "https://raw.githubusercontent.com/Kerbalism/Kerbalism/master/GameData/KerbalismEngineFailures/KerbalismEngineFailures.version"
+    },
+    "tags": [
+        "plugin",
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kerbalism"
+        },
+        {
+            "name": "Kerbalism-Config"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "TestFlight"
+        },
+        {
+            "name": "TestLite"
+        },
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "RP-1"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismEngineFailures",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Kerbalism/Kerbalism/releases/download/3.43/KerbalismEngineFailures_v3.43_for_KSP1.12.x.zip",
+    "download_size": 21250,
+    "download_hash": {
+        "sha1": "44E01D7042DB5CAC5D0181D187E17097B4A5E7C2",
+        "sha256": "2C140B721B74F20F3C404E7AE85F74EDFCF7D3A292FF97F9CDEE7C579D15BE9D"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 44402,
+    "release_date": "2026-09-27T17:59:54Z",
+    "x_generated_by": "netkan"
+}
