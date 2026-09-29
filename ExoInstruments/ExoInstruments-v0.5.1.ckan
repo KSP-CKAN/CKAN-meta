@@ -1,0 +1,45 @@
+{
+    "spec_version": 1,
+    "identifier": "ExoInstruments",
+    "name": "Exo Instruments",
+    "abstract": "An observational astronomy mod: real telescopes photographing planets, moons, nebulae and galaxies onto real detector models, plus an exoplanet survey with transit and radial-velocity pipelines against a real star catalog.",
+    "description": "Adds a working observatory to KSP, alongside the stock science system rather than in place of it. Photograph anything in the sky, from moons to galaxies, through real named telescopes (a PlaneWave astrograph, the VLT, a launchable space telescope) onto real detector models, and get FITS files that calibrate and stack in real astronomy software. Or run an actual exoplanet survey: select a real star from an exoplanet.eu-derived catalog, choose an instrument suited to its brightness and detection method, and extract a signal from simulated, photon-noise-limited data. Includes transit timing variations (TTV), the Rossiter-McLaughlin effect, and a career-mode instrument-acquisition economy. Everything works out of the box; the optional sky data (Gaia star field, dust, galaxies and their images) is downloaded by tools/get_sky_data_compact.py or tools/get_sky_data_complete.py, and is not required.",
+    "author": "batistitooo",
+    "version": "v0.5.1",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.5",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://github.com/batistitooo/ExoInstruments",
+        "repository": "https://github.com/batistitooo/ExoInstruments",
+        "bugtracker": "https://github.com/batistitooo/ExoInstruments/issues",
+        "license": "https://github.com/batistitooo/ExoInstruments/blob/main/LICENSE"
+    },
+    "tags": [
+        "science",
+        "physics"
+    ],
+    "recommends": [
+        {
+            "name": "BetterTimeWarpCont"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Spectra"
+        }
+    ],
+    "download": "https://github.com/batistitooo/ExoInstruments/releases/download/v0.5.1/ExoInstruments-0.5.1.zip",
+    "download_size": 37799861,
+    "download_hash": {
+        "sha1": "43E45AACDCCD45766AB8E7E5C134352A3C68AE32",
+        "sha256": "BC726817E8F0F47E714EACFAB57D4CD41E2642CDD1107C07C41D8084AE4D736B"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 62630742,
+    "release_date": "2026-09-29T10:00:50Z",
+    "x_generated_by": "netkan"
+}
