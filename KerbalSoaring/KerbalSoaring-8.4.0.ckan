@@ -1,0 +1,64 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "KerbalSoaring",
+    "name": "KerbalSoaring",
+    "abstract": "Adds thermal updrafts and unpowered gliding to Ferram Aerospace Research",
+    "author": "Snorpadorp",
+    "version": "8.4.0",
+    "ksp_version_min": "1.0.0",
+    "ksp_version_max": "1.99.69",
+    "license": "CC0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/229338-1125-kerbalsoaring-adds-thermal-updrafts-and-gliding-to-ksp-far/",
+        "spacedock": "https://spacedock.info/mod/4076/KerbalSoaring",
+        "repository": "https://github.com/Zondulus/KerbalSoaring",
+        "bugtracker": "https://github.com/Zondulus/KerbalSoaring/issues",
+        "remote-avc": "https://github.com/Zondulus/KerbalSoaring",
+        "x_screenshot": "https://spacedock.info/content/Snorpadorp_179275/KerbalSoaring/KerbalSoaring-1766628534.png"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "depends": [
+        {
+            "name": "FAR"
+        },
+        {
+            "name": "WindAPI"
+        },
+        {
+            "name": "WaypointManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalWind"
+        },
+        {
+            "name": "KerbinSideRemastered"
+        },
+        {
+            "name": "FARGE"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/KerbalSoaring",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/Zondulus/KerbalSoaring/releases/download/8.4.0/GameData.zip",
+        "https://spacedock.info/mod/4076/KerbalSoaring/download/8.4.0"
+    ],
+    "download_size": 14276,
+    "download_hash": {
+        "sha1": "97689FA711188E0226B14FC134AE0371B7D9F8FC",
+        "sha256": "377A4D6D6C270279C89971DC4E27A340C54931E331063A76DFFB6C46856C1C28"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 36598,
+    "release_date": "2026-09-26T02:45:18.660872Z",
+    "x_generated_by": "netkan"
+}
