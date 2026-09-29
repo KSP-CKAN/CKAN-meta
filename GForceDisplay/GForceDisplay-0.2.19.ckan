@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "GForceDisplay",
+    "name": "G Force Display",
+    "abstract": "A Lightweight G Force Display",
+    "author": "linuxgurugamer",
+    "version": "0.2.19",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.109",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/231877-112x-*",
+        "spacedock": "https://spacedock.info/mod/4624/G%20Force%20Display",
+        "repository": "https://github.com/linuxgurugamer/GForceDisplay",
+        "bugtracker": "https://github.com/linuxgurugamer/GForceDisplay/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/GForceDisplay/refs/heads/main/GForceDisplay.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/G_Force_Display/G_Force_Display-1790677789.png"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "GForceDisplay",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/GForceDisplay/releases/download/0.2.19/GForceDisplay-1.12.5-0.2.19.zip",
+        "https://spacedock.info/mod/4624/G%20Force%20Display/download/0.2.19"
+    ],
+    "download_size": 26114,
+    "download_hash": {
+        "sha1": "2B4A480B7AB53408013B5024EBBB5D193EAFF6FA",
+        "sha256": "438D928695BBCB3CB4C3B254C7CD36F64B3224EC71F4CC692958122DE5B00744"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 37444,
+    "release_date": "2026-09-29T21:10:55.843872Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
