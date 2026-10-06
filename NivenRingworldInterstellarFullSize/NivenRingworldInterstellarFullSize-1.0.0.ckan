@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "NivenRingworldInterstellarFullSize",
+    "name": "Ringworld Full-Size Interstellar Config",
+    "abstract": "A config for Niven's Ringworld mod that places the fule-size version of the Canon Ringworld 1 light year away",
+    "author": "divinecodes",
+    "version": "1.0.0",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/231795-1125-nivens-ring-world-the-first-land-able-ring-world-megastructure-in-ksp-from-larry-nivens-ring-world/",
+        "spacedock": "https://spacedock.info/mod/4645/Ringworld%20Full-Size%20Interstellar%20Config",
+        "repository": "https://github.com/theplatecrafter/Ringworld-Configs",
+        "bugtracker": "https://github.com/theplatecrafter/Ringworld-Configs/issues"
+    },
+    "tags": [
+        "config"
+    ],
+    "provides": [
+        "NivenRingworldConfig"
+    ],
+    "depends": [
+        {
+            "name": "NivenRingworld",
+            "min_version": "1.1.7"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "NivenRingworldConfig"
+        }
+    ],
+    "install": [
+        {
+            "find": "GameData/NivenRingworldInterstellarFullSize",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4645/Ringworld%20Full-Size%20Interstellar%20Config/download/v1.0.0",
+    "download_size": 7248,
+    "download_hash": {
+        "sha1": "4C12C2A042F96BE9ADFCDEBF60A67D321256BCED",
+        "sha256": "E20DB913B52BA3C461BF1EF2D38966E50CC45EE41313A261DE6F20D3BCB80394"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 12157,
+    "release_date": "2026-10-05T21:41:11.800417Z",
+    "x_generated_by": "netkan"
+}
