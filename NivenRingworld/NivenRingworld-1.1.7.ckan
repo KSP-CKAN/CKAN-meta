@@ -15,7 +15,7 @@
         "x_screenshot": "https://spacedock.info/content/divinecodes_191344/Nivens_Ring_World/Nivens_Ring_World-1789689006.png"
     },
     "tags": [
-        "parts",
+        "planet-pack",
         "plugin",
         "science"
     ],
@@ -23,6 +23,13 @@
         {
             "name": "Harmony2",
             "min_version": "2.2.1.0"
+        },
+        {
+            "name": "NivenRingworldConfig"
+        },
+        {
+            "name": "ModuleManager",
+            "min_version": "4.0.0"
         }
     ],
     "suggests": [
@@ -49,6 +56,12 @@
         },
         {
             "name": "BetterTimeWarpCont"
+        }
+    ],
+    "install": [
+        {
+            "find": "NivenRingworld",
+            "install_to": "GameData"
         }
     ],
     "download": [
