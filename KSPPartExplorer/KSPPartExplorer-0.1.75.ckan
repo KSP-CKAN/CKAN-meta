@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "KSPPartExplorer",
+    "name": "KSP Part Explorer",
+    "abstract": "Browse • Inspect • Filter • Compare",
+    "author": "linuxgurugamer",
+    "version": "0.1.75",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/231917-112x-k*",
+        "spacedock": "https://spacedock.info/mod/4651/KSP%20Part%20Explorer",
+        "repository": "https://github.com/linuxgurugamer/PartExplorer",
+        "bugtracker": "https://github.com/linuxgurugamer/PartExplorer/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/PartExplorer/refs/heads/main/PartExplorer.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/KSP_Part_Explorer/KSP_Part_Explorer-1791383962.png"
+    },
+    "tags": [
+        "config",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "PartExplorer",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/PartExplorer/releases/download/0.1.75/PartExplorer-1.12.5-0.1.75.zip",
+        "https://spacedock.info/mod/4651/KSP%20Part%20Explorer/download/0.1.75"
+    ],
+    "download_size": 1135078,
+    "download_hash": {
+        "sha1": "78C93E2D56CE16E1E617FAEC67914E34F94A38BD",
+        "sha256": "2AFD0890239672E7C21C3FF3757C521F354DE9849722AD2D3C2B2B5548753546"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1358415,
+    "release_date": "2026-10-07T18:34:21.778599Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
