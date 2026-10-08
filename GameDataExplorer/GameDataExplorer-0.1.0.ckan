@@ -1,0 +1,42 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "GameDataExplorer",
+    "name": "GameDataExplorer",
+    "abstract": "opens the current game's `GameData` folder in Windows Explorer or launches other programs using that folder",
+    "author": "linuxgurugamer",
+    "version": "0.1.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/231924-112x-gamedataexplorer/",
+        "spacedock": "https://spacedock.info/mod/4654/GameDataExplorer",
+        "repository": "https://github.com/linuxgurugamer/GameDataExplorer",
+        "bugtracker": "https://github.com/linuxgurugamer/GameDataExplorer/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/GameDataExplorer/refs/heads/main/GameDataExplorer.version"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "install": [
+        {
+            "find": "GameDataExplorer",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/GameDataExplorer/releases/download/0.1.0/GameDataExplorer-1.12.5-0.1.0.zip",
+        "https://spacedock.info/mod/4654/GameDataExplorer/download/0.1.0"
+    ],
+    "download_size": 18418,
+    "download_hash": {
+        "sha1": "6E88AFFE0D363EB348E43ADF1C45A664CA95A9F2",
+        "sha256": "13B286E3CDF61D050C9157BEE6AF916033A53036A9C4FED7D163561E1FCA9201"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 22834,
+    "release_date": "2026-10-08T16:12:20.62072Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
