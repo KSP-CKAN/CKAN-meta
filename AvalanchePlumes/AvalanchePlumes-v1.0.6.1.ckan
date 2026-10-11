@@ -1,0 +1,72 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "AvalanchePlumes",
+    "name": "Avalanche Plumes",
+    "abstract": "Improving SRB Plume Visuals",
+    "author": [
+        "KochieBR",
+        "Adiri-KSP"
+    ],
+    "version": "v1.0.6.1",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/225334-avalanche-plumes-a-waterfall-mod-for-solid-rocket-boosters/",
+        "spacedock": "https://spacedock.info/mod/3650/Avalanche%20Plumes",
+        "repository": "https://github.com/Adiri-KSP/Avalanche-Plumes",
+        "bugtracker": "https://github.com/Adiri-KSP/Avalanche-Plumes/issues",
+        "x_screenshot": "https://spacedock.info/content/Kochi_71800/Avalanche_Plumes/Avalanche_Plumes-1773532890.png"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "SmokeScreen"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "StockWaterfallEffects"
+        },
+        {
+            "name": "RestockWaterfallExpansion"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SRBWaterfallEffects"
+        },
+        {
+            "name": "RealPlume"
+        }
+    ],
+    "install": [
+        {
+            "find": "Avalanche",
+            "install_to": "GameData",
+            "filter": ".git"
+        }
+    ],
+    "download": [
+        "https://spacedock.info/mod/3650/Avalanche%20Plumes/download/v1.0.6.1",
+        "https://github.com/Adiri-KSP/Avalanche-Plumes/releases/download/v1.0.6.1/AvalanchePlumes.zip"
+    ],
+    "download_size": 2748391,
+    "download_hash": {
+        "sha1": "063F8138AD982C92450CABBFAEEA62982C40A8B2",
+        "sha256": "EB2AAE3351256A41C1F5C512214163C42D7E26B67D0ED60B04B319A060FF6870"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 4506688,
+    "release_date": "2026-10-11T03:41:02Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
