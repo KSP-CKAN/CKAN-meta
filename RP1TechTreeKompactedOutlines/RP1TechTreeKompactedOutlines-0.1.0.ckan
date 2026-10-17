@@ -1,0 +1,44 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RP1TechTreeKompactedOutlines",
+    "name": "RP-1 TechTree Kompacted Outlines",
+    "abstract": "Draws colored outlines around each blue sky tech and the techs it unlocks in RP-1 TechTree Kompacted.",
+    "author": "sparr",
+    "version": "0.1.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "repository": "https://github.com/sparr/ksp-mod-RP1TechTreeKompactedOutlines",
+        "bugtracker": "https://github.com/sparr/ksp-mod-RP1TechTreeKompactedOutlines/issues",
+        "remote-avc": "https://raw.githubusercontent.com/sparr/ksp-mod-RP1TechTreeKompactedOutlines/main/GameData/RP1TechTreeKompactedOutlines/RP1TechTreeKompactedOutlines.version"
+    },
+    "tags": [
+        "plugin",
+        "tech-tree"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RP1TechTreeKompacted"
+        }
+    ],
+    "install": [
+        {
+            "find": "RP1TechTreeKompactedOutlines",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/sparr/ksp-mod-RP1TechTreeKompactedOutlines/releases/download/0.1.0/RP1TechTreeKompactedOutlines-0.1.0.zip",
+    "download_size": 19081,
+    "download_hash": {
+        "sha1": "839151E4120F8DDB0436615758DA91BB39B0E79D",
+        "sha256": "C7297E211AF54E8CFFD1662C8F1F99D2D483FC812EFC737FCEBB6DA7DAC66A4C"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 27471,
+    "release_date": "2026-10-10T05:09:00Z",
+    "x_generated_by": "netkan"
+}
