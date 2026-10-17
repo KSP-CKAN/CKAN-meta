@@ -1,0 +1,73 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "ParallaxContinued",
+    "name": "Parallax Continued",
+    "abstract": "A visual mod which overhauls the planet shaders and adds grass, forest, and other types of surface clutter",
+    "author": "Linx",
+    "version": "1.0.5",
+    "ksp_version": "1.12",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/227476-*",
+        "repository": "https://github.com/Gameslinx/Parallax-Continued",
+        "bugtracker": "https://github.com/Gameslinx/Parallax-Continued/issues",
+        "manual": "https://github.com/Gameslinx/Parallax-Continued/wiki"
+    },
+    "tags": [
+        "plugin",
+        "library",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "KSPBurst"
+        },
+        {
+            "name": "ParallaxContinued-Terrain-Textures"
+        },
+        {
+            "name": "ParallaxContinued-Scatter-Textures"
+        },
+        {
+            "name": "ParallaxContinued-Planet-Textures"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Deferred"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Parallax"
+        },
+        {
+            "name": "Parallax-StockTextures"
+        },
+        {
+            "name": "Parallax-StockScatterTextures"
+        }
+    ],
+    "install": [
+        {
+            "find": "ParallaxContinued",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Gameslinx/Parallax-Continued/releases/download/1.0.5/ParallaxContinued-1.0.5.zip",
+    "download_size": 35149713,
+    "download_hash": {
+        "sha1": "8370F077447753BC0129818D46A5E9D5DC29EFCC",
+        "sha256": "82FDAF3BF757A65CBDC005232B48F83C33BF2C24FFD96A4AD57D5FA3A7C942AB"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 36634859,
+    "release_date": "2026-10-17T17:23:46Z",
+    "x_generated_by": "netkan"
+}
