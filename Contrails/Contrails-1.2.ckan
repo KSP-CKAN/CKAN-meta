@@ -1,15 +1,19 @@
 {
-    "spec_version": 1,
+    "spec_version": "v1.4",
     "identifier": "Contrails",
     "name": "Contrails - condensation trails",
     "abstract": "A small mod that adds a beautiful, customizable condensation trail during high-altitude flight. The mod is configured via the settings.cfg file located in the mod's directory.",
+    "description": "Contrails adds condensation trails behind air-breathing engines at high\naltitude, so your jets leave the white streaks you see in the real sky.\n\nThe trail is attached to every engine that breathes air, which means\nturbojets, ramjets, piston engines and rotors work too, including those\nfrom Advanced Jet Engine. Rockets get nothing, and electric propellers are\nskipped on purpose.\n\nTwo modes, switched in settings.cfg:\n\n  arcade     - a bold, War Thunder style trail;\n  realistic  - thin crisp lines right behind the nozzles that spread within\n               a few seconds into a wide, lumpy band, matching real photos.\n\nEverything is tunable in GameData/Contrails/settings.cfg: altitude limits\nand the fade band around them, trail lifetime, growth, opacity, nozzle gap,\nfade-in time, shadow strength and emission rate. With \"Vapour as particles\"\nenabled the trail is drawn as volumetric cloud puffs instead of a ribbon,\nand the puffs themselves have quality, spacing and layer count settings.\n\nAn in-game settings window (via Toolbar Controller) applies changes while\nyou fly and can save your favourite setups as presets. The window is\navailable in Russian and English.\n",
     "author": "Amayori",
     "version": "1.2",
     "ksp_version": "1.12.5",
     "license": "CC-BY-NC-SA",
+    "release_status": "stable",
     "resources": {
+        "homepage": "https://spacedock.info/mod/4692/Contrails%20-%20condensation%20trails",
         "spacedock": "https://spacedock.info/mod/4692/Contrails%20-%20condensation%20trails",
         "repository": "https://github.com/AMAYORI-git/Contrails.git",
+        "bugtracker": "https://github.com/AMAYORI-git/Contrails/issues",
         "x_screenshot": "https://spacedock.info/content/Amayori_193056/Contrails/Contrails-1792081430.png"
     },
     "tags": [
@@ -17,20 +21,30 @@
         "graphics",
         "plugin"
     ],
+    "localizations": [
+        "en-us",
+        "ru"
+    ],
     "depends": [
         {
             "name": "ModuleManager"
         }
     ],
+    "install": [
+        {
+            "find": "Contrails",
+            "install_to": "GameData"
+        }
+    ],
     "download": "https://spacedock.info/mod/4692/Contrails%20-%20condensation%20trails/download/1.2",
-    "download_size": 35015,
+    "download_size": 34480,
     "download_hash": {
-        "sha1": "2623A637A7D05680A9C6B214F6D1CCEE4FE66E5F",
-        "sha256": "ADD24564D87A9A74E71C324F27FF9467FC202D6289B372F51008672269C41DF6"
+        "sha1": "6E8CBF3EBA43349825C42ECCCD0536AE117C6A5E",
+        "sha256": "D29F0255A20069D8E6992F74DB7BA318000BCB101057EB7EFB4A4629F2C4213D"
     },
     "download_content_type": "application/zip",
     "install_size": 56167,
-    "release_date": "2026-10-17T06:47:07.89516Z",
+    "release_date": "2026-10-17T07:01:52.019987Z",
     "x_via": "Automated SpaceDock CKAN submission",
     "x_generated_by": "netkan"
 }
