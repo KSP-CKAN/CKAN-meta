@@ -1,0 +1,73 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "RestockRecolour",
+    "name": "Restock Recolour",
+    "abstract": "Recolour for Restock and Restock+",
+    "author": [
+        "MrShelter",
+        "PicoSpaceIndustries",
+        "Spartwo",
+        "UncleMateo"
+    ],
+    "version": "1.00.004",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/226088-112xwip-restock-recolour-4412/",
+        "spacedock": "https://spacedock.info/mod/3748/Restock%20Recolour",
+        "repository": "https://github.com/likeproblem/RestockRecolour",
+        "bugtracker": "https://github.com/likeproblem/RestockRecolour/issues",
+        "manual": "https://github.com/likeproblem/RestockRecolour/wiki",
+        "discussions": "https://github.com/likeproblem/RestockRecolour/discussions",
+        "x_screenshot": "https://spacedock.info/content/MrShelter_142311/Restock_Recolour/Restock_Recolour-1792200077.png"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TexturesUnlimited"
+        },
+        {
+            "name": "ReStock"
+        },
+        {
+            "name": "ReStockPlus"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "TURD-StockRecolour"
+        },
+        {
+            "name": "TURD-BreakingGround"
+        },
+        {
+            "name": "TURD-MakingHistory"
+        }
+    ],
+    "install": [
+        {
+            "find": "TURD/TU_Restock",
+            "install_to": "GameData/TURD"
+        }
+    ],
+    "download": [
+        "https://github.com/likeproblem/RestockRecolour/releases/download/1.00.004/RestockRecolour_v1.0.zip",
+        "https://spacedock.info/mod/3748/Restock%20Recolour/download/1.00.004"
+    ],
+    "download_size": 19025824,
+    "download_hash": {
+        "sha1": "4B09E3F66E1C8810DF221F1FE20AF15D63CF8B3A",
+        "sha256": "0AB52448E2E3345227F569BDFF8791729A3381A53DFE9906E9C8D51052E4079C"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 159866209,
+    "release_date": "2026-10-17T01:17:54.040123Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
