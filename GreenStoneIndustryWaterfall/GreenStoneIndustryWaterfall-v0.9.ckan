@@ -1,0 +1,78 @@
+{
+    "spec_version": "v1.26",
+    "identifier": "GreenStoneIndustryWaterfall",
+    "name": "Waterfall Extensions--tsingshitao's configs",
+    "abstract": "Waterfall patches for some old mods like:MK2expasion,mk3expsion,mk4expsion,KRE,bahasp,kn-2,SXT,hesiberg airships!",
+    "author": "tsingshitao",
+    "version": "v0.9",
+    "ksp_version_min": "1.8.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/231044-1125generaltsings-toolkits-now-including-waterfall-extensions-and-some-others/",
+        "spacedock": "https://spacedock.info/mod/4325/Waterfall%20Extensions--tsingshitao's%20configs",
+        "repository": "https://github.com/tsingshitao-nuke/VABOrganizer-tsingshitao",
+        "bugtracker": "https://github.com/tsingshitao-nuke/VABOrganizer-tsingshitao/issues",
+        "remote-avc": "https://raw.githubusercontent.com:443/tsingshitao-nuke/VABOrganizer-tsingshitao/main/gamedata/GreenStoneIndustry/Waterfall/Waterfall%20Extensions--tsingshitao's%20configs.version",
+        "x_screenshot": "https://spacedock.info/content/tsingshitao_180819/Waterfall_Extensions--tsingshitaos_configs/Waterfall_Extensions--tsingshitaos_configs-1792771782.jpg"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Waterfall"
+        },
+        {
+            "any_of": [
+                {
+                    "name": "StockWaterfallEffects"
+                },
+                {
+                    "name": "RestockWaterfallExpansion"
+                }
+            ]
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Mk2Expansion"
+        },
+        {
+            "name": "Mk3Expansion"
+        },
+        {
+            "name": "MarkIVSpaceplaneSystem"
+        },
+        {
+            "name": "Mk3MiniExpansionPack"
+        },
+        {
+            "name": "SXTContinued"
+        },
+        {
+            "name": "SpaceXLegs"
+        }
+    ],
+    "install": [
+        {
+            "find": "Waterfall",
+            "install_to": "GameData/GreenStoneIndustry"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4325/Waterfall%20Extensions--tsingshitao's%20configs/download/v0.9",
+    "download_size": 167380,
+    "download_hash": {
+        "sha1": "4C0ECAF80D60762AA5421B4C792246DD7BB5E445",
+        "sha256": "AEC03FF3864A432442CD9B880511ACA12851955C78FBDFDD30BCEE7595DDFA70"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 453204,
+    "release_date": "2026-10-23T15:54:59.860917Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
