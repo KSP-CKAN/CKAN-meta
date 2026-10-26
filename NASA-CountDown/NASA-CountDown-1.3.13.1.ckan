@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "NASA-CountDown",
+    "name": "NASA CountDown Clock Updated",
+    "abstract": "Countdown visualization like NASA countdown, with sound",
+    "author": "linuxgurugamer",
+    "version": "1.3.13.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "http://forum.kerbalspaceprogram.com/index.php?/topic/163882-13-nasa-countdown-clock-updated/",
+        "spacedock": "https://spacedock.info/mod/1462/NASA%20CountDown%20Clock%20Updated",
+        "repository": "https://github.com/linuxgurugamer/LaunchCountdownEx",
+        "bugtracker": "https://github.com/linuxgurugamer/LaunchCountdownEx/issues",
+        "manual": "https://github.com/linuxgurugamer/LaunchCountdownEx/wiki",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/LaunchCountdownEx/refs/heads/master/NASA_CountDown.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/NASA_CountDown_Clock_Updated/NASA_CountDown_Clock_Updated-1501413635.9711888.png"
+    },
+    "tags": [
+        "plugin",
+        "sound"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        }
+    ],
+    "install": [
+        {
+            "find": "NASA_CountDown",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/LaunchCountdownEx/releases/download/1.3.13.1/NASA_CountDown-1.12.5-1.3.13.1.zip",
+        "https://spacedock.info/mod/1462/NASA%20CountDown%20Clock%20Updated/download/1.3.13.1"
+    ],
+    "download_size": 37699648,
+    "download_hash": {
+        "sha1": "29EC8C34430073BA6F4ACEDF14674B9E4EADD302",
+        "sha256": "118CD783D173D0D475CBBA719205A0417B1858915C23323EEFABD861F91D6C64"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 39295884,
+    "release_date": "2026-10-26T13:56:07.201133Z",
+    "x_generated_by": "netkan"
+}
