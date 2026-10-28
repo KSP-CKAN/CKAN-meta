@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "WaypointManager",
+    "name": "WaypointManager",
+    "abstract": "Display waypoints while in flight, create custom waypoints.",
+    "author": "linuxgurugamer",
+    "version": "2.8.5",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/194876-112x-waypoint-manager-new-dependency-added/",
+        "spacedock": "https://spacedock.info/mod/3107/WaypointManager",
+        "repository": "https://github.com/linuxgurugamer/WaypointManager",
+        "bugtracker": "https://github.com/linuxgurugamer/WaypointManager/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/WaypointManager/refs/heads/master/WaypointManager.version"
+    },
+    "tags": [
+        "plugin",
+        "information",
+        "convenience"
+    ],
+    "depends": [
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "WaypointManager",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/WaypointManager/releases/download/2.8.5/WaypointManager-1.12.5-2.8.5.zip",
+        "https://spacedock.info/mod/3107/WaypointManager/download/2.8.5"
+    ],
+    "download_size": 131183,
+    "download_hash": {
+        "sha1": "0A2B37BC239577E6231CFC100AFA05841C828CAC",
+        "sha256": "8C28A8D1A7490D2C2F2E3CD8835ACD648E0AB74AB3CE4F874E0985703EBBF286"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 214583,
+    "release_date": "2026-10-28T11:06:14.56284Z",
+    "x_generated_by": "netkan"
+}
