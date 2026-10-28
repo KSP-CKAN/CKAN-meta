@@ -1,0 +1,51 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalScienceOverhaul-GEP",
+    "name": "Kerbal Science Overhaul - GEP results",
+    "abstract": "AI-assisted science results for Grannus Expansion Pack bodies and biomes, covering stock and mod experiments.",
+    "author": "Rjoande",
+    "version": "1.2.1",
+    "ksp_version_min": "1.12",
+    "ksp_version_max": "1.12",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/230013-1125-kerbal-science-overhaul-refactored-localized-and-ai-assisted-science-content-for-kerbal-space-program/",
+        "repository": "https://github.com/Rjoande/KerbalScienceOverhaul",
+        "bugtracker": "https://github.com/Rjoande/KerbalScienceOverhaul/issues",
+        "metanetkan": "https://raw.githubusercontent.com/Rjoande/KerbalScienceOverhaul/main/ckan/KerbalScienceOverhaul-GEP.netkan"
+    },
+    "tags": [
+        "config",
+        "science"
+    ],
+    "localizations": [
+        "en-us",
+        "it-it"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalScienceOverhaul"
+        }
+    ],
+    "install": [
+        {
+            "find": "KSO_GEP",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Rjoande/KerbalScienceOverhaul/releases/download/v1.2.1/KerbalScienceOverhaul_v1.2.1.zip",
+    "download_size": 4662683,
+    "download_hash": {
+        "sha1": "F8C493A8C7C34E4BE38C0C3F1C9B317063EBABE5",
+        "sha256": "8F82E369DA0EC448C96303D61A8BD0684CC84900984E199C07CAD227AA355258"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 3810718,
+    "release_date": "2026-10-27T23:27:55Z",
+    "x_generated_by": "netkan"
+}
