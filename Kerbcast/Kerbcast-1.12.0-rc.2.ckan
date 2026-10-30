@@ -1,0 +1,39 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "Kerbcast",
+    "name": "kerbcast",
+    "abstract": "A from-scratch successor to OCISLY for streaming KSP camera feeds.  Uses hardware H.264 for Linux and streams over WebRTC. Uses Hullcam VDS filters and camera capabilities. Features a TypeScript SDK for embedding streams wherever you like.",
+    "author": "jonpepler",
+    "version": "1.12.0-rc.2",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.5",
+    "license": "GPL-3.0",
+    "release_status": "testing",
+    "resources": {
+        "repository": "https://github.com/ksp-gonogo/kerbcast",
+        "bugtracker": "https://github.com/ksp-gonogo/kerbcast/issues",
+        "remote-avc": "https://raw.githubusercontent.com/ksp-gonogo/kerbcast/main/GameData/Kerbcast/Kerbcast.version"
+    },
+    "tags": [
+        "config",
+        "plugin",
+        "app"
+    ],
+    "depends": [
+        {
+            "name": "HullcamVDSContinued"
+        },
+        {
+            "name": "Harmony2"
+        }
+    ],
+    "download": "https://github.com/ksp-gonogo/kerbcast/releases/download/v1.12.0-rc.2/kerbcast-v1.12.0-rc.2.zip",
+    "download_size": 67866119,
+    "download_hash": {
+        "sha256": "77040C0FCC5653A0CA72EE25110A8F4E9177C02094C400DB474F0E85CBBAFDE0"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 181000155,
+    "release_date": "2026-10-30T00:37:47Z",
+    "x_generated_by": "netkan"
+}
