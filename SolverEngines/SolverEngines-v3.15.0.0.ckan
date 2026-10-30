@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SolverEngines",
+    "name": "Solver Engines plugin",
+    "abstract": "A subclass of ModuleEnginesFX which supports AJE-style solvers.",
+    "author": [
+        "al2me6",
+        "blowfishpro",
+        "Capkirk123",
+        "NathanKell",
+        "pjf",
+        "rsparkyc",
+        "SirKeplan",
+        "StollD",
+        "StonesmileGit",
+        "stratochief66",
+        "zorg2044",
+        "siimav"
+    ],
+    "version": "v3.15.0.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "LGPL-2.1",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/110746-*",
+        "repository": "https://github.com/KSP-RO/SolverEngines",
+        "bugtracker": "https://github.com/KSP-RO/SolverEngines/issues",
+        "manual": "https://github.com/KSP-RO/SolverEngines/wiki",
+        "remote-avc": "https://raw.githubusercontent.com/KSP-RO/SolverEngines/master/GameData/SolverEngines/SolverEngines.version"
+    },
+    "tags": [
+        "plugin",
+        "library"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "install": [
+        {
+            "find": "SolverEngines",
+            "install_to": "GameData",
+            "filter": [
+                "ModuleAnimateEmissive.dll",
+                "PluginData"
+            ]
+        }
+    ],
+    "download": "https://github.com/KSP-RO/SolverEngines/releases/download/v3.15.0.0/SolverEngines_v3.15.0.0.zip",
+    "download_size": 45652,
+    "download_hash": {
+        "sha1": "B69B4DF411A96FAD23763F83D1FAFFDE076A8E13",
+        "sha256": "8D270C10F85F3AF809E3B785B2307D1613AA9E24DAAA08716C3D26BBF450A468"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 95894,
+    "release_date": "2026-10-30T00:27:47Z",
+    "x_generated_by": "netkan"
+}
