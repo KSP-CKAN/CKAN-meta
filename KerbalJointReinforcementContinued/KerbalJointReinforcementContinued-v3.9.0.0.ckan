@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "KerbalJointReinforcementContinued",
+    "name": "Kerbal Joint Reinforcement Continued",
+    "abstract": "KJR tightens up the joints between parts and adds some physics-adjusting parameters to make vehicles more stable when loading on the launchpad or coming out of timewarp.",
+    "author": [
+        "ferram4",
+        "Starwaster"
+    ],
+    "version": "v3.9.0.0",
+    "ksp_version_min": "1.12.0",
+    "license": "GPL-3.0",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/184019-*",
+        "repository": "https://github.com/KSP-RO/Kerbal-Joint-Reinforcement-Continued",
+        "bugtracker": "https://github.com/KSP-RO/Kerbal-Joint-Reinforcement-Continued/issues",
+        "remote-avc": "https://raw.githubusercontent.com/KSP-RO/Kerbal-Joint-Reinforcement-Continued/master/GameData/KerbalJointReinforcement/KerbalJointReinforcement.version"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "provides": [
+        "KerbalJointReinforcement"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KSPCommunityFixes"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "KerbalJointReinforcement"
+        },
+        {
+            "name": "AnimatedAttachment"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalJointReinforcement",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/Kerbal-Joint-Reinforcement-Continued/releases/download/v3.9.0.0/Kerbal-Joint-Reinforcement_v3.9.0.0.zip",
+    "download_size": 24945,
+    "download_hash": {
+        "sha256": "B5364DFFBF116A1D13D9D2FDB961411DC3460B01873E4357F7D8BEB239BD6709"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 53981,
+    "release_date": "2026-11-01T16:41:43Z",
+    "x_generated_by": "netkan"
+}
