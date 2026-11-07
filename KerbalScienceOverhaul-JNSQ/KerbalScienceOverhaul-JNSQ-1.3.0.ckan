@@ -1,0 +1,54 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalScienceOverhaul-JNSQ",
+    "name": "Kerbal Science Overhaul - JNSQ results",
+    "abstract": "AI-assisted science results for JNSQ bodies and biomes, also covering stock and mod experiments, plus generic results for stock planets.",
+    "author": "Rjoande",
+    "version": "1.3.0",
+    "ksp_version_min": "1.12",
+    "ksp_version_max": "1.12",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/230013-1125-kerbal-science-overhaul-refactored-localized-and-ai-assisted-science-content-for-kerbal-space-program/",
+        "repository": "https://github.com/Rjoande/KerbalScienceOverhaul",
+        "bugtracker": "https://github.com/Rjoande/KerbalScienceOverhaul/issues",
+        "metanetkan": "https://raw.githubusercontent.com/Rjoande/KerbalScienceOverhaul/main/ckan/KerbalScienceOverhaul-JNSQ.netkan"
+    },
+    "tags": [
+        "config",
+        "science"
+    ],
+    "localizations": [
+        "en-us",
+        "it-it"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalScienceOverhaul"
+        },
+        {
+            "name": "JNSQ"
+        }
+    ],
+    "install": [
+        {
+            "find": "KSO_JNSQ",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Rjoande/KerbalScienceOverhaul/releases/download/v1.3.0/KerbalScienceOverhaul_v1.3.0.zip",
+    "download_size": 4648951,
+    "download_hash": {
+        "sha1": "6C78EF8F55130C3A94C5AF9F531FB136D6198DBD",
+        "sha256": "FA051D59A2E112D6D453E31BD418AC687F24D966B3655622680A79A6166FA337"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 9604369,
+    "release_date": "2026-11-07T17:36:19Z",
+    "x_generated_by": "netkan"
+}
