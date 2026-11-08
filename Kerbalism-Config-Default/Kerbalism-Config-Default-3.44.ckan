@@ -1,0 +1,89 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "Kerbalism-Config-Default",
+    "name": "Kerbalism - Default Config",
+    "abstract": "Default configuration for Kerbalism",
+    "author": "Kerbalism Contributors",
+    "version": "3.44",
+    "license": "Unlicense",
+    "resources": {
+        "repository": "https://github.com/Kerbalism/Kerbalism",
+        "bugtracker": "https://github.com/Kerbalism/Kerbalism/issues",
+        "manual": "https://github.com/Kerbalism/Kerbalism/wiki"
+    },
+    "tags": [
+        "config",
+        "physics",
+        "crewed",
+        "science"
+    ],
+    "localizations": [
+        "de",
+        "en-us",
+        "es-es",
+        "fr-fr",
+        "it-it",
+        "ko-kr",
+        "pt-br",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "Kerbalism-Config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "Kerbalism"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalismEngineFailures"
+        },
+        {
+            "name": "Kerbalism-SystemHeat"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "Kerbalism-Config"
+        },
+        {
+            "name": "UKS"
+        },
+        {
+            "name": "TACLS"
+        },
+        {
+            "name": "Snacks"
+        },
+        {
+            "name": "USI-LS"
+        },
+        {
+            "name": "BackgroundProcessing"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalismConfig",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Kerbalism/Kerbalism/releases/download/3.44/Kerbalism-Config_v3.44_for_KSP1.12.x.zip",
+    "download_size": 15238645,
+    "download_hash": {
+        "sha1": "24837361B283E1BC1CB8302BCCB6FA47A601A5AA",
+        "sha256": "8E1424D27EFA7EDA5AEFB644D97E0A39540CA6E9EFF80967CA05169C3592216F"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 40917994,
+    "release_date": "2026-11-08T09:26:45Z",
+    "x_generated_by": "netkan"
+}
