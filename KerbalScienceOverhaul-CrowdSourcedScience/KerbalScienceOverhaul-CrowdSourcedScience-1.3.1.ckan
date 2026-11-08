@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "KerbalScienceOverhaul-CrowdSourcedScience",
+    "name": "Kerbal Science Overhaul - Localized CrowdSourced Science",
+    "abstract": "Localized and revised version of CrowdSourced Science, with extra results for JNSQ biomes. Replaces the original CrowdSourced Science.",
+    "author": "Rjoande",
+    "version": "1.3.1",
+    "ksp_version_min": "1.12",
+    "ksp_version_max": "1.12",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/230013-1125-kerbal-science-overhaul-refactored-localized-and-ai-assisted-science-content-for-kerbal-space-program/",
+        "repository": "https://github.com/Rjoande/KerbalScienceOverhaul",
+        "bugtracker": "https://github.com/Rjoande/KerbalScienceOverhaul/issues",
+        "metanetkan": "https://raw.githubusercontent.com/Rjoande/KerbalScienceOverhaul/main/ckan/KerbalScienceOverhaul-CrowdSourcedScience.netkan"
+    },
+    "tags": [
+        "config",
+        "science"
+    ],
+    "localizations": [
+        "en-us",
+        "it-it",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "KerbalScienceOverhaul"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "CrowdSourcedScience"
+        }
+    ],
+    "install": [
+        {
+            "find": "KSO_CrowdSourcedScience",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Rjoande/KerbalScienceOverhaul/releases/download/v1.3.1/KerbalScienceOverhaul_v1.3.1.zip",
+    "download_size": 4643018,
+    "download_hash": {
+        "sha1": "6983462A9BDA8694E3E8FE2052149C596627F017",
+        "sha256": "DCFCD7BD7170A44CC24B3795642EC02FFD80CF087B072716142BD0B579C918BC"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 3123482,
+    "release_date": "2026-11-08T20:06:00Z",
+    "x_generated_by": "netkan"
+}
