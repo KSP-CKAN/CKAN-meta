@@ -1,0 +1,89 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RealSolarSystem",
+    "name": "Real Solar System",
+    "abstract": "Resizes and rearranges the Kerbal system to more closely resemble the Solar System",
+    "author": [
+        "KSP-RO Team"
+    ],
+    "version": "v20.2.0.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/177216-*",
+        "repository": "https://github.com/KSP-RO/RealSolarSystem",
+        "bugtracker": "https://github.com/KSP-RO/RealSolarSystem/issues",
+        "manual": "https://github.com/KSP-RO/RealSolarSystem/wiki",
+        "metanetkan": "https://github.com/KSP-RO/RealSolarSystem/raw/master/RealSolarSystem.netkan",
+        "remote-avc": "https://github.com/KSP-RO/RealSolarSystem/raw/master/GameData/RealSolarSystem/RealSolarSystem.version"
+    },
+    "tags": [
+        "planet-pack",
+        "config",
+        "plugin",
+        "resources"
+    ],
+    "localizations": [
+        "en-us",
+        "fr-fr",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "CustomAsteroids-Pops"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus",
+            "min_version": "2:release-1.12.1-253",
+            "suppress_recommendations": true
+        },
+        {
+            "name": "RSSTextures"
+        },
+        {
+            "name": "KSPCommunityFixes",
+            "suppress_recommendations": true
+        }
+    ],
+    "recommends": [
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "KSCSwitcher"
+        },
+        {
+            "name": "RSSDateTimeFormatter"
+        },
+        {
+            "name": "RSSVE-Textures"
+        },
+        {
+            "name": "Parallax"
+        },
+        {
+            "name": "Principia"
+        }
+    ],
+    "install": [
+        {
+            "find": "RealSolarSystem",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/KSP-RO/RealSolarSystem/releases/download/v20.2.0.0/RealSolarSystem_v20.2.0.0.zip",
+    "download_size": 77246227,
+    "download_hash": {
+        "sha1": "02D26B1CFEF2478FB0D04973C19E2B3F8819C391",
+        "sha256": "A92BCB4FBD88E0CFB6D295E2927F8A23DF22A69C4E50E7D74B5E8FD4A6B2D5A9"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 105888248,
+    "release_date": "2026-11-09T23:41:55Z",
+    "x_generated_by": "netkan"
+}
