@@ -1,0 +1,55 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "PartSculptor",
+    "name": "PartSculptor",
+    "abstract": "PartSculptor is a part-scaling and face-morphing mod for KSP 1",
+    "author": "linuxgurugamer",
+    "version": "0.0.4.101",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/232076-112x-linuxgurugamers-part-sculptor-development-thread/#comment-4546631",
+        "spacedock": "https://spacedock.info/mod/4812/PartSculptor",
+        "repository": "https://github.com/linuxgurugamer/PartSculptor",
+        "bugtracker": "https://github.com/linuxgurugamer/PartSculptor/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/PartSculptor/refs/heads/master/PartSculptor.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/PartSculptor/PartSculptor-1794248175.png"
+    },
+    "tags": [
+        "config",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "SpaceTuxLibrary"
+        }
+    ],
+    "install": [
+        {
+            "find": "PartSculptor",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4812/PartSculptor/download/0.0.4.101",
+    "download_size": 210884,
+    "download_hash": {
+        "sha1": "B9CA3FCA4AE7F018542B0F5BC3A98047EA406A8D",
+        "sha256": "2D632C9B36AE51C66C8EC9D375F76FF66F18CAA095CCE7F1009E7C0AAAA0155A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 334543,
+    "release_date": "2026-11-09T18:00:51.521141Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
