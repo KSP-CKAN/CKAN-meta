@@ -1,0 +1,83 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "FerramAerospaceResearchContinued",
+    "name": "Ferram Aerospace Research Continued",
+    "abstract": "FAR replaces KSP's stock part-centered aerodynamics model with one based on real-life physics.",
+    "author": [
+        "ferram4",
+        "JonnyOThan"
+    ],
+    "version": "3:0.17.0.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "GPL-3.0",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/179445-*",
+        "repository": "https://github.com/KSPModStewards/Ferram-Aerospace-Research",
+        "bugtracker": "https://github.com/KSPModStewards/Ferram-Aerospace-Research/issues",
+        "manual": "https://github.com/KSPModStewards/Ferram-Aerospace-Research/wiki",
+        "remote-avc": "https://raw.githubusercontent.com/dkavolis/Ferram-Aerospace-Research/master/GameData/FerramAerospaceResearch/FAR.version"
+    },
+    "tags": [
+        "plugin",
+        "physics"
+    ],
+    "localizations": [
+        "de-de",
+        "en-us",
+        "ru",
+        "zh-cn"
+    ],
+    "provides": [
+        "AerodynamicModel",
+        "FAR"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ModularFlightIntegrator"
+        },
+        {
+            "name": "TweakScale-Redist"
+        },
+        {
+            "name": "KSPBurst"
+        },
+        {
+            "name": "KSPCommunityFixes",
+            "min_version": "1.36.0"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "AerodynamicModel"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/FerramAerospaceResearch",
+            "install_to": "GameData",
+            "filter": [
+                "config.xml",
+                "Scale_Redist.dll"
+            ]
+        },
+        {
+            "file": "Ships",
+            "install_to": "Ships",
+            "comment": "FAR example craft"
+        }
+    ],
+    "download": "https://github.com/KSPModStewards/Ferram-Aerospace-Research/releases/download/v0.17.0.1_testing/FAR_0.17.0.1_testing.zip",
+    "download_size": 1595773,
+    "download_hash": {
+        "sha256": "35D9FC78F2C9707E39BACC33B9F1AF853899AC55B0209983372A3B5D946C3928"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 2948488,
+    "release_date": "2026-11-14T17:32:34Z",
+    "x_generated_by": "netkan"
+}
