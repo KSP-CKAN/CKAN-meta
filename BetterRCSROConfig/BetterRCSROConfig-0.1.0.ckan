@@ -1,0 +1,60 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "BetterRCSROConfig",
+    "name": "BetterRCS RO Config",
+    "abstract": "Realism Overhaul compatibility patch that makes RO's RCS thrusters use BetterRCS's nicer visual effects.",
+    "author": "gyxx_xc",
+    "version": "0.1.0",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4641/BetterRCS%20RO%20Config",
+        "repository": "https://github.com/gyxx-xc/BetterRCS_RO",
+        "bugtracker": "https://github.com/gyxx-xc/BetterRCS_RO/issues",
+        "remote-avc": "https://github.com/gyxx-xc/BetterRCS_RO",
+        "x_screenshot": "https://spacedock.info/content/gyxx_xc_191609/BetterRCS_RO_Config/BetterRCS_RO_Config-1791209658.png"
+    },
+    "tags": [
+        "config",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "RealismOverhaul"
+        },
+        {
+            "name": "BetterRCS"
+        },
+        {
+            "name": "Waterfall"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "B9PartSwitch"
+        }
+    ],
+    "install": [
+        {
+            "find": "BetterRCS_RO",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/gyxx-xc/BetterRCS_RO/releases/download/v0.1.0/BetterRCS_RO-0.1.0.zip",
+        "https://spacedock.info/mod/4641/BetterRCS%20RO%20Config/download/0.1.0"
+    ],
+    "download_size": 1874,
+    "download_hash": {
+        "sha1": "A9AD2BABB68BEBA05D85E73010F227B6B349A325",
+        "sha256": "FEB0638B6E6C17326B02ABBFC0A742F799AD76D3E22DD43C7796D839BBA5A21D"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 4253,
+    "release_date": "2026-10-05T13:55:59.181774Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
