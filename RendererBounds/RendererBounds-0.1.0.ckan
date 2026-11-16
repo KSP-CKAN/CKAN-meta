@@ -1,0 +1,43 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RendererBounds",
+    "name": "Renderer Bounds",
+    "abstract": "Measures craft size from part mesh geometry instead of inflated axis aligned renderer bounding boxes.",
+    "author": "sparr",
+    "version": "0.1.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "repository": "https://github.com/sparr/ksp-mod-RendererBounds",
+        "bugtracker": "https://github.com/sparr/ksp-mod-RendererBounds/issues",
+        "remote-avc": "https://raw.githubusercontent.com/sparr/ksp-mod-RendererBounds/main/GameData/RendererBounds/RendererBounds.version"
+    },
+    "tags": [
+        "plugin"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "Harmony2"
+        }
+    ],
+    "install": [
+        {
+            "find": "RendererBounds",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/sparr/ksp-mod-RendererBounds/releases/download/0.1.0/RendererBounds-0.1.0.zip",
+    "download_size": 27302,
+    "download_hash": {
+        "sha1": "75F21F4CDCDBB14F87AA730B31DAB364C1A2A5B3",
+        "sha256": "54F954DFC6D87DF0BF5E095E7F72396BF6F8E001F32037D528B9148B915A3B1A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 44448,
+    "release_date": "2026-10-18T00:47:33Z",
+    "x_generated_by": "netkan"
+}
