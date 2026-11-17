@@ -1,0 +1,71 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "KerbalDriftAgency",
+    "name": "Kerbal Drift Agency",
+    "abstract": "The ultimate motorsport experience for Kerbals. Race, drift, tune and bring your Automation creations to Kerbin.",
+    "author": "RodBot99",
+    "version": "1.0.3",
+    "ksp_version": "1.12.5",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://github.com/RodBot9999/Kerbal-Drift-Agency-Release",
+        "spacedock": "https://spacedock.info/mod/4784/Kerbal%20Drift%20Agency",
+        "repository": "https://github.com/RodBot9999/Kerbal-Drift-Agency-Release",
+        "bugtracker": "https://github.com/RodBot9999/Kerbal-Drift-Agency-Release/issues",
+        "x_screenshot": "https://spacedock.info/content/RodBot99_193716/Kerbal_Drift_Agency/Kerbal_Drift_Agency-1793668419.png"
+    },
+    "tags": [
+        "buildings",
+        "crewed",
+        "first-person",
+        "parts",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Harmony2"
+        },
+        {
+            "name": "Shabby"
+        },
+        {
+            "name": "Resurfaced"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "KerbalKonstructs"
+        }
+    ],
+    "install": [
+        {
+            "find": "KDAVehicles",
+            "install_to": "GameData"
+        },
+        {
+            "find": "KDAGarageBuilding",
+            "install_to": "GameData"
+        },
+        {
+            "find": "Ships/SPH",
+            "install_to": "Ships"
+        }
+    ],
+    "download": [
+        "https://github.com/RodBot9999/Kerbal-Drift-Agency-Release/releases/download/v1.0.3/KDA-kda25-GameData.zip",
+        "https://spacedock.info/mod/4784/Kerbal%20Drift%20Agency/download/1.0.3"
+    ],
+    "download_size": 161511959,
+    "download_hash": {
+        "sha1": "C930EFAA7D4FC4F1BF8EFC3237FE17F4AF633F15",
+        "sha256": "D9C0D1239A63666C829731881A06E653CCB14EF06896DF8AB59F0D5B274DF34A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 180226617,
+    "release_date": "2026-11-03T01:05:08.016897Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
