@@ -1,0 +1,63 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "SubTrim",
+    "name": "SubTrim",
+    "abstract": "Automatic neutral trim and depth hold for submarines. Drives the boat's own ballast (KerbalPowers Naval, BuoyancyAdjuster, WildBlueTools, ballast water) so BDArmory's Submarine AI can hold depth.",
+    "author": "Skizzy-create",
+    "version": "1.0.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/Skizzy-create/SubTrim",
+        "repository": "https://github.com/Skizzy-create/SubTrim",
+        "bugtracker": "https://github.com/Skizzy-create/SubTrim/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Skizzy-create/SubTrim/main/GameData/SubTrim/SubTrim.version"
+    },
+    "tags": [
+        "plugin",
+        "config",
+        "control",
+        "physics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "BDArmoryForRunwayProject"
+        }
+    ],
+    "supports": [
+        {
+            "name": "KerbalPowersNaval"
+        },
+        {
+            "name": "BuoyancyAdjuster"
+        },
+        {
+            "name": "WildBlueTools"
+        },
+        {
+            "name": "HullBreach"
+        }
+    ],
+    "install": [
+        {
+            "find": "SubTrim",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Skizzy-create/SubTrim/releases/download/v1.0.1/SubTrim-1.0.1.zip",
+    "download_size": 35065,
+    "download_hash": {
+        "sha1": "F4F01327DB608225F53FF05912C5D759A9C0CD0A",
+        "sha256": "1E34A4919C6DEDF66EA1CC192E03976E4C4C25D9D50D14ECCBE1CE3AC82F746D"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 59511,
+    "release_date": "2026-11-08T08:00:27Z",
+    "x_generated_by": "netkan"
+}
