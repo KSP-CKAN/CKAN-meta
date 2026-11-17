@@ -1,0 +1,57 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "WenchangSatelliteLaunchCenterContinued",
+    "name": "Wenchang_Satellite_Launch_Center",
+    "abstract": "Wenchang_Satellite_Launch_Center",
+    "author": [
+        "IcecoveryStudio",
+        "ladeng",
+        "LJT0908"
+    ],
+    "version": "1.1.0",
+    "ksp_version": "1.12.5",
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4827/Wenchang_Satellite_Launch_Center",
+        "repository": "https://github.com/ljt98/Wenchang_Satellite_Launch_Center",
+        "bugtracker": "https://github.com/ljt98/Wenchang_Satellite_Launch_Center/issues",
+        "x_screenshot": "https://spacedock.info/content/LJT0908_191363/Wenchang_Satellite_Launch_Center/Wenchang_Satellite_Launch_Center-1794731700.jpg"
+    },
+    "tags": [
+        "buildings",
+        "config",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "KerbalKonstructs"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "WenchangSatelliteLaunchCenter"
+        }
+    ],
+    "install": [
+        {
+            "find": "Kerwis",
+            "install_to": "GameData"
+        },
+        {
+            "find": "WenchangFix",
+            "install_to": "GameData",
+            "filter_regexp": "\\.cs$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4827/Wenchang_Satellite_Launch_Center/download/1.1.0",
+    "download_size": 80371864,
+    "download_hash": {
+        "sha1": "15AB7DAE333BD0BE3A7F23C06C11FE6BC6FB8672",
+        "sha256": "803A4A06A282CB2D3201B9ECF399FA6C8603318963578CB7A22639AE03CC62FC"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 157187869,
+    "release_date": "2026-11-15T08:31:35.028608Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
