@@ -1,0 +1,67 @@
+{
+    "spec_version": "v1.10",
+    "identifier": "AncientSkies",
+    "name": "Ancient Skies",
+    "abstract": "An extrasolar system modpack that will add 4 new star systems to the game. Currently in developement with 1/4 systems done.",
+    "author": "LakeDraws",
+    "version": "1.0.1",
+    "ksp_version": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4809/Ancient%20Skies",
+        "x_screenshot": "https://spacedock.info/content/LakeDraws_192311/Ancient_Skies/Ancient_Skies-1794171410.png"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        },
+        {
+            "name": "KopernicusExpansion"
+        },
+        {
+            "name": "Singularity"
+        },
+        {
+            "name": "TiltEm-Continued"
+        },
+        {
+            "name": "VertexHeightOblateAdvanced"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Scatterer"
+        },
+        {
+            "name": "ParallaxContinued"
+        },
+        {
+            "name": "Deferred"
+        }
+    ],
+    "install": [
+        {
+            "find": "Pereni-1System",
+            "install_to": "GameData",
+            "filter_regexp": "Patches/LoadingScreens/Sigma88LoadingScreens\\.dll$"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4809/Ancient%20Skies/download/1.0.1",
+    "download_size": 724637202,
+    "download_hash": {
+        "sha1": "39F962D0FDDCCD28F2929F8B51B73C035E4F04BF",
+        "sha256": "CC3679893D7E92B5050D6300848F35FF85F29241FA421D72431A81B528022231"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 3414072531,
+    "release_date": "2026-11-09T01:43:58.56873Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
