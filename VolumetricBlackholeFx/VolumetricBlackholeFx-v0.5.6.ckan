@@ -1,0 +1,49 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "VolumetricBlackholeFx",
+    "name": "Volumetric Blackhole Fx (KSPVE)",
+    "abstract": "KSPVE: ray-marched relativistic black holes with volumetric accretion disks and jets, tidal disruption events, and HDR camera post-processing, all tweakable live in game (Ctrl+Alt+V).",
+    "author": "Vihaan2012-cmyk",
+    "version": "v0.5.6",
+    "ksp_version": "1.12.5",
+    "license": "GPL-3.0",
+    "resources": {
+        "repository": "https://github.com/Vihaan2012-cmyk/Volumetric-Blackhole-Fx",
+        "bugtracker": "https://github.com/Vihaan2012-cmyk/Volumetric-Blackhole-Fx/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Vihaan2012-cmyk/Volumetric-Blackhole-Fx/main/gamedata/KSPVE.version"
+    },
+    "tags": [
+        "plugin",
+        "graphics",
+        "config"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "Singularity"
+        },
+        {
+            "name": "KcalbelohSystem"
+        }
+    ],
+    "install": [
+        {
+            "find": "KSPVE",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Vihaan2012-cmyk/Volumetric-Blackhole-Fx/releases/download/v0.5.6/KSPVE-0.5.6.zip",
+    "download_size": 270816,
+    "download_hash": {
+        "sha1": "1266C3FB7477B10C11CD9AE09268E3B6061D676A",
+        "sha256": "FC14EA157B73C8E1932BB8B85FCC97EFB856C52502494EFFB15DCEE282633A1F"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 578279,
+    "release_date": "2026-10-27T14:21:12Z",
+    "x_generated_by": "netkan"
+}
