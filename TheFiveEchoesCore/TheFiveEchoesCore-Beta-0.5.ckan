@@ -1,0 +1,70 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "TheFiveEchoesCore",
+    "name": "The Five Echoes - Core",
+    "abstract": "Core textures and configs for The Five Echoes planet pack",
+    "author": [
+        "Space Fox Oprissmian",
+        "CharonSSS"
+    ],
+    "version": "Beta-0.5",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA-4.0",
+    "resources": {
+        "repository": "https://github.com/TheFiveEchoes/TheFiveEchoes",
+        "bugtracker": "https://github.com/TheFiveEchoes/TheFiveEchoes/issues"
+    },
+    "tags": [
+        "config",
+        "plugin"
+    ],
+    "localizations": [
+        "en-us"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus",
+            "min_version": "2:release-1.12.1-253"
+        },
+        {
+            "name": "AdvancedPQSTools"
+        },
+        {
+            "name": "TheFiveEchoesRhakuutra"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "TheFiveEchoesRSA"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "TiltEm-Continued"
+        }
+    ],
+    "install": [
+        {
+            "find": "_Core",
+            "install_to": "GameData/TheFiveEchoes"
+        },
+        {
+            "file": "GameData/TheFiveEchoes/TheFiveEchoesSettings.cfg",
+            "install_to": "GameData/TheFiveEchoes"
+        }
+    ],
+    "download": "https://github.com/TheFiveEchoes/TheFiveEchoes/releases/download/Beta-0.5/TheFiveEchoes-Core.zip",
+    "download_size": 258186541,
+    "download_hash": {
+        "sha1": "E8EFE8990A5D7AA8CB99B1E1717D3BB216FE6053",
+        "sha256": "314C4EF0BBF346B82D3B39C397100B2E15726845ED7B785D5D008BE96DE2E134"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 344558331,
+    "release_date": "2026-10-13T05:07:33Z",
+    "x_generated_by": "netkan"
+}
