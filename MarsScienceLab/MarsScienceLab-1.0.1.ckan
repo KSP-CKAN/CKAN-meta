@@ -1,0 +1,87 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "MarsScienceLab",
+    "name": "Mars Science Lab",
+    "abstract": "NASA's Mars Science Laboratory and Curiosity rover, with automatic EDL.",
+    "author": "Polsct",
+    "version": "1.0.1",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4849/Mars%20Science%20Lab",
+        "repository": "https://github.com/Polsct/MarsScienceLab",
+        "bugtracker": "https://github.com/Polsct/MarsScienceLab/issues",
+        "remote-avc": "https://raw.githubusercontent.com/Polsct/MarsScienceLab/main/GameData/MarsScienceLab/MarsScienceLab.version",
+        "x_screenshot": "https://spacedock.info/content/Polsct_195263/Mars_Science_Lab/Mars_Science_Lab-1795004001.png"
+    },
+    "tags": [
+        "career",
+        "graphics",
+        "parts",
+        "plugin"
+    ],
+    "localizations": [
+        "en-us",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "TexturesUnlimited"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "ContractConfigurator"
+        },
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "RealChute"
+        },
+        {
+            "name": "FerramAerospaceResearchContinued"
+        }
+    ],
+    "install": [
+        {
+            "find": "MarsScienceLab",
+            "install_to": "GameData",
+            "filter_regexp": "\\.craft$"
+        },
+        {
+            "file": "Ships/VAB/MSL_Guided_Entry_Stock.craft",
+            "install_to": "Ships/VAB"
+        },
+        {
+            "file": "Ships/VAB/MSL_Curiosity_2012_Stock.craft",
+            "install_to": "Ships/VAB"
+        },
+        {
+            "file": "Ships/VAB/MSL_Guided_Entry.craft",
+            "install_to": "Ships/VAB"
+        },
+        {
+            "file": "Ships/VAB/MSL_Curiosity_2012.craft",
+            "install_to": "Ships/VAB"
+        }
+    ],
+    "download": [
+        "https://github.com/Polsct/MarsScienceLab/releases/download/v1.0.1/MarsScienceLab-1.0.1.zip",
+        "https://spacedock.info/mod/4849/Mars%20Science%20Lab/download/1.0.1"
+    ],
+    "download_size": 23421240,
+    "download_hash": {
+        "sha1": "0F753C5A401E5BBBBD60A0B5F9A23E4290307130",
+        "sha256": "B437ED428C4694604016F6093388F9ADAEADC63804FDEC430C5B2592DB60EB1A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 66143982,
+    "release_date": "2026-11-19T23:10:22.105366Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
