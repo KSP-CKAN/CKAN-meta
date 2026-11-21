@@ -1,0 +1,59 @@
+{
+    "spec_version": "v1.36",
+    "identifier": "PeelNStikThermal",
+    "name": "Peel-N-Stik Thermal",
+    "abstract": "Stick-on ablative heat shields and active heat sinks for KSP 1.12.",
+    "description": "Adds four radial peel-and-stik ablative heat shields (0.625 m to 3.75 m),\nscalable conformal decal coatings with four tile patterns, and four active\nheat sinks (CDH-4..7). The sinks pull interior and skin heat from every\npart in radius, store mild heat for free and bill the overflow to\nElectricCharge. They brown out when power runs dry and blow like a\nsacrificial fuse at 1800 K, with an early warning in the part menu.\nCDH-7 projects a visible energy bubble, bills a flat EC/s per metre of\nradius and suppresses Firefly reentry FX inside the field. All sinks can\nbe switched on/off in flight via the right-click menu or action groups.\nFirefly integration is optional; enhanced Firefly effects are still a\nwork in progress.",
+    "author": "Liam",
+    "version": "1.1.0-beta",
+    "ksp_version": "1.12",
+    "license": "restricted",
+    "release_status": "testing",
+    "resources": {
+        "homepage": "https://github.com/ehemaliger56-debug/PeelNStikThermal",
+        "repository": "https://github.com/ehemaliger56-debug/PeelNStikThermal",
+        "bugtracker": "https://github.com/ehemaliger56-debug/PeelNStikThermal/issues"
+    },
+    "tags": [
+        "parts",
+        "physics",
+        "plugin",
+        "graphics"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ConformalDecals"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "ReStock"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "Firefly"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "SystemHeat"
+        },
+        {
+            "name": "HeatControl"
+        }
+    ],
+    "download": "https://github.com/ehemaliger56-debug/PeelNStikThermal/releases/download/1.1.0-beta/PeelNStikThermal-1.1.0-beta.zip",
+    "download_size": 15936745,
+    "download_hash": {
+        "sha256": "A526B4BF23E4A8F8DA13D1A3059EBAF3E35E43BEA7C3B633C9F6C70A2FE29522"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 16770885,
+    "release_date": "2026-11-21T21:00:27Z",
+    "x_generated_by": "netkan"
+}
