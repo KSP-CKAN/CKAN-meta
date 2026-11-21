@@ -1,0 +1,91 @@
+{
+    "spec_version": 1,
+    "identifier": "RealBattery",
+    "name": "RealBattery Recharged",
+    "abstract": "Realistic battery simulation for KSP - storage (StoredCharge) and power (ElectricCharge), chemistry-based variants, wear, thermal effects and tech progression. Continuation of Blackliner's RealBattery.",
+    "author": [
+        "Blackliner",
+        "Rjoande"
+    ],
+    "version": "v3.4.6",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.5",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/227955-112x-realbattery-recharged-v2-realistic-battery-simulation/",
+        "repository": "https://github.com/Rjoande/RealBattery",
+        "bugtracker": "https://github.com/Rjoande/RealBattery/issues",
+        "manual": "https://github.com/Rjoande/RealBattery/wiki",
+        "remote-avc": "https://raw.githubusercontent.com/Rjoande/RealBattery/master/GameData/RealBattery/RealBattery.version"
+    },
+    "tags": [
+        "plugin",
+        "parts",
+        "physics",
+        "config"
+    ],
+    "localizations": [
+        "en-us",
+        "es-es",
+        "fr-fr",
+        "it-it",
+        "ru",
+        "zh-cn"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "B9PartSwitch"
+        },
+        {
+            "name": "CommunityResourcePack"
+        }
+    ],
+    "recommends": [
+        {
+            "name": "LoadingTipsPlus"
+        },
+        {
+            "name": "SystemHeat"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "CommunityTechTree"
+        },
+        {
+            "name": "DynamicBatteryStorage"
+        },
+        {
+            "name": "DangItContinued"
+        },
+        {
+            "name": "BonVoyage"
+        },
+        {
+            "name": "ConformalDecals"
+        }
+    ],
+    "install": [
+        {
+            "file": "GameData/RealBattery",
+            "install_to": "GameData"
+        },
+        {
+            "file": "GameData/RealBatteryExpansion",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://github.com/Rjoande/RealBattery/releases/download/v3.4.6/RealBattery_v3.4.6.zip",
+    "download_size": 6997586,
+    "download_hash": {
+        "sha1": "7F3125D276C2151FE1A3C282072CF9F62E395169",
+        "sha256": "2C16E4F6552DCB8EACB68F000C3AA15893AF430759995971ED21FD024303EEDE"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 23224990,
+    "release_date": "2026-11-21T10:14:20Z",
+    "x_generated_by": "netkan"
+}
