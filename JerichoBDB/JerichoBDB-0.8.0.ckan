@@ -1,0 +1,52 @@
+{
+    "spec_version": "v1.12",
+    "identifier": "JerichoBDB",
+    "name": "JerichoBDB — Cylindrical Launch System & JARVIS Autopilot for KSP",
+    "abstract": "Adds the 1.875m BDB-compatible Jericho cylindrical launch system, Badassium reactor parts, and the kRPC-powered JARVIS web autopilot to Kerbal Space Program.",
+    "author": "JoeWest1",
+    "version": "0.8.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.5",
+    "license": "restricted",
+    "resources": {
+        "spacedock": "https://spacedock.info/mod/4850/JerichoBDB%20—%20Cylindrical%20Launch%20System%20&%20JARVIS%20Autopilot%20for%20KSP",
+        "x_screenshot": "https://spacedock.info/content/JoeWest1_169987/JerichoBDB_Cylindrical_Launch_System__JARVIS_Autopilot_for_KSP/JerichoBDB_Cylindrical_Launch_System__JARVIS_Autopilot_for_KSP-1795068281.png"
+    },
+    "tags": [
+        "parts",
+        "resources"
+    ],
+    "suggests": [
+        {
+            "name": "kRPC"
+        },
+        {
+            "name": "BluedogDB"
+        }
+    ],
+    "install": [
+        {
+            "find": "JerichoBDB",
+            "install_to": "GameData"
+        },
+        {
+            "file": "Ships/VAB/Jericho_Cylindrical_Demonstrator.craft",
+            "install_to": "Ships/VAB"
+        },
+        {
+            "file": "Ships/VAB/Jericho_Payload_Adapter_Demonstrator.craft",
+            "install_to": "Ships/VAB"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4850/JerichoBDB%20%E2%80%94%20Cylindrical%20Launch%20System%20&%20JARVIS%20Autopilot%20for%20KSP/download/0.8.0",
+    "download_size": 22402214,
+    "download_hash": {
+        "sha1": "D23108F3D8039D195929860B9FA7989004242769",
+        "sha256": "28807D922D6C8470018830CC9622180E1FE43966285D371302AE1846C08FCD10"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 1625119,
+    "release_date": "2026-11-19T06:08:38.663261Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
