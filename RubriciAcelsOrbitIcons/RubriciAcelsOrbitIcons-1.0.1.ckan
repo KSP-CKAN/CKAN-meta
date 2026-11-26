@@ -1,0 +1,53 @@
+{
+    "spec_version": "v1.4",
+    "identifier": "RubriciAcelsOrbitIcons",
+    "name": "RubriciAcel's Orbit Icons",
+    "abstract": "A Tracking Station icon set",
+    "author": "RubriciAcel",
+    "version": "1.0.1",
+    "ksp_version": "1.12.5",
+    "license": "restricted",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/232172-*/",
+        "spacedock": "https://spacedock.info/mod/4866/RubriciAcel's%20Orbit%20Icons",
+        "x_screenshot": "https://spacedock.info/content/RubriciAcel_190857/RubriciAcels_Orbit_Icons/RubriciAcels_Orbit_Icons-1795205044.png"
+    },
+    "tags": [
+        "config",
+        "planet-pack"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Kopernicus"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "OrbitIconsPack"
+        }
+    ],
+    "install": [
+        {
+            "find": "AcelOrbitIcons",
+            "install_to": "GameData"
+        },
+        {
+            "find": "OrbitIconsPack",
+            "install_to": "GameData"
+        }
+    ],
+    "download": "https://spacedock.info/mod/4866/RubriciAcel's%20Orbit%20Icons/download/1.0.1",
+    "download_size": 627307,
+    "download_hash": {
+        "sha1": "A7DE6E383BD4357FDD4C5A8FF8B0D58D9E903204",
+        "sha256": "47A5DFA7E0A105474E3E99B65DF8AF587186C6D6C1023EFA4CC383782A109C2A"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 658152,
+    "release_date": "2026-11-23T10:10:22.713836Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
