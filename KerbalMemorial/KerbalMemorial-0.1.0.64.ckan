@@ -1,0 +1,58 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "KerbalMemorial",
+    "name": "Kerbal Memorial",
+    "abstract": "A mod that remembers the Kerbals who didn't make it home.",
+    "author": "linuxgurugamer",
+    "version": "0.1.0.64",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "CC-BY-NC-SA",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/topic/232223-112x-x",
+        "spacedock": "https://spacedock.info/mod/4897/Kerbal%20Memorial",
+        "repository": "https://github.com/linuxgurugamer/KerbalMemorial",
+        "bugtracker": "https://github.com/linuxgurugamer/KerbalMemorial/issues",
+        "remote-avc": "https://raw.githubusercontent.com/linuxgurugamer/KerbalMemorial/refs/heads/master/KerbalMemorial.version",
+        "x_screenshot": "https://spacedock.info/content/linuxgurugamer_179/Kerbal_Memorial/Kerbal_Memorial-1795728608.png"
+    },
+    "tags": [
+        "config",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "SpaceTuxLibrary"
+        },
+        {
+            "name": "ToolbarController"
+        },
+        {
+            "name": "ClickThroughBlocker"
+        },
+        {
+            "name": "ModuleManager"
+        }
+    ],
+    "install": [
+        {
+            "find": "KerbalMemorial",
+            "install_to": "GameData",
+            "filter_regexp": "\\.pdb$"
+        }
+    ],
+    "download": [
+        "https://github.com/linuxgurugamer/KerbalMemorial/releases/download/0.1.0.64/KerbalMemorial-1.12.5-0.1.0.64.zip",
+        "https://spacedock.info/mod/4897/Kerbal%20Memorial/download/0.1.0.64"
+    ],
+    "download_size": 8887480,
+    "download_hash": {
+        "sha1": "6794BB4A3A0418C6886FFC79B042189098753AFA",
+        "sha256": "B3F4418FAAFA5A165C588EAAB166F43FB0C8BE9E04F09365AA7032878454DB12"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 8991509,
+    "release_date": "2026-11-26T21:26:32.018638Z",
+    "x_via": "Automated SpaceDock CKAN submission",
+    "x_generated_by": "netkan"
+}
