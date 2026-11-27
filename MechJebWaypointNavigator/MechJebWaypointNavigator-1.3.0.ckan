@@ -1,0 +1,56 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "MechJebWaypointNavigator",
+    "name": "MechJeb Waypoint Navigator",
+    "abstract": "Draw flight routes on an interactive Kerbin map and fly them automatically with MechJeb2 Aircraft Autopilot.",
+    "author": "siyang03",
+    "version": "1.3.0",
+    "ksp_version": "1.12.5",
+    "license": [
+        "MIT",
+        "CC-BY-NC-SA-4.0"
+    ],
+    "resources": {
+        "homepage": "https://github.com/siyang03/MechJeb-Waypoint-Navigator",
+        "spacedock": "https://spacedock.info/mod/4859/MechJeb%20Waypoint%20Navigator",
+        "repository": "https://github.com/siyang03/MechJeb-Waypoint-Navigator",
+        "bugtracker": "https://github.com/siyang03/MechJeb-Waypoint-Navigator/issues",
+        "x_screenshot": "https://spacedock.info/content/siyang03_195765/MechJeb_Waypoint_Navigator/MechJeb_Waypoint_Navigator-1795102556.png"
+    },
+    "tags": [
+        "plugin",
+        "config",
+        "control"
+    ],
+    "depends": [
+        {
+            "name": "MechJeb2"
+        },
+        {
+            "name": "Harmony2"
+        }
+    ],
+    "install": [
+        {
+            "find": "MechJebWaypointNavigator",
+            "install_to": "GameData",
+            "filter": [
+                "__MACOSX",
+                ".DS_Store"
+            ]
+        }
+    ],
+    "download": [
+        "https://github.com/siyang03/MechJeb-Waypoint-Navigator/releases/download/v1.3.0/MechJeb-Waypoint-Navigator.zip",
+        "https://spacedock.info/mod/4859/MechJeb%20Waypoint%20Navigator/download/v1.3.0"
+    ],
+    "download_size": 3393300,
+    "download_hash": {
+        "sha1": "6B1B37441556CF53BF2BE3E105ABA6880FE55C99",
+        "sha256": "CE425C1286C7236BB67B49C8FB11BADDACA2CF896DFDE50EC953E2F88FFCA41E"
+    },
+    "download_content_type": "application/zip",
+    "install_size": 3512330,
+    "release_date": "2026-11-27T16:39:10.741565Z",
+    "x_generated_by": "netkan"
+}
